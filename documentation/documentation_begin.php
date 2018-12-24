@@ -25,7 +25,7 @@
     $columns_disabled = ThemesManager::get_theme(AppContext::get_current_user()->get_theme())->get_columns_disabled();
     $columns_disabled->set_disable_left_columns(true);
     $columns_disabled->set_disable_right_columns(true);
-    define('TITLE', 'PHPBoost Framework Documentation');
-    $Bread_crumb->add('Documentation', PATH_TO_ROOT . '/documentation/framework/index.php');
+    define('TITLE', 'PHPBoost Framework A.P.I.');
+    $Bread_crumb->add('PHPBoost A.P.I.', PATH_TO_ROOT . '/documentation/framework/index.php');
     require_once PATH_TO_ROOT . '/kernel/header.php';
 ?>

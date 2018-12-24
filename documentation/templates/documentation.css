@@ -338,11 +338,21 @@ code a b {
 	background: #fcfcf7;
 }
 
+.infos-options b {
+	width: 70px;
+	display: inline-block;
+}
+
+@media (min-width: 769px) {
+	.content > .infos {
+		max-width: 50%;
+	}
+}
+
+
 .content > .description {
-	/* background: #ecede5; */
 	padding: 1px 8px;
-	margin: 1.2em 0;
-	/* overflow: hidden; */
+	margin: 0 0 1.2em 0;
 }
 
 .content > .description pre {
