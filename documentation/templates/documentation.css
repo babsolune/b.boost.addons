@@ -131,6 +131,12 @@
 
 .active .cssmenu-title { background-color: rgba(54, 100, 147, 0.2)}
 
+
+.responsive-table {
+	overflow: hidden;
+	overflow-x: auto;
+}
+
 table caption {
 	margin: 0.809em 0 0;
 	padding: 0.228em 0.809em;
@@ -149,12 +155,14 @@ table caption.switchable:after {
 	cursor: pointer;
 }
 
-.ellipsis {
-	max-width: 100px;
+.ellipsis p {
+	max-width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.ellipsis p { margin: 0; }
 
 /* --- Apigen
 ------------------------------------------------------------------------------*/
