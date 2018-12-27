@@ -149,6 +149,13 @@ table caption.switchable:after {
 	cursor: pointer;
 }
 
+.ellipsis {
+	max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* --- Apigen
 ------------------------------------------------------------------------------*/
 var {
@@ -339,8 +346,9 @@ code a b {
 }
 
 .infos-options b {
-	width: 70px;
+	width: 80px;
 	display: inline-block;
+	font-weight: 600;
 }
 
 @media (min-width: 769px) {
