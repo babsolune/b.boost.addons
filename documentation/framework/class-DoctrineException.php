@@ -423,11 +423,6 @@
 							</li>
 								</ul></li>
 					<li>
-						<a class="cssmenu-title" href="package-None.php">
-							None						</a>
-
-							</li>
-					<li>
 						<a class="cssmenu-title" href="package-PHPBoost.php">
 							PHPBoost<span></span>
 						</a>
@@ -622,6 +617,19 @@
 				</div>
 
 
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Functions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-functions" class="cssmenu cssmenu-vertical cssmenu-left">
+				<ul>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
+				</ul>
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
 			</div>
 		</div>
 		<div id="inside-main" class="main-with-left">
@@ -655,11 +663,50 @@
 				
 				
 				
-				
+				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.Common.php">Common</a></span>
 
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DoctrineException.php#19-134" title="Go to source code">io/db/dbms/Doctrine/Common/DoctrineException.php</a></span>
+						<span class="infos-options">
+							<b>Category:</b>
+							Framework
+						</span>
+						<span class="infos-options">
+							<b>License:</b>
+							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
+						</span>
+						<span class="infos-options">
+							<b>Author:</b>
+							Guilherme BLANCO <a href="m&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#117;&#x69;&#x6c;&#x68;&#x65;&#x72;&#x6d;&#x65;bl&#97;&#110;&#99;&#111;&#64;&#104;&#111;&#x74;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;m">&#103;&#117;&#x69;&#x6c;&#x68;&#x65;&#x72;&#x6d;&#x65;bl&#97;&#110;&#99;&#111;&#64;&#104;&#111;&#x74;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;m</a>
+						</span>
+						<span class="infos-options">
+							<b>Author:</b>
+							Jonathan WAGE <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x6a;&#x6f;&#110;&#119;&#x61;&#103;&#101;&#x40;&#103;&#109;&#x61;i&#108;&#x2e;c&#111;&#x6d;">&#x6a;&#x6f;&#110;&#119;&#x61;&#103;&#101;&#x40;&#103;&#109;&#x61;i&#108;&#x2e;c&#111;&#x6d;</a>
+						</span>
+						<span class="infos-options">
+							<b>Author:</b>
+							Roman BORSCHEL <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;:&#x72;&#111;&#109;&#x61;&#x6e;&#64;c&#x6f;&#100;&#101;&#x2d;&#x66;&#97;&#99;&#x74;&#x6f;&#114;&#x79;&#x2e;&#111;&#114;&#x67;">&#x72;&#111;&#109;&#x61;&#x6e;&#64;c&#x6f;&#100;&#101;&#x2d;&#x66;&#97;&#99;&#x74;&#x6f;&#114;&#x79;&#x2e;&#111;&#114;&#x67;</a>
+						</span>
+						<span class="infos-options">
+							<b>Version:</b>
+							PHPBoost 5.2 - last update: 2016 11 14
+						</span>
+						<span class="infos-options">
+							<b>Since:</b>
+							PHPBoost 4.0 - 2013 01 01
+						</span>
+						<span class="infos-options">
+							<b>Link:</b>
+							<a href="https://www.doctrine-project.org">https://www.doctrine-project.org</a>
+						</span>
+						<span class="infos-options">
+							<b>Contributor:</b>
+							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
+						</span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DoctrineException.php#19-148" title="Go to source code">io/db/dbms/Doctrine/Common/DoctrineException.php</a></span>
 			</div>
 
+			<div class="description">
+				<p>Base Exception class of Doctrine</p>
+			</div>
 
 			<dl class="tree">
 				<dd style="padding-left:0px">
@@ -706,7 +753,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#27-39" title="Go to source code">__construct</a>( <span>string <var>$message</var> = <span class="php-quote">&quot;&quot;</span></span>, <span>Exception <var>$cause</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-DoctrineException.php#41-53" title="Go to source code">__construct</a>( <span>string <var>$message</var> = <span class="php-quote">&quot;&quot;</span></span>, <span>Exception <var>$cause</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -750,7 +797,7 @@ Exception
 					<div>
 						<a class="anchor" href="#_notImplemented">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#41-58" title="Go to source code">notImplemented</a>( <span>string <var>$method</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$class</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-DoctrineException.php#55-72" title="Go to source code">notImplemented</a>( <span>string <var>$method</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$class</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -796,7 +843,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___callStatic">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#60-95" title="Go to source code">__callStatic</a>( <span>string <var>$method</var></span>, <span>array <var>$arguments</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DoctrineException.php#74-109" title="Go to source code">__callStatic</a>( <span>string <var>$method</var></span>, <span>array <var>$arguments</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -846,7 +893,7 @@ translating the placeholders with arguments passed.</p>
 					<div>
 						<a class="anchor" href="#_getExceptionMessage">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#97-123" title="Go to source code">getExceptionMessage</a>( <span>string <var>$messageKey</var></span> )
+<a href="source-class-DoctrineException.php#111-137" title="Go to source code">getExceptionMessage</a>( <span>string <var>$messageKey</var></span> )
 						</code>
 
 							<div class="description short">
@@ -890,7 +937,7 @@ translating the placeholders with arguments passed.</p>
 					<div>
 						<a class="anchor" href="#_unknownColumnType">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#125-128" title="Go to source code">unknownColumnType</a>( <span> <var>$type</var></span> )
+<a href="source-class-DoctrineException.php#139-142" title="Go to source code">unknownColumnType</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -925,7 +972,7 @@ translating the placeholders with arguments passed.</p>
 					<div>
 						<a class="anchor" href="#_typeExists">#</a>
 						<code>
-<a href="source-class-DoctrineException.php#130-133" title="Go to source code">typeExists</a>( <span> <var>$type</var></span> )
+<a href="source-class-DoctrineException.php#144-147" title="Go to source code">typeExists</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1028,4 +1075,5 @@ getTraceAsString()
 
 	<script>jQuery("#cssmenu-package").menumaker({ title: "Packages navigation", format: "multitoggle", breakpoint: 768 }); </script>
 	<script>jQuery("#cssmenu-exceptions").menumaker({ title: "Exceptions navigation", format: "multitoggle", breakpoint: 768 }); </script>
+	<script>jQuery("#cssmenu-functions").menumaker({ title: "Functions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 <?php require_once PATH_TO_ROOT . '/kernel/footer.php'; ?>

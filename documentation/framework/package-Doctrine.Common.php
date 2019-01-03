@@ -423,11 +423,6 @@
 							</li>
 								</ul></li>
 					<li>
-						<a class="cssmenu-title" href="package-None.php">
-							None						</a>
-
-							</li>
-					<li>
 						<a class="cssmenu-title" href="package-PHPBoost.php">
 							PHPBoost<span></span>
 						</a>
@@ -607,6 +602,19 @@
 
 
 
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Exceptions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-exceptions" class="cssmenu cssmenu-vertical cssmenu-left">
+				<ul>
+					<li><a href="class-DoctrineException.php" class="cssmenu-title">DoctrineException</a></li>
+				</ul>
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
 
 
 				<div class="module-mini-container cssmenu-content">
@@ -657,6 +665,15 @@
 
 
 
+<div class="responsive-table">
+	<table class="summary" id="exceptions">
+		<caption>Exceptions summary</caption>
+<tr>
+	<td class="name"><a href="class-DoctrineException.php">DoctrineException</a></td>
+	<td class="ellipsis">Base Exception class of Doctrine</td>
+</tr>
+	</table>
+</div>
 
 
 <div class="responsive-table">
@@ -664,7 +681,7 @@
 		<caption>Functions summary</caption>
 <tr>
 	<td class="name"><a href="function-string_var_export.php">string_var_export</a></td>
-	<td class="ellipsis">Base Exception class of Doctrine</td>
+	<td class="ellipsis">var</td>
 </tr>
 </table>
 </div>
@@ -681,5 +698,6 @@
 	</div>
 
 	<script>jQuery("#cssmenu-package").menumaker({ title: "Packages navigation", format: "multitoggle", breakpoint: 768 }); </script>
+	<script>jQuery("#cssmenu-exceptions").menumaker({ title: "Exceptions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 	<script>jQuery("#cssmenu-functions").menumaker({ title: "Functions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 <?php require_once PATH_TO_ROOT . '/kernel/footer.php'; ?>

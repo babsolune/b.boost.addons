@@ -423,11 +423,6 @@
 							</li>
 								</ul></li>
 					<li>
-						<a class="cssmenu-title" href="package-None.php">
-							None						</a>
-
-							</li>
-					<li>
 						<a class="cssmenu-title" href="package-PHPBoost.php">
 							PHPBoost<span></span>
 						</a>
@@ -1665,11 +1660,6 @@
 					<tr>
 						<td class="name">
 							<a href="package-MVC.Response.php">MVC\Response</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="name">
-							<a href="package-None.php">None</a>
 						</td>
 					</tr>
 					<tr>

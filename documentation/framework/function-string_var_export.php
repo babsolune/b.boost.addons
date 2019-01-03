@@ -423,11 +423,6 @@
 							</li>
 								</ul></li>
 					<li>
-						<a class="cssmenu-title" href="package-None.php">
-							None						</a>
-
-							</li>
-					<li>
 						<a class="cssmenu-title" href="package-PHPBoost.php">
 							PHPBoost<span></span>
 						</a>
@@ -607,6 +602,19 @@
 
 
 
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Exceptions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-exceptions" class="cssmenu cssmenu-vertical cssmenu-left">
+				<ul>
+					<li><a href="class-DoctrineException.php" class="cssmenu-title">DoctrineException</a></li>
+				</ul>
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
 
 
 				<div class="module-mini-container cssmenu-content">
@@ -676,7 +684,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2016 11 14
+							PHPBoost 5.2 - last update: 2014 12 22
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -686,20 +694,16 @@
 							<b>Link:</b>
 							<a href="https://www.doctrine-project.org">https://www.doctrine-project.org</a>
 						</span>
-						<span class="infos-options">
-							<b>Contributor:</b>
-							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
-						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-string_var_export.php#3-17" title="Go to source code">
+						<a href="source-function-string_var_export.php#3-16" title="Go to source code">
 							io/db/dbms/Doctrine/Common/DoctrineException.php
 						</a>
 				</span>
 			</div>
 
 			<div class="description">
-				<p>Base Exception class of Doctrine</p>
+				<p>var</p>
 			</div>
 
 
@@ -729,5 +733,6 @@
 	</div>
 
 	<script>jQuery("#cssmenu-package").menumaker({ title: "Packages navigation", format: "multitoggle", breakpoint: 768 }); </script>
+	<script>jQuery("#cssmenu-exceptions").menumaker({ title: "Exceptions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 	<script>jQuery("#cssmenu-functions").menumaker({ title: "Functions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 <?php require_once PATH_TO_ROOT . '/kernel/footer.php'; ?>

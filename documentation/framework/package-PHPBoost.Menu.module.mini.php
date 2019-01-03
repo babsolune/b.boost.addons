@@ -422,11 +422,6 @@
 
 							</li>
 								</ul></li>
-					<li>
-						<a class="cssmenu-title" href="package-None.php">
-							None						</a>
-
-							</li>
 					<li class="active">
 						<a class="cssmenu-title" href="package-PHPBoost.php">
 							PHPBoost<span></span>
