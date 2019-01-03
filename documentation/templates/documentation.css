@@ -4,9 +4,11 @@
 .content {
 	text-align: left;
 }
+
 .numbers, .code {
 	font-size: 0.809em
 }
+
 #inside-global {
 	display: flex;
 	display: -ms-flexbox;
@@ -133,6 +135,7 @@
 
 
 .responsive-table {
+	clear: both;
 	overflow: hidden;
 	overflow-x: auto;
 }
