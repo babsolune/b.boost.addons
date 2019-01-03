@@ -36,8 +36,6 @@
 	-webkit-flex-order: 3;
 }
 
-
-
 @media (min-width: 769px) {
 	#inside-global {
 		flex-direction: row;
@@ -549,6 +547,7 @@ pre.numbers {
 
 span.l {
 	display: block;
+	white-space: pre;
 }
 
 span.l.selected {
