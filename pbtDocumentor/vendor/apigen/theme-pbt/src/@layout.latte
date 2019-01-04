@@ -1,0 +1,214 @@
+	<div id="inside-global">
+		<div id="inside-menu-left">
+
+			{define group}
+				<ul class="level-0">
+					{foreach $groups as $group}
+					{var $nextLevel = substr_count($iterator->nextValue, '\\') > substr_count($group, '\\')}
+					<li n:class="$actualGroup === $group || 0 === strpos($actualGroup, $group . '\\') ? active, $config->main && 0 === strpos($group, $config->main) ? main">
+						<a class="cssmenu-title" href="{if $groupBy === 'package'}{$group|packageUrl}{else}{$group|namespaceUrl}{/if}">
+							{$group|subgroupName}<span n:tag-if="$nextLevel"></span>
+						</a>
+
+						{if $nextLevel}
+							<ul class="level-1">
+						{else}
+							</li>
+							{if substr_count($iterator->nextValue, '\\') < substr_count($group, '\\')}
+								{='</ul></li>'|repeat:substr_count($group, '\\') - substr_count($iterator->nextValue, '\\')|noescape}
+							{/if}
+						{/if}
+					{/foreach}
+				</ul>
+			{/define}
+
+			<div id="groups">
+				<div class="module-mini-container cssmenu-content">
+					{if $namespaces}
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Namespaces</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-namespace" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include group, groups => $namespaces, actualGroup => $namespace, groupBy => 'namespace'}
+					{elseif $packages}
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Packages</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-package" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include group, groups => $packages, actualGroup => $package, groupBy => 'package'}
+					{/if}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+			</div>
+
+			{define elements}
+				<ul>
+					<li n:foreach="$elements as $element" n:class="$activeElement === $element ? active"><a n:class="cssmenu-title, $element->deprecated ? deprecated, !$element->valid ? invalid" href="{$element|elementUrl}">{if $namespace}{$element->shortName}{else}{$element->name}{/if}</a></li>
+				</ul>
+			{/define}
+
+			<div id="elements">
+				{if $classes}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Classes</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-classes" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $classes, activeElement => $class}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+
+				{if $interfaces}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Interfaces</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-interfaces" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $interfaces, activeElement => $class}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+
+				{if $traits}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Traits</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-traits" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $traits, activeElement => $class}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+
+				{if $exceptions}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Exceptions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-exceptions" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $exceptions, activeElement => $class}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+
+				{if $constants}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Constants</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-constants" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $constants, activeElement => $constant}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+
+				{if $functions}
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Functions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-functions" class="cssmenu cssmenu-vertical cssmenu-left">
+							{include elements, elements => $functions, activeElement => $function}
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
+				{/if}
+			</div>
+		</div>
+		<div id="inside-main" class="main-with-left">
+			<nav id="inside-breadcrumb">
+				<ol>
+					<li n:class="'overview' === $active ? active">
+						<a n:tag-if="'overview' !== $active" href="index.php"><span>PHPBoost A.P.I.</span></a>
+					</li>
+					<li n:class="'package' === $active ? active" n:if="$packages">
+						<a n:tag-if="'package' !== $active && $package" href="{$package|packageUrl}"><span>Package</span></a>
+					</li>
+					<li n:class="'namespace' === $active ? active" n:if="$namespaces">
+						<a n:tag-if="'namespace' !== $active && $namespace" href="{$namespace|namespaceUrl}"><span>Namespace</span></a>
+					</li>
+					<li n:class="'class' === $active ? active" n:if="!$function && !$constant">
+						<a n:tag-if="'class' !== $active && $class" href="{$class|classUrl}"><span>Class</span></a>
+					</li>
+					<li n:class="'function' === $active ? active" n:if="$function">
+						<a n:tag-if="'function' !== $active" href="{$function|functionUrl}"><span>Function</span></a>
+					</li>
+					<li n:class="'constant' === $active ? active" n:if="$constant">
+						<a n:tag-if="'constant' !== $active" href="{$constant|constantUrl}"><span>Constant</span></a>
+					</li>
+				</ol>
+				<ol>
+					<li n:class="'tree' === $active ? active" n:if="$config->tree">
+						<a n:tag-if="'tree' !== $active" href="tree.php" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+					{foreach $annotationGroups as $annotation}
+						<li n:class="$active === 'annotation-group-' . $annotation ? active">
+							<a n:tag-if="$active !== 'annotation-group-' . $annotation" href="annotation-group-{$annotation}.html" title="List of elements with {$annotation} annotation">
+								<span>{$annotation|firstUpper}</span>
+							</a>
+						</li>
+					{/foreach}
+				</ol>
+				<ol>
+					<li n:if="$config->download">
+						<a href="{$archive}" title="Download documentation as ZIP archive"><span>Download</span></a>
+					</li>
+				</ol>
+			</nav>
+
+			<div id="inside-main-content">
+
+				{include content}
+
+				<div id="apigen-footer">
+					{$config->title} API documentation generated by <a href="http://apigen.org">ApiGen</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{if $namespaces}
+	<script>jQuery("#cssmenu-namespace").menumaker({ title: "Namespaces navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{elseif $packages}
+	<script>jQuery("#cssmenu-package").menumaker({ title: "Packages navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $classes}
+	<script>jQuery("#cssmenu-classes").menumaker({ title: "Classes navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $interfaces}
+	<script>jQuery("#cssmenu-interfaces").menumaker({ title: "Interfaces navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $traits}
+	<script>jQuery("#cssmenu-traits").menumaker({ title: "Traits navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $exceptions}
+	<script>jQuery("#cssmenu-exceptions").menumaker({ title: "Exceptions navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $constants}
+	<script>jQuery("#cssmenu-constants").menumaker({ title: "Constants navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}
+{if $functions}
+	<script>jQuery("#cssmenu-functions").menumaker({ title: "Functions navigation", format: "multitoggle", breakpoint: 768 }); </script>
+{/if}

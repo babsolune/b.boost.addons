@@ -1,0 +1,48 @@
+{define elements}
+<tr n:foreach="$elements as $element">
+	<td class="name"><a href="{$element|elementUrl}" n:class="$element->deprecated ? deprecated, !$element->valid ? invalid">{if $namespace}{$element->shortName}{else}{$element->name}{/if}</a></td>
+	<td class="ellipsis">{$element|shortDescription|noescape}</td>
+</tr>
+{/define}
+
+<div class="responsive-table" n:if="$classes">
+	<table class="summary" id="classes">
+		<caption>Classes summary</caption>
+		{include elements, elements => $classes}
+	</table>
+</div>
+
+<div class="responsive-table" n:if="$interfaces">
+	<table class="summary" id="interfaces">
+		<caption>Interfaces summary</caption>
+		{include elements, elements => $interfaces}
+	</table>
+</div>
+
+<div class="responsive-table" n:if="$traits">
+	<table class="summary" id="traits">
+		<caption>Traits summary</caption>
+		{include elements, elements => $traits}
+	</table>
+</div>
+
+<div class="responsive-table" n:if="$exceptions">
+	<table class="summary" id="exceptions">
+		<caption>Exceptions summary</caption>
+		{include elements, elements => $exceptions}
+	</table>
+</div>
+
+<div class="responsive-table" n:if="$constants">
+	<table class="summary" id="constants">
+		<caption>Constants summary</caption>
+		{include elements, elements => $constants}
+	</table>
+</div>
+
+<div class="responsive-table" n:if="$functions">
+	<table class="summary" id="functions">
+		<caption>Functions summary</caption>
+		{include elements, elements => $functions}
+</table>
+</div>

@@ -1,0 +1,10 @@
+{contentType javascript}
+
+var ApiGen = ApiGen || {};
+ApiGen.config = {$config->template};
+
+{var $scripts = []}
+
+{foreach $scripts as $script}
+	{file_get_contents("$basePath/js/$script")|noescape}
+{/foreach}

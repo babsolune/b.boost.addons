@@ -1,0 +1,23 @@
+{layout '@layout.latte'}
+{var $robots = false}
+
+{block title}File {$fileName}{/block}
+
+{block content}
+<section>
+	<header>
+		<h1>{include title}</h1>
+	</header>
+	<article>
+		<header><h2>{include title}</h2></header>
+		<div class="content">
+			<div class="code-capsule">
+	            {var $lineRegex = '~<span class="line">(\\s*(\\d+):\\s*)</span>([^\\n]*(?:\\n|$))~'}
+	            <pre class="numbers"><code>{$source|replaceRE:$lineRegex,'<span class="l"><a href="#$2">$1</a></span>'|noescape}</code></pre>
+	            <pre class="code"><code>{$source|replaceRE:$lineRegex,'<span id="$2" class="l">$3</span>'|noescape}</code></pre>
+			</div>
+		</div>
+	</article>
+	<footer></footer>
+</section>
+{/block}
