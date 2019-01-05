@@ -10,6 +10,7 @@
 }
 
 #inside-global {
+	clear: both;
 	display: flex;
 	display: -ms-flexbox;
 	display: -webkit-flex;
