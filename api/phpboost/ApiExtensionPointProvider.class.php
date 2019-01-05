@@ -28,7 +28,7 @@ class ApiExtensionPointProvider extends ExtensionPointProvider
 
 	public function url_mappings()
 	{
-		return new UrlMappings(array(new DispatcherUrlMapping('/api/framework/index.php')));
+		return new UrlMappings(array(new DispatcherUrlMapping('/api/index.php')));
 	}
 
 }

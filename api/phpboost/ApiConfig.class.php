@@ -9,6 +9,11 @@
 
 class ApiConfig extends AbstractConfigData
 {
+	public function get_default_values()
+	{
+		return array(
+		);
+	}
 	/**
 	 * Returns the configuration.
 	 * @return ApiConfig
