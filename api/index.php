@@ -11,11 +11,12 @@ define('PATH_TO_ROOT', '..');
 
 require_once PATH_TO_ROOT . '/kernel/init.php';
 
-header('Location:framework/index.php');
-
 $url_controller_mappers = array(
     // Config
-    new UrlControllerMapper('AdminApiConfigController', '`^/admin(?:/config)?/?$`')
+    new UrlControllerMapper('AdminApiConfigController', '`^/admin(?:/config)?/?$`'),
+
+    // Index
+    new UrlRedirectMapper('/api/framework/index.php', '`^.*$`')
 );
 DispatchManager::dispatch($url_controller_mappers);
 
