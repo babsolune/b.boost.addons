@@ -5,13 +5,13 @@
  * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
  * @version   	PHPBoost 5.2 - last update: 2019 01 04
  * @since   	PHPBoost 5.1 - 2017 11 05
- */
+*/
 
 class ApiSetup extends DefaultModuleSetup
 {
 	public function upgrade($installed_version)
 	{
-		return '5.2';
+		return '5.2.0';
 	}
 }
 ?>

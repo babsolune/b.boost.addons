@@ -184,6 +184,7 @@ code a b {
 .deprecated {
 	text-decoration: line-through;
 	opacity: .5;
+	color: #e71818;
 }
 
 .invalid {
@@ -192,19 +193,6 @@ code a b {
 
 .hidden {
 	display: none;
-}
-
-
-
-#inside-menu-left #groups span {
-	position: absolute;
-	top: 4px;
-	right: 2px;
-	cursor: pointer;
-	display: block;
-	width: 12px;
-	height: 12px;
-	background: url('collapsed.png') transparent 0 0 no-repeat;
 }
 
 #inside-menu-left #groups span:hover {
@@ -385,8 +373,9 @@ dl.tree dd {
 	padding: 0;
 }
 
-.summary td:first-child {
-	text-align: right;
+.summary td:first-child,
+table tbody td {
+	text-align: left;
 }
 
 .summary td hr {
@@ -605,12 +594,4 @@ span.l a.l:hover, span.l a.l:active, span.l a.l:focus {
 
 #rightInner.small #navigation ul:first-child {
 	clear: both;
-}
-
-/* global style */
-.left, .summary td.left {
-	text-align: left;
-}
-.right, .summary td.right {
-	text-align: right;
 }
