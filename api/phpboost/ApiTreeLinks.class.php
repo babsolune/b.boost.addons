@@ -13,6 +13,7 @@ class ApiTreeLinks implements ModuleTreeLinksExtensionPoint
 	{
 		$tree = new ModuleTreeLinks();
 
+		$tree->add_link(new AdminModuleLink(LangLoader::get_message('configuration', 'admin-common'), ApiUrlBuilder::configuration()));
 		$tree->add_link(new AdminModuleLink(LangLoader::get_message('module.documentation', 'admin-modules-common'), ModulesManager::get_module('api')->get_configuration()->get_documentation()));
 
 		return $tree;

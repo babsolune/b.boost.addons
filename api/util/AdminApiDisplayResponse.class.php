@@ -16,7 +16,7 @@ class AdminApiDisplayResponse extends AdminMenuDisplayResponse
 		$lang = LangLoader::get('common', 'api');
 		$this->set_title($lang['module.title']);
 
-		// $this->add_link(LangLoader::get_message('configuration', 'admin-common'), ApiUrlBuilder::configuration());
+		$this->add_link(LangLoader::get_message('configuration', 'admin-common'), ApiUrlBuilder::configuration());
 		$this->add_link(LangLoader::get_message('module.documentation', 'admin-modules-common'), ModulesManager::get_module('api')->get_configuration()->get_documentation());
 
 		$env = $this->get_graphical_environment();

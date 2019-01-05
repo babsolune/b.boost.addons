@@ -14,17 +14,9 @@ class ApiUrlBuilder
 	/**
 	 * @return Url
 	 */
-	// public static function configuration()
-	// {
-	// 	return DispatchManager::get_url(self::$dispatcher, '/admin/config/');
-	// }
-
-	/**
-	 * @return Url
-	 */
-    public static function home()
+	public static function configuration()
 	{
-		return DispatchManager::get_url(self::$dispatcher, '/framework/');
+		return DispatchManager::get_url(self::$dispatcher, '/admin/config/');
 	}
 }
 ?>

@@ -7,6 +7,16 @@
  * @since   	PHPBoost 5.1 - 2017 11 05
  */
 
-    header('Location:framework/index.php');
+define('PATH_TO_ROOT', '..');
+
+require_once PATH_TO_ROOT . '/kernel/init.php';
+
+header('Location:framework/index.php');
+
+$url_controller_mappers = array(
+    // Config
+    new UrlControllerMapper('AdminApiConfigController', '`^/admin(?:/config)?/?$`')
+);
+DispatchManager::dispatch($url_controller_mappers);
 
 ?>

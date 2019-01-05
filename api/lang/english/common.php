@@ -11,5 +11,5 @@
 #                      English                     #
 ####################################################
 
-$lang['module.title'] = 'PBT A.P.I. Documentation';
+$lang['module.title'] = 'PBT API Documentation';
 ?>
