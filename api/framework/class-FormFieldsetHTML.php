@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.fieldset.php">fieldset</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldsetHTML.php#3-68" title="Go to source code">builder/form/fieldset/FormFieldsetHTML.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldsetHTML.php#3-67" title="Go to source code">builder/form/fieldset/FormFieldsetHTML.class.php</a></span>
 			</div>
 
 
@@ -741,7 +737,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTML.php#19-27" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldsetHTML.php#18-26" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTML.php#29-46" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var>,…</span> )
+<a href="source-class-FormFieldsetHTML.php#28-45" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_set_title">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTML.php#48-54" title="Go to source code">set_title</a>( <span>string <var>$title</var></span> )
+<a href="source-class-FormFieldsetHTML.php#47-53" title="Go to source code">set_title</a>( <span>string <var>$title</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTML.php#56-62" title="Go to source code">get_title</a>( )
+<a href="source-class-FormFieldsetHTML.php#55-61" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTML.php#64-67" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldsetHTML.php#63-66" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1021,7 +1017,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FormFieldsetHTML.php#17" title="Go to source code"><var>$title</var></a>
+						<a href="source-class-FormFieldsetHTML.php#16" title="Go to source code"><var>$title</var></a>
 
 					<div class="description short">
 						

@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -749,7 +745,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldFilePicker.php#3-129" title="Go to source code">builder/form/field/FormFieldFilePicker.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldFilePicker.php#3-128" title="Go to source code">builder/form/field/FormFieldFilePicker.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -784,7 +780,7 @@ It provides you additionnal field options :</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -806,7 +802,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#26-32" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldFilePicker.php#25-31" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#34-57" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldFilePicker.php#33-56" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#71-90" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldFilePicker.php#70-89" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#92-113" title="Go to source code">validate</a>( )
+<a href="source-class-FormFieldFilePicker.php#91-112" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#115-123" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormFieldFilePicker.php#114-122" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1023,7 +1019,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldFilePicker.php#125-128" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldFilePicker.php#124-127" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">

@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Lang.php">Lang</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangLoader.php#3-184" title="Go to source code">core/lang/LangLoader.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangLoader.php#3-183" title="Go to source code">core/lang/LangLoader.class.php</a></span>
 			</div>
 
 
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_set_locale">#</a>
 						<code>
-<a href="source-class-LangLoader.php#23-30" title="Go to source code">set_locale</a>( <span>string <var>$locale</var></span> )
+<a href="source-class-LangLoader.php#22-29" title="Go to source code">set_locale</a>( <span>string <var>$locale</var></span> )
 						</code>
 
 							<div class="description short">
@@ -772,7 +768,7 @@
 					<div>
 						<a class="anchor" href="#_get_locale">#</a>
 						<code>
-<a href="source-class-LangLoader.php#32-39" title="Go to source code">get_locale</a>( )
+<a href="source-class-LangLoader.php#31-38" title="Go to source code">get_locale</a>( )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@
 					<div>
 						<a class="anchor" href="#_get_available_langs">#</a>
 						<code>
-<a href="source-class-LangLoader.php#41-53" title="Go to source code">get_available_langs</a>( )
+<a href="source-class-LangLoader.php#40-52" title="Go to source code">get_available_langs</a>( )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_lang">#</a>
 						<code>
-<a href="source-class-LangLoader.php#55-59" title="Go to source code">get_default_lang</a>( )
+<a href="source-class-LangLoader.php#54-58" title="Go to source code">get_default_lang</a>( )
 						</code>
 
 							<div class="description short">
@@ -881,7 +877,7 @@
 					<div>
 						<a class="anchor" href="#_get_message">#</a>
 						<code>
-<a href="source-class-LangLoader.php#61-77" title="Go to source code">get_message</a>( <span>string <var>$message_id</var></span>, <span>string <var>$filename</var></span>, <span>string <var>$module</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-LangLoader.php#60-76" title="Go to source code">get_message</a>( <span>string <var>$message_id</var></span>, <span>string <var>$filename</var></span>, <span>string <var>$module</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-LangLoader.php#79-93" title="Go to source code">get</a>( <span>string <var>$filename</var></span>, <span>string <var>$module</var> = <span class="php-quote">''</span></span>, <span>string <var>$forced_file</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-LangLoader.php#78-92" title="Go to source code">get</a>( <span>string <var>$filename</var></span>, <span>string <var>$module</var> = <span class="php-quote">''</span></span>, <span>string <var>$forced_file</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -994,7 +990,7 @@ translated messages</p>
 					<div>
 						<a class="anchor" href="#_clear_lang_cache">#</a>
 						<code>
-<a href="source-class-LangLoader.php#164-171" title="Go to source code">clear_lang_cache</a>( )
+<a href="source-class-LangLoader.php#163-170" title="Go to source code">clear_lang_cache</a>( )
 						</code>
 
 							<div class="description short">

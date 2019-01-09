@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.translator.php">translator</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQueryTranslator.php#3-21" title="Go to source code">io/db/translator/SQLQueryTranslator.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQueryTranslator.php#3-20" title="Go to source code">io/db/translator/SQLQueryTranslator.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#_translate">#</a>
 						<code>
-<a href="source-class-SQLQueryTranslator.php#16-20" title="Go to source code">translate</a>( <span>string <var>$query</var></span> )
+<a href="source-class-SQLQueryTranslator.php#15-19" title="Go to source code">translate</a>( <span>string <var>$query</var></span> )
 						</code>
 
 							<div class="description short">

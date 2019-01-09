@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.dbms.php">dbms</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -702,7 +698,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBMSUtils.php#3-340" title="Go to source code">io/db/dbms/MySQLDBMSUtils.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBMSUtils.php#3-339" title="Go to source code">io/db/dbms/MySQLDBMSUtils.class.php</a></span>
 			</div>
 
 
@@ -723,7 +719,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -745,7 +741,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#27-30" title="Go to source code">__construct</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#26-29" title="Go to source code">__construct</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_get_dbms_version">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#32-36" title="Go to source code">get_dbms_version</a>( )
+<a href="source-class-MySQLDBMSUtils.php#31-35" title="Go to source code">get_dbms_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_list_databases">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#38-47" title="Go to source code">list_databases</a>( )
+<a href="source-class-MySQLDBMSUtils.php#37-46" title="Go to source code">list_databases</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@
 					<div>
 						<a class="anchor" href="#_create_database">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#49-54" title="Go to source code">create_database</a>( <span> <var>$database_name</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#48-53" title="Go to source code">create_database</a>( <span> <var>$database_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_get_database_name">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#56-60" title="Go to source code">get_database_name</a>( )
+<a href="source-class-MySQLDBMSUtils.php#55-59" title="Go to source code">get_database_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@
 					<div>
 						<a class="anchor" href="#_list_tables">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#62-72" title="Go to source code">list_tables</a>( <span> <var>$with_prefix</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-MySQLDBMSUtils.php#61-71" title="Go to source code">list_tables</a>( <span> <var>$with_prefix</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -965,7 +961,7 @@
 					<div>
 						<a class="anchor" href="#_list_and_desc_tables">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#74-98" title="Go to source code">list_and_desc_tables</a>( <span> <var>$with_prefix</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-MySQLDBMSUtils.php#73-97" title="Go to source code">list_and_desc_tables</a>( <span> <var>$with_prefix</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@
 					<div>
 						<a class="anchor" href="#_desc_table">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#100-116" title="Go to source code">desc_table</a>( <span> <var>$table</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#99-115" title="Go to source code">desc_table</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 					<div>
 						<a class="anchor" href="#_create_table">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#118-132" title="Go to source code">create_table</a>( <span> <var>$table_name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-MySQLDBMSUtils.php#117-131" title="Go to source code">create_table</a>( <span> <var>$table_name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1076,7 +1072,7 @@
 					<div>
 						<a class="anchor" href="#_drop">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#134-137" title="Go to source code">drop</a>( <span> <var>$tables</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#133-136" title="Go to source code">drop</a>( <span> <var>$tables</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1113,7 +1109,7 @@
 					<div>
 						<a class="anchor" href="#_truncate">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#139-149" title="Go to source code">truncate</a>( <span> <var>$tables</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#138-148" title="Go to source code">truncate</a>( <span> <var>$tables</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1150,7 +1146,7 @@
 					<div>
 						<a class="anchor" href="#_optimize">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#151-158" title="Go to source code">optimize</a>( <span> <var>$tables</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#150-157" title="Go to source code">optimize</a>( <span> <var>$tables</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1187,7 +1183,7 @@
 					<div>
 						<a class="anchor" href="#_repair">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#160-167" title="Go to source code">repair</a>( <span> <var>$tables</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#159-166" title="Go to source code">repair</a>( <span> <var>$tables</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1224,7 +1220,7 @@
 					<div>
 						<a class="anchor" href="#_add_column">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#169-174" title="Go to source code">add_column</a>( <span> <var>$table_name</var></span>, <span> <var>$column_name</var></span>, <span>array <var>$column_description</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#168-173" title="Go to source code">add_column</a>( <span> <var>$table_name</var></span>, <span> <var>$column_name</var></span>, <span>array <var>$column_description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1261,7 +1257,7 @@
 					<div>
 						<a class="anchor" href="#_drop_column">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#177-190" title="Go to source code">drop_column</a>( <span> <var>$table_name</var></span>, <span> <var>$column_name</var></span> )
+<a href="source-class-MySQLDBMSUtils.php#176-189" title="Go to source code">drop_column</a>( <span> <var>$table_name</var></span>, <span> <var>$column_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1298,7 +1294,7 @@
 					<div>
 						<a class="anchor" href="#_dump_phpboost">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#192-195" title="Go to source code">dump_phpboost</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
+<a href="source-class-MySQLDBMSUtils.php#191-194" title="Go to source code">dump_phpboost</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
 						</code>
 
 							<div class="description short">
@@ -1335,7 +1331,7 @@
 					<div>
 						<a class="anchor" href="#_dump_tables">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#197-205" title="Go to source code">dump_tables</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span>array <var>$tables</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
+<a href="source-class-MySQLDBMSUtils.php#196-204" title="Go to source code">dump_tables</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span>array <var>$tables</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
 						</code>
 
 							<div class="description short">
@@ -1372,7 +1368,7 @@
 					<div>
 						<a class="anchor" href="#_dump_table">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#207-219" title="Go to source code">dump_table</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span> <var>$table</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
+<a href="source-class-MySQLDBMSUtils.php#206-218" title="Go to source code">dump_table</a>( <span><code><a href="class-FileWriter.php">FileWriter</a></code> <var>$file</var></span>, <span> <var>$table</var></span>, <span> <var>$what</var> = self::DUMP_STRUCTURE_AND_DATA</span> )
 						</code>
 
 							<div class="description short">
@@ -1409,7 +1405,7 @@
 					<div>
 						<a class="anchor" href="#_dump_table_rows">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#221-236" title="Go to source code">dump_table_rows</a>( <span> <var>$table</var></span>, <span> <var>$file</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MySQLDBMSUtils.php#220-235" title="Go to source code">dump_table_rows</a>( <span> <var>$table</var></span>, <span> <var>$file</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1444,7 +1440,7 @@
 					<div>
 						<a class="anchor" href="#_parse_file">#</a>
 						<code>
-<a href="source-class-MySQLDBMSUtils.php#294-327" title="Go to source code">parse_file</a>( <span><code><a href="class-File.php">File</a></code> <var>$file</var></span>, <span> <var>$prefix</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-MySQLDBMSUtils.php#293-326" title="Go to source code">parse_file</a>( <span><code><a href="class-File.php">File</a></code> <var>$file</var></span>, <span> <var>$prefix</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">

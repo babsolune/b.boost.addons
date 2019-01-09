@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.loader.php">loader</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 06 18
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateLoadingException.php#3-26" title="Go to source code">io/template/loader/FileTemplateLoadingException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateLoadingException.php#3-25" title="Go to source code">io/template/loader/FileTemplateLoadingException.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -747,7 +743,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -769,7 +765,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FileTemplateLoadingException.php#16-25" title="Go to source code">__construct</a>( <span> <var>$message</var></span>, <span> <var>$reason</var>,…</span> )
+<a href="source-class-FileTemplateLoadingException.php#15-24" title="Go to source code">__construct</a>( <span> <var>$message</var></span>, <span> <var>$reason</var>,…</span> )
 						</code>
 
 							<div class="description short">

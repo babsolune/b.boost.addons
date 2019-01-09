@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -689,7 +685,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 08 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlertCache.php#3-62" title="Go to source code">phpboost/cache/AdministratorAlertCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlertCache.php#3-61" title="Go to source code">phpboost/cache/AdministratorAlertCache.class.php</a></span>
 			</div>
 
 
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-AdministratorAlertCache.php#18-34" title="Go to source code">synchronize</a>( )
+<a href="source-class-AdministratorAlertCache.php#17-33" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_all_alerts_number">#</a>
 						<code>
-<a href="source-class-AdministratorAlertCache.php#36-39" title="Go to source code">get_all_alerts_number</a>( )
+<a href="source-class-AdministratorAlertCache.php#35-38" title="Go to source code">get_all_alerts_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_unread_alerts_number">#</a>
 						<code>
-<a href="source-class-AdministratorAlertCache.php#41-44" title="Go to source code">get_unread_alerts_number</a>( )
+<a href="source-class-AdministratorAlertCache.php#40-43" title="Go to source code">get_unread_alerts_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-AdministratorAlertCache.php#46-53" title="Go to source code">load</a>( )
+<a href="source-class-AdministratorAlertCache.php#45-52" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-AdministratorAlertCache.php#55-61" title="Go to source code">invalidate</a>( )
+<a href="source-class-AdministratorAlertCache.php#54-60" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

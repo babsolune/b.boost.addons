@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -745,7 +741,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormField.php#3-637" title="Go to source code">builder/form/field/AbstractFormField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormField.php#3-636" title="Go to source code">builder/form/field/AbstractFormField.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -825,7 +821,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -847,7 +843,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#101-131" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AbstractFormField.php#100-130" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -910,7 +906,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#133-139" title="Go to source code">get_id</a>( )
+<a href="source-class-AbstractFormField.php#132-138" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -951,7 +947,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#141-147" title="Go to source code">set_id</a>( <span>string <var>$id</var></span> )
+<a href="source-class-AbstractFormField.php#140-146" title="Go to source code">set_id</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_form_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#149-155" title="Go to source code">get_form_id</a>( )
+<a href="source-class-AbstractFormField.php#148-154" title="Go to source code">get_form_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1024,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_form_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#157-163" title="Go to source code">set_form_id</a>( <span>string <var>$form_id</var></span> )
+<a href="source-class-AbstractFormField.php#156-162" title="Go to source code">set_form_id</a>( <span>string <var>$form_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1070,7 +1066,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_fieldset_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#165-168" title="Go to source code">set_fieldset_id</a>( <span> <var>$fieldset_id</var></span> )
+<a href="source-class-AbstractFormField.php#164-167" title="Go to source code">set_fieldset_id</a>( <span> <var>$fieldset_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#170-177" title="Go to source code">get_label</a>( )
+<a href="source-class-AbstractFormField.php#169-176" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -1153,7 +1149,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_label">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#179-186" title="Go to source code">set_label</a>( <span>string <var>$label</var></span> )
+<a href="source-class-AbstractFormField.php#178-185" title="Go to source code">set_label</a>( <span>string <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1193,7 +1189,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#188-195" title="Go to source code">get_description</a>( )
+<a href="source-class-AbstractFormField.php#187-194" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1232,7 +1228,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#197-204" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
+<a href="source-class-AbstractFormField.php#196-203" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1272,7 +1268,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#206-212" title="Go to source code">get_value</a>( )
+<a href="source-class-AbstractFormField.php#205-211" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1313,7 +1309,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_value">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#214-220" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
+<a href="source-class-AbstractFormField.php#213-219" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1355,7 +1351,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_is_required">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#222-229" title="Go to source code">is_required</a>( )
+<a href="source-class-AbstractFormField.php#221-228" title="Go to source code">is_required</a>( )
 						</code>
 
 							<div class="description short">
@@ -1394,7 +1390,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_required">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#231-238" title="Go to source code">set_required</a>( <span>boolean <var>$required</var></span> )
+<a href="source-class-AbstractFormField.php#230-237" title="Go to source code">set_required</a>( <span>boolean <var>$required</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1434,7 +1430,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#240-275" title="Go to source code">validate</a>( )
+<a href="source-class-AbstractFormField.php#239-274" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1475,7 +1471,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_validation_error_message">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#277-280" title="Go to source code">get_validation_error_message</a>( )
+<a href="source-class-AbstractFormField.php#276-279" title="Go to source code">get_validation_error_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -1512,7 +1508,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_validation_error_message">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#282-285" title="Go to source code">set_validation_error_message</a>( <span>string <var>$error_message</var></span> )
+<a href="source-class-AbstractFormField.php#281-284" title="Go to source code">set_validation_error_message</a>( <span>string <var>$error_message</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1554,7 +1550,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#287-297" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-AbstractFormField.php#286-296" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1591,7 +1587,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_html_id">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#299-305" title="Go to source code">get_html_id</a>( )
+<a href="source-class-AbstractFormField.php#298-304" title="Go to source code">get_html_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1632,7 +1628,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_add_constraint">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#307-313" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormFieldConstraint.php">FormFieldConstraint</a></code> <var>$constraint</var></span> )
+<a href="source-class-AbstractFormField.php#306-312" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormFieldConstraint.php">FormFieldConstraint</a></code> <var>$constraint</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1674,7 +1670,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_add_form_constraint">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#315-318" title="Go to source code">add_form_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
+<a href="source-class-AbstractFormField.php#314-317" title="Go to source code">add_form_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1711,7 +1707,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_has_constraints">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#320-326" title="Go to source code">has_constraints</a>( )
+<a href="source-class-AbstractFormField.php#319-325" title="Go to source code">has_constraints</a>( )
 						</code>
 
 							<div class="description short">
@@ -1752,7 +1748,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_js_validations">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#328-348" title="Go to source code">get_js_validations</a>( )
+<a href="source-class-AbstractFormField.php#327-347" title="Go to source code">get_js_validations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1793,7 +1789,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_onblur_validation">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#350-354" title="Go to source code">get_onblur_validation</a>( )
+<a href="source-class-AbstractFormField.php#349-353" title="Go to source code">get_onblur_validation</a>( )
 						</code>
 
 							<div class="description short">
@@ -1828,7 +1824,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_add_event">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#356-359" title="Go to source code">add_event</a>( <span> <var>$event</var></span>, <span> <var>$handler</var></span> )
+<a href="source-class-AbstractFormField.php#355-358" title="Go to source code">add_event</a>( <span> <var>$event</var></span>, <span> <var>$handler</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1863,7 +1859,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#361-425" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-AbstractFormField.php#360-424" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1898,7 +1894,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_assign_common_template_variables">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#427-498" title="Go to source code">assign_common_template_variables</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractFormField.php#426-497" title="Go to source code">assign_common_template_variables</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1933,7 +1929,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_css_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#516-519" title="Go to source code">get_css_class</a>( )
+<a href="source-class-AbstractFormField.php#515-518" title="Go to source code">get_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1968,7 +1964,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_css_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#521-524" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
+<a href="source-class-AbstractFormField.php#520-523" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2003,7 +1999,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_css_field_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#526-529" title="Go to source code">get_css_field_class</a>( )
+<a href="source-class-AbstractFormField.php#525-528" title="Go to source code">get_css_field_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -2038,7 +2034,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_css_field_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#532-535" title="Go to source code">set_css_field_class</a>( <span> <var>$css_field_class</var></span> )
+<a href="source-class-AbstractFormField.php#531-534" title="Go to source code">set_css_field_class</a>( <span> <var>$css_field_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2073,7 +2069,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_css_form_field_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#537-540" title="Go to source code">get_css_form_field_class</a>( )
+<a href="source-class-AbstractFormField.php#536-539" title="Go to source code">get_css_form_field_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -2108,7 +2104,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_css_form_field_class">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#543-546" title="Go to source code">set_css_form_field_class</a>( <span> <var>$css_form_field_class</var></span> )
+<a href="source-class-AbstractFormField.php#542-545" title="Go to source code">set_css_form_field_class</a>( <span> <var>$css_form_field_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2143,7 +2139,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_is_disabled">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#548-551" title="Go to source code">is_disabled</a>( )
+<a href="source-class-AbstractFormField.php#547-550" title="Go to source code">is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -2184,7 +2180,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_disable">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#553-556" title="Go to source code">disable</a>( )
+<a href="source-class-AbstractFormField.php#552-555" title="Go to source code">disable</a>( )
 						</code>
 
 							<div class="description short">
@@ -2221,7 +2217,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_enable">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#558-561" title="Go to source code">enable</a>( )
+<a href="source-class-AbstractFormField.php#557-560" title="Go to source code">enable</a>( )
 						</code>
 
 							<div class="description short">
@@ -2258,7 +2254,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_disabled">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#563-566" title="Go to source code">set_disabled</a>( <span> <var>$disabled</var></span> )
+<a href="source-class-AbstractFormField.php#562-565" title="Go to source code">set_disabled</a>( <span> <var>$disabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2293,7 +2289,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_is_readonly">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#568-571" title="Go to source code">is_readonly</a>( )
+<a href="source-class-AbstractFormField.php#567-570" title="Go to source code">is_readonly</a>( )
 						</code>
 
 							<div class="description short">
@@ -2328,7 +2324,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_readonly">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#573-576" title="Go to source code">set_readonly</a>( <span> <var>$readonly</var></span> )
+<a href="source-class-AbstractFormField.php#572-575" title="Go to source code">set_readonly</a>( <span> <var>$readonly</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2363,7 +2359,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_is_hidden">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#578-581" title="Go to source code">is_hidden</a>( )
+<a href="source-class-AbstractFormField.php#577-580" title="Go to source code">is_hidden</a>( )
 						</code>
 
 							<div class="description short">
@@ -2398,7 +2394,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_hidden">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#583-586" title="Go to source code">set_hidden</a>( <span> <var>$hidden</var></span> )
+<a href="source-class-AbstractFormField.php#582-585" title="Go to source code">set_hidden</a>( <span> <var>$hidden</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2433,7 +2429,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_has_pattern">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#588-591" title="Go to source code">has_pattern</a>( )
+<a href="source-class-AbstractFormField.php#587-590" title="Go to source code">has_pattern</a>( )
 						</code>
 
 							<div class="description short">
@@ -2468,7 +2464,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_pattern">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#593-596" title="Go to source code">set_pattern</a>( <span> <var>$pattern</var></span> )
+<a href="source-class-AbstractFormField.php#592-595" title="Go to source code">set_pattern</a>( <span> <var>$pattern</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2503,7 +2499,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_has_placeholder">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#598-601" title="Go to source code">has_placeholder</a>( )
+<a href="source-class-AbstractFormField.php#597-600" title="Go to source code">has_placeholder</a>( )
 						</code>
 
 							<div class="description short">
@@ -2538,7 +2534,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_placeholder">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#603-606" title="Go to source code">set_placeholder</a>( <span> <var>$placeholder</var></span> )
+<a href="source-class-AbstractFormField.php#602-605" title="Go to source code">set_placeholder</a>( <span> <var>$placeholder</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2573,7 +2569,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_set_template">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#608-611" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractFormField.php#607-610" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2608,7 +2604,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_template_to_use">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#613-626" title="Go to source code">get_template_to_use</a>( )
+<a href="source-class-AbstractFormField.php#612-625" title="Go to source code">get_template_to_use</a>( )
 						</code>
 
 							<div class="description short">
@@ -2647,7 +2643,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#628-631" title="Go to source code">get_default_template</a>( )
+<a href="source-class-AbstractFormField.php#627-630" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -2686,7 +2682,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_js_specialization_code">#</a>
 						<code>
-<a href="source-class-AbstractFormField.php#633-636" title="Go to source code">get_js_specialization_code</a>( )
+<a href="source-class-AbstractFormField.php#632-635" title="Go to source code">get_js_specialization_code</a>( )
 						</code>
 
 							<div class="description short">
@@ -2752,7 +2748,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#19-22" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-AbstractFormField.php#18-21" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						
@@ -2779,7 +2775,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#31-34" title="Go to source code"><var>$label</var></a>
+						<a href="source-class-AbstractFormField.php#30-33" title="Go to source code"><var>$label</var></a>
 
 					<div class="description short">
 						
@@ -2806,7 +2802,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#35-38" title="Go to source code"><var>$description</var></a>
+						<a href="source-class-AbstractFormField.php#34-37" title="Go to source code"><var>$description</var></a>
 
 					<div class="description short">
 						
@@ -2833,7 +2829,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#39-42" title="Go to source code"><var>$value</var></a>
+						<a href="source-class-AbstractFormField.php#38-41" title="Go to source code"><var>$value</var></a>
 
 					<div class="description short">
 						
@@ -2860,7 +2856,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#43-46" title="Go to source code"><var>$disabled</var></a>
+						<a href="source-class-AbstractFormField.php#42-45" title="Go to source code"><var>$disabled</var></a>
 
 					<div class="description short">
 						
@@ -2887,7 +2883,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#47-50" title="Go to source code"><var>$hidden</var></a>
+						<a href="source-class-AbstractFormField.php#46-49" title="Go to source code"><var>$hidden</var></a>
 
 					<div class="description short">
 						
@@ -2914,7 +2910,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#51-54" title="Go to source code"><var>$readonly</var></a>
+						<a href="source-class-AbstractFormField.php#50-53" title="Go to source code"><var>$readonly</var></a>
 
 					<div class="description short">
 						
@@ -2941,7 +2937,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#55-58" title="Go to source code"><var>$css_class</var></a>
+						<a href="source-class-AbstractFormField.php#54-57" title="Go to source code"><var>$css_class</var></a>
 
 					<div class="description short">
 						
@@ -2968,7 +2964,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#59-62" title="Go to source code"><var>$css_field_class</var></a>
+						<a href="source-class-AbstractFormField.php#58-61" title="Go to source code"><var>$css_field_class</var></a>
 
 					<div class="description short">
 						
@@ -2995,7 +2991,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#63-66" title="Go to source code"><var>$css_form_field_class</var></a>
+						<a href="source-class-AbstractFormField.php#62-65" title="Go to source code"><var>$css_form_field_class</var></a>
 
 					<div class="description short">
 						
@@ -3022,7 +3018,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#67-70" title="Go to source code"><var>$required</var></a>
+						<a href="source-class-AbstractFormField.php#66-69" title="Go to source code"><var>$required</var></a>
 
 					<div class="description short">
 						
@@ -3049,7 +3045,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#71-74" title="Go to source code"><var>$pattern</var></a>
+						<a href="source-class-AbstractFormField.php#70-73" title="Go to source code"><var>$pattern</var></a>
 
 					<div class="description short">
 						
@@ -3076,7 +3072,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#75-78" title="Go to source code"><var>$placeholder</var></a>
+						<a href="source-class-AbstractFormField.php#74-77" title="Go to source code"><var>$placeholder</var></a>
 
 					<div class="description short">
 						
@@ -3103,7 +3099,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#79-82" title="Go to source code"><var>$validation_error_message</var></a>
+						<a href="source-class-AbstractFormField.php#78-81" title="Go to source code"><var>$validation_error_message</var></a>
 
 					<div class="description short">
 						
@@ -3130,7 +3126,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#83-86" title="Go to source code"><var>$constraints</var></a>
+						<a href="source-class-AbstractFormField.php#82-85" title="Go to source code"><var>$constraints</var></a>
 
 					<div class="description short">
 						
@@ -3157,7 +3153,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#87-90" title="Go to source code"><var>$form_constraints</var></a>
+						<a href="source-class-AbstractFormField.php#86-89" title="Go to source code"><var>$form_constraints</var></a>
 
 					<div class="description short">
 						
@@ -3184,7 +3180,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#91-94" title="Go to source code"><var>$template</var></a>
+						<a href="source-class-AbstractFormField.php#90-93" title="Go to source code"><var>$template</var></a>
 
 					<div class="description short">
 						
@@ -3211,7 +3207,7 @@ The specific parameters of this abstract class (common with many fields) are the
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormField.php#96-99" title="Go to source code"><var>$events</var></a>
+						<a href="source-class-AbstractFormField.php#95-98" title="Go to source code"><var>$events</var></a>
 
 					<div class="description short">
 						

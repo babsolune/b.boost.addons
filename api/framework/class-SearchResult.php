@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Search.php">Search</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchResult.php#3-54" title="Go to source code">content/search/SearchResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchResult.php#3-53" title="Go to source code">content/search/SearchResult.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SearchResult.php#20-33" title="Go to source code">__construct</a>( <span>integer <var>$id</var></span>, <span>string <var>$title</var></span>, <span>string <var>$link</var></span>, <span>float <var>$relevance</var></span> )
+<a href="source-class-SearchResult.php#19-32" title="Go to source code">__construct</a>( <span>integer <var>$id</var></span>, <span>string <var>$title</var></span>, <span>string <var>$link</var></span>, <span>float <var>$relevance</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-SearchResult.php#35-38" title="Go to source code">get_id</a>( )
+<a href="source-class-SearchResult.php#34-37" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-SearchResult.php#40-43" title="Go to source code">get_title</a>( )
+<a href="source-class-SearchResult.php#39-42" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-SearchResult.php#45-48" title="Go to source code">get_link</a>( )
+<a href="source-class-SearchResult.php#44-47" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_get_relevance">#</a>
 						<code>
-<a href="source-class-SearchResult.php#50-53" title="Go to source code">get_relevance</a>( )
+<a href="source-class-SearchResult.php#49-52" title="Go to source code">get_relevance</a>( )
 						</code>
 
 							<div class="description short">

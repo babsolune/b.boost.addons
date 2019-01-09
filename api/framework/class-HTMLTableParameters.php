@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableParameters.php#3-195" title="Go to source code">builder/table/HTMLTableParameters.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableParameters.php#3-194" title="Go to source code">builder/table/HTMLTableParameters.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -711,7 +707,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -733,7 +729,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#43-49" title="Go to source code">__construct</a>( <span><code><a href="class-HTMLTableModel.php">HTMLTableModel</a></code> <var>$model</var></span> )
+<a href="source-class-HTMLTableParameters.php#42-48" title="Go to source code">__construct</a>( <span><code><a href="class-HTMLTableModel.php">HTMLTableModel</a></code> <var>$model</var></span> )
 						</code>
 
 							<div class="description short">
@@ -768,7 +764,7 @@
 					<div>
 						<a class="anchor" href="#_get_page_number">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#51-54" title="Go to source code">get_page_number</a>( )
+<a href="source-class-HTMLTableParameters.php#50-53" title="Go to source code">get_page_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@
 					<div>
 						<a class="anchor" href="#_get_nb_items_per_page">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#56-59" title="Go to source code">get_nb_items_per_page</a>( )
+<a href="source-class-HTMLTableParameters.php#55-58" title="Go to source code">get_nb_items_per_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@
 					<div>
 						<a class="anchor" href="#_get_sorting_rule">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#61-64" title="Go to source code">get_sorting_rule</a>( )
+<a href="source-class-HTMLTableParameters.php#60-63" title="Go to source code">get_sorting_rule</a>( )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@
 					<div>
 						<a class="anchor" href="#_get_filters">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#66-69" title="Go to source code">get_filters</a>( )
+<a href="source-class-HTMLTableParameters.php#65-68" title="Go to source code">get_filters</a>( )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@
 					<div>
 						<a class="anchor" href="#_get_pagination_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#71-74" title="Go to source code">get_pagination_url</a>( <span> <var>$page_number</var></span> )
+<a href="source-class-HTMLTableParameters.php#70-73" title="Go to source code">get_pagination_url</a>( <span> <var>$page_number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@
 					<div>
 						<a class="anchor" href="#_get_nb_items_per_page_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#76-80" title="Go to source code">get_nb_items_per_page_url</a>( <span> <var>$nb_items</var></span>, <span> <var>$current_item_index</var></span> )
+<a href="source-class-HTMLTableParameters.php#75-79" title="Go to source code">get_nb_items_per_page_url</a>( <span> <var>$nb_items</var></span>, <span> <var>$current_item_index</var></span> )
 						</code>
 
 							<div class="description short">
@@ -978,7 +974,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_table_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#82-87" title="Go to source code">get_default_table_url</a>( )
+<a href="source-class-HTMLTableParameters.php#81-86" title="Go to source code">get_default_table_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 					<div>
 						<a class="anchor" href="#_get_ascending_sort_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#89-92" title="Go to source code">get_ascending_sort_url</a>( <span> <var>$sort_identifier</var></span> )
+<a href="source-class-HTMLTableParameters.php#88-91" title="Go to source code">get_ascending_sort_url</a>( <span> <var>$sort_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@
 					<div>
 						<a class="anchor" href="#_get_descending_sort_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#94-97" title="Go to source code">get_descending_sort_url</a>( <span> <var>$sort_identifier</var></span> )
+<a href="source-class-HTMLTableParameters.php#93-96" title="Go to source code">get_descending_sort_url</a>( <span> <var>$sort_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1083,7 +1079,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_submit_url">#</a>
 						<code>
-<a href="source-class-HTMLTableParameters.php#99-104" title="Go to source code">get_js_submit_url</a>( )
+<a href="source-class-HTMLTableParameters.php#98-103" title="Go to source code">get_js_submit_url</a>( )
 						</code>
 
 							<div class="description short">

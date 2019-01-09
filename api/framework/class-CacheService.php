@@ -685,10 +685,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.cache.php">cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheService.php#3-78" title="Go to source code">io/data/cache/CacheService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheService.php#3-77" title="Go to source code">io/data/cache/CacheService.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CacheService.php#24-30" title="Go to source code">__construct</a>( )
+<a href="source-class-CacheService.php#23-29" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_clear_cache">#</a>
 						<code>
-<a href="source-class-CacheService.php#32-38" title="Go to source code">clear_cache</a>( )
+<a href="source-class-CacheService.php#31-37" title="Go to source code">clear_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_clear_phpboost_cache">#</a>
 						<code>
-<a href="source-class-CacheService.php#40-44" title="Go to source code">clear_phpboost_cache</a>( )
+<a href="source-class-CacheService.php#39-43" title="Go to source code">clear_phpboost_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_clear_template_cache">#</a>
 						<code>
-<a href="source-class-CacheService.php#46-49" title="Go to source code">clear_template_cache</a>( )
+<a href="source-class-CacheService.php#45-48" title="Go to source code">clear_template_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_clear_css_cache">#</a>
 						<code>
-<a href="source-class-CacheService.php#51-54" title="Go to source code">clear_css_cache</a>( )
+<a href="source-class-CacheService.php#50-53" title="Go to source code">clear_css_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_clear_syndication_cache">#</a>
 						<code>
-<a href="source-class-CacheService.php#56-59" title="Go to source code">clear_syndication_cache</a>( )
+<a href="source-class-CacheService.php#55-58" title="Go to source code">clear_syndication_cache</a>( )
 						</code>
 
 							<div class="description short">

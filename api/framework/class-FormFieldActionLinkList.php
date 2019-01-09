@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -741,7 +737,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldActionLinkList.php#3-58" title="Go to source code">builder/form/field/FormFieldActionLinkList.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldActionLinkList.php#3-57" title="Go to source code">builder/form/field/FormFieldActionLinkList.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -772,7 +768,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldActionLinkList.php#23-31" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>array <var>$actions</var></span> )
+<a href="source-class-FormFieldActionLinkList.php#22-30" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>array <var>$actions</var></span> )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldActionLinkList.php#33-52" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldActionLinkList.php#32-51" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldActionLinkList.php#54-57" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldActionLinkList.php#53-56" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">

@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 06 19
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeyGenerator.php#3-51" title="Go to source code">util/KeyGenerator.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeyGenerator.php#3-50" title="Go to source code">util/KeyGenerator.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@
 					<div>
 						<a class="anchor" href="#_generate_key">#</a>
 						<code>
-<a href="source-class-KeyGenerator.php#14-24" title="Go to source code">generate_key</a>( <span> <var>$length</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-KeyGenerator.php#13-23" title="Go to source code">generate_key</a>( <span> <var>$length</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -781,7 +777,7 @@
 					<div>
 						<a class="anchor" href="#_generate_token">#</a>
 						<code>
-<a href="source-class-KeyGenerator.php#26-29" title="Go to source code">generate_token</a>( )
+<a href="source-class-KeyGenerator.php#25-28" title="Go to source code">generate_token</a>( )
 						</code>
 
 							<div class="description short">
@@ -816,7 +812,7 @@
 					<div>
 						<a class="anchor" href="#_string_hash">#</a>
 						<code>
-<a href="source-class-KeyGenerator.php#31-50" title="Go to source code">string_hash</a>( <span>string <var>$string</var></span>, <span>mixed <var>$salt</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-KeyGenerator.php#30-49" title="Go to source code">string_hash</a>( <span>string <var>$string</var></span>, <span>mixed <var>$salt</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">

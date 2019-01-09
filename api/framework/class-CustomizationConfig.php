@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 08 30
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CustomizationConfig.php#3-83" title="Go to source code">phpboost/config/CustomizationConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CustomizationConfig.php#3-82" title="Go to source code">phpboost/config/CustomizationConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_get_favicon_path">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#18-21" title="Go to source code">get_favicon_path</a>( )
+<a href="source-class-CustomizationConfig.php#17-20" title="Go to source code">get_favicon_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_set_favicon_path">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#23-26" title="Go to source code">set_favicon_path</a>( <span> <var>$path</var></span> )
+<a href="source-class-CustomizationConfig.php#22-25" title="Go to source code">set_favicon_path</a>( <span> <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_favicon_exists">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#28-32" title="Go to source code">favicon_exists</a>( )
+<a href="source-class-CustomizationConfig.php#27-31" title="Go to source code">favicon_exists</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_favicon_type">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#34-42" title="Go to source code">favicon_type</a>( )
+<a href="source-class-CustomizationConfig.php#33-41" title="Go to source code">favicon_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_set_header_logo_path_all_themes">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#44-47" title="Go to source code">set_header_logo_path_all_themes</a>( <span> <var>$path</var></span> )
+<a href="source-class-CustomizationConfig.php#43-46" title="Go to source code">set_header_logo_path_all_themes</a>( <span> <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_remove_header_logo_path_all_themes">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#49-52" title="Go to source code">remove_header_logo_path_all_themes</a>( )
+<a href="source-class-CustomizationConfig.php#48-51" title="Go to source code">remove_header_logo_path_all_themes</a>( )
 						</code>
 
 							<div class="description short">
@@ -960,7 +956,7 @@
 					<div>
 						<a class="anchor" href="#_get_header_logo_path_all_themes">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#54-57" title="Go to source code">get_header_logo_path_all_themes</a>( )
+<a href="source-class-CustomizationConfig.php#53-56" title="Go to source code">get_header_logo_path_all_themes</a>( )
 						</code>
 
 							<div class="description short">
@@ -995,7 +991,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#59-65" title="Go to source code">get_default_values</a>( )
+<a href="source-class-CustomizationConfig.php#58-64" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#67-74" title="Go to source code">load</a>( )
+<a href="source-class-CustomizationConfig.php#66-73" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-CustomizationConfig.php#76-82" title="Go to source code">save</a>( )
+<a href="source-class-CustomizationConfig.php#75-81" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1133,7 +1129,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CustomizationConfig.php#15" title="Go to source code"><b>FAVICON_PATH</b></a>
+								<a href="source-class-CustomizationConfig.php#14" title="Go to source code"><b>FAVICON_PATH</b></a>
 							</code>
 
 							<div class="description short">
@@ -1157,7 +1153,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CustomizationConfig.php#16" title="Go to source code"><b>HEADER_LOGO_PATH_ALL_THEMES</b></a>
+								<a href="source-class-CustomizationConfig.php#15" title="Go to source code"><b>HEADER_LOGO_PATH_ALL_THEMES</b></a>
 							</code>
 
 							<div class="description short">

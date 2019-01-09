@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPRequestCustom.php#3-471" title="Go to source code">io/http/HTTPRequestCustom.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPRequestCustom.php#3-470" title="Go to source code">io/http/HTTPRequestCustom.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#31-36" title="Go to source code">__construct</a>( )
+<a href="source-class-HTTPRequestCustom.php#30-35" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_is_post_method">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#38-41" title="Go to source code">is_post_method</a>( )
+<a href="source-class-HTTPRequestCustom.php#37-40" title="Go to source code">is_post_method</a>( )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_is_get_method">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#43-46" title="Go to source code">is_get_method</a>( )
+<a href="source-class-HTTPRequestCustom.php#42-45" title="Go to source code">is_get_method</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_has_parameter">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#48-51" title="Go to source code">has_parameter</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-HTTPRequestCustom.php#47-50" title="Go to source code">has_parameter</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_has_getparameter">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#53-56" title="Go to source code">has_getparameter</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-HTTPRequestCustom.php#52-55" title="Go to source code">has_getparameter</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_has_postparameter">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#58-61" title="Go to source code">has_postparameter</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-HTTPRequestCustom.php#57-60" title="Go to source code">has_postparameter</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -960,7 +956,7 @@
 					<div>
 						<a class="anchor" href="#_has_cookieparameter">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#63-66" title="Go to source code">has_cookieparameter</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-HTTPRequestCustom.php#62-65" title="Go to source code">has_cookieparameter</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -995,7 +991,7 @@
 					<div>
 						<a class="anchor" href="#_set_value">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#73-78" title="Go to source code">set_value</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-HTTPRequestCustom.php#72-77" title="Go to source code">set_value</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1030,7 +1026,7 @@
 					<div>
 						<a class="anchor" href="#_set_getvalue">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#80-84" title="Go to source code">set_getvalue</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-HTTPRequestCustom.php#79-83" title="Go to source code">set_getvalue</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1065,7 +1061,7 @@
 					<div>
 						<a class="anchor" href="#_set_postvalue">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#86-90" title="Go to source code">set_postvalue</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-HTTPRequestCustom.php#85-89" title="Go to source code">set_postvalue</a>( <span> <var>$varname</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1100,7 +1096,7 @@
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#97-100" title="Go to source code">get_value</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#96-99" title="Go to source code">get_value</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1135,7 +1131,7 @@
 					<div>
 						<a class="anchor" href="#_get_bool">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#102-105" title="Go to source code">get_bool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#101-104" title="Go to source code">get_bool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1170,7 +1166,7 @@
 					<div>
 						<a class="anchor" href="#_get_int">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#107-110" title="Go to source code">get_int</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#106-109" title="Go to source code">get_int</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1205,7 +1201,7 @@
 					<div>
 						<a class="anchor" href="#_get_float">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#112-115" title="Go to source code">get_float</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#111-114" title="Go to source code">get_float</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1240,7 +1236,7 @@
 					<div>
 						<a class="anchor" href="#_get_string">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#117-120" title="Go to source code">get_string</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#116-119" title="Go to source code">get_string</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1275,7 +1271,7 @@
 					<div>
 						<a class="anchor" href="#_get_array">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#122-125" title="Go to source code">get_array</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-HTTPRequestCustom.php#121-124" title="Go to source code">get_array</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1310,7 +1306,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookie">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#127-130" title="Go to source code">get_cookie</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#126-129" title="Go to source code">get_cookie</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1345,7 +1341,7 @@
 					<div>
 						<a class="anchor" href="#__get_parameters_array">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#132-135" title="Go to source code">_get_parameters_array</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-HTTPRequestCustom.php#131-134" title="Go to source code">_get_parameters_array</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1380,7 +1376,7 @@
 					<div>
 						<a class="anchor" href="#_get_file">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#137-154" title="Go to source code">get_file</a>( <span>string <var>$varname</var></span> )
+<a href="source-class-HTTPRequestCustom.php#136-153" title="Go to source code">get_file</a>( <span>string <var>$varname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1430,7 +1426,7 @@
 					<div>
 						<a class="anchor" href="#_get_getvalue">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#156-159" title="Go to source code">get_getvalue</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#155-158" title="Go to source code">get_getvalue</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1465,7 +1461,7 @@
 					<div>
 						<a class="anchor" href="#_get_getbool">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#161-164" title="Go to source code">get_getbool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#160-163" title="Go to source code">get_getbool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1500,7 +1496,7 @@
 					<div>
 						<a class="anchor" href="#_get_getint">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#166-169" title="Go to source code">get_getint</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#165-168" title="Go to source code">get_getint</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1535,7 +1531,7 @@
 					<div>
 						<a class="anchor" href="#_get_getfloat">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#171-174" title="Go to source code">get_getfloat</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#170-173" title="Go to source code">get_getfloat</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1570,7 +1566,7 @@
 					<div>
 						<a class="anchor" href="#_get_getstring">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#176-179" title="Go to source code">get_getstring</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#175-178" title="Go to source code">get_getstring</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1605,7 +1601,7 @@
 					<div>
 						<a class="anchor" href="#_get_getarray">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#181-184" title="Go to source code">get_getarray</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-HTTPRequestCustom.php#180-183" title="Go to source code">get_getarray</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1640,7 +1636,7 @@
 					<div>
 						<a class="anchor" href="#_get_postvalue">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#186-189" title="Go to source code">get_postvalue</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#185-188" title="Go to source code">get_postvalue</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1675,7 +1671,7 @@
 					<div>
 						<a class="anchor" href="#_get_postbool">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#191-194" title="Go to source code">get_postbool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#190-193" title="Go to source code">get_postbool</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1710,7 +1706,7 @@
 					<div>
 						<a class="anchor" href="#_get_postint">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#196-199" title="Go to source code">get_postint</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#195-198" title="Go to source code">get_postint</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1745,7 +1741,7 @@
 					<div>
 						<a class="anchor" href="#_get_postfloat">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#201-204" title="Go to source code">get_postfloat</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#200-203" title="Go to source code">get_postfloat</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1780,7 +1776,7 @@
 					<div>
 						<a class="anchor" href="#_get_poststring">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#206-209" title="Go to source code">get_poststring</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPRequestCustom.php#205-208" title="Go to source code">get_poststring</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1815,7 +1811,7 @@
 					<div>
 						<a class="anchor" href="#_get_postarray">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#211-214" title="Go to source code">get_postarray</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-HTTPRequestCustom.php#210-213" title="Go to source code">get_postarray</a>( <span> <var>$varname</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1850,7 +1846,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_ajax_request">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#334-337" title="Go to source code">get_is_ajax_request</a>( )
+<a href="source-class-HTTPRequestCustom.php#333-336" title="Go to source code">get_is_ajax_request</a>( )
 						</code>
 
 							<div class="description short">
@@ -1885,7 +1881,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_https">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#344-352" title="Go to source code">get_is_https</a>( )
+<a href="source-class-HTTPRequestCustom.php#343-351" title="Go to source code">get_is_https</a>( )
 						</code>
 
 							<div class="description short">
@@ -1920,7 +1916,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_localhost">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#354-365" title="Go to source code">get_is_localhost</a>( )
+<a href="source-class-HTTPRequestCustom.php#353-364" title="Go to source code">get_is_localhost</a>( )
 						</code>
 
 							<div class="description short">
@@ -1955,7 +1951,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_url">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#367-370" title="Go to source code">get_site_url</a>( )
+<a href="source-class-HTTPRequestCustom.php#366-369" title="Go to source code">get_site_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1990,7 +1986,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_domain_name">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#373-376" title="Go to source code">get_site_domain_name</a>( )
+<a href="source-class-HTTPRequestCustom.php#372-375" title="Go to source code">get_site_domain_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -2025,7 +2021,7 @@
 					<div>
 						<a class="anchor" href="#_get_domain_name">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#379-387" title="Go to source code">get_domain_name</a>( )
+<a href="source-class-HTTPRequestCustom.php#378-386" title="Go to source code">get_domain_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -2060,7 +2056,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_subdomain">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#389-392" title="Go to source code">get_is_subdomain</a>( )
+<a href="source-class-HTTPRequestCustom.php#388-391" title="Go to source code">get_is_subdomain</a>( )
 						</code>
 
 							<div class="description short">
@@ -2095,7 +2091,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_agent">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#394-397" title="Go to source code">get_user_agent</a>( )
+<a href="source-class-HTTPRequestCustom.php#393-396" title="Go to source code">get_user_agent</a>( )
 						</code>
 
 							<div class="description short">
@@ -2130,7 +2126,7 @@
 					<div>
 						<a class="anchor" href="#_get_url_referrer">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#399-402" title="Go to source code">get_url_referrer</a>( )
+<a href="source-class-HTTPRequestCustom.php#398-401" title="Go to source code">get_url_referrer</a>( )
 						</code>
 
 							<div class="description short">
@@ -2165,7 +2161,7 @@
 					<div>
 						<a class="anchor" href="#_is_mobile_device">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#404-407" title="Go to source code">is_mobile_device</a>( )
+<a href="source-class-HTTPRequestCustom.php#403-406" title="Go to source code">is_mobile_device</a>( )
 						</code>
 
 							<div class="description short">
@@ -2200,7 +2196,7 @@
 					<div>
 						<a class="anchor" href="#_is_search_engine_robot">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#409-412" title="Go to source code">is_search_engine_robot</a>( )
+<a href="source-class-HTTPRequestCustom.php#408-411" title="Go to source code">is_search_engine_robot</a>( )
 						</code>
 
 							<div class="description short">
@@ -2235,7 +2231,7 @@
 					<div>
 						<a class="anchor" href="#_get_ip_address">#</a>
 						<code>
-<a href="source-class-HTTPRequestCustom.php#414-470" title="Go to source code">get_ip_address</a>( )
+<a href="source-class-HTTPRequestCustom.php#413-469" title="Go to source code">get_ip_address</a>( )
 						</code>
 
 							<div class="description short">
@@ -2281,7 +2277,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#20" title="Go to source code"><b>bool</b></a>
+								<a href="source-class-HTTPRequestCustom.php#19" title="Go to source code"><b>bool</b></a>
 							</code>
 
 							<div class="description short">
@@ -2305,7 +2301,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#21" title="Go to source code"><b>int</b></a>
+								<a href="source-class-HTTPRequestCustom.php#20" title="Go to source code"><b>int</b></a>
 							</code>
 
 							<div class="description short">
@@ -2329,7 +2325,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#22" title="Go to source code"><b>float</b></a>
+								<a href="source-class-HTTPRequestCustom.php#21" title="Go to source code"><b>float</b></a>
 							</code>
 
 							<div class="description short">
@@ -2353,7 +2349,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#23" title="Go to source code"><b>string</b></a>
+								<a href="source-class-HTTPRequestCustom.php#22" title="Go to source code"><b>string</b></a>
 							</code>
 
 							<div class="description short">
@@ -2377,7 +2373,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#24" title="Go to source code"><b>t_array</b></a>
+								<a href="source-class-HTTPRequestCustom.php#23" title="Go to source code"><b>t_array</b></a>
 							</code>
 
 							<div class="description short">
@@ -2401,7 +2397,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPRequestCustom.php#25" title="Go to source code"><b>none</b></a>
+								<a href="source-class-HTTPRequestCustom.php#24" title="Go to source code"><b>none</b></a>
 							</code>
 
 							<div class="description short">

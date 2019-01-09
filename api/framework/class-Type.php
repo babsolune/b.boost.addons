@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Types.php">Types</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -694,7 +690,7 @@
 							<b>Link:</b>
 							<a href="https://www.doctrine-project.org">https://www.doctrine-project.org</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Type.php#3-180" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/Type.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Type.php#3-179" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/Type.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@ A Type object is obtained by calling the static <code><a href="class-Type.php#_g
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@ A Type object is obtained by calling the static <code><a href="class-Type.php#_g
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Type.php#49" title="Go to source code">__construct</a>( )
+<a href="source-class-Type.php#48" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@ A Type object is obtained by calling the static <code><a href="class-Type.php#_g
 					<div>
 						<a class="anchor" href="#_convertToDatabaseValue">#</a>
 						<code>
-<a href="source-class-Type.php#51-62" title="Go to source code">convertToDatabaseValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-Type.php#50-61" title="Go to source code">convertToDatabaseValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_convertToPHPValue">#</a>
 						<code>
-<a href="source-class-Type.php#64-75" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-Type.php#63-74" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -878,7 +874,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getDefaultLength">#</a>
 						<code>
-<a href="source-class-Type.php#77-85" title="Go to source code">getDefaultLength</a>( <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-Type.php#76-84" title="Go to source code">getDefaultLength</a>( <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -913,7 +909,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getSqlDeclaration">#</a>
 						<code>
-<a href="source-class-Type.php#87-93" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-Type.php#86-92" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -955,7 +951,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-Type.php#95-101" title="Go to source code">getName</a>( )
+<a href="source-class-Type.php#94-100" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">
@@ -994,7 +990,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getTypeCode">#</a>
 						<code>
-<a href="source-class-Type.php#103-111" title="Go to source code">getTypeCode</a>( )
+<a href="source-class-Type.php#102-110" title="Go to source code">getTypeCode</a>( )
 						</code>
 
 							<div class="description short">
@@ -1033,7 +1029,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getType">#</a>
 						<code>
-<a href="source-class-Type.php#113-132" title="Go to source code">getType</a>( <span>string <var>$name</var></span> )
+<a href="source-class-Type.php#112-131" title="Go to source code">getType</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1079,7 +1075,7 @@ Type instances are implemented as flyweights.</p>
 					<div>
 						<a class="anchor" href="#_addType">#</a>
 						<code>
-<a href="source-class-Type.php#134-150" title="Go to source code">addType</a>( <span>string <var>$name</var></span>, <span>string <var>$className</var></span> )
+<a href="source-class-Type.php#133-149" title="Go to source code">addType</a>( <span>string <var>$name</var></span>, <span>string <var>$className</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ Type instances are implemented as flyweights.</p>
 					<div>
 						<a class="anchor" href="#_hasType">#</a>
 						<code>
-<a href="source-class-Type.php#152-162" title="Go to source code">hasType</a>( <span>string <var>$name</var></span> )
+<a href="source-class-Type.php#151-161" title="Go to source code">hasType</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1170,7 +1166,7 @@ Type instances are implemented as flyweights.</p>
 					<div>
 						<a class="anchor" href="#_overrideType">#</a>
 						<code>
-<a href="source-class-Type.php#164-179" title="Go to source code">overrideType</a>( <span>string <var>$name</var></span>, <span>string <var>$className</var></span> )
+<a href="source-class-Type.php#163-178" title="Go to source code">overrideType</a>( <span>string <var>$name</var></span>, <span>string <var>$className</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1227,7 +1223,7 @@ Type instances are implemented as flyweights.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Type.php#20" title="Go to source code"><b>CODE_BOOL</b></a>
+								<a href="source-class-Type.php#19" title="Go to source code"><b>CODE_BOOL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1251,7 +1247,7 @@ Type instances are implemented as flyweights.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Type.php#21" title="Go to source code"><b>CODE_NULL</b></a>
+								<a href="source-class-Type.php#20" title="Go to source code"><b>CODE_NULL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1275,7 +1271,7 @@ Type instances are implemented as flyweights.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Type.php#22" title="Go to source code"><b>CODE_INT</b></a>
+								<a href="source-class-Type.php#21" title="Go to source code"><b>CODE_INT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1299,7 +1295,7 @@ Type instances are implemented as flyweights.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Type.php#23" title="Go to source code"><b>CODE_STR</b></a>
+								<a href="source-class-Type.php#22" title="Go to source code"><b>CODE_STR</b></a>
 							</code>
 
 							<div class="description short">
@@ -1323,7 +1319,7 @@ Type instances are implemented as flyweights.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Type.php#24" title="Go to source code"><b>CODE_LOB</b></a>
+								<a href="source-class-Type.php#23" title="Go to source code"><b>CODE_LOB</b></a>
 							</code>
 
 							<div class="description short">
@@ -1362,7 +1358,7 @@ Type instances are implemented as flyweights.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Type.php#26-27" title="Go to source code"><var>$_typeObjects</var></a>
+						<a href="source-class-Type.php#25-26" title="Go to source code"><var>$_typeObjects</var></a>
 
 					<div class="description short">
 						<p>Map of already instantiated type objects. One instance per type (flyweight).</p>

@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableSortingRule.php#3-49" title="Go to source code">builder/table/HTMLTableSortingRule.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableSortingRule.php#3-48" title="Go to source code">builder/table/HTMLTableSortingRule.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableSortingRule.php#24-28" title="Go to source code">__construct</a>( <span> <var>$sort_parameter</var></span>, <span> <var>$way</var> = self::ASC</span> )
+<a href="source-class-HTMLTableSortingRule.php#23-27" title="Go to source code">__construct</a>( <span> <var>$sort_parameter</var></span>, <span> <var>$way</var> = self::ASC</span> )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_get_sort_parameter">#</a>
 						<code>
-<a href="source-class-HTMLTableSortingRule.php#30-33" title="Go to source code">get_sort_parameter</a>( )
+<a href="source-class-HTMLTableSortingRule.php#29-32" title="Go to source code">get_sort_parameter</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@
 					<div>
 						<a class="anchor" href="#_get_order_way">#</a>
 						<code>
-<a href="source-class-HTMLTableSortingRule.php#35-38" title="Go to source code">get_order_way</a>( )
+<a href="source-class-HTMLTableSortingRule.php#34-37" title="Go to source code">get_order_way</a>( )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@
 					<div>
 						<a class="anchor" href="#_set_is_default_sorting">#</a>
 						<code>
-<a href="source-class-HTMLTableSortingRule.php#40-43" title="Go to source code">set_is_default_sorting</a>( <span> <var>$is_default_sorting</var></span> )
+<a href="source-class-HTMLTableSortingRule.php#39-42" title="Go to source code">set_is_default_sorting</a>( <span> <var>$is_default_sorting</var></span> )
 						</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@
 					<div>
 						<a class="anchor" href="#_is_default_sorting">#</a>
 						<code>
-<a href="source-class-HTMLTableSortingRule.php#45-48" title="Go to source code">is_default_sorting</a>( )
+<a href="source-class-HTMLTableSortingRule.php#44-47" title="Go to source code">is_default_sorting</a>( )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLTableSortingRule.php#17" title="Go to source code"><b>ASC</b></a>
+								<a href="source-class-HTMLTableSortingRule.php#16" title="Go to source code"><b>ASC</b></a>
 							</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLTableSortingRule.php#18" title="Go to source code"><b>DESC</b></a>
+								<a href="source-class-HTMLTableSortingRule.php#17" title="Go to source code"><b>DESC</b></a>
 							</code>
 
 							<div class="description short">

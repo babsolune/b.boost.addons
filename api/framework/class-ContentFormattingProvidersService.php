@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -682,7 +678,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 23
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingProvidersService.php#3-43" title="Go to source code">content/formatting/ContentFormattingProvidersService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingProvidersService.php#3-42" title="Go to source code">content/formatting/ContentFormattingProvidersService.class.php</a></span>
 			</div>
 
 
@@ -694,7 +690,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -716,7 +712,7 @@
 					<div>
 						<a class="anchor" href="#_create_factory">#</a>
 						<code>
-<a href="source-class-ContentFormattingProvidersService.php#15-18" title="Go to source code">create_factory</a>( <span> <var>$language</var></span> )
+<a href="source-class-ContentFormattingProvidersService.php#14-17" title="Go to source code">create_factory</a>( <span> <var>$language</var></span> )
 						</code>
 
 							<div class="description short">
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#_get_editor">#</a>
 						<code>
-<a href="source-class-ContentFormattingProvidersService.php#20-27" title="Go to source code">get_editor</a>( <span> <var>$id</var></span> )
+<a href="source-class-ContentFormattingProvidersService.php#19-26" title="Go to source code">get_editor</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -786,7 +782,7 @@
 					<div>
 						<a class="anchor" href="#_get_editors">#</a>
 						<code>
-<a href="source-class-ContentFormattingProvidersService.php#29-37" title="Go to source code">get_editors</a>( )
+<a href="source-class-ContentFormattingProvidersService.php#28-36" title="Go to source code">get_editors</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_get_extensions_point">#</a>
 						<code>
-<a href="source-class-ContentFormattingProvidersService.php#39-42" title="Go to source code">get_extensions_point</a>( )
+<a href="source-class-ContentFormattingProvidersService.php#38-41" title="Go to source code">get_extensions_point</a>( )
 						</code>
 
 							<div class="description short">

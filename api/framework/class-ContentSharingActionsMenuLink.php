@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Share.php">Share</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -691,7 +687,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuLink.php#3-82" title="Go to source code">content/share/ContentSharingActionsMenuLink.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuLink.php#3-81" title="Go to source code">content/share/ContentSharingActionsMenuLink.class.php</a></span>
 			</div>
 
 
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#25-42" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$name</var></span>, <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span>, <span> <var>$image_render_html</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$tpl</var> = <span class="php-keyword1">null</span></span>, <span> <var>$onclick_tag</var> = <span class="php-quote">'javascript:window.open(this.href, \'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700\');return false;'</span></span>, <span> <var>$kernel_element</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-ContentSharingActionsMenuLink.php#24-41" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$name</var></span>, <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span>, <span> <var>$image_render_html</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$tpl</var> = <span class="php-keyword1">null</span></span>, <span> <var>$onclick_tag</var> = <span class="php-quote">'javascript:window.open(this.href, \'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700\');return false;'</span></span>, <span> <var>$kernel_element</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#44-47" title="Go to source code">get_id</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#43-46" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#49-52" title="Go to source code">get_name</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#48-51" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#54-57" title="Go to source code">get_url</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#53-56" title="Go to source code">get_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_get_image_render_html">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#59-62" title="Go to source code">get_image_render_html</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#58-61" title="Go to source code">get_image_render_html</a>( )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_get_onclick_tag">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#64-67" title="Go to source code">get_onclick_tag</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#63-66" title="Go to source code">get_onclick_tag</a>( )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_export">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLink.php#69-81" title="Go to source code">export</a>( )
+<a href="source-class-ContentSharingActionsMenuLink.php#68-80" title="Go to source code">export</a>( )
 						</code>
 
 							<div class="description short">

@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Environment.php">Environment</a>\<a href="package-Core.Environment.context.php">context</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -682,7 +678,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 04 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PersistenceContext.php#3-79" title="Go to source code">core/environment/context/PersistenceContext.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PersistenceContext.php#3-78" title="Go to source code">core/environment/context/PersistenceContext.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -698,7 +694,7 @@ It's able to create each of them and return them.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_querier">#</a>
 						<code>
-<a href="source-class-PersistenceContext.php#30-41" title="Go to source code">get_querier</a>( )
+<a href="source-class-PersistenceContext.php#29-40" title="Go to source code">get_querier</a>( )
 						</code>
 
 							<div class="description short">
@@ -759,7 +755,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_dbms_utils">#</a>
 						<code>
-<a href="source-class-PersistenceContext.php#43-54" title="Go to source code">get_dbms_utils</a>( )
+<a href="source-class-PersistenceContext.php#42-53" title="Go to source code">get_dbms_utils</a>( )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_close_db_connection">#</a>
 						<code>
-<a href="source-class-PersistenceContext.php#56-65" title="Go to source code">close_db_connection</a>( )
+<a href="source-class-PersistenceContext.php#55-64" title="Go to source code">close_db_connection</a>( )
 						</code>
 
 							<div class="description short">

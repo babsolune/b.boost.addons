@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.store.php">store</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileSystemDataStore.php#3-114" title="Go to source code">io/data/store/FileSystemDataStore.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileSystemDataStore.php#3-113" title="Go to source code">io/data/store/FileSystemDataStore.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -740,7 +736,7 @@ It stores data in the /cache folder.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#25-29" title="Go to source code">__construct</a>( <span> <var>$id</var></span> )
+<a href="source-class-FileSystemDataStore.php#24-28" title="Go to source code">__construct</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#31-41" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
+<a href="source-class-FileSystemDataStore.php#30-40" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -847,7 +843,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#_contains">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#51-57" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
+<a href="source-class-FileSystemDataStore.php#50-56" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#_store">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#59-72" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$data</var></span> )
+<a href="source-class-FileSystemDataStore.php#58-71" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#74-86" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
+<a href="source-class-FileSystemDataStore.php#73-85" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -979,7 +975,7 @@ It stores data in the /cache folder.</p>
 					<div>
 						<a class="anchor" href="#_clear">#</a>
 						<code>
-<a href="source-class-FileSystemDataStore.php#88-99" title="Go to source code">clear</a>( )
+<a href="source-class-FileSystemDataStore.php#87-98" title="Go to source code">clear</a>( )
 						</code>
 
 							<div class="description short">

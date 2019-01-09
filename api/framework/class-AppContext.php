@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Environment.php">Environment</a>\<a href="package-Core.Environment.context.php">context</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -682,7 +678,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AppContext.php#3-260" title="Go to source code">core/environment/context/AppContext.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AppContext.php#3-259" title="Go to source code">core/environment/context/AppContext.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -698,7 +694,7 @@ It's able to create each of them and return them.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_uid">#</a>
 						<code>
-<a href="source-class-AppContext.php#64-72" title="Go to source code">get_uid</a>( )
+<a href="source-class-AppContext.php#63-71" title="Go to source code">get_uid</a>( )
 						</code>
 
 							<div class="description short">
@@ -759,7 +755,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_set_request">#</a>
 						<code>
-<a href="source-class-AppContext.php#74-81" title="Go to source code">set_request</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AppContext.php#73-80" title="Go to source code">set_request</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_request">#</a>
 						<code>
-<a href="source-class-AppContext.php#83-94" title="Go to source code">get_request</a>( )
+<a href="source-class-AppContext.php#82-93" title="Go to source code">get_request</a>( )
 						</code>
 
 							<div class="description short">
@@ -850,7 +846,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_set_response">#</a>
 						<code>
-<a href="source-class-AppContext.php#96-103" title="Go to source code">set_response</a>( <span><code><a href="class-HTTPResponseCustom.php">HTTPResponseCustom</a></code> <var>$response</var></span> )
+<a href="source-class-AppContext.php#95-102" title="Go to source code">set_response</a>( <span><code><a href="class-HTTPResponseCustom.php">HTTPResponseCustom</a></code> <var>$response</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_response">#</a>
 						<code>
-<a href="source-class-AppContext.php#105-116" title="Go to source code">get_response</a>( )
+<a href="source-class-AppContext.php#104-115" title="Go to source code">get_response</a>( )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_init_bench">#</a>
 						<code>
-<a href="source-class-AppContext.php#118-125" title="Go to source code">init_bench</a>( )
+<a href="source-class-AppContext.php#117-124" title="Go to source code">init_bench</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_bench">#</a>
 						<code>
-<a href="source-class-AppContext.php#127-134" title="Go to source code">get_bench</a>( )
+<a href="source-class-AppContext.php#126-133" title="Go to source code">get_bench</a>( )
 						</code>
 
 							<div class="description short">
@@ -1015,7 +1011,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_set_session">#</a>
 						<code>
-<a href="source-class-AppContext.php#136-142" title="Go to source code">set_session</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
+<a href="source-class-AppContext.php#135-141" title="Go to source code">set_session</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1050,7 +1046,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_session">#</a>
 						<code>
-<a href="source-class-AppContext.php#144-151" title="Go to source code">get_session</a>( )
+<a href="source-class-AppContext.php#143-150" title="Go to source code">get_session</a>( )
 						</code>
 
 							<div class="description short">
@@ -1089,7 +1085,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_init_current_user">#</a>
 						<code>
-<a href="source-class-AppContext.php#153-159" title="Go to source code">init_current_user</a>( )
+<a href="source-class-AppContext.php#152-158" title="Go to source code">init_current_user</a>( )
 						</code>
 
 							<div class="description short">
@@ -1124,7 +1120,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_current_user">#</a>
 						<code>
-<a href="source-class-AppContext.php#161-172" title="Go to source code">get_current_user</a>( )
+<a href="source-class-AppContext.php#160-171" title="Go to source code">get_current_user</a>( )
 						</code>
 
 							<div class="description short">
@@ -1163,7 +1159,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_set_current_user">#</a>
 						<code>
-<a href="source-class-AppContext.php#174-177" title="Go to source code">set_current_user</a>( <span> <var>$current_user</var></span> )
+<a href="source-class-AppContext.php#173-176" title="Go to source code">set_current_user</a>( <span> <var>$current_user</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1198,7 +1194,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_cache_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#179-190" title="Go to source code">get_cache_service</a>( )
+<a href="source-class-AppContext.php#178-189" title="Go to source code">get_cache_service</a>( )
 						</code>
 
 							<div class="description short">
@@ -1237,7 +1233,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_set_cache_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#192-195" title="Go to source code">set_cache_service</a>( <span><code><a href="class-CacheService.php">CacheService</a></code> <var>$cache_service</var></span> )
+<a href="source-class-AppContext.php#191-194" title="Go to source code">set_cache_service</a>( <span><code><a href="class-CacheService.php">CacheService</a></code> <var>$cache_service</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1272,7 +1268,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_init_extension_provider_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#197-203" title="Go to source code">init_extension_provider_service</a>( )
+<a href="source-class-AppContext.php#196-202" title="Go to source code">init_extension_provider_service</a>( )
 						</code>
 
 							<div class="description short">
@@ -1307,7 +1303,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_extension_provider_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#205-215" title="Go to source code">get_extension_provider_service</a>( )
+<a href="source-class-AppContext.php#204-214" title="Go to source code">get_extension_provider_service</a>( )
 						</code>
 
 							<div class="description short">
@@ -1346,7 +1342,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_mail_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#217-235" title="Go to source code">get_mail_service</a>( )
+<a href="source-class-AppContext.php#216-234" title="Go to source code">get_mail_service</a>( )
 						</code>
 
 							<div class="description short">
@@ -1385,7 +1381,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_content_formatting_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#237-247" title="Go to source code">get_content_formatting_service</a>( )
+<a href="source-class-AppContext.php#236-246" title="Go to source code">get_content_formatting_service</a>( )
 						</code>
 
 							<div class="description short">
@@ -1424,7 +1420,7 @@ It's able to create each of them and return them.</p>
 					<div>
 						<a class="anchor" href="#_get_captcha_service">#</a>
 						<code>
-<a href="source-class-AppContext.php#249-259" title="Go to source code">get_captcha_service</a>( )
+<a href="source-class-AppContext.php#248-258" title="Go to source code">get_captcha_service</a>( )
 						</code>
 
 							<div class="description short">

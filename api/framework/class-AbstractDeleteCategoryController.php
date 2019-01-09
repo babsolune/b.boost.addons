@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a>\<a href="package-Content.Category.controllers.php">controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractDeleteCategoryController.php#3-235" title="Go to source code">content/category/controllers/AbstractDeleteCategoryController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractDeleteCategoryController.php#3-234" title="Go to source code">content/category/controllers/AbstractDeleteCategoryController.class.php</a></span>
 			</div>
 
 
@@ -727,7 +723,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#28-85" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AbstractDeleteCategoryController.php#27-84" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#148-154" title="Go to source code">get_title</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#147-153" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#156-162" title="Go to source code">get_description</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#155-161" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@
 					<div>
 						<a class="anchor" href="#_get_success_message">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#164-170" title="Go to source code">get_success_message</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#163-169" title="Go to source code">get_success_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -910,7 +906,7 @@
 					<div>
 						<a class="anchor" href="#_clear_cache">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#172-178" title="Go to source code">clear_cache</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#171-177" title="Go to source code">clear_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -949,7 +945,7 @@
 					<div>
 						<a class="anchor" href="#_generate_response">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#180-198" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
+<a href="source-class-AbstractDeleteCategoryController.php#179-197" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_category">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#200-203" title="Go to source code">get_id_category</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#199-202" title="Go to source code">get_id_category</a>( )
 						</code>
 
 							<div class="description short">
@@ -1032,7 +1028,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_manager">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#205-208" title="Go to source code">get_categories_manager</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#204-207" title="Go to source code">get_categories_manager</a>( )
 						</code>
 
 							<div class="description short">
@@ -1071,7 +1067,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_management_url">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#210-213" title="Go to source code">get_categories_management_url</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#209-212" title="Go to source code">get_categories_management_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1110,7 +1106,7 @@
 					<div>
 						<a class="anchor" href="#_get_delete_category_url">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#215-219" title="Go to source code">get_delete_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-AbstractDeleteCategoryController.php#214-218" title="Go to source code">get_delete_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1154,7 +1150,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_url">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#221-224" title="Go to source code">get_module_home_page_url</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#220-223" title="Go to source code">get_module_home_page_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1193,7 +1189,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_title">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#226-229" title="Go to source code">get_module_home_page_title</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#225-228" title="Go to source code">get_module_home_page_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1232,7 +1228,7 @@
 					<div>
 						<a class="anchor" href="#_check_authorizations">#</a>
 						<code>
-<a href="source-class-AbstractDeleteCategoryController.php#231-234" title="Go to source code">check_authorizations</a>( )
+<a href="source-class-AbstractDeleteCategoryController.php#230-233" title="Go to source code">check_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1302,7 +1298,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractDeleteCategoryController.php#17-20" title="Go to source code"><var>$form</var></a>
+						<a href="source-class-AbstractDeleteCategoryController.php#16-19" title="Go to source code"><var>$form</var></a>
 
 					<div class="description short">
 						

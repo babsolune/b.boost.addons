@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.loader.php">loader</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringTemplateLoader.php#3-87" title="Go to source code">io/template/loader/StringTemplateLoader.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringTemplateLoader.php#3-86" title="Go to source code">io/template/loader/StringTemplateLoader.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@ It doesn't supports caching so it always parses the input source.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@ It doesn't supports caching so it always parses the input source.</p>
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-StringTemplateLoader.php#24-27" title="Go to source code">__static</a>( )
+<a href="source-class-StringTemplateLoader.php#23-26" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@ It doesn't supports caching so it always parses the input source.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-StringTemplateLoader.php#29-37" title="Go to source code">__construct</a>( <span>string <var>$content</var></span> )
+<a href="source-class-StringTemplateLoader.php#28-36" title="Go to source code">__construct</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@ It doesn't supports caching so it always parses the input source.</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-StringTemplateLoader.php#39-55" title="Go to source code">load</a>( )
+<a href="source-class-StringTemplateLoader.php#38-54" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@ It doesn't supports caching so it always parses the input source.</p>
 					<div>
 						<a class="anchor" href="#_supports_caching">#</a>
 						<code>
-<a href="source-class-StringTemplateLoader.php#72-78" title="Go to source code">supports_caching</a>( )
+<a href="source-class-StringTemplateLoader.php#71-77" title="Go to source code">supports_caching</a>( )
 						</code>
 
 							<div class="description short">
@@ -919,7 +915,7 @@ It doesn't supports caching so it always parses the input source.</p>
 					<div>
 						<a class="anchor" href="#_get_cache_file_path">#</a>
 						<code>
-<a href="source-class-StringTemplateLoader.php#80-86" title="Go to source code">get_cache_file_path</a>( )
+<a href="source-class-StringTemplateLoader.php#79-85" title="Go to source code">get_cache_file_path</a>( )
 						</code>
 
 							<div class="description short">

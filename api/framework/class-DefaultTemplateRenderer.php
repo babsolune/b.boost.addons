@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.renderer.php">renderer</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -702,7 +698,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DefaultTemplateRenderer.php#3-77" title="Go to source code">io/template/renderer/DefaultTemplateRenderer.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DefaultTemplateRenderer.php#3-76" title="Go to source code">io/template/renderer/DefaultTemplateRenderer.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -728,7 +724,7 @@ if it doesn't support it, it simply evals the template code.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@ if it doesn't support it, it simply evals the template code.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-DefaultTemplateRenderer.php#25-28" title="Go to source code">__construct</a>( )
+<a href="source-class-DefaultTemplateRenderer.php#24-27" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@ if it doesn't support it, it simply evals the template code.</p>
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-DefaultTemplateRenderer.php#30-43" title="Go to source code">render</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span>, <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span> )
+<a href="source-class-DefaultTemplateRenderer.php#29-42" title="Go to source code">render</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span>, <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span> )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@ if it doesn't support it, it simply evals the template code.</p>
 					<div>
 						<a class="anchor" href="#_add_lang">#</a>
 						<code>
-<a href="source-class-DefaultTemplateRenderer.php#45-51" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-DefaultTemplateRenderer.php#44-50" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">

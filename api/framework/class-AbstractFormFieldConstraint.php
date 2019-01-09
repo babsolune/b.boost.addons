@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 03 09
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldConstraint.php#3-30" title="Go to source code">builder/form/field/constraint/AbstractFormFieldConstraint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldConstraint.php#3-29" title="Go to source code">builder/form/field/constraint/AbstractFormFieldConstraint.class.php</a></span>
 			</div>
 
 
@@ -765,7 +761,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldConstraint.php#17" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-AbstractFormFieldConstraint.php#16" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldConstraint.php#19" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-AbstractFormFieldConstraint.php#18" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_get_validation_error_message">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldConstraint.php#21-24" title="Go to source code">get_validation_error_message</a>( )
+<a href="source-class-AbstractFormFieldConstraint.php#20-23" title="Go to source code">get_validation_error_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_set_validation_error_message">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldConstraint.php#26-29" title="Go to source code">set_validation_error_message</a>( <span> <var>$error_message</var></span> )
+<a href="source-class-AbstractFormFieldConstraint.php#25-28" title="Go to source code">set_validation_error_message</a>( <span> <var>$error_message</var></span> )
 						</code>
 
 							<div class="description short">

@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -732,7 +728,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberUserAvatarExtendedField.php#3-211" title="Go to source code">phpboost/member/extended-fields/field/MemberUserAvatarExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberUserAvatarExtendedField.php#3-210" title="Go to source code">phpboost/member/extended-fields/field/MemberUserAvatarExtendedField.class.php</a></span>
 			</div>
 
 
@@ -760,7 +756,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberUserAvatarExtendedField.php#18-25" title="Go to source code">__construct</a>( )
+<a href="source-class-MemberUserAvatarExtendedField.php#17-24" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_create">#</a>
 						<code>
-<a href="source-class-MemberUserAvatarExtendedField.php#27-41" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserAvatarExtendedField.php#26-40" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_update">#</a>
 						<code>
-<a href="source-class-MemberUserAvatarExtendedField.php#43-63" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserAvatarExtendedField.php#42-62" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -907,7 +903,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_profile">#</a>
 						<code>
-<a href="source-class-MemberUserAvatarExtendedField.php#65-86" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserAvatarExtendedField.php#64-85" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -949,7 +945,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-MemberUserAvatarExtendedField.php#88-100" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserAvatarExtendedField.php#87-99" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">

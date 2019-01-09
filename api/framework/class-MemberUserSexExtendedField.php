@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -728,7 +724,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberUserSexExtendedField.php#3-85" title="Go to source code">phpboost/member/extended-fields/field/MemberUserSexExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberUserSexExtendedField.php#3-84" title="Go to source code">phpboost/member/extended-fields/field/MemberUserSexExtendedField.class.php</a></span>
 			</div>
 
 
@@ -756,7 +752,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberUserSexExtendedField.php#17-24" title="Go to source code">__construct</a>( )
+<a href="source-class-MemberUserSexExtendedField.php#16-23" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_create">#</a>
 						<code>
-<a href="source-class-MemberUserSexExtendedField.php#26-38" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserSexExtendedField.php#25-37" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_update">#</a>
 						<code>
-<a href="source-class-MemberUserSexExtendedField.php#40-52" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserSexExtendedField.php#39-51" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_profile">#</a>
 						<code>
-<a href="source-class-MemberUserSexExtendedField.php#54-60" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserSexExtendedField.php#53-59" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-MemberUserSexExtendedField.php#62-69" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberUserSexExtendedField.php#61-68" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">

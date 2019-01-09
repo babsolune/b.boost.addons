@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.fieldset.php">fieldset</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2018 10 26
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldsetHTMLHeading.php#3-43" title="Go to source code">builder/form/fieldset/FormFieldsetHTMLHeading.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldsetHTMLHeading.php#3-42" title="Go to source code">builder/form/fieldset/FormFieldsetHTMLHeading.class.php</a></span>
 			</div>
 
 
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTMLHeading.php#15-22" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldsetHTMLHeading.php#14-21" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldsetHTMLHeading.php#24-42" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var>,…</span> )
+<a href="source-class-FormFieldsetHTMLHeading.php#23-41" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var>,…</span> )
 						</code>
 
 							<div class="description short">

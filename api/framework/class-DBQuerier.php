@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 05
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBQuerier.php#3-252" title="Go to source code">io/db/DBQuerier.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBQuerier.php#3-251" title="Go to source code">io/db/DBQuerier.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -740,7 +736,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#21-24" title="Go to source code">__construct</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
+<a href="source-class-DBQuerier.php#20-23" title="Go to source code">__construct</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_select">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#26-32" title="Go to source code">select</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$fetch_mode</var> = SelectQueryResult::FETCH_ASSOC</span> )
+<a href="source-class-DBQuerier.php#25-31" title="Go to source code">select</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$fetch_mode</var> = SelectQueryResult::FETCH_ASSOC</span> )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_inject">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#34-40" title="Go to source code">inject</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#33-39" title="Go to source code">inject</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -947,7 +943,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_enable_query_translator">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#42-48" title="Go to source code">enable_query_translator</a>( )
+<a href="source-class-DBQuerier.php#41-47" title="Go to source code">enable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_disable_query_translator">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#50-56" title="Go to source code">disable_query_translator</a>( )
+<a href="source-class-DBQuerier.php#49-55" title="Go to source code">disable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -1021,7 +1017,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_get_executed_requests_count">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#58-64" title="Go to source code">get_executed_requests_count</a>( )
+<a href="source-class-DBQuerier.php#57-63" title="Go to source code">get_executed_requests_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -1058,7 +1054,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_truncate">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#66-74" title="Go to source code">truncate</a>( <span>string <var>$table_name</var></span> )
+<a href="source-class-DBQuerier.php#65-73" title="Go to source code">truncate</a>( <span>string <var>$table_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1098,7 +1094,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_insert">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#76-88" title="Go to source code">insert</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span> )
+<a href="source-class-DBQuerier.php#75-87" title="Go to source code">insert</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1152,7 +1148,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#90-111" title="Go to source code">update</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#89-110" title="Go to source code">update</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1221,7 +1217,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#113-125" title="Go to source code">delete</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#112-124" title="Go to source code">delete</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1284,7 +1280,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_select_single_row">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#127-153" title="Go to source code">select_single_row</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#126-152" title="Go to source code">select_single_row</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1353,7 +1349,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_select_single_row_query">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#155-178" title="Go to source code">select_single_row_query</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#154-177" title="Go to source code">select_single_row_query</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1407,7 +1403,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_row_exists">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#180-191" title="Go to source code">row_exists</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#179-190" title="Go to source code">row_exists</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1458,7 +1454,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_get_column_value">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#193-207" title="Go to source code">get_column_value</a>( <span>string <var>$table_name</var></span>, <span>string <var>$column</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#192-206" title="Go to source code">get_column_value</a>( <span>string <var>$table_name</var></span>, <span>string <var>$column</var></span>, <span>string <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1535,7 +1531,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_select_rows">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#209-224" title="Go to source code">select_rows</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var> = <span class="php-quote">'WHERE 1'</span></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DBQuerier.php#208-223" title="Go to source code">select_rows</a>( <span>string <var>$table_name</var></span>, <span>array <var>$columns</var></span>, <span>string <var>$condition</var> = <span class="php-quote">'WHERE 1'</span></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1604,7 +1600,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_count">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#226-246" title="Go to source code">count</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var> = <span class="php-quote">'WHERE 1'</span></span>, <span>string <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span>string[string] <var>$count_column</var> = <span class="php-quote">'*'</span></span> )
+<a href="source-class-DBQuerier.php#225-245" title="Go to source code">count</a>( <span>string <var>$table_name</var></span>, <span>string <var>$condition</var> = <span class="php-quote">'WHERE 1'</span></span>, <span>string <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span>string[string] <var>$count_column</var> = <span class="php-quote">'*'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1673,7 +1669,7 @@ For example,</p>
 					<div>
 						<a class="anchor" href="#_get_querier">#</a>
 						<code>
-<a href="source-class-DBQuerier.php#248-251" title="Go to source code">get_querier</a>( )
+<a href="source-class-DBQuerier.php#247-250" title="Go to source code">get_querier</a>( )
 						</code>
 
 							<div class="description short">

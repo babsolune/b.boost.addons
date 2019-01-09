@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ScheduledJobExtensionPoint.php#3-34" title="Go to source code">core/ScheduledJobExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ScheduledJobExtensionPoint.php#3-33" title="Go to source code">core/ScheduledJobExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_on_changeday">#</a>
 						<code>
-<a href="source-class-ScheduledJobExtensionPoint.php#16-21" title="Go to source code">on_changeday</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$yesterday</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$today</var></span> )
+<a href="source-class-ScheduledJobExtensionPoint.php#15-20" title="Go to source code">on_changeday</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$yesterday</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$today</var></span> )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@
 					<div>
 						<a class="anchor" href="#_on_changepage">#</a>
 						<code>
-<a href="source-class-ScheduledJobExtensionPoint.php#23-26" title="Go to source code">on_changepage</a>( )
+<a href="source-class-ScheduledJobExtensionPoint.php#22-25" title="Go to source code">on_changepage</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_on_new_session">#</a>
 						<code>
-<a href="source-class-ScheduledJobExtensionPoint.php#28-33" title="Go to source code">on_new_session</a>( <span>boolean <var>$new_visitor</var></span>, <span>boolean <var>$is_robot</var></span> )
+<a href="source-class-ScheduledJobExtensionPoint.php#27-32" title="Go to source code">on_new_session</a>( <span>boolean <var>$new_visitor</var></span>, <span>boolean <var>$is_robot</var></span> )
 						</code>
 
 							<div class="description short">
@@ -872,7 +868,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ScheduledJobExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-ScheduledJobExtensionPoint.php#13" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

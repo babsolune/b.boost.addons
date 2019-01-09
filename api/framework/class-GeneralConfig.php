@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-GeneralConfig.php#3-217" title="Go to source code">phpboost/config/GeneralConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-GeneralConfig.php#3-216" title="Go to source code">phpboost/config/GeneralConfig.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_url">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#28-31" title="Go to source code">get_site_url</a>( )
+<a href="source-class-GeneralConfig.php#27-30" title="Go to source code">get_site_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_get_complete_site_url">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#33-36" title="Go to source code">get_complete_site_url</a>( )
+<a href="source-class-GeneralConfig.php#32-35" title="Go to source code">get_complete_site_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_is_site_url_https">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#38-41" title="Go to source code">is_site_url_https</a>( )
+<a href="source-class-GeneralConfig.php#37-40" title="Go to source code">is_site_url_https</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_url">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#43-49" title="Go to source code">set_site_url</a>( <span>string <var>$url</var></span> )
+<a href="source-class-GeneralConfig.php#42-48" title="Go to source code">set_site_url</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_path">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#51-54" title="Go to source code">get_site_path</a>( )
+<a href="source-class-GeneralConfig.php#50-53" title="Go to source code">get_site_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -938,7 +934,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_path">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#56-62" title="Go to source code">set_site_path</a>( <span>string <var>$path</var></span> )
+<a href="source-class-GeneralConfig.php#55-61" title="Go to source code">set_site_path</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -978,7 +974,7 @@
 					<div>
 						<a class="anchor" href="#_get_phpboost_major_version">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#64-67" title="Go to source code">get_phpboost_major_version</a>( )
+<a href="source-class-GeneralConfig.php#63-66" title="Go to source code">get_phpboost_major_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 					<div>
 						<a class="anchor" href="#_set_phpboost_major_version">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#69-72" title="Go to source code">set_phpboost_major_version</a>( <span> <var>$version</var></span> )
+<a href="source-class-GeneralConfig.php#68-71" title="Go to source code">set_phpboost_major_version</a>( <span> <var>$version</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_install_date">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#74-80" title="Go to source code">get_site_install_date</a>( )
+<a href="source-class-GeneralConfig.php#73-79" title="Go to source code">get_site_install_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1087,7 +1083,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_install_date">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#82-85" title="Go to source code">set_site_install_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-GeneralConfig.php#81-84" title="Go to source code">set_site_install_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1122,7 +1118,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_timezone">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#87-90" title="Go to source code">get_site_timezone</a>( )
+<a href="source-class-GeneralConfig.php#86-89" title="Go to source code">get_site_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -1157,7 +1153,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_timezone">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#92-95" title="Go to source code">set_site_timezone</a>( <span> <var>$timezone</var></span> )
+<a href="source-class-GeneralConfig.php#91-94" title="Go to source code">set_site_timezone</a>( <span> <var>$timezone</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1192,7 +1188,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#97-117" title="Go to source code">get_default_values</a>( )
+<a href="source-class-GeneralConfig.php#96-116" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1231,7 +1227,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_site_url">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#119-122" title="Go to source code">get_default_site_url</a>( )
+<a href="source-class-GeneralConfig.php#118-121" title="Go to source code">get_default_site_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1266,7 +1262,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_site_path">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#124-132" title="Go to source code">get_default_site_path</a>( )
+<a href="source-class-GeneralConfig.php#123-131" title="Go to source code">get_default_site_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -1301,7 +1297,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_name">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#151-154" title="Go to source code">get_site_name</a>( )
+<a href="source-class-GeneralConfig.php#150-153" title="Go to source code">get_site_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1336,7 +1332,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_name">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#156-159" title="Go to source code">set_site_name</a>( <span> <var>$site_name</var></span> )
+<a href="source-class-GeneralConfig.php#155-158" title="Go to source code">set_site_name</a>( <span> <var>$site_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1371,7 +1367,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_slogan">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#161-164" title="Go to source code">get_site_slogan</a>( )
+<a href="source-class-GeneralConfig.php#160-163" title="Go to source code">get_site_slogan</a>( )
 						</code>
 
 							<div class="description short">
@@ -1406,7 +1402,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_slogan">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#166-169" title="Go to source code">set_site_slogan</a>( <span> <var>$site_slogan</var></span> )
+<a href="source-class-GeneralConfig.php#165-168" title="Go to source code">set_site_slogan</a>( <span> <var>$site_slogan</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1441,7 +1437,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_description">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#171-174" title="Go to source code">get_site_description</a>( )
+<a href="source-class-GeneralConfig.php#170-173" title="Go to source code">get_site_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1476,7 +1472,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_description">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#176-179" title="Go to source code">set_site_description</a>( <span> <var>$site_description</var></span> )
+<a href="source-class-GeneralConfig.php#175-178" title="Go to source code">set_site_description</a>( <span> <var>$site_description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1511,7 +1507,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#181-184" title="Go to source code">get_module_home_page</a>( )
+<a href="source-class-GeneralConfig.php#180-183" title="Go to source code">get_module_home_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1546,7 +1542,7 @@
 					<div>
 						<a class="anchor" href="#_set_module_home_page">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#186-189" title="Go to source code">set_module_home_page</a>( <span> <var>$start_page</var></span> )
+<a href="source-class-GeneralConfig.php#185-188" title="Go to source code">set_module_home_page</a>( <span> <var>$start_page</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1581,7 +1577,7 @@
 					<div>
 						<a class="anchor" href="#_get_other_home_page">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#191-194" title="Go to source code">get_other_home_page</a>( )
+<a href="source-class-GeneralConfig.php#190-193" title="Go to source code">get_other_home_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1616,7 +1612,7 @@
 					<div>
 						<a class="anchor" href="#_set_other_home_page">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#196-199" title="Go to source code">set_other_home_page</a>( <span> <var>$start_page</var></span> )
+<a href="source-class-GeneralConfig.php#195-198" title="Go to source code">set_other_home_page</a>( <span> <var>$start_page</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1651,7 +1647,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#201-208" title="Go to source code">load</a>( )
+<a href="source-class-GeneralConfig.php#200-207" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1690,7 +1686,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-GeneralConfig.php#210-216" title="Go to source code">save</a>( )
+<a href="source-class-GeneralConfig.php#209-215" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1750,7 +1746,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#17" title="Go to source code"><b>SITE_URL</b></a>
+								<a href="source-class-GeneralConfig.php#16" title="Go to source code"><b>SITE_URL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1774,7 +1770,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#18" title="Go to source code"><b>SITE_PATH</b></a>
+								<a href="source-class-GeneralConfig.php#17" title="Go to source code"><b>SITE_PATH</b></a>
 							</code>
 
 							<div class="description short">
@@ -1798,7 +1794,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#19" title="Go to source code"><b>SITE_NAME</b></a>
+								<a href="source-class-GeneralConfig.php#18" title="Go to source code"><b>SITE_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -1822,7 +1818,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#20" title="Go to source code"><b>SITE_SLOGAN</b></a>
+								<a href="source-class-GeneralConfig.php#19" title="Go to source code"><b>SITE_SLOGAN</b></a>
 							</code>
 
 							<div class="description short">
@@ -1846,7 +1842,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#21" title="Go to source code"><b>SITE_DESCRIPTION</b></a>
+								<a href="source-class-GeneralConfig.php#20" title="Go to source code"><b>SITE_DESCRIPTION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1870,7 +1866,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#22" title="Go to source code"><b>MODULE_HOME_PAGE</b></a>
+								<a href="source-class-GeneralConfig.php#21" title="Go to source code"><b>MODULE_HOME_PAGE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1894,7 +1890,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#23" title="Go to source code"><b>OTHER_HOME_PAGE</b></a>
+								<a href="source-class-GeneralConfig.php#22" title="Go to source code"><b>OTHER_HOME_PAGE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1918,7 +1914,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#24" title="Go to source code"><b>PHPBOOST_VERSION</b></a>
+								<a href="source-class-GeneralConfig.php#23" title="Go to source code"><b>PHPBOOST_VERSION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1942,7 +1938,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#25" title="Go to source code"><b>SITE_INSTALL_DATE</b></a>
+								<a href="source-class-GeneralConfig.php#24" title="Go to source code"><b>SITE_INSTALL_DATE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1966,7 +1962,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GeneralConfig.php#26" title="Go to source code"><b>SITE_TIMEZONE</b></a>
+								<a href="source-class-GeneralConfig.php#25" title="Go to source code"><b>SITE_TIMEZONE</b></a>
 							</code>
 
 							<div class="description short">

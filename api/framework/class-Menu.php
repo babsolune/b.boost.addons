@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Menu.php#3-255" title="Go to source code">phpboost/menu/Menu.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Menu.php#3-256" title="Go to source code">phpboost/menu/Menu.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Menu.php#82-91" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$id</var>,…</span> )
+<a href="source-class-Menu.php#81-90" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$id</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -781,7 +777,7 @@
 					<div>
 						<a class="anchor" href="#_need_cached_string">#</a>
 						<code>
-<a href="source-class-Menu.php#93-100" title="Go to source code">need_cached_string</a>( )
+<a href="source-class-Menu.php#92-99" title="Go to source code">need_cached_string</a>( )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-Menu.php#102-106" title="Go to source code">display</a>( )
+<a href="source-class-Menu.php#101-106" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1761,7 +1757,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-Menu.php#250-254" title="Go to source code">get_default_template</a>( )
+<a href="source-class-Menu.php#250-255" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1811,7 +1807,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#17" title="Go to source code"><b>MENU_AUTH_BIT</b></a>
+								<a href="source-class-Menu.php#16" title="Go to source code"><b>MENU_AUTH_BIT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1835,7 +1831,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#18" title="Go to source code"><b>MENU_ENABLE_OR_NOT</b></a>
+								<a href="source-class-Menu.php#17" title="Go to source code"><b>MENU_ENABLE_OR_NOT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1859,7 +1855,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#19" title="Go to source code"><b>MENU_ENABLED</b></a>
+								<a href="source-class-Menu.php#18" title="Go to source code"><b>MENU_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1883,7 +1879,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#20" title="Go to source code"><b>MENU_NOT_ENABLED</b></a>
+								<a href="source-class-Menu.php#19" title="Go to source code"><b>MENU_NOT_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1907,7 +1903,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#22" title="Go to source code"><b>BLOCK_POSITION__NOT_ENABLED</b></a>
+								<a href="source-class-Menu.php#21" title="Go to source code"><b>BLOCK_POSITION__NOT_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1931,7 +1927,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#23" title="Go to source code"><b>BLOCK_POSITION__HEADER</b></a>
+								<a href="source-class-Menu.php#22" title="Go to source code"><b>BLOCK_POSITION__HEADER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1955,7 +1951,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#24" title="Go to source code"><b>BLOCK_POSITION__SUB_HEADER</b></a>
+								<a href="source-class-Menu.php#23" title="Go to source code"><b>BLOCK_POSITION__SUB_HEADER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1979,7 +1975,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#25" title="Go to source code"><b>BLOCK_POSITION__TOP_CENTRAL</b></a>
+								<a href="source-class-Menu.php#24" title="Go to source code"><b>BLOCK_POSITION__TOP_CENTRAL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2003,7 +1999,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#26" title="Go to source code"><b>BLOCK_POSITION__BOTTOM_CENTRAL</b></a>
+								<a href="source-class-Menu.php#25" title="Go to source code"><b>BLOCK_POSITION__BOTTOM_CENTRAL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2027,7 +2023,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#27" title="Go to source code"><b>BLOCK_POSITION__TOP_FOOTER</b></a>
+								<a href="source-class-Menu.php#26" title="Go to source code"><b>BLOCK_POSITION__TOP_FOOTER</b></a>
 							</code>
 
 							<div class="description short">
@@ -2051,7 +2047,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#28" title="Go to source code"><b>BLOCK_POSITION__FOOTER</b></a>
+								<a href="source-class-Menu.php#27" title="Go to source code"><b>BLOCK_POSITION__FOOTER</b></a>
 							</code>
 
 							<div class="description short">
@@ -2075,7 +2071,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#29" title="Go to source code"><b>BLOCK_POSITION__LEFT</b></a>
+								<a href="source-class-Menu.php#28" title="Go to source code"><b>BLOCK_POSITION__LEFT</b></a>
 							</code>
 
 							<div class="description short">
@@ -2099,7 +2095,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#30" title="Go to source code"><b>BLOCK_POSITION__RIGHT</b></a>
+								<a href="source-class-Menu.php#29" title="Go to source code"><b>BLOCK_POSITION__RIGHT</b></a>
 							</code>
 
 							<div class="description short">
@@ -2123,7 +2119,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#31" title="Go to source code"><b>BLOCK_POSITION__ALL</b></a>
+								<a href="source-class-Menu.php#30" title="Go to source code"><b>BLOCK_POSITION__ALL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2147,7 +2143,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Menu.php#33" title="Go to source code"><b>MENU__CLASS</b></a>
+								<a href="source-class-Menu.php#32" title="Go to source code"><b>MENU__CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -2186,7 +2182,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#35-39" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-Menu.php#34-38" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						<p>the element identifier, only used by the service</p>
@@ -2213,7 +2209,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#40-44" title="Go to source code"><var>$title</var></a>
+						<a href="source-class-Menu.php#39-43" title="Go to source code"><var>$title</var></a>
 
 					<div class="description short">
 						<p>the Menu title</p>
@@ -2240,7 +2236,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#45-49" title="Go to source code"><var>$auth</var></a>
+						<a href="source-class-Menu.php#44-48" title="Go to source code"><var>$auth</var></a>
 
 					<div class="description short">
 						<p>Represents the Menu authorisations array</p>
@@ -2267,7 +2263,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#50-54" title="Go to source code"><var>$enabled</var></a>
+						<a href="source-class-Menu.php#49-53" title="Go to source code"><var>$enabled</var></a>
 
 					<div class="description short">
 						<p>true if the Menu is used</p>
@@ -2294,7 +2290,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#55-59" title="Go to source code"><var>$block</var></a>
+						<a href="source-class-Menu.php#54-58" title="Go to source code"><var>$block</var></a>
 
 					<div class="description short">
 						<p>The Menu block position</p>
@@ -2321,7 +2317,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#60-64" title="Go to source code"><var>$position</var></a>
+						<a href="source-class-Menu.php#59-63" title="Go to source code"><var>$position</var></a>
 
 					<div class="description short">
 						<p>The Menu position on the website</p>
@@ -2348,7 +2344,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#65-69" title="Go to source code"><var>$hidden_with_small_screens</var></a>
+						<a href="source-class-Menu.php#64-68" title="Go to source code"><var>$hidden_with_small_screens</var></a>
 
 					<div class="description short">
 						<p>menu hidden or not with small screens</p>
@@ -2375,7 +2371,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#70-74" title="Go to source code"><var>$filters</var></a>
+						<a href="source-class-Menu.php#69-73" title="Go to source code"><var>$filters</var></a>
 
 					<div class="description short">
 						<p>The filter list</p>
@@ -2402,7 +2398,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Menu.php#75-79" title="Go to source code"><var>$template</var></a>
+						<a href="source-class-Menu.php#74-78" title="Go to source code"><var>$template</var></a>
 
 					<div class="description short">
 						<p>the template of the menu</p>

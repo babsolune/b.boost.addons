@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Date.php#3-547" title="Go to source code">util/Date.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Date.php#3-546" title="Go to source code">util/Date.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -743,7 +739,7 @@ It supports the most common formats and manages timezones. Here are the definiti
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@ It supports the most common formats and manages timezones. Here are the definiti
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Date.php#44-72" title="Go to source code">__construct</a>( <span> <var>$time</var> = self::DATE_NOW</span>, <span> <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#43-71" title="Go to source code">__construct</a>( <span> <var>$time</var> = self::DATE_NOW</span>, <span> <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_format">#</a>
 						<code>
-<a href="source-class-Date.php#74-164" title="Go to source code">format</a>( <span>integer <var>$format</var> = self::FORMAT_DAY_MONTH</span>, <span>integer <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#73-163" title="Go to source code">format</a>( <span>integer <var>$format</var> = self::FORMAT_DAY_MONTH</span>, <span>integer <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_date_relative">#</a>
 						<code>
-<a href="source-class-Date.php#166-205" title="Go to source code">get_date_relative</a>( <span>integer <var>$timestamp</var></span>, <span>integer <var>$referencial_timezone</var></span> )
+<a href="source-class-Date.php#165-204" title="Go to source code">get_date_relative</a>( <span>integer <var>$timestamp</var></span>, <span>integer <var>$referencial_timezone</var></span> )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_timestamp">#</a>
 						<code>
-<a href="source-class-Date.php#207-214" title="Go to source code">get_timestamp</a>( )
+<a href="source-class-Date.php#206-213" title="Go to source code">get_timestamp</a>( )
 						</code>
 
 							<div class="description short">
@@ -965,7 +961,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_date_time">#</a>
 						<code>
-<a href="source-class-Date.php#216-223" title="Go to source code">get_date_time</a>( )
+<a href="source-class-Date.php#215-222" title="Go to source code">get_date_time</a>( )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_year">#</a>
 						<code>
-<a href="source-class-Date.php#225-234" title="Go to source code">get_year</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#224-233" title="Go to source code">get_year</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_year">#</a>
 						<code>
-<a href="source-class-Date.php#236-240" title="Go to source code">set_year</a>( <span> <var>$year</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#235-239" title="Go to source code">set_year</a>( <span> <var>$year</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1083,7 +1079,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_month">#</a>
 						<code>
-<a href="source-class-Date.php#242-251" title="Go to source code">get_month</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#241-250" title="Go to source code">get_month</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1127,7 +1123,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_month">#</a>
 						<code>
-<a href="source-class-Date.php#253-257" title="Go to source code">set_month</a>( <span> <var>$month</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#252-256" title="Go to source code">set_month</a>( <span> <var>$month</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1162,7 +1158,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_month_text">#</a>
 						<code>
-<a href="source-class-Date.php#259-269" title="Go to source code">get_month_text</a>( <span> <var>$characters_number</var> = <span class="php-quote">''</span></span>, <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#258-268" title="Go to source code">get_month_text</a>( <span> <var>$characters_number</var> = <span class="php-quote">''</span></span>, <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1208,7 +1204,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_week_number">#</a>
 						<code>
-<a href="source-class-Date.php#271-280" title="Go to source code">get_week_number</a>( <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#270-279" title="Go to source code">get_week_number</a>( <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_week_number">#</a>
 						<code>
-<a href="source-class-Date.php#282-285" title="Go to source code">set_week_number</a>( <span> <var>$week_number</var></span> )
+<a href="source-class-Date.php#281-284" title="Go to source code">set_week_number</a>( <span> <var>$week_number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1287,7 +1283,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_day">#</a>
 						<code>
-<a href="source-class-Date.php#287-296" title="Go to source code">get_day</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#286-295" title="Go to source code">get_day</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1331,7 +1327,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_day_two_digits">#</a>
 						<code>
-<a href="source-class-Date.php#298-302" title="Go to source code">get_day_two_digits</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#297-301" title="Go to source code">get_day_two_digits</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1366,7 +1362,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_day">#</a>
 						<code>
-<a href="source-class-Date.php#304-308" title="Go to source code">set_day</a>( <span> <var>$day</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#303-307" title="Go to source code">set_day</a>( <span> <var>$day</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1401,7 +1397,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_day_text">#</a>
 						<code>
-<a href="source-class-Date.php#310-320" title="Go to source code">get_day_text</a>( <span> <var>$characters_number</var> = <span class="php-quote">''</span></span>, <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#309-319" title="Go to source code">get_day_text</a>( <span> <var>$characters_number</var> = <span class="php-quote">''</span></span>, <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1447,7 +1443,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_day_of_week">#</a>
 						<code>
-<a href="source-class-Date.php#322-331" title="Go to source code">get_day_of_week</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#321-330" title="Go to source code">get_day_of_week</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1491,7 +1487,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_day_of_year">#</a>
 						<code>
-<a href="source-class-Date.php#333-342" title="Go to source code">get_day_of_year</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#332-341" title="Go to source code">get_day_of_year</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1535,7 +1531,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_day_of_year">#</a>
 						<code>
-<a href="source-class-Date.php#344-347" title="Go to source code">set_day_of_year</a>( <span> <var>$day_of_year</var></span> )
+<a href="source-class-Date.php#343-346" title="Go to source code">set_day_of_year</a>( <span> <var>$day_of_year</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1570,7 +1566,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_hours">#</a>
 						<code>
-<a href="source-class-Date.php#349-358" title="Go to source code">get_hours</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#348-357" title="Go to source code">get_hours</a>( <span> <var>$timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1614,7 +1610,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_hours">#</a>
 						<code>
-<a href="source-class-Date.php#360-364" title="Go to source code">set_hours</a>( <span> <var>$hours</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#359-363" title="Go to source code">set_hours</a>( <span> <var>$hours</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1649,7 +1645,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_minutes">#</a>
 						<code>
-<a href="source-class-Date.php#366-373" title="Go to source code">get_minutes</a>( )
+<a href="source-class-Date.php#365-372" title="Go to source code">get_minutes</a>( )
 						</code>
 
 							<div class="description short">
@@ -1688,7 +1684,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_minutes">#</a>
 						<code>
-<a href="source-class-Date.php#375-379" title="Go to source code">set_minutes</a>( <span> <var>$minutes</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#374-378" title="Go to source code">set_minutes</a>( <span> <var>$minutes</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1723,7 +1719,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_seconds">#</a>
 						<code>
-<a href="source-class-Date.php#381-388" title="Go to source code">get_seconds</a>( )
+<a href="source-class-Date.php#380-387" title="Go to source code">get_seconds</a>( )
 						</code>
 
 							<div class="description short">
@@ -1762,7 +1758,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_seconds">#</a>
 						<code>
-<a href="source-class-Date.php#390-394" title="Go to source code">set_seconds</a>( <span> <var>$seconds</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#389-393" title="Go to source code">set_seconds</a>( <span> <var>$seconds</var></span>, <span> <var>$referential_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -1797,7 +1793,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_to_date">#</a>
 						<code>
-<a href="source-class-Date.php#396-403" title="Go to source code">to_date</a>( )
+<a href="source-class-Date.php#395-402" title="Go to source code">to_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1836,7 +1832,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_is_anterior_to">#</a>
 						<code>
-<a href="source-class-Date.php#405-413" title="Go to source code">is_anterior_to</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Date.php#404-412" title="Go to source code">is_anterior_to</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1880,7 +1876,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_is_posterior_to">#</a>
 						<code>
-<a href="source-class-Date.php#415-423" title="Go to source code">is_posterior_to</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Date.php#414-422" title="Go to source code">is_posterior_to</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1924,7 +1920,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_equals">#</a>
 						<code>
-<a href="source-class-Date.php#425-433" title="Go to source code">equals</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Date.php#424-432" title="Go to source code">equals</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1968,7 +1964,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_add_days">#</a>
 						<code>
-<a href="source-class-Date.php#435-442" title="Go to source code">add_days</a>( <span>integer <var>$number_days</var></span> )
+<a href="source-class-Date.php#434-441" title="Go to source code">add_days</a>( <span>integer <var>$number_days</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2008,7 +2004,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_add_weeks">#</a>
 						<code>
-<a href="source-class-Date.php#444-451" title="Go to source code">add_weeks</a>( <span>integer <var>$number_weeks</var></span> )
+<a href="source-class-Date.php#443-450" title="Go to source code">add_weeks</a>( <span>integer <var>$number_weeks</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2048,7 +2044,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_is_date_year_bissextile">#</a>
 						<code>
-<a href="source-class-Date.php#453-460" title="Go to source code">is_date_year_bissextile</a>( )
+<a href="source-class-Date.php#452-459" title="Go to source code">is_date_year_bissextile</a>( )
 						</code>
 
 							<div class="description short">
@@ -2087,7 +2083,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_to_format">#</a>
 						<code>
-<a href="source-class-Date.php#474-478" title="Go to source code">to_format</a>( <span> <var>$time</var></span>, <span> <var>$format</var> = self::FORMAT_DAY_MONTH</span>, <span> <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
+<a href="source-class-Date.php#473-477" title="Go to source code">to_format</a>( <span> <var>$time</var></span>, <span> <var>$format</var> = self::FORMAT_DAY_MONTH</span>, <span> <var>$referencial_timezone</var> = Timezone::USER_TIMEZONE</span> )
 						</code>
 
 							<div class="description short">
@@ -2122,7 +2118,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_set_default_timezone">#</a>
 						<code>
-<a href="source-class-Date.php#480-484" title="Go to source code">set_default_timezone</a>( )
+<a href="source-class-Date.php#479-483" title="Go to source code">set_default_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -2157,7 +2153,7 @@ The second parameter allows us to chose what time referential we use to create t
 					<div>
 						<a class="anchor" href="#_get_array_tpl_vars">#</a>
 						<code>
-<a href="source-class-Date.php#486-521" title="Go to source code">get_array_tpl_vars</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span>, <span>string <var>$date_label</var></span> )
+<a href="source-class-Date.php#485-520" title="Go to source code">get_array_tpl_vars</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span>, <span>string <var>$date_label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2214,7 +2210,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#24" title="Go to source code"><b>DATE_NOW</b></a>
+								<a href="source-class-Date.php#23" title="Go to source code"><b>DATE_NOW</b></a>
 							</code>
 
 							<div class="description short">
@@ -2238,7 +2234,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#26" title="Go to source code"><b>FORMAT_TIMESTAMP</b></a>
+								<a href="source-class-Date.php#25" title="Go to source code"><b>FORMAT_TIMESTAMP</b></a>
 							</code>
 
 							<div class="description short">
@@ -2262,7 +2258,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#27" title="Go to source code"><b>FORMAT_DAY_MONTH</b></a>
+								<a href="source-class-Date.php#26" title="Go to source code"><b>FORMAT_DAY_MONTH</b></a>
 							</code>
 
 							<div class="description short">
@@ -2286,7 +2282,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#28" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR</b></a>
+								<a href="source-class-Date.php#27" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR</b></a>
 							</code>
 
 							<div class="description short">
@@ -2310,7 +2306,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#29" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_HOUR_MINUTE</b></a>
+								<a href="source-class-Date.php#28" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_HOUR_MINUTE</b></a>
 							</code>
 
 							<div class="description short">
@@ -2334,7 +2330,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#30" title="Go to source code"><b>FORMAT_RFC2822</b></a>
+								<a href="source-class-Date.php#29" title="Go to source code"><b>FORMAT_RFC2822</b></a>
 							</code>
 
 							<div class="description short">
@@ -2358,7 +2354,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#31" title="Go to source code"><b>FORMAT_ISO8601</b></a>
+								<a href="source-class-Date.php#30" title="Go to source code"><b>FORMAT_ISO8601</b></a>
 							</code>
 
 							<div class="description short">
@@ -2382,7 +2378,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#32" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_LONG</b></a>
+								<a href="source-class-Date.php#31" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_LONG</b></a>
 							</code>
 
 							<div class="description short">
@@ -2406,7 +2402,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#33" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_TEXT</b></a>
+								<a href="source-class-Date.php#32" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_TEXT</b></a>
 							</code>
 
 							<div class="description short">
@@ -2430,7 +2426,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#34" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_HOUR_MINUTE_TEXT</b></a>
+								<a href="source-class-Date.php#33" title="Go to source code"><b>FORMAT_DAY_MONTH_YEAR_HOUR_MINUTE_TEXT</b></a>
 							</code>
 
 							<div class="description short">
@@ -2454,7 +2450,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#35" title="Go to source code"><b>FORMAT_RELATIVE</b></a>
+								<a href="source-class-Date.php#34" title="Go to source code"><b>FORMAT_RELATIVE</b></a>
 							</code>
 
 							<div class="description short">
@@ -2478,7 +2474,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#36" title="Go to source code"><b>FORMAT_ISO_DAY_MONTH_YEAR</b></a>
+								<a href="source-class-Date.php#35" title="Go to source code"><b>FORMAT_ISO_DAY_MONTH_YEAR</b></a>
 							</code>
 
 							<div class="description short">
@@ -2502,7 +2498,7 @@ The second parameter allows us to chose what time referential we use to create t
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Date.php#37" title="Go to source code"><b>FORMAT_DIFF_NOW</b></a>
+								<a href="source-class-Date.php#36" title="Go to source code"><b>FORMAT_DIFF_NOW</b></a>
 							</code>
 
 							<div class="description short">

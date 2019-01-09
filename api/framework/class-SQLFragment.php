@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.util.php">util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 27
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLFragment.php#3-51" title="Go to source code">io/db/util/SQLFragment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLFragment.php#3-50" title="Go to source code">io/db/util/SQLFragment.class.php</a></span>
 			</div>
 
 
@@ -706,7 +702,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -728,7 +724,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SQLFragment.php#18-22" title="Go to source code">__construct</a>( <span> <var>$query</var> = <span class="php-quote">''</span></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLFragment.php#17-21" title="Go to source code">__construct</a>( <span> <var>$query</var> = <span class="php-quote">''</span></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#_get_query">#</a>
 						<code>
-<a href="source-class-SQLFragment.php#24-30" title="Go to source code">get_query</a>( )
+<a href="source-class-SQLFragment.php#23-29" title="Go to source code">get_query</a>( )
 						</code>
 
 							<div class="description short">
@@ -802,7 +798,7 @@
 					<div>
 						<a class="anchor" href="#_get_parameters">#</a>
 						<code>
-<a href="source-class-SQLFragment.php#32-38" title="Go to source code">get_parameters</a>( )
+<a href="source-class-SQLFragment.php#31-37" title="Go to source code">get_parameters</a>( )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@
 					<div>
 						<a class="anchor" href="#_add_parameters_to_map">#</a>
 						<code>
-<a href="source-class-SQLFragment.php#40-50" title="Go to source code">add_parameters_to_map</a>( <span>array <var>&amp; $parameters</var></span> )
+<a href="source-class-SQLFragment.php#39-49" title="Go to source code">add_parameters_to_map</a>( <span>array <var>&amp; $parameters</var></span> )
 						</code>
 
 							<div class="description short">

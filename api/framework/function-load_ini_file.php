@@ -681,10 +681,6 @@
 It's very interesting when you want to</p>
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@ It's very interesting when you want to</p>
 						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-load_ini_file.php#209-231" title="Go to source code">
+						<a href="source-function-load_ini_file.php#208-230" title="Go to source code">
 							helper/deprecated_helper.inc.php
 						</a>
 				</span>

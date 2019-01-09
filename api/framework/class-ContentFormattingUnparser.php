@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingUnparser.php#3-147" title="Go to source code">content/formatting/parser/ContentFormattingUnparser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingUnparser.php#3-146" title="Go to source code">content/formatting/parser/ContentFormattingUnparser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -743,7 +739,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentFormattingUnparser.php#19-25" title="Go to source code">__construct</a>( )
+<a href="source-class-ContentFormattingUnparser.php#18-24" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -802,7 +798,7 @@
 					<div>
 						<a class="anchor" href="#_unparse_html">#</a>
 						<code>
-<a href="source-class-ContentFormattingUnparser.php#27-88" title="Go to source code">unparse_html</a>( <span>boolean <var>$action</var></span> )
+<a href="source-class-ContentFormattingUnparser.php#26-87" title="Go to source code">unparse_html</a>( <span>boolean <var>$action</var></span> )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@
 					<div>
 						<a class="anchor" href="#_unparse_code">#</a>
 						<code>
-<a href="source-class-ContentFormattingUnparser.php#90-146" title="Go to source code">unparse_code</a>( <span>boolean <var>$action</var></span> )
+<a href="source-class-ContentFormattingUnparser.php#89-145" title="Go to source code">unparse_code</a>( <span>boolean <var>$action</var></span> )
 						</code>
 
 							<div class="description short">

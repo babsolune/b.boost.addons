@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLDAO.php#3-305" title="Go to source code">mvc/model/SQLDAO.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLDAO.php#3-304" title="Go to source code">mvc/model/SQLDAO.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -742,7 +738,7 @@ objects attached to the given</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -764,7 +760,7 @@ objects attached to the given</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#82-99" title="Go to source code">__construct</a>( <span><code><a href="class-MappingModel.php">MappingModel</a></code> <var>$model</var></span>, <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-SQLDAO.php#81-98" title="Go to source code">__construct</a>( <span><code><a href="class-MappingModel.php">MappingModel</a></code> <var>$model</var></span>, <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ objects attached to the given</p>
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#101-113" title="Go to source code">save</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
+<a href="source-class-SQLDAO.php#100-112" title="Go to source code">save</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@ If the object does not exist, it is created, else,  just updated</p>
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#115-118" title="Go to source code">update</a>( <span>array <var>$fields</var></span>, <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLDAO.php#114-117" title="Go to source code">update</a>( <span>array <var>$fields</var></span>, <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@ If the object does not exist, it is created, else,  just updated</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#120-129" title="Go to source code">delete</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
+<a href="source-class-SQLDAO.php#119-128" title="Go to source code">delete</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_delete_all">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#133-136" title="Go to source code">delete_all</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLDAO.php#132-135" title="Go to source code">delete_all</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_count">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#138-141" title="Go to source code">count</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLDAO.php#137-140" title="Go to source code">count</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1058,7 +1054,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_find_by_id">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#143-154" title="Go to source code">find_by_id</a>( <span>mixed <var>$id</var></span> )
+<a href="source-class-SQLDAO.php#142-153" title="Go to source code">find_by_id</a>( <span>mixed <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1116,7 +1112,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_find_all">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#156-175" title="Go to source code">find_all</a>( <span>integer <var>$limit</var> = DAO::FIND_ALL</span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span>, <span>string[mixed][] <var>$order_by</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLDAO.php#155-174" title="Go to source code">find_all</a>( <span>integer <var>$limit</var> = DAO::FIND_ALL</span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span>, <span>string[mixed][] <var>$order_by</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1220,7 +1216,7 @@ ascending (</p>
 					<div>
 						<a class="anchor" href="#_find_by_criteria">#</a>
 						<code>
-<a href="source-class-SQLDAO.php#177-183" title="Go to source code">find_by_criteria</a>( <span>string <var>$criteria</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLDAO.php#176-182" title="Go to source code">find_by_criteria</a>( <span>string <var>$criteria</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1306,7 +1302,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#17-20" title="Go to source code"><var>$querier</var></a>
+						<a href="source-class-SQLDAO.php#16-19" title="Go to source code"><var>$querier</var></a>
 
 					<div class="description short">
 						<p>the sql querier that will interact with the database</p>
@@ -1333,7 +1329,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#22-25" title="Go to source code"><var>$model</var></a>
+						<a href="source-class-SQLDAO.php#21-24" title="Go to source code"><var>$model</var></a>
 
 					<div class="description short">
 						<p>the model on which services are based</p>
@@ -1360,7 +1356,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#27-30" title="Go to source code"><var>$table</var></a>
+						<a href="source-class-SQLDAO.php#26-29" title="Go to source code"><var>$table</var></a>
 
 					<div class="description short">
 						<p>the name of the table in which objects will be stored</p>
@@ -1387,7 +1383,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#32-35" title="Go to source code"><var>$pk_db_field</var></a>
+						<a href="source-class-SQLDAO.php#31-34" title="Go to source code"><var>$pk_db_field</var></a>
 
 					<div class="description short">
 						<p>the primary key database field name (prefixed by the table name)</p>
@@ -1414,7 +1410,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#37-40" title="Go to source code"><var>$pk_property</var></a>
+						<a href="source-class-SQLDAO.php#36-39" title="Go to source code"><var>$pk_property</var></a>
 
 					<div class="description short">
 						<p>the primary key property</p>
@@ -1441,7 +1437,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#42-45" title="Go to source code"><var>$pk_getter</var></a>
+						<a href="source-class-SQLDAO.php#41-44" title="Go to source code"><var>$pk_getter</var></a>
 
 					<div class="description short">
 						<p>the primary key getter method name</p>
@@ -1468,7 +1464,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#47-50" title="Go to source code"><var>$pk_setter</var></a>
+						<a href="source-class-SQLDAO.php#46-49" title="Go to source code"><var>$pk_setter</var></a>
 
 					<div class="description short">
 						<p>the primary key setter method name</p>
@@ -1495,7 +1491,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#52-55" title="Go to source code"><var>$fields_mapping</var></a>
+						<a href="source-class-SQLDAO.php#51-54" title="Go to source code"><var>$fields_mapping</var></a>
 
 					<div class="description short">
 						<p>$fields_mapping[$property] => $db_field_name</p>
@@ -1522,7 +1518,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#57-60" title="Go to source code"><var>$delete_query</var></a>
+						<a href="source-class-SQLDAO.php#56-59" title="Go to source code"><var>$delete_query</var></a>
 
 					<div class="description short">
 						<p>the delete prepared query</p>
@@ -1549,7 +1545,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#62-65" title="Go to source code"><var>$insert_query</var></a>
+						<a href="source-class-SQLDAO.php#61-64" title="Go to source code"><var>$insert_query</var></a>
 
 					<div class="description short">
 						<p>the insert prepared query</p>
@@ -1576,7 +1572,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#67-70" title="Go to source code"><var>$update_query</var></a>
+						<a href="source-class-SQLDAO.php#66-69" title="Go to source code"><var>$update_query</var></a>
 
 					<div class="description short">
 						<p>the update prepared query</p>
@@ -1603,7 +1599,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#72-75" title="Go to source code"><var>$find_by_id_query</var></a>
+						<a href="source-class-SQLDAO.php#71-74" title="Go to source code"><var>$find_by_id_query</var></a>
 
 					<div class="description short">
 						<p>the find by id prepared query</p>
@@ -1630,7 +1626,7 @@ ascending (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-SQLDAO.php#77-80" title="Go to source code"><var>$find_by_criteria_query</var></a>
+						<a href="source-class-SQLDAO.php#76-79" title="Go to source code"><var>$find_by_criteria_query</var></a>
 
 					<div class="description short">
 						<p>the find by criteria prepared query</p>

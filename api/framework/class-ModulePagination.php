@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a>\<a href="package-Util.Pagination.php">Pagination</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -682,7 +678,7 @@
 							<b>Since:</b>
 							PHPBoost 4.0 - 2013 06 19
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulePagination.php#3-63" title="Go to source code">util/pagination/ModulePagination.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulePagination.php#3-62" title="Go to source code">util/pagination/ModulePagination.class.php</a></span>
 			</div>
 
 
@@ -694,7 +690,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -716,7 +712,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#20-26" title="Go to source code">__construct</a>( <span> <var>$current_page</var></span>, <span> <var>$number_elements</var></span>, <span> <var>$number_items_per_page</var></span>, <span> <var>$type</var> = Pagination::FULL_PAGINATION</span> )
+<a href="source-class-ModulePagination.php#19-25" title="Go to source code">__construct</a>( <span> <var>$current_page</var></span>, <span> <var>$number_elements</var></span>, <span> <var>$number_items_per_page</var></span>, <span> <var>$type</var> = Pagination::FULL_PAGINATION</span> )
 						</code>
 
 							<div class="description short">
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#_set_url">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#28-31" title="Go to source code">set_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
+<a href="source-class-ModulePagination.php#27-30" title="Go to source code">set_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -786,7 +782,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#33-36" title="Go to source code">display</a>( )
+<a href="source-class-ModulePagination.php#32-35" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_items_per_page">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#38-41" title="Go to source code">get_number_items_per_page</a>( )
+<a href="source-class-ModulePagination.php#37-40" title="Go to source code">get_number_items_per_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@
 					<div>
 						<a class="anchor" href="#_current_page_is_empty">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#43-46" title="Go to source code">current_page_is_empty</a>( )
+<a href="source-class-ModulePagination.php#42-45" title="Go to source code">current_page_is_empty</a>( )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_from">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#48-52" title="Go to source code">get_display_from</a>( )
+<a href="source-class-ModulePagination.php#47-51" title="Go to source code">get_display_from</a>( )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@
 					<div>
 						<a class="anchor" href="#_has_several_pages">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#54-57" title="Go to source code">has_several_pages</a>( )
+<a href="source-class-ModulePagination.php#53-56" title="Go to source code">has_several_pages</a>( )
 						</code>
 
 							<div class="description short">
@@ -961,7 +957,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_pages">#</a>
 						<code>
-<a href="source-class-ModulePagination.php#59-62" title="Go to source code">get_number_pages</a>( )
+<a href="source-class-ModulePagination.php#58-61" title="Go to source code">get_number_pages</a>( )
 						</code>
 
 							<div class="description short">

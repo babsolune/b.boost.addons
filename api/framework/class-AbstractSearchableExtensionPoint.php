@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Search.php">Search</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSearchableExtensionPoint.php#3-36" title="Go to source code">content/search/AbstractSearchableExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSearchableExtensionPoint.php#3-35" title="Go to source code">content/search/AbstractSearchableExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractSearchableExtensionPoint.php#18-22" title="Go to source code">__construct</a>( <span> <var>$has_search_options</var> = <span class="php-keyword1">false</span></span>, <span> <var>$has_customized_results</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractSearchableExtensionPoint.php#17-21" title="Go to source code">__construct</a>( <span> <var>$has_search_options</var> = <span class="php-keyword1">false</span></span>, <span> <var>$has_customized_results</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_has_search_options">#</a>
 						<code>
-<a href="source-class-AbstractSearchableExtensionPoint.php#24-30" title="Go to source code">has_search_options</a>( )
+<a href="source-class-AbstractSearchableExtensionPoint.php#23-29" title="Go to source code">has_search_options</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_has_customized_results">#</a>
 						<code>
-<a href="source-class-AbstractSearchableExtensionPoint.php#32-35" title="Go to source code">has_customized_results</a>( )
+<a href="source-class-AbstractSearchableExtensionPoint.php#31-34" title="Go to source code">has_customized_results</a>( )
 						</code>
 
 							<div class="description short">

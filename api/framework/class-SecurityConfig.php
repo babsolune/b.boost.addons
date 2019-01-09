@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2015 07 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SecurityConfig.php#3-87" title="Go to source code">phpboost/config/SecurityConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SecurityConfig.php#3-86" title="Go to source code">phpboost/config/SecurityConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_get_internal_password_min_length">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#24-27" title="Go to source code">get_internal_password_min_length</a>( )
+<a href="source-class-SecurityConfig.php#23-26" title="Go to source code">get_internal_password_min_length</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_set_internal_password_min_length">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#29-32" title="Go to source code">set_internal_password_min_length</a>( <span> <var>$value</var></span> )
+<a href="source-class-SecurityConfig.php#28-31" title="Go to source code">set_internal_password_min_length</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_get_internal_password_strength">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#34-37" title="Go to source code">get_internal_password_strength</a>( )
+<a href="source-class-SecurityConfig.php#33-36" title="Go to source code">get_internal_password_strength</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_set_internal_password_strength">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#39-42" title="Go to source code">set_internal_password_strength</a>( <span> <var>$value</var></span> )
+<a href="source-class-SecurityConfig.php#38-41" title="Go to source code">set_internal_password_strength</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_forbid_login_and_email_in_password">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#44-47" title="Go to source code">forbid_login_and_email_in_password</a>( )
+<a href="source-class-SecurityConfig.php#43-46" title="Go to source code">forbid_login_and_email_in_password</a>( )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_allow_login_and_email_in_password">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#49-52" title="Go to source code">allow_login_and_email_in_password</a>( )
+<a href="source-class-SecurityConfig.php#48-51" title="Go to source code">allow_login_and_email_in_password</a>( )
 						</code>
 
 							<div class="description short">
@@ -960,7 +956,7 @@
 					<div>
 						<a class="anchor" href="#_are_login_and_email_forbidden_in_password">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#54-57" title="Go to source code">are_login_and_email_forbidden_in_password</a>( )
+<a href="source-class-SecurityConfig.php#53-56" title="Go to source code">are_login_and_email_forbidden_in_password</a>( )
 						</code>
 
 							<div class="description short">
@@ -995,7 +991,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#59-69" title="Go to source code">get_default_values</a>( )
+<a href="source-class-SecurityConfig.php#58-68" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#71-78" title="Go to source code">load</a>( )
+<a href="source-class-SecurityConfig.php#70-77" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-SecurityConfig.php#80-86" title="Go to source code">save</a>( )
+<a href="source-class-SecurityConfig.php#79-85" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1133,7 +1129,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#15" title="Go to source code"><b>INTERNAL_PASSWORD_MIN_LENGTH</b></a>
+								<a href="source-class-SecurityConfig.php#14" title="Go to source code"><b>INTERNAL_PASSWORD_MIN_LENGTH</b></a>
 							</code>
 
 							<div class="description short">
@@ -1157,7 +1153,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#16" title="Go to source code"><b>INTERNAL_PASSWORD_STRENGTH</b></a>
+								<a href="source-class-SecurityConfig.php#15" title="Go to source code"><b>INTERNAL_PASSWORD_STRENGTH</b></a>
 							</code>
 
 							<div class="description short">
@@ -1181,7 +1177,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#17" title="Go to source code"><b>LOGIN_AND_EMAIL_FORBIDDEN_IN_PASSWORD</b></a>
+								<a href="source-class-SecurityConfig.php#16" title="Go to source code"><b>LOGIN_AND_EMAIL_FORBIDDEN_IN_PASSWORD</b></a>
 							</code>
 
 							<div class="description short">
@@ -1205,7 +1201,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#19" title="Go to source code"><b>PASSWORD_STRENGTH_WEAK</b></a>
+								<a href="source-class-SecurityConfig.php#18" title="Go to source code"><b>PASSWORD_STRENGTH_WEAK</b></a>
 							</code>
 
 							<div class="description short">
@@ -1229,7 +1225,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#20" title="Go to source code"><b>PASSWORD_STRENGTH_MEDIUM</b></a>
+								<a href="source-class-SecurityConfig.php#19" title="Go to source code"><b>PASSWORD_STRENGTH_MEDIUM</b></a>
 							</code>
 
 							<div class="description short">
@@ -1253,7 +1249,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#21" title="Go to source code"><b>PASSWORD_STRENGTH_STRONG</b></a>
+								<a href="source-class-SecurityConfig.php#20" title="Go to source code"><b>PASSWORD_STRENGTH_STRONG</b></a>
 							</code>
 
 							<div class="description short">
@@ -1277,7 +1273,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SecurityConfig.php#22" title="Go to source code"><b>PASSWORD_STRENGTH_VERY_STRONG</b></a>
+								<a href="source-class-SecurityConfig.php#21" title="Go to source code"><b>PASSWORD_STRENGTH_VERY_STRONG</b></a>
 							</code>
 
 							<div class="description short">

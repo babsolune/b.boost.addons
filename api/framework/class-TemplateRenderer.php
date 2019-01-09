@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.renderer.php">renderer</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateRenderer.php#3-31" title="Go to source code">io/template/renderer/TemplateRenderer.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateRenderer.php#3-30" title="Go to source code">io/template/renderer/TemplateRenderer.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -715,7 +711,7 @@ contains the data to assign in the template.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -737,7 +733,7 @@ contains the data to assign in the template.</p>
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-TemplateRenderer.php#18-24" title="Go to source code">render</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span>, <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span> )
+<a href="source-class-TemplateRenderer.php#17-23" title="Go to source code">render</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span>, <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@ contains the data to assign in the template.</p>
 					<div>
 						<a class="anchor" href="#_add_lang">#</a>
 						<code>
-<a href="source-class-TemplateRenderer.php#26-30" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-TemplateRenderer.php#25-29" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">

@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Event.php">Event</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlert.php#3-168" title="Go to source code">phpboost/event/AdministratorAlert.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlert.php#3-167" title="Go to source code">phpboost/event/AdministratorAlert.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@ The administrator alerts can be in the administration panel and can be used when
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#48-56" title="Go to source code">__construct</a>( )
+<a href="source-class-AdministratorAlert.php#47-55" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_build">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#58-76" title="Go to source code">build</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$properties</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$current_status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span>, <span>integer <var>$priority</var></span> )
+<a href="source-class-AdministratorAlert.php#57-75" title="Go to source code">build</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$properties</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$current_status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span>, <span>integer <var>$priority</var></span> )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_get_priority">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#78-92" title="Go to source code">get_priority</a>( )
+<a href="source-class-AdministratorAlert.php#77-91" title="Go to source code">get_priority</a>( )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_get_properties">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#94-101" title="Go to source code">get_properties</a>( )
+<a href="source-class-AdministratorAlert.php#93-100" title="Go to source code">get_properties</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_set_priority">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#103-125" title="Go to source code">set_priority</a>( <span>integer <var>$priority</var></span> )
+<a href="source-class-AdministratorAlert.php#102-124" title="Go to source code">set_priority</a>( <span>integer <var>$priority</var></span> )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#127-138" title="Go to source code">set_properties</a>( <span>string <var>$properties</var></span> )
+<a href="source-class-AdministratorAlert.php#126-137" title="Go to source code">set_properties</a>( <span>string <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1016,7 +1012,7 @@ The administrator alerts can be in the administration panel and can be used when
 					<div>
 						<a class="anchor" href="#_get_priority_name">#</a>
 						<code>
-<a href="source-class-AdministratorAlert.php#140-167" title="Go to source code">get_priority_name</a>( )
+<a href="source-class-AdministratorAlert.php#139-166" title="Go to source code">get_priority_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1095,7 +1091,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#22" title="Go to source code"><b>ADMIN_ALERT_VERY_LOW_PRIORITY</b></a>
+								<a href="source-class-AdministratorAlert.php#21" title="Go to source code"><b>ADMIN_ALERT_VERY_LOW_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1119,7 +1115,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#24" title="Go to source code"><b>ADMIN_ALERT_LOW_PRIORITY</b></a>
+								<a href="source-class-AdministratorAlert.php#23" title="Go to source code"><b>ADMIN_ALERT_LOW_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#26" title="Go to source code"><b>ADMIN_ALERT_MEDIUM_PRIORITY</b></a>
+								<a href="source-class-AdministratorAlert.php#25" title="Go to source code"><b>ADMIN_ALERT_MEDIUM_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1167,7 +1163,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#28" title="Go to source code"><b>ADMIN_ALERT_HIGH_PRIORITY</b></a>
+								<a href="source-class-AdministratorAlert.php#27" title="Go to source code"><b>ADMIN_ALERT_HIGH_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1191,7 +1187,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#30" title="Go to source code"><b>ADMIN_ALERT_VERY_HIGH_PRIORITY</b></a>
+								<a href="source-class-AdministratorAlert.php#29" title="Go to source code"><b>ADMIN_ALERT_VERY_HIGH_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1215,7 +1211,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#34" title="Go to source code"><b>ADMIN_ALERT_STATUS_UNREAD</b></a>
+								<a href="source-class-AdministratorAlert.php#33" title="Go to source code"><b>ADMIN_ALERT_STATUS_UNREAD</b></a>
 							</code>
 
 							<div class="description short">
@@ -1239,7 +1235,7 @@ The administrator alerts can be in the administration panel and can be used when
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AdministratorAlert.php#36" title="Go to source code"><b>ADMIN_ALERT_STATUS_PROCESSED</b></a>
+								<a href="source-class-AdministratorAlert.php#35" title="Go to source code"><b>ADMIN_ALERT_STATUS_PROCESSED</b></a>
 							</code>
 
 							<div class="description short">

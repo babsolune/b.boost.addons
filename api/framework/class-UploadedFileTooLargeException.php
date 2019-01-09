@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a>\<a href="package-IO.HTTP.upload.php">upload</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 01 24
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UploadedFileTooLargeException.php#3-20" title="Go to source code">io/http/upload/UploadedFileTooLargeException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UploadedFileTooLargeException.php#3-19" title="Go to source code">io/http/upload/UploadedFileTooLargeException.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UploadedFileTooLargeException.php#16-19" title="Go to source code">__construct</a>( <span> <var>$varname</var></span>, <span> <var>$filename</var></span> )
+<a href="source-class-UploadedFileTooLargeException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$varname</var></span>, <span> <var>$filename</var></span> )
 						</code>
 
 							<div class="description short">

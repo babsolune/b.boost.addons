@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Arrays.php#3-44" title="Go to source code">util/Arrays.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Arrays.php#3-43" title="Go to source code">util/Arrays.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@
 					<div>
 						<a class="anchor" href="#_find">#</a>
 						<code>
-<a href="source-class-Arrays.php#14-35" title="Go to source code">find</a>( <span>mixed <var>$key</var></span>, <span>array <var>$values</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Arrays.php#13-34" title="Go to source code">find</a>( <span>mixed <var>$key</var></span>, <span>array <var>$values</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -802,7 +798,7 @@ TokenNotFoundException will be thrown</p>
 					<div>
 						<a class="anchor" href="#_remove_key">#</a>
 						<code>
-<a href="source-class-Arrays.php#37-43" title="Go to source code">remove_key</a>( <span> <var>$key</var></span>, <span>array <var>&amp; $values</var></span> )
+<a href="source-class-Arrays.php#36-42" title="Go to source code">remove_key</a>( <span> <var>$key</var></span>, <span>array <var>&amp; $values</var></span> )
 						</code>
 
 							<div class="description short">

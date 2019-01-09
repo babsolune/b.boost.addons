@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintNotEmpty.php#3-49" title="Go to source code">builder/form/field/constraint/FormFieldConstraintNotEmpty.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintNotEmpty.php#3-48" title="Go to source code">builder/form/field/constraint/FormFieldConstraintNotEmpty.class.php</a></span>
 			</div>
 
 
@@ -752,7 +748,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintNotEmpty.php#19-26" title="Go to source code">__construct</a>( <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintNotEmpty.php#18-25" title="Go to source code">__construct</a>( <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintNotEmpty.php#28-42" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintNotEmpty.php#27-41" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintNotEmpty.php#44-48" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintNotEmpty.php#43-47" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">

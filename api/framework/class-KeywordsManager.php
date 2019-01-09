@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Keyword.php">Keyword</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeywordsManager.php#3-115" title="Go to source code">content/keyword/KeywordsManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeywordsManager.php#3-114" title="Go to source code">content/keyword/KeywordsManager.class.php</a></span>
 			</div>
 
 
@@ -700,7 +696,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -722,7 +718,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#28-37" title="Go to source code">__construct</a>( <span><code><a href="class-KeywordsCache.php">KeywordsCache</a></code> <var>$keywords_cache</var></span> )
+<a href="source-class-KeywordsManager.php#27-36" title="Go to source code">__construct</a>( <span><code><a href="class-KeywordsCache.php">KeywordsCache</a></code> <var>$keywords_cache</var></span> )
 						</code>
 
 							<div class="description short">
@@ -762,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_field">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#39-43" title="Go to source code">get_form_field</a>( <span> <var>$id_in_module</var></span>, <span> <var>$id</var></span>, <span> <var>$label</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-KeywordsManager.php#38-42" title="Go to source code">get_form_field</a>( <span> <var>$id_in_module</var></span>, <span> <var>$id</var></span>, <span> <var>$label</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_put_relations">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#45-70" title="Go to source code">put_relations</a>( <span> <var>$id_in_module</var></span>, <span> <var>$keywords</var></span> )
+<a href="source-class-KeywordsManager.php#44-69" title="Go to source code">put_relations</a>( <span> <var>$id_in_module</var></span>, <span> <var>$keywords</var></span> )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@
 					<div>
 						<a class="anchor" href="#_get_keyword">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#72-78" title="Go to source code">get_keyword</a>( <span> <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-KeywordsManager.php#71-77" title="Go to source code">get_keyword</a>( <span> <var>$condition</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -867,7 +863,7 @@
 					<div>
 						<a class="anchor" href="#_get_keywords">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#80-83" title="Go to source code">get_keywords</a>( <span> <var>$id_in_module</var></span> )
+<a href="source-class-KeywordsManager.php#79-82" title="Go to source code">get_keywords</a>( <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@
 					<div>
 						<a class="anchor" href="#_delete_relations">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#85-88" title="Go to source code">delete_relations</a>( <span> <var>$id_in_module</var></span> )
+<a href="source-class-KeywordsManager.php#84-87" title="Go to source code">delete_relations</a>( <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@
 					<div>
 						<a class="anchor" href="#_delete_module_relations">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#90-93" title="Go to source code">delete_module_relations</a>( )
+<a href="source-class-KeywordsManager.php#89-92" title="Go to source code">delete_module_relations</a>( )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@
 					<div>
 						<a class="anchor" href="#_regenerate_cache">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#100-104" title="Go to source code">regenerate_cache</a>( )
+<a href="source-class-KeywordsManager.php#99-103" title="Go to source code">regenerate_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1007,7 +1003,7 @@
 					<div>
 						<a class="anchor" href="#_get_keywords_cache">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#106-109" title="Go to source code">get_keywords_cache</a>( )
+<a href="source-class-KeywordsManager.php#105-108" title="Go to source code">get_keywords_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1046,7 +1042,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-KeywordsManager.php#111-114" title="Go to source code">get_module_id</a>( )
+<a href="source-class-KeywordsManager.php#110-113" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">

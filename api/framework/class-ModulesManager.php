@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesManager.php#3-524" title="Go to source code">phpboost/module/ModulesManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesManager.php#3-523" title="Go to source code">phpboost/module/ModulesManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_modules_map">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#34-40" title="Go to source code">get_installed_modules_map</a>( )
+<a href="source-class-ModulesManager.php#33-39" title="Go to source code">get_installed_modules_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -786,7 +782,7 @@
 					<div>
 						<a class="anchor" href="#_get_activated_modules_map">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#42-54" title="Go to source code">get_activated_modules_map</a>( )
+<a href="source-class-ModulesManager.php#41-53" title="Go to source code">get_activated_modules_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_get_uninstalled_modules_map">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#56-62" title="Go to source code">get_uninstalled_modules_map</a>( )
+<a href="source-class-ModulesManager.php#55-61" title="Go to source code">get_uninstalled_modules_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_modules_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#64-76" title="Go to source code">get_installed_modules_map_sorted_by_localized_name</a>( )
+<a href="source-class-ModulesManager.php#63-75" title="Go to source code">get_installed_modules_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_modules_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#78-90" title="Go to source code">get_activated_modules_map_sorted_by_localized_name</a>( )
+<a href="source-class-ModulesManager.php#77-89" title="Go to source code">get_activated_modules_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -944,7 +940,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_callback_sort_modules_by_name">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#92-99" title="Go to source code">callback_sort_modules_by_name</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module1</var></span>, <span><code><a href="class-Module.php">Module</a></code> <var>$module2</var></span> )
+<a href="source-class-ModulesManager.php#91-98" title="Go to source code">callback_sort_modules_by_name</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module1</var></span>, <span><code><a href="class-Module.php">Module</a></code> <var>$module2</var></span> )
 						</code>
 
 							<div class="description short">
@@ -979,7 +975,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_installed_modules_ids_list">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#101-107" title="Go to source code">get_installed_modules_ids_list</a>( )
+<a href="source-class-ModulesManager.php#100-106" title="Go to source code">get_installed_modules_ids_list</a>( )
 						</code>
 
 							<div class="description short">
@@ -1018,7 +1014,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_modules_ids_list">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#109-115" title="Go to source code">get_activated_modules_ids_list</a>( )
+<a href="source-class-ModulesManager.php#108-114" title="Go to source code">get_activated_modules_ids_list</a>( )
 						</code>
 
 							<div class="description short">
@@ -1057,7 +1053,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_feature_modules">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#117-132" title="Go to source code">get_activated_feature_modules</a>( <span> <var>$feature_id</var></span> )
+<a href="source-class-ModulesManager.php#116-131" title="Go to source code">get_activated_feature_modules</a>( <span> <var>$feature_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1096,7 +1092,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_module">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#134-142" title="Go to source code">get_module</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ModulesManager.php#133-141" title="Go to source code">get_module</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1140,7 +1136,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_is_module_installed">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#144-151" title="Go to source code">is_module_installed</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ModulesManager.php#143-150" title="Go to source code">is_module_installed</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1179,7 +1175,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_is_module_activated">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#153-160" title="Go to source code">is_module_activated</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ModulesManager.php#152-159" title="Go to source code">is_module_activated</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1218,7 +1214,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_install_module">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#162-226" title="Go to source code">install_module</a>( <span>string <var>$module_identifier</var></span>, <span>boolean <var>$enable_module</var> = <span class="php-keyword1">true</span></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ModulesManager.php#161-225" title="Go to source code">install_module</a>( <span>string <var>$module_identifier</var></span>, <span>boolean <var>$enable_module</var> = <span class="php-keyword1">true</span></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1274,7 +1270,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_uninstall_module">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#228-307" title="Go to source code">uninstall_module</a>( <span>integer <var>$module_id</var></span>, <span>boolean <var>$drop_files</var> = <span class="php-keyword1">false</span></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ModulesManager.php#227-306" title="Go to source code">uninstall_module</a>( <span>integer <var>$module_id</var></span>, <span>boolean <var>$drop_files</var> = <span class="php-keyword1">false</span></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1328,7 +1324,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_upgrade_module">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#309-358" title="Go to source code">upgrade_module</a>( <span> <var>$module_identifier</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ModulesManager.php#308-357" title="Go to source code">upgrade_module</a>( <span> <var>$module_identifier</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1363,7 +1359,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_module_is_upgradable">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#360-375" title="Go to source code">module_is_upgradable</a>( <span> <var>$module_identifier</var></span> )
+<a href="source-class-ModulesManager.php#359-374" title="Go to source code">module_is_upgradable</a>( <span> <var>$module_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1398,7 +1394,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_update_module">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#377-455" title="Go to source code">update_module</a>( <span> <var>$module_id</var></span>, <span> <var>$activated</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ModulesManager.php#376-454" title="Go to source code">update_module</a>( <span> <var>$module_id</var></span>, <span> <var>$activated</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1433,7 +1429,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_generate_unauthorized_module_option">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#508-522" title="Go to source code">generate_unauthorized_module_option</a>( <span> <var>$type</var></span> )
+<a href="source-class-ModulesManager.php#507-521" title="Go to source code">generate_unauthorized_module_option</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1483,7 +1479,7 @@ sorted by name</p>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#19" title="Go to source code"><b>GENERATE_CACHE_AFTER_THE_OPERATION</b></a>
+								<a href="source-class-ModulesManager.php#18" title="Go to source code"><b>GENERATE_CACHE_AFTER_THE_OPERATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1507,7 +1503,7 @@ sorted by name</p>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#20" title="Go to source code"><b>DO_NOT_GENERATE_CACHE_AFTER_THE_OPERATION</b></a>
+								<a href="source-class-ModulesManager.php#19" title="Go to source code"><b>DO_NOT_GENERATE_CACHE_AFTER_THE_OPERATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1531,7 +1527,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#21" title="Go to source code"><b>MODULE_UNINSTALLED</b></a>
+								<a href="source-class-ModulesManager.php#20" title="Go to source code"><b>MODULE_UNINSTALLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1555,7 +1551,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#22" title="Go to source code"><b>MODULE_INSTALLED</b></a>
+								<a href="source-class-ModulesManager.php#21" title="Go to source code"><b>MODULE_INSTALLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1579,7 +1575,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#23" title="Go to source code"><b>UNEXISTING_MODULE</b></a>
+								<a href="source-class-ModulesManager.php#22" title="Go to source code"><b>UNEXISTING_MODULE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1603,7 +1599,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#24" title="Go to source code"><b>MODULE_ALREADY_INSTALLED</b></a>
+								<a href="source-class-ModulesManager.php#23" title="Go to source code"><b>MODULE_ALREADY_INSTALLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1627,7 +1623,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#25" title="Go to source code"><b>CONFIG_CONFLICT</b></a>
+								<a href="source-class-ModulesManager.php#24" title="Go to source code"><b>CONFIG_CONFLICT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1651,7 +1647,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#26" title="Go to source code"><b>NOT_INSTALLED_MODULE</b></a>
+								<a href="source-class-ModulesManager.php#25" title="Go to source code"><b>NOT_INSTALLED_MODULE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1675,7 +1671,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#27" title="Go to source code"><b>MODULE_FILES_COULD_NOT_BE_DROPPED</b></a>
+								<a href="source-class-ModulesManager.php#26" title="Go to source code"><b>MODULE_FILES_COULD_NOT_BE_DROPPED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1699,7 +1695,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#28" title="Go to source code"><b>PHP_VERSION_CONFLICT</b></a>
+								<a href="source-class-ModulesManager.php#27" title="Go to source code"><b>PHP_VERSION_CONFLICT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1723,7 +1719,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#29" title="Go to source code"><b>PHPBOOST_VERSION_CONFLICT</b></a>
+								<a href="source-class-ModulesManager.php#28" title="Go to source code"><b>PHPBOOST_VERSION_CONFLICT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1747,7 +1743,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#30" title="Go to source code"><b>MODULE_NOT_UPGRADABLE</b></a>
+								<a href="source-class-ModulesManager.php#29" title="Go to source code"><b>MODULE_NOT_UPGRADABLE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1771,7 +1767,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#31" title="Go to source code"><b>UPGRADE_FAILED</b></a>
+								<a href="source-class-ModulesManager.php#30" title="Go to source code"><b>UPGRADE_FAILED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1795,7 +1791,7 @@ sorted by name</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModulesManager.php#32" title="Go to source code"><b>MODULE_UPDATED</b></a>
+								<a href="source-class-ModulesManager.php#31" title="Go to source code"><b>MODULE_UPDATED</b></a>
 							</code>
 
 							<div class="description short">

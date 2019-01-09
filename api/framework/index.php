@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>

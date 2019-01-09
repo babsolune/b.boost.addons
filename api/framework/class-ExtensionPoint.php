@@ -686,10 +686,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Extension.provider.php">Extension-provider</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -709,7 +705,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 07
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPoint.php#3-15" title="Go to source code">phpboost/extension-provider/ExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPoint.php#3-14" title="Go to source code">phpboost/extension-provider/ExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -749,7 +745,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 

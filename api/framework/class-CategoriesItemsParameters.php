@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesItemsParameters.php#3-41" title="Go to source code">content/category/CategoriesItemsParameters.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesItemsParameters.php#3-40" title="Go to source code">content/category/CategoriesItemsParameters.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_set_table_name_contains_items">#</a>
 						<code>
-<a href="source-class-CategoriesItemsParameters.php#22-25" title="Go to source code">set_table_name_contains_items</a>( <span> <var>$table_name</var></span> )
+<a href="source-class-CategoriesItemsParameters.php#21-24" title="Go to source code">set_table_name_contains_items</a>( <span> <var>$table_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#_get_table_name_contains_items">#</a>
 						<code>
-<a href="source-class-CategoriesItemsParameters.php#27-30" title="Go to source code">get_table_name_contains_items</a>( )
+<a href="source-class-CategoriesItemsParameters.php#26-29" title="Go to source code">get_table_name_contains_items</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_set_field_name_id_category">#</a>
 						<code>
-<a href="source-class-CategoriesItemsParameters.php#32-35" title="Go to source code">set_field_name_id_category</a>( <span> <var>$field_name</var></span> )
+<a href="source-class-CategoriesItemsParameters.php#31-34" title="Go to source code">set_field_name_id_category</a>( <span> <var>$field_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -848,7 +844,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_name_id_category">#</a>
 						<code>
-<a href="source-class-CategoriesItemsParameters.php#37-40" title="Go to source code">get_field_name_id_category</a>( )
+<a href="source-class-CategoriesItemsParameters.php#36-39" title="Go to source code">get_field_name_id_category</a>( )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CategoriesItemsParameters.php#20" title="Go to source code"><b>DEFAULT_FIELD_NAME</b></a>
+								<a href="source-class-CategoriesItemsParameters.php#19" title="Go to source code"><b>DEFAULT_FIELD_NAME</b></a>
 							</code>
 
 							<div class="description short">

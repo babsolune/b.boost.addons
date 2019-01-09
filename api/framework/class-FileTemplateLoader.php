@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.loader.php">loader</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateLoader.php#3-254" title="Go to source code">io/template/loader/FileTemplateLoader.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateLoader.php#3-253" title="Go to source code">io/template/loader/FileTemplateLoader.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -748,7 +744,7 @@ their source's real path.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -770,7 +766,7 @@ their source's real path.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FileTemplateLoader.php#36-49" title="Go to source code">__construct</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
+<a href="source-class-FileTemplateLoader.php#35-48" title="Go to source code">__construct</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -814,7 +810,7 @@ whether the theme redefines them or not).</p></dd>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-FileTemplateLoader.php#65-76" title="Go to source code">load</a>( )
+<a href="source-class-FileTemplateLoader.php#64-75" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@ whether the theme redefines them or not).</p></dd>
 					<div>
 						<a class="anchor" href="#_supports_caching">#</a>
 						<code>
-<a href="source-class-FileTemplateLoader.php#231-237" title="Go to source code">supports_caching</a>( )
+<a href="source-class-FileTemplateLoader.php#230-236" title="Go to source code">supports_caching</a>( )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@ whether the theme redefines them or not).</p></dd>
 					<div>
 						<a class="anchor" href="#_get_cache_file_path">#</a>
 						<code>
-<a href="source-class-FileTemplateLoader.php#239-249" title="Go to source code">get_cache_file_path</a>( )
+<a href="source-class-FileTemplateLoader.php#238-248" title="Go to source code">get_cache_file_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@ enabled you to know that.</p>
 					<div>
 						<a class="anchor" href="#_get_pictures_data_path">#</a>
 						<code>
-<a href="source-class-FileTemplateLoader.php#251-253" title="Go to source code">get_pictures_data_path</a>( )
+<a href="source-class-FileTemplateLoader.php#250-252" title="Go to source code">get_pictures_data_path</a>( )
 						</code>
 
 							<div class="description short">

@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Ajax.php">Ajax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -685,7 +681,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxRequest.php#3-111" title="Go to source code">ajax/AjaxRequest.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxRequest.php#3-110" title="Go to source code">ajax/AjaxRequest.class.php</a></span>
 			</div>
 
 
@@ -706,7 +702,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -728,7 +724,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#32-37" title="Go to source code">__construct</a>( <span> <var>$target</var></span>, <span> <var>$onsuccess</var></span>, <span> <var>$onfailure</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AjaxRequest.php#31-36" title="Go to source code">__construct</a>( <span> <var>$target</var></span>, <span> <var>$onsuccess</var></span>, <span> <var>$onfailure</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#_set_target">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#39-42" title="Go to source code">set_target</a>( <span> <var>$target</var></span> )
+<a href="source-class-AjaxRequest.php#38-41" title="Go to source code">set_target</a>( <span> <var>$target</var></span> )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@
 					<div>
 						<a class="anchor" href="#_set_method">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#44-47" title="Go to source code">set_method</a>( <span> <var>$method</var></span> )
+<a href="source-class-AjaxRequest.php#43-46" title="Go to source code">set_method</a>( <span> <var>$method</var></span> )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@
 					<div>
 						<a class="anchor" href="#_set_success_callback">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#49-52" title="Go to source code">set_success_callback</a>( <span> <var>$onsuccess</var></span> )
+<a href="source-class-AjaxRequest.php#48-51" title="Go to source code">set_success_callback</a>( <span> <var>$onsuccess</var></span> )
 						</code>
 
 							<div class="description short">
@@ -868,7 +864,7 @@
 					<div>
 						<a class="anchor" href="#_set_failure_callback">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#54-65" title="Go to source code">set_failure_callback</a>( <span> <var>$onfailure</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AjaxRequest.php#53-64" title="Go to source code">set_failure_callback</a>( <span> <var>$onfailure</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@
 					<div>
 						<a class="anchor" href="#_add_event_callback">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#67-70" title="Go to source code">add_event_callback</a>( <span> <var>$event</var></span>, <span> <var>$callback</var></span> )
+<a href="source-class-AjaxRequest.php#66-69" title="Go to source code">add_event_callback</a>( <span> <var>$event</var></span>, <span> <var>$callback</var></span> )
 						</code>
 
 							<div class="description short">
@@ -938,7 +934,7 @@
 					<div>
 						<a class="anchor" href="#_add_param">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#72-75" title="Go to source code">add_param</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-AjaxRequest.php#71-74" title="Go to source code">add_param</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -973,7 +969,7 @@
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-AjaxRequest.php#77-82" title="Go to source code">render</a>( )
+<a href="source-class-AjaxRequest.php#76-81" title="Go to source code">render</a>( )
 						</code>
 
 							<div class="description short">
@@ -1029,7 +1025,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#15" title="Go to source code"><b>GET</b></a>
+								<a href="source-class-AjaxRequest.php#14" title="Go to source code"><b>GET</b></a>
 							</code>
 
 							<div class="description short">
@@ -1053,7 +1049,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#16" title="Go to source code"><b>POST</b></a>
+								<a href="source-class-AjaxRequest.php#15" title="Go to source code"><b>POST</b></a>
 							</code>
 
 							<div class="description short">
@@ -1077,7 +1073,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#18" title="Go to source code"><b>BEFORE_SEND</b></a>
+								<a href="source-class-AjaxRequest.php#17" title="Go to source code"><b>BEFORE_SEND</b></a>
 							</code>
 
 							<div class="description short">
@@ -1101,7 +1097,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#19" title="Go to source code"><b>AJAX_SEND</b></a>
+								<a href="source-class-AjaxRequest.php#18" title="Go to source code"><b>AJAX_SEND</b></a>
 							</code>
 
 							<div class="description short">
@@ -1125,7 +1121,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#20" title="Go to source code"><b>SUCCESS</b></a>
+								<a href="source-class-AjaxRequest.php#19" title="Go to source code"><b>SUCCESS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1149,7 +1145,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#21" title="Go to source code"><b>AJAX_SUCCESS</b></a>
+								<a href="source-class-AjaxRequest.php#20" title="Go to source code"><b>AJAX_SUCCESS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1173,7 +1169,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#22" title="Go to source code"><b>ERROR</b></a>
+								<a href="source-class-AjaxRequest.php#21" title="Go to source code"><b>ERROR</b></a>
 							</code>
 
 							<div class="description short">
@@ -1197,7 +1193,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#23" title="Go to source code"><b>AJAX_ERROR</b></a>
+								<a href="source-class-AjaxRequest.php#22" title="Go to source code"><b>AJAX_ERROR</b></a>
 							</code>
 
 							<div class="description short">
@@ -1221,7 +1217,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#24" title="Go to source code"><b>COMPLETE</b></a>
+								<a href="source-class-AjaxRequest.php#23" title="Go to source code"><b>COMPLETE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1245,7 +1241,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxRequest.php#25" title="Go to source code"><b>AJAX_COMPLETE</b></a>
+								<a href="source-class-AjaxRequest.php#24" title="Go to source code"><b>AJAX_COMPLETE</b></a>
 							</code>
 
 							<div class="description short">

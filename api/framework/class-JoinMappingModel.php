@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 05
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-JoinMappingModel.php#3-66" title="Go to source code">mvc/model/JoinMappingModel.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-JoinMappingModel.php#3-65" title="Go to source code">mvc/model/JoinMappingModel.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-JoinMappingModel.php#20-33" title="Go to source code">__construct</a>( <span> <var>$table_name</var></span>, <span> <var>$fk_db_field_name</var></span>, <span><code><a href="class-MappingModelField.php">MappingModelField</a></code> <var>$primary_key</var></span>, <span> <var>$fields</var></span> )
+<a href="source-class-JoinMappingModel.php#19-32" title="Go to source code">__construct</a>( <span> <var>$table_name</var></span>, <span> <var>$fk_db_field_name</var></span>, <span><code><a href="class-MappingModelField.php">MappingModelField</a></code> <var>$primary_key</var></span>, <span> <var>$fields</var></span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_get_table_name">#</a>
 						<code>
-<a href="source-class-JoinMappingModel.php#35-41" title="Go to source code">get_table_name</a>( )
+<a href="source-class-JoinMappingModel.php#34-40" title="Go to source code">get_table_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_get_fk_db_field_name">#</a>
 						<code>
-<a href="source-class-JoinMappingModel.php#43-49" title="Go to source code">get_fk_db_field_name</a>( )
+<a href="source-class-JoinMappingModel.php#42-48" title="Go to source code">get_fk_db_field_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_get_primary_key">#</a>
 						<code>
-<a href="source-class-JoinMappingModel.php#51-57" title="Go to source code">get_primary_key</a>( )
+<a href="source-class-JoinMappingModel.php#50-56" title="Go to source code">get_primary_key</a>( )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_get_fields">#</a>
 						<code>
-<a href="source-class-JoinMappingModel.php#59-65" title="Go to source code">get_fields</a>( )
+<a href="source-class-JoinMappingModel.php#58-64" title="Go to source code">get_fields</a>( )
 						</code>
 
 							<div class="description short">

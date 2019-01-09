@@ -681,10 +681,6 @@
 An error will be displayed on the page and the script execution will be stopped if no lang file is found for this module.</p>
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@ An error will be displayed on the page and the script execution will be stopped 
 						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-load_module_lang.php#167-207" title="Go to source code">
+						<a href="source-function-load_module_lang.php#166-206" title="Go to source code">
 							helper/deprecated_helper.inc.php
 						</a>
 				</span>

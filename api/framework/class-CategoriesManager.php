@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesManager.php#3-419" title="Go to source code">content/category/CategoriesManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesManager.php#3-418" title="Go to source code">content/category/CategoriesManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#47-59" title="Go to source code">__construct</a>( <span><code><a href="class-CategoriesCache.php">CategoriesCache</a></code> <var>$categories_cache</var></span>, <span><code><a href="class-CategoriesItemsParameters.php">CategoriesItemsParameters</a></code> <var>$categories_items_parameters</var></span> )
+<a href="source-class-CategoriesManager.php#46-58" title="Go to source code">__construct</a>( <span><code><a href="class-CategoriesCache.php">CategoriesCache</a></code> <var>$categories_cache</var></span>, <span><code><a href="class-CategoriesItemsParameters.php">CategoriesItemsParameters</a></code> <var>$categories_items_parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_add">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#61-100" title="Go to source code">add</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-CategoriesManager.php#60-99" title="Go to source code">add</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#102-124" title="Go to source code">update</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-CategoriesManager.php#101-123" title="Go to source code">update</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -870,7 +866,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_move_into_another">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#126-199" title="Go to source code">move_into_another</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span>, <span>integer <var>$position</var> = <span class="php-num">0</span></span> )
+<a href="source-class-CategoriesManager.php#125-198" title="Go to source code">move_into_another</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span>, <span>integer <var>$position</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -914,7 +910,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_move_items_into_another">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#201-212" title="Go to source code">move_items_into_another</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span> )
+<a href="source-class-CategoriesManager.php#200-211" title="Go to source code">move_items_into_another</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span> )
 						</code>
 
 							<div class="description short">
@@ -956,7 +952,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_update_position">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#214-245" title="Go to source code">update_position</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span>, <span>integer <var>$position</var></span> )
+<a href="source-class-CategoriesManager.php#213-244" title="Go to source code">update_position</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span>, <span>integer <var>$id_parent</var></span>, <span>integer <var>$position</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1000,7 +996,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#247-272" title="Go to source code">delete</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-CategoriesManager.php#246-271" title="Go to source code">delete</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1040,7 +1036,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_children">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#274-304" title="Go to source code">get_children</a>( <span>integer <var>$id_category</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span> <var>$add_this</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-CategoriesManager.php#273-303" title="Go to source code">get_children</a>( <span>integer <var>$id_category</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span> <var>$add_this</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1084,7 +1080,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_parents">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#306-343" title="Go to source code">get_parents</a>( <span>integer <var>$id_category</var></span>, <span>boolean <var>$add_this</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-CategoriesManager.php#305-342" title="Go to source code">get_parents</a>( <span>integer <var>$id_category</var></span>, <span>boolean <var>$add_this</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_heritated_authorizations">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#345-368" title="Go to source code">get_heritated_authorizations</a>( <span>integer <var>$id_category</var></span>, <span>integer <var>$bit</var></span>, <span>integer <var>$mode</var></span> )
+<a href="source-class-CategoriesManager.php#344-367" title="Go to source code">get_heritated_authorizations</a>( <span>integer <var>$id_category</var></span>, <span>integer <var>$bit</var></span>, <span>integer <var>$mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1174,7 +1170,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_select_categories_form_field">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#370-373" title="Go to source code">get_select_categories_form_field</a>( <span> <var>$id</var></span>, <span> <var>$label</var></span>, <span> <var>$value</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-CategoriesManager.php#369-372" title="Go to source code">get_select_categories_form_field</a>( <span> <var>$id</var></span>, <span> <var>$label</var></span>, <span> <var>$value</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1209,7 +1205,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_feeds_categories_module">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#375-381" title="Go to source code">get_feeds_categories_module</a>( )
+<a href="source-class-CategoriesManager.php#374-380" title="Go to source code">get_feeds_categories_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -1248,7 +1244,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_regenerate_cache">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#383-387" title="Go to source code">regenerate_cache</a>( )
+<a href="source-class-CategoriesManager.php#382-386" title="Go to source code">regenerate_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1283,7 +1279,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_categories_cache">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#389-392" title="Go to source code">get_categories_cache</a>( )
+<a href="source-class-CategoriesManager.php#388-391" title="Go to source code">get_categories_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1322,7 +1318,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#394-397" title="Go to source code">get_module_id</a>( )
+<a href="source-class-CategoriesManager.php#393-396" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1361,7 +1357,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 					<div>
 						<a class="anchor" href="#_get_categories_items_parameters">#</a>
 						<code>
-<a href="source-class-CategoriesManager.php#399-402" title="Go to source code">get_categories_items_parameters</a>( )
+<a href="source-class-CategoriesManager.php#398-401" title="Go to source code">get_categories_items_parameters</a>( )
 						</code>
 
 							<div class="description short">
@@ -1411,7 +1407,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CategoriesManager.php#44" title="Go to source code"><b>STANDARD_CATEGORY_CLASS</b></a>
+								<a href="source-class-CategoriesManager.php#43" title="Go to source code"><b>STANDARD_CATEGORY_CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1435,7 +1431,7 @@ It needs to have its first instantiation of a parameter child object CategoriesC
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CategoriesManager.php#45" title="Go to source code"><b>RICH_CATEGORY_CLASS</b></a>
+								<a href="source-class-CategoriesManager.php#44" title="Go to source code"><b>RICH_CATEGORY_CLASS</b></a>
 							</code>
 
 							<div class="description short">

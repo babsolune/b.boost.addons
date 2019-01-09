@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,324 +1294,323 @@
 		<header><h2>File content/comments/CommentsService.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span></span><span class="l"><a href="#13"> 13: </a></span></span><span class="l"><a href="#14"> 14: </a></span><span class="l"><a href="#15"> 15: </a></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span><span class="l"><a href="#24"> 24: </a></span><span class="l"><a href="#25"> 25: </a></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span><span class="l"><a href="#36"> 36: </a></span></span><span class="l"><a href="#37"> 37: </a></span></span><span class="l"><a href="#38"> 38: </a></span></span><span class="l"><a href="#39"> 39: </a></span></span><span class="l"><a href="#40"> 40: </a></span><span class="l"><a href="#41"> 41: </a></span><span class="l"><a href="#42"> 42: </a></span><span class="l"><a href="#43"> 43: </a></span><span class="l"><a href="#44"> 44: </a></span><span class="l"><a href="#45"> 45: </a></span><span class="l"><a href="#46"> 46: </a></span><span class="l"><a href="#47"> 47: </a></span><span class="l"><a href="#48"> 48: </a></span><span class="l"><a href="#49"> 49: </a></span><span class="l"><a href="#50"> 50: </a></span><span class="l"><a href="#51"> 51: </a></span><span class="l"><a href="#52"> 52: </a></span><span class="l"><a href="#53"> 53: </a></span><span class="l"><a href="#54"> 54: </a></span><span class="l"><a href="#55"> 55: </a></span><span class="l"><a href="#56"> 56: </a></span><span class="l"><a href="#57"> 57: </a></span><span class="l"><a href="#58"> 58: </a></span><span class="l"><a href="#59"> 59: </a></span><span class="l"><a href="#60"> 60: </a></span><span class="l"><a href="#61"> 61: </a></span><span class="l"><a href="#62"> 62: </a></span><span class="l"><a href="#63"> 63: </a></span><span class="l"><a href="#64"> 64: </a></span><span class="l"><a href="#65"> 65: </a></span><span class="l"><a href="#66"> 66: </a></span><span class="l"><a href="#67"> 67: </a></span><span class="l"><a href="#68"> 68: </a></span><span class="l"><a href="#69"> 69: </a></span><span class="l"><a href="#70"> 70: </a></span><span class="l"><a href="#71"> 71: </a></span><span class="l"><a href="#72"> 72: </a></span><span class="l"><a href="#73"> 73: </a></span><span class="l"><a href="#74"> 74: </a></span><span class="l"><a href="#75"> 75: </a></span><span class="l"><a href="#76"> 76: </a></span><span class="l"><a href="#77"> 77: </a></span><span class="l"><a href="#78"> 78: </a></span><span class="l"><a href="#79"> 79: </a></span><span class="l"><a href="#80"> 80: </a></span><span class="l"><a href="#81"> 81: </a></span><span class="l"><a href="#82"> 82: </a></span><span class="l"><a href="#83"> 83: </a></span><span class="l"><a href="#84"> 84: </a></span><span class="l"><a href="#85"> 85: </a></span><span class="l"><a href="#86"> 86: </a></span><span class="l"><a href="#87"> 87: </a></span><span class="l"><a href="#88"> 88: </a></span><span class="l"><a href="#89"> 89: </a></span><span class="l"><a href="#90"> 90: </a></span><span class="l"><a href="#91"> 91: </a></span><span class="l"><a href="#92"> 92: </a></span><span class="l"><a href="#93"> 93: </a></span><span class="l"><a href="#94"> 94: </a></span><span class="l"><a href="#95"> 95: </a></span><span class="l"><a href="#96"> 96: </a></span><span class="l"><a href="#97"> 97: </a></span><span class="l"><a href="#98"> 98: </a></span><span class="l"><a href="#99"> 99: </a></span><span class="l"><a href="#100">100: </a></span><span class="l"><a href="#101">101: </a></span><span class="l"><a href="#102">102: </a></span><span class="l"><a href="#103">103: </a></span><span class="l"><a href="#104">104: </a></span><span class="l"><a href="#105">105: </a></span><span class="l"><a href="#106">106: </a></span><span class="l"><a href="#107">107: </a></span><span class="l"><a href="#108">108: </a></span><span class="l"><a href="#109">109: </a></span><span class="l"><a href="#110">110: </a></span><span class="l"><a href="#111">111: </a></span><span class="l"><a href="#112">112: </a></span><span class="l"><a href="#113">113: </a></span><span class="l"><a href="#114">114: </a></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span><span class="l"><a href="#142">142: </a></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span><span class="l"><a href="#145">145: </a></span></span><span class="l"><a href="#146">146: </a></span></span><span class="l"><a href="#147">147: </a></span></span><span class="l"><a href="#148">148: </a></span></span><span class="l"><a href="#149">149: </a></span></span><span class="l"><a href="#150">150: </a></span></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span><span class="l"><a href="#160">160: </a></span></span><span class="l"><a href="#161">161: </a></span></span><span class="l"><a href="#162">162: </a></span></span><span class="l"><a href="#163">163: </a></span></span><span class="l"><a href="#164">164: </a></span></span><span class="l"><a href="#165">165: </a></span></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span><span class="l"><a href="#175">175: </a></span></span><span class="l"><a href="#176">176: </a></span></span><span class="l"><a href="#177">177: </a></span></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span><span class="l"><a href="#187">187: </a></span></span><span class="l"><a href="#188">188: </a></span></span><span class="l"><a href="#189">189: </a></span></span><span class="l"><a href="#190">190: </a></span></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span><span class="l"><a href="#200">200: </a></span></span><span class="l"><a href="#201">201: </a></span></span><span class="l"><a href="#202">202: </a></span></span><span class="l"><a href="#203">203: </a></span></span><span class="l"><a href="#204">204: </a></span></span><span class="l"><a href="#205">205: </a></span></span><span class="l"><a href="#206">206: </a></span><span class="l"><a href="#207">207: </a></span><span class="l"><a href="#208">208: </a></span><span class="l"><a href="#209">209: </a></span><span class="l"><a href="#210">210: </a></span><span class="l"><a href="#211">211: </a></span><span class="l"><a href="#212">212: </a></span></span><span class="l"><a href="#213">213: </a></span></span><span class="l"><a href="#214">214: </a></span></span><span class="l"><a href="#215">215: </a></span></span><span class="l"><a href="#216">216: </a></span></span><span class="l"><a href="#217">217: </a></span></span><span class="l"><a href="#218">218: </a></span><span class="l"><a href="#219">219: </a></span><span class="l"><a href="#220">220: </a></span><span class="l"><a href="#221">221: </a></span><span class="l"><a href="#222">222: </a></span><span class="l"><a href="#223">223: </a></span><span class="l"><a href="#224">224: </a></span><span class="l"><a href="#225">225: </a></span><span class="l"><a href="#226">226: </a></span><span class="l"><a href="#227">227: </a></span><span class="l"><a href="#228">228: </a></span></span><span class="l"><a href="#229">229: </a></span></span><span class="l"><a href="#230">230: </a></span></span><span class="l"><a href="#231">231: </a></span></span><span class="l"><a href="#232">232: </a></span></span><span class="l"><a href="#233">233: </a></span></span><span class="l"><a href="#234">234: </a></span></span><span class="l"><a href="#235">235: </a></span></span><span class="l"><a href="#236">236: </a></span></span><span class="l"><a href="#237">237: </a></span></span><span class="l"><a href="#238">238: </a></span><span class="l"><a href="#239">239: </a></span><span class="l"><a href="#240">240: </a></span><span class="l"><a href="#241">241: </a></span><span class="l"><a href="#242">242: </a></span><span class="l"><a href="#243">243: </a></span><span class="l"><a href="#244">244: </a></span><span class="l"><a href="#245">245: </a></span><span class="l"><a href="#246">246: </a></span><span class="l"><a href="#247">247: </a></span><span class="l"><a href="#248">248: </a></span><span class="l"><a href="#249">249: </a></span><span class="l"><a href="#250">250: </a></span><span class="l"><a href="#251">251: </a></span><span class="l"><a href="#252">252: </a></span><span class="l"><a href="#253">253: </a></span><span class="l"><a href="#254">254: </a></span><span class="l"><a href="#255">255: </a></span><span class="l"><a href="#256">256: </a></span><span class="l"><a href="#257">257: </a></span><span class="l"><a href="#258">258: </a></span><span class="l"><a href="#259">259: </a></span><span class="l"><a href="#260">260: </a></span><span class="l"><a href="#261">261: </a></span><span class="l"><a href="#262">262: </a></span><span class="l"><a href="#263">263: </a></span><span class="l"><a href="#264">264: </a></span><span class="l"><a href="#265">265: </a></span><span class="l"><a href="#266">266: </a></span><span class="l"><a href="#267">267: </a></span><span class="l"><a href="#268">268: </a></span><span class="l"><a href="#269">269: </a></span><span class="l"><a href="#270">270: </a></span><span class="l"><a href="#271">271: </a></span><span class="l"><a href="#272">272: </a></span><span class="l"><a href="#273">273: </a></span><span class="l"><a href="#274">274: </a></span><span class="l"><a href="#275">275: </a></span><span class="l"><a href="#276">276: </a></span><span class="l"><a href="#277">277: </a></span><span class="l"><a href="#278">278: </a></span><span class="l"><a href="#279">279: </a></span><span class="l"><a href="#280">280: </a></span><span class="l"><a href="#281">281: </a></span><span class="l"><a href="#282">282: </a></span><span class="l"><a href="#283">283: </a></span><span class="l"><a href="#284">284: </a></span><span class="l"><a href="#285">285: </a></span><span class="l"><a href="#286">286: </a></span><span class="l"><a href="#287">287: </a></span><span class="l"><a href="#288">288: </a></span><span class="l"><a href="#289">289: </a></span><span class="l"><a href="#290">290: </a></span><span class="l"><a href="#291">291: </a></span><span class="l"><a href="#292">292: </a></span><span class="l"><a href="#293">293: </a></span><span class="l"><a href="#294">294: </a></span><span class="l"><a href="#295">295: </a></span><span class="l"><a href="#296">296: </a></span><span class="l"><a href="#297">297: </a></span><span class="l"><a href="#298">298: </a></span><span class="l"><a href="#299">299: </a></span><span class="l"><a href="#300">300: </a></span><span class="l"><a href="#301">301: </a></span><span class="l"><a href="#302">302: </a></span><span class="l"><a href="#303">303: </a></span><span class="l"><a href="#304">304: </a></span><span class="l"><a href="#305">305: </a></span><span class="l"><a href="#306">306: </a></span><span class="l"><a href="#307">307: </a></span><span class="l"><a href="#308">308: </a></span><span class="l"><a href="#309">309: </a></span><span class="l"><a href="#310">310: </a></span><span class="l"><a href="#311">311: </a></span><span class="l"><a href="#312">312: </a></span><span class="l"><a href="#313">313: </a></span><span class="l"><a href="#314">314: </a></span><span class="l"><a href="#315">315: </a></span><span class="l"><a href="#316">316: </a></span><span class="l"><a href="#317">317: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span></span><span class="l"><a href="#13"> 13: </a></span><span class="l"><a href="#14"> 14: </a></span><span class="l"><a href="#15"> 15: </a></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span><span class="l"><a href="#24"> 24: </a></span><span class="l"><a href="#25"> 25: </a></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span></span><span class="l"><a href="#36"> 36: </a></span></span><span class="l"><a href="#37"> 37: </a></span></span><span class="l"><a href="#38"> 38: </a></span></span><span class="l"><a href="#39"> 39: </a></span><span class="l"><a href="#40"> 40: </a></span><span class="l"><a href="#41"> 41: </a></span><span class="l"><a href="#42"> 42: </a></span><span class="l"><a href="#43"> 43: </a></span><span class="l"><a href="#44"> 44: </a></span><span class="l"><a href="#45"> 45: </a></span><span class="l"><a href="#46"> 46: </a></span><span class="l"><a href="#47"> 47: </a></span><span class="l"><a href="#48"> 48: </a></span><span class="l"><a href="#49"> 49: </a></span><span class="l"><a href="#50"> 50: </a></span><span class="l"><a href="#51"> 51: </a></span><span class="l"><a href="#52"> 52: </a></span><span class="l"><a href="#53"> 53: </a></span><span class="l"><a href="#54"> 54: </a></span><span class="l"><a href="#55"> 55: </a></span><span class="l"><a href="#56"> 56: </a></span><span class="l"><a href="#57"> 57: </a></span><span class="l"><a href="#58"> 58: </a></span><span class="l"><a href="#59"> 59: </a></span><span class="l"><a href="#60"> 60: </a></span><span class="l"><a href="#61"> 61: </a></span><span class="l"><a href="#62"> 62: </a></span><span class="l"><a href="#63"> 63: </a></span><span class="l"><a href="#64"> 64: </a></span><span class="l"><a href="#65"> 65: </a></span><span class="l"><a href="#66"> 66: </a></span><span class="l"><a href="#67"> 67: </a></span><span class="l"><a href="#68"> 68: </a></span><span class="l"><a href="#69"> 69: </a></span><span class="l"><a href="#70"> 70: </a></span><span class="l"><a href="#71"> 71: </a></span><span class="l"><a href="#72"> 72: </a></span><span class="l"><a href="#73"> 73: </a></span><span class="l"><a href="#74"> 74: </a></span><span class="l"><a href="#75"> 75: </a></span><span class="l"><a href="#76"> 76: </a></span><span class="l"><a href="#77"> 77: </a></span><span class="l"><a href="#78"> 78: </a></span><span class="l"><a href="#79"> 79: </a></span><span class="l"><a href="#80"> 80: </a></span><span class="l"><a href="#81"> 81: </a></span><span class="l"><a href="#82"> 82: </a></span><span class="l"><a href="#83"> 83: </a></span><span class="l"><a href="#84"> 84: </a></span><span class="l"><a href="#85"> 85: </a></span><span class="l"><a href="#86"> 86: </a></span><span class="l"><a href="#87"> 87: </a></span><span class="l"><a href="#88"> 88: </a></span><span class="l"><a href="#89"> 89: </a></span><span class="l"><a href="#90"> 90: </a></span><span class="l"><a href="#91"> 91: </a></span><span class="l"><a href="#92"> 92: </a></span><span class="l"><a href="#93"> 93: </a></span><span class="l"><a href="#94"> 94: </a></span><span class="l"><a href="#95"> 95: </a></span><span class="l"><a href="#96"> 96: </a></span><span class="l"><a href="#97"> 97: </a></span><span class="l"><a href="#98"> 98: </a></span><span class="l"><a href="#99"> 99: </a></span><span class="l"><a href="#100">100: </a></span><span class="l"><a href="#101">101: </a></span><span class="l"><a href="#102">102: </a></span><span class="l"><a href="#103">103: </a></span><span class="l"><a href="#104">104: </a></span><span class="l"><a href="#105">105: </a></span><span class="l"><a href="#106">106: </a></span><span class="l"><a href="#107">107: </a></span><span class="l"><a href="#108">108: </a></span><span class="l"><a href="#109">109: </a></span><span class="l"><a href="#110">110: </a></span><span class="l"><a href="#111">111: </a></span><span class="l"><a href="#112">112: </a></span><span class="l"><a href="#113">113: </a></span><span class="l"><a href="#114">114: </a></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span><span class="l"><a href="#142">142: </a></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span></span><span class="l"><a href="#145">145: </a></span></span><span class="l"><a href="#146">146: </a></span></span><span class="l"><a href="#147">147: </a></span></span><span class="l"><a href="#148">148: </a></span></span><span class="l"><a href="#149">149: </a></span></span><span class="l"><a href="#150">150: </a></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span></span><span class="l"><a href="#160">160: </a></span></span><span class="l"><a href="#161">161: </a></span></span><span class="l"><a href="#162">162: </a></span></span><span class="l"><a href="#163">163: </a></span></span><span class="l"><a href="#164">164: </a></span></span><span class="l"><a href="#165">165: </a></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span></span><span class="l"><a href="#175">175: </a></span></span><span class="l"><a href="#176">176: </a></span></span><span class="l"><a href="#177">177: </a></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span></span><span class="l"><a href="#187">187: </a></span></span><span class="l"><a href="#188">188: </a></span></span><span class="l"><a href="#189">189: </a></span></span><span class="l"><a href="#190">190: </a></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span></span><span class="l"><a href="#200">200: </a></span></span><span class="l"><a href="#201">201: </a></span></span><span class="l"><a href="#202">202: </a></span></span><span class="l"><a href="#203">203: </a></span></span><span class="l"><a href="#204">204: </a></span></span><span class="l"><a href="#205">205: </a></span><span class="l"><a href="#206">206: </a></span><span class="l"><a href="#207">207: </a></span><span class="l"><a href="#208">208: </a></span><span class="l"><a href="#209">209: </a></span><span class="l"><a href="#210">210: </a></span><span class="l"><a href="#211">211: </a></span></span><span class="l"><a href="#212">212: </a></span></span><span class="l"><a href="#213">213: </a></span></span><span class="l"><a href="#214">214: </a></span></span><span class="l"><a href="#215">215: </a></span></span><span class="l"><a href="#216">216: </a></span></span><span class="l"><a href="#217">217: </a></span><span class="l"><a href="#218">218: </a></span><span class="l"><a href="#219">219: </a></span><span class="l"><a href="#220">220: </a></span><span class="l"><a href="#221">221: </a></span><span class="l"><a href="#222">222: </a></span><span class="l"><a href="#223">223: </a></span><span class="l"><a href="#224">224: </a></span><span class="l"><a href="#225">225: </a></span><span class="l"><a href="#226">226: </a></span><span class="l"><a href="#227">227: </a></span></span><span class="l"><a href="#228">228: </a></span></span><span class="l"><a href="#229">229: </a></span></span><span class="l"><a href="#230">230: </a></span></span><span class="l"><a href="#231">231: </a></span></span><span class="l"><a href="#232">232: </a></span></span><span class="l"><a href="#233">233: </a></span></span><span class="l"><a href="#234">234: </a></span></span><span class="l"><a href="#235">235: </a></span></span><span class="l"><a href="#236">236: </a></span></span><span class="l"><a href="#237">237: </a></span><span class="l"><a href="#238">238: </a></span><span class="l"><a href="#239">239: </a></span><span class="l"><a href="#240">240: </a></span><span class="l"><a href="#241">241: </a></span><span class="l"><a href="#242">242: </a></span><span class="l"><a href="#243">243: </a></span><span class="l"><a href="#244">244: </a></span><span class="l"><a href="#245">245: </a></span><span class="l"><a href="#246">246: </a></span><span class="l"><a href="#247">247: </a></span><span class="l"><a href="#248">248: </a></span><span class="l"><a href="#249">249: </a></span><span class="l"><a href="#250">250: </a></span><span class="l"><a href="#251">251: </a></span><span class="l"><a href="#252">252: </a></span><span class="l"><a href="#253">253: </a></span><span class="l"><a href="#254">254: </a></span><span class="l"><a href="#255">255: </a></span><span class="l"><a href="#256">256: </a></span><span class="l"><a href="#257">257: </a></span><span class="l"><a href="#258">258: </a></span><span class="l"><a href="#259">259: </a></span><span class="l"><a href="#260">260: </a></span><span class="l"><a href="#261">261: </a></span><span class="l"><a href="#262">262: </a></span><span class="l"><a href="#263">263: </a></span><span class="l"><a href="#264">264: </a></span><span class="l"><a href="#265">265: </a></span><span class="l"><a href="#266">266: </a></span><span class="l"><a href="#267">267: </a></span><span class="l"><a href="#268">268: </a></span><span class="l"><a href="#269">269: </a></span><span class="l"><a href="#270">270: </a></span><span class="l"><a href="#271">271: </a></span><span class="l"><a href="#272">272: </a></span><span class="l"><a href="#273">273: </a></span><span class="l"><a href="#274">274: </a></span><span class="l"><a href="#275">275: </a></span><span class="l"><a href="#276">276: </a></span><span class="l"><a href="#277">277: </a></span><span class="l"><a href="#278">278: </a></span><span class="l"><a href="#279">279: </a></span><span class="l"><a href="#280">280: </a></span><span class="l"><a href="#281">281: </a></span><span class="l"><a href="#282">282: </a></span><span class="l"><a href="#283">283: </a></span><span class="l"><a href="#284">284: </a></span><span class="l"><a href="#285">285: </a></span><span class="l"><a href="#286">286: </a></span><span class="l"><a href="#287">287: </a></span><span class="l"><a href="#288">288: </a></span><span class="l"><a href="#289">289: </a></span><span class="l"><a href="#290">290: </a></span><span class="l"><a href="#291">291: </a></span><span class="l"><a href="#292">292: </a></span><span class="l"><a href="#293">293: </a></span><span class="l"><a href="#294">294: </a></span><span class="l"><a href="#295">295: </a></span><span class="l"><a href="#296">296: </a></span><span class="l"><a href="#297">297: </a></span><span class="l"><a href="#298">298: </a></span><span class="l"><a href="#299">299: </a></span><span class="l"><a href="#300">300: </a></span><span class="l"><a href="#301">301: </a></span><span class="l"><a href="#302">302: </a></span><span class="l"><a href="#303">303: </a></span><span class="l"><a href="#304">304: </a></span><span class="l"><a href="#305">305: </a></span><span class="l"><a href="#306">306: </a></span><span class="l"><a href="#307">307: </a></span><span class="l"><a href="#308">308: </a></span><span class="l"><a href="#309">309: </a></span><span class="l"><a href="#310">310: </a></span><span class="l"><a href="#311">311: </a></span><span class="l"><a href="#312">312: </a></span><span class="l"><a href="#313">313: </a></span><span class="l"><a href="#314">314: </a></span><span class="l"><a href="#315">315: </a></span><span class="l"><a href="#316">316: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * This class allows you to use a comments system
 </span></span><span id="4" class="l"><span class="php-comment"> * @package     Content
 </span></span><span id="5" class="l"><span class="php-comment"> * @subpackage  Comments
-</span></span><span id="6" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="7" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="8" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="9" class="l"><span class="php-comment"> * @author      Kevin MASSY &lt;reidlos@phpboost.com&gt;
-</span></span><span id="10" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 01 04
-</span></span><span id="11" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2011 03 31
-</span></span><span id="12" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="13" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
-</span></span><span id="14" class="l"><span class="php-comment">*/</span>
-</span><span id="15" class="l">
-</span><span id="16" class="l"><span class="php-keyword1">class</span> CommentsService
-</span><span id="17" class="l">{
-</span><span id="18" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$user</span>;
-</span><span id="19" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$lang</span>;
-</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$common_lang</span>;
-</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$comments_lang</span>;
-</span><span id="22" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$comments_cache</span>;
-</span><span id="23" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$template</span>;
-</span><span id="24" class="l">
-</span><span id="25" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> __static()
-</span><span id="26" class="l">    {
-</span><span id="27" class="l">        self::<span class="php-var">$user</span> = AppContext::<span class="php-keyword2">get_current_user</span>();
-</span><span id="28" class="l">        self::<span class="php-var">$lang</span> = LangLoader::get(<span class="php-quote">'main'</span>);
-</span><span id="29" class="l">        self::<span class="php-var">$common_lang</span> = LangLoader::get(<span class="php-quote">'common'</span>);
-</span><span id="30" class="l">        self::<span class="php-var">$comments_lang</span> = LangLoader::get(<span class="php-quote">'comments-common'</span>);
-</span><span id="31" class="l">        self::<span class="php-var">$comments_cache</span> = CommentsCache::load();
-</span><span id="32" class="l">        self::<span class="php-var">$template</span> = <span class="php-keyword1">new</span> FileTemplate(<span class="php-quote">'framework/content/comments/comments.tpl'</span>);
-</span><span id="33" class="l">        self::<span class="php-var">$template</span>-&gt;add_lang(self::<span class="php-var">$comments_lang</span>);
-</span><span id="34" class="l">    }
-</span><span id="35" class="l">
-</span><span id="36" class="l">    <span class="php-comment">/**
-</span></span><span id="37" class="l"><span class="php-comment">     * This function display the comments
-</span></span><span id="38" class="l"><span class="php-comment">     * @param class CommentsTopic $topic
-</span></span><span id="39" class="l"><span class="php-comment">     * @return Template is a template object
-</span></span><span id="40" class="l"><span class="php-comment">     */</span>
-</span><span id="41" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> display(CommentsTopic <span class="php-var">$topic</span>)
-</span><span id="42" class="l">    {
-</span><span id="43" class="l">        <span class="php-var">$module_id</span> = <span class="php-var">$topic</span>-&gt;get_module_id();
-</span><span id="44" class="l">        <span class="php-var">$id_in_module</span> = <span class="php-var">$topic</span>-&gt;get_id_in_module();
-</span><span id="45" class="l">        <span class="php-var">$topic_identifier</span> = <span class="php-var">$topic</span>-&gt;get_topic_identifier();
-</span><span id="46" class="l">        <span class="php-var">$authorizations</span> = <span class="php-var">$topic</span>-&gt;get_authorizations();
-</span><span id="47" class="l">
-</span><span id="48" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$authorizations</span>-&gt;is_authorized_read())
-</span><span id="49" class="l">        {
-</span><span id="50" class="l">            self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.not-authorized.read'</span>], MessageHelper::NOTICE));
-</span><span id="51" class="l">        }
-</span><span id="52" class="l">        <span class="php-keyword1">else</span>
-</span><span id="53" class="l">        {
-</span><span id="54" class="l">            <span class="php-var">$edit_comment_id</span> = AppContext::get_request()-&gt;get_getint(<span class="php-quote">'edit_comment'</span>, <span class="php-num">0</span>);
-</span><span id="55" class="l">            <span class="php-var">$delete_comment_id</span> = AppContext::get_request()-&gt;get_getint(<span class="php-quote">'delete_comment'</span>, <span class="php-num">0</span>);
-</span><span id="56" class="l">            <span class="php-var">$return_path</span> = AppContext::get_request()-&gt;get_getstring(<span class="php-quote">'return_path'</span>, <span class="php-quote">''</span>);
-</span><span id="57" class="l">            <span class="php-var">$return_path</span> = <span class="php-var">$return_path</span> ? HOST . Url::to_relative(<span class="php-var">$return_path</span>) : <span class="php-quote">''</span>;
-</span><span id="58" class="l">
-</span><span id="59" class="l">            <span class="php-keyword1">try</span> {
-</span><span id="60" class="l">                <span class="php-var">$lock</span> = AppContext::get_request()-&gt;get_getbool(<span class="php-quote">'lock'</span>);
-</span><span id="61" class="l">                <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation())
-</span><span id="62" class="l">                {
-</span><span id="63" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$lock</span>)
-</span><span id="64" class="l">                    {
-</span><span id="65" class="l">                        <span class="php-keyword1">if</span> (!CommentsTopicDAO::topic_exists(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>))
-</span><span id="66" class="l">                        {
-</span><span id="67" class="l">                            CommentsTopicDAO::create_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$topic</span>-&gt;get_path());
-</span><span id="68" class="l">                        }
-</span><span id="69" class="l">                        CommentsManager::lock_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="70" class="l">                    }
-</span><span id="71" class="l">                    <span class="php-keyword1">else</span>
-</span><span id="72" class="l">                    {
-</span><span id="73" class="l">                        CommentsManager::unlock_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="74" class="l">                    }
-</span><span id="75" class="l">                }
-</span><span id="76" class="l">                AppContext::get_response()-&gt;redirect(<span class="php-var">$topic</span>-&gt;get_path());
-</span><span id="77" class="l">            } <span class="php-keyword1">catch</span> (UnexistingHTTPParameterException <span class="php-var">$e</span>) {
-</span><span id="78" class="l">            }
-</span><span id="79" class="l">
-</span><span id="80" class="l">            <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$delete_comment_id</span>))
-</span><span id="81" class="l">            {
-</span><span id="82" class="l">                self::verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$delete_comment_id</span>);
-</span><span id="83" class="l">
-</span><span id="84" class="l">                CommentsManager::delete_comment(<span class="php-var">$delete_comment_id</span>);
-</span><span id="85" class="l">                AppContext::get_response()-&gt;redirect(<span class="php-var">$return_path</span> ? <span class="php-var">$return_path</span> : <span class="php-var">$topic</span>-&gt;get_path());
-</span><span id="86" class="l">            }
-</span><span id="87" class="l">            <span class="php-keyword1">elseif</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$edit_comment_id</span>))
-</span><span id="88" class="l">            {
-</span><span id="89" class="l">                self::verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$edit_comment_id</span>);
-</span><span id="90" class="l">
-</span><span id="91" class="l">                <span class="php-var">$edit_comment_form</span> = EditCommentBuildForm::create(<span class="php-var">$edit_comment_id</span>, <span class="php-var">$topic</span>-&gt;get_path());
-</span><span id="92" class="l">                self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
-</span><span id="93" class="l">                    <span class="php-quote">'C_DISPLAY_FORM'</span> =&gt; <span class="php-keyword1">true</span>,
-</span><span id="94" class="l">                    <span class="php-quote">'COMMENT_FORM'</span> =&gt; <span class="php-var">$edit_comment_form</span>-&gt;display()
-</span><span id="95" class="l">                ));
-</span><span id="96" class="l">            }
-</span><span id="97" class="l">            <span class="php-keyword1">else</span>
-</span><span id="98" class="l">            {
-</span><span id="99" class="l">                <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_post() &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module())
-</span><span id="100" class="l">                {
-</span><span id="101" class="l">                    <span class="php-var">$comments_topic_locked</span> = CommentsManager::comment_topic_locked(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="102" class="l">                    <span class="php-var">$user_read_only</span> = self::<span class="php-var">$user</span>-&gt;get_delay_readonly();
-</span><span id="103" class="l">                    <span class="php-keyword1">if</span> (!<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation() &amp;&amp; <span class="php-var">$comments_topic_locked</span>)
-</span><span id="104" class="l">                    {
-</span><span id="105" class="l">                        self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comment.locked'</span>], MessageHelper::NOTICE));
-</span><span id="106" class="l">                    }
-</span><span id="107" class="l">                    <span class="php-keyword1">elseif</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$user_read_only</span>) &amp;&amp; <span class="php-var">$user_read_only</span> &gt; <span class="php-keyword2">time</span>())
-</span><span id="108" class="l">                    {
-</span><span id="109" class="l">                        self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.user.read-only'</span>], MessageHelper::NOTICE));
-</span><span id="110" class="l">                    }
-</span><span id="111" class="l">                    <span class="php-keyword1">else</span>
-</span><span id="112" class="l">                    {
-</span><span id="113" class="l">                        <span class="php-var">$add_comment_form</span> = AddCommentBuildForm::create(<span class="php-var">$topic</span>);
-</span><span id="114" class="l">                        self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
-</span><span id="115" class="l">                            <span class="php-quote">'C_DISPLAY_FORM'</span> =&gt; <span class="php-keyword1">true</span>,
-</span><span id="116" class="l">                            <span class="php-quote">'COMMENT_FORM'</span> =&gt; <span class="php-var">$add_comment_form</span>-&gt;display()
-</span><span id="117" class="l">                        ));
-</span><span id="118" class="l">                    }
-</span><span id="119" class="l">                }
-</span><span id="120" class="l">                <span class="php-keyword1">else</span>
-</span><span id="121" class="l">                {
-</span><span id="122" class="l">                    self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.not-authorized.post'</span>], MessageHelper::NOTICE));
-</span><span id="123" class="l">                }
-</span><span id="124" class="l">            }
-</span><span id="125" class="l">
-</span><span id="126" class="l">            <span class="php-var">$number_comments_display</span> = <span class="php-var">$topic</span>-&gt;get_number_comments_display();
-</span><span id="127" class="l">            <span class="php-var">$number_comments</span> = self::<span class="php-var">$comments_cache</span>-&gt;get_count_comments_by_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="128" class="l">
-</span><span id="129" class="l">            self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
-</span><span id="130" class="l">                <span class="php-quote">'COMMENTS_LIST'</span> =&gt; self::display_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$number_comments_display</span>, <span class="php-var">$authorizations</span>),
-</span><span id="131" class="l">                <span class="php-quote">'MODULE_ID'</span> =&gt; <span class="php-var">$module_id</span>,
-</span><span id="132" class="l">                <span class="php-quote">'ID_IN_MODULE'</span> =&gt; <span class="php-var">$id_in_module</span>,
-</span><span id="133" class="l">                <span class="php-quote">'TOPIC_IDENTIFIER'</span> =&gt; <span class="php-var">$topic_identifier</span>,
-</span><span id="134" class="l">                <span class="php-quote">'C_DISPLAY_VIEW_ALL_COMMENTS'</span> =&gt; <span class="php-var">$number_comments</span> &gt; <span class="php-var">$number_comments_display</span>,
-</span><span id="135" class="l">                <span class="php-quote">'C_MODERATE'</span> =&gt; <span class="php-var">$authorizations</span>-&gt;is_authorized_moderation(),
-</span><span id="136" class="l">                <span class="php-quote">'C_IS_LOCKED'</span> =&gt; CommentsManager::comment_topic_locked(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>),
-</span><span id="137" class="l">                <span class="php-quote">'U_LOCK'</span> =&gt; CommentsUrlBuilder::lock_and_unlock(<span class="php-var">$topic</span>-&gt;get_path(), <span class="php-keyword1">true</span>)-&gt;rel(),
-</span><span id="138" class="l">                <span class="php-quote">'U_UNLOCK'</span> =&gt; CommentsUrlBuilder::lock_and_unlock(<span class="php-var">$topic</span>-&gt;get_path(), <span class="php-keyword1">false</span>)-&gt;rel(),
-</span><span id="139" class="l">            ));
-</span><span id="140" class="l">        }
-</span><span id="141" class="l">
-</span><span id="142" class="l">        <span class="php-keyword1">return</span> self::<span class="php-var">$template</span>;
-</span><span id="143" class="l">    }
-</span><span id="144" class="l">
-</span><span id="145" class="l">    <span class="php-comment">/**
-</span></span><span id="146" class="l"><span class="php-comment">     * Returns number comments and lang (example : Comments (number_comments)
-</span></span><span id="147" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="148" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
-</span></span><span id="149" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
-</span></span><span id="150" class="l"><span class="php-comment">     * @return string number comments (example : Comments (number_comments)
-</span></span><span id="151" class="l"><span class="php-comment">     */</span>
-</span><span id="152" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_number_and_lang_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
-</span><span id="153" class="l">    {
-</span><span id="154" class="l">        <span class="php-var">$number_comments</span> = CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="155" class="l">        <span class="php-var">$lang</span> = <span class="php-var">$number_comments</span> &gt; <span class="php-num">1</span> ? self::<span class="php-var">$lang</span>[<span class="php-quote">'com_s'</span>] : self::<span class="php-var">$lang</span>[<span class="php-quote">'com'</span>];
-</span><span id="156" class="l">
-</span><span id="157" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$number_comments</span>) ? <span class="php-var">$lang</span> . <span class="php-quote">' ('</span> . <span class="php-var">$number_comments</span> . <span class="php-quote">')'</span> : self::<span class="php-var">$lang</span>[<span class="php-quote">'post_com'</span>];
-</span><span id="158" class="l">    }
-</span><span id="159" class="l">
-</span><span id="160" class="l">    <span class="php-comment">/**
-</span></span><span id="161" class="l"><span class="php-comment">     * Returns lang (example : &quot;Comments&quot; for several comments, &quot;comment&quot; for one comment and &quot;No comment&quot; if no comment
-</span></span><span id="162" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="163" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
-</span></span><span id="164" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
-</span></span><span id="165" class="l"><span class="php-comment">     * @return string
-</span></span><span id="166" class="l"><span class="php-comment">     */</span>
-</span><span id="167" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_lang_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
-</span><span id="168" class="l">    {
-</span><span id="169" class="l">        <span class="php-var">$number_comments</span> = CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="170" class="l">        <span class="php-var">$lang</span> = <span class="php-var">$number_comments</span> &gt; <span class="php-num">1</span> ? self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments'</span>] : self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comment'</span>];
-</span><span id="171" class="l">
-</span><span id="172" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$number_comments</span>) ? <span class="php-quote">' '</span> .<span class="php-var">$lang</span> : self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'no_comment'</span>];
-</span><span id="173" class="l">    }
-</span><span id="174" class="l">
-</span><span id="175" class="l">    <span class="php-comment">/**
-</span></span><span id="176" class="l"><span class="php-comment">     * Delete all comments module
-</span></span><span id="177" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="178" class="l"><span class="php-comment">     */</span>
-</span><span id="179" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> delete_comments_module(<span class="php-var">$module_id</span>)
-</span><span id="180" class="l">    {
-</span><span id="181" class="l">        <span class="php-keyword1">try</span> {
-</span><span id="182" class="l">            CommentsManager::delete_comments_module(<span class="php-var">$module_id</span>);
-</span><span id="183" class="l">        } <span class="php-keyword1">catch</span> (RowNotFoundException <span class="php-var">$e</span>) {
-</span><span id="184" class="l">        }
-</span><span id="185" class="l">    }
-</span><span id="186" class="l">
-</span><span id="187" class="l">    <span class="php-comment">/**
-</span></span><span id="188" class="l"><span class="php-comment">     * Delete comments topic according to module identifier and id in module
-</span></span><span id="189" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="190" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
-</span></span><span id="191" class="l"><span class="php-comment">     */</span>
-</span><span id="192" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> delete_comments_topic_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>)
-</span><span id="193" class="l">    {
-</span><span id="194" class="l">        <span class="php-keyword1">try</span> {
-</span><span id="195" class="l">            CommentsManager::delete_comments_topic_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>);
-</span><span id="196" class="l">        } <span class="php-keyword1">catch</span> (RowNotFoundException <span class="php-var">$e</span>) {
-</span><span id="197" class="l">        }
-</span><span id="198" class="l">    }
-</span><span id="199" class="l">
-</span><span id="200" class="l">    <span class="php-comment">/**
-</span></span><span id="201" class="l"><span class="php-comment">     * Returns number comments
-</span></span><span id="202" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="203" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
-</span></span><span id="204" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
-</span></span><span id="205" class="l"><span class="php-comment">     * @return string number comments
-</span></span><span id="206" class="l"><span class="php-comment">     */</span>
-</span><span id="207" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
-</span><span id="208" class="l">    {
-</span><span id="209" class="l">        <span class="php-keyword1">return</span> CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
-</span><span id="210" class="l">    }
-</span><span id="211" class="l">
-</span><span id="212" class="l">    <span class="php-comment">/**
-</span></span><span id="213" class="l"><span class="php-comment">     * Do not use, this is used for ajax display comments
-</span></span><span id="214" class="l"><span class="php-comment">     * @param string $module_id the module identifier
-</span></span><span id="215" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
-</span></span><span id="216" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
-</span></span><span id="217" class="l"><span class="php-comment">     * @return object View is a view
-</span></span><span id="218" class="l"><span class="php-comment">     */</span>
-</span><span id="219" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> display_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$number_comments_display</span>, <span class="php-var">$authorizations</span>, <span class="php-var">$display_from_number_comments</span> = <span class="php-keyword1">false</span>)
-</span><span id="220" class="l">    {
-</span><span id="221" class="l">        <span class="php-var">$template</span> = <span class="php-keyword1">new</span> FileTemplate(<span class="php-quote">'framework/content/comments/comments_list.tpl'</span>);
-</span><span id="222" class="l">
-</span><span id="223" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_read() &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module())
-</span><span id="224" class="l">        {
-</span><span id="225" class="l">            <span class="php-var">$user_accounts_config</span> = UserAccountsConfig::load();
-</span><span id="226" class="l">
-</span><span id="227" class="l">            <span class="php-var">$condition</span> = !<span class="php-var">$display_from_number_comments</span> ? <span class="php-quote">' LIMIT '</span>. <span class="php-var">$number_comments_display</span> : <span class="php-quote">' LIMIT '</span> . <span class="php-var">$number_comments_display</span> . <span class="php-quote">',18446744073709551615'</span>;
-</span><span id="228" class="l">            <span class="php-var">$result</span> = PersistenceContext::get_querier()-&gt;select(<span class="php-quote">&quot;
-</span></span><span id="229" class="l"><span class="php-quote">                SELECT comments.*, comments.timestamp AS comment_timestamp, comments.id AS id_comment,
-</span></span><span id="230" class="l"><span class="php-quote">                topic.is_locked, topic.path,
-</span></span><span id="231" class="l"><span class="php-quote">                member.user_id, member.display_name, member.level, member.groups,
-</span></span><span id="232" class="l"><span class="php-quote">                ext_field.user_avatar
-</span></span><span id="233" class="l"><span class="php-quote">                FROM &quot;</span> . DB_TABLE_COMMENTS . <span class="php-quote">&quot; comments
-</span></span><span id="234" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_COMMENTS_TOPIC . <span class="php-quote">&quot; topic ON comments.id_topic = topic.id_topic
-</span></span><span id="235" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_MEMBER . <span class="php-quote">&quot; member ON member.user_id = comments.user_id
-</span></span><span id="236" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_MEMBER_EXTENDED_FIELDS . <span class="php-quote">&quot; ext_field ON ext_field.user_id = comments.user_id
-</span></span><span id="237" class="l"><span class="php-quote">                WHERE topic.module_id = '&quot;</span>. <span class="php-var">$module_id</span> .<span class="php-quote">&quot;' AND topic.id_in_module = '&quot;</span>. <span class="php-var">$id_in_module</span> .<span class="php-quote">&quot;' AND topic.topic_identifier = '&quot;</span>. <span class="php-var">$topic_identifier</span> .<span class="php-quote">&quot;'
-</span></span><span id="238" class="l"><span class="php-quote">                ORDER BY comments.timestamp &quot;</span> . CommentsConfig::load()-&gt;get_order_display_comments() . <span class="php-quote">&quot; &quot;</span> . <span class="php-var">$condition</span>
-</span><span id="239" class="l">            );
-</span><span id="240" class="l">
-</span><span id="241" class="l">            <span class="php-keyword1">while</span> (<span class="php-var">$row</span> = <span class="php-var">$result</span>-&gt;fetch())
-</span><span id="242" class="l">            {
-</span><span id="243" class="l">                <span class="php-var">$id</span> = <span class="php-var">$row</span>[<span class="php-quote">'id_comment'</span>];
-</span><span id="244" class="l">                <span class="php-var">$path</span> = <span class="php-var">$row</span>[<span class="php-quote">'path'</span>];
-</span><span id="245" class="l">
-</span><span id="246" class="l">                <span class="php-comment">//Avatar</span>
-</span><span id="247" class="l">                <span class="php-var">$user_avatar</span> = !<span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>]) ? Url::to_rel(<span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>]) : (<span class="php-var">$user_accounts_config</span>-&gt;is_default_avatar_enabled() ? Url::to_rel(<span class="php-quote">'/templates/'</span> . AppContext::<span class="php-keyword2">get_current_user</span>()-&gt;get_theme() . <span class="php-quote">'/images/'</span> .  <span class="php-var">$user_accounts_config</span>-&gt;get_default_avatar_name()) : <span class="php-quote">''</span>);
-</span><span id="248" class="l">
-</span><span id="249" class="l">                <span class="php-var">$timestamp</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">Date</span>(<span class="php-var">$row</span>[<span class="php-quote">'comment_timestamp'</span>], Timezone::SERVER_TIMEZONE);
-</span><span id="250" class="l">                <span class="php-var">$group_color</span> = User::get_group_color(<span class="php-var">$row</span>[<span class="php-quote">'groups'</span>], <span class="php-var">$row</span>[<span class="php-quote">'level'</span>]);
-</span><span id="251" class="l">
-</span><span id="252" class="l">                <span class="php-var">$template</span>-&gt;assign_block_vars(<span class="php-quote">'comments'</span>, <span class="php-keyword2">array_merge</span>(
-</span><span id="253" class="l">                    <span class="php-keyword2">Date</span>::get_array_tpl_vars(<span class="php-var">$timestamp</span>,<span class="php-quote">'date'</span>),
-</span><span id="254" class="l">                    <span class="php-keyword1">array</span>(
-</span><span id="255" class="l">                    <span class="php-quote">'C_MODERATOR'</span> =&gt; self::is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$id</span>),
-</span><span id="256" class="l">                    <span class="php-quote">'C_VISITOR'</span> =&gt; <span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>]),
-</span><span id="257" class="l">                    <span class="php-quote">'C_GROUP_COLOR'</span> =&gt; !<span class="php-keyword1">empty</span>(<span class="php-var">$group_color</span>),
-</span><span id="258" class="l">                    <span class="php-quote">'C_AVATAR'</span> =&gt; <span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>] || (<span class="php-var">$user_accounts_config</span>-&gt;is_default_avatar_enabled()),
-</span><span id="259" class="l">                    <span class="php-quote">'U_EDIT'</span> =&gt; CommentsUrlBuilder::edit(<span class="php-var">$path</span>, <span class="php-var">$id</span>)-&gt;rel(),
-</span><span id="260" class="l">                    <span class="php-quote">'U_DELETE'</span> =&gt; CommentsUrlBuilder::<span class="php-keyword2">delete</span>(<span class="php-var">$path</span>, <span class="php-var">$id</span>)-&gt;rel(),
-</span><span id="261" class="l">                    <span class="php-quote">'U_PROFILE'</span> =&gt; UserUrlBuilder::profile(<span class="php-var">$row</span>[<span class="php-quote">'user_id'</span>])-&gt;rel(),
-</span><span id="262" class="l">                    <span class="php-quote">'U_AVATAR'</span> =&gt; <span class="php-var">$user_avatar</span>,
-</span><span id="263" class="l">                    <span class="php-quote">'ID_COMMENT'</span> =&gt; <span class="php-var">$id</span>,
-</span><span id="264" class="l">                    <span class="php-quote">'MESSAGE'</span> =&gt; FormatingHelper::second_parse(<span class="php-var">$row</span>[<span class="php-quote">'message'</span>]),
-</span><span id="265" class="l">                    <span class="php-quote">'USER_ID'</span> =&gt; <span class="php-var">$row</span>[<span class="php-quote">'user_id'</span>],
-</span><span id="266" class="l">                    <span class="php-quote">'PSEUDO'</span> =&gt; <span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>]) ? <span class="php-var">$row</span>[<span class="php-quote">'pseudo'</span>] : <span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>],
-</span><span id="267" class="l">                    <span class="php-quote">'LEVEL_CLASS'</span> =&gt; UserService::get_level_class(<span class="php-var">$row</span>[<span class="php-quote">'level'</span>]),
-</span><span id="268" class="l">                    <span class="php-quote">'GROUP_COLOR'</span> =&gt; <span class="php-var">$group_color</span>,
-</span><span id="269" class="l">                    <span class="php-quote">'L_LEVEL'</span> =&gt; UserService::get_level_lang(<span class="php-var">$row</span>[<span class="php-quote">'level'</span>] !== <span class="php-keyword1">null</span> ? <span class="php-var">$row</span>[<span class="php-quote">'level'</span>] : <span class="php-quote">'-1'</span>),
-</span><span id="270" class="l">                )));
-</span><span id="271" class="l">
-</span><span id="272" class="l">                <span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
-</span><span id="273" class="l">                    <span class="php-quote">'L_UPDATE'</span> =&gt; self::<span class="php-var">$common_lang</span>[<span class="php-quote">'edit'</span>],
-</span><span id="274" class="l">                    <span class="php-quote">'L_DELETE'</span> =&gt; self::<span class="php-var">$common_lang</span>[<span class="php-quote">'delete'</span>],
-</span><span id="275" class="l">                ));
-</span><span id="276" class="l">            }
-</span><span id="277" class="l">            <span class="php-var">$result</span>-&gt;dispose();
-</span><span id="278" class="l">        }
+</span></span><span id="6" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="7" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="8" class="l"><span class="php-comment"> * @author      Kevin MASSY &lt;reidlos@phpboost.com&gt;
+</span></span><span id="9" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 01 04
+</span></span><span id="10" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2011 03 31
+</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="12" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
+</span></span><span id="13" class="l"><span class="php-comment">*/</span>
+</span><span id="14" class="l">
+</span><span id="15" class="l"><span class="php-keyword1">class</span> CommentsService
+</span><span id="16" class="l">{
+</span><span id="17" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$user</span>;
+</span><span id="18" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$lang</span>;
+</span><span id="19" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$common_lang</span>;
+</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$comments_lang</span>;
+</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$comments_cache</span>;
+</span><span id="22" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-var">$template</span>;
+</span><span id="23" class="l">
+</span><span id="24" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> __static()
+</span><span id="25" class="l">    {
+</span><span id="26" class="l">        self::<span class="php-var">$user</span> = AppContext::<span class="php-keyword2">get_current_user</span>();
+</span><span id="27" class="l">        self::<span class="php-var">$lang</span> = LangLoader::get(<span class="php-quote">'main'</span>);
+</span><span id="28" class="l">        self::<span class="php-var">$common_lang</span> = LangLoader::get(<span class="php-quote">'common'</span>);
+</span><span id="29" class="l">        self::<span class="php-var">$comments_lang</span> = LangLoader::get(<span class="php-quote">'comments-common'</span>);
+</span><span id="30" class="l">        self::<span class="php-var">$comments_cache</span> = CommentsCache::load();
+</span><span id="31" class="l">        self::<span class="php-var">$template</span> = <span class="php-keyword1">new</span> FileTemplate(<span class="php-quote">'framework/content/comments/comments.tpl'</span>);
+</span><span id="32" class="l">        self::<span class="php-var">$template</span>-&gt;add_lang(self::<span class="php-var">$comments_lang</span>);
+</span><span id="33" class="l">    }
+</span><span id="34" class="l">
+</span><span id="35" class="l">    <span class="php-comment">/**
+</span></span><span id="36" class="l"><span class="php-comment">     * This function display the comments
+</span></span><span id="37" class="l"><span class="php-comment">     * @param class CommentsTopic $topic
+</span></span><span id="38" class="l"><span class="php-comment">     * @return Template is a template object
+</span></span><span id="39" class="l"><span class="php-comment">     */</span>
+</span><span id="40" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> display(CommentsTopic <span class="php-var">$topic</span>)
+</span><span id="41" class="l">    {
+</span><span id="42" class="l">        <span class="php-var">$module_id</span> = <span class="php-var">$topic</span>-&gt;get_module_id();
+</span><span id="43" class="l">        <span class="php-var">$id_in_module</span> = <span class="php-var">$topic</span>-&gt;get_id_in_module();
+</span><span id="44" class="l">        <span class="php-var">$topic_identifier</span> = <span class="php-var">$topic</span>-&gt;get_topic_identifier();
+</span><span id="45" class="l">        <span class="php-var">$authorizations</span> = <span class="php-var">$topic</span>-&gt;get_authorizations();
+</span><span id="46" class="l">
+</span><span id="47" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$authorizations</span>-&gt;is_authorized_read())
+</span><span id="48" class="l">        {
+</span><span id="49" class="l">            self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.not-authorized.read'</span>], MessageHelper::NOTICE));
+</span><span id="50" class="l">        }
+</span><span id="51" class="l">        <span class="php-keyword1">else</span>
+</span><span id="52" class="l">        {
+</span><span id="53" class="l">            <span class="php-var">$edit_comment_id</span> = AppContext::get_request()-&gt;get_getint(<span class="php-quote">'edit_comment'</span>, <span class="php-num">0</span>);
+</span><span id="54" class="l">            <span class="php-var">$delete_comment_id</span> = AppContext::get_request()-&gt;get_getint(<span class="php-quote">'delete_comment'</span>, <span class="php-num">0</span>);
+</span><span id="55" class="l">            <span class="php-var">$return_path</span> = AppContext::get_request()-&gt;get_getstring(<span class="php-quote">'return_path'</span>, <span class="php-quote">''</span>);
+</span><span id="56" class="l">            <span class="php-var">$return_path</span> = <span class="php-var">$return_path</span> ? HOST . Url::to_relative(<span class="php-var">$return_path</span>) : <span class="php-quote">''</span>;
+</span><span id="57" class="l">
+</span><span id="58" class="l">            <span class="php-keyword1">try</span> {
+</span><span id="59" class="l">                <span class="php-var">$lock</span> = AppContext::get_request()-&gt;get_getbool(<span class="php-quote">'lock'</span>);
+</span><span id="60" class="l">                <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation())
+</span><span id="61" class="l">                {
+</span><span id="62" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$lock</span>)
+</span><span id="63" class="l">                    {
+</span><span id="64" class="l">                        <span class="php-keyword1">if</span> (!CommentsTopicDAO::topic_exists(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>))
+</span><span id="65" class="l">                        {
+</span><span id="66" class="l">                            CommentsTopicDAO::create_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$topic</span>-&gt;get_path());
+</span><span id="67" class="l">                        }
+</span><span id="68" class="l">                        CommentsManager::lock_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="69" class="l">                    }
+</span><span id="70" class="l">                    <span class="php-keyword1">else</span>
+</span><span id="71" class="l">                    {
+</span><span id="72" class="l">                        CommentsManager::unlock_topic(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="73" class="l">                    }
+</span><span id="74" class="l">                }
+</span><span id="75" class="l">                AppContext::get_response()-&gt;redirect(<span class="php-var">$topic</span>-&gt;get_path());
+</span><span id="76" class="l">            } <span class="php-keyword1">catch</span> (UnexistingHTTPParameterException <span class="php-var">$e</span>) {
+</span><span id="77" class="l">            }
+</span><span id="78" class="l">
+</span><span id="79" class="l">            <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$delete_comment_id</span>))
+</span><span id="80" class="l">            {
+</span><span id="81" class="l">                self::verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$delete_comment_id</span>);
+</span><span id="82" class="l">
+</span><span id="83" class="l">                CommentsManager::delete_comment(<span class="php-var">$delete_comment_id</span>);
+</span><span id="84" class="l">                AppContext::get_response()-&gt;redirect(<span class="php-var">$return_path</span> ? <span class="php-var">$return_path</span> : <span class="php-var">$topic</span>-&gt;get_path());
+</span><span id="85" class="l">            }
+</span><span id="86" class="l">            <span class="php-keyword1">elseif</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$edit_comment_id</span>))
+</span><span id="87" class="l">            {
+</span><span id="88" class="l">                self::verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$edit_comment_id</span>);
+</span><span id="89" class="l">
+</span><span id="90" class="l">                <span class="php-var">$edit_comment_form</span> = EditCommentBuildForm::create(<span class="php-var">$edit_comment_id</span>, <span class="php-var">$topic</span>-&gt;get_path());
+</span><span id="91" class="l">                self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
+</span><span id="92" class="l">                    <span class="php-quote">'C_DISPLAY_FORM'</span> =&gt; <span class="php-keyword1">true</span>,
+</span><span id="93" class="l">                    <span class="php-quote">'COMMENT_FORM'</span> =&gt; <span class="php-var">$edit_comment_form</span>-&gt;display()
+</span><span id="94" class="l">                ));
+</span><span id="95" class="l">            }
+</span><span id="96" class="l">            <span class="php-keyword1">else</span>
+</span><span id="97" class="l">            {
+</span><span id="98" class="l">                <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_post() &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module())
+</span><span id="99" class="l">                {
+</span><span id="100" class="l">                    <span class="php-var">$comments_topic_locked</span> = CommentsManager::comment_topic_locked(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="101" class="l">                    <span class="php-var">$user_read_only</span> = self::<span class="php-var">$user</span>-&gt;get_delay_readonly();
+</span><span id="102" class="l">                    <span class="php-keyword1">if</span> (!<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation() &amp;&amp; <span class="php-var">$comments_topic_locked</span>)
+</span><span id="103" class="l">                    {
+</span><span id="104" class="l">                        self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comment.locked'</span>], MessageHelper::NOTICE));
+</span><span id="105" class="l">                    }
+</span><span id="106" class="l">                    <span class="php-keyword1">elseif</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$user_read_only</span>) &amp;&amp; <span class="php-var">$user_read_only</span> &gt; <span class="php-keyword2">time</span>())
+</span><span id="107" class="l">                    {
+</span><span id="108" class="l">                        self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.user.read-only'</span>], MessageHelper::NOTICE));
+</span><span id="109" class="l">                    }
+</span><span id="110" class="l">                    <span class="php-keyword1">else</span>
+</span><span id="111" class="l">                    {
+</span><span id="112" class="l">                        <span class="php-var">$add_comment_form</span> = AddCommentBuildForm::create(<span class="php-var">$topic</span>);
+</span><span id="113" class="l">                        self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
+</span><span id="114" class="l">                            <span class="php-quote">'C_DISPLAY_FORM'</span> =&gt; <span class="php-keyword1">true</span>,
+</span><span id="115" class="l">                            <span class="php-quote">'COMMENT_FORM'</span> =&gt; <span class="php-var">$add_comment_form</span>-&gt;display()
+</span><span id="116" class="l">                        ));
+</span><span id="117" class="l">                    }
+</span><span id="118" class="l">                }
+</span><span id="119" class="l">                <span class="php-keyword1">else</span>
+</span><span id="120" class="l">                {
+</span><span id="121" class="l">                    self::<span class="php-var">$template</span>-&gt;put(<span class="php-quote">'KEEP_MESSAGE'</span>, MessageHelper::display(self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments.not-authorized.post'</span>], MessageHelper::NOTICE));
+</span><span id="122" class="l">                }
+</span><span id="123" class="l">            }
+</span><span id="124" class="l">
+</span><span id="125" class="l">            <span class="php-var">$number_comments_display</span> = <span class="php-var">$topic</span>-&gt;get_number_comments_display();
+</span><span id="126" class="l">            <span class="php-var">$number_comments</span> = self::<span class="php-var">$comments_cache</span>-&gt;get_count_comments_by_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="127" class="l">
+</span><span id="128" class="l">            self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
+</span><span id="129" class="l">                <span class="php-quote">'COMMENTS_LIST'</span> =&gt; self::display_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$number_comments_display</span>, <span class="php-var">$authorizations</span>),
+</span><span id="130" class="l">                <span class="php-quote">'MODULE_ID'</span> =&gt; <span class="php-var">$module_id</span>,
+</span><span id="131" class="l">                <span class="php-quote">'ID_IN_MODULE'</span> =&gt; <span class="php-var">$id_in_module</span>,
+</span><span id="132" class="l">                <span class="php-quote">'TOPIC_IDENTIFIER'</span> =&gt; <span class="php-var">$topic_identifier</span>,
+</span><span id="133" class="l">                <span class="php-quote">'C_DISPLAY_VIEW_ALL_COMMENTS'</span> =&gt; <span class="php-var">$number_comments</span> &gt; <span class="php-var">$number_comments_display</span>,
+</span><span id="134" class="l">                <span class="php-quote">'C_MODERATE'</span> =&gt; <span class="php-var">$authorizations</span>-&gt;is_authorized_moderation(),
+</span><span id="135" class="l">                <span class="php-quote">'C_IS_LOCKED'</span> =&gt; CommentsManager::comment_topic_locked(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>),
+</span><span id="136" class="l">                <span class="php-quote">'U_LOCK'</span> =&gt; CommentsUrlBuilder::lock_and_unlock(<span class="php-var">$topic</span>-&gt;get_path(), <span class="php-keyword1">true</span>)-&gt;rel(),
+</span><span id="137" class="l">                <span class="php-quote">'U_UNLOCK'</span> =&gt; CommentsUrlBuilder::lock_and_unlock(<span class="php-var">$topic</span>-&gt;get_path(), <span class="php-keyword1">false</span>)-&gt;rel(),
+</span><span id="138" class="l">            ));
+</span><span id="139" class="l">        }
+</span><span id="140" class="l">
+</span><span id="141" class="l">        <span class="php-keyword1">return</span> self::<span class="php-var">$template</span>;
+</span><span id="142" class="l">    }
+</span><span id="143" class="l">
+</span><span id="144" class="l">    <span class="php-comment">/**
+</span></span><span id="145" class="l"><span class="php-comment">     * Returns number comments and lang (example : Comments (number_comments)
+</span></span><span id="146" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="147" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
+</span></span><span id="148" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
+</span></span><span id="149" class="l"><span class="php-comment">     * @return string number comments (example : Comments (number_comments)
+</span></span><span id="150" class="l"><span class="php-comment">     */</span>
+</span><span id="151" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_number_and_lang_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
+</span><span id="152" class="l">    {
+</span><span id="153" class="l">        <span class="php-var">$number_comments</span> = CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="154" class="l">        <span class="php-var">$lang</span> = <span class="php-var">$number_comments</span> &gt; <span class="php-num">1</span> ? self::<span class="php-var">$lang</span>[<span class="php-quote">'com_s'</span>] : self::<span class="php-var">$lang</span>[<span class="php-quote">'com'</span>];
+</span><span id="155" class="l">
+</span><span id="156" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$number_comments</span>) ? <span class="php-var">$lang</span> . <span class="php-quote">' ('</span> . <span class="php-var">$number_comments</span> . <span class="php-quote">')'</span> : self::<span class="php-var">$lang</span>[<span class="php-quote">'post_com'</span>];
+</span><span id="157" class="l">    }
+</span><span id="158" class="l">
+</span><span id="159" class="l">    <span class="php-comment">/**
+</span></span><span id="160" class="l"><span class="php-comment">     * Returns lang (example : &quot;Comments&quot; for several comments, &quot;comment&quot; for one comment and &quot;No comment&quot; if no comment
+</span></span><span id="161" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="162" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
+</span></span><span id="163" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
+</span></span><span id="164" class="l"><span class="php-comment">     * @return string
+</span></span><span id="165" class="l"><span class="php-comment">     */</span>
+</span><span id="166" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_lang_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
+</span><span id="167" class="l">    {
+</span><span id="168" class="l">        <span class="php-var">$number_comments</span> = CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="169" class="l">        <span class="php-var">$lang</span> = <span class="php-var">$number_comments</span> &gt; <span class="php-num">1</span> ? self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comments'</span>] : self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'comment'</span>];
+</span><span id="170" class="l">
+</span><span id="171" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$number_comments</span>) ? <span class="php-quote">' '</span> .<span class="php-var">$lang</span> : self::<span class="php-var">$comments_lang</span>[<span class="php-quote">'no_comment'</span>];
+</span><span id="172" class="l">    }
+</span><span id="173" class="l">
+</span><span id="174" class="l">    <span class="php-comment">/**
+</span></span><span id="175" class="l"><span class="php-comment">     * Delete all comments module
+</span></span><span id="176" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="177" class="l"><span class="php-comment">     */</span>
+</span><span id="178" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> delete_comments_module(<span class="php-var">$module_id</span>)
+</span><span id="179" class="l">    {
+</span><span id="180" class="l">        <span class="php-keyword1">try</span> {
+</span><span id="181" class="l">            CommentsManager::delete_comments_module(<span class="php-var">$module_id</span>);
+</span><span id="182" class="l">        } <span class="php-keyword1">catch</span> (RowNotFoundException <span class="php-var">$e</span>) {
+</span><span id="183" class="l">        }
+</span><span id="184" class="l">    }
+</span><span id="185" class="l">
+</span><span id="186" class="l">    <span class="php-comment">/**
+</span></span><span id="187" class="l"><span class="php-comment">     * Delete comments topic according to module identifier and id in module
+</span></span><span id="188" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="189" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
+</span></span><span id="190" class="l"><span class="php-comment">     */</span>
+</span><span id="191" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> delete_comments_topic_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>)
+</span><span id="192" class="l">    {
+</span><span id="193" class="l">        <span class="php-keyword1">try</span> {
+</span><span id="194" class="l">            CommentsManager::delete_comments_topic_module(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>);
+</span><span id="195" class="l">        } <span class="php-keyword1">catch</span> (RowNotFoundException <span class="php-var">$e</span>) {
+</span><span id="196" class="l">        }
+</span><span id="197" class="l">    }
+</span><span id="198" class="l">
+</span><span id="199" class="l">    <span class="php-comment">/**
+</span></span><span id="200" class="l"><span class="php-comment">     * Returns number comments
+</span></span><span id="201" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="202" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
+</span></span><span id="203" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
+</span></span><span id="204" class="l"><span class="php-comment">     * @return string number comments
+</span></span><span id="205" class="l"><span class="php-comment">     */</span>
+</span><span id="206" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER)
+</span><span id="207" class="l">    {
+</span><span id="208" class="l">        <span class="php-keyword1">return</span> CommentsManager::get_number_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>);
+</span><span id="209" class="l">    }
+</span><span id="210" class="l">
+</span><span id="211" class="l">    <span class="php-comment">/**
+</span></span><span id="212" class="l"><span class="php-comment">     * Do not use, this is used for ajax display comments
+</span></span><span id="213" class="l"><span class="php-comment">     * @param string $module_id the module identifier
+</span></span><span id="214" class="l"><span class="php-comment">     * @param integer $id_in_module id in module used in comments system
+</span></span><span id="215" class="l"><span class="php-comment">     * @param string $topic_identifier topic identifier (use if you have several comments system)
+</span></span><span id="216" class="l"><span class="php-comment">     * @return object View is a view
+</span></span><span id="217" class="l"><span class="php-comment">     */</span>
+</span><span id="218" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> display_comments(<span class="php-var">$module_id</span>, <span class="php-var">$id_in_module</span>, <span class="php-var">$topic_identifier</span>, <span class="php-var">$number_comments_display</span>, <span class="php-var">$authorizations</span>, <span class="php-var">$display_from_number_comments</span> = <span class="php-keyword1">false</span>)
+</span><span id="219" class="l">    {
+</span><span id="220" class="l">        <span class="php-var">$template</span> = <span class="php-keyword1">new</span> FileTemplate(<span class="php-quote">'framework/content/comments/comments_list.tpl'</span>);
+</span><span id="221" class="l">
+</span><span id="222" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_read() &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module())
+</span><span id="223" class="l">        {
+</span><span id="224" class="l">            <span class="php-var">$user_accounts_config</span> = UserAccountsConfig::load();
+</span><span id="225" class="l">
+</span><span id="226" class="l">            <span class="php-var">$condition</span> = !<span class="php-var">$display_from_number_comments</span> ? <span class="php-quote">' LIMIT '</span>. <span class="php-var">$number_comments_display</span> : <span class="php-quote">' LIMIT '</span> . <span class="php-var">$number_comments_display</span> . <span class="php-quote">',18446744073709551615'</span>;
+</span><span id="227" class="l">            <span class="php-var">$result</span> = PersistenceContext::get_querier()-&gt;select(<span class="php-quote">&quot;
+</span></span><span id="228" class="l"><span class="php-quote">                SELECT comments.*, comments.timestamp AS comment_timestamp, comments.id AS id_comment,
+</span></span><span id="229" class="l"><span class="php-quote">                topic.is_locked, topic.path,
+</span></span><span id="230" class="l"><span class="php-quote">                member.user_id, member.display_name, member.level, member.groups,
+</span></span><span id="231" class="l"><span class="php-quote">                ext_field.user_avatar
+</span></span><span id="232" class="l"><span class="php-quote">                FROM &quot;</span> . DB_TABLE_COMMENTS . <span class="php-quote">&quot; comments
+</span></span><span id="233" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_COMMENTS_TOPIC . <span class="php-quote">&quot; topic ON comments.id_topic = topic.id_topic
+</span></span><span id="234" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_MEMBER . <span class="php-quote">&quot; member ON member.user_id = comments.user_id
+</span></span><span id="235" class="l"><span class="php-quote">                LEFT JOIN &quot;</span> . DB_TABLE_MEMBER_EXTENDED_FIELDS . <span class="php-quote">&quot; ext_field ON ext_field.user_id = comments.user_id
+</span></span><span id="236" class="l"><span class="php-quote">                WHERE topic.module_id = '&quot;</span>. <span class="php-var">$module_id</span> .<span class="php-quote">&quot;' AND topic.id_in_module = '&quot;</span>. <span class="php-var">$id_in_module</span> .<span class="php-quote">&quot;' AND topic.topic_identifier = '&quot;</span>. <span class="php-var">$topic_identifier</span> .<span class="php-quote">&quot;'
+</span></span><span id="237" class="l"><span class="php-quote">                ORDER BY comments.timestamp &quot;</span> . CommentsConfig::load()-&gt;get_order_display_comments() . <span class="php-quote">&quot; &quot;</span> . <span class="php-var">$condition</span>
+</span><span id="238" class="l">            );
+</span><span id="239" class="l">
+</span><span id="240" class="l">            <span class="php-keyword1">while</span> (<span class="php-var">$row</span> = <span class="php-var">$result</span>-&gt;fetch())
+</span><span id="241" class="l">            {
+</span><span id="242" class="l">                <span class="php-var">$id</span> = <span class="php-var">$row</span>[<span class="php-quote">'id_comment'</span>];
+</span><span id="243" class="l">                <span class="php-var">$path</span> = <span class="php-var">$row</span>[<span class="php-quote">'path'</span>];
+</span><span id="244" class="l">
+</span><span id="245" class="l">                <span class="php-comment">//Avatar</span>
+</span><span id="246" class="l">                <span class="php-var">$user_avatar</span> = !<span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>]) ? Url::to_rel(<span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>]) : (<span class="php-var">$user_accounts_config</span>-&gt;is_default_avatar_enabled() ? Url::to_rel(<span class="php-quote">'/templates/'</span> . AppContext::<span class="php-keyword2">get_current_user</span>()-&gt;get_theme() . <span class="php-quote">'/images/'</span> .  <span class="php-var">$user_accounts_config</span>-&gt;get_default_avatar_name()) : <span class="php-quote">''</span>);
+</span><span id="247" class="l">
+</span><span id="248" class="l">                <span class="php-var">$timestamp</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">Date</span>(<span class="php-var">$row</span>[<span class="php-quote">'comment_timestamp'</span>], Timezone::SERVER_TIMEZONE);
+</span><span id="249" class="l">                <span class="php-var">$group_color</span> = User::get_group_color(<span class="php-var">$row</span>[<span class="php-quote">'groups'</span>], <span class="php-var">$row</span>[<span class="php-quote">'level'</span>]);
+</span><span id="250" class="l">
+</span><span id="251" class="l">                <span class="php-var">$template</span>-&gt;assign_block_vars(<span class="php-quote">'comments'</span>, <span class="php-keyword2">array_merge</span>(
+</span><span id="252" class="l">                    <span class="php-keyword2">Date</span>::get_array_tpl_vars(<span class="php-var">$timestamp</span>,<span class="php-quote">'date'</span>),
+</span><span id="253" class="l">                    <span class="php-keyword1">array</span>(
+</span><span id="254" class="l">                    <span class="php-quote">'C_MODERATOR'</span> =&gt; self::is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$id</span>),
+</span><span id="255" class="l">                    <span class="php-quote">'C_VISITOR'</span> =&gt; <span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>]),
+</span><span id="256" class="l">                    <span class="php-quote">'C_GROUP_COLOR'</span> =&gt; !<span class="php-keyword1">empty</span>(<span class="php-var">$group_color</span>),
+</span><span id="257" class="l">                    <span class="php-quote">'C_AVATAR'</span> =&gt; <span class="php-var">$row</span>[<span class="php-quote">'user_avatar'</span>] || (<span class="php-var">$user_accounts_config</span>-&gt;is_default_avatar_enabled()),
+</span><span id="258" class="l">                    <span class="php-quote">'U_EDIT'</span> =&gt; CommentsUrlBuilder::edit(<span class="php-var">$path</span>, <span class="php-var">$id</span>)-&gt;rel(),
+</span><span id="259" class="l">                    <span class="php-quote">'U_DELETE'</span> =&gt; CommentsUrlBuilder::<span class="php-keyword2">delete</span>(<span class="php-var">$path</span>, <span class="php-var">$id</span>)-&gt;rel(),
+</span><span id="260" class="l">                    <span class="php-quote">'U_PROFILE'</span> =&gt; UserUrlBuilder::profile(<span class="php-var">$row</span>[<span class="php-quote">'user_id'</span>])-&gt;rel(),
+</span><span id="261" class="l">                    <span class="php-quote">'U_AVATAR'</span> =&gt; <span class="php-var">$user_avatar</span>,
+</span><span id="262" class="l">                    <span class="php-quote">'ID_COMMENT'</span> =&gt; <span class="php-var">$id</span>,
+</span><span id="263" class="l">                    <span class="php-quote">'MESSAGE'</span> =&gt; FormatingHelper::second_parse(<span class="php-var">$row</span>[<span class="php-quote">'message'</span>]),
+</span><span id="264" class="l">                    <span class="php-quote">'USER_ID'</span> =&gt; <span class="php-var">$row</span>[<span class="php-quote">'user_id'</span>],
+</span><span id="265" class="l">                    <span class="php-quote">'PSEUDO'</span> =&gt; <span class="php-keyword1">empty</span>(<span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>]) ? <span class="php-var">$row</span>[<span class="php-quote">'pseudo'</span>] : <span class="php-var">$row</span>[<span class="php-quote">'display_name'</span>],
+</span><span id="266" class="l">                    <span class="php-quote">'LEVEL_CLASS'</span> =&gt; UserService::get_level_class(<span class="php-var">$row</span>[<span class="php-quote">'level'</span>]),
+</span><span id="267" class="l">                    <span class="php-quote">'GROUP_COLOR'</span> =&gt; <span class="php-var">$group_color</span>,
+</span><span id="268" class="l">                    <span class="php-quote">'L_LEVEL'</span> =&gt; UserService::get_level_lang(<span class="php-var">$row</span>[<span class="php-quote">'level'</span>] !== <span class="php-keyword1">null</span> ? <span class="php-var">$row</span>[<span class="php-quote">'level'</span>] : <span class="php-quote">'-1'</span>),
+</span><span id="269" class="l">                )));
+</span><span id="270" class="l">
+</span><span id="271" class="l">                <span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
+</span><span id="272" class="l">                    <span class="php-quote">'L_UPDATE'</span> =&gt; self::<span class="php-var">$common_lang</span>[<span class="php-quote">'edit'</span>],
+</span><span id="273" class="l">                    <span class="php-quote">'L_DELETE'</span> =&gt; self::<span class="php-var">$common_lang</span>[<span class="php-quote">'delete'</span>],
+</span><span id="274" class="l">                ));
+</span><span id="275" class="l">            }
+</span><span id="276" class="l">            <span class="php-var">$result</span>-&gt;dispose();
+</span><span id="277" class="l">        }
+</span><span id="278" class="l">
 </span><span id="279" class="l">
-</span><span id="280" class="l">
-</span><span id="281" class="l">        self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
-</span><span id="282" class="l">            <span class="php-quote">'MODULE_ID'</span> =&gt; <span class="php-var">$module_id</span>,
-</span><span id="283" class="l">            <span class="php-quote">'ID_IN_MODULE'</span> =&gt; <span class="php-var">$id_in_module</span>,
-</span><span id="284" class="l">            <span class="php-quote">'TOPIC_IDENTIFIER'</span> =&gt; <span class="php-var">$topic_identifier</span>
-</span><span id="285" class="l">        ));
-</span><span id="286" class="l">
-</span><span id="287" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$template</span>;
-</span><span id="288" class="l">    }
-</span><span id="289" class="l">
-</span><span id="290" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>)
-</span><span id="291" class="l">    {
-</span><span id="292" class="l">        <span class="php-var">$is_authorized</span> = self::is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>);
-</span><span id="293" class="l">
-</span><span id="294" class="l">        <span class="php-keyword1">if</span> (!CommentsManager::comment_exists(<span class="php-var">$comment_id</span>))
-</span><span id="295" class="l">        {
-</span><span id="296" class="l">            <span class="php-var">$error_controller</span> = PHPBoostErrors::unexisting_page();
-</span><span id="297" class="l">            DispatchManager::redirect(<span class="php-var">$error_controller</span>);
-</span><span id="298" class="l">        }
-</span><span id="299" class="l">        <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (!<span class="php-var">$is_authorized</span>)
-</span><span id="300" class="l">        {
-</span><span id="301" class="l">            <span class="php-var">$error_controller</span> = PHPBoostErrors::user_not_authorized();
-</span><span id="302" class="l">            DispatchManager::redirect(<span class="php-var">$error_controller</span>);
-</span><span id="303" class="l">        }
-</span><span id="304" class="l">    }
-</span><span id="305" class="l">
-</span><span id="306" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>)
-</span><span id="307" class="l">    {
-</span><span id="308" class="l">        <span class="php-var">$user_id_posted_comment</span> = CommentsManager::get_user_id_posted_comment(<span class="php-var">$comment_id</span>);
-</span><span id="309" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$user_id_posted_comment</span> !== <span class="php-quote">'-1'</span>)
-</span><span id="310" class="l">        {
-</span><span id="311" class="l">            <span class="php-keyword1">return</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation() || <span class="php-var">$user_id_posted_comment</span> == self::<span class="php-var">$user</span>-&gt;get_id()) &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module();
-</span><span id="312" class="l">        }
-</span><span id="313" class="l">        <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
-</span><span id="314" class="l">    }
-</span><span id="315" class="l">}
-</span><span id="316" class="l"><span class="xlang">?&gt;</span>
-</span><span id="317" class="l"></span></code></pre>
+</span><span id="280" class="l">        self::<span class="php-var">$template</span>-&gt;put_all(<span class="php-keyword1">array</span>(
+</span><span id="281" class="l">            <span class="php-quote">'MODULE_ID'</span> =&gt; <span class="php-var">$module_id</span>,
+</span><span id="282" class="l">            <span class="php-quote">'ID_IN_MODULE'</span> =&gt; <span class="php-var">$id_in_module</span>,
+</span><span id="283" class="l">            <span class="php-quote">'TOPIC_IDENTIFIER'</span> =&gt; <span class="php-var">$topic_identifier</span>
+</span><span id="284" class="l">        ));
+</span><span id="285" class="l">
+</span><span id="286" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$template</span>;
+</span><span id="287" class="l">    }
+</span><span id="288" class="l">
+</span><span id="289" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> verificate_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>)
+</span><span id="290" class="l">    {
+</span><span id="291" class="l">        <span class="php-var">$is_authorized</span> = self::is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>);
+</span><span id="292" class="l">
+</span><span id="293" class="l">        <span class="php-keyword1">if</span> (!CommentsManager::comment_exists(<span class="php-var">$comment_id</span>))
+</span><span id="294" class="l">        {
+</span><span id="295" class="l">            <span class="php-var">$error_controller</span> = PHPBoostErrors::unexisting_page();
+</span><span id="296" class="l">            DispatchManager::redirect(<span class="php-var">$error_controller</span>);
+</span><span id="297" class="l">        }
+</span><span id="298" class="l">        <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (!<span class="php-var">$is_authorized</span>)
+</span><span id="299" class="l">        {
+</span><span id="300" class="l">            <span class="php-var">$error_controller</span> = PHPBoostErrors::user_not_authorized();
+</span><span id="301" class="l">            DispatchManager::redirect(<span class="php-var">$error_controller</span>);
+</span><span id="302" class="l">        }
+</span><span id="303" class="l">    }
+</span><span id="304" class="l">
+</span><span id="305" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> is_authorized_edit_or_delete_comment(<span class="php-var">$authorizations</span>, <span class="php-var">$comment_id</span>)
+</span><span id="306" class="l">    {
+</span><span id="307" class="l">        <span class="php-var">$user_id_posted_comment</span> = CommentsManager::get_user_id_posted_comment(<span class="php-var">$comment_id</span>);
+</span><span id="308" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$user_id_posted_comment</span> !== <span class="php-quote">'-1'</span>)
+</span><span id="309" class="l">        {
+</span><span id="310" class="l">            <span class="php-keyword1">return</span> (<span class="php-var">$authorizations</span>-&gt;is_authorized_moderation() || <span class="php-var">$user_id_posted_comment</span> == self::<span class="php-var">$user</span>-&gt;get_id()) &amp;&amp; <span class="php-var">$authorizations</span>-&gt;is_authorized_access_module();
+</span><span id="311" class="l">        }
+</span><span id="312" class="l">        <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="313" class="l">    }
+</span><span id="314" class="l">}
+</span><span id="315" class="l"><span class="xlang">?&gt;</span>
+</span><span id="316" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

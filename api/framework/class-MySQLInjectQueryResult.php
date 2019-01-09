@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.mysql.php">mysql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLInjectQueryResult.php#3-69" title="Go to source code">io/db/driver/mysql/MySQLInjectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLInjectQueryResult.php#3-68" title="Go to source code">io/db/driver/mysql/MySQLInjectQueryResult.class.php</a></span>
 			</div>
 
 
@@ -729,7 +725,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MySQLInjectQueryResult.php#35-41" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span> <var>$resource</var></span>, <span> <var>$link</var></span> )
+<a href="source-class-MySQLInjectQueryResult.php#34-40" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span> <var>$resource</var></span>, <span> <var>$link</var></span> )
 						</code>
 
 							<div class="description short">
@@ -788,7 +784,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-MySQLInjectQueryResult.php#43-46" title="Go to source code">__destruct</a>( )
+<a href="source-class-MySQLInjectQueryResult.php#42-45" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_get_affected_rows">#</a>
 						<code>
-<a href="source-class-MySQLInjectQueryResult.php#48-51" title="Go to source code">get_affected_rows</a>( )
+<a href="source-class-MySQLInjectQueryResult.php#47-50" title="Go to source code">get_affected_rows</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_get_last_inserted_id">#</a>
 						<code>
-<a href="source-class-MySQLInjectQueryResult.php#53-56" title="Go to source code">get_last_inserted_id</a>( )
+<a href="source-class-MySQLInjectQueryResult.php#52-55" title="Go to source code">get_last_inserted_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -905,7 +901,7 @@
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-MySQLInjectQueryResult.php#58-68" title="Go to source code">dispose</a>( )
+<a href="source-class-MySQLInjectQueryResult.php#57-67" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">

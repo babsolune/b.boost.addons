@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableRowCell.php#3-51" title="Go to source code">builder/table/HTMLTableRowCell.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableRowCell.php#3-50" title="Go to source code">builder/table/HTMLTableRowCell.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableRowCell.php#20-30" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-HTMLTableRowCell.php#19-29" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-HTMLTableRowCell.php#32-35" title="Go to source code">get_value</a>( )
+<a href="source-class-HTMLTableRowCell.php#31-34" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_is_multi_column">#</a>
 						<code>
-<a href="source-class-HTMLTableRowCell.php#37-40" title="Go to source code">is_multi_column</a>( )
+<a href="source-class-HTMLTableRowCell.php#36-39" title="Go to source code">is_multi_column</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@
 					<div>
 						<a class="anchor" href="#_get_colspan">#</a>
 						<code>
-<a href="source-class-HTMLTableRowCell.php#42-45" title="Go to source code">get_colspan</a>( )
+<a href="source-class-HTMLTableRowCell.php#41-44" title="Go to source code">get_colspan</a>( )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@
 					<div>
 						<a class="anchor" href="#_set_colspan">#</a>
 						<code>
-<a href="source-class-HTMLTableRowCell.php#47-50" title="Go to source code">set_colspan</a>( <span> <var>$colspan</var></span> )
+<a href="source-class-HTMLTableRowCell.php#46-49" title="Go to source code">set_colspan</a>( <span> <var>$colspan</var></span> )
 						</code>
 
 							<div class="description short">

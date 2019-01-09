@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Search.php">Search</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchableExtensionPoint.php#3-35" title="Go to source code">content/search/SearchableExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchableExtensionPoint.php#3-34" title="Go to source code">content/search/SearchableExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_get_search_request">#</a>
 						<code>
-<a href="source-class-SearchableExtensionPoint.php#17" title="Go to source code">get_search_request</a>( <span> <var>$args</var></span> )
+<a href="source-class-SearchableExtensionPoint.php#16" title="Go to source code">get_search_request</a>( <span> <var>$args</var></span> )
 						</code>
 
 							<div class="description short">
@@ -777,7 +773,7 @@
 					<div>
 						<a class="anchor" href="#_has_search_options">#</a>
 						<code>
-<a href="source-class-SearchableExtensionPoint.php#19-23" title="Go to source code">has_search_options</a>( )
+<a href="source-class-SearchableExtensionPoint.php#18-22" title="Go to source code">has_search_options</a>( )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_has_customized_results">#</a>
 						<code>
-<a href="source-class-SearchableExtensionPoint.php#25" title="Go to source code">has_customized_results</a>( )
+<a href="source-class-SearchableExtensionPoint.php#24" title="Go to source code">has_customized_results</a>( )
 						</code>
 
 							<div class="description short">
@@ -872,7 +868,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SearchableExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-SearchableExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

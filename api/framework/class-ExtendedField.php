@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -707,7 +703,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedField.php#3-205" title="Go to source code">phpboost/member/extended-fields/ExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedField.php#3-204" title="Go to source code">phpboost/member/extended-fields/ExtendedField.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -722,7 +718,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -744,7 +740,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#36-39" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-ExtendedField.php#35-38" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -779,7 +775,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#41-44" title="Go to source code">get_id</a>( )
+<a href="source-class-ExtendedField.php#40-43" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -814,7 +810,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#46-49" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-ExtendedField.php#45-48" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#51-54" title="Go to source code">get_name</a>( )
+<a href="source-class-ExtendedField.php#50-53" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@
 					<div>
 						<a class="anchor" href="#_set_position">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#56-59" title="Go to source code">set_position</a>( <span> <var>$position</var></span> )
+<a href="source-class-ExtendedField.php#55-58" title="Go to source code">set_position</a>( <span> <var>$position</var></span> )
 						</code>
 
 							<div class="description short">
@@ -919,7 +915,7 @@
 					<div>
 						<a class="anchor" href="#_get_position">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#61-69" title="Go to source code">get_position</a>( )
+<a href="source-class-ExtendedField.php#60-68" title="Go to source code">get_position</a>( )
 						</code>
 
 							<div class="description short">
@@ -954,7 +950,7 @@
 					<div>
 						<a class="anchor" href="#_set_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#71-74" title="Go to source code">set_field_name</a>( <span> <var>$field_name</var></span> )
+<a href="source-class-ExtendedField.php#70-73" title="Go to source code">set_field_name</a>( <span> <var>$field_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -989,7 +985,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#76-83" title="Go to source code">get_field_name</a>( )
+<a href="source-class-ExtendedField.php#75-82" title="Go to source code">get_field_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1024,7 +1020,7 @@
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#85-88" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
+<a href="source-class-ExtendedField.php#84-87" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1059,7 +1055,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#90-93" title="Go to source code">get_description</a>( )
+<a href="source-class-ExtendedField.php#89-92" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1094,7 +1090,7 @@
 					<div>
 						<a class="anchor" href="#_set_field_type">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#98-101" title="Go to source code">set_field_type</a>( <span> <var>$field_type</var></span> )
+<a href="source-class-ExtendedField.php#97-100" title="Go to source code">set_field_type</a>( <span> <var>$field_type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1129,7 +1125,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_type">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#103-106" title="Go to source code">get_field_type</a>( )
+<a href="source-class-ExtendedField.php#102-105" title="Go to source code">get_field_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -1164,7 +1160,7 @@
 					<div>
 						<a class="anchor" href="#_set_possible_values">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#108-111" title="Go to source code">set_possible_values</a>( <span> <var>$possible_values</var></span> )
+<a href="source-class-ExtendedField.php#107-110" title="Go to source code">set_possible_values</a>( <span> <var>$possible_values</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1199,7 +1195,7 @@
 					<div>
 						<a class="anchor" href="#_get_possible_values">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#113-116" title="Go to source code">get_possible_values</a>( )
+<a href="source-class-ExtendedField.php#112-115" title="Go to source code">get_possible_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1234,7 +1230,7 @@
 					<div>
 						<a class="anchor" href="#_set_default_value">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#118-121" title="Go to source code">set_default_value</a>( <span> <var>$default_value</var></span> )
+<a href="source-class-ExtendedField.php#117-120" title="Go to source code">set_default_value</a>( <span> <var>$default_value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1269,7 +1265,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_value">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#123-126" title="Go to source code">get_default_value</a>( )
+<a href="source-class-ExtendedField.php#122-125" title="Go to source code">get_default_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1304,7 +1300,7 @@
 					<div>
 						<a class="anchor" href="#_set_is_required">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#128-131" title="Go to source code">set_is_required</a>( <span> <var>$required</var></span> )
+<a href="source-class-ExtendedField.php#127-130" title="Go to source code">set_is_required</a>( <span> <var>$required</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1339,7 +1335,7 @@
 					<div>
 						<a class="anchor" href="#_get_required">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#133-136" title="Go to source code">get_required</a>( )
+<a href="source-class-ExtendedField.php#132-135" title="Go to source code">get_required</a>( )
 						</code>
 
 							<div class="description short">
@@ -1374,7 +1370,7 @@
 					<div>
 						<a class="anchor" href="#_set_display">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#138-141" title="Go to source code">set_display</a>( <span> <var>$values</var></span> )
+<a href="source-class-ExtendedField.php#137-140" title="Go to source code">set_display</a>( <span> <var>$values</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1409,7 +1405,7 @@
 					<div>
 						<a class="anchor" href="#_get_display">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#143-146" title="Go to source code">get_display</a>( )
+<a href="source-class-ExtendedField.php#142-145" title="Go to source code">get_display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1444,7 +1440,7 @@
 					<div>
 						<a class="anchor" href="#_set_regex">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#148-151" title="Go to source code">set_regex</a>( <span> <var>$regex</var></span> )
+<a href="source-class-ExtendedField.php#147-150" title="Go to source code">set_regex</a>( <span> <var>$regex</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1479,7 +1475,7 @@
 					<div>
 						<a class="anchor" href="#_get_regex">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#153-156" title="Go to source code">get_regex</a>( )
+<a href="source-class-ExtendedField.php#152-155" title="Go to source code">get_regex</a>( )
 						</code>
 
 							<div class="description short">
@@ -1514,7 +1510,7 @@
 					<div>
 						<a class="anchor" href="#_set_is_freeze">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#158-161" title="Go to source code">set_is_freeze</a>( <span> <var>$freeze</var></span> )
+<a href="source-class-ExtendedField.php#157-160" title="Go to source code">set_is_freeze</a>( <span> <var>$freeze</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1549,7 +1545,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_freeze">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#163-166" title="Go to source code">get_is_freeze</a>( )
+<a href="source-class-ExtendedField.php#162-165" title="Go to source code">get_is_freeze</a>( )
 						</code>
 
 							<div class="description short">
@@ -1584,7 +1580,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorization">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#168-171" title="Go to source code">set_authorization</a>( <span> <var>$authorization</var></span> )
+<a href="source-class-ExtendedField.php#167-170" title="Go to source code">set_authorization</a>( <span> <var>$authorization</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1619,7 +1615,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorization">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#173-176" title="Go to source code">get_authorization</a>( )
+<a href="source-class-ExtendedField.php#172-175" title="Go to source code">get_authorization</a>( )
 						</code>
 
 							<div class="description short">
@@ -1654,7 +1650,7 @@
 					<div>
 						<a class="anchor" href="#_set_is_not_installer">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#178-181" title="Go to source code">set_is_not_installer</a>( <span> <var>$is_not_installer</var></span> )
+<a href="source-class-ExtendedField.php#177-180" title="Go to source code">set_is_not_installer</a>( <span> <var>$is_not_installer</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1689,7 +1685,7 @@
 					<div>
 						<a class="anchor" href="#_get_is_not_installer">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#183-186" title="Go to source code">get_is_not_installer</a>( )
+<a href="source-class-ExtendedField.php#182-185" title="Go to source code">get_is_not_installer</a>( )
 						</code>
 
 							<div class="description short">
@@ -1724,7 +1720,7 @@
 					<div>
 						<a class="anchor" href="#_get_instance">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#188-196" title="Go to source code">get_instance</a>( )
+<a href="source-class-ExtendedField.php#187-195" title="Go to source code">get_instance</a>( )
 						</code>
 
 							<div class="description short">
@@ -1759,7 +1755,7 @@
 					<div>
 						<a class="anchor" href="#_rewrite_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedField.php#198-204" title="Go to source code">rewrite_field_name</a>( <span> <var>$field_name</var></span> )
+<a href="source-class-ExtendedField.php#197-203" title="Go to source code">rewrite_field_name</a>( <span> <var>$field_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1805,7 +1801,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtendedField.php#18" title="Go to source code"><b>READ_PROFILE_AUTHORIZATION</b></a>
+								<a href="source-class-ExtendedField.php#17" title="Go to source code"><b>READ_PROFILE_AUTHORIZATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1829,7 +1825,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtendedField.php#19" title="Go to source code"><b>READ_EDIT_AND_ADD_AUTHORIZATION</b></a>
+								<a href="source-class-ExtendedField.php#18" title="Go to source code"><b>READ_EDIT_AND_ADD_AUTHORIZATION</b></a>
 							</code>
 
 							<div class="description short">

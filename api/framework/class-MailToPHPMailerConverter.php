@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Mail.php">Mail</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailToPHPMailerConverter.php#21-85" title="Go to source code">io/mail/MailToPHPMailerConverter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailToPHPMailerConverter.php#20-84" title="Go to source code">io/mail/MailToPHPMailerConverter.class.php</a></span>
 			</div>
 
 
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#_convert">#</a>
 						<code>
-<a href="source-class-MailToPHPMailerConverter.php#32-43" title="Go to source code">convert</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
+<a href="source-class-MailToPHPMailerConverter.php#31-42" title="Go to source code">convert</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
 						</code>
 
 							<div class="description short">

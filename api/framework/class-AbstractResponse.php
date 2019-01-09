@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Response.php">Response</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractResponse.php#3-51" title="Go to source code">mvc/response/AbstractResponse.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractResponse.php#3-50" title="Go to source code">mvc/response/AbstractResponse.class.php</a></span>
 			</div>
 
 
@@ -737,7 +733,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractResponse.php#26-40" title="Go to source code">__construct</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$graphical_environment</var></span>, <span><code><a href="class-View.php">View</a></code> <var>$view</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-AbstractResponse.php#25-39" title="Go to source code">__construct</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$graphical_environment</var></span>, <span><code><a href="class-View.php">View</a></code> <var>$view</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#_get_graphical_environment">#</a>
 						<code>
-<a href="source-class-AbstractResponse.php#42-45" title="Go to source code">get_graphical_environment</a>( )
+<a href="source-class-AbstractResponse.php#41-44" title="Go to source code">get_graphical_environment</a>( )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_send">#</a>
 						<code>
-<a href="source-class-AbstractResponse.php#47-50" title="Go to source code">send</a>( )
+<a href="source-class-AbstractResponse.php#46-49" title="Go to source code">send</a>( )
 						</code>
 
 							<div class="description short">

@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2018 11 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintFileExtension.php#3-34" title="Go to source code">builder/form/field/constraint/FormFieldConstraintFileExtension.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintFileExtension.php#3-33" title="Go to source code">builder/form/field/constraint/FormFieldConstraintFileExtension.class.php</a></span>
 			</div>
 
 
@@ -751,7 +747,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintFileExtension.php#15-33" title="Go to source code">__construct</a>( <span> <var>$extensions</var></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintFileExtension.php#14-32" title="Go to source code">__construct</a>( <span> <var>$extensions</var></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">

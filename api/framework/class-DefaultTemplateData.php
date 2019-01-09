@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.data.php">data</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -702,7 +698,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DefaultTemplateData.php#3-171" title="Go to source code">io/template/data/DefaultTemplateData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DefaultTemplateData.php#3-170" title="Go to source code">io/template/data/DefaultTemplateData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#_enable_strict_mode">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#21-27" title="Go to source code">enable_strict_mode</a>( )
+<a href="source-class-DefaultTemplateData.php#20-26" title="Go to source code">enable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -786,7 +782,7 @@
 					<div>
 						<a class="anchor" href="#_disable_strict_mode">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#29-35" title="Go to source code">disable_strict_mode</a>( )
+<a href="source-class-DefaultTemplateData.php#28-34" title="Go to source code">disable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_auto_load_frequent_vars">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#37-55" title="Go to source code">auto_load_frequent_vars</a>( )
+<a href="source-class-DefaultTemplateData.php#36-54" title="Go to source code">auto_load_frequent_vars</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@ intended doing the action</li> <li>REWRITED_SCRIPT the current url</li>
 					<div>
 						<a class="anchor" href="#_put">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#57-63" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-DefaultTemplateData.php#56-62" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -936,7 +932,7 @@ intended doing the action</li> <li>REWRITED_SCRIPT the current url</li>
 					<div>
 						<a class="anchor" href="#_put_all">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#65-74" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
+<a href="source-class-DefaultTemplateData.php#64-73" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@ intended doing the action</li> <li>REWRITED_SCRIPT the current url</li>
 					<div>
 						<a class="anchor" href="#_assign_block_vars">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#76-100" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DefaultTemplateData.php#75-99" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1032,7 +1028,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get_block">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#102-108" title="Go to source code">get_block</a>( <span>string <var>$blockname</var></span> )
+<a href="source-class-DefaultTemplateData.php#101-107" title="Go to source code">get_block</a>( <span>string <var>$blockname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1078,7 +1074,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get_block_from_list">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#110-124" title="Go to source code">get_block_from_list</a>( <span>string <var>$blockname</var></span>, <span>mixed[] <var>$parent_block</var></span> )
+<a href="source-class-DefaultTemplateData.php#109-123" title="Go to source code">get_block_from_list</a>( <span>string <var>$blockname</var></span>, <span>mixed[] <var>$parent_block</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_is_true">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#126-132" title="Go to source code">is_true</a>( <span>string <var>$value</var></span> )
+<a href="source-class-DefaultTemplateData.php#125-131" title="Go to source code">is_true</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1172,7 +1168,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#134-140" title="Go to source code">get</a>( <span>string <var>$varname</var></span> )
+<a href="source-class-DefaultTemplateData.php#133-139" title="Go to source code">get</a>( <span>string <var>$varname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1218,7 +1214,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get_from_list">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#142-156" title="Go to source code">get_from_list</a>( <span>string <var>$varname</var></span>, <span>mixed[] <var>&amp; $list</var></span> )
+<a href="source-class-DefaultTemplateData.php#141-155" title="Go to source code">get_from_list</a>( <span>string <var>$varname</var></span>, <span>mixed[] <var>&amp; $list</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1266,7 +1262,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_bind_vars">#</a>
 						<code>
-<a href="source-class-DefaultTemplateData.php#164-170" title="Go to source code">bind_vars</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
+<a href="source-class-DefaultTemplateData.php#163-169" title="Go to source code">bind_vars</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">

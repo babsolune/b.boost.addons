@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.mysql.php">mysql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBConnection.php#3-104" title="Go to source code">io/db/driver/mysql/MySQLDBConnection.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBConnection.php#3-103" title="Go to source code">io/db/driver/mysql/MySQLDBConnection.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#21-24" title="Go to source code">__destruct</a>( )
+<a href="source-class-MySQLDBConnection.php#20-23" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -781,7 +777,7 @@
 					<div>
 						<a class="anchor" href="#_connect">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#26-51" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
+<a href="source-class-MySQLDBConnection.php#25-50" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#53-56" title="Go to source code">get_link</a>( )
+<a href="source-class-MySQLDBConnection.php#52-55" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@
 					<div>
 						<a class="anchor" href="#_disconnect">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#58-71" title="Go to source code">disconnect</a>( )
+<a href="source-class-MySQLDBConnection.php#57-70" title="Go to source code">disconnect</a>( )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_start_transaction">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#73-76" title="Go to source code">start_transaction</a>( )
+<a href="source-class-MySQLDBConnection.php#72-75" title="Go to source code">start_transaction</a>( )
 						</code>
 
 							<div class="description short">
@@ -947,7 +943,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_commit">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#78-81" title="Go to source code">commit</a>( )
+<a href="source-class-MySQLDBConnection.php#77-80" title="Go to source code">commit</a>( )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_rollback">#</a>
 						<code>
-<a href="source-class-MySQLDBConnection.php#83-86" title="Go to source code">rollback</a>( )
+<a href="source-class-MySQLDBConnection.php#82-85" title="Go to source code">rollback</a>( )
 						</code>
 
 							<div class="description short">

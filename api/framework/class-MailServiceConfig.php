@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 04 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailServiceConfig.php#3-167" title="Go to source code">phpboost/config/MailServiceConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailServiceConfig.php#3-166" title="Go to source code">phpboost/config/MailServiceConfig.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_mail_sender">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#16-19" title="Go to source code">get_default_mail_sender</a>( )
+<a href="source-class-MailServiceConfig.php#15-18" title="Go to source code">get_default_mail_sender</a>( )
 						</code>
 
 							<div class="description short">
@@ -788,7 +784,7 @@
 					<div>
 						<a class="anchor" href="#_set_default_mail_sender">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#21-24" title="Go to source code">set_default_mail_sender</a>( <span> <var>$sender</var></span> )
+<a href="source-class-MailServiceConfig.php#20-23" title="Go to source code">set_default_mail_sender</a>( <span> <var>$sender</var></span> )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_get_administrators_mails">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#26-29" title="Go to source code">get_administrators_mails</a>( )
+<a href="source-class-MailServiceConfig.php#25-28" title="Go to source code">get_administrators_mails</a>( )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@
 					<div>
 						<a class="anchor" href="#_set_administrators_mails">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#31-34" title="Go to source code">set_administrators_mails</a>( <span>array <var>$mails</var></span> )
+<a href="source-class-MailServiceConfig.php#30-33" title="Go to source code">set_administrators_mails</a>( <span>array <var>$mails</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_get_mail_signature">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#36-39" title="Go to source code">get_mail_signature</a>( )
+<a href="source-class-MailServiceConfig.php#35-38" title="Go to source code">get_mail_signature</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@
 					<div>
 						<a class="anchor" href="#_set_mail_signature">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#41-44" title="Go to source code">set_mail_signature</a>( <span> <var>$signature</var></span> )
+<a href="source-class-MailServiceConfig.php#40-43" title="Go to source code">set_mail_signature</a>( <span> <var>$signature</var></span> )
 						</code>
 
 							<div class="description short">
@@ -963,7 +959,7 @@
 					<div>
 						<a class="anchor" href="#_is_smtp_enabled">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#46-49" title="Go to source code">is_smtp_enabled</a>( )
+<a href="source-class-MailServiceConfig.php#45-48" title="Go to source code">is_smtp_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -998,7 +994,7 @@
 					<div>
 						<a class="anchor" href="#_enable_smtp">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#51-54" title="Go to source code">enable_smtp</a>( )
+<a href="source-class-MailServiceConfig.php#50-53" title="Go to source code">enable_smtp</a>( )
 						</code>
 
 							<div class="description short">
@@ -1033,7 +1029,7 @@
 					<div>
 						<a class="anchor" href="#_disable_smtp">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#56-59" title="Go to source code">disable_smtp</a>( )
+<a href="source-class-MailServiceConfig.php#55-58" title="Go to source code">disable_smtp</a>( )
 						</code>
 
 							<div class="description short">
@@ -1068,7 +1064,7 @@
 					<div>
 						<a class="anchor" href="#_get_smtp_host">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#61-64" title="Go to source code">get_smtp_host</a>( )
+<a href="source-class-MailServiceConfig.php#60-63" title="Go to source code">get_smtp_host</a>( )
 						</code>
 
 							<div class="description short">
@@ -1103,7 +1099,7 @@
 					<div>
 						<a class="anchor" href="#_set_smtp_host">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#66-69" title="Go to source code">set_smtp_host</a>( <span> <var>$host</var></span> )
+<a href="source-class-MailServiceConfig.php#65-68" title="Go to source code">set_smtp_host</a>( <span> <var>$host</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1138,7 +1134,7 @@
 					<div>
 						<a class="anchor" href="#_get_smtp_port">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#71-74" title="Go to source code">get_smtp_port</a>( )
+<a href="source-class-MailServiceConfig.php#70-73" title="Go to source code">get_smtp_port</a>( )
 						</code>
 
 							<div class="description short">
@@ -1173,7 +1169,7 @@
 					<div>
 						<a class="anchor" href="#_set_smtp_port">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#76-79" title="Go to source code">set_smtp_port</a>( <span> <var>$port</var></span> )
+<a href="source-class-MailServiceConfig.php#75-78" title="Go to source code">set_smtp_port</a>( <span> <var>$port</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1208,7 +1204,7 @@
 					<div>
 						<a class="anchor" href="#_get_smtp_login">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#81-84" title="Go to source code">get_smtp_login</a>( )
+<a href="source-class-MailServiceConfig.php#80-83" title="Go to source code">get_smtp_login</a>( )
 						</code>
 
 							<div class="description short">
@@ -1243,7 +1239,7 @@
 					<div>
 						<a class="anchor" href="#_set_smtp_login">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#86-89" title="Go to source code">set_smtp_login</a>( <span> <var>$login</var></span> )
+<a href="source-class-MailServiceConfig.php#85-88" title="Go to source code">set_smtp_login</a>( <span> <var>$login</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1278,7 +1274,7 @@
 					<div>
 						<a class="anchor" href="#_get_smtp_password">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#91-94" title="Go to source code">get_smtp_password</a>( )
+<a href="source-class-MailServiceConfig.php#90-93" title="Go to source code">get_smtp_password</a>( )
 						</code>
 
 							<div class="description short">
@@ -1313,7 +1309,7 @@
 					<div>
 						<a class="anchor" href="#_set_smtp_password">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#96-99" title="Go to source code">set_smtp_password</a>( <span> <var>$password</var></span> )
+<a href="source-class-MailServiceConfig.php#95-98" title="Go to source code">set_smtp_password</a>( <span> <var>$password</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1348,7 +1344,7 @@
 					<div>
 						<a class="anchor" href="#_get_smtp_protocol">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#101-104" title="Go to source code">get_smtp_protocol</a>( )
+<a href="source-class-MailServiceConfig.php#100-103" title="Go to source code">get_smtp_protocol</a>( )
 						</code>
 
 							<div class="description short">
@@ -1383,7 +1379,7 @@
 					<div>
 						<a class="anchor" href="#_set_smtp_protocol">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#106-109" title="Go to source code">set_smtp_protocol</a>( <span> <var>$protocol</var></span> )
+<a href="source-class-MailServiceConfig.php#105-108" title="Go to source code">set_smtp_protocol</a>( <span> <var>$protocol</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1418,7 +1414,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#111-128" title="Go to source code">get_default_values</a>( )
+<a href="source-class-MailServiceConfig.php#110-127" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1457,7 +1453,7 @@
 					<div>
 						<a class="anchor" href="#_to_smtp_config">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#130-149" title="Go to source code">to_smtp_config</a>( )
+<a href="source-class-MailServiceConfig.php#129-148" title="Go to source code">to_smtp_config</a>( )
 						</code>
 
 							<div class="description short">
@@ -1496,7 +1492,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#151-158" title="Go to source code">load</a>( )
+<a href="source-class-MailServiceConfig.php#150-157" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1535,7 +1531,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-MailServiceConfig.php#160-166" title="Go to source code">save</a>( )
+<a href="source-class-MailServiceConfig.php#159-165" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 01 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ValidationResult.php#3-61" title="Go to source code">util/ValidationResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ValidationResult.php#3-60" title="Go to source code">util/ValidationResult.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ValidationResult.php#25-28" title="Go to source code">__construct</a>( <span> <var>$title</var> = <span class="php-quote">'Validation result'</span></span> )
+<a href="source-class-ValidationResult.php#24-27" title="Go to source code">__construct</a>( <span> <var>$title</var> = <span class="php-quote">'Validation result'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-ValidationResult.php#30-33" title="Go to source code">get_title</a>( )
+<a href="source-class-ValidationResult.php#29-32" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_add_error">#</a>
 						<code>
-<a href="source-class-ValidationResult.php#35-42" title="Go to source code">add_error</a>( <span>string <var>$error_msg</var></span> )
+<a href="source-class-ValidationResult.php#34-41" title="Go to source code">add_error</a>( <span>string <var>$error_msg</var></span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_get_errors_messages">#</a>
 						<code>
-<a href="source-class-ValidationResult.php#44-51" title="Go to source code">get_errors_messages</a>( )
+<a href="source-class-ValidationResult.php#43-50" title="Go to source code">get_errors_messages</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_has_errors">#</a>
 						<code>
-<a href="source-class-ValidationResult.php#53-60" title="Go to source code">has_errors</a>( )
+<a href="source-class-ValidationResult.php#52-59" title="Go to source code">has_errors</a>( )
 						</code>
 
 							<div class="description short">

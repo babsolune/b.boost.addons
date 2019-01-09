@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UserAccountsConfig.php#3-478" title="Go to source code">phpboost/config/UserAccountsConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UserAccountsConfig.php#3-477" title="Go to source code">phpboost/config/UserAccountsConfig.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_get_member_accounts_validation_method">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#95-103" title="Go to source code">get_member_accounts_validation_method</a>( )
+<a href="source-class-UserAccountsConfig.php#94-102" title="Go to source code">get_member_accounts_validation_method</a>( )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@ mail it receives, 2 if the administrator has to approbate it.</p>
 					<div>
 						<a class="anchor" href="#_set_member_accounts_validation_method">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#105-113" title="Go to source code">set_member_accounts_validation_method</a>( <span>integer <var>$method</var></span> )
+<a href="source-class-UserAccountsConfig.php#104-112" title="Go to source code">set_member_accounts_validation_method</a>( <span>integer <var>$method</var></span> )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_welcome_message">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#115-122" title="Go to source code">get_welcome_message</a>( )
+<a href="source-class-UserAccountsConfig.php#114-121" title="Go to source code">get_welcome_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_welcome_message">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#124-131" title="Go to source code">set_welcome_message</a>( <span>string <var>$message</var></span> )
+<a href="source-class-UserAccountsConfig.php#123-130" title="Go to source code">set_welcome_message</a>( <span>string <var>$message</var></span> )
 						</code>
 
 							<div class="description short">
@@ -917,7 +913,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_is_registration_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#133-140" title="Go to source code">is_registration_enabled</a>( )
+<a href="source-class-UserAccountsConfig.php#132-139" title="Go to source code">is_registration_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -956,7 +952,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_registration_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#142-149" title="Go to source code">set_registration_enabled</a>( <span>boolean <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#141-148" title="Go to source code">set_registration_enabled</a>( <span>boolean <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -996,7 +992,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_enable_registration">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#151-157" title="Go to source code">enable_registration</a>( )
+<a href="source-class-UserAccountsConfig.php#150-156" title="Go to source code">enable_registration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1031,7 +1027,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_disable_registration">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#159-165" title="Go to source code">disable_registration</a>( )
+<a href="source-class-UserAccountsConfig.php#158-164" title="Go to source code">disable_registration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1066,7 +1062,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_registration_agreement">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#167-174" title="Go to source code">get_registration_agreement</a>( )
+<a href="source-class-UserAccountsConfig.php#166-173" title="Go to source code">get_registration_agreement</a>( )
 						</code>
 
 							<div class="description short">
@@ -1105,7 +1101,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_registration_agreement">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#176-183" title="Go to source code">set_registration_agreement</a>( <span> <var>$agreement</var></span> )
+<a href="source-class-UserAccountsConfig.php#175-182" title="Go to source code">set_registration_agreement</a>( <span> <var>$agreement</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1145,7 +1141,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_is_avatar_upload_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#185-192" title="Go to source code">is_avatar_upload_enabled</a>( )
+<a href="source-class-UserAccountsConfig.php#184-191" title="Go to source code">is_avatar_upload_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1184,7 +1180,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_avatar_upload_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#194-201" title="Go to source code">set_avatar_upload_enabled</a>( <span>boolean <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#193-200" title="Go to source code">set_avatar_upload_enabled</a>( <span>boolean <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1224,7 +1220,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_is_avatar_auto_resizing_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#203-210" title="Go to source code">is_avatar_auto_resizing_enabled</a>( )
+<a href="source-class-UserAccountsConfig.php#202-209" title="Go to source code">is_avatar_auto_resizing_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1263,7 +1259,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_avatar_auto_resizing_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#212-219" title="Go to source code">set_avatar_auto_resizing_enabled</a>( <span>boolean <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#211-218" title="Go to source code">set_avatar_auto_resizing_enabled</a>( <span>boolean <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1303,7 +1299,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_enable_avatar_upload">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#221-227" title="Go to source code">enable_avatar_upload</a>( )
+<a href="source-class-UserAccountsConfig.php#220-226" title="Go to source code">enable_avatar_upload</a>( )
 						</code>
 
 							<div class="description short">
@@ -1338,7 +1334,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_disable_avatar_upload">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#229-235" title="Go to source code">disable_avatar_upload</a>( )
+<a href="source-class-UserAccountsConfig.php#228-234" title="Go to source code">disable_avatar_upload</a>( )
 						</code>
 
 							<div class="description short">
@@ -1373,7 +1369,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_unactivated_accounts_timeout">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#237-244" title="Go to source code">get_unactivated_accounts_timeout</a>( )
+<a href="source-class-UserAccountsConfig.php#236-243" title="Go to source code">get_unactivated_accounts_timeout</a>( )
 						</code>
 
 							<div class="description short">
@@ -1412,7 +1408,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_unactivated_accounts_timeout">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#246-253" title="Go to source code">set_unactivated_accounts_timeout</a>( <span>integer <var>$duration</var></span> )
+<a href="source-class-UserAccountsConfig.php#245-252" title="Go to source code">set_unactivated_accounts_timeout</a>( <span>integer <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1452,7 +1448,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_is_default_avatar_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#255-262" title="Go to source code">is_default_avatar_enabled</a>( )
+<a href="source-class-UserAccountsConfig.php#254-261" title="Go to source code">is_default_avatar_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1491,7 +1487,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_default_avatar_name_enabled">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#264-271" title="Go to source code">set_default_avatar_name_enabled</a>( <span>true <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#263-270" title="Go to source code">set_default_avatar_name_enabled</a>( <span>true <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1531,7 +1527,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_enable_default_avatar">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#273-279" title="Go to source code">enable_default_avatar</a>( )
+<a href="source-class-UserAccountsConfig.php#272-278" title="Go to source code">enable_default_avatar</a>( )
 						</code>
 
 							<div class="description short">
@@ -1566,7 +1562,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_disable_default_avatar">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#281-287" title="Go to source code">disable_default_avatar</a>( )
+<a href="source-class-UserAccountsConfig.php#280-286" title="Go to source code">disable_default_avatar</a>( )
 						</code>
 
 							<div class="description short">
@@ -1601,7 +1597,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_default_avatar_name">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#289-296" title="Go to source code">get_default_avatar_name</a>( )
+<a href="source-class-UserAccountsConfig.php#288-295" title="Go to source code">get_default_avatar_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1640,7 +1636,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_default_avatar_name">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#298-309" title="Go to source code">set_default_avatar_name</a>( <span>tring <var>$url</var></span> )
+<a href="source-class-UserAccountsConfig.php#297-308" title="Go to source code">set_default_avatar_name</a>( <span>tring <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1680,7 +1676,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_max_avatar_width">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#311-318" title="Go to source code">get_max_avatar_width</a>( )
+<a href="source-class-UserAccountsConfig.php#310-317" title="Go to source code">get_max_avatar_width</a>( )
 						</code>
 
 							<div class="description short">
@@ -1719,7 +1715,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_max_avatar_width">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#320-327" title="Go to source code">set_max_avatar_width</a>( <span>integer <var>$width</var></span> )
+<a href="source-class-UserAccountsConfig.php#319-326" title="Go to source code">set_max_avatar_width</a>( <span>integer <var>$width</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1759,7 +1755,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_max_avatar_height">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#329-336" title="Go to source code">get_max_avatar_height</a>( )
+<a href="source-class-UserAccountsConfig.php#328-335" title="Go to source code">get_max_avatar_height</a>( )
 						</code>
 
 							<div class="description short">
@@ -1798,7 +1794,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_max_avatar_height">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#338-345" title="Go to source code">set_max_avatar_height</a>( <span>integer <var>$height</var></span> )
+<a href="source-class-UserAccountsConfig.php#337-344" title="Go to source code">set_max_avatar_height</a>( <span>integer <var>$height</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1838,7 +1834,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_max_avatar_weight">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#347-354" title="Go to source code">get_max_avatar_weight</a>( )
+<a href="source-class-UserAccountsConfig.php#346-353" title="Go to source code">get_max_avatar_weight</a>( )
 						</code>
 
 							<div class="description short">
@@ -1877,7 +1873,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_max_avatar_weight">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#356-363" title="Go to source code">set_max_avatar_weight</a>( <span>integer <var>$weight</var></span> )
+<a href="source-class-UserAccountsConfig.php#355-362" title="Go to source code">set_max_avatar_weight</a>( <span>integer <var>$weight</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1917,7 +1913,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_auth_read_members">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#365-372" title="Go to source code">get_auth_read_members</a>( )
+<a href="source-class-UserAccountsConfig.php#364-371" title="Go to source code">get_auth_read_members</a>( )
 						</code>
 
 							<div class="description short">
@@ -1956,7 +1952,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_auth_read_members">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#374-381" title="Go to source code">set_auth_read_members</a>( <span>array <var>$auth</var></span> )
+<a href="source-class-UserAccountsConfig.php#373-380" title="Go to source code">set_auth_read_members</a>( <span>array <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1996,7 +1992,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_default_lang">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#383-386" title="Go to source code">get_default_lang</a>( )
+<a href="source-class-UserAccountsConfig.php#382-385" title="Go to source code">get_default_lang</a>( )
 						</code>
 
 							<div class="description short">
@@ -2031,7 +2027,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_default_lang">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#388-391" title="Go to source code">set_default_lang</a>( <span> <var>$lang</var></span> )
+<a href="source-class-UserAccountsConfig.php#387-390" title="Go to source code">set_default_lang</a>( <span> <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2066,7 +2062,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_default_theme">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#393-396" title="Go to source code">get_default_theme</a>( )
+<a href="source-class-UserAccountsConfig.php#392-395" title="Go to source code">get_default_theme</a>( )
 						</code>
 
 							<div class="description short">
@@ -2101,7 +2097,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_default_theme">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#398-401" title="Go to source code">set_default_theme</a>( <span> <var>$theme</var></span> )
+<a href="source-class-UserAccountsConfig.php#397-400" title="Go to source code">set_default_theme</a>( <span> <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2136,7 +2132,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_max_private_messages_number">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#403-406" title="Go to source code">get_max_private_messages_number</a>( )
+<a href="source-class-UserAccountsConfig.php#402-405" title="Go to source code">get_max_private_messages_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -2171,7 +2167,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_max_private_messages_number">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#408-411" title="Go to source code">set_max_private_messages_number</a>( <span> <var>$number</var></span> )
+<a href="source-class-UserAccountsConfig.php#407-410" title="Go to source code">set_max_private_messages_number</a>( <span> <var>$number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2206,7 +2202,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_are_users_allowed_to_change_display_name">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#413-416" title="Go to source code">are_users_allowed_to_change_display_name</a>( )
+<a href="source-class-UserAccountsConfig.php#412-415" title="Go to source code">are_users_allowed_to_change_display_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -2241,7 +2237,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_allow_users_to_change_display_name">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#418-421" title="Go to source code">set_allow_users_to_change_display_name</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#417-420" title="Go to source code">set_allow_users_to_change_display_name</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2276,7 +2272,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_are_users_allowed_to_change_email">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#423-426" title="Go to source code">are_users_allowed_to_change_email</a>( )
+<a href="source-class-UserAccountsConfig.php#422-425" title="Go to source code">are_users_allowed_to_change_email</a>( )
 						</code>
 
 							<div class="description short">
@@ -2311,7 +2307,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_set_allow_users_to_change_email">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#428-431" title="Go to source code">set_allow_users_to_change_email</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-UserAccountsConfig.php#427-430" title="Go to source code">set_allow_users_to_change_email</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2346,7 +2342,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#433-460" title="Go to source code">get_default_values</a>( )
+<a href="source-class-UserAccountsConfig.php#432-459" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -2385,7 +2381,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#462-469" title="Go to source code">load</a>( )
+<a href="source-class-UserAccountsConfig.php#461-468" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -2424,7 +2420,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-UserAccountsConfig.php#471-477" title="Go to source code">save</a>( )
+<a href="source-class-UserAccountsConfig.php#470-476" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -2484,7 +2480,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#17-20" title="Go to source code"><b>MEMBER_ACCOUNTS_VALIDATION_METHOD_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#16-19" title="Go to source code"><b>MEMBER_ACCOUNTS_VALIDATION_METHOD_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2508,7 +2504,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#21-24" title="Go to source code"><b>WELCOME_MESSAGE_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#20-23" title="Go to source code"><b>WELCOME_MESSAGE_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2532,7 +2528,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#25-28" title="Go to source code"><b>REGISTRATION_ENABLED_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#24-27" title="Go to source code"><b>REGISTRATION_ENABLED_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2556,7 +2552,7 @@ thanks to the mail it receives, 2 if the administrator has to approbate it.</p><
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#29-33" title="Go to source code"><b>REGISTRATION_AGREEMENT_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#28-32" title="Go to source code"><b>REGISTRATION_AGREEMENT_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2582,7 +2578,7 @@ to register on the site</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#34-38" title="Go to source code"><b>UNACTIVATED_ACCOUNTS_TIMEOUT_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#33-37" title="Go to source code"><b>UNACTIVATED_ACCOUNTS_TIMEOUT_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2608,7 +2604,7 @@ which hasn't been activated will be automatically removed.</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#40-43" title="Go to source code"><b>ENABLE_AVATAR_UPLOAD_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#39-42" title="Go to source code"><b>ENABLE_AVATAR_UPLOAD_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2632,7 +2628,7 @@ which hasn't been activated will be automatically removed.</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#45-48" title="Go to source code"><b>ENABLE_AVATAR_AUTO_RESIZING</b></a>
+								<a href="source-class-UserAccountsConfig.php#44-47" title="Go to source code"><b>ENABLE_AVATAR_AUTO_RESIZING</b></a>
 							</code>
 
 							<div class="description short">
@@ -2656,7 +2652,7 @@ which hasn't been activated will be automatically removed.</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#50-54" title="Go to source code"><b>DEFAULT_AVATAR_ENABLED_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#49-53" title="Go to source code"><b>DEFAULT_AVATAR_ENABLED_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2682,7 +2678,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#56-59" title="Go to source code"><b>DEFAULT_AVATAR_URL_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#55-58" title="Go to source code"><b>DEFAULT_AVATAR_URL_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2706,7 +2702,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#61-64" title="Go to source code"><b>MAX_AVATAR_WIDTH_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#60-63" title="Go to source code"><b>MAX_AVATAR_WIDTH_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2730,7 +2726,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#66-69" title="Go to source code"><b>MAX_AVATAR_HEIGHT_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#65-68" title="Go to source code"><b>MAX_AVATAR_HEIGHT_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2754,7 +2750,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#71-74" title="Go to source code"><b>MAX_AVATAR_WEIGHT_PROPERTY</b></a>
+								<a href="source-class-UserAccountsConfig.php#70-73" title="Go to source code"><b>MAX_AVATAR_WEIGHT_PROPERTY</b></a>
 							</code>
 
 							<div class="description short">
@@ -2778,7 +2774,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#76-79" title="Go to source code"><b>AUTH_READ_MEMBERS</b></a>
+								<a href="source-class-UserAccountsConfig.php#75-78" title="Go to source code"><b>AUTH_READ_MEMBERS</b></a>
 							</code>
 
 							<div class="description short">
@@ -2802,7 +2798,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#80" title="Go to source code"><b>AUTH_READ_MEMBERS_BIT</b></a>
+								<a href="source-class-UserAccountsConfig.php#79" title="Go to source code"><b>AUTH_READ_MEMBERS_BIT</b></a>
 							</code>
 
 							<div class="description short">
@@ -2826,7 +2822,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#82" title="Go to source code"><b>DEFAULT_LANG</b></a>
+								<a href="source-class-UserAccountsConfig.php#81" title="Go to source code"><b>DEFAULT_LANG</b></a>
 							</code>
 
 							<div class="description short">
@@ -2850,7 +2846,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#84" title="Go to source code"><b>DEFAULT_THEME</b></a>
+								<a href="source-class-UserAccountsConfig.php#83" title="Go to source code"><b>DEFAULT_THEME</b></a>
 							</code>
 
 							<div class="description short">
@@ -2874,7 +2870,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#86" title="Go to source code"><b>MAX_PRIVATE_MESSAGES_NUMBER</b></a>
+								<a href="source-class-UserAccountsConfig.php#85" title="Go to source code"><b>MAX_PRIVATE_MESSAGES_NUMBER</b></a>
 							</code>
 
 							<div class="description short">
@@ -2898,7 +2894,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#88" title="Go to source code"><b>ALLOW_USERS_TO_CHANGE_DISPLAY_NAME</b></a>
+								<a href="source-class-UserAccountsConfig.php#87" title="Go to source code"><b>ALLOW_USERS_TO_CHANGE_DISPLAY_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -2922,7 +2918,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#89" title="Go to source code"><b>ALLOW_USERS_TO_CHANGE_EMAIL</b></a>
+								<a href="source-class-UserAccountsConfig.php#88" title="Go to source code"><b>ALLOW_USERS_TO_CHANGE_EMAIL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2946,7 +2942,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#91" title="Go to source code"><b>AUTOMATIC_USER_ACCOUNTS_VALIDATION</b></a>
+								<a href="source-class-UserAccountsConfig.php#90" title="Go to source code"><b>AUTOMATIC_USER_ACCOUNTS_VALIDATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -2970,7 +2966,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#92" title="Go to source code"><b>MAIL_USER_ACCOUNTS_VALIDATION</b></a>
+								<a href="source-class-UserAccountsConfig.php#91" title="Go to source code"><b>MAIL_USER_ACCOUNTS_VALIDATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -2994,7 +2990,7 @@ specific avatar will have the default one).</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-UserAccountsConfig.php#93" title="Go to source code"><b>ADMINISTRATOR_USER_ACCOUNTS_VALIDATION</b></a>
+								<a href="source-class-UserAccountsConfig.php#92" title="Go to source code"><b>ADMINISTRATOR_USER_ACCOUNTS_VALIDATION</b></a>
 							</code>
 
 							<div class="description short">

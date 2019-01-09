@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 10 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusExtensionPoint.php#3-21" title="Go to source code">phpboost/menu/extension-point/MenusExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusExtensionPoint.php#3-20" title="Go to source code">phpboost/menu/extension-point/MenusExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#_get_menus">#</a>
 						<code>
-<a href="source-class-MenusExtensionPoint.php#17-20" title="Go to source code">get_menus</a>( )
+<a href="source-class-MenusExtensionPoint.php#16-19" title="Go to source code">get_menus</a>( )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MenusExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-MenusExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

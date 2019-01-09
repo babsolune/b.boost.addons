@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.session.php">session</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionData.php#3-517" title="Go to source code">phpboost/user/session/SessionData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionData.php#3-516" title="Go to source code">phpboost/user/session/SessionData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SessionData.php#39-43" title="Go to source code">__construct</a>( <span> <var>$user_id</var></span>, <span> <var>$session_id</var></span> )
+<a href="source-class-SessionData.php#38-42" title="Go to source code">__construct</a>( <span> <var>$user_id</var></span>, <span> <var>$session_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#45-48" title="Go to source code">get_user_id</a>( )
+<a href="source-class-SessionData.php#44-47" title="Go to source code">get_user_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_get_session_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#50-53" title="Go to source code">get_session_id</a>( )
+<a href="source-class-SessionData.php#49-52" title="Go to source code">get_session_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@
 					<div>
 						<a class="anchor" href="#_get_token">#</a>
 						<code>
-<a href="source-class-SessionData.php#55-58" title="Go to source code">get_token</a>( )
+<a href="source-class-SessionData.php#54-57" title="Go to source code">get_token</a>( )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@
 					<div>
 						<a class="anchor" href="#_get_expiry_date">#</a>
 						<code>
-<a href="source-class-SessionData.php#60-63" title="Go to source code">get_expiry_date</a>( )
+<a href="source-class-SessionData.php#59-62" title="Go to source code">get_expiry_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -924,7 +920,7 @@
 					<div>
 						<a class="anchor" href="#_get_timestamp">#</a>
 						<code>
-<a href="source-class-SessionData.php#65-68" title="Go to source code">get_timestamp</a>( )
+<a href="source-class-SessionData.php#64-67" title="Go to source code">get_timestamp</a>( )
 						</code>
 
 							<div class="description short">
@@ -959,7 +955,7 @@
 					<div>
 						<a class="anchor" href="#_get_ip">#</a>
 						<code>
-<a href="source-class-SessionData.php#70-73" title="Go to source code">get_ip</a>( )
+<a href="source-class-SessionData.php#69-72" title="Go to source code">get_ip</a>( )
 						</code>
 
 							<div class="description short">
@@ -994,7 +990,7 @@
 					<div>
 						<a class="anchor" href="#_get_location_script">#</a>
 						<code>
-<a href="source-class-SessionData.php#75-78" title="Go to source code">get_location_script</a>( )
+<a href="source-class-SessionData.php#74-77" title="Go to source code">get_location_script</a>( )
 						</code>
 
 							<div class="description short">
@@ -1029,7 +1025,7 @@
 					<div>
 						<a class="anchor" href="#_get_location_title">#</a>
 						<code>
-<a href="source-class-SessionData.php#80-83" title="Go to source code">get_location_title</a>( )
+<a href="source-class-SessionData.php#79-82" title="Go to source code">get_location_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1064,7 +1060,7 @@
 					<div>
 						<a class="anchor" href="#_get_location_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#85-88" title="Go to source code">get_location_id</a>( )
+<a href="source-class-SessionData.php#84-87" title="Go to source code">get_location_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1099,7 +1095,7 @@
 					<div>
 						<a class="anchor" href="#_get_all_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#90-93" title="Go to source code">get_all_cached_data</a>( )
+<a href="source-class-SessionData.php#89-92" title="Go to source code">get_all_cached_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -1134,7 +1130,7 @@
 					<div>
 						<a class="anchor" href="#_has_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#95-98" title="Go to source code">has_cached_data</a>( <span> <var>$key</var></span> )
+<a href="source-class-SessionData.php#94-97" title="Go to source code">has_cached_data</a>( <span> <var>$key</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1169,7 +1165,7 @@
 					<div>
 						<a class="anchor" href="#_get_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#100-107" title="Go to source code">get_cached_data</a>( <span> <var>$key</var></span>, <span> <var>$default</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-SessionData.php#99-106" title="Go to source code">get_cached_data</a>( <span> <var>$key</var></span>, <span> <var>$default</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1204,7 +1200,7 @@
 					<div>
 						<a class="anchor" href="#_add_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#109-113" title="Go to source code">add_cached_data</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-SessionData.php#108-112" title="Go to source code">add_cached_data</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1239,7 +1235,7 @@
 					<div>
 						<a class="anchor" href="#_remove_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#115-119" title="Go to source code">remove_cached_data</a>( <span> <var>$key</var></span> )
+<a href="source-class-SessionData.php#114-118" title="Go to source code">remove_cached_data</a>( <span> <var>$key</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1274,7 +1270,7 @@
 					<div>
 						<a class="anchor" href="#_get_all_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#121-124" title="Go to source code">get_all_data</a>( )
+<a href="source-class-SessionData.php#120-123" title="Go to source code">get_all_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -1309,7 +1305,7 @@
 					<div>
 						<a class="anchor" href="#_has_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#126-129" title="Go to source code">has_data</a>( <span> <var>$key</var></span> )
+<a href="source-class-SessionData.php#125-128" title="Go to source code">has_data</a>( <span> <var>$key</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1344,7 +1340,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#131-138" title="Go to source code">get_data</a>( <span> <var>$key</var></span> )
+<a href="source-class-SessionData.php#130-137" title="Go to source code">get_data</a>( <span> <var>$key</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1379,7 +1375,7 @@
 					<div>
 						<a class="anchor" href="#_add_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#140-144" title="Go to source code">add_data</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-SessionData.php#139-143" title="Go to source code">add_data</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1414,7 +1410,7 @@
 					<div>
 						<a class="anchor" href="#_remove_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#146-150" title="Go to source code">remove_data</a>( <span> <var>$key</var></span> )
+<a href="source-class-SessionData.php#145-149" title="Go to source code">remove_data</a>( <span> <var>$key</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1449,7 +1445,7 @@
 					<div>
 						<a class="anchor" href="#_recheck_cached_data">#</a>
 						<code>
-<a href="source-class-SessionData.php#152-157" title="Go to source code">recheck_cached_data</a>( )
+<a href="source-class-SessionData.php#151-156" title="Go to source code">recheck_cached_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -1484,7 +1480,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-SessionData.php#159-178" title="Go to source code">save</a>( )
+<a href="source-class-SessionData.php#158-177" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1519,7 +1515,7 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-SessionData.php#186-190" title="Go to source code">delete</a>( )
+<a href="source-class-SessionData.php#185-189" title="Go to source code">delete</a>( )
 						</code>
 
 							<div class="description short">
@@ -1554,7 +1550,7 @@
 					<div>
 						<a class="anchor" href="#_no_session_location">#</a>
 						<code>
-<a href="source-class-SessionData.php#229-237" title="Go to source code">no_session_location</a>( )
+<a href="source-class-SessionData.php#228-236" title="Go to source code">no_session_location</a>( )
 						</code>
 
 							<div class="description short">
@@ -1589,7 +1585,7 @@
 					<div>
 						<a class="anchor" href="#_location_id_already_exists">#</a>
 						<code>
-<a href="source-class-SessionData.php#239-246" title="Go to source code">location_id_already_exists</a>( <span> <var>$location_id</var></span> )
+<a href="source-class-SessionData.php#238-245" title="Go to source code">location_id_already_exists</a>( <span> <var>$location_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1624,7 +1620,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_on_location_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#248-257" title="Go to source code">get_user_on_location_id</a>( <span> <var>$location_id</var></span> )
+<a href="source-class-SessionData.php#247-256" title="Go to source code">get_user_on_location_id</a>( <span> <var>$location_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1659,7 +1655,7 @@
 					<div>
 						<a class="anchor" href="#_admin_session">#</a>
 						<code>
-<a href="source-class-SessionData.php#259-262" title="Go to source code">admin_session</a>( )
+<a href="source-class-SessionData.php#258-261" title="Go to source code">admin_session</a>( )
 						</code>
 
 							<div class="description short">
@@ -1694,7 +1690,7 @@
 					<div>
 						<a class="anchor" href="#_gc">#</a>
 						<code>
-<a href="source-class-SessionData.php#264-270" title="Go to source code">gc</a>( )
+<a href="source-class-SessionData.php#263-269" title="Go to source code">gc</a>( )
 						</code>
 
 							<div class="description short">
@@ -1729,7 +1725,7 @@
 					<div>
 						<a class="anchor" href="#_create_visitor">#</a>
 						<code>
-<a href="source-class-SessionData.php#272-279" title="Go to source code">create_visitor</a>( )
+<a href="source-class-SessionData.php#271-278" title="Go to source code">create_visitor</a>( )
 						</code>
 
 							<div class="description short">
@@ -1768,7 +1764,7 @@
 					<div>
 						<a class="anchor" href="#_create_from_user_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#281-305" title="Go to source code">create_from_user_id</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-SessionData.php#280-304" title="Go to source code">create_from_user_id</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1812,7 +1808,7 @@
 					<div>
 						<a class="anchor" href="#_add_in_visit_counter">#</a>
 						<code>
-<a href="source-class-SessionData.php#307-327" title="Go to source code">add_in_visit_counter</a>( )
+<a href="source-class-SessionData.php#306-326" title="Go to source code">add_in_visit_counter</a>( )
 						</code>
 
 							<div class="description short">
@@ -1847,7 +1843,7 @@
 					<div>
 						<a class="anchor" href="#_update_location">#</a>
 						<code>
-<a href="source-class-SessionData.php#329-352" title="Go to source code">update_location</a>( <span> <var>$title_page</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-SessionData.php#328-351" title="Go to source code">update_location</a>( <span> <var>$title_page</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1882,7 +1878,7 @@
 					<div>
 						<a class="anchor" href="#_recheck_cached_data_from_user_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#354-361" title="Go to source code">recheck_cached_data_from_user_id</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-SessionData.php#353-360" title="Go to source code">recheck_cached_data_from_user_id</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1917,7 +1913,7 @@
 					<div>
 						<a class="anchor" href="#_from_cookie">#</a>
 						<code>
-<a href="source-class-SessionData.php#419-447" title="Go to source code">from_cookie</a>( <span>string <var>$cookie_content</var></span> )
+<a href="source-class-SessionData.php#418-446" title="Go to source code">from_cookie</a>( <span>string <var>$cookie_content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1961,7 +1957,7 @@
 					<div>
 						<a class="anchor" href="#_update_user_info">#</a>
 						<code>
-<a href="source-class-SessionData.php#485-488" title="Go to source code">update_user_info</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-SessionData.php#484-487" title="Go to source code">update_user_info</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1996,7 +1992,7 @@
 					<div>
 						<a class="anchor" href="#_csrf_post_protect">#</a>
 						<code>
-<a href="source-class-SessionData.php#490-498" title="Go to source code">csrf_post_protect</a>( )
+<a href="source-class-SessionData.php#489-497" title="Go to source code">csrf_post_protect</a>( )
 						</code>
 
 							<div class="description short">
@@ -2033,7 +2029,7 @@ If the token of the request doesn't match the token of the current session, this
 					<div>
 						<a class="anchor" href="#_csrf_get_protect">#</a>
 						<code>
-<a href="source-class-SessionData.php#500-507" title="Go to source code">csrf_get_protect</a>( )
+<a href="source-class-SessionData.php#499-506" title="Go to source code">csrf_get_protect</a>( )
 						</code>
 
 							<div class="description short">
@@ -2081,7 +2077,7 @@ If the token of the request doesn't match the token of the current session, this
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SessionData.php#20" title="Go to source code"><b>DEFAULT_VISITOR_DISPLAY_NAME</b></a>
+								<a href="source-class-SessionData.php#19" title="Go to source code"><b>DEFAULT_VISITOR_DISPLAY_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -2120,7 +2116,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#25" title="Go to source code"><var>$user_id</var></a>
+						<a href="source-class-SessionData.php#24" title="Go to source code"><var>$user_id</var></a>
 
 					<div class="description short">
 						
@@ -2147,7 +2143,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#26" title="Go to source code"><var>$session_id</var></a>
+						<a href="source-class-SessionData.php#25" title="Go to source code"><var>$session_id</var></a>
 
 					<div class="description short">
 						
@@ -2174,7 +2170,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#27" title="Go to source code"><var>$token</var></a>
+						<a href="source-class-SessionData.php#26" title="Go to source code"><var>$token</var></a>
 
 					<div class="description short">
 						
@@ -2201,7 +2197,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#28" title="Go to source code"><var>$timestamp</var></a>
+						<a href="source-class-SessionData.php#27" title="Go to source code"><var>$timestamp</var></a>
 
 					<div class="description short">
 						
@@ -2228,7 +2224,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#29" title="Go to source code"><var>$ip</var></a>
+						<a href="source-class-SessionData.php#28" title="Go to source code"><var>$ip</var></a>
 
 					<div class="description short">
 						
@@ -2255,7 +2251,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#30" title="Go to source code"><var>$location_script</var></a>
+						<a href="source-class-SessionData.php#29" title="Go to source code"><var>$location_script</var></a>
 
 					<div class="description short">
 						
@@ -2282,7 +2278,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#31" title="Go to source code"><var>$location_title</var></a>
+						<a href="source-class-SessionData.php#30" title="Go to source code"><var>$location_title</var></a>
 
 					<div class="description short">
 						
@@ -2309,7 +2305,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#32" title="Go to source code"><var>$location_id</var></a>
+						<a href="source-class-SessionData.php#31" title="Go to source code"><var>$location_id</var></a>
 
 					<div class="description short">
 						
@@ -2336,7 +2332,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#33" title="Go to source code"><var>$cached_data</var></a>
+						<a href="source-class-SessionData.php#32" title="Go to source code"><var>$cached_data</var></a>
 
 					<div class="description short">
 						
@@ -2363,7 +2359,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#34" title="Go to source code"><var>$data</var></a>
+						<a href="source-class-SessionData.php#33" title="Go to source code"><var>$data</var></a>
 
 					<div class="description short">
 						
@@ -2390,7 +2386,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#36" title="Go to source code"><var>$cached_data_modified</var></a>
+						<a href="source-class-SessionData.php#35" title="Go to source code"><var>$cached_data_modified</var></a>
 
 					<div class="description short">
 						
@@ -2417,7 +2413,7 @@ If the token of the request doesn't match the token of the current session, this
 				</td>
 
 				<td class="name">
-						<a href="source-class-SessionData.php#37" title="Go to source code"><var>$data_modified</var></a>
+						<a href="source-class-SessionData.php#36" title="Go to source code"><var>$data_modified</var></a>
 
 					<div class="description short">
 						

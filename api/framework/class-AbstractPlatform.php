@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Plateform.php">Plateform</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractPlatform.php#3-1587" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/AbstractPlatform.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractPlatform.php#3-1586" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/AbstractPlatform.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@ They are a passive source of information.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#23-26" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractPlatform.php#22-25" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getIdentifierQuoteCharacter">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#28-36" title="Go to source code">getIdentifierQuoteCharacter</a>( )
+<a href="source-class-AbstractPlatform.php#27-35" title="Go to source code">getIdentifierQuoteCharacter</a>( )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getSqlCommentStartString">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#38-46" title="Go to source code">getSqlCommentStartString</a>( )
+<a href="source-class-AbstractPlatform.php#37-45" title="Go to source code">getSqlCommentStartString</a>( )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getSqlCommentEndString">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#48-56" title="Go to source code">getSqlCommentEndString</a>( )
+<a href="source-class-AbstractPlatform.php#47-55" title="Go to source code">getSqlCommentEndString</a>( )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getVarcharMaxLength">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#58-66" title="Go to source code">getVarcharMaxLength</a>( )
+<a href="source-class-AbstractPlatform.php#57-65" title="Go to source code">getVarcharMaxLength</a>( )
 						</code>
 
 							<div class="description short">
@@ -940,7 +936,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getWildcards">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#68-76" title="Go to source code">getWildcards</a>( )
+<a href="source-class-AbstractPlatform.php#67-75" title="Go to source code">getWildcards</a>( )
 						</code>
 
 							<div class="description short">
@@ -979,7 +975,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getRegexpExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#78-86" title="Go to source code">getRegexpExpression</a>( )
+<a href="source-class-AbstractPlatform.php#77-85" title="Go to source code">getRegexpExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1018,7 +1014,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getAvgExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#88-97" title="Go to source code">getAvgExpression</a>( <span>string <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#87-96" title="Go to source code">getAvgExpression</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1062,7 +1058,7 @@ They are a passive source of information.</p>
 					<div>
 						<a class="anchor" href="#_getCountExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#99-111" title="Go to source code">getCountExpression</a>( <span>string|integer <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#98-110" title="Go to source code">getCountExpression</a>( <span>string|integer <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getMaxExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#113-122" title="Go to source code">getMaxExpression</a>( <span>string <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#112-121" title="Go to source code">getMaxExpression</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1153,7 +1149,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getMinExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#124-133" title="Go to source code">getMinExpression</a>( <span>string <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#123-132" title="Go to source code">getMinExpression</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1197,7 +1193,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getSumExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#135-144" title="Go to source code">getSumExpression</a>( <span>string <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#134-143" title="Go to source code">getSumExpression</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1241,7 +1237,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getMd5Expression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#148-158" title="Go to source code">getMd5Expression</a>( <span> <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#147-157" title="Go to source code">getMd5Expression</a>( <span> <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1282,7 +1278,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getLengthExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#160-170" title="Go to source code">getLengthExpression</a>( <span>string <var>$column</var></span>, <span>string <var>$expression2</var>,…</span> )
+<a href="source-class-AbstractPlatform.php#159-169" title="Go to source code">getLengthExpression</a>( <span>string <var>$column</var></span>, <span>string <var>$expression2</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -1328,7 +1324,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getRoundExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#172-182" title="Go to source code">getRoundExpression</a>( <span>string <var>$column</var></span>, <span>string <var>$decimals</var> = <span class="php-num">0</span></span> )
+<a href="source-class-AbstractPlatform.php#171-181" title="Go to source code">getRoundExpression</a>( <span>string <var>$column</var></span>, <span>string <var>$decimals</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1374,7 +1370,7 @@ is returned.</p>
 					<div>
 						<a class="anchor" href="#_getModExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#184-195" title="Go to source code">getModExpression</a>( <span>string <var>$expression1</var></span>, <span>string <var>$expression2</var></span> )
+<a href="source-class-AbstractPlatform.php#183-194" title="Go to source code">getModExpression</a>( <span>string <var>$expression1</var></span>, <span>string <var>$expression2</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1422,7 +1418,7 @@ $expression1 / $expression2.</p>
 					<div>
 						<a class="anchor" href="#_getTrimExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#197-207" title="Go to source code">getTrimExpression</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#196-206" title="Go to source code">getTrimExpression</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1468,7 +1464,7 @@ returns the string $str with leading and proceeding space characters removed</p>
 					<div>
 						<a class="anchor" href="#_getRtrimExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#209-219" title="Go to source code">getRtrimExpression</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#208-218" title="Go to source code">getRtrimExpression</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1514,7 +1510,7 @@ returns the string $str with proceeding space characters removed</p>
 					<div>
 						<a class="anchor" href="#_getLtrimExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#221-231" title="Go to source code">getLtrimExpression</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#220-230" title="Go to source code">getLtrimExpression</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1560,7 +1556,7 @@ returns the string $str with leading space characters removed</p>
 					<div>
 						<a class="anchor" href="#_getUpperExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#233-244" title="Go to source code">getUpperExpression</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#232-243" title="Go to source code">getUpperExpression</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1608,7 +1604,7 @@ uppercase according to the current character set mapping.</p>
 					<div>
 						<a class="anchor" href="#_getLowerExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#246-257" title="Go to source code">getLowerExpression</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#245-256" title="Go to source code">getLowerExpression</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1656,7 +1652,7 @@ lowercase according to the current character set mapping.</p>
 					<div>
 						<a class="anchor" href="#_getLocateExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#259-270" title="Go to source code">getLocateExpression</a>( <span>string <var>$str</var></span>, <span>string <var>$substr</var></span> )
+<a href="source-class-AbstractPlatform.php#258-269" title="Go to source code">getLocateExpression</a>( <span>string <var>$str</var></span>, <span>string <var>$substr</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1704,7 +1700,7 @@ returns the position of the first occurrence of substring $substr in string $str
 					<div>
 						<a class="anchor" href="#_getNowExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#272-280" title="Go to source code">getNowExpression</a>( )
+<a href="source-class-AbstractPlatform.php#271-279" title="Go to source code">getNowExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1743,7 +1739,7 @@ returns the position of the first occurrence of substring $substr in string $str
 					<div>
 						<a class="anchor" href="#_getSubstringExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#282-301" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$from</var></span>, <span>integer <var>$len</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AbstractPlatform.php#281-300" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$from</var></span>, <span>integer <var>$len</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1795,7 +1791,7 @@ returns the position of the first occurrence of substring $substr in string $str
 					<div>
 						<a class="anchor" href="#_getConcatExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#303-315" title="Go to source code">getConcatExpression</a>( )
+<a href="source-class-AbstractPlatform.php#302-314" title="Go to source code">getConcatExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1837,7 +1833,7 @@ must contain an expression</p>
 					<div>
 						<a class="anchor" href="#_getNotExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#317-333" title="Go to source code">getNotExpression</a>( <span> <var>$expression</var></span> )
+<a href="source-class-AbstractPlatform.php#316-332" title="Go to source code">getNotExpression</a>( <span> <var>$expression</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1883,7 +1879,7 @@ must contain an expression</p>
 					<div>
 						<a class="anchor" href="#_getInExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#335-359" title="Go to source code">getInExpression</a>( <span>string <var>$column</var></span>, <span>string|array(string) <var>$values</var></span> )
+<a href="source-class-AbstractPlatform.php#334-358" title="Go to source code">getInExpression</a>( <span>string <var>$column</var></span>, <span>string|array(string) <var>$values</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1936,7 +1932,7 @@ These expressions will be matched against the first parameter.</p>
 					<div>
 						<a class="anchor" href="#_getIsNullExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#361-370" title="Go to source code">getIsNullExpression</a>( <span>string <var>$expression</var></span> )
+<a href="source-class-AbstractPlatform.php#360-369" title="Go to source code">getIsNullExpression</a>( <span>string <var>$expression</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1980,7 +1976,7 @@ These expressions will be matched against the first parameter.</p>
 					<div>
 						<a class="anchor" href="#_getIsNotNullExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#372-381" title="Go to source code">getIsNotNullExpression</a>( <span>string <var>$expression</var></span> )
+<a href="source-class-AbstractPlatform.php#371-380" title="Go to source code">getIsNotNullExpression</a>( <span>string <var>$expression</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2024,7 +2020,7 @@ These expressions will be matched against the first parameter.</p>
 					<div>
 						<a class="anchor" href="#_getBetweenExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#383-401" title="Go to source code">getBetweenExpression</a>( <span>string <var>$expression</var></span>, <span>string <var>$value1</var></span>, <span>string <var>$value2</var></span> )
+<a href="source-class-AbstractPlatform.php#382-400" title="Go to source code">getBetweenExpression</a>( <span>string <var>$expression</var></span>, <span>string <var>$value1</var></span>, <span>string <var>$value2</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2080,7 +2076,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getAcosExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#403-406" title="Go to source code">getAcosExpression</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractPlatform.php#402-405" title="Go to source code">getAcosExpression</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2115,7 +2111,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getSinExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#408-411" title="Go to source code">getSinExpression</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractPlatform.php#407-410" title="Go to source code">getSinExpression</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2150,7 +2146,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getPiExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#413-416" title="Go to source code">getPiExpression</a>( )
+<a href="source-class-AbstractPlatform.php#412-415" title="Go to source code">getPiExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -2185,7 +2181,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getCosExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#418-421" title="Go to source code">getCosExpression</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractPlatform.php#417-420" title="Go to source code">getCosExpression</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2220,7 +2216,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getForUpdateSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#423-426" title="Go to source code">getForUpdateSql</a>( )
+<a href="source-class-AbstractPlatform.php#422-425" title="Go to source code">getForUpdateSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -2255,7 +2251,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getDropDatabaseSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#428-431" title="Go to source code">getDropDatabaseSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-AbstractPlatform.php#427-430" title="Go to source code">getDropDatabaseSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2290,7 +2286,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getDropTableSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#433-436" title="Go to source code">getDropTableSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-AbstractPlatform.php#432-435" title="Go to source code">getDropTableSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2325,7 +2321,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getDropIndexSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#438-441" title="Go to source code">getDropIndexSql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span> )
+<a href="source-class-AbstractPlatform.php#437-440" title="Go to source code">getDropIndexSql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2360,7 +2356,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getDropConstraintSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#443-446" title="Go to source code">getDropConstraintSql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span>, <span> <var>$primary</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractPlatform.php#442-445" title="Go to source code">getDropConstraintSql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span>, <span> <var>$primary</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2395,7 +2391,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getDropForeignKeySql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#448-451" title="Go to source code">getDropForeignKeySql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span> )
+<a href="source-class-AbstractPlatform.php#447-450" title="Go to source code">getDropForeignKeySql</a>( <span> <var>$table</var></span>, <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2430,7 +2426,7 @@ independence you should avoid using between().</p>
 					<div>
 						<a class="anchor" href="#_getCreateTableSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#453-501" title="Go to source code">getCreateTableSql</a>( <span>string <var>$table</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AbstractPlatform.php#452-500" title="Go to source code">getCreateTableSql</a>( <span>string <var>$table</var></span>, <span>array <var>$columns</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -2480,7 +2476,7 @@ on this platform.</p>
 					<div>
 						<a class="anchor" href="#_getCreateTemporaryTableSnippetSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#503-506" title="Go to source code">getCreateTemporaryTableSnippetSql</a>( )
+<a href="source-class-AbstractPlatform.php#502-505" title="Go to source code">getCreateTemporaryTableSnippetSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -2515,7 +2511,7 @@ on this platform.</p>
 					<div>
 						<a class="anchor" href="#_getCreateSequenceSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#508-520" title="Go to source code">getCreateSequenceSql</a>( <span>string <var>$sequenceName</var></span>, <span>integer <var>$start</var> = <span class="php-num">1</span></span>, <span>integer <var>$allocationSize</var> = <span class="php-num">1</span></span> )
+<a href="source-class-AbstractPlatform.php#507-519" title="Go to source code">getCreateSequenceSql</a>( <span>string <var>$sequenceName</var></span>, <span>integer <var>$start</var> = <span class="php-num">1</span></span>, <span>integer <var>$allocationSize</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2567,7 +2563,7 @@ on this platform.</p>
 					<div>
 						<a class="anchor" href="#_getCreateConstraintSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#522-560" title="Go to source code">getCreateConstraintSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#521-559" title="Go to source code">getCreateConstraintSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2629,7 +2625,7 @@ on this platform.</p>
 					<div>
 						<a class="anchor" href="#_getCreateIndexSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#562-592" title="Go to source code">getCreateIndexSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#561-591" title="Go to source code">getCreateIndexSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2677,7 +2673,7 @@ on this platform.</p>
 					<div>
 						<a class="anchor" href="#_quoteIdentifier">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#594-610" title="Go to source code">quoteIdentifier</a>( <span>string <var>$str</var></span> )
+<a href="source-class-AbstractPlatform.php#593-609" title="Go to source code">quoteIdentifier</a>( <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2727,7 +2723,7 @@ problems than they solve.</p>
 					<div>
 						<a class="anchor" href="#_getCreateForeignKeySql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#612-624" title="Go to source code">getCreateForeignKeySql</a>( <span>string <var>$table</var></span>, <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#611-623" title="Go to source code">getCreateForeignKeySql</a>( <span>string <var>$table</var></span>, <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2773,7 +2769,7 @@ problems than they solve.</p>
 					<div>
 						<a class="anchor" href="#_getAlterTableSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#626-640" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractPlatform.php#625-639" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2825,7 +2821,7 @@ problems than they solve.</p>
 					<div>
 						<a class="anchor" href="#_getColumnDeclarationListSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#642-679" title="Go to source code">getColumnDeclarationListSql</a>( <span>array <var>$fields</var></span> )
+<a href="source-class-AbstractPlatform.php#641-678" title="Go to source code">getColumnDeclarationListSql</a>( <span>array <var>$fields</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2892,7 +2888,7 @@ problems than they solve.</p>
 					<div>
 						<a class="anchor" href="#_getColumnDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#681-733" title="Go to source code">getColumnDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$field</var></span> )
+<a href="source-class-AbstractPlatform.php#680-732" title="Go to source code">getColumnDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2963,7 +2959,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDecimalTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#735-750" title="Go to source code">getDecimalTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#734-749" title="Go to source code">getDecimalTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3007,7 +3003,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getFloatTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#752-755" title="Go to source code">getFloatTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-AbstractPlatform.php#751-754" title="Go to source code">getFloatTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3042,7 +3038,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getBooleanTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#757-763" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#756-762" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3086,7 +3082,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#765-771" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#764-770" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3130,7 +3126,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getBigIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#773-779" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#772-778" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3174,7 +3170,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getSmallIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#781-787" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#780-786" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3218,7 +3214,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#__getCommonIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#789-795" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-AbstractPlatform.php#788-794" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3262,7 +3258,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDefaultValueDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#797-812" title="Go to source code">getDefaultValueDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-AbstractPlatform.php#796-811" title="Go to source code">getDefaultValueDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3308,7 +3304,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getCheckDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#814-839" title="Go to source code">getCheckDeclarationSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#813-838" title="Go to source code">getCheckDeclarationSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3354,7 +3350,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIndexDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#841-870" title="Go to source code">getIndexDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#840-869" title="Go to source code">getIndexDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3402,7 +3398,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIndexFieldDeclarationListSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#872-890" title="Go to source code">getIndexFieldDeclarationListSql</a>( <span>array <var>$fields</var></span> )
+<a href="source-class-AbstractPlatform.php#871-889" title="Go to source code">getIndexFieldDeclarationListSql</a>( <span>array <var>$fields</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3445,7 +3441,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getTemporaryTableSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#892-909" title="Go to source code">getTemporaryTableSql</a>( )
+<a href="source-class-AbstractPlatform.php#891-908" title="Go to source code">getTemporaryTableSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -3494,7 +3490,7 @@ requires a different SQL command from "CREATE TEMPORARY TABLE".</p>
 					<div>
 						<a class="anchor" href="#_getShowDatabasesSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#911-919" title="Go to source code">getShowDatabasesSql</a>( )
+<a href="source-class-AbstractPlatform.php#910-918" title="Go to source code">getShowDatabasesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -3533,7 +3529,7 @@ requires a different SQL command from "CREATE TEMPORARY TABLE".</p>
 					<div>
 						<a class="anchor" href="#_getForeignKeyDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#921-969" title="Go to source code">getForeignKeyDeclarationSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#920-968" title="Go to source code">getForeignKeyDeclarationSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3615,7 +3611,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getAdvancedForeignKeyOptionsSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#971-988" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#970-987" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3661,7 +3657,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getForeignKeyReferentialActionSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#990-1012" title="Go to source code">getForeignKeyReferentialActionSql</a>( <span>string <var>$action</var></span> )
+<a href="source-class-AbstractPlatform.php#989-1011" title="Go to source code">getForeignKeyReferentialActionSql</a>( <span>string <var>$action</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3707,7 +3703,7 @@ an exception</p>
 					<div>
 						<a class="anchor" href="#_getForeignKeyBaseDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1014-1052" title="Go to source code">getForeignKeyBaseDeclarationSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-AbstractPlatform.php#1013-1051" title="Go to source code">getForeignKeyBaseDeclarationSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3753,7 +3749,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getUniqueFieldDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1054-1064" title="Go to source code">getUniqueFieldDeclarationSql</a>( )
+<a href="source-class-AbstractPlatform.php#1053-1063" title="Go to source code">getUniqueFieldDeclarationSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -3795,7 +3791,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getColumnCharsetDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1066-1077" title="Go to source code">getColumnCharsetDeclarationSql</a>( <span>string <var>$charset</var></span> )
+<a href="source-class-AbstractPlatform.php#1065-1076" title="Go to source code">getColumnCharsetDeclarationSql</a>( <span>string <var>$charset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3842,7 +3838,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getColumnCollationDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1079-1090" title="Go to source code">getColumnCollationDeclarationSql</a>( <span>string <var>$collation</var></span> )
+<a href="source-class-AbstractPlatform.php#1078-1089" title="Go to source code">getColumnCollationDeclarationSql</a>( <span>string <var>$collation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -3889,7 +3885,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getMatchPatternExpression">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1092-1112" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AbstractPlatform.php#1091-1111" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -3943,7 +3939,7 @@ any time until labelled as non-experimental</p>
 					<div>
 						<a class="anchor" href="#_prefersSequences">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1114-1123" title="Go to source code">prefersSequences</a>( )
+<a href="source-class-AbstractPlatform.php#1113-1122" title="Go to source code">prefersSequences</a>( )
 						</code>
 
 							<div class="description short">
@@ -3984,7 +3980,7 @@ Subclasses should override this method to return TRUE if they prefer sequences.<
 					<div>
 						<a class="anchor" href="#_prefersIdentityColumns">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1125-1134" title="Go to source code">prefersIdentityColumns</a>( )
+<a href="source-class-AbstractPlatform.php#1124-1133" title="Go to source code">prefersIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -4025,7 +4021,7 @@ Subclasses should override this method to return TRUE if they prefer identity co
 					<div>
 						<a class="anchor" href="#_writeLimitClause">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1136-1161" title="Go to source code">writeLimitClause</a>( <span>string <var>$query</var></span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$offset</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractPlatform.php#1135-1160" title="Go to source code">writeLimitClause</a>( <span>string <var>$query</var></span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$offset</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -4077,7 +4073,7 @@ this implementation and provide their own.</p>
 					<div>
 						<a class="anchor" href="#_convertBooleans">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1163-1181" title="Go to source code">convertBooleans</a>( <span>array <var>$item</var></span> )
+<a href="source-class-AbstractPlatform.php#1162-1180" title="Go to source code">convertBooleans</a>( <span>array <var>$item</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4119,7 +4115,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getSetCharsetSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1183-1192" title="Go to source code">getSetCharsetSql</a>( <span>string <var>$charset</var></span> )
+<a href="source-class-AbstractPlatform.php#1182-1191" title="Go to source code">getSetCharsetSql</a>( <span>string <var>$charset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4163,7 +4159,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCurrentDateSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1194-1202" title="Go to source code">getCurrentDateSql</a>( )
+<a href="source-class-AbstractPlatform.php#1193-1201" title="Go to source code">getCurrentDateSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4202,7 +4198,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCurrentTimeSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1204-1212" title="Go to source code">getCurrentTimeSql</a>( )
+<a href="source-class-AbstractPlatform.php#1203-1211" title="Go to source code">getCurrentTimeSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4241,7 +4237,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCurrentTimestampSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1214-1222" title="Go to source code">getCurrentTimestampSql</a>( )
+<a href="source-class-AbstractPlatform.php#1213-1221" title="Go to source code">getCurrentTimestampSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4280,7 +4276,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#__getTransactionIsolationLevelSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1224-1243" title="Go to source code">_getTransactionIsolationLevelSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-AbstractPlatform.php#1223-1242" title="Go to source code">_getTransactionIsolationLevelSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4320,7 +4316,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListDatabasesSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1245-1248" title="Go to source code">getListDatabasesSql</a>( )
+<a href="source-class-AbstractPlatform.php#1244-1247" title="Go to source code">getListDatabasesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4355,7 +4351,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListFunctionsSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1250-1253" title="Go to source code">getListFunctionsSql</a>( )
+<a href="source-class-AbstractPlatform.php#1249-1252" title="Go to source code">getListFunctionsSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4390,7 +4386,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTriggersSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1255-1258" title="Go to source code">getListTriggersSql</a>( <span> <var>$table</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AbstractPlatform.php#1254-1257" title="Go to source code">getListTriggersSql</a>( <span> <var>$table</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -4425,7 +4421,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListSequencesSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1260-1263" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-AbstractPlatform.php#1259-1262" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4460,7 +4456,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTableConstraintsSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1265-1268" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-AbstractPlatform.php#1264-1267" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4495,7 +4491,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTableColumnsSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1270-1273" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-AbstractPlatform.php#1269-1272" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4530,7 +4526,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTablesSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1275-1278" title="Go to source code">getListTablesSql</a>( )
+<a href="source-class-AbstractPlatform.php#1274-1277" title="Go to source code">getListTablesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4565,7 +4561,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListUsersSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1280-1283" title="Go to source code">getListUsersSql</a>( )
+<a href="source-class-AbstractPlatform.php#1279-1282" title="Go to source code">getListUsersSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4600,7 +4596,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListViewsSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1285-1288" title="Go to source code">getListViewsSql</a>( )
+<a href="source-class-AbstractPlatform.php#1284-1287" title="Go to source code">getListViewsSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -4635,7 +4631,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTableIndexesSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1290-1293" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-AbstractPlatform.php#1289-1292" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4670,7 +4666,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getListTableForeignKeysSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1295-1298" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-AbstractPlatform.php#1294-1297" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4705,7 +4701,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCreateViewSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1300-1303" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
+<a href="source-class-AbstractPlatform.php#1299-1302" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4740,7 +4736,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getDropViewSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1305-1308" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
+<a href="source-class-AbstractPlatform.php#1304-1307" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4775,7 +4771,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getDropSequenceSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1310-1313" title="Go to source code">getDropSequenceSql</a>( <span> <var>$sequenceName</var></span> )
+<a href="source-class-AbstractPlatform.php#1309-1312" title="Go to source code">getDropSequenceSql</a>( <span> <var>$sequenceName</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4810,7 +4806,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getSequenceNextValSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1315-1318" title="Go to source code">getSequenceNextValSql</a>( <span> <var>$sequenceName</var></span> )
+<a href="source-class-AbstractPlatform.php#1314-1317" title="Go to source code">getSequenceNextValSql</a>( <span> <var>$sequenceName</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4845,7 +4841,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCreateDatabaseSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1320-1323" title="Go to source code">getCreateDatabaseSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-AbstractPlatform.php#1319-1322" title="Go to source code">getCreateDatabaseSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4880,7 +4876,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getSetTransactionIsolationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1325-1333" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-AbstractPlatform.php#1324-1332" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4920,7 +4916,7 @@ Default conversion defined here converts to integers.</p>
 					<div>
 						<a class="anchor" href="#_getCharsetFieldDeclaration">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1335-1346" title="Go to source code">getCharsetFieldDeclaration</a>( <span>string <var>$charset</var></span> )
+<a href="source-class-AbstractPlatform.php#1334-1345" title="Go to source code">getCharsetFieldDeclaration</a>( <span>string <var>$charset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -4967,7 +4963,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1348-1358" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-AbstractPlatform.php#1347-1357" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5013,7 +5009,7 @@ statements like CREATE TABLE</p>
 					<div>
 						<a class="anchor" href="#_getDateTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1360-1370" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-AbstractPlatform.php#1359-1369" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5059,7 +5055,7 @@ like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDefaultTransactionIsolationLevel">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1372-1381" title="Go to source code">getDefaultTransactionIsolationLevel</a>( )
+<a href="source-class-AbstractPlatform.php#1371-1380" title="Go to source code">getDefaultTransactionIsolationLevel</a>( )
 						</code>
 
 							<div class="description short">
@@ -5102,7 +5098,7 @@ like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_supportsSequences">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1385-1393" title="Go to source code">supportsSequences</a>( )
+<a href="source-class-AbstractPlatform.php#1384-1392" title="Go to source code">supportsSequences</a>( )
 						</code>
 
 							<div class="description short">
@@ -5141,7 +5137,7 @@ like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_supportsIdentityColumns">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1395-1405" title="Go to source code">supportsIdentityColumns</a>( )
+<a href="source-class-AbstractPlatform.php#1394-1404" title="Go to source code">supportsIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -5184,7 +5180,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsIndexes">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1407-1415" title="Go to source code">supportsIndexes</a>( )
+<a href="source-class-AbstractPlatform.php#1406-1414" title="Go to source code">supportsIndexes</a>( )
 						</code>
 
 							<div class="description short">
@@ -5223,7 +5219,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsTransactions">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1417-1425" title="Go to source code">supportsTransactions</a>( )
+<a href="source-class-AbstractPlatform.php#1416-1424" title="Go to source code">supportsTransactions</a>( )
 						</code>
 
 							<div class="description short">
@@ -5262,7 +5258,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsSavepoints">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1427-1435" title="Go to source code">supportsSavepoints</a>( )
+<a href="source-class-AbstractPlatform.php#1426-1434" title="Go to source code">supportsSavepoints</a>( )
 						</code>
 
 							<div class="description short">
@@ -5301,7 +5297,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsPrimaryConstraints">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1437-1445" title="Go to source code">supportsPrimaryConstraints</a>( )
+<a href="source-class-AbstractPlatform.php#1436-1444" title="Go to source code">supportsPrimaryConstraints</a>( )
 						</code>
 
 							<div class="description short">
@@ -5340,7 +5336,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsForeignKeyConstraints">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1447-1455" title="Go to source code">supportsForeignKeyConstraints</a>( )
+<a href="source-class-AbstractPlatform.php#1446-1454" title="Go to source code">supportsForeignKeyConstraints</a>( )
 						</code>
 
 							<div class="description short">
@@ -5379,7 +5375,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsSchemas">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1457-1465" title="Go to source code">supportsSchemas</a>( )
+<a href="source-class-AbstractPlatform.php#1456-1464" title="Go to source code">supportsSchemas</a>( )
 						</code>
 
 							<div class="description short">
@@ -5418,7 +5414,7 @@ database on insert of a row.</p>
 					<div>
 						<a class="anchor" href="#_supportsGettingAffectedRows">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1467-1476" title="Go to source code">supportsGettingAffectedRows</a>( )
+<a href="source-class-AbstractPlatform.php#1466-1475" title="Go to source code">supportsGettingAffectedRows</a>( )
 						</code>
 
 							<div class="description short">
@@ -5459,7 +5455,7 @@ update/delete type query.</p>
 					<div>
 						<a class="anchor" href="#_getIdentityColumnNullInsertSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1478-1481" title="Go to source code">getIdentityColumnNullInsertSql</a>( )
+<a href="source-class-AbstractPlatform.php#1477-1480" title="Go to source code">getIdentityColumnNullInsertSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -5494,7 +5490,7 @@ update/delete type query.</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeFormatString">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1483-1495" title="Go to source code">getDateTimeFormatString</a>( )
+<a href="source-class-AbstractPlatform.php#1482-1494" title="Go to source code">getDateTimeFormatString</a>( )
 						</code>
 
 							<div class="description short">
@@ -5535,7 +5531,7 @@ the format of a stored datetime value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getDateFormatString">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1497-1506" title="Go to source code">getDateFormatString</a>( )
+<a href="source-class-AbstractPlatform.php#1496-1505" title="Go to source code">getDateFormatString</a>( )
 						</code>
 
 							<div class="description short">
@@ -5576,7 +5572,7 @@ the format of a stored date value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getTimeFormatString">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1508-1517" title="Go to source code">getTimeFormatString</a>( )
+<a href="source-class-AbstractPlatform.php#1507-1516" title="Go to source code">getTimeFormatString</a>( )
 						</code>
 
 							<div class="description short">
@@ -5617,7 +5613,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_modifyLimitQuery">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1519-1530" title="Go to source code">modifyLimitQuery</a>( <span> <var>$query</var></span>, <span> <var>$limit</var></span>, <span> <var>$offset</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-AbstractPlatform.php#1518-1529" title="Go to source code">modifyLimitQuery</a>( <span> <var>$query</var></span>, <span> <var>$limit</var></span>, <span> <var>$offset</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -5652,7 +5648,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getVarcharTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1532-1537" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-AbstractPlatform.php#1531-1536" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5692,7 +5688,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getClobTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1539-1544" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-AbstractPlatform.php#1538-1543" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5732,7 +5728,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1546-1551" title="Go to source code">getName</a>( )
+<a href="source-class-AbstractPlatform.php#1545-1550" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">
@@ -5771,7 +5767,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getSqlResultCasing">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1553-1562" title="Go to source code">getSqlResultCasing</a>( <span>string <var>$column</var></span> )
+<a href="source-class-AbstractPlatform.php#1552-1561" title="Go to source code">getSqlResultCasing</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5815,7 +5811,7 @@ the format of a stored time value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_fixSchemaElementName">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1564-1574" title="Go to source code">fixSchemaElementName</a>( <span>string <var>$schemaElementName</var></span> )
+<a href="source-class-AbstractPlatform.php#1563-1573" title="Go to source code">fixSchemaElementName</a>( <span>string <var>$schemaElementName</var></span> )
 						</code>
 
 							<div class="description short">
@@ -5861,7 +5857,7 @@ by restrictions of the platform, like a maximum length.</p>
 					<div>
 						<a class="anchor" href="#_getEmptyIdentityInsertSql">#</a>
 						<code>
-<a href="source-class-AbstractPlatform.php#1576-1586" title="Go to source code">getEmptyIdentityInsertSql</a>( <span>string <var>$tableName</var></span>, <span>string <var>$identifierColumnName</var></span> )
+<a href="source-class-AbstractPlatform.php#1575-1585" title="Go to source code">getEmptyIdentityInsertSql</a>( <span>string <var>$tableName</var></span>, <span>string <var>$identifierColumnName</var></span> )
 						</code>
 
 							<div class="description short">

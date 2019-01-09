@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 10 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusProvidersService.php#3-47" title="Go to source code">phpboost/menu/MenusProvidersService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusProvidersService.php#3-46" title="Go to source code">phpboost/menu/MenusProvidersService.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#_get_menus">#</a>
 						<code>
-<a href="source-class-MenusProvidersService.php#15-22" title="Go to source code">get_menus</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-MenusProvidersService.php#14-21" title="Go to source code">get_menus</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_module_containing_extension_point">#</a>
 						<code>
-<a href="source-class-MenusProvidersService.php#24-27" title="Go to source code">module_containing_extension_point</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-MenusProvidersService.php#23-26" title="Go to source code">module_containing_extension_point</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension_point_ids">#</a>
 						<code>
-<a href="source-class-MenusProvidersService.php#29-32" title="Go to source code">get_extension_point_ids</a>( )
+<a href="source-class-MenusProvidersService.php#28-31" title="Go to source code">get_extension_point_ids</a>( )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension_point">#</a>
 						<code>
-<a href="source-class-MenusProvidersService.php#34-37" title="Go to source code">get_extension_point</a>( )
+<a href="source-class-MenusProvidersService.php#33-36" title="Go to source code">get_extension_point</a>( )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_get_provider">#</a>
 						<code>
-<a href="source-class-MenusProvidersService.php#39-46" title="Go to source code">get_provider</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-MenusProvidersService.php#38-45" title="Go to source code">get_provider</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">

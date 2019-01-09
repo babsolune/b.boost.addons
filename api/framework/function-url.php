@@ -681,10 +681,6 @@
 This functions allows you to generate an URL according to the site configuration concerning the URL rewriting.</p>
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@ This functions allows you to generate an URL according to the site configuration
 						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-url.php#146-165" title="Go to source code">
+						<a href="source-function-url.php#145-164" title="Go to source code">
 							helper/deprecated_helper.inc.php
 						</a>
 				</span>

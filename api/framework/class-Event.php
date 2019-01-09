@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Event.php">Event</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Event.php#3-312" title="Go to source code">phpboost/event/Event.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Event.php#3-311" title="Go to source code">phpboost/event/Event.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -714,7 +710,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Event.php#75-82" title="Go to source code">__construct</a>( )
+<a href="source-class-Event.php#74-81" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-Event.php#84-92" title="Go to source code">set_id</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-Event.php#83-91" title="Go to source code">set_id</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@
 					<div>
 						<a class="anchor" href="#_set_entitled">#</a>
 						<code>
-<a href="source-class-Event.php#94-101" title="Go to source code">set_entitled</a>( <span>string <var>$entitled</var></span> )
+<a href="source-class-Event.php#93-100" title="Go to source code">set_entitled</a>( <span>string <var>$entitled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -851,7 +847,7 @@
 					<div>
 						<a class="anchor" href="#_set_fixing_url">#</a>
 						<code>
-<a href="source-class-Event.php#103-110" title="Go to source code">set_fixing_url</a>( <span>string <var>$fixing_url</var></span> )
+<a href="source-class-Event.php#102-109" title="Go to source code">set_fixing_url</a>( <span>string <var>$fixing_url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_set_status">#</a>
 						<code>
-<a href="source-class-Event.php#112-134" title="Go to source code">set_status</a>( <span>integer <var>$new_current_status</var></span> )
+<a href="source-class-Event.php#111-133" title="Go to source code">set_status</a>( <span>integer <var>$new_current_status</var></span> )
 						</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@
 					<div>
 						<a class="anchor" href="#_set_creation_date">#</a>
 						<code>
-<a href="source-class-Event.php#136-144" title="Go to source code">set_creation_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Event.php#135-143" title="Go to source code">set_creation_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -977,7 +973,7 @@
 					<div>
 						<a class="anchor" href="#_set_id_in_module">#</a>
 						<code>
-<a href="source-class-Event.php#146-154" title="Go to source code">set_id_in_module</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-Event.php#145-153" title="Go to source code">set_id_in_module</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1019,7 +1015,7 @@ For example, il you use the events to allow user to purpose some news in your we
 					<div>
 						<a class="anchor" href="#_set_identifier">#</a>
 						<code>
-<a href="source-class-Event.php#156-164" title="Go to source code">set_identifier</a>( <span>string <var>$identifier</var></span> )
+<a href="source-class-Event.php#155-163" title="Go to source code">set_identifier</a>( <span>string <var>$identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1061,7 +1057,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_set_type">#</a>
 						<code>
-<a href="source-class-Event.php#166-173" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
+<a href="source-class-Event.php#165-172" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1101,7 +1097,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_set_must_regenerate_cache">#</a>
 						<code>
-<a href="source-class-Event.php#175-183" title="Go to source code">set_must_regenerate_cache</a>( <span>boolean <var>$must</var></span> )
+<a href="source-class-Event.php#174-182" title="Go to source code">set_must_regenerate_cache</a>( <span>boolean <var>$must</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1141,7 +1137,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Event.php#185-192" title="Go to source code">get_id</a>( )
+<a href="source-class-Event.php#184-191" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1180,7 +1176,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_get_entitled">#</a>
 						<code>
-<a href="source-class-Event.php#194-201" title="Go to source code">get_entitled</a>( )
+<a href="source-class-Event.php#193-200" title="Go to source code">get_entitled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1219,7 +1215,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_get_fixing_url">#</a>
 						<code>
-<a href="source-class-Event.php#203-210" title="Go to source code">get_fixing_url</a>( )
+<a href="source-class-Event.php#202-209" title="Go to source code">get_fixing_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1258,7 +1254,7 @@ It's that identifier which can be used to filter the events. You don't have to u
 					<div>
 						<a class="anchor" href="#_get_status">#</a>
 						<code>
-<a href="source-class-Event.php#212-224" title="Go to source code">get_status</a>( )
+<a href="source-class-Event.php#211-223" title="Go to source code">get_status</a>( )
 						</code>
 
 							<div class="description short">
@@ -1304,7 +1300,7 @@ ul> <li>Event::EVENT_STATUS_UNREAD if it's not read.</li> <li>Event::EVENT_STATU
 					<div>
 						<a class="anchor" href="#_get_creation_date">#</a>
 						<code>
-<a href="source-class-Event.php#226-233" title="Go to source code">get_creation_date</a>( )
+<a href="source-class-Event.php#225-232" title="Go to source code">get_creation_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1343,7 +1339,7 @@ ul> <li>Event::EVENT_STATUS_UNREAD if it's not read.</li> <li>Event::EVENT_STATU
 					<div>
 						<a class="anchor" href="#_get_id_in_module">#</a>
 						<code>
-<a href="source-class-Event.php#235-242" title="Go to source code">get_id_in_module</a>( )
+<a href="source-class-Event.php#234-241" title="Go to source code">get_id_in_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -1382,7 +1378,7 @@ ul> <li>Event::EVENT_STATUS_UNREAD if it's not read.</li> <li>Event::EVENT_STATU
 					<div>
 						<a class="anchor" href="#_get_identifier">#</a>
 						<code>
-<a href="source-class-Event.php#244-252" title="Go to source code">get_identifier</a>( )
+<a href="source-class-Event.php#243-251" title="Go to source code">get_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -1423,7 +1419,7 @@ It's that identifier which can be used to filter the events.</p>
 					<div>
 						<a class="anchor" href="#_get_type">#</a>
 						<code>
-<a href="source-class-Event.php#254-261" title="Go to source code">get_type</a>( )
+<a href="source-class-Event.php#253-260" title="Go to source code">get_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -1462,7 +1458,7 @@ It's that identifier which can be used to filter the events.</p>
 					<div>
 						<a class="anchor" href="#_get_must_regenerate_cache">#</a>
 						<code>
-<a href="source-class-Event.php#263-270" title="Go to source code">get_must_regenerate_cache</a>( )
+<a href="source-class-Event.php#262-269" title="Go to source code">get_must_regenerate_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1501,7 +1497,7 @@ It's that identifier which can be used to filter the events.</p>
 					<div>
 						<a class="anchor" href="#_get_status_name">#</a>
 						<code>
-<a href="source-class-Event.php#272-287" title="Go to source code">get_status_name</a>( )
+<a href="source-class-Event.php#271-286" title="Go to source code">get_status_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1540,7 +1536,7 @@ It's that identifier which can be used to filter the events.</p>
 					<div>
 						<a class="anchor" href="#_build_event">#</a>
 						<code>
-<a href="source-class-Event.php#289-311" title="Go to source code">build_event</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$current_status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span> )
+<a href="source-class-Event.php#288-310" title="Go to source code">build_event</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$current_status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1605,7 +1601,7 @@ It's that identifier which can be used to filter the events.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Event.php#23" title="Go to source code"><b>EVENT_STATUS_UNREAD</b></a>
+								<a href="source-class-Event.php#22" title="Go to source code"><b>EVENT_STATUS_UNREAD</b></a>
 							</code>
 
 							<div class="description short">
@@ -1629,7 +1625,7 @@ It's that identifier which can be used to filter the events.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Event.php#25" title="Go to source code"><b>EVENT_STATUS_BEING_PROCESSED</b></a>
+								<a href="source-class-Event.php#24" title="Go to source code"><b>EVENT_STATUS_BEING_PROCESSED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1653,7 +1649,7 @@ It's that identifier which can be used to filter the events.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Event.php#27" title="Go to source code"><b>EVENT_STATUS_PROCESSED</b></a>
+								<a href="source-class-Event.php#26" title="Go to source code"><b>EVENT_STATUS_PROCESSED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1692,7 +1688,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#29-32" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-Event.php#28-31" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						
@@ -1723,7 +1719,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#34-37" title="Go to source code"><var>$entitled</var></a>
+						<a href="source-class-Event.php#33-36" title="Go to source code"><var>$entitled</var></a>
 
 					<div class="description short">
 						
@@ -1754,7 +1750,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#39-42" title="Go to source code"><var>$fixing_url</var></a>
+						<a href="source-class-Event.php#38-41" title="Go to source code"><var>$fixing_url</var></a>
 
 					<div class="description short">
 						
@@ -1785,7 +1781,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#44-47" title="Go to source code"><var>$current_status</var></a>
+						<a href="source-class-Event.php#43-46" title="Go to source code"><var>$current_status</var></a>
 
 					<div class="description short">
 						
@@ -1816,7 +1812,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#49-52" title="Go to source code"><var>$creation_date</var></a>
+						<a href="source-class-Event.php#48-51" title="Go to source code"><var>$creation_date</var></a>
 
 					<div class="description short">
 						
@@ -1847,7 +1843,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#55-58" title="Go to source code"><var>$id_in_module</var></a>
+						<a href="source-class-Event.php#54-57" title="Go to source code"><var>$id_in_module</var></a>
 
 					<div class="description short">
 						
@@ -1878,7 +1874,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#60-63" title="Go to source code"><var>$identifier</var></a>
+						<a href="source-class-Event.php#59-62" title="Go to source code"><var>$identifier</var></a>
 
 					<div class="description short">
 						
@@ -1909,7 +1905,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#65-68" title="Go to source code"><var>$type</var></a>
+						<a href="source-class-Event.php#64-67" title="Go to source code"><var>$type</var></a>
 
 					<div class="description short">
 						
@@ -1940,7 +1936,7 @@ It's that identifier which can be used to filter the events.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Event.php#70-73" title="Go to source code"><var>$must_regenerate_cache</var></a>
+						<a href="source-class-Event.php#69-72" title="Go to source code"><var>$must_regenerate_cache</var></a>
 
 					<div class="description short">
 						

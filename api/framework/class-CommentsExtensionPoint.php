@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsExtensionPoint.php#3-17" title="Go to source code">content/comments/extension-point/CommentsExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsExtensionPoint.php#3-16" title="Go to source code">content/comments/extension-point/CommentsExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsExtensionPoint.php#16" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-CommentsExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

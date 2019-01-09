@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedItem.php#3-99" title="Go to source code">content/feed/FeedItem.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedItem.php#3-98" title="Go to source code">content/feed/FeedItem.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_set_title">#</a>
 						<code>
-<a href="source-class-FeedItem.php#27-31" title="Go to source code">set_title</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedItem.php#26-30" title="Go to source code">set_title</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_set_date">#</a>
 						<code>
-<a href="source-class-FeedItem.php#32-36" title="Go to source code">set_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$value</var></span> )
+<a href="source-class-FeedItem.php#31-35" title="Go to source code">set_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_set_desc">#</a>
 						<code>
-<a href="source-class-FeedItem.php#37-41" title="Go to source code">set_desc</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedItem.php#36-40" title="Go to source code">set_desc</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@
 					<div>
 						<a class="anchor" href="#_set_image_url">#</a>
 						<code>
-<a href="source-class-FeedItem.php#42-46" title="Go to source code">set_image_url</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedItem.php#41-45" title="Go to source code">set_image_url</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@
 					<div>
 						<a class="anchor" href="#_set_enclosure">#</a>
 						<code>
-<a href="source-class-FeedItem.php#47-51" title="Go to source code">set_enclosure</a>( <span><code><a href="class-FeedItemEnclosure.php">FeedItemEnclosure</a></code> <var>$value</var></span> )
+<a href="source-class-FeedItem.php#46-50" title="Go to source code">set_enclosure</a>( <span><code><a href="class-FeedItemEnclosure.php">FeedItemEnclosure</a></code> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -942,7 +938,7 @@
 					<div>
 						<a class="anchor" href="#_set_auth">#</a>
 						<code>
-<a href="source-class-FeedItem.php#52-56" title="Go to source code">set_auth</a>( <span>int[string] <var>$auth</var></span> )
+<a href="source-class-FeedItem.php#51-55" title="Go to source code">set_auth</a>( <span>int[string] <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -982,7 +978,7 @@
 					<div>
 						<a class="anchor" href="#_set_link">#</a>
 						<code>
-<a href="source-class-FeedItem.php#57-68" title="Go to source code">set_link</a>( <span>mixed <var>$value</var></span> )
+<a href="source-class-FeedItem.php#56-67" title="Go to source code">set_link</a>( <span>mixed <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1022,7 +1018,7 @@
 					<div>
 						<a class="anchor" href="#_set_guid">#</a>
 						<code>
-<a href="source-class-FeedItem.php#69-83" title="Go to source code">set_guid</a>( <span>mixed <var>$value</var></span> )
+<a href="source-class-FeedItem.php#68-82" title="Go to source code">set_guid</a>( <span>mixed <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1062,7 +1058,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-FeedItem.php#86" title="Go to source code">get_title</a>( )
+<a href="source-class-FeedItem.php#85" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1097,7 +1093,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-FeedItem.php#87" title="Go to source code">get_link</a>( )
+<a href="source-class-FeedItem.php#86" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -1132,7 +1128,7 @@
 					<div>
 						<a class="anchor" href="#_get_guid">#</a>
 						<code>
-<a href="source-class-FeedItem.php#88" title="Go to source code">get_guid</a>( )
+<a href="source-class-FeedItem.php#87" title="Go to source code">get_guid</a>( )
 						</code>
 
 							<div class="description short">
@@ -1167,7 +1163,7 @@
 					<div>
 						<a class="anchor" href="#_get_date">#</a>
 						<code>
-<a href="source-class-FeedItem.php#89" title="Go to source code">get_date</a>( )
+<a href="source-class-FeedItem.php#88" title="Go to source code">get_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1202,7 +1198,7 @@
 					<div>
 						<a class="anchor" href="#_get_date_rfc2822">#</a>
 						<code>
-<a href="source-class-FeedItem.php#90" title="Go to source code">get_date_rfc2822</a>( )
+<a href="source-class-FeedItem.php#89" title="Go to source code">get_date_rfc2822</a>( )
 						</code>
 
 							<div class="description short">
@@ -1237,7 +1233,7 @@
 					<div>
 						<a class="anchor" href="#_get_date_iso8601">#</a>
 						<code>
-<a href="source-class-FeedItem.php#91" title="Go to source code">get_date_iso8601</a>( )
+<a href="source-class-FeedItem.php#90" title="Go to source code">get_date_iso8601</a>( )
 						</code>
 
 							<div class="description short">
@@ -1272,7 +1268,7 @@
 					<div>
 						<a class="anchor" href="#_get_hours">#</a>
 						<code>
-<a href="source-class-FeedItem.php#92" title="Go to source code">get_hours</a>( )
+<a href="source-class-FeedItem.php#91" title="Go to source code">get_hours</a>( )
 						</code>
 
 							<div class="description short">
@@ -1307,7 +1303,7 @@
 					<div>
 						<a class="anchor" href="#_get_minutes">#</a>
 						<code>
-<a href="source-class-FeedItem.php#93" title="Go to source code">get_minutes</a>( )
+<a href="source-class-FeedItem.php#92" title="Go to source code">get_minutes</a>( )
 						</code>
 
 							<div class="description short">
@@ -1342,7 +1338,7 @@
 					<div>
 						<a class="anchor" href="#_get_date_text">#</a>
 						<code>
-<a href="source-class-FeedItem.php#94" title="Go to source code">get_date_text</a>( )
+<a href="source-class-FeedItem.php#93" title="Go to source code">get_date_text</a>( )
 						</code>
 
 							<div class="description short">
@@ -1377,7 +1373,7 @@
 					<div>
 						<a class="anchor" href="#_get_desc">#</a>
 						<code>
-<a href="source-class-FeedItem.php#95" title="Go to source code">get_desc</a>( )
+<a href="source-class-FeedItem.php#94" title="Go to source code">get_desc</a>( )
 						</code>
 
 							<div class="description short">
@@ -1412,7 +1408,7 @@
 					<div>
 						<a class="anchor" href="#_get_image_url">#</a>
 						<code>
-<a href="source-class-FeedItem.php#96" title="Go to source code">get_image_url</a>( )
+<a href="source-class-FeedItem.php#95" title="Go to source code">get_image_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1447,7 +1443,7 @@
 					<div>
 						<a class="anchor" href="#_get_enclosure">#</a>
 						<code>
-<a href="source-class-FeedItem.php#97" title="Go to source code">get_enclosure</a>( )
+<a href="source-class-FeedItem.php#96" title="Go to source code">get_enclosure</a>( )
 						</code>
 
 							<div class="description short">
@@ -1482,7 +1478,7 @@
 					<div>
 						<a class="anchor" href="#_get_auth">#</a>
 						<code>
-<a href="source-class-FeedItem.php#98" title="Go to source code">get_auth</a>( )
+<a href="source-class-FeedItem.php#97" title="Go to source code">get_auth</a>( )
 						</code>
 
 							<div class="description short">

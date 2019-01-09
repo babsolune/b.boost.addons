@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExceptionHandler.php#3-119" title="Go to source code">core/error/ExceptionHandler.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExceptionHandler.php#3-118" title="Go to source code">core/error/ExceptionHandler.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#_handle">#</a>
 						<code>
-<a href="source-class-ExceptionHandler.php#22-36" title="Go to source code">handle</a>( <span>Exception <var>$exception</var></span> )
+<a href="source-class-ExceptionHandler.php#21-35" title="Go to source code">handle</a>( <span>Exception <var>$exception</var></span> )
 						</code>
 
 							<div class="description short">

@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 01 20
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangsConfig.php#3-92" title="Go to source code">phpboost/config/LangsConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangsConfig.php#3-91" title="Go to source code">phpboost/config/LangsConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#17-25" title="Go to source code">get_default_values</a>( )
+<a href="source-class-LangsConfig.php#16-24" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_get_langs">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#27-30" title="Go to source code">get_langs</a>( )
+<a href="source-class-LangsConfig.php#26-29" title="Go to source code">get_langs</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_lang">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#32-40" title="Go to source code">get_lang</a>( <span> <var>$id</var></span> )
+<a href="source-class-LangsConfig.php#31-39" title="Go to source code">get_lang</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_set_langs">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#42-45" title="Go to source code">set_langs</a>( <span>array <var>$langs</var></span> )
+<a href="source-class-LangsConfig.php#41-44" title="Go to source code">set_langs</a>( <span>array <var>$langs</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_add_lang">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#47-52" title="Go to source code">add_lang</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
+<a href="source-class-LangsConfig.php#46-51" title="Go to source code">add_lang</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_remove_lang">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#54-59" title="Go to source code">remove_lang</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
+<a href="source-class-LangsConfig.php#53-58" title="Go to source code">remove_lang</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_remove_lang_by_id">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#61-66" title="Go to source code">remove_lang_by_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-LangsConfig.php#60-65" title="Go to source code">remove_lang_by_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#68-74" title="Go to source code">update</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
+<a href="source-class-LangsConfig.php#67-73" title="Go to source code">update</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#76-83" title="Go to source code">load</a>( )
+<a href="source-class-LangsConfig.php#75-82" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-LangsConfig.php#85-91" title="Go to source code">save</a>( )
+<a href="source-class-LangsConfig.php#84-90" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

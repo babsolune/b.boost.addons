@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlRedirectMapper.php#3-39" title="Go to source code">mvc/dispatcher/UrlRedirectMapper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlRedirectMapper.php#3-38" title="Go to source code">mvc/dispatcher/UrlRedirectMapper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -753,7 +749,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -775,7 +771,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UrlRedirectMapper.php#19-30" title="Go to source code">__construct</a>( <span>string <var>$redirect_url</var></span>, <span>string <var>$capture_regex</var> = <span class="php-quote">'`^/?$`u'</span></span> )
+<a href="source-class-UrlRedirectMapper.php#18-29" title="Go to source code">__construct</a>( <span>string <var>$redirect_url</var></span>, <span>string <var>$capture_regex</var> = <span class="php-quote">'`^/?$`u'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@ and capturing the controller method parameters. By default, match the empty url<
 					<div>
 						<a class="anchor" href="#_call">#</a>
 						<code>
-<a href="source-class-UrlRedirectMapper.php#32-38" title="Go to source code">call</a>( )
+<a href="source-class-UrlRedirectMapper.php#31-37" title="Go to source code">call</a>( )
 						</code>
 
 							<div class="description short">

@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -693,7 +689,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SmileysCache.php#3-65" title="Go to source code">phpboost/cache/SmileysCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SmileysCache.php#3-64" title="Go to source code">phpboost/cache/SmileysCache.class.php</a></span>
 			</div>
 
 
@@ -714,7 +710,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-SmileysCache.php#18-37" title="Go to source code">synchronize</a>( )
+<a href="source-class-SmileysCache.php#17-36" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -775,7 +771,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_smileys">#</a>
 						<code>
-<a href="source-class-SmileysCache.php#39-42" title="Go to source code">get_smileys</a>( )
+<a href="source-class-SmileysCache.php#38-41" title="Go to source code">get_smileys</a>( )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_url_smiley">#</a>
 						<code>
-<a href="source-class-SmileysCache.php#44-47" title="Go to source code">get_url_smiley</a>( <span> <var>$code_smiley</var></span> )
+<a href="source-class-SmileysCache.php#43-46" title="Go to source code">get_url_smiley</a>( <span> <var>$code_smiley</var></span> )
 						</code>
 
 							<div class="description short">
@@ -845,7 +841,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-SmileysCache.php#49-56" title="Go to source code">load</a>( )
+<a href="source-class-SmileysCache.php#48-55" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-SmileysCache.php#58-64" title="Go to source code">invalidate</a>( )
+<a href="source-class-SmileysCache.php#57-63" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

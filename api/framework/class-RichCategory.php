@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-RichCategory.php#3-76" title="Go to source code">content/category/RichCategory.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-RichCategory.php#3-75" title="Go to source code">content/category/RichCategory.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-RichCategory.php#19-22" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
+<a href="source-class-RichCategory.php#18-21" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-RichCategory.php#24-27" title="Go to source code">get_description</a>( )
+<a href="source-class-RichCategory.php#23-26" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_set_image">#</a>
 						<code>
-<a href="source-class-RichCategory.php#29-32" title="Go to source code">set_image</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$image</var></span> )
+<a href="source-class-RichCategory.php#28-31" title="Go to source code">set_image</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$image</var></span> )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_get_image">#</a>
 						<code>
-<a href="source-class-RichCategory.php#34-40" title="Go to source code">get_image</a>( )
+<a href="source-class-RichCategory.php#33-39" title="Go to source code">get_image</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_get_properties">#</a>
 						<code>
-<a href="source-class-RichCategory.php#42-48" title="Go to source code">get_properties</a>( )
+<a href="source-class-RichCategory.php#41-47" title="Go to source code">get_properties</a>( )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-RichCategory.php#50-55" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
+<a href="source-class-RichCategory.php#49-54" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@
 					<div>
 						<a class="anchor" href="#_create_categories_table">#</a>
 						<code>
-<a href="source-class-RichCategory.php#57-75" title="Go to source code">create_categories_table</a>( <span> <var>$table_name</var></span> )
+<a href="source-class-RichCategory.php#56-74" title="Go to source code">create_categories_table</a>( <span> <var>$table_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1076,7 +1072,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-RichCategory.php#16" title="Go to source code"><var>$description</var></a>
+						<a href="source-class-RichCategory.php#15" title="Go to source code"><var>$description</var></a>
 
 					<div class="description short">
 						
@@ -1103,7 +1099,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-RichCategory.php#17" title="Go to source code"><var>$image</var></a>
+						<a href="source-class-RichCategory.php#16" title="Go to source code"><var>$image</var></a>
 
 					<div class="description short">
 						

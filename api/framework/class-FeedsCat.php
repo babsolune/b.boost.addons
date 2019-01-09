@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 02 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedsCat.php#3-90" title="Go to source code">content/feed/FeedsCat.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedsCat.php#3-89" title="Go to source code">content/feed/FeedsCat.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#21-32" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$category_id</var></span>, <span>string <var>$category_name</var></span> )
+<a href="source-class-FeedsCat.php#20-31" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$category_id</var></span>, <span>string <var>$category_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#34-43" title="Go to source code">get_url</a>( <span>string <var>$feed_type</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FeedsCat.php#33-42" title="Go to source code">get_url</a>( <span>string <var>$feed_type</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#45-52" title="Go to source code">get_module_id</a>( )
+<a href="source-class-FeedsCat.php#44-51" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_get_category_id">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#55-62" title="Go to source code">get_category_id</a>( )
+<a href="source-class-FeedsCat.php#54-61" title="Go to source code">get_category_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_get_category_name">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#64-71" title="Go to source code">get_category_name</a>( )
+<a href="source-class-FeedsCat.php#63-70" title="Go to source code">get_category_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@
 					<div>
 						<a class="anchor" href="#_add_child">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#73-80" title="Go to source code">add_child</a>( <span><code><a href="class-FeedsCat.php">FeedsCat</a></code> <var>$child</var></span> )
+<a href="source-class-FeedsCat.php#72-79" title="Go to source code">add_child</a>( <span><code><a href="class-FeedsCat.php">FeedsCat</a></code> <var>$child</var></span> )
 						</code>
 
 							<div class="description short">
@@ -983,7 +979,7 @@
 					<div>
 						<a class="anchor" href="#_get_children">#</a>
 						<code>
-<a href="source-class-FeedsCat.php#82-89" title="Go to source code">get_children</a>( )
+<a href="source-class-FeedsCat.php#81-88" title="Go to source code">get_children</a>( )
 						</code>
 
 							<div class="description short">

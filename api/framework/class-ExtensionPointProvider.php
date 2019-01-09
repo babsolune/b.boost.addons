@@ -686,10 +686,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Extension.provider.php">Extension-provider</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -709,7 +705,7 @@
 							<b>Since:</b>
 							PHPBoost 2.0 - 2008 01 15
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPointProvider.php#3-97" title="Go to source code">phpboost/extension-provider/ExtensionPointProvider.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPointProvider.php#3-96" title="Go to source code">phpboost/extension-provider/ExtensionPointProvider.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@ allow your module to share services.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@ allow your module to share services.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ExtensionPointProvider.php#29-38" title="Go to source code">__construct</a>( <span>string <var>$extension_provider_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-ExtensionPointProvider.php#28-37" title="Go to source code">__construct</a>( <span>string <var>$extension_provider_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@ the extension provider is</p></dd>
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-ExtensionPointProvider.php#40-46" title="Go to source code">get_id</a>( )
+<a href="source-class-ExtensionPointProvider.php#39-45" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@ the extension provider is</p></dd>
 					<div>
 						<a class="anchor" href="#_get_extension_point">#</a>
 						<code>
-<a href="source-class-ExtensionPointProvider.php#48-62" title="Go to source code">get_extension_point</a>( <span>string <var>$extension_point</var></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ExtensionPointProvider.php#47-61" title="Go to source code">get_extension_point</a>( <span>string <var>$extension_point</var></span>, <span>mixed <var>$args</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -879,7 +875,7 @@ the extension provider is</p></dd>
 					<div>
 						<a class="anchor" href="#_has_extension_point">#</a>
 						<code>
-<a href="source-class-ExtensionPointProvider.php#64-72" title="Go to source code">has_extension_point</a>( <span>string <var>$extension_point</var></span> )
+<a href="source-class-ExtensionPointProvider.php#63-71" title="Go to source code">has_extension_point</a>( <span>string <var>$extension_point</var></span> )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@ the extension provider is</p></dd>
 					<div>
 						<a class="anchor" href="#_has_extensions_points">#</a>
 						<code>
-<a href="source-class-ExtensionPointProvider.php#74-89" title="Go to source code">has_extensions_points</a>( <span>array <var>$extensions_points</var></span> )
+<a href="source-class-ExtensionPointProvider.php#73-88" title="Go to source code">has_extensions_points</a>( <span>array <var>$extensions_points</var></span> )
 						</code>
 
 							<div class="description short">

@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a>\<a href="package-PHPBoost.Module.tree.links.php">tree-links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2013 11 15
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleTreeLinks.php#3-46" title="Go to source code">phpboost/module/tree-links/ModuleTreeLinks.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleTreeLinks.php#3-45" title="Go to source code">phpboost/module/tree-links/ModuleTreeLinks.class.php</a></span>
 			</div>
 
 
@@ -709,7 +705,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -731,7 +727,7 @@
 					<div>
 						<a class="anchor" href="#_add_link">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinks.php#17-20" title="Go to source code">add_link</a>( <span><code><a href="class-ModuleLink.php">ModuleLink</a></code> <var>$link</var></span> )
+<a href="source-class-ModuleTreeLinks.php#16-19" title="Go to source code">add_link</a>( <span><code><a href="class-ModuleLink.php">ModuleLink</a></code> <var>$link</var></span> )
 						</code>
 
 							<div class="description short">
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#_get_links">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinks.php#22-25" title="Go to source code">get_links</a>( )
+<a href="source-class-ModuleTreeLinks.php#21-24" title="Go to source code">get_links</a>( )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_has_links">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinks.php#27-30" title="Go to source code">has_links</a>( )
+<a href="source-class-ModuleTreeLinks.php#26-29" title="Go to source code">has_links</a>( )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_has_visible_links">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinks.php#32-45" title="Go to source code">has_visible_links</a>( )
+<a href="source-class-ModuleTreeLinks.php#31-44" title="Go to source code">has_visible_links</a>( )
 						</code>
 
 							<div class="description short">

@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Image.php">Image</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Image.php#3-92" title="Go to source code">io/image/Image.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Image.php#3-91" title="Go to source code">io/image/Image.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Image.php#20-24" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
+<a href="source-class-Image.php#19-23" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_get_path">#</a>
 						<code>
-<a href="source-class-Image.php#35-38" title="Go to source code">get_path</a>( )
+<a href="source-class-Image.php#34-37" title="Go to source code">get_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_width">#</a>
 						<code>
-<a href="source-class-Image.php#40-43" title="Go to source code">get_width</a>( )
+<a href="source-class-Image.php#39-42" title="Go to source code">get_width</a>( )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_get_height">#</a>
 						<code>
-<a href="source-class-Image.php#45-48" title="Go to source code">get_height</a>( )
+<a href="source-class-Image.php#44-47" title="Go to source code">get_height</a>( )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_get_mime_type">#</a>
 						<code>
-<a href="source-class-Image.php#50-53" title="Go to source code">get_mime_type</a>( )
+<a href="source-class-Image.php#49-52" title="Go to source code">get_mime_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_get_size">#</a>
 						<code>
-<a href="source-class-Image.php#55-62" title="Go to source code">get_size</a>( )
+<a href="source-class-Image.php#54-61" title="Go to source code">get_size</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_get_name_and_extension">#</a>
 						<code>
-<a href="source-class-Image.php#64-68" title="Go to source code">get_name_and_extension</a>( )
+<a href="source-class-Image.php#63-67" title="Go to source code">get_name_and_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension">#</a>
 						<code>
-<a href="source-class-Image.php#70-74" title="Go to source code">get_extension</a>( )
+<a href="source-class-Image.php#69-73" title="Go to source code">get_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-Image.php#76-80" title="Go to source code">get_name</a>( )
+<a href="source-class-Image.php#75-79" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1079,7 +1075,7 @@
 					<div>
 						<a class="anchor" href="#_get_folder_image">#</a>
 						<code>
-<a href="source-class-Image.php#82-85" title="Go to source code">get_folder_image</a>( )
+<a href="source-class-Image.php#81-84" title="Go to source code">get_folder_image</a>( )
 						</code>
 
 							<div class="description short">
@@ -1114,15 +1110,15 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-Image.php#87-91" title="Go to source code">delete</a>( )
+<a href="source-class-Image.php#86-90" title="Go to source code">delete</a>( )
 						</code>
 
 							<div class="description short">
-								<p>Deletes the element</p>
+								
 							</div>
 
 						<div class="description detailed hidden">
-							<p>Deletes the element</p>
+							
 
 
 

@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLForm.php#3-451" title="Go to source code">builder/form/HTMLForm.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLForm.php#3-450" title="Go to source code">builder/form/HTMLForm.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -746,7 +742,7 @@ validated when it looses the focus and the whole form is validated when the user
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -768,7 +764,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#73-89" title="Go to source code">__construct</a>( <span>string <var>$html_id</var></span>, <span>string <var>$target</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$enable_captcha_protection</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-HTMLForm.php#72-88" title="Go to source code">__construct</a>( <span>string <var>$html_id</var></span>, <span>string <var>$target</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$enable_captcha_protection</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -812,7 +808,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_move_captcha_protection_in_last_position">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#98-105" title="Go to source code">move_captcha_protection_in_last_position</a>( )
+<a href="source-class-HTMLForm.php#97-104" title="Go to source code">move_captcha_protection_in_last_position</a>( )
 						</code>
 
 							<div class="description short">
@@ -847,7 +843,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_add_fieldset">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#107-115" title="Go to source code">add_fieldset</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
+<a href="source-class-HTMLForm.php#106-114" title="Go to source code">add_fieldset</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -887,7 +883,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_add_constraint">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#117-124" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
+<a href="source-class-HTMLForm.php#116-123" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
 						</code>
 
 							<div class="description short">
@@ -927,7 +923,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_add_button">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#126-134" title="Go to source code">add_button</a>( <span><code><a href="class-FormButton.php">FormButton</a></code> <var>$button</var></span> )
+<a href="source-class-HTMLForm.php#125-133" title="Go to source code">add_button</a>( <span><code><a href="class-FormButton.php">FormButton</a></code> <var>$button</var></span> )
 						</code>
 
 							<div class="description short">
@@ -967,7 +963,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#136-159" title="Go to source code">get_value</a>( <span>string <var>$field_id</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTMLForm.php#135-158" title="Go to source code">get_value</a>( <span>string <var>$field_id</var></span>, <span> <var>$default_value</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1017,7 +1013,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_field_is_disabled">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#161-174" title="Go to source code">field_is_disabled</a>( <span>string <var>$field_id</var></span> )
+<a href="source-class-HTMLForm.php#160-173" title="Go to source code">field_is_disabled</a>( <span>string <var>$field_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1061,7 +1057,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_has_field">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#176-188" title="Go to source code">has_field</a>( <span>string <var>$field_id</var></span> )
+<a href="source-class-HTMLForm.php#175-187" title="Go to source code">has_field</a>( <span>string <var>$field_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1105,7 +1101,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_get_field_by_id">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#190-201" title="Go to source code">get_field_by_id</a>( <span> <var>$field_id</var></span> )
+<a href="source-class-HTMLForm.php#189-200" title="Go to source code">get_field_by_id</a>( <span> <var>$field_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1140,7 +1136,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#216-284" title="Go to source code">display</a>( )
+<a href="source-class-HTMLForm.php#215-283" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1181,7 +1177,7 @@ validated when it looses the focus and the whole form is validated when the user
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#316-340" title="Go to source code">validate</a>( )
+<a href="source-class-HTMLForm.php#315-339" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1222,7 +1218,7 @@ validation errors will be displayed at the top of the form.</p>
 					<div>
 						<a class="anchor" href="#_set_html_id">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#342-349" title="Go to source code">set_html_id</a>( <span>string <var>$html_id</var></span> )
+<a href="source-class-HTMLForm.php#341-348" title="Go to source code">set_html_id</a>( <span>string <var>$html_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1262,7 +1258,7 @@ validation errors will be displayed at the top of the form.</p>
 					<div>
 						<a class="anchor" href="#_get_html_id">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#351-354" title="Go to source code">get_html_id</a>( )
+<a href="source-class-HTMLForm.php#350-353" title="Go to source code">get_html_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1297,7 +1293,7 @@ validation errors will be displayed at the top of the form.</p>
 					<div>
 						<a class="anchor" href="#_set_target">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#356-370" title="Go to source code">set_target</a>( <span>string <var>$target</var></span> )
+<a href="source-class-HTMLForm.php#355-369" title="Go to source code">set_target</a>( <span>string <var>$target</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1337,7 +1333,7 @@ validation errors will be displayed at the top of the form.</p>
 					<div>
 						<a class="anchor" href="#_set_css_class">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#372-380" title="Go to source code">set_css_class</a>( <span>string <var>$css_class</var></span> )
+<a href="source-class-HTMLForm.php#371-379" title="Go to source code">set_css_class</a>( <span>string <var>$css_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1378,7 +1374,7 @@ HTMLForm::NORMAL_CSS_CLASS constants)</p></dd>
 					<div>
 						<a class="anchor" href="#_set_method">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#382-396" title="Go to source code">set_method</a>( <span>string <var>$method</var></span> )
+<a href="source-class-HTMLForm.php#381-395" title="Go to source code">set_method</a>( <span>string <var>$method</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1418,7 +1414,7 @@ HTMLForm::NORMAL_CSS_CLASS constants)</p></dd>
 					<div>
 						<a class="anchor" href="#_set_template">#</a>
 						<code>
-<a href="source-class-HTMLForm.php#398-406" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-HTMLForm.php#397-405" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1479,7 +1475,7 @@ a default template will be used (</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLForm.php#22" title="Go to source code"><b>HTTP_METHOD_POST</b></a>
+								<a href="source-class-HTMLForm.php#21" title="Go to source code"><b>HTTP_METHOD_POST</b></a>
 							</code>
 
 							<div class="description short">
@@ -1503,7 +1499,7 @@ a default template will be used (</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLForm.php#23" title="Go to source code"><b>HTTP_METHOD_GET</b></a>
+								<a href="source-class-HTMLForm.php#22" title="Go to source code"><b>HTTP_METHOD_GET</b></a>
 							</code>
 
 							<div class="description short">
@@ -1527,7 +1523,7 @@ a default template will be used (</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLForm.php#25" title="Go to source code"><b>SMALL_CSS_CLASS</b></a>
+								<a href="source-class-HTMLForm.php#24" title="Go to source code"><b>SMALL_CSS_CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1551,7 +1547,7 @@ a default template will be used (</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLForm.php#26" title="Go to source code"><b>NORMAL_CSS_CLASS</b></a>
+								<a href="source-class-HTMLForm.php#25" title="Go to source code"><b>NORMAL_CSS_CLASS</b></a>
 							</code>
 
 							<div class="description short">

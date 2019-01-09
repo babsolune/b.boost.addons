@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonLink.php#3-35" title="Go to source code">builder/form/button/FormButtonLink.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonLink.php#3-34" title="Go to source code">builder/form/button/FormButtonLink.class.php</a></span>
 			</div>
 
 
@@ -742,7 +738,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormButtonLink.php#16-34" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span> <var>$link</var></span>, <span> <var>$img</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormButtonLink.php#15-33" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span> <var>$link</var></span>, <span> <var>$img</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">

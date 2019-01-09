@@ -667,10 +667,6 @@
 							
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -702,7 +698,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Authorizations.php#3-455" title="Go to source code">phpboost/member/authorization/Authorizations.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Authorizations.php#3-454" title="Go to source code">phpboost/member/authorization/Authorizations.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#_build_auth_array_from_form">#</a>
 						<code>
-<a href="source-class-Authorizations.php#23-59" title="Go to source code">build_auth_array_from_form</a>( )
+<a href="source-class-Authorizations.php#22-58" title="Go to source code">build_auth_array_from_form</a>( )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@ This returned array is used to be serialized.</p>
 					<div>
 						<a class="anchor" href="#_auth_array_simple">#</a>
 						<code>
-<a href="source-class-Authorizations.php#61-85" title="Go to source code">auth_array_simple</a>( <span>integer <var>$bit_value</var></span>, <span>string <var>$idselect</var></span>, <span>boolean <var>$admin_auth_default</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-Authorizations.php#60-84" title="Go to source code">auth_array_simple</a>( <span>integer <var>$bit_value</var></span>, <span>string <var>$idselect</var></span>, <span>boolean <var>$admin_auth_default</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@ This returned array is used to be serialized.</p>
 					<div>
 						<a class="anchor" href="#_generate_select">#</a>
 						<code>
-<a href="source-class-Authorizations.php#87-223" title="Go to source code">generate_select</a>( <span>integer <var>$auth_bit</var></span>, <span>array <var>$array_auth</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$array_ranks_default</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$idselect</var> = <span class="php-quote">''</span></span>, <span>integer <var>$disabled</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$disabled_advanced_auth</var> = <span class="php-keyword1">false</span></span>, <span>mixed[] <var>$disabled_ranks</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-Authorizations.php#86-222" title="Go to source code">generate_select</a>( <span>integer <var>$auth_bit</var></span>, <span>array <var>$array_auth</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$array_ranks_default</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$idselect</var> = <span class="php-quote">''</span></span>, <span>integer <var>$disabled</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$disabled_advanced_auth</var> = <span class="php-keyword1">false</span></span>, <span>mixed[] <var>$disabled_ranks</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@ This returned array is used to be serialized.</p>
 					<div>
 						<a class="anchor" href="#_check_auth">#</a>
 						<code>
-<a href="source-class-Authorizations.php#225-259" title="Go to source code">check_auth</a>( <span>integer <var>$type</var></span>, <span>integer <var>$value</var></span>, <span>array <var>$array_auth</var></span>, <span>integer <var>$bit</var></span> )
+<a href="source-class-Authorizations.php#224-258" title="Go to source code">check_auth</a>( <span>integer <var>$type</var></span>, <span>integer <var>$value</var></span>, <span>array <var>$array_auth</var></span>, <span>integer <var>$bit</var></span> )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@ This returned array is used to be serialized.</p>
 					<div>
 						<a class="anchor" href="#_merge_auth">#</a>
 						<code>
-<a href="source-class-Authorizations.php#261-328" title="Go to source code">merge_auth</a>( <span>array <var>$parent</var></span>, <span>array <var>$child</var></span>, <span>integer <var>$auth_bit</var></span>, <span>integer <var>$mode</var></span> )
+<a href="source-class-Authorizations.php#260-327" title="Go to source code">merge_auth</a>( <span>array <var>$parent</var></span>, <span>array <var>$child</var></span>, <span>integer <var>$auth_bit</var></span>, <span>integer <var>$mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@ This returned array is used to be serialized.</p>
 					<div>
 						<a class="anchor" href="#_capture_and_shift_bit_auth">#</a>
 						<code>
-<a href="source-class-Authorizations.php#330-373" title="Go to source code">capture_and_shift_bit_auth</a>( <span>array <var>$auth</var></span>, <span>integer <var>$original_bit</var></span>, <span>integer <var>$final_bit</var> = <span class="php-num">1</span></span> )
+<a href="source-class-Authorizations.php#329-372" title="Go to source code">capture_and_shift_bit_auth</a>( <span>array <var>$auth</var></span>, <span>integer <var>$original_bit</var></span>, <span>integer <var>$final_bit</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1043,7 +1039,7 @@ This returned array is used to be serialized.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Authorizations.php#20" title="Go to source code"><b>AUTH_PARENT_PRIORITY</b></a>
+								<a href="source-class-Authorizations.php#19" title="Go to source code"><b>AUTH_PARENT_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1067,7 +1063,7 @@ This returned array is used to be serialized.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Authorizations.php#21" title="Go to source code"><b>AUTH_CHILD_PRIORITY</b></a>
+								<a href="source-class-Authorizations.php#20" title="Go to source code"><b>AUTH_CHILD_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">

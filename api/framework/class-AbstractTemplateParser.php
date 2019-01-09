@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplateParser.php#3-82" title="Go to source code">io/template/parser/AbstractTemplateParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplateParser.php#3-81" title="Go to source code">io/template/parser/AbstractTemplateParser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -730,7 +726,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-AbstractTemplateParser.php#21-29" title="Go to source code">parse</a>( <span>string <var>$content</var></span> )
+<a href="source-class-AbstractTemplateParser.php#20-28" title="Go to source code">parse</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@
 					<div>
 						<a class="anchor" href="#_do_parse">#</a>
 						<code>
-<a href="source-class-AbstractTemplateParser.php#31" title="Go to source code">do_parse</a>( )
+<a href="source-class-AbstractTemplateParser.php#30" title="Go to source code">do_parse</a>( )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@
 					<div>
 						<a class="anchor" href="#_clean">#</a>
 						<code>
-<a href="source-class-AbstractTemplateParser.php#33-40" title="Go to source code">clean</a>( )
+<a href="source-class-AbstractTemplateParser.php#32-39" title="Go to source code">clean</a>( )
 						</code>
 
 							<div class="description short">
@@ -868,7 +864,7 @@
 					<div>
 						<a class="anchor" href="#_get_getvar_method_name">#</a>
 						<code>
-<a href="source-class-AbstractTemplateParser.php#42-81" title="Go to source code">get_getvar_method_name</a>( <span> <var>$varname</var></span> )
+<a href="source-class-AbstractTemplateParser.php#41-80" title="Go to source code">get_getvar_method_name</a>( <span> <var>$varname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -924,7 +920,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplateParser.php#19" title="Go to source code"><var>$content</var></a>
+						<a href="source-class-AbstractTemplateParser.php#18" title="Go to source code"><var>$content</var></a>
 
 					<div class="description short">
 						

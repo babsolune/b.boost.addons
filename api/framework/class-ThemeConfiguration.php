@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Theme.php">Theme</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 04 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemeConfiguration.php#3-186" title="Go to source code">phpboost/theme/ThemeConfiguration.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemeConfiguration.php#3-185" title="Go to source code">phpboost/theme/ThemeConfiguration.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#33-37" title="Go to source code">__construct</a>( <span> <var>$config_ini_file</var></span>, <span> <var>$desc_ini_file</var></span> )
+<a href="source-class-ThemeConfiguration.php#32-36" title="Go to source code">__construct</a>( <span> <var>$config_ini_file</var></span>, <span> <var>$desc_ini_file</var></span> )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#39-42" title="Go to source code">get_name</a>( )
+<a href="source-class-ThemeConfiguration.php#38-41" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_get_author_name">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#44-47" title="Go to source code">get_author_name</a>( )
+<a href="source-class-ThemeConfiguration.php#43-46" title="Go to source code">get_author_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_get_author_mail">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#49-52" title="Go to source code">get_author_mail</a>( )
+<a href="source-class-ThemeConfiguration.php#48-51" title="Go to source code">get_author_mail</a>( )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_get_author_link">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#54-57" title="Go to source code">get_author_link</a>( )
+<a href="source-class-ThemeConfiguration.php#53-56" title="Go to source code">get_author_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_get_version">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#59-62" title="Go to source code">get_version</a>( )
+<a href="source-class-ThemeConfiguration.php#58-61" title="Go to source code">get_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#64-67" title="Go to source code">get_description</a>( )
+<a href="source-class-ThemeConfiguration.php#63-66" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -965,7 +961,7 @@
 					<div>
 						<a class="anchor" href="#_get_compatibility">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#69-72" title="Go to source code">get_compatibility</a>( )
+<a href="source-class-ThemeConfiguration.php#68-71" title="Go to source code">get_compatibility</a>( )
 						</code>
 
 							<div class="description short">
@@ -1000,7 +996,7 @@
 					<div>
 						<a class="anchor" href="#_get_require_copyright">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#74-77" title="Go to source code">get_require_copyright</a>( )
+<a href="source-class-ThemeConfiguration.php#73-76" title="Go to source code">get_require_copyright</a>( )
 						</code>
 
 							<div class="description short">
@@ -1035,7 +1031,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_version">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#79-82" title="Go to source code">get_html_version</a>( )
+<a href="source-class-ThemeConfiguration.php#78-81" title="Go to source code">get_html_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1070,7 +1066,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_version">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#84-87" title="Go to source code">get_css_version</a>( )
+<a href="source-class-ThemeConfiguration.php#83-86" title="Go to source code">get_css_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1105,7 +1101,7 @@
 					<div>
 						<a class="anchor" href="#_get_columns_disabled">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#89-92" title="Go to source code">get_columns_disabled</a>( )
+<a href="source-class-ThemeConfiguration.php#88-91" title="Go to source code">get_columns_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1140,7 +1136,7 @@
 					<div>
 						<a class="anchor" href="#_get_main_color">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#94-97" title="Go to source code">get_main_color</a>( )
+<a href="source-class-ThemeConfiguration.php#93-96" title="Go to source code">get_main_color</a>( )
 						</code>
 
 							<div class="description short">
@@ -1175,7 +1171,7 @@
 					<div>
 						<a class="anchor" href="#_get_variable_width">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#99-102" title="Go to source code">get_variable_width</a>( )
+<a href="source-class-ThemeConfiguration.php#98-101" title="Go to source code">get_variable_width</a>( )
 						</code>
 
 							<div class="description short">
@@ -1210,7 +1206,7 @@
 					<div>
 						<a class="anchor" href="#_get_width">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#104-107" title="Go to source code">get_width</a>( )
+<a href="source-class-ThemeConfiguration.php#103-106" title="Go to source code">get_width</a>( )
 						</code>
 
 							<div class="description short">
@@ -1245,7 +1241,7 @@
 					<div>
 						<a class="anchor" href="#_get_pictures">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#109-112" title="Go to source code">get_pictures</a>( )
+<a href="source-class-ThemeConfiguration.php#108-111" title="Go to source code">get_pictures</a>( )
 						</code>
 
 							<div class="description short">
@@ -1280,7 +1276,7 @@
 					<div>
 						<a class="anchor" href="#_get_first_picture">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#114-121" title="Go to source code">get_first_picture</a>( )
+<a href="source-class-ThemeConfiguration.php#113-120" title="Go to source code">get_first_picture</a>( )
 						</code>
 
 							<div class="description short">
@@ -1315,7 +1311,7 @@
 					<div>
 						<a class="anchor" href="#_get_repository">#</a>
 						<code>
-<a href="source-class-ThemeConfiguration.php#123-126" title="Go to source code">get_repository</a>( )
+<a href="source-class-ThemeConfiguration.php#122-125" title="Go to source code">get_repository</a>( )
 						</code>
 
 							<div class="description short">

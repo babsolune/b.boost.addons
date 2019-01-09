@@ -685,10 +685,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.cache.php">cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 01 22
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheDataNotFoundException.php#3-20" title="Go to source code">io/data/cache/CacheDataNotFoundException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheDataNotFoundException.php#3-19" title="Go to source code">io/data/cache/CacheDataNotFoundException.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -738,7 +734,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -760,7 +756,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CacheDataNotFoundException.php#16-19" title="Go to source code">__construct</a>( <span> <var>$config_name</var></span> )
+<a href="source-class-CacheDataNotFoundException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$config_name</var></span> )
 						</code>
 
 							<div class="description short">

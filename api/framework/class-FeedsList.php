@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 02 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedsList.php#3-36" title="Go to source code">content/feed/FeedsList.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedsList.php#3-35" title="Go to source code">content/feed/FeedsList.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#_add_feed">#</a>
 						<code>
-<a href="source-class-FeedsList.php#18-26" title="Go to source code">add_feed</a>( <span><code><a href="class-FeedsCat.php">FeedsCat</a></code> <var>$cat_tree</var></span>, <span>string <var>$feed_type</var></span> )
+<a href="source-class-FeedsList.php#17-25" title="Go to source code">add_feed</a>( <span><code><a href="class-FeedsCat.php">FeedsCat</a></code> <var>$cat_tree</var></span>, <span>string <var>$feed_type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_get_feeds_list">#</a>
 						<code>
-<a href="source-class-FeedsList.php#28-35" title="Go to source code">get_feeds_list</a>( )
+<a href="source-class-FeedsList.php#27-34" title="Go to source code">get_feeds_list</a>( )
 						</code>
 
 							<div class="description short">

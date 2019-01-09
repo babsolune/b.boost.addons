@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 05 22
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopics.php#3-53" title="Go to source code">content/comments/extension-point/CommentsTopics.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopics.php#3-52" title="Go to source code">content/comments/extension-point/CommentsTopics.class.php</a></span>
 			</div>
 
 
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CommentsTopics.php#17-33" title="Go to source code">__construct</a>( <span>array <var>$comments_topics</var></span> )
+<a href="source-class-CommentsTopics.php#16-32" title="Go to source code">__construct</a>( <span>array <var>$comments_topics</var></span> )
 						</code>
 
 							<div class="description short">
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#_get_comments_topics">#</a>
 						<code>
-<a href="source-class-CommentsTopics.php#35-38" title="Go to source code">get_comments_topics</a>( )
+<a href="source-class-CommentsTopics.php#34-37" title="Go to source code">get_comments_topics</a>( )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_get_comments_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopics.php#40-47" title="Go to source code">get_comments_topic</a>( <span> <var>$identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsTopics.php#39-46" title="Go to source code">get_comments_topic</a>( <span> <var>$identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_topic_exists">#</a>
 						<code>
-<a href="source-class-CommentsTopics.php#49-52" title="Go to source code">topic_exists</a>( <span> <var>$identifier</var></span> )
+<a href="source-class-CommentsTopics.php#48-51" title="Go to source code">topic_exists</a>( <span> <var>$identifier</var></span> )
 						</code>
 
 							<div class="description short">

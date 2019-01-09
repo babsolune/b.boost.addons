@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.phpboost.php">phpboost</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 12 26
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldTimezone.php#3-38" title="Go to source code">builder/form/field/phpboost/FormFieldTimezone.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldTimezone.php#3-37" title="Go to source code">builder/form/field/phpboost/FormFieldTimezone.class.php</a></span>
 			</div>
 
 
@@ -729,7 +725,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldTimezone.php#15-26" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var> = <span class="php-num">0</span></span>, <span>string[] <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldTimezone.php#14-25" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var> = <span class="php-num">0</span></span>, <span>string[] <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">

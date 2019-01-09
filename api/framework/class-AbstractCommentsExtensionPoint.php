@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsExtensionPoint.php#3-18" title="Go to source code">content/comments/extension-point/AbstractCommentsExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsExtensionPoint.php#3-17" title="Go to source code">content/comments/extension-point/AbstractCommentsExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 

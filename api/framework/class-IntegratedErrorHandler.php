@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-IntegratedErrorHandler.php#3-25" title="Go to source code">core/error/IntegratedErrorHandler.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-IntegratedErrorHandler.php#3-24" title="Go to source code">core/error/IntegratedErrorHandler.class.php</a></span>
 			</div>
 
 
@@ -713,7 +709,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -735,7 +731,7 @@
 					<div>
 						<a class="anchor" href="#_display_debug">#</a>
 						<code>
-<a href="source-class-IntegratedErrorHandler.php#15-18" title="Go to source code">display_debug</a>( )
+<a href="source-class-IntegratedErrorHandler.php#14-17" title="Go to source code">display_debug</a>( )
 						</code>
 
 							<div class="description short">
@@ -772,7 +768,7 @@
 					<div>
 						<a class="anchor" href="#_display_fatal">#</a>
 						<code>
-<a href="source-class-IntegratedErrorHandler.php#20-24" title="Go to source code">display_fatal</a>( )
+<a href="source-class-IntegratedErrorHandler.php#19-23" title="Go to source code">display_fatal</a>( )
 						</code>
 
 							<div class="description short">

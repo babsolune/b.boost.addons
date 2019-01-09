@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Loic ROUCHON <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;:&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-RSS.php#3-84" title="Go to source code">content/feed/RSS.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-RSS.php#3-83" title="Go to source code">content/feed/RSS.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@ export it to the RSS format</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@ export it to the RSS format</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-RSS.php#21-31" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$feed_name</var> = Feed::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
+<a href="source-class-RSS.php#20-30" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$feed_name</var> = Feed::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@ export it to the RSS format</p>
 					<div>
 						<a class="anchor" href="#_load_file">#</a>
 						<code>
-<a href="source-class-RSS.php#33-83" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
+<a href="source-class-RSS.php#32-82" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">

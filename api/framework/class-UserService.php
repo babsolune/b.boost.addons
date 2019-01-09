@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UserService.php#3-278" title="Go to source code">phpboost/user/UserService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UserService.php#3-277" title="Go to source code">phpboost/user/UserService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -702,7 +698,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -724,7 +720,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-UserService.php#19-22" title="Go to source code">__static</a>( )
+<a href="source-class-UserService.php#18-21" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#_create">#</a>
 						<code>
-<a href="source-class-UserService.php#24-76" title="Go to source code">create</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span>, <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$auth_method</var></span>, <span> <var>$extended_fields</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$auth_method_data</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-UserService.php#23-75" title="Go to source code">create</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span>, <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$auth_method</var></span>, <span> <var>$extended_fields</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$auth_method_data</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_delete_by_id">#</a>
 						<code>
-<a href="source-class-UserService.php#78-102" title="Go to source code">delete_by_id</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-UserService.php#77-101" title="Go to source code">delete_by_id</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-UserService.php#104-148" title="Go to source code">update</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span>, <span>string <var>$extended_fields</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$parameters</var>,…</span> )
+<a href="source-class-UserService.php#103-147" title="Go to source code">update</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span>, <span>string <var>$extended_fields</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$parameters</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_update_punishment">#</a>
 						<code>
-<a href="source-class-UserService.php#150-157" title="Go to source code">update_punishment</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span> )
+<a href="source-class-UserService.php#149-156" title="Go to source code">update_punishment</a>( <span><code><a href="class-User.php">User</a></code> <var>$user</var></span> )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@
 					<div>
 						<a class="anchor" href="#_get_user">#</a>
 						<code>
-<a href="source-class-UserService.php#159-171" title="Go to source code">get_user</a>( <span>string <var>$user_id</var></span>, <span>array <var>$parameters</var>,…</span> )
+<a href="source-class-UserService.php#158-170" title="Go to source code">get_user</a>( <span>string <var>$user_id</var></span>, <span>array <var>$parameters</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 					<div>
 						<a class="anchor" href="#_user_exists">#</a>
 						<code>
-<a href="source-class-UserService.php#173-180" title="Go to source code">user_exists</a>( <span> <var>$condition</var></span>, <span>array <var>$parameters</var></span> )
+<a href="source-class-UserService.php#172-179" title="Go to source code">user_exists</a>( <span> <var>$condition</var></span>, <span>array <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@
 					<div>
 						<a class="anchor" href="#_get_level_lang">#</a>
 						<code>
-<a href="source-class-UserService.php#182-203" title="Go to source code">get_level_lang</a>( <span> <var>$level</var></span> )
+<a href="source-class-UserService.php#181-202" title="Go to source code">get_level_lang</a>( <span> <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 					<div>
 						<a class="anchor" href="#_get_level_class">#</a>
 						<code>
-<a href="source-class-UserService.php#205-224" title="Go to source code">get_level_class</a>( <span> <var>$level</var></span> )
+<a href="source-class-UserService.php#204-223" title="Go to source code">get_level_class</a>( <span> <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1074,7 +1070,7 @@
 					<div>
 						<a class="anchor" href="#_remove_old_unactivated_member_accounts">#</a>
 						<code>
-<a href="source-class-UserService.php#226-240" title="Go to source code">remove_old_unactivated_member_accounts</a>( )
+<a href="source-class-UserService.php#225-239" title="Go to source code">remove_old_unactivated_member_accounts</a>( )
 						</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@
 					<div>
 						<a class="anchor" href="#_count_admin_members">#</a>
 						<code>
-<a href="source-class-UserService.php#242-245" title="Go to source code">count_admin_members</a>( )
+<a href="source-class-UserService.php#241-244" title="Go to source code">count_admin_members</a>( )
 						</code>
 
 							<div class="description short">
@@ -1144,7 +1140,7 @@
 					<div>
 						<a class="anchor" href="#_display_user_profile_link">#</a>
 						<code>
-<a href="source-class-UserService.php#247-271" title="Go to source code">display_user_profile_link</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-UserService.php#246-270" title="Go to source code">display_user_profile_link</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1179,7 +1175,7 @@
 					<div>
 						<a class="anchor" href="#_regenerate_cache">#</a>
 						<code>
-<a href="source-class-UserService.php#273-277" title="Go to source code">regenerate_cache</a>( )
+<a href="source-class-UserService.php#272-276" title="Go to source code">regenerate_cache</a>( )
 						</code>
 
 							<div class="description short">

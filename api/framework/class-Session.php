@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.session.php">session</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 11 04
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Session.php#3-128" title="Go to source code">phpboost/user/session/Session.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Session.php#3-127" title="Go to source code">phpboost/user/session/Session.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -713,7 +709,7 @@ Session::start();</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -735,7 +731,7 @@ Session::start();</p>
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-Session.php#32-39" title="Go to source code">__static</a>( )
+<a href="source-class-Session.php#31-38" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -770,7 +766,7 @@ Session::start();</p>
 					<div>
 						<a class="anchor" href="#_gc">#</a>
 						<code>
-<a href="source-class-Session.php#41-44" title="Go to source code">gc</a>( )
+<a href="source-class-Session.php#40-43" title="Go to source code">gc</a>( )
 						</code>
 
 							<div class="description short">
@@ -805,7 +801,7 @@ Session::start();</p>
 					<div>
 						<a class="anchor" href="#_start">#</a>
 						<code>
-<a href="source-class-Session.php#46-64" title="Go to source code">start</a>( )
+<a href="source-class-Session.php#45-63" title="Go to source code">start</a>( )
 						</code>
 
 							<div class="description short">
@@ -840,7 +836,7 @@ Session::start();</p>
 					<div>
 						<a class="anchor" href="#_create">#</a>
 						<code>
-<a href="source-class-Session.php#66-81" title="Go to source code">create</a>( <span> <var>$user_id</var></span>, <span> <var>$autoconnect</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Session.php#65-80" title="Go to source code">create</a>( <span> <var>$user_id</var></span>, <span> <var>$autoconnect</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -875,7 +871,7 @@ Session::start();</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-Session.php#83-91" title="Go to source code">delete</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
+<a href="source-class-Session.php#82-90" title="Go to source code">delete</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@ request and a visitor session will be created at the next request.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Session.php#18" title="Go to source code"><b>VISITOR_SESSION_ID</b></a>
+								<a href="source-class-Session.php#17" title="Go to source code"><b>VISITOR_SESSION_ID</b></a>
 							</code>
 
 							<div class="description short">
@@ -962,7 +958,7 @@ request and a visitor session will be created at the next request.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Session.php#20" title="Go to source code"><var>$DATA_COOKIE_NAME</var></a>
+						<a href="source-class-Session.php#19" title="Go to source code"><var>$DATA_COOKIE_NAME</var></a>
 
 					<div class="description short">
 						
@@ -989,7 +985,7 @@ request and a visitor session will be created at the next request.</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Session.php#21" title="Go to source code"><var>$AUTOCONNECT_COOKIE_NAME</var></a>
+						<a href="source-class-Session.php#20" title="Go to source code"><var>$AUTOCONNECT_COOKIE_NAME</var></a>
 
 					<div class="description short">
 						

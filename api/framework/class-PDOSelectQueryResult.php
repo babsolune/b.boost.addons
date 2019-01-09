@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.pdo.php">pdo</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDOSelectQueryResult.php#3-114" title="Go to source code">io/db/driver/pdo/PDOSelectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDOSelectQueryResult.php#3-113" title="Go to source code">io/db/driver/pdo/PDOSelectQueryResult.class.php</a></span>
 			</div>
 
 
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#35-40" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span>array <var>$parameters</var></span>, <span>PDOStatement <var>$statement</var></span>, <span> <var>$fetch_mode</var> = self::FETCH_ASSOC</span> )
+<a href="source-class-PDOSelectQueryResult.php#34-39" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span>array <var>$parameters</var></span>, <span>PDOStatement <var>$statement</var></span>, <span> <var>$fetch_mode</var> = self::FETCH_ASSOC</span> )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#42-45" title="Go to source code">__destruct</a>( )
+<a href="source-class-PDOSelectQueryResult.php#41-44" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_set_fetch_mode">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#47-50" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
+<a href="source-class-PDOSelectQueryResult.php#46-49" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_get_rows_count">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#52-55" title="Go to source code">get_rows_count</a>( )
+<a href="source-class-PDOSelectQueryResult.php#51-54" title="Go to source code">get_rows_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@
 					<div>
 						<a class="anchor" href="#_rewind">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#57-75" title="Go to source code">rewind</a>( )
+<a href="source-class-PDOSelectQueryResult.php#56-74" title="Go to source code">rewind</a>( )
 						</code>
 
 							<div class="description short">
@@ -938,7 +934,7 @@
 					<div>
 						<a class="anchor" href="#_valid">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#77-84" title="Go to source code">valid</a>( )
+<a href="source-class-PDOSelectQueryResult.php#76-83" title="Go to source code">valid</a>( )
 						</code>
 
 							<div class="description short">
@@ -973,7 +969,7 @@
 					<div>
 						<a class="anchor" href="#_current">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#86-89" title="Go to source code">current</a>( )
+<a href="source-class-PDOSelectQueryResult.php#85-88" title="Go to source code">current</a>( )
 						</code>
 
 							<div class="description short">
@@ -1008,7 +1004,7 @@
 					<div>
 						<a class="anchor" href="#_key">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#91-94" title="Go to source code">key</a>( )
+<a href="source-class-PDOSelectQueryResult.php#90-93" title="Go to source code">key</a>( )
 						</code>
 
 							<div class="description short">
@@ -1043,7 +1039,7 @@
 					<div>
 						<a class="anchor" href="#_next">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#96-99" title="Go to source code">next</a>( )
+<a href="source-class-PDOSelectQueryResult.php#95-98" title="Go to source code">next</a>( )
 						</code>
 
 							<div class="description short">
@@ -1078,7 +1074,7 @@
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#101-108" title="Go to source code">dispose</a>( )
+<a href="source-class-PDOSelectQueryResult.php#100-107" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">
@@ -1113,7 +1109,7 @@
 					<div>
 						<a class="anchor" href="#_needs_rewind">#</a>
 						<code>
-<a href="source-class-PDOSelectQueryResult.php#110-113" title="Go to source code">needs_rewind</a>( )
+<a href="source-class-PDOSelectQueryResult.php#109-112" title="Go to source code">needs_rewind</a>( )
 						</code>
 
 							<div class="description short">

@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UnexistingHTTPParameterException.php#3-19" title="Go to source code">io/http/UnexistingHTTPParameterException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UnexistingHTTPParameterException.php#3-18" title="Go to source code">io/http/UnexistingHTTPParameterException.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UnexistingHTTPParameterException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$varname</var></span> )
+<a href="source-class-UnexistingHTTPParameterException.php#14-17" title="Go to source code">__construct</a>( <span> <var>$varname</var></span> )
 						</code>
 
 							<div class="description short">

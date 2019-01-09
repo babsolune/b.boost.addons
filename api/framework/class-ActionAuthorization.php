@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.authorization.php">authorization</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ActionAuthorization.php#3-172" title="Go to source code">phpboost/member/authorization/ActionAuthorization.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ActionAuthorization.php#3-171" title="Go to source code">phpboost/member/authorization/ActionAuthorization.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -714,7 +710,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#31-53" title="Go to source code">__construct</a>( <span>string <var>$label</var></span>, <span>integer <var>$bit</var></span>, <span>string <var>$description</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var> = <span class="php-keyword1">null</span></span>, <span>mixed[] <var>$disabled_ranks</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-ActionAuthorization.php#30-52" title="Go to source code">__construct</a>( <span>string <var>$label</var></span>, <span>integer <var>$bit</var></span>, <span>string <var>$description</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var> = <span class="php-keyword1">null</span></span>, <span>mixed[] <var>$disabled_ranks</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#55-62" title="Go to source code">get_label</a>( )
+<a href="source-class-ActionAuthorization.php#54-61" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 					<div>
 						<a class="anchor" href="#_set_label">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#64-71" title="Go to source code">set_label</a>( <span>string <var>$label</var></span> )
+<a href="source-class-ActionAuthorization.php#63-70" title="Go to source code">set_label</a>( <span>string <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 					<div>
 						<a class="anchor" href="#_get_bit">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#73-80" title="Go to source code">get_bit</a>( )
+<a href="source-class-ActionAuthorization.php#72-79" title="Go to source code">get_bit</a>( )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@ to use. It's recommanded to begin with 1 (2^0 = 1) then 2 (2^1 = 2) then 4 (2^2 
 					<div>
 						<a class="anchor" href="#_set_bit">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#82-90" title="Go to source code">set_bit</a>( <span>integer <var>$bit</var></span> )
+<a href="source-class-ActionAuthorization.php#81-89" title="Go to source code">set_bit</a>( <span>integer <var>$bit</var></span> )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#92-99" title="Go to source code">get_description</a>( )
+<a href="source-class-ActionAuthorization.php#91-98" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -982,7 +978,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#101-108" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
+<a href="source-class-ActionAuthorization.php#100-107" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1022,7 +1018,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_roles_auths">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#110-117" title="Go to source code">get_roles_auths</a>( )
+<a href="source-class-ActionAuthorization.php#109-116" title="Go to source code">get_roles_auths</a>( )
 						</code>
 
 							<div class="description short">
@@ -1061,7 +1057,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_set_roles_auths">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#119-126" title="Go to source code">set_roles_auths</a>( <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var></span> )
+<a href="source-class-ActionAuthorization.php#118-125" title="Go to source code">set_roles_auths</a>( <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1101,7 +1097,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_disabled_ranks">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#128-135" title="Go to source code">get_disabled_ranks</a>( )
+<a href="source-class-ActionAuthorization.php#127-134" title="Go to source code">get_disabled_ranks</a>( )
 						</code>
 
 							<div class="description short">
@@ -1140,7 +1136,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_set_disabled_ranks">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#137-144" title="Go to source code">set_disabled_ranks</a>( <span>array <var>$disabled_ranks</var></span> )
+<a href="source-class-ActionAuthorization.php#136-143" title="Go to source code">set_disabled_ranks</a>( <span>array <var>$disabled_ranks</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1180,7 +1176,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_build_auth_array">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#146-158" title="Go to source code">build_auth_array</a>( )
+<a href="source-class-ActionAuthorization.php#145-157" title="Go to source code">build_auth_array</a>( )
 						</code>
 
 							<div class="description short">
@@ -1219,7 +1215,7 @@ In fact it's 2^n where n is the number of the bit to use.</p></dd>
 					<div>
 						<a class="anchor" href="#_build_from_auth_array">#</a>
 						<code>
-<a href="source-class-ActionAuthorization.php#160-171" title="Go to source code">build_from_auth_array</a>( <span>array <var>$auth_array</var></span> )
+<a href="source-class-ActionAuthorization.php#159-170" title="Go to source code">build_from_auth_array</a>( <span>array <var>$auth_array</var></span> )
 						</code>
 
 							<div class="description short">

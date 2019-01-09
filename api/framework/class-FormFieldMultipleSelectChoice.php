@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -745,7 +741,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMultipleSelectChoice.php#3-216" title="Go to source code">builder/form/field/FormFieldMultipleSelectChoice.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMultipleSelectChoice.php#3-215" title="Go to source code">builder/form/field/FormFieldMultipleSelectChoice.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -784,7 +780,7 @@ It provides you additionnal field options :</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -806,7 +802,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#26-47" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$selected_options</var></span>, <span>array <var>$available_options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldMultipleSelectChoice.php#25-46" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$selected_options</var></span>, <span>array <var>$available_options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_set_selected_options">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#49-69" title="Go to source code">set_selected_options</a>( <span>array <var>$selected_options</var></span> )
+<a href="source-class-FormFieldMultipleSelectChoice.php#48-68" title="Go to source code">set_selected_options</a>( <span>array <var>$selected_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#71-93" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormFieldMultipleSelectChoice.php#70-92" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#95-109" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldMultipleSelectChoice.php#94-108" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#160-174" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldMultipleSelectChoice.php#159-173" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#181-184" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldMultipleSelectChoice.php#180-183" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1045,7 +1041,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_get_js_specialization_code">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleSelectChoice.php#209-215" title="Go to source code">get_js_specialization_code</a>( )
+<a href="source-class-FormFieldMultipleSelectChoice.php#208-214" title="Go to source code">get_js_specialization_code</a>( )
 						</code>
 
 							<div class="description short">

@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a>\<a href="package-Util.Captcha.php">Captcha</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 09 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CaptchaOptions.php#3-16" title="Go to source code">util/captcha/CaptchaOptions.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CaptchaOptions.php#3-15" title="Go to source code">util/captcha/CaptchaOptions.class.php</a></span>
 			</div>
 
 
@@ -708,7 +704,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 

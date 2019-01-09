@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 03
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Template.php#3-139" title="Go to source code">io/template/Template.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Template.php#3-138" title="Go to source code">io/template/Template.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -807,7 +803,7 @@ directly in the template. Here are the prefixes to use before the variable names
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -829,7 +825,7 @@ directly in the template. Here are the prefixes to use before the variable names
 					<div>
 						<a class="anchor" href="#_enable_strict_mode">#</a>
 						<code>
-<a href="source-class-Template.php#62-66" title="Go to source code">enable_strict_mode</a>( )
+<a href="source-class-Template.php#61-65" title="Go to source code">enable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@ directly in the template. Here are the prefixes to use before the variable names
 					<div>
 						<a class="anchor" href="#_disable_strict_mode">#</a>
 						<code>
-<a href="source-class-Template.php#68-72" title="Go to source code">disable_strict_mode</a>( )
+<a href="source-class-Template.php#67-71" title="Go to source code">disable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@ directly in the template. Here are the prefixes to use before the variable names
 					<div>
 						<a class="anchor" href="#_put">#</a>
 						<code>
-<a href="source-class-Template.php#74-79" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-Template.php#73-78" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -955,7 +951,7 @@ directly in the template. Here are the prefixes to use before the variable names
 					<div>
 						<a class="anchor" href="#_put_all">#</a>
 						<code>
-<a href="source-class-Template.php#81-85" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
+<a href="source-class-Template.php#80-84" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@ directly in the template. Here are the prefixes to use before the variable names
 					<div>
 						<a class="anchor" href="#_assign_vars">#</a>
 						<code>
-<a href="source-class-Template.php#87-92" title="Go to source code">assign_vars</a>( <span>array <var>$array_vars</var></span> )
+<a href="source-class-Template.php#86-91" title="Go to source code">assign_vars</a>( <span>array <var>$array_vars</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1054,7 +1050,7 @@ Assigns some simple template vars.  Those variables will be accessed in your tem
 					<div>
 						<a class="anchor" href="#_assign_block_vars">#</a>
 						<code>
-<a href="source-class-Template.php#94-101" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-Template.php#93-100" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1100,7 +1096,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-Template.php#103-106" title="Go to source code">display</a>( )
+<a href="source-class-Template.php#102-105" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1135,7 +1131,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_add_lang">#</a>
 						<code>
-<a href="source-class-Template.php#108-112" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-Template.php#107-111" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1175,7 +1171,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_add_subtemplate">#</a>
 						<code>
-<a href="source-class-Template.php#114-120" title="Go to source code">add_subtemplate</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-Template.php#113-119" title="Go to source code">add_subtemplate</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1230,7 +1226,7 @@ Adds a subtemplate to embed with the INCLUDE instruction</p><br>
 					<div>
 						<a class="anchor" href="#_set_data">#</a>
 						<code>
-<a href="source-class-Template.php#122-126" title="Go to source code">set_data</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
+<a href="source-class-Template.php#121-125" title="Go to source code">set_data</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1270,7 +1266,7 @@ Adds a subtemplate to embed with the INCLUDE instruction</p><br>
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-Template.php#128-132" title="Go to source code">get_data</a>( )
+<a href="source-class-Template.php#127-131" title="Go to source code">get_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -1309,7 +1305,7 @@ Adds a subtemplate to embed with the INCLUDE instruction</p><br>
 					<div>
 						<a class="anchor" href="#_get_pictures_data_path">#</a>
 						<code>
-<a href="source-class-Template.php#134-138" title="Go to source code">get_pictures_data_path</a>( )
+<a href="source-class-Template.php#133-137" title="Go to source code">get_pictures_data_path</a>( )
 						</code>
 
 							<div class="description short">

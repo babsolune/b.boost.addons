@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Category.php#3-186" title="Go to source code">content/category/Category.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Category.php#3-185" title="Go to source code">content/category/Category.class.php</a></span>
 			</div>
 
 
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Category.php#35-38" title="Go to source code">get_id</a>( )
+<a href="source-class-Category.php#34-37" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -788,7 +784,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-Category.php#40-43" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-Category.php#39-42" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-Category.php#45-48" title="Go to source code">get_name</a>( )
+<a href="source-class-Category.php#44-47" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-Category.php#50-53" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-Category.php#49-52" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_get_rewrited_name">#</a>
 						<code>
-<a href="source-class-Category.php#55-58" title="Go to source code">get_rewrited_name</a>( )
+<a href="source-class-Category.php#54-57" title="Go to source code">get_rewrited_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@
 					<div>
 						<a class="anchor" href="#_set_rewrited_name">#</a>
 						<code>
-<a href="source-class-Category.php#60-63" title="Go to source code">set_rewrited_name</a>( <span> <var>$rewrited_name</var></span> )
+<a href="source-class-Category.php#59-62" title="Go to source code">set_rewrited_name</a>( <span> <var>$rewrited_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -963,7 +959,7 @@
 					<div>
 						<a class="anchor" href="#_rewrited_name_is_personalized">#</a>
 						<code>
-<a href="source-class-Category.php#65-68" title="Go to source code">rewrited_name_is_personalized</a>( )
+<a href="source-class-Category.php#64-67" title="Go to source code">rewrited_name_is_personalized</a>( )
 						</code>
 
 							<div class="description short">
@@ -998,7 +994,7 @@
 					<div>
 						<a class="anchor" href="#_get_order">#</a>
 						<code>
-<a href="source-class-Category.php#70-73" title="Go to source code">get_order</a>( )
+<a href="source-class-Category.php#69-72" title="Go to source code">get_order</a>( )
 						</code>
 
 							<div class="description short">
@@ -1033,7 +1029,7 @@
 					<div>
 						<a class="anchor" href="#_set_order">#</a>
 						<code>
-<a href="source-class-Category.php#75-78" title="Go to source code">set_order</a>( <span> <var>$order</var></span> )
+<a href="source-class-Category.php#74-77" title="Go to source code">set_order</a>( <span> <var>$order</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1068,7 +1064,7 @@
 					<div>
 						<a class="anchor" href="#_incremente_order">#</a>
 						<code>
-<a href="source-class-Category.php#80-83" title="Go to source code">incremente_order</a>( )
+<a href="source-class-Category.php#79-82" title="Go to source code">incremente_order</a>( )
 						</code>
 
 							<div class="description short">
@@ -1103,7 +1099,7 @@
 					<div>
 						<a class="anchor" href="#_has_special_authorizations">#</a>
 						<code>
-<a href="source-class-Category.php#85-88" title="Go to source code">has_special_authorizations</a>( )
+<a href="source-class-Category.php#84-87" title="Go to source code">has_special_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1138,7 +1134,7 @@
 					<div>
 						<a class="anchor" href="#_set_special_authorizations">#</a>
 						<code>
-<a href="source-class-Category.php#90-93" title="Go to source code">set_special_authorizations</a>( <span> <var>$special_authorizations</var></span> )
+<a href="source-class-Category.php#89-92" title="Go to source code">set_special_authorizations</a>( <span> <var>$special_authorizations</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1173,7 +1169,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-Category.php#95-98" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-Category.php#94-97" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1208,7 +1204,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorizations">#</a>
 						<code>
-<a href="source-class-Category.php#100-103" title="Go to source code">set_authorizations</a>( <span>array <var>$auth</var></span> )
+<a href="source-class-Category.php#99-102" title="Go to source code">set_authorizations</a>( <span>array <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1243,7 +1239,7 @@
 					<div>
 						<a class="anchor" href="#_auth_is_empty">#</a>
 						<code>
-<a href="source-class-Category.php#105-108" title="Go to source code">auth_is_empty</a>( )
+<a href="source-class-Category.php#104-107" title="Go to source code">auth_is_empty</a>( )
 						</code>
 
 							<div class="description short">
@@ -1278,7 +1274,7 @@
 					<div>
 						<a class="anchor" href="#_auth_is_equals">#</a>
 						<code>
-<a href="source-class-Category.php#110-113" title="Go to source code">auth_is_equals</a>( <span>array <var>$auth</var></span> )
+<a href="source-class-Category.php#109-112" title="Go to source code">auth_is_equals</a>( <span>array <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1313,7 +1309,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_parent">#</a>
 						<code>
-<a href="source-class-Category.php#115-118" title="Go to source code">get_id_parent</a>( )
+<a href="source-class-Category.php#114-117" title="Go to source code">get_id_parent</a>( )
 						</code>
 
 							<div class="description short">
@@ -1348,7 +1344,7 @@
 					<div>
 						<a class="anchor" href="#_set_id_parent">#</a>
 						<code>
-<a href="source-class-Category.php#120-123" title="Go to source code">set_id_parent</a>( <span> <var>$id_parent</var></span> )
+<a href="source-class-Category.php#119-122" title="Go to source code">set_id_parent</a>( <span> <var>$id_parent</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1383,7 +1379,7 @@
 					<div>
 						<a class="anchor" href="#_get_elements_number">#</a>
 						<code>
-<a href="source-class-Category.php#125-128" title="Go to source code">get_elements_number</a>( )
+<a href="source-class-Category.php#124-127" title="Go to source code">get_elements_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -1418,7 +1414,7 @@
 					<div>
 						<a class="anchor" href="#_set_elements_number">#</a>
 						<code>
-<a href="source-class-Category.php#130-133" title="Go to source code">set_elements_number</a>( <span> <var>$elements_number</var></span> )
+<a href="source-class-Category.php#129-132" title="Go to source code">set_elements_number</a>( <span> <var>$elements_number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1453,7 +1449,7 @@
 					<div>
 						<a class="anchor" href="#_is_allowed_to_have_childs">#</a>
 						<code>
-<a href="source-class-Category.php#135-138" title="Go to source code">is_allowed_to_have_childs</a>( )
+<a href="source-class-Category.php#134-137" title="Go to source code">is_allowed_to_have_childs</a>( )
 						</code>
 
 							<div class="description short">
@@ -1488,7 +1484,7 @@
 					<div>
 						<a class="anchor" href="#_check_auth">#</a>
 						<code>
-<a href="source-class-Category.php#140-143" title="Go to source code">check_auth</a>( <span> <var>$bit</var></span> )
+<a href="source-class-Category.php#139-142" title="Go to source code">check_auth</a>( <span> <var>$bit</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1523,7 +1519,7 @@
 					<div>
 						<a class="anchor" href="#_get_properties">#</a>
 						<code>
-<a href="source-class-Category.php#145-156" title="Go to source code">get_properties</a>( )
+<a href="source-class-Category.php#144-155" title="Go to source code">get_properties</a>( )
 						</code>
 
 							<div class="description short">
@@ -1558,7 +1554,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-Category.php#158-167" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
+<a href="source-class-Category.php#157-166" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1593,7 +1589,7 @@
 					<div>
 						<a class="anchor" href="#_create_categories_table">#</a>
 						<code>
-<a href="source-class-Category.php#169-185" title="Go to source code">create_categories_table</a>( <span> <var>$table_name</var></span> )
+<a href="source-class-Category.php#168-184" title="Go to source code">create_categories_table</a>( <span> <var>$table_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1639,7 +1635,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#27" title="Go to source code"><b>READ_AUTHORIZATIONS</b></a>
+								<a href="source-class-Category.php#26" title="Go to source code"><b>READ_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1663,7 +1659,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#28" title="Go to source code"><b>WRITE_AUTHORIZATIONS</b></a>
+								<a href="source-class-Category.php#27" title="Go to source code"><b>WRITE_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1687,7 +1683,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#29" title="Go to source code"><b>CONTRIBUTION_AUTHORIZATIONS</b></a>
+								<a href="source-class-Category.php#28" title="Go to source code"><b>CONTRIBUTION_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1711,7 +1707,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#30" title="Go to source code"><b>MODERATION_AUTHORIZATIONS</b></a>
+								<a href="source-class-Category.php#29" title="Go to source code"><b>MODERATION_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1735,7 +1731,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#31" title="Go to source code"><b>CATEGORIES_MANAGEMENT_AUTHORIZATIONS</b></a>
+								<a href="source-class-Category.php#30" title="Go to source code"><b>CATEGORIES_MANAGEMENT_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1759,7 +1755,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Category.php#33" title="Go to source code"><b>ROOT_CATEGORY</b></a>
+								<a href="source-class-Category.php#32" title="Go to source code"><b>ROOT_CATEGORY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1798,7 +1794,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#17" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-Category.php#16" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						
@@ -1825,7 +1821,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#18" title="Go to source code"><var>$name</var></a>
+						<a href="source-class-Category.php#17" title="Go to source code"><var>$name</var></a>
 
 					<div class="description short">
 						
@@ -1852,7 +1848,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#19" title="Go to source code"><var>$rewrited_name</var></a>
+						<a href="source-class-Category.php#18" title="Go to source code"><var>$rewrited_name</var></a>
 
 					<div class="description short">
 						
@@ -1879,7 +1875,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#20" title="Go to source code"><var>$order</var></a>
+						<a href="source-class-Category.php#19" title="Go to source code"><var>$order</var></a>
 
 					<div class="description short">
 						
@@ -1906,7 +1902,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#21" title="Go to source code"><var>$special_authorizations</var></a>
+						<a href="source-class-Category.php#20" title="Go to source code"><var>$special_authorizations</var></a>
 
 					<div class="description short">
 						
@@ -1933,7 +1929,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#22" title="Go to source code"><var>$auth</var></a>
+						<a href="source-class-Category.php#21" title="Go to source code"><var>$auth</var></a>
 
 					<div class="description short">
 						
@@ -1960,7 +1956,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#23" title="Go to source code"><var>$id_parent</var></a>
+						<a href="source-class-Category.php#22" title="Go to source code"><var>$id_parent</var></a>
 
 					<div class="description short">
 						
@@ -1987,7 +1983,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#24" title="Go to source code"><var>$elements_number</var></a>
+						<a href="source-class-Category.php#23" title="Go to source code"><var>$elements_number</var></a>
 
 					<div class="description short">
 						
@@ -2014,7 +2010,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Category.php#25" title="Go to source code"><var>$allowed_to_have_childs</var></a>
+						<a href="source-class-Category.php#24" title="Go to source code"><var>$allowed_to_have_childs</var></a>
 
 					<div class="description short">
 						

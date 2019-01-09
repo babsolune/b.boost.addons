@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Path.php#3-97" title="Go to source code">util/Path.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Path.php#3-96" title="Go to source code">util/Path.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_phpboost_path">#</a>
 						<code>
-<a href="source-class-Path.php#19-30" title="Go to source code">phpboost_path</a>( )
+<a href="source-class-Path.php#18-29" title="Go to source code">phpboost_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_get_package">#</a>
 						<code>
-<a href="source-class-Path.php#32-41" title="Go to source code">get_package</a>( <span>string <var>$class_file</var></span> )
+<a href="source-class-Path.php#31-40" title="Go to source code">get_package</a>( <span>string <var>$class_file</var></span> )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@ The package is under the form </code>'package/subpackage/../sub..subpackage'</co
 					<div>
 						<a class="anchor" href="#_get_path_from_root">#</a>
 						<code>
-<a href="source-class-Path.php#43-56" title="Go to source code">get_path_from_root</a>( <span>string <var>$path</var></span> )
+<a href="source-class-Path.php#42-55" title="Go to source code">get_path_from_root</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@ The package is under the form </code>'package/subpackage/../sub..subpackage'</co
 					<div>
 						<a class="anchor" href="#_get_classname">#</a>
 						<code>
-<a href="source-class-Path.php#58-75" title="Go to source code">get_classname</a>( <span>string <var>$class_file</var></span> )
+<a href="source-class-Path.php#57-74" title="Go to source code">get_classname</a>( <span>string <var>$class_file</var></span> )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@ The package is under the form </code>'package/subpackage/../sub..subpackage'</co
 					<div>
 						<a class="anchor" href="#_real_path">#</a>
 						<code>
-<a href="source-class-Path.php#77-86" title="Go to source code">real_path</a>( <span>string <var>$path</var></span> )
+<a href="source-class-Path.php#76-85" title="Go to source code">real_path</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -988,7 +984,7 @@ The package is under the form </code>'package/subpackage/../sub..subpackage'</co
 					<div>
 						<a class="anchor" href="#_uniformize_path">#</a>
 						<code>
-<a href="source-class-Path.php#88-96" title="Go to source code">uniformize_path</a>( <span>string <var>$path</var></span> )
+<a href="source-class-Path.php#87-95" title="Go to source code">uniformize_path</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">

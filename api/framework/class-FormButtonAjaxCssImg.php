@@ -680,10 +680,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.button.php">button</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -711,7 +707,7 @@
 							<b>Contributor:</b>
 							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonAjaxCssImg.php#3-46" title="Go to source code">builder/form/button/FormButtonAjaxCssImg.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonAjaxCssImg.php#3-45" title="Go to source code">builder/form/button/FormButtonAjaxCssImg.class.php</a></span>
 			</div>
 
 
@@ -739,7 +735,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormButtonAjaxCssImg.php#17-29" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span><code><a href="class-AjaxRequest.php">AjaxRequest</a></code> <var>$request</var></span>, <span> <var>$css_class_image</var></span>, <span>array <var>$fields</var></span>, <span> <var>$condition</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-FormButtonAjaxCssImg.php#16-28" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span><code><a href="class-AjaxRequest.php">AjaxRequest</a></code> <var>$request</var></span>, <span> <var>$css_class_image</var></span>, <span>array <var>$fields</var></span>, <span> <var>$condition</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">

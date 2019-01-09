@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenuService.php#3-602" title="Go to source code">phpboost/menu/MenuService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenuService.php#3-601" title="Go to source code">phpboost/menu/MenuService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -714,7 +710,7 @@ It also provides all moving and disabling methods to change the website appearan
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-MenuService.php#33-36" title="Go to source code">__static</a>( )
+<a href="source-class-MenuService.php#32-35" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_get_menu_list">#</a>
 						<code>
-<a href="source-class-MenuService.php#39-57" title="Go to source code">get_menu_list</a>( <span> <var>$class</var> = Menu::MENU__CLASS</span>, <span> <var>$block</var> = Menu::BLOCK_POSITION__ALL</span>, <span> <var>$enabled</var> = Menu::MENU_ENABLE_OR_NOT</span> )
+<a href="source-class-MenuService.php#38-56" title="Go to source code">get_menu_list</a>( <span> <var>$class</var> = Menu::MENU__CLASS</span>, <span> <var>$block</var> = Menu::BLOCK_POSITION__ALL</span>, <span> <var>$enabled</var> = Menu::MENU_ENABLE_OR_NOT</span> )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_get_menus_map">#</a>
 						<code>
-<a href="source-class-MenuService.php#59-81" title="Go to source code">get_menus_map</a>( )
+<a href="source-class-MenuService.php#58-80" title="Go to source code">get_menus_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-MenuService.php#83-98" title="Go to source code">load</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-MenuService.php#82-97" title="Go to source code">load</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-MenuService.php#100-135" title="Go to source code">save</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
+<a href="source-class-MenuService.php#99-134" title="Go to source code">save</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
 						</code>
 
 							<div class="description short">
@@ -946,7 +942,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-MenuService.php#137-149" title="Go to source code">delete</a>( <span>mixed <var>$menu</var></span> )
+<a href="source-class-MenuService.php#136-148" title="Go to source code">delete</a>( <span>mixed <var>$menu</var></span> )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_enable">#</a>
 						<code>
-<a href="source-class-MenuService.php#151-159" title="Go to source code">enable</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
+<a href="source-class-MenuService.php#150-158" title="Go to source code">enable</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1026,7 +1022,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_disable">#</a>
 						<code>
-<a href="source-class-MenuService.php#161-169" title="Go to source code">disable</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
+<a href="source-class-MenuService.php#160-168" title="Go to source code">disable</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1066,7 +1062,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_move">#</a>
 						<code>
-<a href="source-class-MenuService.php#171-208" title="Go to source code">move</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$block</var></span>, <span>integer <var>$position</var> = <span class="php-num">0</span></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-MenuService.php#170-207" title="Go to source code">move</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$block</var></span>, <span>integer <var>$position</var> = <span class="php-num">0</span></span>, <span>boolean <var>$save</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_set_position">#</a>
 						<code>
-<a href="source-class-MenuService.php#210-223" title="Go to source code">set_position</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$block_position</var></span> )
+<a href="source-class-MenuService.php#209-222" title="Go to source code">set_position</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$block_position</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1154,7 +1150,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_change_position">#</a>
 						<code>
-<a href="source-class-MenuService.php#225-276" title="Go to source code">change_position</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$direction</var> = self::MOVE_UP</span> )
+<a href="source-class-MenuService.php#224-275" title="Go to source code">change_position</a>( <span><code><a href="class-Menu.php">Menu</a></code> <var>$menu</var></span>, <span>integer <var>$direction</var> = self::MOVE_UP</span> )
 						</code>
 
 							<div class="description short">
@@ -1196,7 +1192,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_enable_all">#</a>
 						<code>
-<a href="source-class-MenuService.php#278-296" title="Go to source code">enable_all</a>( <span>boolean <var>$enable</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-MenuService.php#277-295" title="Go to source code">enable_all</a>( <span>boolean <var>$enable</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1236,7 +1232,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_generate_cache">#</a>
 						<code>
-<a href="source-class-MenuService.php#300-306" title="Go to source code">generate_cache</a>( )
+<a href="source-class-MenuService.php#299-305" title="Go to source code">generate_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1271,7 +1267,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_add_mini_module">#</a>
 						<code>
-<a href="source-class-MenuService.php#309-317" title="Go to source code">add_mini_module</a>( <span>string <var>$module_id</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-MenuService.php#308-316" title="Go to source code">add_mini_module</a>( <span>string <var>$module_id</var></span>, <span> <var>$generate_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1317,7 +1313,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_delete_mini_module">#</a>
 						<code>
-<a href="source-class-MenuService.php#319-347" title="Go to source code">delete_mini_module</a>( <span>string <var>$module</var></span> )
+<a href="source-class-MenuService.php#318-346" title="Go to source code">delete_mini_module</a>( <span>string <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1357,7 +1353,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_update_mini_modules_list">#</a>
 						<code>
-<a href="source-class-MenuService.php#349-400" title="Go to source code">update_mini_modules_list</a>( <span>boolean <var>$update_cache</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-MenuService.php#348-399" title="Go to source code">update_mini_modules_list</a>( <span>boolean <var>$update_cache</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1397,7 +1393,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_delete_module_feeds_menus">#</a>
 						<code>
-<a href="source-class-MenuService.php#403-417" title="Go to source code">delete_module_feeds_menus</a>( <span>string <var>$module_id</var></span> )
+<a href="source-class-MenuService.php#402-416" title="Go to source code">delete_module_feeds_menus</a>( <span>string <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1437,7 +1433,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_website_modules">#</a>
 						<code>
-<a href="source-class-MenuService.php#419-450" title="Go to source code">website_modules</a>( <span>integer <var>$menu_type</var> = LinksMenu::AUTOMATIC_MENU</span> )
+<a href="source-class-MenuService.php#418-449" title="Go to source code">website_modules</a>( <span>integer <var>$menu_type</var> = LinksMenu::AUTOMATIC_MENU</span> )
 						</code>
 
 							<div class="description short">
@@ -1481,7 +1477,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_assign_positions_conditions">#</a>
 						<code>
-<a href="source-class-MenuService.php#453-473" title="Go to source code">assign_positions_conditions</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span>, <span>integer <var>$position</var></span> )
+<a href="source-class-MenuService.php#452-472" title="Go to source code">assign_positions_conditions</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span>, <span>integer <var>$position</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1523,7 +1519,7 @@ It also provides all moving and disabling methods to change the website appearan
 					<div>
 						<a class="anchor" href="#_str_to_location">#</a>
 						<code>
-<a href="source-class-MenuService.php#476-504" title="Go to source code">str_to_location</a>( <span>string <var>$str_location</var></span> )
+<a href="source-class-MenuService.php#475-503" title="Go to source code">str_to_location</a>( <span>string <var>$str_location</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1578,7 +1574,7 @@ It also provides all moving and disabling methods to change the website appearan
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MenuService.php#20" title="Go to source code"><b>MOVE_UP</b></a>
+								<a href="source-class-MenuService.php#19" title="Go to source code"><b>MOVE_UP</b></a>
 							</code>
 
 							<div class="description short">
@@ -1602,7 +1598,7 @@ It also provides all moving and disabling methods to change the website appearan
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MenuService.php#21" title="Go to source code"><b>MOVE_DOWN</b></a>
+								<a href="source-class-MenuService.php#20" title="Go to source code"><b>MOVE_DOWN</b></a>
 							</code>
 
 							<div class="description short">

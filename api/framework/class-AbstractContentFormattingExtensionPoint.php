@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 10 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractContentFormattingExtensionPoint.php#3-75" title="Go to source code">content/formatting/extension-point/AbstractContentFormattingExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractContentFormattingExtensionPoint.php#3-74" title="Go to source code">content/formatting/extension-point/AbstractContentFormattingExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -715,7 +711,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -737,7 +733,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#18-23" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#17-22" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -772,7 +768,7 @@
 					<div>
 						<a class="anchor" href="#_set_forbidden_tags">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#25-31" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$tags</var></span> )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#24-30" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -814,7 +810,7 @@
 					<div>
 						<a class="anchor" href="#_get_forbidden_tags">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#33-39" title="Go to source code">get_forbidden_tags</a>( )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#32-38" title="Go to source code">get_forbidden_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_add_forbidden_tag">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#41-47" title="Go to source code">add_forbidden_tag</a>( <span>string <var>$tag</var></span> )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#40-46" title="Go to source code">add_forbidden_tag</a>( <span>string <var>$tag</var></span> )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@
 					<div>
 						<a class="anchor" href="#_add_forbidden_tags">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#49-58" title="Go to source code">add_forbidden_tags</a>( <span>array <var>$tags</var></span> )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#48-57" title="Go to source code">add_forbidden_tags</a>( <span>array <var>$tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@
 					<div>
 						<a class="anchor" href="#_set_html_auth">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#60-66" title="Go to source code">set_html_auth</a>( <span>array <var>$auth</var></span> )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#59-65" title="Go to source code">set_html_auth</a>( <span>array <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -971,7 +967,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_auth">#</a>
 						<code>
-<a href="source-class-AbstractContentFormattingExtensionPoint.php#68-74" title="Go to source code">get_html_auth</a>( )
+<a href="source-class-AbstractContentFormattingExtensionPoint.php#67-73" title="Go to source code">get_html_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1053,7 +1049,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractContentFormattingExtensionPoint.php#15" title="Go to source code"><var>$forbidden_tags</var></a>
+						<a href="source-class-AbstractContentFormattingExtensionPoint.php#14" title="Go to source code"><var>$forbidden_tags</var></a>
 
 					<div class="description short">
 						
@@ -1080,7 +1076,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractContentFormattingExtensionPoint.php#16" title="Go to source code"><var>$html_auth</var></a>
+						<a href="source-class-AbstractContentFormattingExtensionPoint.php#15" title="Go to source code"><var>$html_auth</var></a>
 
 					<div class="description short">
 						

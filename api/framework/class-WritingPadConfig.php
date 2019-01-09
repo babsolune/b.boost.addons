@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-WritingPadConfig.php#3-68" title="Go to source code">phpboost/config/WritingPadConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-WritingPadConfig.php#3-67" title="Go to source code">phpboost/config/WritingPadConfig.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -732,7 +728,7 @@ of the administration panel.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_set_content">#</a>
 						<code>
-<a href="source-class-WritingPadConfig.php#17-24" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
+<a href="source-class-WritingPadConfig.php#16-23" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_content">#</a>
 						<code>
-<a href="source-class-WritingPadConfig.php#26-40" title="Go to source code">get_content</a>( )
+<a href="source-class-WritingPadConfig.php#25-39" title="Go to source code">get_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-WritingPadConfig.php#42-50" title="Go to source code">get_default_values</a>( )
+<a href="source-class-WritingPadConfig.php#41-49" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -872,7 +868,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-WritingPadConfig.php#52-59" title="Go to source code">load</a>( )
+<a href="source-class-WritingPadConfig.php#51-58" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -911,7 +907,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-WritingPadConfig.php#61-67" title="Go to source code">save</a>( )
+<a href="source-class-WritingPadConfig.php#60-66" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

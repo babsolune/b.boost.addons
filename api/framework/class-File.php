@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Filesystem.php">Filesystem</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -678,7 +674,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 11 07
+							PHPBoost 5.2 - last update: 2019 01 08
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -700,7 +696,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-File.php#3-324" title="Go to source code">io/filesystem/File.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-File.php#3-326" title="Go to source code">io/filesystem/File.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -729,7 +725,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-File.php#38-47" title="Go to source code">__construct</a>( <span>string <var>$path</var></span>, <span>integer <var>$mode</var>,…</span>, <span>boolean <var>$whenopen</var>,…</span> )
+<a href="source-class-File.php#37-46" title="Go to source code">__construct</a>( <span>string <var>$path</var></span>, <span>integer <var>$mode</var>,…</span>, <span>boolean <var>$whenopen</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-File.php#49-52" title="Go to source code">__destruct</a>( )
+<a href="source-class-File.php#48-51" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@
 					<div>
 						<a class="anchor" href="#_get_name_without_extension">#</a>
 						<code>
-<a href="source-class-File.php#54-62" title="Go to source code">get_name_without_extension</a>( )
+<a href="source-class-File.php#53-61" title="Go to source code">get_name_without_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension">#</a>
 						<code>
-<a href="source-class-File.php#64-72" title="Go to source code">get_extension</a>( )
+<a href="source-class-File.php#63-71" title="Go to source code">get_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -910,7 +906,7 @@
 					<div>
 						<a class="anchor" href="#_read">#</a>
 						<code>
-<a href="source-class-File.php#74-102" title="Go to source code">read</a>( <span>integer <var>$start</var> = <span class="php-num">0</span></span>, <span>integer <var>$len</var> = -<span class="php-num">1</span></span> )
+<a href="source-class-File.php#73-101" title="Go to source code">read</a>( <span>integer <var>$start</var> = <span class="php-num">0</span></span>, <span>integer <var>$len</var> = -<span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -956,7 +952,7 @@
 					<div>
 						<a class="anchor" href="#_read_lines">#</a>
 						<code>
-<a href="source-class-File.php#104-111" title="Go to source code">read_lines</a>( )
+<a href="source-class-File.php#103-110" title="Go to source code">read_lines</a>( )
 						</code>
 
 							<div class="description short">
@@ -995,7 +991,7 @@
 					<div>
 						<a class="anchor" href="#_write">#</a>
 						<code>
-<a href="source-class-File.php#113-126" title="Go to source code">write</a>( <span>string <var>$data</var></span> )
+<a href="source-class-File.php#112-125" title="Go to source code">write</a>( <span>string <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 					<div>
 						<a class="anchor" href="#_append">#</a>
 						<code>
-<a href="source-class-File.php#128-141" title="Go to source code">append</a>( <span>string <var>$data</var></span> )
+<a href="source-class-File.php#127-140" title="Go to source code">append</a>( <span>string <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1083,7 +1079,7 @@
 					<div>
 						<a class="anchor" href="#_erase">#</a>
 						<code>
-<a href="source-class-File.php#143-154" title="Go to source code">erase</a>( )
+<a href="source-class-File.php#142-153" title="Go to source code">erase</a>( )
 						</code>
 
 							<div class="description short">
@@ -1118,7 +1114,7 @@
 					<div>
 						<a class="anchor" href="#_close">#</a>
 						<code>
-<a href="source-class-File.php#156-167" title="Go to source code">close</a>( )
+<a href="source-class-File.php#155-166" title="Go to source code">close</a>( )
 						</code>
 
 							<div class="description short">
@@ -1153,7 +1149,7 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-File.php#169-182" title="Go to source code">delete</a>( )
+<a href="source-class-File.php#168-184" title="Go to source code">delete</a>( )
 						</code>
 
 							<div class="description short">
@@ -1192,7 +1188,7 @@
 					<div>
 						<a class="anchor" href="#_lock">#</a>
 						<code>
-<a href="source-class-File.php#184-203" title="Go to source code">lock</a>( <span>boolean <var>$blocking</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-File.php#186-205" title="Go to source code">lock</a>( <span>boolean <var>$blocking</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1237,7 +1233,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_unlock">#</a>
 						<code>
-<a href="source-class-File.php#205-222" title="Go to source code">unlock</a>( )
+<a href="source-class-File.php#207-224" title="Go to source code">unlock</a>( )
 						</code>
 
 							<div class="description short">
@@ -1276,7 +1272,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_flush">#</a>
 						<code>
-<a href="source-class-File.php#224-233" title="Go to source code">flush</a>( )
+<a href="source-class-File.php#226-235" title="Go to source code">flush</a>( )
 						</code>
 
 							<div class="description short">
@@ -1311,7 +1307,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_get_last_modification_date">#</a>
 						<code>
-<a href="source-class-File.php#235-242" title="Go to source code">get_last_modification_date</a>( )
+<a href="source-class-File.php#237-244" title="Go to source code">get_last_modification_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1350,7 +1346,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_get_last_access_date">#</a>
 						<code>
-<a href="source-class-File.php#244-251" title="Go to source code">get_last_access_date</a>( )
+<a href="source-class-File.php#246-253" title="Go to source code">get_last_access_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1389,7 +1385,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_get_file_size">#</a>
 						<code>
-<a href="source-class-File.php#253-260" title="Go to source code">get_file_size</a>( )
+<a href="source-class-File.php#255-262" title="Go to source code">get_file_size</a>( )
 						</code>
 
 							<div class="description short">
@@ -1428,7 +1424,7 @@ Locks the file (it won't be readable by another thread which could try to access
 					<div>
 						<a class="anchor" href="#_open">#</a>
 						<code>
-<a href="source-class-File.php#262-291" title="Go to source code">open</a>( <span> <var>$mode</var></span> )
+<a href="source-class-File.php#264-293" title="Go to source code">open</a>( <span> <var>$mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1493,7 +1489,7 @@ Locks the file (it won't be readable by another thread which could try to access
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-File.php#20" title="Go to source code"><b>READ</b></a>
+								<a href="source-class-File.php#19" title="Go to source code"><b>READ</b></a>
 							</code>
 
 							<div class="description short">
@@ -1517,7 +1513,7 @@ Locks the file (it won't be readable by another thread which could try to access
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-File.php#21" title="Go to source code"><b>WRITE</b></a>
+								<a href="source-class-File.php#20" title="Go to source code"><b>WRITE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1541,7 +1537,7 @@ Locks the file (it won't be readable by another thread which could try to access
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-File.php#22" title="Go to source code"><b>APPEND</b></a>
+								<a href="source-class-File.php#21" title="Go to source code"><b>APPEND</b></a>
 							</code>
 
 							<div class="description short">

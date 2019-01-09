@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PlainCodeHighlighter.php#3-36" title="Go to source code">content/formatting/parser/PlainCodeHighlighter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PlainCodeHighlighter.php#3-35" title="Go to source code">content/formatting/parser/PlainCodeHighlighter.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -740,7 +736,7 @@ tag to choose what to highlight.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@ tag to choose what to highlight.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-PlainCodeHighlighter.php#21-27" title="Go to source code">__construct</a>( )
+<a href="source-class-PlainCodeHighlighter.php#20-26" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@ tag to choose what to highlight.</p>
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-PlainCodeHighlighter.php#29-35" title="Go to source code">parse</a>( )
+<a href="source-class-PlainCodeHighlighter.php#28-34" title="Go to source code">parse</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@ tag to choose what to highlight.</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PlainCodeHighlighter.php#19" title="Go to source code"><b>HIGHLIGHTING_STYLE</b></a>
+								<a href="source-class-PlainCodeHighlighter.php#18" title="Go to source code"><b>HIGHLIGHTING_STYLE</b></a>
 							</code>
 
 							<div class="description short">

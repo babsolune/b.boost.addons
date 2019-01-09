@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Theme.php">Theme</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 08 31
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CustomizeInterface.php#3-31" title="Go to source code">phpboost/theme/CustomizeInterface.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CustomizeInterface.php#3-30" title="Go to source code">phpboost/theme/CustomizeInterface.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#_set_header_logo_path">#</a>
 						<code>
-<a href="source-class-CustomizeInterface.php#17-20" title="Go to source code">set_header_logo_path</a>( <span> <var>$header_logo_path</var></span> )
+<a href="source-class-CustomizeInterface.php#16-19" title="Go to source code">set_header_logo_path</a>( <span> <var>$header_logo_path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_get_header_logo_path">#</a>
 						<code>
-<a href="source-class-CustomizeInterface.php#22-25" title="Go to source code">get_header_logo_path</a>( )
+<a href="source-class-CustomizeInterface.php#21-24" title="Go to source code">get_header_logo_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_remove_header_logo_path">#</a>
 						<code>
-<a href="source-class-CustomizeInterface.php#27-30" title="Go to source code">remove_header_logo_path</a>( )
+<a href="source-class-CustomizeInterface.php#26-29" title="Go to source code">remove_header_logo_path</a>( )
 						</code>
 
 							<div class="description short">

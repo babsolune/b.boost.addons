@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.feed.php">feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -693,7 +689,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedMenu.php#3-129" title="Go to source code">phpboost/menu/feed/FeedMenu.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedMenu.php#3-128" title="Go to source code">phpboost/menu/feed/FeedMenu.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#30-38" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$module_id</var></span>, <span> <var>$category</var> = <span class="php-num">0</span></span>, <span> <var>$name</var> = Feed::DEFAULT_FEED_NAME</span>, <span> <var>$number</var> = <span class="php-num">10</span></span>, <span> <var>$begin_at</var> = <span class="php-num">0</span></span> )
+<a href="source-class-FeedMenu.php#29-37" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$module_id</var></span>, <span> <var>$category</var> = <span class="php-num">0</span></span>, <span> <var>$name</var> = Feed::DEFAULT_FEED_NAME</span>, <span> <var>$number</var> = <span class="php-num">10</span></span>, <span> <var>$begin_at</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_get_template">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#40-60" title="Go to source code">get_template</a>( <span>string <var>$id</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span>, <span>string <var>$block_position</var> = Menu::BLOCK_POSITION__LEFT</span>, <span> <var>$hidden_with_small_screens</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-FeedMenu.php#39-59" title="Go to source code">get_template</a>( <span>string <var>$id</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span>, <span>string <var>$block_position</var> = Menu::BLOCK_POSITION__LEFT</span>, <span> <var>$hidden_with_small_screens</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -843,7 +839,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#63-66" title="Go to source code">get_module_id</a>( )
+<a href="source-class-FeedMenu.php#62-65" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -882,7 +878,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#68-80" title="Go to source code">get_url</a>( <span>boolean <var>$relative</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-FeedMenu.php#67-79" title="Go to source code">get_url</a>( <span>boolean <var>$relative</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@
 					<div>
 						<a class="anchor" href="#_set_module_id">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#83-86" title="Go to source code">set_module_id</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedMenu.php#82-85" title="Go to source code">set_module_id</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -966,7 +962,7 @@
 					<div>
 						<a class="anchor" href="#_set_cat">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#87-90" title="Go to source code">set_cat</a>( <span>integer <var>$value</var></span> )
+<a href="source-class-FeedMenu.php#86-89" title="Go to source code">set_cat</a>( <span>integer <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#91-94" title="Go to source code">set_name</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedMenu.php#90-93" title="Go to source code">set_name</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1046,7 +1042,7 @@
 					<div>
 						<a class="anchor" href="#_get_number">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#96-102" title="Go to source code">get_number</a>( )
+<a href="source-class-FeedMenu.php#95-101" title="Go to source code">get_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -1085,7 +1081,7 @@
 					<div>
 						<a class="anchor" href="#_set_number">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#104-107" title="Go to source code">set_number</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FeedMenu.php#103-106" title="Go to source code">set_number</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1125,7 +1121,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FeedMenu.php#109-128" title="Go to source code">display</a>( )
+<a href="source-class-FeedMenu.php#108-127" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1209,7 +1205,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FeedMenu.php#18" title="Go to source code"><b>FEED_MENU__CLASS</b></a>
+								<a href="source-class-FeedMenu.php#17" title="Go to source code"><b>FEED_MENU__CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1272,7 +1268,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#20-23" title="Go to source code"><var>$url</var></a>
+						<a href="source-class-FeedMenu.php#19-22" title="Go to source code"><var>$url</var></a>
 
 					<div class="description short">
 						<p>the feed url</p>
@@ -1299,7 +1295,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#24" title="Go to source code"><var>$module_id</var></a>
+						<a href="source-class-FeedMenu.php#23" title="Go to source code"><var>$module_id</var></a>
 
 					<div class="description short">
 						
@@ -1326,7 +1322,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#25" title="Go to source code"><var>$name</var></a>
+						<a href="source-class-FeedMenu.php#24" title="Go to source code"><var>$name</var></a>
 
 					<div class="description short">
 						
@@ -1353,7 +1349,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#26" title="Go to source code"><var>$category</var></a>
+						<a href="source-class-FeedMenu.php#25" title="Go to source code"><var>$category</var></a>
 
 					<div class="description short">
 						
@@ -1380,7 +1376,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#27" title="Go to source code"><var>$number</var></a>
+						<a href="source-class-FeedMenu.php#26" title="Go to source code"><var>$number</var></a>
 
 					<div class="description short">
 						
@@ -1407,7 +1403,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FeedMenu.php#28" title="Go to source code"><var>$begin_at</var></a>
+						<a href="source-class-FeedMenu.php#27" title="Go to source code"><var>$begin_at</var></a>
 
 					<div class="description short">
 						

@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 12 22
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractHTMLTableFilter.php#3-46" title="Go to source code">builder/table/filter/AbstractHTMLTableFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractHTMLTableFilter.php#3-45" title="Go to source code">builder/table/filter/AbstractHTMLTableFilter.class.php</a></span>
 			</div>
 
 
@@ -748,7 +744,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -770,7 +766,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractHTMLTableFilter.php#21-25" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-AbstractHTMLTableFilter.php#20-24" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -805,7 +801,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-AbstractHTMLTableFilter.php#27-30" title="Go to source code">get_id</a>( )
+<a href="source-class-AbstractHTMLTableFilter.php#26-29" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_field">#</a>
 						<code>
-<a href="source-class-AbstractHTMLTableFilter.php#32-35" title="Go to source code">get_form_field</a>( )
+<a href="source-class-AbstractHTMLTableFilter.php#31-34" title="Go to source code">get_form_field</a>( )
 						</code>
 
 							<div class="description short">
@@ -879,7 +875,7 @@
 					<div>
 						<a class="anchor" href="#_set_value">#</a>
 						<code>
-<a href="source-class-AbstractHTMLTableFilter.php#37-40" title="Go to source code">set_value</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractHTMLTableFilter.php#36-39" title="Go to source code">set_value</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -914,7 +910,7 @@
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-AbstractHTMLTableFilter.php#42-45" title="Go to source code">get_value</a>( )
+<a href="source-class-AbstractHTMLTableFilter.php#41-44" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">

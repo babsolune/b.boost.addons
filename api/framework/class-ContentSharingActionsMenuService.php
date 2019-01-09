@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Share.php">Share</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuService.php#3-63" title="Go to source code">content/share/ContentSharingActionsMenuService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuService.php#3-62" title="Go to source code">content/share/ContentSharingActionsMenuService.class.php</a></span>
 			</div>
 
 
@@ -699,7 +695,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -721,7 +717,7 @@
 					<div>
 						<a class="anchor" href="#_get_content_sharing_actions_links">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuService.php#18-31" title="Go to source code">get_content_sharing_actions_links</a>( )
+<a href="source-class-ContentSharingActionsMenuService.php#17-30" title="Go to source code">get_content_sharing_actions_links</a>( )
 						</code>
 
 							<div class="description short">
@@ -756,7 +752,7 @@
 					<div>
 						<a class="anchor" href="#_display_sharing_elements">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuService.php#33-57" title="Go to source code">display_sharing_elements</a>( <span> <var>$tpl</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ContentSharingActionsMenuService.php#32-56" title="Go to source code">display_sharing_elements</a>( <span> <var>$tpl</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuService.php#59-62" title="Go to source code">display</a>( <span> <var>$tpl</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ContentSharingActionsMenuService.php#58-61" title="Go to source code">display</a>( <span> <var>$tpl</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">

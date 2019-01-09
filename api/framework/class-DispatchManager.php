@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -730,7 +726,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DispatchManager.php#3-110" title="Go to source code">mvc/dispatcher/DispatchManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DispatchManager.php#3-109" title="Go to source code">mvc/dispatcher/DispatchManager.class.php</a></span>
 			</div>
 
 
@@ -742,7 +738,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_dispatch">#</a>
 						<code>
-<a href="source-class-DispatchManager.php#18-33" title="Go to source code">dispatch</a>( <span><code><a href="class-UrlControllerMapper.php">UrlControllerMapper</a>[]</code> <var>$url_controller_mappers</var></span> )
+<a href="source-class-DispatchManager.php#17-32" title="Go to source code">dispatch</a>( <span><code><a href="class-UrlControllerMapper.php">UrlControllerMapper</a>[]</code> <var>$url_controller_mappers</var></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_redirect">#</a>
 						<code>
-<a href="source-class-DispatchManager.php#35-48" title="Go to source code">redirect</a>( <span><code><a href="class-Controller.php">Controller</a></code> <var>$controller</var></span> )
+<a href="source-class-DispatchManager.php#34-47" title="Go to source code">redirect</a>( <span><code><a href="class-Controller.php">Controller</a></code> <var>$controller</var></span> )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-DispatchManager.php#50-86" title="Go to source code">get_url</a>( <span>string <var>$path</var></span>, <span>string <var>$url</var></span>, <span>boolean <var>$not_rewriting_url_forced</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-DispatchManager.php#49-85" title="Go to source code">get_url</a>( <span>string <var>$path</var></span>, <span>string <var>$url</var></span>, <span>boolean <var>$not_rewriting_url_forced</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">

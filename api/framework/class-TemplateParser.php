@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 06 18
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateParser.php#3-23" title="Go to source code">io/template/parser/TemplateParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateParser.php#3-22" title="Go to source code">io/template/parser/TemplateParser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -715,7 +711,7 @@ to a syntax that the PHP engine is able to run.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -737,7 +733,7 @@ to a syntax that the PHP engine is able to run.</p>
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-TemplateParser.php#17-22" title="Go to source code">parse</a>( <span>string <var>$content</var></span> )
+<a href="source-class-TemplateParser.php#16-21" title="Go to source code">parse</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">

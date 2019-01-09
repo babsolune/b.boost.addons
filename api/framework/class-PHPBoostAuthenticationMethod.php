@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.authentication.php">authentication</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostAuthenticationMethod.php#3-342" title="Go to source code">phpboost/user/authentication/PHPBoostAuthenticationMethod.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostAuthenticationMethod.php#3-341" title="Go to source code">phpboost/user/authentication/PHPBoostAuthenticationMethod.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -734,7 +730,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -756,7 +752,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#43-48" title="Go to source code">__construct</a>( <span> <var>$login</var></span>, <span> <var>$password</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#42-47" title="Go to source code">__construct</a>( <span> <var>$login</var></span>, <span> <var>$password</var></span> )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_set_association_parameters">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#50-54" title="Go to source code">set_association_parameters</a>( <span> <var>$approved</var> = <span class="php-keyword1">true</span></span>, <span> <var>$registration_pass</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#49-53" title="Go to source code">set_association_parameters</a>( <span> <var>$approved</var> = <span class="php-keyword1">true</span></span>, <span> <var>$registration_pass</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_get_remaining_attemps">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#56-59" title="Go to source code">get_remaining_attemps</a>( )
+<a href="source-class-PHPBoostAuthenticationMethod.php#55-58" title="Go to source code">get_remaining_attemps</a>( )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_associate">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#61-86" title="Go to source code">associate</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#60-85" title="Go to source code">associate</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -905,7 +901,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_dissociate">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#88-102" title="Go to source code">dissociate</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#87-101" title="Go to source code">dissociate</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -949,7 +945,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_authenticate">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#105-114" title="Go to source code">authenticate</a>( )
+<a href="source-class-PHPBoostAuthenticationMethod.php#104-113" title="Go to source code">authenticate</a>( )
 						</code>
 
 							<div class="description short">
@@ -988,7 +984,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_get_auth_infos">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#243-249" title="Go to source code">get_auth_infos</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#242-248" title="Go to source code">get_auth_infos</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1023,7 +1019,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_update_auth_infos">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#251-279" title="Go to source code">update_auth_infos</a>( <span> <var>$user_id</var></span>, <span> <var>$login</var> = <span class="php-keyword1">null</span></span>, <span> <var>$approved</var> = <span class="php-keyword1">null</span></span>, <span> <var>$password</var> = <span class="php-keyword1">null</span></span>, <span> <var>$registration_pass</var> = <span class="php-keyword1">null</span></span>, <span> <var>$change_password_pass</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#250-278" title="Go to source code">update_auth_infos</a>( <span> <var>$user_id</var></span>, <span> <var>$login</var> = <span class="php-keyword1">null</span></span>, <span> <var>$approved</var> = <span class="php-keyword1">null</span></span>, <span> <var>$password</var> = <span class="php-keyword1">null</span></span>, <span> <var>$registration_pass</var> = <span class="php-keyword1">null</span></span>, <span> <var>$change_password_pass</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1058,7 +1054,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_registration_pass_exists">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#281-290" title="Go to source code">registration_pass_exists</a>( <span> <var>$registration_pass</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#280-289" title="Go to source code">registration_pass_exists</a>( <span> <var>$registration_pass</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1093,7 +1089,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_change_password_pass_exists">#</a>
 						<code>
-<a href="source-class-PHPBoostAuthenticationMethod.php#292-301" title="Go to source code">change_password_pass_exists</a>( <span> <var>$change_password_pass</var></span> )
+<a href="source-class-PHPBoostAuthenticationMethod.php#291-300" title="Go to source code">change_password_pass_exists</a>( <span> <var>$change_password_pass</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1152,7 +1148,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PHPBoostAuthenticationMethod.php#21" title="Go to source code"><b>AUTHENTICATION_METHOD</b></a>
+								<a href="source-class-PHPBoostAuthenticationMethod.php#20" title="Go to source code"><b>AUTHENTICATION_METHOD</b></a>
 							</code>
 
 							<div class="description short">

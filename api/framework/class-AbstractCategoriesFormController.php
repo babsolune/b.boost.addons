@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a>\<a href="package-Content.Category.controllers.php">controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCategoriesFormController.php#3-297" title="Go to source code">content/category/controllers/AbstractCategoriesFormController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCategoriesFormController.php#3-296" title="Go to source code">content/category/controllers/AbstractCategoriesFormController.class.php</a></span>
 			</div>
 
 
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#36-58" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AbstractCategoriesFormController.php#35-57" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_build_form">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#66-126" title="Go to source code">build_form</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AbstractCategoriesFormController.php#65-125" title="Go to source code">build_form</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#128-151" title="Go to source code">set_properties</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#127-150" title="Go to source code">set_properties</a>( )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@
 					<div>
 						<a class="anchor" href="#_get_options_fields">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#163-166" title="Go to source code">get_options_fields</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
+<a href="source-class-AbstractCategoriesFormController.php#162-165" title="Go to source code">get_options_fields</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_get_category">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#184-206" title="Go to source code">get_category</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#183-205" title="Go to source code">get_category</a>( )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations_settings">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#208-219" title="Go to source code">get_authorizations_settings</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#207-218" title="Go to source code">get_authorizations_settings</a>( )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#221-227" title="Go to source code">get_title</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#220-226" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1023,7 +1019,7 @@
 					<div>
 						<a class="anchor" href="#_get_success_message">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#229-235" title="Go to source code">get_success_message</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#228-234" title="Go to source code">get_success_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -1062,7 +1058,7 @@
 					<div>
 						<a class="anchor" href="#_generate_response">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#237-255" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
+<a href="source-class-AbstractCategoriesFormController.php#236-254" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1106,7 +1102,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_category">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#257-260" title="Go to source code">get_id_category</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#256-259" title="Go to source code">get_id_category</a>( )
 						</code>
 
 							<div class="description short">
@@ -1145,7 +1141,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_manager">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#262-265" title="Go to source code">get_categories_manager</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#261-264" title="Go to source code">get_categories_manager</a>( )
 						</code>
 
 							<div class="description short">
@@ -1184,7 +1180,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_management_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#267-270" title="Go to source code">get_categories_management_url</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#266-269" title="Go to source code">get_categories_management_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1223,7 +1219,7 @@
 					<div>
 						<a class="anchor" href="#_get_add_category_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#272-275" title="Go to source code">get_add_category_url</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#271-274" title="Go to source code">get_add_category_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1262,7 +1258,7 @@
 					<div>
 						<a class="anchor" href="#_get_edit_category_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#277-281" title="Go to source code">get_edit_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-AbstractCategoriesFormController.php#276-280" title="Go to source code">get_edit_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1306,7 +1302,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#283-286" title="Go to source code">get_module_home_page_url</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#282-285" title="Go to source code">get_module_home_page_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1345,7 +1341,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_title">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#288-291" title="Go to source code">get_module_home_page_title</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#287-290" title="Go to source code">get_module_home_page_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1384,7 +1380,7 @@
 					<div>
 						<a class="anchor" href="#_check_authorizations">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesFormController.php#293-296" title="Go to source code">check_authorizations</a>( )
+<a href="source-class-AbstractCategoriesFormController.php#292-295" title="Go to source code">check_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1454,7 +1450,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesFormController.php#18-21" title="Go to source code"><var>$form</var></a>
+						<a href="source-class-AbstractCategoriesFormController.php#17-20" title="Go to source code"><var>$form</var></a>
 
 					<div class="description short">
 						
@@ -1481,7 +1477,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesFormController.php#22-25" title="Go to source code"><var>$submit_button</var></a>
+						<a href="source-class-AbstractCategoriesFormController.php#21-24" title="Go to source code"><var>$submit_button</var></a>
 
 					<div class="description short">
 						
@@ -1508,7 +1504,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesFormController.php#27" title="Go to source code"><var>$lang</var></a>
+						<a href="source-class-AbstractCategoriesFormController.php#26" title="Go to source code"><var>$lang</var></a>
 
 					<div class="description short">
 						
@@ -1535,7 +1531,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesFormController.php#28" title="Go to source code"><var>$common_lang</var></a>
+						<a href="source-class-AbstractCategoriesFormController.php#27" title="Go to source code"><var>$common_lang</var></a>
 
 					<div class="description short">
 						
@@ -1562,7 +1558,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesFormController.php#34" title="Go to source code"><var>$is_new_category</var></a>
+						<a href="source-class-AbstractCategoriesFormController.php#33" title="Go to source code"><var>$is_new_category</var></a>
 
 					<div class="description short">
 						

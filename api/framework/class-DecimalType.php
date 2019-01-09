@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Types.php">Types</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -690,7 +686,7 @@
 							<b>Link:</b>
 							<a href="https://www.doctrine-project.org">https://www.doctrine-project.org</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DecimalType.php#3-29" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/DecimalType.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DecimalType.php#3-28" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/DecimalType.php</a></span>
 			</div>
 
 			<div class="description">
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-DecimalType.php#15-18" title="Go to source code">getName</a>( )
+<a href="source-class-DecimalType.php#14-17" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_getSqlDeclaration">#</a>
 						<code>
-<a href="source-class-DecimalType.php#20-23" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-DecimalType.php#19-22" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_convertToPHPValue">#</a>
 						<code>
-<a href="source-class-DecimalType.php#25-28" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-DecimalType.php#24-27" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">

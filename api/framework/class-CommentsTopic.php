@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopic.php#3-102" title="Go to source code">content/comments/CommentsTopic.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopic.php#3-101" title="Go to source code">content/comments/CommentsTopic.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -709,7 +705,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -731,7 +727,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#25-29" title="Go to source code">__construct</a>( <span> <var>$module_id</var></span>, <span> <var>$topic_identifier</var> = self::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsTopic.php#24-28" title="Go to source code">__construct</a>( <span> <var>$module_id</var></span>, <span> <var>$topic_identifier</var> = self::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#31-37" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-CommentsTopic.php#30-36" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -805,7 +801,7 @@
 					<div>
 						<a class="anchor" href="#_is_display">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#39-45" title="Go to source code">is_display</a>( )
+<a href="source-class-CommentsTopic.php#38-44" title="Go to source code">is_display</a>( )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_comments_display">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#47-53" title="Go to source code">get_number_comments_display</a>( )
+<a href="source-class-CommentsTopic.php#46-52" title="Go to source code">get_number_comments_display</a>( )
 						</code>
 
 							<div class="description short">
@@ -883,7 +879,7 @@
 					<div>
 						<a class="anchor" href="#_get_events">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#55-61" title="Go to source code">get_events</a>( )
+<a href="source-class-CommentsTopic.php#54-60" title="Go to source code">get_events</a>( )
 						</code>
 
 							<div class="description short">
@@ -922,7 +918,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#63-66" title="Go to source code">display</a>( )
+<a href="source-class-CommentsTopic.php#62-65" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -957,7 +953,7 @@
 					<div>
 						<a class="anchor" href="#_get_topic_identifier">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#68-71" title="Go to source code">get_topic_identifier</a>( )
+<a href="source-class-CommentsTopic.php#67-70" title="Go to source code">get_topic_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -992,7 +988,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#73-76" title="Go to source code">get_module_id</a>( )
+<a href="source-class-CommentsTopic.php#72-75" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1027,7 +1023,7 @@
 					<div>
 						<a class="anchor" href="#_set_id_in_module">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#78-81" title="Go to source code">set_id_in_module</a>( <span> <var>$id_in_module</var></span> )
+<a href="source-class-CommentsTopic.php#77-80" title="Go to source code">set_id_in_module</a>( <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1062,7 +1058,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_in_module">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#83-86" title="Go to source code">get_id_in_module</a>( )
+<a href="source-class-CommentsTopic.php#82-85" title="Go to source code">get_id_in_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -1097,7 +1093,7 @@
 					<div>
 						<a class="anchor" href="#_set_url">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#88-91" title="Go to source code">set_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
+<a href="source-class-CommentsTopic.php#87-90" title="Go to source code">set_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1132,7 +1128,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#93-96" title="Go to source code">get_url</a>( )
+<a href="source-class-CommentsTopic.php#92-95" title="Go to source code">get_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1167,7 +1163,7 @@
 					<div>
 						<a class="anchor" href="#_get_path">#</a>
 						<code>
-<a href="source-class-CommentsTopic.php#98-101" title="Go to source code">get_path</a>( )
+<a href="source-class-CommentsTopic.php#97-100" title="Go to source code">get_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -1213,7 +1209,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsTopic.php#23" title="Go to source code"><b>DEFAULT_TOPIC_IDENTIFIER</b></a>
+								<a href="source-class-CommentsTopic.php#22" title="Go to source code"><b>DEFAULT_TOPIC_IDENTIFIER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CommentsTopic.php#18" title="Go to source code"><var>$module_id</var></a>
+						<a href="source-class-CommentsTopic.php#17" title="Go to source code"><var>$module_id</var></a>
 
 					<div class="description short">
 						
@@ -1279,7 +1275,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CommentsTopic.php#19" title="Go to source code"><var>$topic_identifier</var></a>
+						<a href="source-class-CommentsTopic.php#18" title="Go to source code"><var>$topic_identifier</var></a>
 
 					<div class="description short">
 						
@@ -1306,7 +1302,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CommentsTopic.php#20" title="Go to source code"><var>$id_in_module</var></a>
+						<a href="source-class-CommentsTopic.php#19" title="Go to source code"><var>$id_in_module</var></a>
 
 					<div class="description short">
 						
@@ -1333,7 +1329,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CommentsTopic.php#21" title="Go to source code"><var>$url</var></a>
+						<a href="source-class-CommentsTopic.php#20" title="Go to source code"><var>$url</var></a>
 
 					<div class="description short">
 						

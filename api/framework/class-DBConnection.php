@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBConnection.php#3-45" title="Go to source code">io/db/DBConnection.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBConnection.php#3-44" title="Go to source code">io/db/DBConnection.class.php</a></span>
 			</div>
 
 
@@ -733,7 +729,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_connect">#</a>
 						<code>
-<a href="source-class-DBConnection.php#15-20" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
+<a href="source-class-DBConnection.php#14-19" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@
 					<div>
 						<a class="anchor" href="#_disconnect">#</a>
 						<code>
-<a href="source-class-DBConnection.php#22" title="Go to source code">disconnect</a>( )
+<a href="source-class-DBConnection.php#21" title="Go to source code">disconnect</a>( )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-DBConnection.php#24-27" title="Go to source code">get_link</a>( )
+<a href="source-class-DBConnection.php#23-26" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -874,7 +870,7 @@
 					<div>
 						<a class="anchor" href="#_start_transaction">#</a>
 						<code>
-<a href="source-class-DBConnection.php#29-34" title="Go to source code">start_transaction</a>( )
+<a href="source-class-DBConnection.php#28-33" title="Go to source code">start_transaction</a>( )
 						</code>
 
 							<div class="description short">
@@ -913,7 +909,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_commit">#</a>
 						<code>
-<a href="source-class-DBConnection.php#36-39" title="Go to source code">commit</a>( )
+<a href="source-class-DBConnection.php#35-38" title="Go to source code">commit</a>( )
 						</code>
 
 							<div class="description short">
@@ -948,7 +944,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_rollback">#</a>
 						<code>
-<a href="source-class-DBConnection.php#41-44" title="Go to source code">rollback</a>( )
+<a href="source-class-DBConnection.php#40-43" title="Go to source code">rollback</a>( )
 						</code>
 
 							<div class="description short">

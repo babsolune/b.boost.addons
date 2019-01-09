@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.links.php">links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenuElement.php#3-209" title="Go to source code">phpboost/menu/links/LinksMenuElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenuElement.php#3-208" title="Go to source code">phpboost/menu/links/LinksMenuElement.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -733,7 +729,7 @@ use, on of these</div>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -755,7 +751,7 @@ use, on of these</div>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#47-60" title="Go to source code">__construct</a>( <span> <var>$title</var></span>, <span> <var>$url</var></span>, <span> <var>$image</var> = <span class="php-quote">''</span></span>, <span>integer <var>$id</var>,…</span> )
+<a href="source-class-LinksMenuElement.php#46-59" title="Go to source code">__construct</a>( <span> <var>$title</var></span>, <span> <var>$url</var></span>, <span> <var>$image</var> = <span class="php-quote">''</span></span>, <span>integer <var>$id</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@ use, on of these</div>
 					<div>
 						<a class="anchor" href="#__assign">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#62-127" title="Go to source code">_assign</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span>, <span>integer <var>$mode</var> = self::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
+<a href="source-class-LinksMenuElement.php#61-126" title="Go to source code">_assign</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span>, <span>integer <var>$mode</var> = self::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#__parent">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#151-158" title="Go to source code">_parent</a>( <span> <var>$type</var></span> )
+<a href="source-class-LinksMenuElement.php#150-157" title="Go to source code">_parent</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_set_image">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#161-167" title="Go to source code">set_image</a>( <span>string <var>$image</var></span> )
+<a href="source-class-LinksMenuElement.php#160-166" title="Go to source code">set_image</a>( <span>string <var>$image</var></span> )
 						</code>
 
 							<div class="description short">
@@ -924,7 +920,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_set_url">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#168-174" title="Go to source code">set_url</a>( <span>string <var>$url</var></span> )
+<a href="source-class-LinksMenuElement.php#167-173" title="Go to source code">set_url</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_uid">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#177-184" title="Go to source code">get_uid</a>( )
+<a href="source-class-LinksMenuElement.php#176-183" title="Go to source code">get_uid</a>( )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_update_uid">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#185-191" title="Go to source code">update_uid</a>( )
+<a href="source-class-LinksMenuElement.php#184-190" title="Go to source code">update_uid</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#192-199" title="Go to source code">get_url</a>( <span>boolean <var>$compute_relative_url</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-LinksMenuElement.php#191-198" title="Go to source code">get_url</a>( <span>boolean <var>$compute_relative_url</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1082,7 +1078,7 @@ also shown.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_image">#</a>
 						<code>
-<a href="source-class-LinksMenuElement.php#201-208" title="Go to source code">get_image</a>( <span>boolean <var>$compute_relative_url</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-LinksMenuElement.php#200-207" title="Go to source code">get_image</a>( <span>boolean <var>$compute_relative_url</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1171,7 +1167,7 @@ also shown.</p></dd>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenuElement.php#22" title="Go to source code"><b>LINKS_MENU_ELEMENT__CLASS</b></a>
+								<a href="source-class-LinksMenuElement.php#21" title="Go to source code"><b>LINKS_MENU_ELEMENT__CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1195,7 +1191,7 @@ also shown.</p></dd>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenuElement.php#23" title="Go to source code"><b>LINKS_MENU_ELEMENT__FULL_DISPLAYING</b></a>
+								<a href="source-class-LinksMenuElement.php#22" title="Go to source code"><b>LINKS_MENU_ELEMENT__FULL_DISPLAYING</b></a>
 							</code>
 
 							<div class="description short">
@@ -1219,7 +1215,7 @@ also shown.</p></dd>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenuElement.php#24" title="Go to source code"><b>LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</b></a>
+								<a href="source-class-LinksMenuElement.php#23" title="Go to source code"><b>LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</b></a>
 							</code>
 
 							<div class="description short">
@@ -1282,7 +1278,7 @@ also shown.</p></dd>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenuElement.php#26-30" title="Go to source code"><var>$url</var></a>
+						<a href="source-class-LinksMenuElement.php#25-29" title="Go to source code"><var>$url</var></a>
 
 					<div class="description short">
 						<p>the LinksMenuElement url</p>
@@ -1309,7 +1305,7 @@ also shown.</p></dd>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenuElement.php#31-35" title="Go to source code"><var>$image</var></a>
+						<a href="source-class-LinksMenuElement.php#30-34" title="Go to source code"><var>$image</var></a>
 
 					<div class="description short">
 						<p>the image url. Could be relative to the website root or absolute</p>
@@ -1336,7 +1332,7 @@ also shown.</p></dd>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenuElement.php#36-40" title="Go to source code"><var>$uid</var></a>
+						<a href="source-class-LinksMenuElement.php#35-39" title="Go to source code"><var>$uid</var></a>
 
 					<div class="description short">
 						<p>Menu's uid</p>
@@ -1363,7 +1359,7 @@ also shown.</p></dd>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenuElement.php#41-45" title="Go to source code"><var>$depth</var></a>
+						<a href="source-class-LinksMenuElement.php#40-44" title="Go to source code"><var>$depth</var></a>
 
 					<div class="description short">
 						<p>Menu's depth</p>

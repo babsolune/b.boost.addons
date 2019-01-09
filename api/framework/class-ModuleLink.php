@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a>\<a href="package-PHPBoost.Module.tree.links.php">tree-links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleLink.php#3-106" title="Go to source code">phpboost/module/tree-links/ModuleLink.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleLink.php#3-105" title="Go to source code">phpboost/module/tree-links/ModuleLink.class.php</a></span>
 			</div>
 
 
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#21-26" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$url</var></span>, <span> <var>$visibility</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ModuleLink.php#20-25" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$url</var></span>, <span> <var>$visibility</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#28-31" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-ModuleLink.php#27-30" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#33-36" title="Go to source code">get_name</a>( )
+<a href="source-class-ModuleLink.php#32-35" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_set_url">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#38-45" title="Go to source code">set_url</a>( <span> <var>$url</var></span> )
+<a href="source-class-ModuleLink.php#37-44" title="Go to source code">set_url</a>( <span> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -879,7 +875,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#47-50" title="Go to source code">get_url</a>( )
+<a href="source-class-ModuleLink.php#46-49" title="Go to source code">get_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -914,7 +910,7 @@
 					<div>
 						<a class="anchor" href="#_add_sub_link">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#52-55" title="Go to source code">add_sub_link</a>( <span><code><a href="class-ModuleLink.php">ModuleLink</a></code> <var>$sub_link</var></span> )
+<a href="source-class-ModuleLink.php#51-54" title="Go to source code">add_sub_link</a>( <span><code><a href="class-ModuleLink.php">ModuleLink</a></code> <var>$sub_link</var></span> )
 						</code>
 
 							<div class="description short">
@@ -949,7 +945,7 @@
 					<div>
 						<a class="anchor" href="#_get_sub_link">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#57-60" title="Go to source code">get_sub_link</a>( )
+<a href="source-class-ModuleLink.php#56-59" title="Go to source code">get_sub_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@
 					<div>
 						<a class="anchor" href="#_has_sub_link">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#62-65" title="Go to source code">has_sub_link</a>( )
+<a href="source-class-ModuleLink.php#61-64" title="Go to source code">has_sub_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -1019,7 +1015,7 @@
 					<div>
 						<a class="anchor" href="#_set_visibility">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#67-70" title="Go to source code">set_visibility</a>( <span> <var>$visibility</var></span> )
+<a href="source-class-ModuleLink.php#66-69" title="Go to source code">set_visibility</a>( <span> <var>$visibility</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1054,7 +1050,7 @@
 					<div>
 						<a class="anchor" href="#_is_visible">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#72-75" title="Go to source code">is_visible</a>( )
+<a href="source-class-ModuleLink.php#71-74" title="Go to source code">is_visible</a>( )
 						</code>
 
 							<div class="description short">
@@ -1089,7 +1085,7 @@
 					<div>
 						<a class="anchor" href="#_is_active">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#77-80" title="Go to source code">is_active</a>( )
+<a href="source-class-ModuleLink.php#76-79" title="Go to source code">is_active</a>( )
 						</code>
 
 							<div class="description short">
@@ -1124,7 +1120,7 @@
 					<div>
 						<a class="anchor" href="#_export">#</a>
 						<code>
-<a href="source-class-ModuleLink.php#82-105" title="Go to source code">export</a>( )
+<a href="source-class-ModuleLink.php#81-104" title="Go to source code">export</a>( )
 						</code>
 
 							<div class="description short">
@@ -1180,7 +1176,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ModuleLink.php#16" title="Go to source code"><var>$name</var></a>
+						<a href="source-class-ModuleLink.php#15" title="Go to source code"><var>$name</var></a>
 
 					<div class="description short">
 						
@@ -1207,7 +1203,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ModuleLink.php#17" title="Go to source code"><var>$url</var></a>
+						<a href="source-class-ModuleLink.php#16" title="Go to source code"><var>$url</var></a>
 
 					<div class="description short">
 						
@@ -1234,7 +1230,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ModuleLink.php#18" title="Go to source code"><var>$sub_link</var></a>
+						<a href="source-class-ModuleLink.php#17" title="Go to source code"><var>$sub_link</var></a>
 
 					<div class="description short">
 						
@@ -1261,7 +1257,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ModuleLink.php#19" title="Go to source code"><var>$visibility</var></a>
+						<a href="source-class-ModuleLink.php#18" title="Go to source code"><var>$visibility</var></a>
 
 					<div class="description short">
 						

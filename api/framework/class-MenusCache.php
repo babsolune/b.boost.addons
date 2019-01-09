@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -689,7 +685,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2014 08 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusCache.php#3-55" title="Go to source code">phpboost/cache/MenusCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MenusCache.php#3-54" title="Go to source code">phpboost/cache/MenusCache.class.php</a></span>
 			</div>
 
 
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-MenusCache.php#17-32" title="Go to source code">synchronize</a>( )
+<a href="source-class-MenusCache.php#16-31" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_menus">#</a>
 						<code>
-<a href="source-class-MenusCache.php#34-37" title="Go to source code">get_menus</a>( )
+<a href="source-class-MenusCache.php#33-36" title="Go to source code">get_menus</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-MenusCache.php#39-46" title="Go to source code">load</a>( )
+<a href="source-class-MenusCache.php#38-45" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -845,7 +841,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-MenusCache.php#48-54" title="Go to source code">invalidate</a>( )
+<a href="source-class-MenusCache.php#47-53" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

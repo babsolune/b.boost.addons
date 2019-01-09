@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Filesystem.php">Filesystem</a>\<a href="package-IO.Filesystem.stream.php">stream</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-BufferedFileWriter.php#3-60" title="Go to source code">io/filesystem/stream/BufferedFileWriter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-BufferedFileWriter.php#3-59" title="Go to source code">io/filesystem/stream/BufferedFileWriter.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-BufferedFileWriter.php#26-30" title="Go to source code">__construct</a>( <span><code><a href="class-File.php">File</a></code> <var>$file</var></span>, <span> <var>$buffer_size</var> = self::DEFAULT_BUFFER_SIZE</span> )
+<a href="source-class-BufferedFileWriter.php#25-29" title="Go to source code">__construct</a>( <span><code><a href="class-File.php">File</a></code> <var>$file</var></span>, <span> <var>$buffer_size</var> = self::DEFAULT_BUFFER_SIZE</span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_append">#</a>
 						<code>
-<a href="source-class-BufferedFileWriter.php#32-43" title="Go to source code">append</a>( <span> <var>$content</var></span> )
+<a href="source-class-BufferedFileWriter.php#31-42" title="Go to source code">append</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_flush">#</a>
 						<code>
-<a href="source-class-BufferedFileWriter.php#50-54" title="Go to source code">flush</a>( )
+<a href="source-class-BufferedFileWriter.php#49-53" title="Go to source code">flush</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-BufferedFileWriter.php#17" title="Go to source code"><b>DEFAULT_BUFFER_SIZE</b></a>
+								<a href="source-class-BufferedFileWriter.php#16" title="Go to source code"><b>DEFAULT_BUFFER_SIZE</b></a>
 							</code>
 
 							<div class="description short">

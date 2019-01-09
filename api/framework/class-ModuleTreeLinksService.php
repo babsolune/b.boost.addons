@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a>\<a href="package-PHPBoost.Module.tree.links.php">tree-links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleTreeLinksService.php#3-120" title="Go to source code">phpboost/module/tree-links/ModuleTreeLinksService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleTreeLinksService.php#3-119" title="Go to source code">phpboost/module/tree-links/ModuleTreeLinksService.class.php</a></span>
 			</div>
 
 
@@ -717,7 +713,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -739,7 +735,7 @@
 					<div>
 						<a class="anchor" href="#_display_actions_menu">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinksService.php#17-48" title="Go to source code">display_actions_menu</a>( )
+<a href="source-class-ModuleTreeLinksService.php#16-47" title="Go to source code">display_actions_menu</a>( )
 						</code>
 
 							<div class="description short">
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#_display_admin_actions_menu">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinksService.php#50-88" title="Go to source code">display_admin_actions_menu</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
+<a href="source-class-ModuleTreeLinksService.php#49-87" title="Go to source code">display_admin_actions_menu</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinksService.php#90-108" title="Go to source code">display</a>( <span><code><a href="class-ModuleTreeLinks.php">ModuleTreeLinks</a></code> <var>$tree_links</var></span>, <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
+<a href="source-class-ModuleTreeLinksService.php#89-107" title="Go to source code">display</a>( <span><code><a href="class-ModuleTreeLinks.php">ModuleTreeLinks</a></code> <var>$tree_links</var></span>, <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_get_tree_links">#</a>
 						<code>
-<a href="source-class-ModuleTreeLinksService.php#110-119" title="Go to source code">get_tree_links</a>( <span> <var>$module_name</var></span> )
+<a href="source-class-ModuleTreeLinksService.php#109-118" title="Go to source code">get_tree_links</a>( <span> <var>$module_name</var></span> )
 						</code>
 
 							<div class="description short">

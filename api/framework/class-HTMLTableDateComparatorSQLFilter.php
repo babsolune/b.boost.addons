@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a>\<a href="package-Builder.Table.filter.sql.php">sql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 5.0 - 2017 04 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableDateComparatorSQLFilter.php#3-64" title="Go to source code">builder/table/filter/sql/HTMLTableDateComparatorSQLFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableDateComparatorSQLFilter.php#3-63" title="Go to source code">builder/table/filter/sql/HTMLTableDateComparatorSQLFilter.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#19-25" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span> )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#18-24" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#27-36" title="Go to source code">get_sql</a>( )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#26-35" title="Go to source code">get_sql</a>( )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_is_value_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#38-49" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#37-48" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_value_parameter_prefix">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#51-54" title="Go to source code">get_sql_value_parameter_prefix</a>( )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#50-53" title="Go to source code">get_sql_value_parameter_prefix</a>( )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_comparator_symbol">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#56" title="Go to source code">get_sql_comparator_symbol</a>( )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#55" title="Go to source code">get_sql_comparator_symbol</a>( )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_field_class">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#58" title="Go to source code">get_form_field_class</a>( )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#57" title="Go to source code">get_form_field_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@
 					<div>
 						<a class="anchor" href="#_get_timestamp">#</a>
 						<code>
-<a href="source-class-HTMLTableDateComparatorSQLFilter.php#60-63" title="Go to source code">get_timestamp</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableDateComparatorSQLFilter.php#59-62" title="Go to source code">get_timestamp</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">

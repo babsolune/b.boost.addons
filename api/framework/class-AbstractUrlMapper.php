@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractUrlMapper.php#3-45" title="Go to source code">mvc/dispatcher/AbstractUrlMapper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractUrlMapper.php#3-44" title="Go to source code">mvc/dispatcher/AbstractUrlMapper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -747,7 +743,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -769,7 +765,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractUrlMapper.php#26-29" title="Go to source code">__construct</a>( <span> <var>$capture_regex</var></span> )
+<a href="source-class-AbstractUrlMapper.php#25-28" title="Go to source code">__construct</a>( <span> <var>$capture_regex</var></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_match">#</a>
 						<code>
-<a href="source-class-AbstractUrlMapper.php#31-39" title="Go to source code">match</a>( <span>string <var>$url</var></span> )
+<a href="source-class-AbstractUrlMapper.php#30-38" title="Go to source code">match</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -850,7 +846,7 @@
 					<div>
 						<a class="anchor" href="#_get_captured_parameters">#</a>
 						<code>
-<a href="source-class-AbstractUrlMapper.php#41-44" title="Go to source code">get_captured_parameters</a>( )
+<a href="source-class-AbstractUrlMapper.php#40-43" title="Go to source code">get_captured_parameters</a>( )
 						</code>
 
 							<div class="description short">

@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Helper.php">Helper</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormatingHelper.php#3-91" title="Go to source code">helper/FormatingHelper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormatingHelper.php#3-90" title="Go to source code">helper/FormatingHelper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#_strparse">#</a>
 						<code>
-<a href="source-class-FormatingHelper.php#19-48" title="Go to source code">strparse</a>( <span>string <var>$content</var></span>, <span>string[] <var>$forbidden_tags</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$addslashes</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-FormatingHelper.php#18-47" title="Go to source code">strparse</a>( <span>string <var>$content</var></span>, <span>string[] <var>$forbidden_tags</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$addslashes</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_unparse">#</a>
 						<code>
-<a href="source-class-FormatingHelper.php#50-63" title="Go to source code">unparse</a>( <span>string <var>$content</var></span> )
+<a href="source-class-FormatingHelper.php#49-62" title="Go to source code">unparse</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -843,7 +839,7 @@
 					<div>
 						<a class="anchor" href="#_second_parse">#</a>
 						<code>
-<a href="source-class-FormatingHelper.php#65-78" title="Go to source code">second_parse</a>( <span>string <var>$content</var></span> )
+<a href="source-class-FormatingHelper.php#64-77" title="Go to source code">second_parse</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_second_parse_url">#</a>
 						<code>
-<a href="source-class-FormatingHelper.php#80-90" title="Go to source code">second_parse_url</a>( <span>string <var>$url</var></span> )
+<a href="source-class-FormatingHelper.php#79-89" title="Go to source code">second_parse_url</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FormatingHelper.php#17" title="Go to source code"><b>NO_EDITOR_UNPARSE</b></a>
+								<a href="source-class-FormatingHelper.php#16" title="Go to source code"><b>NO_EDITOR_UNPARSE</b></a>
 							</code>
 
 							<div class="description short">

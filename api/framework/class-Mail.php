@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Mail.php">Mail</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Mail.php#3-298" title="Go to source code">io/mail/Mail.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Mail.php#3-297" title="Go to source code">io/mail/Mail.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -723,7 +719,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -745,7 +741,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Mail.php#78-83" title="Go to source code">__construct</a>( )
+<a href="source-class-Mail.php#77-82" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_set_sender">#</a>
 						<code>
-<a href="source-class-Mail.php#85-102" title="Go to source code">set_sender</a>( <span>string <var>$sender</var></span>, <span>string <var>$sender_name</var> = self::SENDER_ADMIN</span> )
+<a href="source-class-Mail.php#84-101" title="Go to source code">set_sender</a>( <span>string <var>$sender</var></span>, <span>string <var>$sender_name</var> = self::SENDER_ADMIN</span> )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_set_reply_to">#</a>
 						<code>
-<a href="source-class-Mail.php#104-119" title="Go to source code">set_reply_to</a>( <span>string <var>$reply_to</var></span>, <span>string <var>$reply_to_name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Mail.php#103-118" title="Go to source code">set_reply_to</a>( <span>string <var>$reply_to</var></span>, <span>string <var>$reply_to_name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_add_recipient">#</a>
 						<code>
-<a href="source-class-Mail.php#121-132" title="Go to source code">add_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Mail.php#120-131" title="Go to source code">add_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_clear_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#134-137" title="Go to source code">clear_recipients</a>( )
+<a href="source-class-Mail.php#133-136" title="Go to source code">clear_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@
 					<div>
 						<a class="anchor" href="#_add_cc_recipient">#</a>
 						<code>
-<a href="source-class-Mail.php#139-150" title="Go to source code">add_cc_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Mail.php#138-149" title="Go to source code">add_cc_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -983,7 +979,7 @@
 					<div>
 						<a class="anchor" href="#_clear_cc_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#152-155" title="Go to source code">clear_cc_recipients</a>( )
+<a href="source-class-Mail.php#151-154" title="Go to source code">clear_cc_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -1018,7 +1014,7 @@
 					<div>
 						<a class="anchor" href="#_add_bcc_recipient">#</a>
 						<code>
-<a href="source-class-Mail.php#157-168" title="Go to source code">add_bcc_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Mail.php#156-167" title="Go to source code">add_bcc_recipient</a>( <span>string <var>$address</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1060,7 +1056,7 @@
 					<div>
 						<a class="anchor" href="#_clear_bcc_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#170-173" title="Go to source code">clear_bcc_recipients</a>( )
+<a href="source-class-Mail.php#169-172" title="Go to source code">clear_bcc_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -1095,7 +1091,7 @@
 					<div>
 						<a class="anchor" href="#_get_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#180-187" title="Go to source code">get_recipients</a>( )
+<a href="source-class-Mail.php#179-186" title="Go to source code">get_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -1134,7 +1130,7 @@
 					<div>
 						<a class="anchor" href="#_get_cc_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#189-196" title="Go to source code">get_cc_recipients</a>( )
+<a href="source-class-Mail.php#188-195" title="Go to source code">get_cc_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -1173,7 +1169,7 @@
 					<div>
 						<a class="anchor" href="#_get_bcc_recipients">#</a>
 						<code>
-<a href="source-class-Mail.php#198-205" title="Go to source code">get_bcc_recipients</a>( )
+<a href="source-class-Mail.php#197-204" title="Go to source code">get_bcc_recipients</a>( )
 						</code>
 
 							<div class="description short">
@@ -1212,7 +1208,7 @@
 					<div>
 						<a class="anchor" href="#_set_subject">#</a>
 						<code>
-<a href="source-class-Mail.php#207-214" title="Go to source code">set_subject</a>( <span>string <var>$subject</var></span> )
+<a href="source-class-Mail.php#206-213" title="Go to source code">set_subject</a>( <span>string <var>$subject</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@
 					<div>
 						<a class="anchor" href="#_set_content">#</a>
 						<code>
-<a href="source-class-Mail.php#216-224" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
+<a href="source-class-Mail.php#215-223" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1292,7 +1288,7 @@
 					<div>
 						<a class="anchor" href="#_set_headers">#</a>
 						<code>
-<a href="source-class-Mail.php#226-233" title="Go to source code">set_headers</a>( <span>string <var>$headers</var></span> )
+<a href="source-class-Mail.php#225-232" title="Go to source code">set_headers</a>( <span>string <var>$headers</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1332,7 +1328,7 @@
 					<div>
 						<a class="anchor" href="#_get_sender_mail">#</a>
 						<code>
-<a href="source-class-Mail.php#235-242" title="Go to source code">get_sender_mail</a>( )
+<a href="source-class-Mail.php#234-241" title="Go to source code">get_sender_mail</a>( )
 						</code>
 
 							<div class="description short">
@@ -1371,7 +1367,7 @@
 					<div>
 						<a class="anchor" href="#_get_sender_name">#</a>
 						<code>
-<a href="source-class-Mail.php#244-251" title="Go to source code">get_sender_name</a>( )
+<a href="source-class-Mail.php#243-250" title="Go to source code">get_sender_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1410,7 +1406,7 @@
 					<div>
 						<a class="anchor" href="#_get_reply_to_mail">#</a>
 						<code>
-<a href="source-class-Mail.php#253-260" title="Go to source code">get_reply_to_mail</a>( )
+<a href="source-class-Mail.php#252-259" title="Go to source code">get_reply_to_mail</a>( )
 						</code>
 
 							<div class="description short">
@@ -1449,7 +1445,7 @@
 					<div>
 						<a class="anchor" href="#_get_reply_to_name">#</a>
 						<code>
-<a href="source-class-Mail.php#262-269" title="Go to source code">get_reply_to_name</a>( )
+<a href="source-class-Mail.php#261-268" title="Go to source code">get_reply_to_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1488,7 +1484,7 @@
 					<div>
 						<a class="anchor" href="#_get_subject">#</a>
 						<code>
-<a href="source-class-Mail.php#271-278" title="Go to source code">get_subject</a>( )
+<a href="source-class-Mail.php#270-277" title="Go to source code">get_subject</a>( )
 						</code>
 
 							<div class="description short">
@@ -1527,7 +1523,7 @@
 					<div>
 						<a class="anchor" href="#_get_content">#</a>
 						<code>
-<a href="source-class-Mail.php#280-287" title="Go to source code">get_content</a>( )
+<a href="source-class-Mail.php#279-286" title="Go to source code">get_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1566,7 +1562,7 @@
 					<div>
 						<a class="anchor" href="#_set_is_html">#</a>
 						<code>
-<a href="source-class-Mail.php#289-292" title="Go to source code">set_is_html</a>( <span> <var>$is</var></span> )
+<a href="source-class-Mail.php#288-291" title="Go to source code">set_is_html</a>( <span> <var>$is</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1601,7 +1597,7 @@
 					<div>
 						<a class="anchor" href="#_is_html">#</a>
 						<code>
-<a href="source-class-Mail.php#294-297" title="Go to source code">is_html</a>( )
+<a href="source-class-Mail.php#293-296" title="Go to source code">is_html</a>( )
 						</code>
 
 							<div class="description short">
@@ -1647,7 +1643,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Mail.php#18" title="Go to source code"><b>SENDER_ADMIN</b></a>
+								<a href="source-class-Mail.php#17" title="Go to source code"><b>SENDER_ADMIN</b></a>
 							</code>
 
 							<div class="description short">
@@ -1671,7 +1667,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Mail.php#20" title="Go to source code"><b>SENDER_USER</b></a>
+								<a href="source-class-Mail.php#19" title="Go to source code"><b>SENDER_USER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1710,7 +1706,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#22-25" title="Go to source code"><var>$subject</var></a>
+						<a href="source-class-Mail.php#21-24" title="Go to source code"><var>$subject</var></a>
 
 					<div class="description short">
 						<p>object of the mail</p>
@@ -1737,7 +1733,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#27-30" title="Go to source code"><var>$content</var></a>
+						<a href="source-class-Mail.php#26-29" title="Go to source code"><var>$content</var></a>
 
 					<div class="description short">
 						<p>content of the mail</p>
@@ -1764,7 +1760,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#32-35" title="Go to source code"><var>$sender_mail</var></a>
+						<a href="source-class-Mail.php#31-34" title="Go to source code"><var>$sender_mail</var></a>
 
 					<div class="description short">
 						<p>Address of the mail sender.</p>
@@ -1791,7 +1787,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#37-40" title="Go to source code"><var>$sender_name</var></a>
+						<a href="source-class-Mail.php#36-39" title="Go to source code"><var>$sender_name</var></a>
 
 					<div class="description short">
 						<p>The mail sender name.</p>
@@ -1818,7 +1814,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#42-45" title="Go to source code"><var>$reply_to_mail</var></a>
+						<a href="source-class-Mail.php#41-44" title="Go to source code"><var>$reply_to_mail</var></a>
 
 					<div class="description short">
 						<p>Address of the mail to reply to.</p>
@@ -1845,7 +1841,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#47-50" title="Go to source code"><var>$reply_to_name</var></a>
+						<a href="source-class-Mail.php#46-49" title="Go to source code"><var>$reply_to_name</var></a>
 
 					<div class="description short">
 						<p>The reply to mail sender name.</p>
@@ -1872,7 +1868,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#52-55" title="Go to source code"><var>$headers</var></a>
+						<a href="source-class-Mail.php#51-54" title="Go to source code"><var>$headers</var></a>
 
 					<div class="description short">
 						<p>mail headers.</p>
@@ -1899,7 +1895,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#57-60" title="Go to source code"><var>$recipients</var></a>
+						<a href="source-class-Mail.php#56-59" title="Go to source code"><var>$recipients</var></a>
 
 					<div class="description short">
 						<p>Recipients of the mail. If they are more than one, a comma separates their addresses.</p>
@@ -1926,7 +1922,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#62-65" title="Go to source code"><var>$cc_recipients</var></a>
+						<a href="source-class-Mail.php#61-64" title="Go to source code"><var>$cc_recipients</var></a>
 
 					<div class="description short">
 						<p>Cc recipients of the mail. If they are more than one, a comma separates their addresses.</p>
@@ -1953,7 +1949,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#67-70" title="Go to source code"><var>$bcc_recipients</var></a>
+						<a href="source-class-Mail.php#66-69" title="Go to source code"><var>$bcc_recipients</var></a>
 
 					<div class="description short">
 						<p>Bcc recipients of the mail. If they are more than one, a comma separates their addresses.</p>
@@ -1980,7 +1976,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-Mail.php#72-75" title="Go to source code"><var>$is_html</var></a>
+						<a href="source-class-Mail.php#71-74" title="Go to source code"><var>$is_html</var></a>
 
 					<div class="description short">
 						<p>Tells whether the content contains HTML code</p>

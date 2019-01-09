@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 09 20
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopicEvents.php#3-28" title="Go to source code">content/comments/CommentsTopicEvents.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopicEvents.php#3-27" title="Go to source code">content/comments/CommentsTopicEvents.class.php</a></span>
 			</div>
 
 
@@ -700,7 +696,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -722,7 +718,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CommentsTopicEvents.php#17-20" title="Go to source code">__construct</a>( <span><code><a href="class-CommentsTopic.php">CommentsTopic</a></code> <var>$comments_topic</var></span> )
+<a href="source-class-CommentsTopicEvents.php#16-19" title="Go to source code">__construct</a>( <span><code><a href="class-CommentsTopic.php">CommentsTopic</a></code> <var>$comments_topic</var></span> )
 						</code>
 
 							<div class="description short">
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_execute_add_comment_event">#</a>
 						<code>
-<a href="source-class-CommentsTopicEvents.php#22" title="Go to source code">execute_add_comment_event</a>( )
+<a href="source-class-CommentsTopicEvents.php#21" title="Go to source code">execute_add_comment_event</a>( )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@
 					<div>
 						<a class="anchor" href="#_get_comments_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicEvents.php#24-27" title="Go to source code">get_comments_topic</a>( )
+<a href="source-class-CommentsTopicEvents.php#23-26" title="Go to source code">get_comments_topic</a>( )
 						</code>
 
 							<div class="description short">
@@ -848,7 +844,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CommentsTopicEvents.php#15" title="Go to source code"><var>$comments_topic</var></a>
+						<a href="source-class-CommentsTopicEvents.php#14" title="Go to source code"><var>$comments_topic</var></a>
 
 					<div class="description short">
 						

@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Filesystem.php">Filesystem</a>\<a href="package-IO.Filesystem.stream.php">stream</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 05 29
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileWriter.php#3-16" title="Go to source code">io/filesystem/stream/FileWriter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileWriter.php#3-15" title="Go to source code">io/filesystem/stream/FileWriter.class.php</a></span>
 			</div>
 
 
@@ -712,7 +708,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -734,7 +730,7 @@
 					<div>
 						<a class="anchor" href="#_append">#</a>
 						<code>
-<a href="source-class-FileWriter.php#15" title="Go to source code">append</a>( <span> <var>$content</var></span> )
+<a href="source-class-FileWriter.php#14" title="Go to source code">append</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">

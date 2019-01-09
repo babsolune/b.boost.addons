@@ -680,10 +680,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.button.php">button</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 31
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonAjax.php#3-44" title="Go to source code">builder/form/button/FormButtonAjax.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonAjax.php#3-43" title="Go to source code">builder/form/button/FormButtonAjax.class.php</a></span>
 			</div>
 
 
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormButtonAjax.php#15-27" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span><code><a href="class-AjaxRequest.php">AjaxRequest</a></code> <var>$request</var></span>, <span> <var>$img</var></span>, <span>array <var>$fields</var></span>, <span> <var>$condition</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-FormButtonAjax.php#14-26" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span><code><a href="class-AjaxRequest.php">AjaxRequest</a></code> <var>$request</var></span>, <span> <var>$img</var></span>, <span>array <var>$fields</var></span>, <span> <var>$condition</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">

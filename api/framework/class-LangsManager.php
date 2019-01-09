@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Langs.php">Langs</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangsManager.php#3-210" title="Go to source code">phpboost/langs/LangsManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangsManager.php#3-209" title="Go to source code">phpboost/langs/LangsManager.class.php</a></span>
 			</div>
 
 
@@ -704,7 +700,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -726,7 +722,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_langs_map">#</a>
 						<code>
-<a href="source-class-LangsManager.php#19-22" title="Go to source code">get_installed_langs_map</a>( )
+<a href="source-class-LangsManager.php#18-21" title="Go to source code">get_installed_langs_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_langs_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-LangsManager.php#24-36" title="Go to source code">get_installed_langs_map_sorted_by_localized_name</a>( )
+<a href="source-class-LangsManager.php#23-35" title="Go to source code">get_installed_langs_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_langs_map">#</a>
 						<code>
-<a href="source-class-LangsManager.php#38-47" title="Go to source code">get_activated_langs_map</a>( )
+<a href="source-class-LangsManager.php#37-46" title="Go to source code">get_activated_langs_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_langs_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-LangsManager.php#49-61" title="Go to source code">get_activated_langs_map_sorted_by_localized_name</a>( )
+<a href="source-class-LangsManager.php#48-60" title="Go to source code">get_activated_langs_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_and_authorized_langs_map">#</a>
 						<code>
-<a href="source-class-LangsManager.php#63-72" title="Go to source code">get_activated_and_authorized_langs_map</a>( )
+<a href="source-class-LangsManager.php#62-71" title="Go to source code">get_activated_and_authorized_langs_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -911,7 +907,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_and_authorized_langs_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-LangsManager.php#74-86" title="Go to source code">get_activated_and_authorized_langs_map_sorted_by_localized_name</a>( )
+<a href="source-class-LangsManager.php#73-85" title="Go to source code">get_activated_and_authorized_langs_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -951,7 +947,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_callback_sort_langs_by_name">#</a>
 						<code>
-<a href="source-class-LangsManager.php#88-95" title="Go to source code">callback_sort_langs_by_name</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang1</var></span>, <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang2</var></span> )
+<a href="source-class-LangsManager.php#87-94" title="Go to source code">callback_sort_langs_by_name</a>( <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang1</var></span>, <span><code><a href="class-Lang.php">Lang</a></code> <var>$lang2</var></span> )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_default_lang">#</a>
 						<code>
-<a href="source-class-LangsManager.php#97-100" title="Go to source code">get_default_lang</a>( )
+<a href="source-class-LangsManager.php#96-99" title="Go to source code">get_default_lang</a>( )
 						</code>
 
 							<div class="description short">
@@ -1021,7 +1017,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_lang">#</a>
 						<code>
-<a href="source-class-LangsManager.php#102-105" title="Go to source code">get_lang</a>( <span> <var>$id</var></span> )
+<a href="source-class-LangsManager.php#101-104" title="Go to source code">get_lang</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1056,7 +1052,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_lang_existed">#</a>
 						<code>
-<a href="source-class-LangsManager.php#107-114" title="Go to source code">get_lang_existed</a>( <span> <var>$id</var></span> )
+<a href="source-class-LangsManager.php#106-113" title="Go to source code">get_lang_existed</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1091,7 +1087,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_install">#</a>
 						<code>
-<a href="source-class-LangsManager.php#116-142" title="Go to source code">install</a>( <span> <var>$id</var></span>, <span> <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$enable</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-LangsManager.php#115-141" title="Go to source code">install</a>( <span> <var>$id</var></span>, <span> <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$enable</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_uninstall">#</a>
 						<code>
-<a href="source-class-LangsManager.php#144-165" title="Go to source code">uninstall</a>( <span> <var>$id</var></span>, <span> <var>$drop_files</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-LangsManager.php#143-164" title="Go to source code">uninstall</a>( <span> <var>$id</var></span>, <span> <var>$drop_files</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1161,7 +1157,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_visibility">#</a>
 						<code>
-<a href="source-class-LangsManager.php#167-176" title="Go to source code">change_visibility</a>( <span> <var>$id</var></span>, <span> <var>$visibility</var></span> )
+<a href="source-class-LangsManager.php#166-175" title="Go to source code">change_visibility</a>( <span> <var>$id</var></span>, <span> <var>$visibility</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1196,7 +1192,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_authorizations">#</a>
 						<code>
-<a href="source-class-LangsManager.php#178-187" title="Go to source code">change_authorizations</a>( <span> <var>$id</var></span>, <span>array <var>$authorizations</var></span> )
+<a href="source-class-LangsManager.php#177-186" title="Go to source code">change_authorizations</a>( <span> <var>$id</var></span>, <span>array <var>$authorizations</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1231,7 +1227,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_informations">#</a>
 						<code>
-<a href="source-class-LangsManager.php#189-204" title="Go to source code">change_informations</a>( <span> <var>$id</var></span>, <span> <var>$visibility</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-LangsManager.php#188-203" title="Go to source code">change_informations</a>( <span> <var>$id</var></span>, <span> <var>$visibility</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1266,7 +1262,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_error">#</a>
 						<code>
-<a href="source-class-LangsManager.php#206-209" title="Go to source code">get_error</a>( )
+<a href="source-class-LangsManager.php#205-208" title="Go to source code">get_error</a>( )
 						</code>
 
 							<div class="description short">

@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringTemplate.php#3-72" title="Go to source code">io/template/StringTemplate.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringTemplate.php#3-71" title="Go to source code">io/template/StringTemplate.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -757,7 +753,7 @@ a big efficiency. It will be the case for instance when you know that a string t
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -779,7 +775,7 @@ a big efficiency. It will be the case for instance when you know that a string t
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-StringTemplate.php#31-52" title="Go to source code">__construct</a>( <span>string <var>$content</var></span>, <span>boolean <var>$use_cache</var> = self::USE_CACHE_IF_FASTER</span>, <span>boolean <var>$auto_load_vars</var>,…</span> )
+<a href="source-class-StringTemplate.php#30-51" title="Go to source code">__construct</a>( <span>string <var>$content</var></span>, <span>boolean <var>$use_cache</var> = self::USE_CACHE_IF_FASTER</span>, <span>boolean <var>$auto_load_vars</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@ a big efficiency. It will be the case for instance when you know that a string t
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-StringTemplate.php#22-25" title="Go to source code"><b>DONT_USE_CACHE</b></a>
+								<a href="source-class-StringTemplate.php#21-24" title="Go to source code"><b>DONT_USE_CACHE</b></a>
 							</code>
 
 							<div class="description short">
@@ -883,7 +879,7 @@ a big efficiency. It will be the case for instance when you know that a string t
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-StringTemplate.php#26-29" title="Go to source code"><b>USE_CACHE_IF_FASTER</b></a>
+								<a href="source-class-StringTemplate.php#25-28" title="Go to source code"><b>USE_CACHE_IF_FASTER</b></a>
 							</code>
 
 							<div class="description short">

@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Keyword.php">Keyword</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -684,7 +680,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2018 11 09
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeywordsCache.php#3-74" title="Go to source code">content/keyword/KeywordsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-KeywordsCache.php#3-73" title="Go to source code">content/keyword/KeywordsCache.class.php</a></span>
 			</div>
 
 
@@ -705,7 +701,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -727,7 +723,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#17-34" title="Go to source code">synchronize</a>( )
+<a href="source-class-KeywordsCache.php#16-33" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -766,7 +762,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_module_identifier">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#36" title="Go to source code">get_module_identifier</a>( )
+<a href="source-class-KeywordsCache.php#35" title="Go to source code">get_module_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_keywords">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#38-45" title="Go to source code">get_keywords</a>( <span> <var>$id_in_module</var></span> )
+<a href="source-class-KeywordsCache.php#37-44" title="Go to source code">get_keywords</a>( <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_has_keywords">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#47-50" title="Go to source code">has_keywords</a>( <span> <var>$id</var></span> )
+<a href="source-class-KeywordsCache.php#46-49" title="Go to source code">has_keywords</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#52-59" title="Go to source code">load</a>( )
+<a href="source-class-KeywordsCache.php#51-58" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -910,7 +906,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#61-67" title="Go to source code">invalidate</a>( )
+<a href="source-class-KeywordsCache.php#60-66" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_class">#</a>
 						<code>
-<a href="source-class-KeywordsCache.php#69-73" title="Go to source code">get_class</a>( )
+<a href="source-class-KeywordsCache.php#68-72" title="Go to source code">get_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@ For instance,</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-KeywordsCache.php#15" title="Go to source code"><var>$keywords</var></a>
+						<a href="source-class-KeywordsCache.php#14" title="Go to source code"><var>$keywords</var></a>
 
 					<div class="description short">
 						

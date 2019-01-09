@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-GroupsService.php#21-167" title="Go to source code">phpboost/member/GroupsService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-GroupsService.php#20-166" title="Go to source code">phpboost/member/GroupsService.class.php</a></span>
 			</div>
 
 
@@ -704,7 +700,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -726,7 +722,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-GroupsService.php#25-28" title="Go to source code">__static</a>( )
+<a href="source-class-GroupsService.php#24-27" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#_add_member">#</a>
 						<code>
-<a href="source-class-GroupsService.php#30-67" title="Go to source code">add_member</a>( <span>integer <var>$user_id</var></span>, <span>integer <var>$idgroup</var></span> )
+<a href="source-class-GroupsService.php#29-66" title="Go to source code">add_member</a>( <span>integer <var>$user_id</var></span>, <span>integer <var>$idgroup</var></span> )
 						</code>
 
 							<div class="description short">
@@ -807,7 +803,7 @@
 					<div>
 						<a class="anchor" href="#_edit_member">#</a>
 						<code>
-<a href="source-class-GroupsService.php#69-99" title="Go to source code">edit_member</a>( <span>integer <var>$user_id</var></span>, <span>array <var>$array_user_groups</var></span> )
+<a href="source-class-GroupsService.php#68-98" title="Go to source code">edit_member</a>( <span>integer <var>$user_id</var></span>, <span>array <var>$array_user_groups</var></span> )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@
 					<div>
 						<a class="anchor" href="#_get_groups_names">#</a>
 						<code>
-<a href="source-class-GroupsService.php#101-118" title="Go to source code">get_groups_names</a>( )
+<a href="source-class-GroupsService.php#100-117" title="Go to source code">get_groups_names</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_get_groups">#</a>
 						<code>
-<a href="source-class-GroupsService.php#120-133" title="Go to source code">get_groups</a>( )
+<a href="source-class-GroupsService.php#119-132" title="Go to source code">get_groups</a>( )
 						</code>
 
 							<div class="description short">
@@ -927,7 +923,7 @@
 					<div>
 						<a class="anchor" href="#_remove_member">#</a>
 						<code>
-<a href="source-class-GroupsService.php#135-166" title="Go to source code">remove_member</a>( <span>integer <var>$user_id</var></span>, <span>integer <var>$idgroup</var></span> )
+<a href="source-class-GroupsService.php#134-165" title="Go to source code">remove_member</a>( <span>integer <var>$user_id</var></span>, <span>integer <var>$idgroup</var></span> )
 						</code>
 
 							<div class="description short">

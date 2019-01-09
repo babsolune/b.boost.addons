@@ -686,10 +686,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.config.php">config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -709,7 +705,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 09 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ConfigData.php#3-39" title="Go to source code">io/data/config/ConfigData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ConfigData.php#3-38" title="Go to source code">io/data/config/ConfigData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -763,7 +759,7 @@ config manager. The storage mode is very powerful, it uses a two-level cache and
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -785,7 +781,7 @@ config manager. The storage mode is very powerful, it uses a two-level cache and
 					<div>
 						<a class="anchor" href="#_get_property">#</a>
 						<code>
-<a href="source-class-ConfigData.php#18-24" title="Go to source code">get_property</a>( <span>string <var>$name</var></span> )
+<a href="source-class-ConfigData.php#17-23" title="Go to source code">get_property</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@ config manager. The storage mode is very powerful, it uses a two-level cache and
 					<div>
 						<a class="anchor" href="#_set_property">#</a>
 						<code>
-<a href="source-class-ConfigData.php#26-32" title="Go to source code">set_property</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )
+<a href="source-class-ConfigData.php#25-31" title="Go to source code">set_property</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@ otherwise, it creates an entry for this property.</p>
 					<div>
 						<a class="anchor" href="#_set_default_values">#</a>
 						<code>
-<a href="source-class-ConfigData.php#34-38" title="Go to source code">set_default_values</a>( )
+<a href="source-class-ConfigData.php#33-37" title="Go to source code">set_default_values</a>( )
 						</code>
 
 							<div class="description short">

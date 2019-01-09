@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Helper.php">Helper</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-NumberHelper.php#3-51" title="Go to source code">helper/NumberHelper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-NumberHelper.php#3-50" title="Go to source code">helper/NumberHelper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_numeric">#</a>
 						<code>
-<a href="source-class-NumberHelper.php#16-39" title="Go to source code">numeric</a>( <span>string <var>$var</var></span>, <span>string <var>$type</var> = <span class="php-quote">'int'</span></span> )
+<a href="source-class-NumberHelper.php#15-38" title="Go to source code">numeric</a>( <span>string <var>$var</var></span>, <span>string <var>$type</var> = <span class="php-quote">'int'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_round">#</a>
 						<code>
-<a href="source-class-NumberHelper.php#41-50" title="Go to source code">round</a>( <span>mixed <var>$number</var></span>, <span>integer <var>$dec</var></span> )
+<a href="source-class-NumberHelper.php#40-49" title="Go to source code">round</a>( <span>mixed <var>$number</var></span>, <span>integer <var>$dec</var></span> )
 						</code>
 
 							<div class="description short">

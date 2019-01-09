@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractParser.php#3-132" title="Go to source code">content/formatting/parser/AbstractParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractParser.php#3-131" title="Go to source code">content/formatting/parser/AbstractParser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -749,7 +745,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -771,7 +767,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#45-52" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractParser.php#44-51" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@
 					<div>
 						<a class="anchor" href="#_get_content">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#54-60" title="Go to source code">get_content</a>( )
+<a href="source-class-AbstractParser.php#53-59" title="Go to source code">get_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -847,7 +843,7 @@
 					<div>
 						<a class="anchor" href="#_set_content">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#62-68" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
+<a href="source-class-AbstractParser.php#61-67" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@
 					<div>
 						<a class="anchor" href="#_set_path_to_root">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#70-76" title="Go to source code">set_path_to_root</a>( <span>string <var>$path</var></span> )
+<a href="source-class-AbstractParser.php#69-75" title="Go to source code">set_path_to_root</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -931,7 +927,7 @@
 					<div>
 						<a class="anchor" href="#_get_path_to_root">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#78-84" title="Go to source code">get_path_to_root</a>( )
+<a href="source-class-AbstractParser.php#77-83" title="Go to source code">get_path_to_root</a>( )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@
 					<div>
 						<a class="anchor" href="#_set_page_path">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#86-92" title="Go to source code">set_page_path</a>( <span>string <var>$page_path</var></span> )
+<a href="source-class-AbstractParser.php#85-91" title="Go to source code">set_page_path</a>( <span>string <var>$page_path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1014,7 +1010,7 @@
 					<div>
 						<a class="anchor" href="#_get_page_path">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#94-100" title="Go to source code">get_page_path</a>( )
+<a href="source-class-AbstractParser.php#93-99" title="Go to source code">get_page_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -1055,7 +1051,7 @@
 					<div>
 						<a class="anchor" href="#_add_module_special_tag">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#102-108" title="Go to source code">add_module_special_tag</a>( <span> <var>$pattern</var></span>, <span> <var>$replacement</var></span> )
+<a href="source-class-AbstractParser.php#101-107" title="Go to source code">add_module_special_tag</a>( <span> <var>$pattern</var></span>, <span> <var>$replacement</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1090,7 +1086,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_special_tags">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#110-116" title="Go to source code">get_module_special_tags</a>( )
+<a href="source-class-AbstractParser.php#109-115" title="Go to source code">get_module_special_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -1125,7 +1121,7 @@
 					<div>
 						<a class="anchor" href="#__parse_imbricated">#</a>
 						<code>
-<a href="source-class-AbstractParser.php#118-131" title="Go to source code">_parse_imbricated</a>( <span>string <var>$match</var></span>, <span>string <var>$regex</var></span>, <span>string <var>$replace</var></span> )
+<a href="source-class-AbstractParser.php#117-130" title="Go to source code">_parse_imbricated</a>( <span>string <var>$match</var></span>, <span>string <var>$regex</var></span>, <span>string <var>$replace</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1190,7 +1186,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AbstractParser.php#20" title="Go to source code"><b>PICK_UP</b></a>
+								<a href="source-class-AbstractParser.php#19" title="Go to source code"><b>PICK_UP</b></a>
 							</code>
 
 							<div class="description short">
@@ -1214,7 +1210,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AbstractParser.php#21" title="Go to source code"><b>REIMPLANT</b></a>
+								<a href="source-class-AbstractParser.php#20" title="Go to source code"><b>REIMPLANT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1253,7 +1249,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractParser.php#22-25" title="Go to source code"><var>$content</var></a>
+						<a href="source-class-AbstractParser.php#21-24" title="Go to source code"><var>$content</var></a>
 
 					<div class="description short">
 						<p>Content of the parser</p>
@@ -1280,7 +1276,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractParser.php#26-29" title="Go to source code"><var>$array_tags</var></a>
+						<a href="source-class-AbstractParser.php#25-28" title="Go to source code"><var>$array_tags</var></a>
 
 					<div class="description short">
 						<p>List of the tags which have been picked up by the parser</p>
@@ -1307,7 +1303,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractParser.php#30-33" title="Go to source code"><var>$path_to_root</var></a>
+						<a href="source-class-AbstractParser.php#29-32" title="Go to source code"><var>$path_to_root</var></a>
 
 					<div class="description short">
 						<p>Path to root of the page in which has been written the content to parse.</p>
@@ -1334,7 +1330,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractParser.php#35-38" title="Go to source code"><var>$page_path</var></a>
+						<a href="source-class-AbstractParser.php#34-37" title="Go to source code"><var>$page_path</var></a>
 
 					<div class="description short">
 						<p>Path of the page in which has been written the content to parse.</p>
@@ -1361,7 +1357,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractParser.php#40-43" title="Go to source code"><var>$module_special_tags</var></a>
+						<a href="source-class-AbstractParser.php#39-42" title="Go to source code"><var>$module_special_tags</var></a>
 
 					<div class="description short">
 						<p>List of the tags to add from a module. Allows to add a tag [link] from pages or wiki from example</p>

@@ -680,10 +680,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.button.php">button</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -707,7 +703,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonSubmit.php#3-27" title="Go to source code">builder/form/button/FormButtonSubmit.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonSubmit.php#3-26" title="Go to source code">builder/form/button/FormButtonSubmit.class.php</a></span>
 			</div>
 
 
@@ -741,7 +737,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormButtonSubmit.php#16-19" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$name</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">'submit'</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormButtonSubmit.php#15-18" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$name</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">'submit'</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@
 					<div>
 						<a class="anchor" href="#_has_been_submited">#</a>
 						<code>
-<a href="source-class-FormButtonSubmit.php#21-26" title="Go to source code">has_been_submited</a>( )
+<a href="source-class-FormButtonSubmit.php#20-25" title="Go to source code">has_been_submited</a>( )
 						</code>
 
 							<div class="description short">

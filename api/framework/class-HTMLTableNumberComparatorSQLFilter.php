@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a>\<a href="package-Builder.Table.filter.sql.php">sql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 03 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableNumberComparatorSQLFilter.php#3-92" title="Go to source code">builder/table/filter/sql/HTMLTableNumberComparatorSQLFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableNumberComparatorSQLFilter.php#3-91" title="Go to source code">builder/table/filter/sql/HTMLTableNumberComparatorSQLFilter.class.php</a></span>
 			</div>
 
 
@@ -737,7 +733,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#23-30" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$lower_bound</var> = self::NOT_BOUNDED</span>, <span> <var>$upper_bound</var> = self::NOT_BOUNDED</span> )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#22-29" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$lower_bound</var> = self::NOT_BOUNDED</span>, <span> <var>$upper_bound</var> = self::NOT_BOUNDED</span> )
 						</code>
 
 							<div class="description short">
@@ -796,7 +792,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#32-41" title="Go to source code">get_sql</a>( )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#31-40" title="Go to source code">get_sql</a>( )
 						</code>
 
 							<div class="description short">
@@ -837,7 +833,7 @@
 					<div>
 						<a class="anchor" href="#_is_value_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#43-59" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#42-58" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -872,7 +868,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_value_parameter_prefix">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#61-64" title="Go to source code">get_sql_value_parameter_prefix</a>( )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#60-63" title="Go to source code">get_sql_value_parameter_prefix</a>( )
 						</code>
 
 							<div class="description short">
@@ -907,7 +903,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_comparator_symbol">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#66" title="Go to source code">get_sql_comparator_symbol</a>( )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#65" title="Go to source code">get_sql_comparator_symbol</a>( )
 						</code>
 
 							<div class="description short">
@@ -942,7 +938,7 @@
 					<div>
 						<a class="anchor" href="#_get_number">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#68-78" title="Go to source code">get_number</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#67-77" title="Go to source code">get_number</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -977,7 +973,7 @@
 					<div>
 						<a class="anchor" href="#_check_interval">#</a>
 						<code>
-<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#80-91" title="Go to source code">check_interval</a>( <span> <var>$number</var></span> )
+<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#79-90" title="Go to source code">check_interval</a>( <span> <var>$number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1036,7 +1032,7 @@
 						<td class="attributes"><code></code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#15" title="Go to source code"><b>NOT_BOUNDED</b></a>
+								<a href="source-class-HTMLTableNumberComparatorSQLFilter.php#14" title="Go to source code"><b>NOT_BOUNDED</b></a>
 							</code>
 
 							<div class="description short">

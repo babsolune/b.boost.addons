@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Timezone.php#3-72" title="Go to source code">util/Timezone.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Timezone.php#3-71" title="Go to source code">util/Timezone.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_get_supported_timezones">#</a>
 						<code>
-<a href="source-class-Timezone.php#23-26" title="Go to source code">get_supported_timezones</a>( )
+<a href="source-class-Timezone.php#22-25" title="Go to source code">get_supported_timezones</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_get_timezone">#</a>
 						<code>
-<a href="source-class-Timezone.php#28-44" title="Go to source code">get_timezone</a>( <span>integer <var>$timezone_code</var></span> )
+<a href="source-class-Timezone.php#27-43" title="Go to source code">get_timezone</a>( <span>integer <var>$timezone_code</var></span> )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_get_server_timezone">#</a>
 						<code>
-<a href="source-class-Timezone.php#46-53" title="Go to source code">get_server_timezone</a>( )
+<a href="source-class-Timezone.php#45-52" title="Go to source code">get_server_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_timezone">#</a>
 						<code>
-<a href="source-class-Timezone.php#55-62" title="Go to source code">get_site_timezone</a>( )
+<a href="source-class-Timezone.php#54-61" title="Go to source code">get_site_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_timezone">#</a>
 						<code>
-<a href="source-class-Timezone.php#64-71" title="Go to source code">get_user_timezone</a>( )
+<a href="source-class-Timezone.php#63-70" title="Go to source code">get_user_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Timezone.php#15" title="Go to source code"><b>SERVER_TIMEZONE</b></a>
+								<a href="source-class-Timezone.php#14" title="Go to source code"><b>SERVER_TIMEZONE</b></a>
 							</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Timezone.php#16" title="Go to source code"><b>SITE_TIMEZONE</b></a>
+								<a href="source-class-Timezone.php#15" title="Go to source code"><b>SITE_TIMEZONE</b></a>
 							</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Timezone.php#17" title="Go to source code"><b>USER_TIMEZONE</b></a>
+								<a href="source-class-Timezone.php#16" title="Go to source code"><b>USER_TIMEZONE</b></a>
 							</code>
 
 							<div class="description short">

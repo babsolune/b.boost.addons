@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.authentication.php">authentication</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthenticationMethod.php#3-105" title="Go to source code">phpboost/user/authentication/AuthenticationMethod.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthenticationMethod.php#3-104" title="Go to source code">phpboost/user/authentication/AuthenticationMethod.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -724,7 +720,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_associate">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#23-28" title="Go to source code">associate</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-AuthenticationMethod.php#22-27" title="Go to source code">associate</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_dissociate">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#30-35" title="Go to source code">dissociate</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-AuthenticationMethod.php#29-34" title="Go to source code">dissociate</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_authenticate">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#37-41" title="Go to source code">authenticate</a>( )
+<a href="source-class-AuthenticationMethod.php#36-40" title="Go to source code">authenticate</a>( )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_has_error">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#43-46" title="Go to source code">has_error</a>( )
+<a href="source-class-AuthenticationMethod.php#42-45" title="Go to source code">has_error</a>( )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_get_error_msg">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#48-51" title="Go to source code">get_error_msg</a>( )
+<a href="source-class-AuthenticationMethod.php#47-50" title="Go to source code">get_error_msg</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_check_user_bannishment">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#53-99" title="Go to source code">check_user_bannishment</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-AuthenticationMethod.php#52-98" title="Go to source code">check_user_bannishment</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -978,7 +974,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 					<div>
 						<a class="anchor" href="#_update_user_last_connection_date">#</a>
 						<code>
-<a href="source-class-AuthenticationMethod.php#101-104" title="Go to source code">update_user_last_connection_date</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-AuthenticationMethod.php#100-103" title="Go to source code">update_user_last_connection_date</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@ implementations of this class to support LDAP authentication, OpenID, Facebook c
 				</td>
 
 				<td class="name">
-						<a href="source-class-AuthenticationMethod.php#21" title="Go to source code"><var>$error_msg</var></a>
+						<a href="source-class-AuthenticationMethod.php#20" title="Go to source code"><var>$error_msg</var></a>
 
 					<div class="description short">
 						

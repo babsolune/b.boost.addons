@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a>\<a href="package-Builder.Table.filter.sql.php">sql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 03 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableLikeTextSQLFilter.php#3-52" title="Go to source code">builder/table/filter/sql/HTMLTableLikeTextSQLFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableLikeTextSQLFilter.php#3-51" title="Go to source code">builder/table/filter/sql/HTMLTableLikeTextSQLFilter.class.php</a></span>
 			</div>
 
 
@@ -745,7 +741,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -767,7 +763,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableLikeTextSQLFilter.php#19-23" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$match_regex</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTMLTableLikeTextSQLFilter.php#18-22" title="Go to source code">__construct</a>( <span> <var>$db_field</var></span>, <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$match_regex</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql">#</a>
 						<code>
-<a href="source-class-HTMLTableLikeTextSQLFilter.php#25-34" title="Go to source code">get_sql</a>( )
+<a href="source-class-HTMLTableLikeTextSQLFilter.php#24-33" title="Go to source code">get_sql</a>( )
 						</code>
 
 							<div class="description short">
@@ -845,7 +841,7 @@
 					<div>
 						<a class="anchor" href="#_is_value_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableLikeTextSQLFilter.php#36-46" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableLikeTextSQLFilter.php#35-45" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -882,7 +878,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_value_parameter_prefix">#</a>
 						<code>
-<a href="source-class-HTMLTableLikeTextSQLFilter.php#48-51" title="Go to source code">get_sql_value_parameter_prefix</a>( )
+<a href="source-class-HTMLTableLikeTextSQLFilter.php#47-50" title="Go to source code">get_sql_value_parameter_prefix</a>( )
 						</code>
 
 							<div class="description short">

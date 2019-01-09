@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -702,7 +698,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 26
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldCategoriesSelect.php#3-66" title="Go to source code">content/category/FormFieldCategoriesSelect.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldCategoriesSelect.php#3-65" title="Go to source code">content/category/FormFieldCategoriesSelect.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldCategoriesSelect.php#19-31" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span>string[] <var>$field_options</var></span>, <span><code><a href="class-CategoriesCache.php">CategoriesCache</a></code> <var>$categories_cache</var></span> )
+<a href="source-class-FormFieldCategoriesSelect.php#18-30" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span><code><a href="class-SearchCategoryChildrensOptions.php">SearchCategoryChildrensOptions</a></code> <var>$search_category_children_options</var></span>, <span>string[] <var>$field_options</var></span>, <span><code><a href="class-CategoriesCache.php">CategoriesCache</a></code> <var>$categories_cache</var></span> )
 						</code>
 
 							<div class="description short">

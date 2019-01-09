@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CookieBarConfig.php#3-123" title="Go to source code">phpboost/config/CookieBarConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CookieBarConfig.php#3-122" title="Go to source code">phpboost/config/CookieBarConfig.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_enable_cookiebar">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#27-30" title="Go to source code">enable_cookiebar</a>( )
+<a href="source-class-CookieBarConfig.php#26-29" title="Go to source code">enable_cookiebar</a>( )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_disable_cookiebar">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#32-35" title="Go to source code">disable_cookiebar</a>( )
+<a href="source-class-CookieBarConfig.php#31-34" title="Go to source code">disable_cookiebar</a>( )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_is_cookiebar_enabled">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#37-40" title="Go to source code">is_cookiebar_enabled</a>( )
+<a href="source-class-CookieBarConfig.php#36-39" title="Go to source code">is_cookiebar_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookiebar_duration">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#42-45" title="Go to source code">get_cookiebar_duration</a>( )
+<a href="source-class-CookieBarConfig.php#41-44" title="Go to source code">get_cookiebar_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookiebar_duration">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#47-50" title="Go to source code">set_cookiebar_duration</a>( <span> <var>$value</var></span> )
+<a href="source-class-CookieBarConfig.php#46-49" title="Go to source code">set_cookiebar_duration</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookiebar_tracking_mode">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#52-55" title="Go to source code">get_cookiebar_tracking_mode</a>( )
+<a href="source-class-CookieBarConfig.php#51-54" title="Go to source code">get_cookiebar_tracking_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookiebar_tracking_mode">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#57-60" title="Go to source code">set_cookiebar_tracking_mode</a>( <span> <var>$value</var></span> )
+<a href="source-class-CookieBarConfig.php#56-59" title="Go to source code">set_cookiebar_tracking_mode</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookiebar_content">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#62-65" title="Go to source code">get_cookiebar_content</a>( )
+<a href="source-class-CookieBarConfig.php#61-64" title="Go to source code">get_cookiebar_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookiebar_content">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#67-70" title="Go to source code">set_cookiebar_content</a>( <span> <var>$value</var></span> )
+<a href="source-class-CookieBarConfig.php#66-69" title="Go to source code">set_cookiebar_content</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookiebar_aboutcookie_title">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#72-75" title="Go to source code">get_cookiebar_aboutcookie_title</a>( )
+<a href="source-class-CookieBarConfig.php#71-74" title="Go to source code">get_cookiebar_aboutcookie_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookiebar_aboutcookie_title">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#77-80" title="Go to source code">set_cookiebar_aboutcookie_title</a>( <span> <var>$value</var></span> )
+<a href="source-class-CookieBarConfig.php#76-79" title="Go to source code">set_cookiebar_aboutcookie_title</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookiebar_aboutcookie_content">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#82-85" title="Go to source code">get_cookiebar_aboutcookie_content</a>( )
+<a href="source-class-CookieBarConfig.php#81-84" title="Go to source code">get_cookiebar_aboutcookie_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookiebar_aboutcookie_content">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#87-90" title="Go to source code">set_cookiebar_aboutcookie_content</a>( <span> <var>$value</var></span> )
+<a href="source-class-CookieBarConfig.php#86-89" title="Go to source code">set_cookiebar_aboutcookie_content</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1213,7 +1209,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#92-105" title="Go to source code">get_default_values</a>( )
+<a href="source-class-CookieBarConfig.php#91-104" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#107-114" title="Go to source code">load</a>( )
+<a href="source-class-CookieBarConfig.php#106-113" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1291,7 +1287,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-CookieBarConfig.php#116-122" title="Go to source code">save</a>( )
+<a href="source-class-CookieBarConfig.php#115-121" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1351,7 +1347,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#17" title="Go to source code"><b>COOKIEBAR_ENABLED</b></a>
+								<a href="source-class-CookieBarConfig.php#16" title="Go to source code"><b>COOKIEBAR_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1375,7 +1371,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#18" title="Go to source code"><b>COOKIEBAR_DURATION</b></a>
+								<a href="source-class-CookieBarConfig.php#17" title="Go to source code"><b>COOKIEBAR_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1399,7 +1395,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#19" title="Go to source code"><b>COOKIEBAR_TRACKING_MODE</b></a>
+								<a href="source-class-CookieBarConfig.php#18" title="Go to source code"><b>COOKIEBAR_TRACKING_MODE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1423,7 +1419,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#20" title="Go to source code"><b>COOKIEBAR_CONTENT</b></a>
+								<a href="source-class-CookieBarConfig.php#19" title="Go to source code"><b>COOKIEBAR_CONTENT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1447,7 +1443,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#21" title="Go to source code"><b>COOKIEBAR_ABOUTCOOKIE_TITLE</b></a>
+								<a href="source-class-CookieBarConfig.php#20" title="Go to source code"><b>COOKIEBAR_ABOUTCOOKIE_TITLE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1471,7 +1467,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#22" title="Go to source code"><b>COOKIEBAR_ABOUTCOOKIE_CONTENT</b></a>
+								<a href="source-class-CookieBarConfig.php#21" title="Go to source code"><b>COOKIEBAR_ABOUTCOOKIE_CONTENT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1495,7 +1491,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#24" title="Go to source code"><b>NOTRACKING_COOKIE</b></a>
+								<a href="source-class-CookieBarConfig.php#23" title="Go to source code"><b>NOTRACKING_COOKIE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1519,7 +1515,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CookieBarConfig.php#25" title="Go to source code"><b>TRACKING_COOKIE</b></a>
+								<a href="source-class-CookieBarConfig.php#24" title="Go to source code"><b>TRACKING_COOKIE</b></a>
 							</code>
 
 							<div class="description short">

@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.store.php">store</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-APCDataStore.php#3-150" title="Go to source code">io/data/store/APCDataStore.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-APCDataStore.php#3-149" title="Go to source code">io/data/store/APCDataStore.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -749,7 +745,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -771,7 +767,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#30-34" title="Go to source code">__construct</a>( <span> <var>$cache_id</var></span> )
+<a href="source-class-APCDataStore.php#29-33" title="Go to source code">__construct</a>( <span> <var>$cache_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#36-49" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
+<a href="source-class-APCDataStore.php#35-48" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#_contains">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#51-60" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
+<a href="source-class-APCDataStore.php#50-59" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#_store">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#62-70" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$object</var></span> )
+<a href="source-class-APCDataStore.php#61-69" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -946,7 +942,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#72-80" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
+<a href="source-class-APCDataStore.php#71-79" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -988,7 +984,7 @@ This is very efficient and has an infinite life span (in fact it's the Web serve
 					<div>
 						<a class="anchor" href="#_clear">#</a>
 						<code>
-<a href="source-class-APCDataStore.php#107-118" title="Go to source code">clear</a>( )
+<a href="source-class-APCDataStore.php#106-117" title="Go to source code">clear</a>( )
 						</code>
 
 							<div class="description short">

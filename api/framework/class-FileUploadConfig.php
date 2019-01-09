@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileUploadConfig.php#3-126" title="Go to source code">phpboost/config/FileUploadConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileUploadConfig.php#3-125" title="Go to source code">phpboost/config/FileUploadConfig.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorization_enable_interface_files">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#24-27" title="Go to source code">get_authorization_enable_interface_files</a>( )
+<a href="source-class-FileUploadConfig.php#23-26" title="Go to source code">get_authorization_enable_interface_files</a>( )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorization_enable_interface_files">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#29-32" title="Go to source code">set_authorization_enable_interface_files</a>( <span>array <var>$array</var></span> )
+<a href="source-class-FileUploadConfig.php#28-31" title="Go to source code">set_authorization_enable_interface_files</a>( <span>array <var>$array</var></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_to_access_interface_files">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#34-37" title="Go to source code">is_authorized_to_access_interface_files</a>( )
+<a href="source-class-FileUploadConfig.php#33-36" title="Go to source code">is_authorized_to_access_interface_files</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_get_maximum_size_upload">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#39-42" title="Go to source code">get_maximum_size_upload</a>( )
+<a href="source-class-FileUploadConfig.php#38-41" title="Go to source code">get_maximum_size_upload</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_set_maximum_size_upload">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#44-47" title="Go to source code">set_maximum_size_upload</a>( <span> <var>$size</var></span> )
+<a href="source-class-FileUploadConfig.php#43-46" title="Go to source code">set_maximum_size_upload</a>( <span> <var>$size</var></span> )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@
 					<div>
 						<a class="anchor" href="#_get_enable_bandwidth_protect">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#49-52" title="Go to source code">get_enable_bandwidth_protect</a>( )
+<a href="source-class-FileUploadConfig.php#48-51" title="Go to source code">get_enable_bandwidth_protect</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_set_enable_bandwidth_protect">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#54-57" title="Go to source code">set_enable_bandwidth_protect</a>( <span> <var>$value</var></span> )
+<a href="source-class-FileUploadConfig.php#53-56" title="Go to source code">set_enable_bandwidth_protect</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_file_thumbnail">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#59-62" title="Go to source code">get_display_file_thumbnail</a>( )
+<a href="source-class-FileUploadConfig.php#58-61" title="Go to source code">get_display_file_thumbnail</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_file_thumbnail">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#64-67" title="Go to source code">set_display_file_thumbnail</a>( <span> <var>$value</var></span> )
+<a href="source-class-FileUploadConfig.php#63-66" title="Go to source code">set_display_file_thumbnail</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorized_extensions">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#69-72" title="Go to source code">get_authorized_extensions</a>( )
+<a href="source-class-FileUploadConfig.php#68-71" title="Go to source code">get_authorized_extensions</a>( )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorized_extensions">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#74-77" title="Go to source code">set_authorized_extensions</a>( <span>array <var>$array</var></span> )
+<a href="source-class-FileUploadConfig.php#73-76" title="Go to source code">set_authorized_extensions</a>( <span>array <var>$array</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorized_picture_extensions">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#79-91" title="Go to source code">get_authorized_picture_extensions</a>( )
+<a href="source-class-FileUploadConfig.php#78-90" title="Go to source code">get_authorized_picture_extensions</a>( )
 						</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#93-108" title="Go to source code">get_default_values</a>( )
+<a href="source-class-FileUploadConfig.php#92-107" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1217,7 +1213,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#110-117" title="Go to source code">load</a>( )
+<a href="source-class-FileUploadConfig.php#109-116" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1256,7 +1252,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-FileUploadConfig.php#119-125" title="Go to source code">save</a>( )
+<a href="source-class-FileUploadConfig.php#118-124" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1316,7 +1312,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#17" title="Go to source code"><b>AUTHORIZATION_ENABLE_INTERFACE_FILES</b></a>
+								<a href="source-class-FileUploadConfig.php#16" title="Go to source code"><b>AUTHORIZATION_ENABLE_INTERFACE_FILES</b></a>
 							</code>
 
 							<div class="description short">
@@ -1340,7 +1336,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#18" title="Go to source code"><b>MAXIMUM_SIZE_UPLOAD</b></a>
+								<a href="source-class-FileUploadConfig.php#17" title="Go to source code"><b>MAXIMUM_SIZE_UPLOAD</b></a>
 							</code>
 
 							<div class="description short">
@@ -1364,7 +1360,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#19" title="Go to source code"><b>ENABLE_BANDWIDTH_PROTECTION</b></a>
+								<a href="source-class-FileUploadConfig.php#18" title="Go to source code"><b>ENABLE_BANDWIDTH_PROTECTION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1388,7 +1384,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#20" title="Go to source code"><b>DISPLAY_FILE_THUMBNAIL</b></a>
+								<a href="source-class-FileUploadConfig.php#19" title="Go to source code"><b>DISPLAY_FILE_THUMBNAIL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1412,7 +1408,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#21" title="Go to source code"><b>AUTHORIZED_EXTENSIONS</b></a>
+								<a href="source-class-FileUploadConfig.php#20" title="Go to source code"><b>AUTHORIZED_EXTENSIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1436,7 +1432,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FileUploadConfig.php#22" title="Go to source code"><b>AUTH_FILES_BIT</b></a>
+								<a href="source-class-FileUploadConfig.php#21" title="Go to source code"><b>AUTH_FILES_BIT</b></a>
 							</code>
 
 							<div class="description short">

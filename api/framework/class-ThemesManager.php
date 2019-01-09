@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Theme.php">Theme</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemesManager.php#3-249" title="Go to source code">phpboost/theme/ThemesManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemesManager.php#3-248" title="Go to source code">phpboost/theme/ThemesManager.class.php</a></span>
 			</div>
 
 
@@ -706,7 +702,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -728,7 +724,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_themes_map">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#19-27" title="Go to source code">get_installed_themes_map</a>( )
+<a href="source-class-ThemesManager.php#18-26" title="Go to source code">get_installed_themes_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#_get_installed_themes_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#29-41" title="Go to source code">get_installed_themes_map_sorted_by_localized_name</a>( )
+<a href="source-class-ThemesManager.php#28-40" title="Go to source code">get_installed_themes_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_themes_map">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#43-53" title="Go to source code">get_activated_themes_map</a>( )
+<a href="source-class-ThemesManager.php#42-52" title="Go to source code">get_activated_themes_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_themes_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#55-67" title="Go to source code">get_activated_themes_map_sorted_by_localized_name</a>( )
+<a href="source-class-ThemesManager.php#54-66" title="Go to source code">get_activated_themes_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -878,7 +874,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_and_authorized_themes_map">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#69-79" title="Go to source code">get_activated_and_authorized_themes_map</a>( )
+<a href="source-class-ThemesManager.php#68-78" title="Go to source code">get_activated_and_authorized_themes_map</a>( )
 						</code>
 
 							<div class="description short">
@@ -913,7 +909,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_activated_and_authorized_themes_map_sorted_by_localized_name">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#81-93" title="Go to source code">get_activated_and_authorized_themes_map_sorted_by_localized_name</a>( )
+<a href="source-class-ThemesManager.php#80-92" title="Go to source code">get_activated_and_authorized_themes_map_sorted_by_localized_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -953,7 +949,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_callback_sort_themes_by_name">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#95-102" title="Go to source code">callback_sort_themes_by_name</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme1</var></span>, <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme2</var></span> )
+<a href="source-class-ThemesManager.php#94-101" title="Go to source code">callback_sort_themes_by_name</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme1</var></span>, <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme2</var></span> )
 						</code>
 
 							<div class="description short">
@@ -988,7 +984,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_default_theme">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#104-107" title="Go to source code">get_default_theme</a>( )
+<a href="source-class-ThemesManager.php#103-106" title="Go to source code">get_default_theme</a>( )
 						</code>
 
 							<div class="description short">
@@ -1023,7 +1019,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_theme">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#109-112" title="Go to source code">get_theme</a>( <span> <var>$theme_id</var></span> )
+<a href="source-class-ThemesManager.php#108-111" title="Go to source code">get_theme</a>( <span> <var>$theme_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1058,7 +1054,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_theme_existed">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#114-121" title="Go to source code">get_theme_existed</a>( <span> <var>$theme_id</var></span> )
+<a href="source-class-ThemesManager.php#113-120" title="Go to source code">get_theme_existed</a>( <span> <var>$theme_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1093,7 +1089,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_install">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#123-152" title="Go to source code">install</a>( <span> <var>$theme_id</var></span>, <span> <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$enable_theme</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-ThemesManager.php#122-151" title="Go to source code">install</a>( <span> <var>$theme_id</var></span>, <span> <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$enable_theme</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1128,7 +1124,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_uninstall">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#154-177" title="Go to source code">uninstall</a>( <span> <var>$theme_id</var></span>, <span> <var>$drop_files</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-ThemesManager.php#153-176" title="Go to source code">uninstall</a>( <span> <var>$theme_id</var></span>, <span> <var>$drop_files</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1163,7 +1159,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_visibility">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#179-188" title="Go to source code">change_visibility</a>( <span> <var>$theme_id</var></span>, <span> <var>$visibility</var></span> )
+<a href="source-class-ThemesManager.php#178-187" title="Go to source code">change_visibility</a>( <span> <var>$theme_id</var></span>, <span> <var>$visibility</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1198,7 +1194,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_authorizations">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#190-199" title="Go to source code">change_authorizations</a>( <span> <var>$theme_id</var></span>, <span>array <var>$authorizations</var></span> )
+<a href="source-class-ThemesManager.php#189-198" title="Go to source code">change_authorizations</a>( <span> <var>$theme_id</var></span>, <span>array <var>$authorizations</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1233,7 +1229,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_informations">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#201-221" title="Go to source code">change_informations</a>( <span> <var>$theme_id</var></span>, <span> <var>$visibility</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$columns_disabled</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ThemesManager.php#200-220" title="Go to source code">change_informations</a>( <span> <var>$theme_id</var></span>, <span> <var>$visibility</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$columns_disabled</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1268,7 +1264,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_columns_disabled">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#223-232" title="Go to source code">change_columns_disabled</a>( <span> <var>$theme_id</var></span>, <span><code><a href="class-ColumnsDisabled.php">ColumnsDisabled</a></code> <var>$columns_disabled</var></span> )
+<a href="source-class-ThemesManager.php#222-231" title="Go to source code">change_columns_disabled</a>( <span> <var>$theme_id</var></span>, <span><code><a href="class-ColumnsDisabled.php">ColumnsDisabled</a></code> <var>$columns_disabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1303,7 +1299,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_change_customize_interface">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#234-243" title="Go to source code">change_customize_interface</a>( <span> <var>$theme_id</var></span>, <span><code><a href="class-CustomizeInterface.php">CustomizeInterface</a></code> <var>$customize_interface</var></span> )
+<a href="source-class-ThemesManager.php#233-242" title="Go to source code">change_customize_interface</a>( <span> <var>$theme_id</var></span>, <span><code><a href="class-CustomizeInterface.php">CustomizeInterface</a></code> <var>$customize_interface</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1338,7 +1334,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_get_error">#</a>
 						<code>
-<a href="source-class-ThemesManager.php#245-248" title="Go to source code">get_error</a>( )
+<a href="source-class-ThemesManager.php#244-247" title="Go to source code">get_error</a>( )
 						</code>
 
 							<div class="description short">

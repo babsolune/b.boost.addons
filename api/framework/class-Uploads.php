@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Uploads.php#3-423" title="Go to source code">phpboost/member/Uploads.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Uploads.php#3-422" title="Go to source code">phpboost/member/Uploads.class.php</a></span>
 			</div>
 
 
@@ -708,7 +704,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -730,7 +726,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-Uploads.php#23-26" title="Go to source code">__static</a>( )
+<a href="source-class-Uploads.php#22-25" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#_Add_folder">#</a>
 						<code>
-<a href="source-class-Uploads.php#29-38" title="Go to source code">Add_folder</a>( <span> <var>$id_parent</var></span>, <span> <var>$user_id</var></span>, <span> <var>$name</var></span> )
+<a href="source-class-Uploads.php#28-37" title="Go to source code">Add_folder</a>( <span> <var>$id_parent</var></span>, <span> <var>$user_id</var></span>, <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@
 					<div>
 						<a class="anchor" href="#_Empty_folder_member">#</a>
 						<code>
-<a href="source-class-Uploads.php#41-59" title="Go to source code">Empty_folder_member</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-Uploads.php#40-58" title="Go to source code">Empty_folder_member</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@
 					<div>
 						<a class="anchor" href="#_Del_folder">#</a>
 						<code>
-<a href="source-class-Uploads.php#62-93" title="Go to source code">Del_folder</a>( <span> <var>$id_folder</var></span> )
+<a href="source-class-Uploads.php#61-92" title="Go to source code">Del_folder</a>( <span> <var>$id_folder</var></span> )
 						</code>
 
 							<div class="description short">
@@ -870,7 +866,7 @@
 					<div>
 						<a class="anchor" href="#_Del_file">#</a>
 						<code>
-<a href="source-class-Uploads.php#96-124" title="Go to source code">Del_file</a>( <span> <var>$id_file</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Uploads.php#95-123" title="Go to source code">Del_file</a>( <span> <var>$id_file</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -905,7 +901,7 @@
 					<div>
 						<a class="anchor" href="#_Rename_folder">#</a>
 						<code>
-<a href="source-class-Uploads.php#127-156" title="Go to source code">Rename_folder</a>( <span> <var>$id_folder</var></span>, <span> <var>$name</var></span>, <span> <var>$previous_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Uploads.php#126-155" title="Go to source code">Rename_folder</a>( <span> <var>$id_folder</var></span>, <span> <var>$name</var></span>, <span> <var>$previous_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -940,7 +936,7 @@
 					<div>
 						<a class="anchor" href="#_Rename_file">#</a>
 						<code>
-<a href="source-class-Uploads.php#159-188" title="Go to source code">Rename_file</a>( <span> <var>$id_file</var></span>, <span> <var>$name</var></span>, <span> <var>$previous_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Uploads.php#158-187" title="Go to source code">Rename_file</a>( <span> <var>$id_file</var></span>, <span> <var>$name</var></span>, <span> <var>$previous_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -975,7 +971,7 @@
 					<div>
 						<a class="anchor" href="#_Move_folder">#</a>
 						<code>
-<a href="source-class-Uploads.php#191-223" title="Go to source code">Move_folder</a>( <span> <var>$move</var></span>, <span> <var>$to</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Uploads.php#190-222" title="Go to source code">Move_folder</a>( <span> <var>$move</var></span>, <span> <var>$to</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1010,7 +1006,7 @@
 					<div>
 						<a class="anchor" href="#_Move_file">#</a>
 						<code>
-<a href="source-class-Uploads.php#226-257" title="Go to source code">Move_file</a>( <span> <var>$move</var></span>, <span> <var>$to</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Uploads.php#225-256" title="Go to source code">Move_file</a>( <span> <var>$move</var></span>, <span> <var>$to</var></span>, <span> <var>$user_id</var></span>, <span> <var>$admin</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1045,7 +1041,7 @@
 					<div>
 						<a class="anchor" href="#_Find_subfolder">#</a>
 						<code>
-<a href="source-class-Uploads.php#260-272" title="Go to source code">Find_subfolder</a>( <span> <var>$array_folders</var></span>, <span> <var>$id_cat</var></span>, <span> <var>&amp; $array_child_folder</var></span> )
+<a href="source-class-Uploads.php#259-271" title="Go to source code">Find_subfolder</a>( <span> <var>$array_folders</var></span>, <span> <var>$id_cat</var></span>, <span> <var>&amp; $array_child_folder</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1080,7 +1076,7 @@
 					<div>
 						<a class="anchor" href="#_get_admin_url">#</a>
 						<code>
-<a href="source-class-Uploads.php#275-293" title="Go to source code">get_admin_url</a>( <span> <var>$id_folder</var></span>, <span> <var>$pwd</var></span>, <span> <var>$member_link</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Uploads.php#274-292" title="Go to source code">get_admin_url</a>( <span> <var>$id_folder</var></span>, <span> <var>$pwd</var></span>, <span> <var>$member_link</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1115,7 +1111,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-Uploads.php#296-313" title="Go to source code">get_url</a>( <span> <var>$id_folder</var></span>, <span> <var>$pwd</var></span>, <span> <var>$popup</var></span> )
+<a href="source-class-Uploads.php#295-312" title="Go to source code">get_url</a>( <span> <var>$id_folder</var></span>, <span> <var>$pwd</var></span>, <span> <var>$popup</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1150,7 +1146,7 @@
 					<div>
 						<a class="anchor" href="#_Member_memory_used">#</a>
 						<code>
-<a href="source-class-Uploads.php#316-319" title="Go to source code">Member_memory_used</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-Uploads.php#315-318" title="Go to source code">Member_memory_used</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1185,7 +1181,7 @@
 					<div>
 						<a class="anchor" href="#_get_img_mimetype">#</a>
 						<code>
-<a href="source-class-Uploads.php#322-422" title="Go to source code">get_img_mimetype</a>( <span> <var>$type</var></span> )
+<a href="source-class-Uploads.php#321-421" title="Go to source code">get_img_mimetype</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1231,7 +1227,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Uploads.php#18" title="Go to source code"><b>EMPTY_FOLDER</b></a>
+								<a href="source-class-Uploads.php#17" title="Go to source code"><b>EMPTY_FOLDER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1255,7 +1251,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Uploads.php#19" title="Go to source code"><b>ADMIN_NO_CHECK</b></a>
+								<a href="source-class-Uploads.php#18" title="Go to source code"><b>ADMIN_NO_CHECK</b></a>
 							</code>
 
 							<div class="description short">

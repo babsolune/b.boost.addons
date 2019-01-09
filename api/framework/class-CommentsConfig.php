@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsConfig.php#3-152" title="Go to source code">phpboost/config/CommentsConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsConfig.php#3-151" title="Go to source code">phpboost/config/CommentsConfig.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_are_comments_enabled">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#28-31" title="Go to source code">are_comments_enabled</a>( )
+<a href="source-class-CommentsConfig.php#27-30" title="Go to source code">are_comments_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_set_comments_enabled">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#33-36" title="Go to source code">set_comments_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-CommentsConfig.php#32-35" title="Go to source code">set_comments_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_get_comments_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#38-41" title="Go to source code">get_comments_unauthorized_modules</a>( )
+<a href="source-class-CommentsConfig.php#37-40" title="Go to source code">get_comments_unauthorized_modules</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_set_comments_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#43-46" title="Go to source code">set_comments_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
+<a href="source-class-CommentsConfig.php#42-45" title="Go to source code">set_comments_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_module_comments_is_enabled">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#48-51" title="Go to source code">module_comments_is_enabled</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsConfig.php#47-50" title="Go to source code">module_comments_is_enabled</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#53-56" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-CommentsConfig.php#52-55" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorizations">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#58-61" title="Go to source code">set_authorizations</a>( <span>array <var>$array</var></span> )
+<a href="source-class-CommentsConfig.php#57-60" title="Go to source code">set_authorizations</a>( <span>array <var>$array</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_comments_display">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#63-66" title="Go to source code">get_number_comments_display</a>( )
+<a href="source-class-CommentsConfig.php#62-65" title="Go to source code">get_number_comments_display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_set_number_comments_display">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#68-71" title="Go to source code">set_number_comments_display</a>( <span> <var>$number</var></span> )
+<a href="source-class-CommentsConfig.php#67-70" title="Go to source code">set_number_comments_display</a>( <span> <var>$number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_get_forbidden_tags">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#73-76" title="Go to source code">get_forbidden_tags</a>( )
+<a href="source-class-CommentsConfig.php#72-75" title="Go to source code">get_forbidden_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_set_forbidden_tags">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#78-81" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
+<a href="source-class-CommentsConfig.php#77-80" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@
 					<div>
 						<a class="anchor" href="#_get_max_links_comment">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#83-86" title="Go to source code">get_max_links_comment</a>( )
+<a href="source-class-CommentsConfig.php#82-85" title="Go to source code">get_max_links_comment</a>( )
 						</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 					<div>
 						<a class="anchor" href="#_set_max_links_comment">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#88-91" title="Go to source code">set_max_links_comment</a>( <span> <var>$number</var></span> )
+<a href="source-class-CommentsConfig.php#87-90" title="Go to source code">set_max_links_comment</a>( <span> <var>$number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1213,7 +1209,7 @@
 					<div>
 						<a class="anchor" href="#_get_order_display_comments">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#93-106" title="Go to source code">get_order_display_comments</a>( )
+<a href="source-class-CommentsConfig.php#92-105" title="Go to source code">get_order_display_comments</a>( )
 						</code>
 
 							<div class="description short">
@@ -1248,7 +1244,7 @@
 					<div>
 						<a class="anchor" href="#_set_order_display_comments">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#108-111" title="Go to source code">set_order_display_comments</a>( <span> <var>$order</var></span> )
+<a href="source-class-CommentsConfig.php#107-110" title="Go to source code">set_order_display_comments</a>( <span> <var>$order</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1283,7 +1279,7 @@
 					<div>
 						<a class="anchor" href="#_get_approbation_comments">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#113-116" title="Go to source code">get_approbation_comments</a>( )
+<a href="source-class-CommentsConfig.php#112-115" title="Go to source code">get_approbation_comments</a>( )
 						</code>
 
 							<div class="description short">
@@ -1318,7 +1314,7 @@
 					<div>
 						<a class="anchor" href="#_set_approbation_comments">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#118-121" title="Go to source code">set_approbation_comments</a>( <span> <var>$approbation</var></span> )
+<a href="source-class-CommentsConfig.php#117-120" title="Go to source code">set_approbation_comments</a>( <span> <var>$approbation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1353,7 +1349,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#123-134" title="Go to source code">get_default_values</a>( )
+<a href="source-class-CommentsConfig.php#122-133" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1392,7 +1388,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#136-143" title="Go to source code">load</a>( )
+<a href="source-class-CommentsConfig.php#135-142" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1431,7 +1427,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-CommentsConfig.php#145-151" title="Go to source code">save</a>( )
+<a href="source-class-CommentsConfig.php#144-150" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1491,7 +1487,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#17" title="Go to source code"><b>COMMENTS_ENABLED</b></a>
+								<a href="source-class-CommentsConfig.php#16" title="Go to source code"><b>COMMENTS_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1515,7 +1511,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#18" title="Go to source code"><b>COMMENTS_UNAUTHORIZED_MODULE</b></a>
+								<a href="source-class-CommentsConfig.php#17" title="Go to source code"><b>COMMENTS_UNAUTHORIZED_MODULE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1539,7 +1535,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#19" title="Go to source code"><b>AUTHORIZATIONS</b></a>
+								<a href="source-class-CommentsConfig.php#18" title="Go to source code"><b>AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1563,7 +1559,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#20" title="Go to source code"><b>NUMBER_COMMENTS_DISPLAY</b></a>
+								<a href="source-class-CommentsConfig.php#19" title="Go to source code"><b>NUMBER_COMMENTS_DISPLAY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1587,7 +1583,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#21" title="Go to source code"><b>FORBIDDEN_TAGS</b></a>
+								<a href="source-class-CommentsConfig.php#20" title="Go to source code"><b>FORBIDDEN_TAGS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1611,7 +1607,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#22" title="Go to source code"><b>MAX_LINKS_COMMENT</b></a>
+								<a href="source-class-CommentsConfig.php#21" title="Go to source code"><b>MAX_LINKS_COMMENT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1635,7 +1631,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#23" title="Go to source code"><b>ORDER_DISPLAY_COMMENTS</b></a>
+								<a href="source-class-CommentsConfig.php#22" title="Go to source code"><b>ORDER_DISPLAY_COMMENTS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1659,7 +1655,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#25" title="Go to source code"><b>ASC_ORDER</b></a>
+								<a href="source-class-CommentsConfig.php#24" title="Go to source code"><b>ASC_ORDER</b></a>
 							</code>
 
 							<div class="description short">
@@ -1683,7 +1679,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsConfig.php#26" title="Go to source code"><b>DESC_ORDER</b></a>
+								<a href="source-class-CommentsConfig.php#25" title="Go to source code"><b>DESC_ORDER</b></a>
 							</code>
 
 							<div class="description short">

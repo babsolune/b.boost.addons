@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Types.php">Types</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -698,7 +694,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ArrayType.php#3-36" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/ArrayType.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ArrayType.php#3-35" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/ArrayType.php</a></span>
 			</div>
 
 			<div class="description">
@@ -727,7 +723,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -749,7 +745,7 @@
 					<div>
 						<a class="anchor" href="#_getSqlDeclaration">#</a>
 						<code>
-<a href="source-class-ArrayType.php#17-20" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-ArrayType.php#16-19" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@
 					<div>
 						<a class="anchor" href="#_convertToDatabaseValue">#</a>
 						<code>
-<a href="source-class-ArrayType.php#22-25" title="Go to source code">convertToDatabaseValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-ArrayType.php#21-24" title="Go to source code">convertToDatabaseValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_convertToPHPValue">#</a>
 						<code>
-<a href="source-class-ArrayType.php#27-30" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-ArrayType.php#26-29" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-ArrayType.php#32-35" title="Go to source code">getName</a>( )
+<a href="source-class-ArrayType.php#31-34" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">

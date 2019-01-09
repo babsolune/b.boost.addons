@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.links.php">links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenu.php#3-321" title="Go to source code">phpboost/menu/links/LinksMenu.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenu.php#3-320" title="Go to source code">phpboost/menu/links/LinksMenu.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -732,7 +728,7 @@ Children could be Menu or LinksMenuLink objects</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#43-61" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>string <var>$url</var></span>, <span>string <var>$image</var> = <span class="php-quote">''</span></span>, <span>string <var>$type</var> = self::AUTOMATIC_MENU</span>, <span>integer <var>$id</var>,…</span> )
+<a href="source-class-LinksMenu.php#42-60" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>string <var>$url</var></span>, <span>string <var>$image</var> = <span class="php-quote">''</span></span>, <span>string <var>$type</var> = self::AUTOMATIC_MENU</span>, <span>integer <var>$id</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_add_array">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#63-73" title="Go to source code">add_array</a>( <span><code><a href="class-LinksMenuElement.php">LinksMenuElement</a>[]</code> <var>$menu_elements</var></span> )
+<a href="source-class-LinksMenu.php#62-72" title="Go to source code">add_array</a>( <span><code><a href="class-LinksMenuElement.php">LinksMenuElement</a>[]</code> <var>$menu_elements</var></span> )
 						</code>
 
 							<div class="description short">
@@ -844,7 +840,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_add">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#75-91" title="Go to source code">add</a>( <span><code><a href="class-LinksMenuElement.php">LinksMenuElement</a></code> <var>$element</var></span> )
+<a href="source-class-LinksMenu.php#74-90" title="Go to source code">add</a>( <span><code><a href="class-LinksMenuElement.php">LinksMenuElement</a></code> <var>$element</var></span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_update_uid">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#93-103" title="Go to source code">update_uid</a>( )
+<a href="source-class-LinksMenu.php#92-102" title="Go to source code">update_uid</a>( )
 						</code>
 
 							<div class="description short">
@@ -921,7 +917,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#105-192" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var> = <span class="php-keyword1">false</span></span>, <span> <var>$mode</var> = LinksMenuElement::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
+<a href="source-class-LinksMenu.php#104-191" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var> = <span class="php-keyword1">false</span></span>, <span> <var>$mode</var> = LinksMenuElement::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
 						</code>
 
 							<div class="description short">
@@ -967,7 +963,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_cache_export">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#195-275" title="Go to source code">cache_export</a>( <span> <var>$template</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-LinksMenu.php#194-274" title="Go to source code">cache_export</a>( <span> <var>$template</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_get_menu_types_list">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#277-286" title="Go to source code">get_menu_types_list</a>( )
+<a href="source-class-LinksMenu.php#276-285" title="Go to source code">get_menu_types_list</a>( )
 						</code>
 
 							<div class="description short">
@@ -1045,7 +1041,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#__parent">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#288-302" title="Go to source code">_parent</a>( <span>string <var>$type</var></span> )
+<a href="source-class-LinksMenu.php#287-301" title="Go to source code">_parent</a>( <span>string <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1087,7 +1083,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_get_type">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#305-308" title="Go to source code">get_type</a>( )
+<a href="source-class-LinksMenu.php#304-307" title="Go to source code">get_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_set_type">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#310-315" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
+<a href="source-class-LinksMenu.php#309-314" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1166,7 +1162,7 @@ Children could be Menu or LinksMenuLink objects</p>
 					<div>
 						<a class="anchor" href="#_get_children">#</a>
 						<code>
-<a href="source-class-LinksMenu.php#317-320" title="Go to source code">get_children</a>( )
+<a href="source-class-LinksMenu.php#316-319" title="Go to source code">get_children</a>( )
 						</code>
 
 							<div class="description short">
@@ -1264,7 +1260,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#20" title="Go to source code"><b>LINKS_MENU__CLASS</b></a>
+								<a href="source-class-LinksMenu.php#19" title="Go to source code"><b>LINKS_MENU__CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1288,7 +1284,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#23" title="Go to source code"><b>AUTOMATIC_MENU</b></a>
+								<a href="source-class-LinksMenu.php#22" title="Go to source code"><b>AUTOMATIC_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1312,7 +1308,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#24" title="Go to source code"><b>VERTICAL_MENU</b></a>
+								<a href="source-class-LinksMenu.php#23" title="Go to source code"><b>VERTICAL_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1336,7 +1332,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#25" title="Go to source code"><b>HORIZONTAL_MENU</b></a>
+								<a href="source-class-LinksMenu.php#24" title="Go to source code"><b>HORIZONTAL_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1360,7 +1356,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#26" title="Go to source code"><b>STATIC_MENU</b></a>
+								<a href="source-class-LinksMenu.php#25" title="Go to source code"><b>STATIC_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1384,7 +1380,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#29" title="Go to source code"><b>VERTICAL_SCROLLING_MENU</b></a>
+								<a href="source-class-LinksMenu.php#28" title="Go to source code"><b>VERTICAL_SCROLLING_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1408,7 +1404,7 @@ Children could be Menu or LinksMenuLink objects</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenu.php#30" title="Go to source code"><b>HORIZONTAL_SCROLLING_MENU</b></a>
+								<a href="source-class-LinksMenu.php#29" title="Go to source code"><b>HORIZONTAL_SCROLLING_MENU</b></a>
 							</code>
 
 							<div class="description short">
@@ -1483,7 +1479,7 @@ Children could be Menu or LinksMenuLink objects</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenu.php#32-36" title="Go to source code"><var>$type</var></a>
+						<a href="source-class-LinksMenu.php#31-35" title="Go to source code"><var>$type</var></a>
 
 					<div class="description short">
 						<p>menu's type</p>
@@ -1510,7 +1506,7 @@ Children could be Menu or LinksMenuLink objects</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-LinksMenu.php#37-41" title="Go to source code"><var>$elements</var></a>
+						<a href="source-class-LinksMenu.php#36-40" title="Go to source code"><var>$elements</var></a>
 
 					<div class="description short">
 						<p>Direct menu children list</p>

@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#97;&#x69;l&#116;&#x6f;&#x3a;&#106;&#97;&#x6e;&#x75;&#115;&#53;&#x37;&#64;&#112;&#x68;&#x70;&#98;&#111;&#x6f;&#x73;&#116;&#46;&#x63;o&#109;">&#106;&#97;&#x6e;&#x75;&#115;&#53;&#x37;&#64;&#112;&#x68;&#x70;&#98;&#111;&#x6f;&#x73;&#116;&#46;&#x63;o&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesCache.php#3-167" title="Go to source code">content/category/CategoriesCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CategoriesCache.php#3-166" title="Go to source code">content/category/CategoriesCache.class.php</a></span>
 			</div>
 
 
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#19-67" title="Go to source code">synchronize</a>( )
+<a href="source-class-CategoriesCache.php#18-66" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_table_name">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#69" title="Go to source code">get_table_name</a>( )
+<a href="source-class-CategoriesCache.php#68" title="Go to source code">get_table_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -827,7 +823,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_category_class">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#71" title="Go to source code">get_category_class</a>( )
+<a href="source-class-CategoriesCache.php#70" title="Go to source code">get_category_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_module_identifier">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#73" title="Go to source code">get_module_identifier</a>( )
+<a href="source-class-CategoriesCache.php#72" title="Go to source code">get_module_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_root_category">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#75" title="Go to source code">get_root_category</a>( )
+<a href="source-class-CategoriesCache.php#74" title="Go to source code">get_root_category</a>( )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_category_elements_number">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#77-80" title="Go to source code">get_category_elements_number</a>( <span> <var>$id_category</var></span> )
+<a href="source-class-CategoriesCache.php#76-79" title="Go to source code">get_category_elements_number</a>( <span> <var>$id_category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -967,7 +963,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_categories">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#82-85" title="Go to source code">get_categories</a>( )
+<a href="source-class-CategoriesCache.php#81-84" title="Go to source code">get_categories</a>( )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_children">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#87-124" title="Go to source code">get_children</a>( <span> <var>$id_category</var></span>, <span> <var>$allowed_categories_filter</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-CategoriesCache.php#86-123" title="Go to source code">get_children</a>( <span> <var>$id_category</var></span>, <span> <var>$allowed_categories_filter</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1037,7 +1033,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_category_exists">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#126-129" title="Go to source code">category_exists</a>( <span> <var>$id</var></span> )
+<a href="source-class-CategoriesCache.php#125-128" title="Go to source code">category_exists</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1072,7 +1068,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_category">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#131-138" title="Go to source code">get_category</a>( <span> <var>$id</var></span> )
+<a href="source-class-CategoriesCache.php#130-137" title="Go to source code">get_category</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1107,7 +1103,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_has_categories">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#140-143" title="Go to source code">has_categories</a>( )
+<a href="source-class-CategoriesCache.php#139-142" title="Go to source code">has_categories</a>( )
 						</code>
 
 							<div class="description short">
@@ -1142,7 +1138,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#145-152" title="Go to source code">load</a>( )
+<a href="source-class-CategoriesCache.php#144-151" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1181,7 +1177,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#154-160" title="Go to source code">invalidate</a>( )
+<a href="source-class-CategoriesCache.php#153-159" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1216,7 +1212,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_class">#</a>
 						<code>
-<a href="source-class-CategoriesCache.php#162-166" title="Go to source code">get_class</a>( )
+<a href="source-class-CategoriesCache.php#161-165" title="Go to source code">get_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1272,7 +1268,7 @@ For instance,</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-CategoriesCache.php#17" title="Go to source code"><var>$categories</var></a>
+						<a href="source-class-CategoriesCache.php#16" title="Go to source code"><var>$categories</var></a>
 
 					<div class="description short">
 						

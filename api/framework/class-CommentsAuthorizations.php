@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 04 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsAuthorizations.php#3-54" title="Go to source code">content/comments/CommentsAuthorizations.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsAuthorizations.php#3-53" title="Go to source code">content/comments/CommentsAuthorizations.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_access_module">#</a>
 						<code>
-<a href="source-class-CommentsAuthorizations.php#22-25" title="Go to source code">is_authorized_access_module</a>( )
+<a href="source-class-CommentsAuthorizations.php#21-24" title="Go to source code">is_authorized_access_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_read">#</a>
 						<code>
-<a href="source-class-CommentsAuthorizations.php#27-30" title="Go to source code">is_authorized_read</a>( )
+<a href="source-class-CommentsAuthorizations.php#26-29" title="Go to source code">is_authorized_read</a>( )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_post">#</a>
 						<code>
-<a href="source-class-CommentsAuthorizations.php#32-35" title="Go to source code">is_authorized_post</a>( )
+<a href="source-class-CommentsAuthorizations.php#31-34" title="Go to source code">is_authorized_post</a>( )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_moderation">#</a>
 						<code>
-<a href="source-class-CommentsAuthorizations.php#37-40" title="Go to source code">is_authorized_moderation</a>( )
+<a href="source-class-CommentsAuthorizations.php#36-39" title="Go to source code">is_authorized_moderation</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorized_access_module">#</a>
 						<code>
-<a href="source-class-CommentsAuthorizations.php#42-48" title="Go to source code">set_authorized_access_module</a>( <span>boolean <var>$authorized</var></span> )
+<a href="source-class-CommentsAuthorizations.php#41-47" title="Go to source code">set_authorized_access_module</a>( <span>boolean <var>$authorized</var></span> )
 						</code>
 
 							<div class="description short">
@@ -916,7 +912,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsAuthorizations.php#18" title="Go to source code"><b>READ_AUTHORIZATIONS</b></a>
+								<a href="source-class-CommentsAuthorizations.php#17" title="Go to source code"><b>READ_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -940,7 +936,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsAuthorizations.php#19" title="Go to source code"><b>POST_AUTHORIZATIONS</b></a>
+								<a href="source-class-CommentsAuthorizations.php#18" title="Go to source code"><b>POST_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CommentsAuthorizations.php#20" title="Go to source code"><b>MODERATE_AUTHORIZATIONS</b></a>
+								<a href="source-class-CommentsAuthorizations.php#19" title="Go to source code"><b>MODERATE_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">

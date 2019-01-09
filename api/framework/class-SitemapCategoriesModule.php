@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a>\<a href="package-Content.Category.bridges.php">bridges</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SitemapCategoriesModule.php#3-99" title="Go to source code">content/category/bridges/SitemapCategoriesModule.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SitemapCategoriesModule.php#3-98" title="Go to source code">content/category/bridges/SitemapCategoriesModule.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SitemapCategoriesModule.php#21-24" title="Go to source code">__construct</a>( <span><code><a href="class-CategoriesManager.php">CategoriesManager</a></code> <var>$categories_manager</var></span> )
+<a href="source-class-SitemapCategoriesModule.php#20-23" title="Go to source code">__construct</a>( <span><code><a href="class-CategoriesManager.php">CategoriesManager</a></code> <var>$categories_manager</var></span> )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_get_public_sitemap">#</a>
 						<code>
-<a href="source-class-SitemapCategoriesModule.php#26-29" title="Go to source code">get_public_sitemap</a>( )
+<a href="source-class-SitemapCategoriesModule.php#25-28" title="Go to source code">get_public_sitemap</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_sitemap">#</a>
 						<code>
-<a href="source-class-SitemapCategoriesModule.php#31-34" title="Go to source code">get_user_sitemap</a>( )
+<a href="source-class-SitemapCategoriesModule.php#30-33" title="Go to source code">get_user_sitemap</a>( )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@
 					<div>
 						<a class="anchor" href="#_get_category_url">#</a>
 						<code>
-<a href="source-class-SitemapCategoriesModule.php#98" title="Go to source code">get_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-SitemapCategoriesModule.php#97" title="Go to source code">get_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">

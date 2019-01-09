@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 03 12
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-IllegalArgumentException.php#3-12" title="Go to source code">util/IllegalArgumentException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-IllegalArgumentException.php#3-11" title="Go to source code">util/IllegalArgumentException.class.php</a></span>
 			</div>
 
 
@@ -739,7 +735,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 

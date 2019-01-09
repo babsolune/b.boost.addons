@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -720,7 +716,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 05 14
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedFieldErrorsMessageException.php#3-19" title="Go to source code">phpboost/member/extended-fields/field/MemberExtendedFieldErrorsMessageException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedFieldErrorsMessageException.php#3-18" title="Go to source code">phpboost/member/extended-fields/field/MemberExtendedFieldErrorsMessageException.class.php</a></span>
 			</div>
 
 
@@ -747,7 +743,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -769,7 +765,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldErrorsMessageException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$message</var></span> )
+<a href="source-class-MemberExtendedFieldErrorsMessageException.php#14-17" title="Go to source code">__construct</a>( <span> <var>$message</var></span> )
 						</code>
 
 							<div class="description short">

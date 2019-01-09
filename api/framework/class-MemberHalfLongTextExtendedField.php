@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -720,7 +716,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 12 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberHalfLongTextExtendedField.php#3-41" title="Go to source code">phpboost/member/extended-fields/field/MemberHalfLongTextExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberHalfLongTextExtendedField.php#3-40" title="Go to source code">phpboost/member/extended-fields/field/MemberHalfLongTextExtendedField.class.php</a></span>
 			</div>
 
 
@@ -748,7 +744,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -770,7 +766,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberHalfLongTextExtendedField.php#15-20" title="Go to source code">__construct</a>( )
+<a href="source-class-MemberHalfLongTextExtendedField.php#14-19" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_create">#</a>
 						<code>
-<a href="source-class-MemberHalfLongTextExtendedField.php#22-30" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberHalfLongTextExtendedField.php#21-29" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_update">#</a>
 						<code>
-<a href="source-class-MemberHalfLongTextExtendedField.php#32-40" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberHalfLongTextExtendedField.php#31-39" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">

@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HtaccessFileCache.php#3-570" title="Go to source code">phpboost/cache/HtaccessFileCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HtaccessFileCache.php#3-569" title="Go to source code">phpboost/cache/HtaccessFileCache.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@ and is used to change the Apache configuration only in the PHPBoost folder.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@ and is used to change the Apache configuration only in the PHPBoost folder.</p>
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-HtaccessFileCache.php#24-71" title="Go to source code">synchronize</a>( )
+<a href="source-class-HtaccessFileCache.php#23-70" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_htaccess_file_content">#</a>
 						<code>
-<a href="source-class-HtaccessFileCache.php#512-519" title="Go to source code">get_htaccess_file_content</a>( )
+<a href="source-class-HtaccessFileCache.php#511-518" title="Go to source code">get_htaccess_file_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-HtaccessFileCache.php#521-528" title="Go to source code">load</a>( )
+<a href="source-class-HtaccessFileCache.php#520-527" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-HtaccessFileCache.php#530-536" title="Go to source code">invalidate</a>( )
+<a href="source-class-HtaccessFileCache.php#529-535" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_regenerate">#</a>
 						<code>
-<a href="source-class-HtaccessFileCache.php#538-545" title="Go to source code">regenerate</a>( )
+<a href="source-class-HtaccessFileCache.php#537-544" title="Go to source code">regenerate</a>( )
 						</code>
 
 							<div class="description short">

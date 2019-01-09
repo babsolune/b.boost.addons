@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.controllers.php">controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -683,7 +679,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 08 30
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxCommentsNotationController.php#3-106" title="Go to source code">content/comments/controllers/AjaxCommentsNotationController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxCommentsNotationController.php#3-105" title="Go to source code">content/comments/controllers/AjaxCommentsNotationController.class.php</a></span>
 			</div>
 
 
@@ -718,7 +714,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -740,7 +736,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AjaxCommentsNotationController.php#18-50" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AjaxCommentsNotationController.php#17-49" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxCommentsNotationController.php#15" title="Go to source code"><b>LESS_NOTE</b></a>
+								<a href="source-class-AjaxCommentsNotationController.php#14" title="Go to source code"><b>LESS_NOTE</b></a>
 							</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-AjaxCommentsNotationController.php#16" title="Go to source code"><b>PLUS_NOTE</b></a>
+								<a href="source-class-AjaxCommentsNotationController.php#15" title="Go to source code"><b>PLUS_NOTE</b></a>
 							</code>
 
 							<div class="description short">

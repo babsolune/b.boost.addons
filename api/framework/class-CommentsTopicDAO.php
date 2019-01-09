@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopicDAO.php#3-145" title="Go to source code">content/comments/CommentsTopicDAO.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsTopicDAO.php#3-144" title="Go to source code">content/comments/CommentsTopicDAO.class.php</a></span>
 			</div>
 
 
@@ -704,7 +700,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -726,7 +722,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#19-23" title="Go to source code">__static</a>( )
+<a href="source-class-CommentsTopicDAO.php#18-22" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#_comments_topic_exists_by_module_id">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#25-31" title="Go to source code">comments_topic_exists_by_module_id</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsTopicDAO.php#24-30" title="Go to source code">comments_topic_exists_by_module_id</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -796,7 +792,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_topic_module">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#33-42" title="Go to source code">get_id_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsTopicDAO.php#32-41" title="Go to source code">get_id_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -831,7 +827,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_topics_module">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#44-60" title="Go to source code">get_id_topics_module</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsTopicDAO.php#43-59" title="Go to source code">get_id_topics_module</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -866,7 +862,7 @@
 					<div>
 						<a class="anchor" href="#_create_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#62-74" title="Go to source code">create_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span>, <span> <var>$path</var></span> )
+<a href="source-class-CommentsTopicDAO.php#61-73" title="Go to source code">create_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span>, <span> <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@
 					<div>
 						<a class="anchor" href="#_topic_exists">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#76-85" title="Go to source code">topic_exists</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsTopicDAO.php#75-84" title="Go to source code">topic_exists</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -936,7 +932,7 @@
 					<div>
 						<a class="anchor" href="#_delete_topics_module">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#87-92" title="Go to source code">delete_topics_module</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsTopicDAO.php#86-91" title="Go to source code">delete_topics_module</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -971,7 +967,7 @@
 					<div>
 						<a class="anchor" href="#_delete_topic_module">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#94-99" title="Go to source code">delete_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
+<a href="source-class-CommentsTopicDAO.php#93-98" title="Go to source code">delete_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@
 					<div>
 						<a class="anchor" href="#_incremente_number_comments_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#101-104" title="Go to source code">incremente_number_comments_topic</a>( <span> <var>$id_topic</var></span> )
+<a href="source-class-CommentsTopicDAO.php#100-103" title="Go to source code">incremente_number_comments_topic</a>( <span> <var>$id_topic</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1041,7 +1037,7 @@
 					<div>
 						<a class="anchor" href="#_decremente_number_comments_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#106-109" title="Go to source code">decremente_number_comments_topic</a>( <span> <var>$id_topic</var></span> )
+<a href="source-class-CommentsTopicDAO.php#105-108" title="Go to source code">decremente_number_comments_topic</a>( <span> <var>$id_topic</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1076,7 +1072,7 @@
 					<div>
 						<a class="anchor" href="#_comments_topic_locked">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#111-120" title="Go to source code">comments_topic_locked</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsTopicDAO.php#110-119" title="Go to source code">comments_topic_locked</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1111,7 +1107,7 @@
 					<div>
 						<a class="anchor" href="#_lock_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#122-132" title="Go to source code">lock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsTopicDAO.php#121-131" title="Go to source code">lock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1146,7 +1142,7 @@
 					<div>
 						<a class="anchor" href="#_unlock_topic">#</a>
 						<code>
-<a href="source-class-CommentsTopicDAO.php#134-144" title="Go to source code">unlock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsTopicDAO.php#133-143" title="Go to source code">unlock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">

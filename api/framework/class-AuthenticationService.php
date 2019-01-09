@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.authentication.php">authentication</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthenticationService.php#3-115" title="Go to source code">phpboost/user/authentication/AuthenticationService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthenticationService.php#3-114" title="Go to source code">phpboost/user/authentication/AuthenticationService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@ If the authentication by the selected method successful, the user session is sta
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_associate">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#19-28" title="Go to source code">associate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>integer <var>$user_id</var></span> )
+<a href="source-class-AuthenticationService.php#18-27" title="Go to source code">associate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_dissociate">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#30-39" title="Go to source code">dissociate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>integer <var>$user_id</var></span> )
+<a href="source-class-AuthenticationService.php#29-38" title="Go to source code">dissociate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_authenticate">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#41-61" title="Go to source code">authenticate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>boolean <var>$autoconnect</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AuthenticationService.php#40-60" title="Go to source code">authenticate</a>( <span><code><a href="class-AuthenticationMethod.php">AuthenticationMethod</a></code> <var>$authentication</var></span>, <span>boolean <var>$autoconnect</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -881,7 +877,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_get_user_types_authentication">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#63-74" title="Go to source code">get_user_types_authentication</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-AuthenticationService.php#62-73" title="Go to source code">get_user_types_authentication</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -916,7 +912,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_get_external_auth_activated">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#78-85" title="Go to source code">get_external_auth_activated</a>( <span> <var>$identifier</var></span> )
+<a href="source-class-AuthenticationService.php#77-84" title="Go to source code">get_external_auth_activated</a>( <span> <var>$identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -951,7 +947,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_external_auth_is_activated">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#87-90" title="Go to source code">external_auth_is_activated</a>( <span> <var>$id</var></span> )
+<a href="source-class-AuthenticationService.php#86-89" title="Go to source code">external_auth_is_activated</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ If the authentication by the selected method successful, the user session is sta
 					<div>
 						<a class="anchor" href="#_get_external_auths_activated">#</a>
 						<code>
-<a href="source-class-AuthenticationService.php#92-114" title="Go to source code">get_external_auths_activated</a>( )
+<a href="source-class-AuthenticationService.php#91-113" title="Go to source code">get_external_auths_activated</a>( )
 						</code>
 
 							<div class="description short">

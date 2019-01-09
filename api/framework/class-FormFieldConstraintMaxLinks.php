@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 03 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintMaxLinks.php#3-49" title="Go to source code">builder/form/field/constraint/FormFieldConstraintMaxLinks.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintMaxLinks.php#3-48" title="Go to source code">builder/form/field/constraint/FormFieldConstraintMaxLinks.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintMaxLinks.php#18-33" title="Go to source code">__construct</a>( <span>integer <var>$number_links_authorized</var></span>, <span>boolean <var>$has_html_links</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintMaxLinks.php#17-32" title="Go to source code">__construct</a>( <span>integer <var>$number_links_authorized</var></span>, <span>boolean <var>$has_html_links</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintMaxLinks.php#35-38" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintMaxLinks.php#34-37" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -847,7 +843,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintMaxLinks.php#40-43" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintMaxLinks.php#39-42" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@
 					<div>
 						<a class="anchor" href="#_exceeding_links">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintMaxLinks.php#45-48" title="Go to source code">exceeding_links</a>( <span> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintMaxLinks.php#44-47" title="Go to source code">exceeding_links</a>( <span> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">

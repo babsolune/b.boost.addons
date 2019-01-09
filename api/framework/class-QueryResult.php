@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-QueryResult.php#3-26" title="Go to source code">io/db/QueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-QueryResult.php#3-25" title="Go to source code">io/db/QueryResult.class.php</a></span>
 			</div>
 
 
@@ -743,7 +739,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#_get_query">#</a>
 						<code>
-<a href="source-class-QueryResult.php#15-19" title="Go to source code">get_query</a>( )
+<a href="source-class-QueryResult.php#14-18" title="Go to source code">get_query</a>( )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_get_parameters">#</a>
 						<code>
-<a href="source-class-QueryResult.php#21-25" title="Go to source code">get_parameters</a>( )
+<a href="source-class-QueryResult.php#20-24" title="Go to source code">get_parameters</a>( )
 						</code>
 
 							<div class="description short">

@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Ajax.php">Ajax</a>\<a href="package-Ajax.Controllers.php">Controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -684,7 +680,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2015 11 27
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxUrlValidationController.php#3-19" title="Go to source code">ajax/controllers/AjaxUrlValidationController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AjaxUrlValidationController.php#3-18" title="Go to source code">ajax/controllers/AjaxUrlValidationController.class.php</a></span>
 			</div>
 
 
@@ -712,7 +708,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -734,7 +730,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AjaxUrlValidationController.php#15-18" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AjaxUrlValidationController.php#14-17" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">

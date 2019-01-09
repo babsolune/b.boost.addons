@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.content.php">content</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -693,7 +689,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentMenu.php#3-91" title="Go to source code">phpboost/menu/content/ContentMenu.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentMenu.php#3-90" title="Go to source code">phpboost/menu/content/ContentMenu.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#30-33" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$id</var>,…</span> )
+<a href="source-class-ContentMenu.php#29-32" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>integer <var>$id</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#35-67" title="Go to source code">display</a>( )
+<a href="source-class-ContentMenu.php#34-66" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_title">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#70-73" title="Go to source code">set_display_title</a>( <span>boolean <var>$display_title</var></span> )
+<a href="source-class-ContentMenu.php#69-72" title="Go to source code">set_display_title</a>( <span>boolean <var>$display_title</var></span> )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_set_content">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#75-78" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
+<a href="source-class-ContentMenu.php#74-77" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_title">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#81-85" title="Go to source code">get_display_title</a>( )
+<a href="source-class-ContentMenu.php#80-84" title="Go to source code">get_display_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@
 					<div>
 						<a class="anchor" href="#_get_content">#</a>
 						<code>
-<a href="source-class-ContentMenu.php#87-90" title="Go to source code">get_content</a>( )
+<a href="source-class-ContentMenu.php#86-89" title="Go to source code">get_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1027,7 +1023,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentMenu.php#18" title="Go to source code"><b>CONTENT_MENU__CLASS</b></a>
+								<a href="source-class-ContentMenu.php#17" title="Go to source code"><b>CONTENT_MENU__CLASS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1090,7 +1086,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentMenu.php#20-23" title="Go to source code"><var>$content</var></a>
+						<a href="source-class-ContentMenu.php#19-22" title="Go to source code"><var>$content</var></a>
 
 					<div class="description short">
 						<p>the menu's content</p>
@@ -1117,7 +1113,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentMenu.php#25-28" title="Go to source code"><var>$display_title</var></a>
+						<a href="source-class-ContentMenu.php#24-27" title="Go to source code"><var>$display_title</var></a>
 
 					<div class="description short">
 						<p>If true, the content menu title will be displayed</p>

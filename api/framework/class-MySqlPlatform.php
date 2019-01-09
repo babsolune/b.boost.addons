@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Plateform.php">Plateform</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -688,7 +684,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySqlPlatform.php#18-905" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/MySqlPlatform.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySqlPlatform.php#17-904" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/MySqlPlatform.php</a></span>
 			</div>
 
 
@@ -714,7 +710,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#25-31" title="Go to source code">__construct</a>( )
+<a href="source-class-MySqlPlatform.php#24-30" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_getIdentifierQuoteCharacter">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#33-42" title="Go to source code">getIdentifierQuoteCharacter</a>( )
+<a href="source-class-MySqlPlatform.php#32-41" title="Go to source code">getIdentifierQuoteCharacter</a>( )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_getRegexpExpression">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#44-53" title="Go to source code">getRegexpExpression</a>( )
+<a href="source-class-MySqlPlatform.php#43-52" title="Go to source code">getRegexpExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_getRandomExpression">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#55-63" title="Go to source code">getRandomExpression</a>( )
+<a href="source-class-MySqlPlatform.php#54-62" title="Go to source code">getRandomExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_getMatchPatternExpression">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#65-112" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MySqlPlatform.php#64-111" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -959,7 +955,7 @@ any time until labelled as non-experimental.</p>
 					<div>
 						<a class="anchor" href="#_getGuidExpression">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#114-123" title="Go to source code">getGuidExpression</a>( )
+<a href="source-class-MySqlPlatform.php#113-122" title="Go to source code">getGuidExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@ any time until labelled as non-experimental.</p>
 					<div>
 						<a class="anchor" href="#_getConcatExpression">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#125-138" title="Go to source code">getConcatExpression</a>( )
+<a href="source-class-MySqlPlatform.php#124-137" title="Go to source code">getConcatExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListDatabasesSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#140-143" title="Go to source code">getListDatabasesSql</a>( )
+<a href="source-class-MySqlPlatform.php#139-142" title="Go to source code">getListDatabasesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1085,7 +1081,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListSequencesSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#145-152" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-MySqlPlatform.php#144-151" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1122,7 +1118,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListTableConstraintsSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#154-157" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-MySqlPlatform.php#153-156" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1159,7 +1155,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListTableIndexesSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#159-162" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-MySqlPlatform.php#158-161" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1196,7 +1192,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListUsersSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#164-167" title="Go to source code">getListUsersSql</a>( )
+<a href="source-class-MySqlPlatform.php#163-166" title="Go to source code">getListUsersSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1233,7 +1229,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListViewsSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#169-176" title="Go to source code">getListViewsSql</a>( <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MySqlPlatform.php#168-175" title="Go to source code">getListViewsSql</a>( <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1270,7 +1266,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getListTableForeignKeysSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#178-189" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span>, <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MySqlPlatform.php#177-188" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span>, <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1307,7 +1303,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getCreateViewSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#191-194" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
+<a href="source-class-MySqlPlatform.php#190-193" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1344,7 +1340,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getDropViewSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#196-199" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
+<a href="source-class-MySqlPlatform.php#195-198" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1381,7 +1377,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getVarcharTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#201-221" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#200-220" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1425,7 +1421,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getClobTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#223-237" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#222-236" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1468,7 +1464,7 @@ must contain an expression or an array with expressions.</p>
 					<div>
 						<a class="anchor" href="#_getCharsetFieldDeclaration">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#239-250" title="Go to source code">getCharsetFieldDeclaration</a>( <span>string <var>$charset</var></span> )
+<a href="source-class-MySqlPlatform.php#238-249" title="Go to source code">getCharsetFieldDeclaration</a>( <span>string <var>$charset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1517,7 +1513,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#252-262" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-MySqlPlatform.php#251-261" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1566,7 +1562,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getDateTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#264-270" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-MySqlPlatform.php#263-269" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1615,7 +1611,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getBooleanTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#272-278" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#271-277" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1662,7 +1658,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getCollationFieldDeclaration">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#280-291" title="Go to source code">getCollationFieldDeclaration</a>( <span>string <var>$collation</var></span> )
+<a href="source-class-MySqlPlatform.php#279-290" title="Go to source code">getCollationFieldDeclaration</a>( <span>string <var>$collation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1709,7 +1705,7 @@ of a field declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_prefersIdentityColumns">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#293-304" title="Go to source code">prefersIdentityColumns</a>( )
+<a href="source-class-MySqlPlatform.php#292-303" title="Go to source code">prefersIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -1757,7 +1753,7 @@ be emulated with a table.</p>
 					<div>
 						<a class="anchor" href="#_supportsIdentityColumns">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#306-316" title="Go to source code">supportsIdentityColumns</a>( )
+<a href="source-class-MySqlPlatform.php#305-315" title="Go to source code">supportsIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -1803,7 +1799,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_supportsSavepoints">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#318-327" title="Go to source code">supportsSavepoints</a>( )
+<a href="source-class-MySqlPlatform.php#317-326" title="Go to source code">supportsSavepoints</a>( )
 						</code>
 
 							<div class="description short">
@@ -1847,7 +1843,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getShowDatabasesSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#329-332" title="Go to source code">getShowDatabasesSql</a>( )
+<a href="source-class-MySqlPlatform.php#328-331" title="Go to source code">getShowDatabasesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1888,7 +1884,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getListTablesSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#334-337" title="Go to source code">getListTablesSql</a>( )
+<a href="source-class-MySqlPlatform.php#333-336" title="Go to source code">getListTablesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1925,7 +1921,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getListTableColumnsSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#339-342" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-MySqlPlatform.php#338-341" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1962,7 +1958,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getCreateDatabaseSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#344-354" title="Go to source code">getCreateDatabaseSql</a>( <span>string <var>$name</var></span> )
+<a href="source-class-MySqlPlatform.php#343-353" title="Go to source code">getCreateDatabaseSql</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2011,7 +2007,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getDropDatabaseSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#356-366" title="Go to source code">getDropDatabaseSql</a>( <span>string <var>$name</var></span> )
+<a href="source-class-MySqlPlatform.php#355-365" title="Go to source code">getDropDatabaseSql</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2060,7 +2056,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getCreateTableSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#368-473" title="Go to source code">getCreateTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-MySqlPlatform.php#367-472" title="Go to source code">getCreateTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -2134,7 +2130,7 @@ MySql supports this through AUTO_INCREMENT columns.</p>
 					<div>
 						<a class="anchor" href="#_getColumnDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#475-527" title="Go to source code">getColumnDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#474-526" title="Go to source code">getColumnDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2207,7 +2203,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getAlterTableSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#529-703" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-MySqlPlatform.php#528-702" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2340,7 +2336,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#705-734" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span>, <span>string <var>$field</var>,…</span> )
+<a href="source-class-MySqlPlatform.php#704-733" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span>, <span>string <var>$field</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -2409,7 +2405,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getBigIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#736-740" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#735-739" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2456,7 +2452,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getSmallIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#742-746" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-MySqlPlatform.php#741-745" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2503,7 +2499,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#__getCommonIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#748-762" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-MySqlPlatform.php#747-761" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2550,7 +2546,7 @@ field to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIndexDeclarationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#764-805" title="Go to source code">getIndexDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
+<a href="source-class-MySqlPlatform.php#763-804" title="Go to source code">getIndexDeclarationSql</a>( <span>string <var>$name</var></span>, <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2607,7 +2603,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getIndexFieldDeclarationListSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#807-843" title="Go to source code">getIndexFieldDeclarationListSql</a>( <span>array <var>$fields</var></span> )
+<a href="source-class-MySqlPlatform.php#806-842" title="Go to source code">getIndexFieldDeclarationListSql</a>( <span>array <var>$fields</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2653,7 +2649,7 @@ declaration to be used in statements like CREATE TABLE.</p>
 					<div>
 						<a class="anchor" href="#_getAdvancedForeignKeyOptionsSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#845-866" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-MySqlPlatform.php#844-865" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2704,7 +2700,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDropIndexSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#868-878" title="Go to source code">getDropIndexSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span> )
+<a href="source-class-MySqlPlatform.php#867-877" title="Go to source code">getDropIndexSql</a>( <span>string <var>$table</var></span>, <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2751,7 +2747,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDropTableSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#880-889" title="Go to source code">getDropTableSql</a>( <span>string <var>$table</var></span> )
+<a href="source-class-MySqlPlatform.php#879-888" title="Go to source code">getDropTableSql</a>( <span>string <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2796,7 +2792,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getSetTransactionIsolationSql">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#891-894" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-MySqlPlatform.php#890-893" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2838,7 +2834,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-MySqlPlatform.php#896-904" title="Go to source code">getName</a>( )
+<a href="source-class-MySqlPlatform.php#895-903" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">

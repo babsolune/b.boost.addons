@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Since:</b>
 							PHPBoost 4.0 - 2013 04 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedItemEnclosure.php#3-65" title="Go to source code">content/feed/FeedItemEnclosure.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FeedItemEnclosure.php#3-64" title="Go to source code">content/feed/FeedItemEnclosure.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#_set_lenght">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#20-27" title="Go to source code">set_lenght</a>( <span>integer <var>$lenght</var></span> )
+<a href="source-class-FeedItemEnclosure.php#19-26" title="Go to source code">set_lenght</a>( <span>integer <var>$lenght</var></span> )
 						</code>
 
 							<div class="description short">
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#_get_lenght">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#29-32" title="Go to source code">get_lenght</a>( )
+<a href="source-class-FeedItemEnclosure.php#28-31" title="Go to source code">get_lenght</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_set_type">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#34-41" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
+<a href="source-class-FeedItemEnclosure.php#33-40" title="Go to source code">set_type</a>( <span>string <var>$type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_get_type">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#43-46" title="Go to source code">get_type</a>( )
+<a href="source-class-FeedItemEnclosure.php#42-45" title="Go to source code">get_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_set_url">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#48-59" title="Go to source code">set_url</a>( <span>mixed <var>$url</var></span> )
+<a href="source-class-FeedItemEnclosure.php#47-58" title="Go to source code">set_url</a>( <span>mixed <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-FeedItemEnclosure.php#61-64" title="Go to source code">get_url</a>( )
+<a href="source-class-FeedItemEnclosure.php#60-63" title="Go to source code">get_url</a>( )
 						</code>
 
 							<div class="description short">

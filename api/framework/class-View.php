@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-View.php#3-21" title="Go to source code">io/template/View.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-View.php#3-20" title="Go to source code">io/template/View.class.php</a></span>
 			</div>
 
 
@@ -737,7 +733,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-View.php#15-20" title="Go to source code">render</a>( )
+<a href="source-class-View.php#14-19" title="Go to source code">render</a>( )
 						</code>
 
 							<div class="description short">

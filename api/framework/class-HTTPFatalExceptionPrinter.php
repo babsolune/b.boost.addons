@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPFatalExceptionPrinter.php#17-199" title="Go to source code">core/error/HTTPFatalExceptionPrinter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPFatalExceptionPrinter.php#16-198" title="Go to source code">core/error/HTTPFatalExceptionPrinter.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTTPFatalExceptionPrinter.php#26-32" title="Go to source code">__construct</a>( <span> <var>$exception</var></span> )
+<a href="source-class-HTTPFatalExceptionPrinter.php#25-31" title="Go to source code">__construct</a>( <span> <var>$exception</var></span> )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-HTTPFatalExceptionPrinter.php#34-117" title="Go to source code">render</a>( )
+<a href="source-class-HTTPFatalExceptionPrinter.php#33-116" title="Go to source code">render</a>( )
 						</code>
 
 							<div class="description short">

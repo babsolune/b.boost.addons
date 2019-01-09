@@ -686,10 +686,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Extension.provider.php">Extension-provider</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPointProviderService.php#3-187" title="Go to source code">phpboost/extension-provider/ExtensionPointProviderService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtensionPointProviderService.php#3-186" title="Go to source code">phpboost/extension-provider/ExtensionPointProviderService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -730,7 +726,7 @@ methods to get all ExtensionPointProvider that provide a given extension point</
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@ methods to get all ExtensionPointProvider that provide a given extension point</
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ExtensionPointProviderService.php#27-37" title="Go to source code">__construct</a>( )
+<a href="source-class-ExtensionPointProviderService.php#26-36" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@ methods to get all ExtensionPointProvider that provide a given extension point</
 					<div>
 						<a class="anchor" href="#_get_extension_point">#</a>
 						<code>
-<a href="source-class-ExtensionPointProviderService.php#39-55" title="Go to source code">get_extension_point</a>( <span>string <var>$extension_point</var></span>, <span>string[] <var>$authorized_providers_ids</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ExtensionPointProviderService.php#38-54" title="Go to source code">get_extension_point</a>( <span>string <var>$extension_point</var></span>, <span>string[] <var>$authorized_providers_ids</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@ to provide the extension point. If not specified, all providers are allowed</p><
 					<div>
 						<a class="anchor" href="#_get_providers">#</a>
 						<code>
-<a href="source-class-ExtensionPointProviderService.php#57-82" title="Go to source code">get_providers</a>( <span>string <var>$extension_point</var></span>, <span><code><a href="class-ExtensionPointProvider.php">ExtensionPointProvider</a>[]</code> <var>$authorized_providers_ids</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ExtensionPointProviderService.php#56-81" title="Go to source code">get_providers</a>( <span>string <var>$extension_point</var></span>, <span><code><a href="class-ExtensionPointProvider.php">ExtensionPointProvider</a>[]</code> <var>$authorized_providers_ids</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@ availables modules interfaces.</p></dd>
 					<div>
 						<a class="anchor" href="#_get_provider">#</a>
 						<code>
-<a href="source-class-ExtensionPointProviderService.php#84-102" title="Go to source code">get_provider</a>( <span>string <var>$provider_id</var></span> )
+<a href="source-class-ExtensionPointProviderService.php#83-101" title="Go to source code">get_provider</a>( <span>string <var>$provider_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@ availables modules interfaces.</p></dd>
 					<div>
 						<a class="anchor" href="#_provider_exists">#</a>
 						<code>
-<a href="source-class-ExtensionPointProviderService.php#104-134" title="Go to source code">provider_exists</a>( <span>string <var>$provider_id</var></span>, <span>mixed <var>$extensions_points</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ExtensionPointProviderService.php#103-133" title="Go to source code">provider_exists</a>( <span>string <var>$provider_id</var></span>, <span>mixed <var>$extensions_points</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@ availables modules interfaces.</p></dd>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtensionPointProviderService.php#19" title="Go to source code"><b>EXTENSION_POINT_PROVIDER_SUFFIX</b></a>
+								<a href="source-class-ExtensionPointProviderService.php#18" title="Go to source code"><b>EXTENSION_POINT_PROVIDER_SUFFIX</b></a>
 							</code>
 
 							<div class="description short">

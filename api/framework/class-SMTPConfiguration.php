@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Mail.php">Mail</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SMTPConfiguration.php#3-71" title="Go to source code">io/mail/SMTPConfiguration.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SMTPConfiguration.php#3-70" title="Go to source code">io/mail/SMTPConfiguration.class.php</a></span>
 			</div>
 
 
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#_get_auth_mode">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#22-25" title="Go to source code">get_auth_mode</a>( )
+<a href="source-class-SMTPConfiguration.php#21-24" title="Go to source code">get_auth_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_set_auth_mode">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#27-30" title="Go to source code">set_auth_mode</a>( <span> <var>$auth_mode</var></span> )
+<a href="source-class-SMTPConfiguration.php#26-29" title="Go to source code">set_auth_mode</a>( <span> <var>$auth_mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -808,7 +804,7 @@
 					<div>
 						<a class="anchor" href="#_get_host">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#32-35" title="Go to source code">get_host</a>( )
+<a href="source-class-SMTPConfiguration.php#31-34" title="Go to source code">get_host</a>( )
 						</code>
 
 							<div class="description short">
@@ -843,7 +839,7 @@
 					<div>
 						<a class="anchor" href="#_set_host">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#37-40" title="Go to source code">set_host</a>( <span> <var>$host</var></span> )
+<a href="source-class-SMTPConfiguration.php#36-39" title="Go to source code">set_host</a>( <span> <var>$host</var></span> )
 						</code>
 
 							<div class="description short">
@@ -878,7 +874,7 @@
 					<div>
 						<a class="anchor" href="#_get_port">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#42-45" title="Go to source code">get_port</a>( )
+<a href="source-class-SMTPConfiguration.php#41-44" title="Go to source code">get_port</a>( )
 						</code>
 
 							<div class="description short">
@@ -913,7 +909,7 @@
 					<div>
 						<a class="anchor" href="#_set_port">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#47-50" title="Go to source code">set_port</a>( <span> <var>$port</var></span> )
+<a href="source-class-SMTPConfiguration.php#46-49" title="Go to source code">set_port</a>( <span> <var>$port</var></span> )
 						</code>
 
 							<div class="description short">
@@ -948,7 +944,7 @@
 					<div>
 						<a class="anchor" href="#_get_login">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#52-55" title="Go to source code">get_login</a>( )
+<a href="source-class-SMTPConfiguration.php#51-54" title="Go to source code">get_login</a>( )
 						</code>
 
 							<div class="description short">
@@ -983,7 +979,7 @@
 					<div>
 						<a class="anchor" href="#_set_login">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#57-60" title="Go to source code">set_login</a>( <span> <var>$login</var></span> )
+<a href="source-class-SMTPConfiguration.php#56-59" title="Go to source code">set_login</a>( <span> <var>$login</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1018,7 +1014,7 @@
 					<div>
 						<a class="anchor" href="#_get_password">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#62-65" title="Go to source code">get_password</a>( )
+<a href="source-class-SMTPConfiguration.php#61-64" title="Go to source code">get_password</a>( )
 						</code>
 
 							<div class="description short">
@@ -1053,7 +1049,7 @@
 					<div>
 						<a class="anchor" href="#_set_password">#</a>
 						<code>
-<a href="source-class-SMTPConfiguration.php#67-70" title="Go to source code">set_password</a>( <span> <var>$password</var></span> )
+<a href="source-class-SMTPConfiguration.php#66-69" title="Go to source code">set_password</a>( <span> <var>$password</var></span> )
 						</code>
 
 							<div class="description short">

@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.editor.php">editor</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -685,7 +681,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentEditor.php#3-71" title="Go to source code">content/formatting/editor/ContentEditor.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentEditor.php#3-70" title="Go to source code">content/formatting/editor/ContentEditor.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -700,7 +696,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -722,7 +718,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#21-25" title="Go to source code">__construct</a>( )
+<a href="source-class-ContentEditor.php#20-24" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_set_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#27-34" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
+<a href="source-class-ContentEditor.php#26-33" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_get_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#36-43" title="Go to source code">get_forbidden_tags</a>( )
+<a href="source-class-ContentEditor.php#35-42" title="Go to source code">get_forbidden_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_set_identifier">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#45-52" title="Go to source code">set_identifier</a>( <span>string <var>$identifier</var></span> )
+<a href="source-class-ContentEditor.php#44-51" title="Go to source code">set_identifier</a>( <span>string <var>$identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@
 					<div>
 						<a class="anchor" href="#_set_template">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#54-61" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-ContentEditor.php#53-60" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -916,7 +912,7 @@
 					<div>
 						<a class="anchor" href="#_get_template">#</a>
 						<code>
-<a href="source-class-ContentEditor.php#63-70" title="Go to source code">get_template</a>( )
+<a href="source-class-ContentEditor.php#62-69" title="Go to source code">get_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentEditor.php#17" title="Go to source code"><var>$template</var></a>
+						<a href="source-class-ContentEditor.php#16" title="Go to source code"><var>$template</var></a>
 
 					<div class="description short">
 						
@@ -1003,7 +999,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentEditor.php#18" title="Go to source code"><var>$forbidden_tags</var></a>
+						<a href="source-class-ContentEditor.php#17" title="Go to source code"><var>$forbidden_tags</var></a>
 
 					<div class="description short">
 						
@@ -1030,7 +1026,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentEditor.php#19" title="Go to source code"><var>$identifier</var></a>
+						<a href="source-class-ContentEditor.php#18" title="Go to source code"><var>$identifier</var></a>
 
 					<div class="description short">
 						

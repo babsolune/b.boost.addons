@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ServerEnvironmentConfig.php#3-187" title="Go to source code">phpboost/config/ServerEnvironmentConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ServerEnvironmentConfig.php#3-186" title="Go to source code">phpboost/config/ServerEnvironmentConfig.class.php</a></span>
 			</div>
 
 
@@ -740,7 +736,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#_is_url_rewriting_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#30-33" title="Go to source code">is_url_rewriting_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#29-32" title="Go to source code">is_url_rewriting_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_set_url_rewriting_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#35-38" title="Go to source code">set_url_rewriting_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ServerEnvironmentConfig.php#34-37" title="Go to source code">set_url_rewriting_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@
 					<div>
 						<a class="anchor" href="#_is_redirection_www_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#40-43" title="Go to source code">is_redirection_www_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#39-42" title="Go to source code">is_redirection_www_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -867,7 +863,7 @@
 					<div>
 						<a class="anchor" href="#_enable_redirection_www">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#45-48" title="Go to source code">enable_redirection_www</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#44-47" title="Go to source code">enable_redirection_www</a>( )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@
 					<div>
 						<a class="anchor" href="#_disable_redirection_www">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#50-53" title="Go to source code">disable_redirection_www</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#49-52" title="Go to source code">disable_redirection_www</a>( )
 						</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@
 					<div>
 						<a class="anchor" href="#_get_redirection_www_mode">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#55-58" title="Go to source code">get_redirection_www_mode</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#54-57" title="Go to source code">get_redirection_www_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@
 					<div>
 						<a class="anchor" href="#_is_redirection_www_mode_with_www">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#60-63" title="Go to source code">is_redirection_www_mode_with_www</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#59-62" title="Go to source code">is_redirection_www_mode_with_www</a>( )
 						</code>
 
 							<div class="description short">
@@ -1007,7 +1003,7 @@
 					<div>
 						<a class="anchor" href="#_set_redirection_www_mode">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#65-68" title="Go to source code">set_redirection_www_mode</a>( <span> <var>$value</var></span> )
+<a href="source-class-ServerEnvironmentConfig.php#64-67" title="Go to source code">set_redirection_www_mode</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1042,7 +1038,7 @@
 					<div>
 						<a class="anchor" href="#_is_redirection_https_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#70-73" title="Go to source code">is_redirection_https_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#69-72" title="Go to source code">is_redirection_https_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1077,7 +1073,7 @@
 					<div>
 						<a class="anchor" href="#_enable_redirection_https">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#75-78" title="Go to source code">enable_redirection_https</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#74-77" title="Go to source code">enable_redirection_https</a>( )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@
 					<div>
 						<a class="anchor" href="#_disable_redirection_https">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#80-83" title="Go to source code">disable_redirection_https</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#79-82" title="Go to source code">disable_redirection_https</a>( )
 						</code>
 
 							<div class="description short">
@@ -1147,7 +1143,7 @@
 					<div>
 						<a class="anchor" href="#_is_hsts_security_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#85-88" title="Go to source code">is_hsts_security_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#84-87" title="Go to source code">is_hsts_security_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1182,7 +1178,7 @@
 					<div>
 						<a class="anchor" href="#_enable_hsts_security">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#90-93" title="Go to source code">enable_hsts_security</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#89-92" title="Go to source code">enable_hsts_security</a>( )
 						</code>
 
 							<div class="description short">
@@ -1217,7 +1213,7 @@
 					<div>
 						<a class="anchor" href="#_disable_hsts_security">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#95-98" title="Go to source code">disable_hsts_security</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#94-97" title="Go to source code">disable_hsts_security</a>( )
 						</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@
 					<div>
 						<a class="anchor" href="#_get_hsts_security_duration">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#100-103" title="Go to source code">get_hsts_security_duration</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#99-102" title="Go to source code">get_hsts_security_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1287,7 +1283,7 @@
 					<div>
 						<a class="anchor" href="#_set_hsts_security_duration">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#105-108" title="Go to source code">set_hsts_security_duration</a>( <span> <var>$value</var></span> )
+<a href="source-class-ServerEnvironmentConfig.php#104-107" title="Go to source code">set_hsts_security_duration</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1322,7 +1318,7 @@
 					<div>
 						<a class="anchor" href="#_get_config_hsts_security_duration">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#110-113" title="Go to source code">get_config_hsts_security_duration</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#109-112" title="Go to source code">get_config_hsts_security_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1357,7 +1353,7 @@
 					<div>
 						<a class="anchor" href="#_is_hsts_security_subdomain_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#115-118" title="Go to source code">is_hsts_security_subdomain_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#114-117" title="Go to source code">is_hsts_security_subdomain_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1392,7 +1388,7 @@
 					<div>
 						<a class="anchor" href="#_enable_hsts_subdomain_security">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#120-123" title="Go to source code">enable_hsts_subdomain_security</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#119-122" title="Go to source code">enable_hsts_subdomain_security</a>( )
 						</code>
 
 							<div class="description short">
@@ -1427,7 +1423,7 @@
 					<div>
 						<a class="anchor" href="#_disable_hsts_subdomain_security">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#125-128" title="Go to source code">disable_hsts_subdomain_security</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#124-127" title="Go to source code">disable_hsts_subdomain_security</a>( )
 						</code>
 
 							<div class="description short">
@@ -1462,7 +1458,7 @@
 					<div>
 						<a class="anchor" href="#_get_htaccess_manual_content">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#136-139" title="Go to source code">get_htaccess_manual_content</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#135-138" title="Go to source code">get_htaccess_manual_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1497,7 +1493,7 @@
 					<div>
 						<a class="anchor" href="#_set_htaccess_manual_content">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#141-144" title="Go to source code">set_htaccess_manual_content</a>( <span> <var>$content</var></span> )
+<a href="source-class-ServerEnvironmentConfig.php#140-143" title="Go to source code">set_htaccess_manual_content</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1532,7 +1528,7 @@
 					<div>
 						<a class="anchor" href="#_is_output_gziping_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#146-149" title="Go to source code">is_output_gziping_enabled</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#145-148" title="Go to source code">is_output_gziping_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1567,7 +1563,7 @@
 					<div>
 						<a class="anchor" href="#_set_output_gziping_enabled">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#151-154" title="Go to source code">set_output_gziping_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ServerEnvironmentConfig.php#150-153" title="Go to source code">set_output_gziping_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1602,7 +1598,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#156-169" title="Go to source code">get_default_values</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#155-168" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1641,7 +1637,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#171-178" title="Go to source code">load</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#170-177" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1680,7 +1676,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-ServerEnvironmentConfig.php#180-186" title="Go to source code">save</a>( )
+<a href="source-class-ServerEnvironmentConfig.php#179-185" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1740,7 +1736,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#18" title="Go to source code"><b>URL_REWRITING_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#17" title="Go to source code"><b>URL_REWRITING_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1764,7 +1760,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#19" title="Go to source code"><b>REDIRECTION_WWW_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#18" title="Go to source code"><b>REDIRECTION_WWW_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1788,7 +1784,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#20" title="Go to source code"><b>REDIRECTION_WWW_MODE</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#19" title="Go to source code"><b>REDIRECTION_WWW_MODE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1812,7 +1808,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#21" title="Go to source code"><b>REDIRECTION_WWW_WITH_WWW</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#20" title="Go to source code"><b>REDIRECTION_WWW_WITH_WWW</b></a>
 							</code>
 
 							<div class="description short">
@@ -1836,7 +1832,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#22" title="Go to source code"><b>REDIRECTION_WWW_WITHOUT_WWW</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#21" title="Go to source code"><b>REDIRECTION_WWW_WITHOUT_WWW</b></a>
 							</code>
 
 							<div class="description short">
@@ -1860,7 +1856,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#23" title="Go to source code"><b>REDIRECTION_HTTPS_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#22" title="Go to source code"><b>REDIRECTION_HTTPS_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1884,7 +1880,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#24" title="Go to source code"><b>HSTS_SECURITY_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#23" title="Go to source code"><b>HSTS_SECURITY_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1908,7 +1904,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#25" title="Go to source code"><b>HSTS_SECURITY_SUBDOMAIN_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#24" title="Go to source code"><b>HSTS_SECURITY_SUBDOMAIN_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1932,7 +1928,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#26" title="Go to source code"><b>HSTS_SECURITY_DURATION</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#25" title="Go to source code"><b>HSTS_SECURITY_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1956,7 +1952,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#27" title="Go to source code"><b>HTACCESS_MANUAL_CONTENT</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#26" title="Go to source code"><b>HTACCESS_MANUAL_CONTENT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1980,7 +1976,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerEnvironmentConfig.php#28" title="Go to source code"><b>OUTPUT_GZIPING_ENABLED</b></a>
+								<a href="source-class-ServerEnvironmentConfig.php#27" title="Go to source code"><b>OUTPUT_GZIPING_ENABLED</b></a>
 							</code>
 
 							<div class="description short">

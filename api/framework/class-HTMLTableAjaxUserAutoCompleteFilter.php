@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 5.0 - 2017 04 18
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#3-36" title="Go to source code">builder/table/filter/HTMLTableAjaxUserAutoCompleteFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#3-35" title="Go to source code">builder/table/filter/HTMLTableAjaxUserAutoCompleteFilter.class.php</a></span>
 			</div>
 
 
@@ -730,7 +726,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#17-22" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$match_regex</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#16-21" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$label</var></span>, <span> <var>$match_regex</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_is_value_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#24-35" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableAjaxUserAutoCompleteFilter.php#23-34" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">

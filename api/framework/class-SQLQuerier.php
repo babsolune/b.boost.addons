@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQuerier.php#3-51" title="Go to source code">io/db/SQLQuerier.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQuerier.php#3-50" title="Go to source code">io/db/SQLQuerier.class.php</a></span>
 			</div>
 
 
@@ -738,7 +734,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_select">#</a>
 						<code>
-<a href="source-class-SQLQuerier.php#18-30" title="Go to source code">select</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$fetch_mode</var> = SelectQueryResult::FETCH_ASSOC</span> )
+<a href="source-class-SQLQuerier.php#17-29" title="Go to source code">select</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$fetch_mode</var> = SelectQueryResult::FETCH_ASSOC</span> )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_inject">#</a>
 						<code>
-<a href="source-class-SQLQuerier.php#32-44" title="Go to source code">inject</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SQLQuerier.php#31-43" title="Go to source code">inject</a>( <span>string <var>$query</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_enable_query_translator">#</a>
 						<code>
-<a href="source-class-SQLQuerier.php#46" title="Go to source code">enable_query_translator</a>( )
+<a href="source-class-SQLQuerier.php#45" title="Go to source code">enable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_disable_query_translator">#</a>
 						<code>
-<a href="source-class-SQLQuerier.php#48" title="Go to source code">disable_query_translator</a>( )
+<a href="source-class-SQLQuerier.php#47" title="Go to source code">disable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 					<div>
 						<a class="anchor" href="#_get_executed_requests_count">#</a>
 						<code>
-<a href="source-class-SQLQuerier.php#50" title="Go to source code">get_executed_requests_count</a>( )
+<a href="source-class-SQLQuerier.php#49" title="Go to source code">get_executed_requests_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -1022,7 +1018,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SQLQuerier.php#15" title="Go to source code"><b>ORDER_BY_ASC</b></a>
+								<a href="source-class-SQLQuerier.php#14" title="Go to source code"><b>ORDER_BY_ASC</b></a>
 							</code>
 
 							<div class="description short">
@@ -1046,7 +1042,7 @@ query var in the <pre><span class="php-var">$parameters</span></pre> map), the q
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SQLQuerier.php#16" title="Go to source code"><b>ORDER_BY_DESC</b></a>
+								<a href="source-class-SQLQuerier.php#15" title="Go to source code"><b>ORDER_BY_DESC</b></a>
 							</code>
 
 							<div class="description short">

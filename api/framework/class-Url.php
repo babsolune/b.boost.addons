@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -728,7 +724,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Url.php#27-662" title="Go to source code">util/Url.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Url.php#26-661" title="Go to source code">util/Url.class.php</a></span>
 			</div>
 
 
@@ -740,7 +736,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Url.php#48-126" title="Go to source code">__construct</a>( <span>string <var>$url</var> = <span class="php-quote">'.'</span></span>, <span>string <var>$path_to_root</var> = <span class="php-keyword1">null</span></span>, <span> <var>$server_url</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Url.php#47-125" title="Go to source code">__construct</a>( <span>string <var>$url</var> = <span class="php-quote">'.'</span></span>, <span>string <var>$path_to_root</var> = <span class="php-keyword1">null</span></span>, <span> <var>$server_url</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_is_relative">#</a>
 						<code>
-<a href="source-class-Url.php#128-134" title="Go to source code">is_relative</a>( )
+<a href="source-class-Url.php#127-133" title="Go to source code">is_relative</a>( )
 						</code>
 
 							<div class="description short">
@@ -850,7 +846,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_relative">#</a>
 						<code>
-<a href="source-class-Url.php#136-150" title="Go to source code">relative</a>( )
+<a href="source-class-Url.php#135-149" title="Go to source code">relative</a>( )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_rel">#</a>
 						<code>
-<a href="source-class-Url.php#152-166" title="Go to source code">rel</a>( )
+<a href="source-class-Url.php#151-165" title="Go to source code">rel</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_absolute">#</a>
 						<code>
-<a href="source-class-Url.php#168-182" title="Go to source code">absolute</a>( )
+<a href="source-class-Url.php#167-181" title="Go to source code">absolute</a>( )
 						</code>
 
 							<div class="description short">
@@ -967,7 +963,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_root_to_local">#</a>
 						<code>
-<a href="source-class-Url.php#184-199" title="Go to source code">root_to_local</a>( )
+<a href="source-class-Url.php#183-198" title="Go to source code">root_to_local</a>( )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_encode_rewrite">#</a>
 						<code>
-<a href="source-class-Url.php#201-216" title="Go to source code">encode_rewrite</a>( <span>string <var>$url</var></span> )
+<a href="source-class-Url.php#200-215" title="Go to source code">encode_rewrite</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1050,7 +1046,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_check_url_validity">#</a>
 						<code>
-<a href="source-class-Url.php#218-268" title="Go to source code">check_url_validity</a>( <span>string <var>$url</var></span> )
+<a href="source-class-Url.php#217-267" title="Go to source code">check_url_validity</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1094,7 +1090,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_get_url_file_size">#</a>
 						<code>
-<a href="source-class-Url.php#270-307" title="Go to source code">get_url_file_size</a>( <span>string <var>$url</var></span> )
+<a href="source-class-Url.php#269-306" title="Go to source code">get_url_file_size</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1138,7 +1134,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_compress">#</a>
 						<code>
-<a href="source-class-Url.php#309-332" title="Go to source code">compress</a>( <span>string <var>$url</var></span> )
+<a href="source-class-Url.php#308-331" title="Go to source code">compress</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1182,7 +1178,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_get_absolute_root">#</a>
 						<code>
-<a href="source-class-Url.php#334-342" title="Go to source code">get_absolute_root</a>( )
+<a href="source-class-Url.php#333-341" title="Go to source code">get_absolute_root</a>( )
 						</code>
 
 							<div class="description short">
@@ -1221,7 +1217,7 @@ to the website root if beginning with a "/" or an absolute url</p></dd>
 					<div>
 						<a class="anchor" href="#_html_convert_root_relative2absolute">#</a>
 						<code>
-<a href="source-class-Url.php#344-367" title="Go to source code">html_convert_root_relative2absolute</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
+<a href="source-class-Url.php#343-366" title="Go to source code">html_convert_root_relative2absolute</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
 						</code>
 
 							<div class="description short">
@@ -1270,7 +1266,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_html_convert_absolute2root_relative">#</a>
 						<code>
-<a href="source-class-Url.php#369-391" title="Go to source code">html_convert_absolute2root_relative</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
+<a href="source-class-Url.php#368-390" title="Go to source code">html_convert_absolute2root_relative</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
 						</code>
 
 							<div class="description short">
@@ -1318,7 +1314,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_html_convert_root_relative2relative">#</a>
 						<code>
-<a href="source-class-Url.php#393-415" title="Go to source code">html_convert_root_relative2relative</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
+<a href="source-class-Url.php#392-414" title="Go to source code">html_convert_root_relative2relative</a>( <span>string <var>$html_text</var></span>, <span>string <var>$path_to_root</var> = PATH_TO_ROOT</span>, <span>string <var>$server_url</var> = SERVER_URL</span> )
 						</code>
 
 							<div class="description short">
@@ -1366,7 +1362,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_get_relative">#</a>
 						<code>
-<a href="source-class-Url.php#417-427" title="Go to source code">get_relative</a>( <span>string <var>$url</var></span>, <span>string <var>$path_to_root</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$server_url</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Url.php#416-426" title="Go to source code">get_relative</a>( <span>string <var>$url</var></span>, <span>string <var>$path_to_root</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$server_url</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1414,7 +1410,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_get_wellformness_regex">#</a>
 						<code>
-<a href="source-class-Url.php#429-468" title="Go to source code">get_wellformness_regex</a>( <span>integer <var>$protocol</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$user</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$domain</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$folders</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$file</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$args</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$forbid_js</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$forbid_js</var>,…</span> )
+<a href="source-class-Url.php#428-467" title="Go to source code">get_wellformness_regex</a>( <span>integer <var>$protocol</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$user</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$domain</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$folders</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$file</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$args</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$forbid_js</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$forbid_js</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -1480,7 +1476,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_check_wellformness">#</a>
 						<code>
-<a href="source-class-Url.php#470-494" title="Go to source code">check_wellformness</a>( <span>integer <var>$url</var></span>, <span>integer <var>$protocol</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$user</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$domain</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$folders</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$file</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$args</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>boolean <var>$anchor</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span> <var>$forbid_js</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-Url.php#469-493" title="Go to source code">check_wellformness</a>( <span>integer <var>$url</var></span>, <span>integer <var>$protocol</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$user</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$domain</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$folders</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$file</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>integer <var>$args</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span>boolean <var>$anchor</var> = RegexHelper::REGEX_MULTIPLICITY_OPTIONNAL</span>, <span> <var>$forbid_js</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1548,7 +1544,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_to_rel">#</a>
 						<code>
-<a href="source-class-Url.php#583-595" title="Go to source code">to_rel</a>( <span>mixed <var>$url</var></span> )
+<a href="source-class-Url.php#582-594" title="Go to source code">to_rel</a>( <span>mixed <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1592,7 +1588,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_to_relative">#</a>
 						<code>
-<a href="source-class-Url.php#597-609" title="Go to source code">to_relative</a>( <span>mixed <var>$url</var></span> )
+<a href="source-class-Url.php#596-608" title="Go to source code">to_relative</a>( <span>mixed <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1636,7 +1632,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_to_absolute">#</a>
 						<code>
-<a href="source-class-Url.php#611-623" title="Go to source code">to_absolute</a>( <span>mixed <var>$url</var></span> )
+<a href="source-class-Url.php#610-622" title="Go to source code">to_absolute</a>( <span>mixed <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1680,7 +1676,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 					<div>
 						<a class="anchor" href="#_is_current_url">#</a>
 						<code>
-<a href="source-class-Url.php#625-661" title="Go to source code">is_current_url</a>( <span>string <var>$check_url</var></span>, <span>boolean <var>$real_url</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Url.php#624-660" title="Go to source code">is_current_url</a>( <span>string <var>$check_url</var></span>, <span>boolean <var>$real_url</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1733,7 +1729,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#29" title="Go to source code"><b>FORBID_JS_REGEX</b></a>
+								<a href="source-class-Url.php#28" title="Go to source code"><b>FORBID_JS_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1757,7 +1753,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#30" title="Go to source code"><b>PROTOCOL_REGEX</b></a>
+								<a href="source-class-Url.php#29" title="Go to source code"><b>PROTOCOL_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1781,7 +1777,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#31" title="Go to source code"><b>USER_REGEX</b></a>
+								<a href="source-class-Url.php#30" title="Go to source code"><b>USER_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1805,7 +1801,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#32" title="Go to source code"><b>DOMAIN_REGEX</b></a>
+								<a href="source-class-Url.php#31" title="Go to source code"><b>DOMAIN_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1829,7 +1825,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#33" title="Go to source code"><b>FOLDERS_REGEX</b></a>
+								<a href="source-class-Url.php#32" title="Go to source code"><b>FOLDERS_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1853,7 +1849,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#34" title="Go to source code"><b>FILE_REGEX</b></a>
+								<a href="source-class-Url.php#33" title="Go to source code"><b>FILE_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1877,7 +1873,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#35" title="Go to source code"><b>ARGS_REGEX</b></a>
+								<a href="source-class-Url.php#34" title="Go to source code"><b>ARGS_REGEX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1901,7 +1897,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#37" title="Go to source code"><b>STATUS_OK</b></a>
+								<a href="source-class-Url.php#36" title="Go to source code"><b>STATUS_OK</b></a>
 							</code>
 
 							<div class="description short">
@@ -1925,7 +1921,7 @@ root relatives urls (only those beginning by '/') to convert into absolutes ones
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Url.php#38" title="Go to source code"><b>STATUS_FOUND</b></a>
+								<a href="source-class-Url.php#37" title="Go to source code"><b>STATUS_FOUND</b></a>
 							</code>
 
 							<div class="description short">

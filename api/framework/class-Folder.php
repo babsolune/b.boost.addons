@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Filesystem.php">Filesystem</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Folder.php#3-216" title="Go to source code">io/filesystem/Folder.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Folder.php#3-215" title="Go to source code">io/filesystem/Folder.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Folder.php#30-37" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
+<a href="source-class-Folder.php#29-36" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_create">#</a>
 						<code>
-<a href="source-class-Folder.php#39-58" title="Go to source code">create</a>( )
+<a href="source-class-Folder.php#38-57" title="Go to source code">create</a>( )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_get_files">#</a>
 						<code>
-<a href="source-class-Folder.php#102-136" title="Go to source code">get_files</a>( <span>string <var>$regex</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$regex_exclude_files</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Folder.php#101-135" title="Go to source code">get_files</a>( <span>string <var>$regex</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$regex_exclude_files</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -874,7 +870,7 @@
 					<div>
 						<a class="anchor" href="#_get_folders">#</a>
 						<code>
-<a href="source-class-Folder.php#138-160" title="Go to source code">get_folders</a>( <span>string <var>$regex</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Folder.php#137-159" title="Go to source code">get_folders</a>( <span>string <var>$regex</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@
 					<div>
 						<a class="anchor" href="#_get_first_folder">#</a>
 						<code>
-<a href="source-class-Folder.php#162-177" title="Go to source code">get_first_folder</a>( )
+<a href="source-class-Folder.php#161-176" title="Go to source code">get_first_folder</a>( )
 						</code>
 
 							<div class="description short">
@@ -957,7 +953,7 @@
 					<div>
 						<a class="anchor" href="#_get_all_content">#</a>
 						<code>
-<a href="source-class-Folder.php#179-186" title="Go to source code">get_all_content</a>( )
+<a href="source-class-Folder.php#178-185" title="Go to source code">get_all_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -996,7 +992,7 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-Folder.php#188-205" title="Go to source code">delete</a>( )
+<a href="source-class-Folder.php#187-204" title="Go to source code">delete</a>( )
 						</code>
 
 							<div class="description short">
@@ -1035,7 +1031,7 @@
 					<div>
 						<a class="anchor" href="#_get_last_modification_date">#</a>
 						<code>
-<a href="source-class-Folder.php#207-215" title="Go to source code">get_last_modification_date</a>( )
+<a href="source-class-Folder.php#206-214" title="Go to source code">get_last_modification_date</a>( )
 						</code>
 
 							<div class="description short">

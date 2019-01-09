@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.session.php">session</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 11 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionNotFoundException.php#3-20" title="Go to source code">phpboost/user/session/SessionNotFoundException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionNotFoundException.php#3-19" title="Go to source code">phpboost/user/session/SessionNotFoundException.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SessionNotFoundException.php#16-19" title="Go to source code">__construct</a>( <span> <var>$user_id</var></span>, <span> <var>$session_id</var></span> )
+<a href="source-class-SessionNotFoundException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$user_id</var></span>, <span> <var>$session_id</var></span> )
 						</code>
 
 							<div class="description short">

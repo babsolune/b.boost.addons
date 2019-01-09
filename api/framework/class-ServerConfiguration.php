@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -726,7 +722,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ServerConfiguration.php#3-74" title="Go to source code">phpboost/environment/ServerConfiguration.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ServerConfiguration.php#3-73" title="Go to source code">phpboost/environment/ServerConfiguration.class.php</a></span>
 			</div>
 
 
@@ -738,7 +734,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_get_phpversion">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#20-29" title="Go to source code">get_phpversion</a>( )
+<a href="source-class-ServerConfiguration.php#19-28" title="Go to source code">get_phpversion</a>( )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_is_php_compatible">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#31-37" title="Go to source code">is_php_compatible</a>( )
+<a href="source-class-ServerConfiguration.php#30-36" title="Go to source code">is_php_compatible</a>( )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@
 					<div>
 						<a class="anchor" href="#_has_gd_library">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#39-45" title="Go to source code">has_gd_library</a>( )
+<a href="source-class-ServerConfiguration.php#38-44" title="Go to source code">has_gd_library</a>( )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@
 					<div>
 						<a class="anchor" href="#_has_curl_library">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#47-53" title="Go to source code">has_curl_library</a>( )
+<a href="source-class-ServerConfiguration.php#46-52" title="Go to source code">has_curl_library</a>( )
 						</code>
 
 							<div class="description short">
@@ -912,7 +908,7 @@
 					<div>
 						<a class="anchor" href="#_has_mbstring_library">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#55-61" title="Go to source code">has_mbstring_library</a>( )
+<a href="source-class-ServerConfiguration.php#54-60" title="Go to source code">has_mbstring_library</a>( )
 						</code>
 
 							<div class="description short">
@@ -951,7 +947,7 @@
 					<div>
 						<a class="anchor" href="#_has_url_rewriting">#</a>
 						<code>
-<a href="source-class-ServerConfiguration.php#63-73" title="Go to source code">has_url_rewriting</a>( )
+<a href="source-class-ServerConfiguration.php#62-72" title="Go to source code">has_url_rewriting</a>( )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ServerConfiguration.php#17" title="Go to source code"><b>MIN_PHP_VERSION</b></a>
+								<a href="source-class-ServerConfiguration.php#16" title="Go to source code"><b>MIN_PHP_VERSION</b></a>
 							</code>
 
 							<div class="description short">

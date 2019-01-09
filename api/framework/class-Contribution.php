@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Event.php">Event</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Contribution.php#3-383" title="Go to source code">phpboost/event/Contribution.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Contribution.php#3-382" title="Go to source code">phpboost/event/Contribution.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -720,7 +716,7 @@ All the contributions are managed in the contribution panel.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Contribution.php#80-90" title="Go to source code">__construct</a>( )
+<a href="source-class-Contribution.php#79-89" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -779,7 +775,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_build">#</a>
 						<code>
-<a href="source-class-Contribution.php#92-131" title="Go to source code">build</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$description</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$module</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>mixed[] <var>$fixing_date</var></span>, <span>integer <var>$auth</var></span>, <span>integer <var>$poster_id</var></span>, <span>integer <var>$fixer_id</var></span>, <span>string <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span>, <span>string <var>$poster_login</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_login</var> = <span class="php-quote">''</span></span>, <span> <var>$poster_level</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_level</var> = <span class="php-quote">''</span></span>, <span> <var>$poster_groups</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_groups</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Contribution.php#91-130" title="Go to source code">build</a>( <span>integer <var>$id</var></span>, <span>string <var>$entitled</var></span>, <span>string <var>$description</var></span>, <span>string <var>$fixing_url</var></span>, <span>integer <var>$module</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$status</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$creation_date</var></span>, <span>mixed[] <var>$fixing_date</var></span>, <span>integer <var>$auth</var></span>, <span>integer <var>$poster_id</var></span>, <span>integer <var>$fixer_id</var></span>, <span>string <var>$id_in_module</var></span>, <span>string <var>$identifier</var></span>, <span>string <var>$type</var></span>, <span>string <var>$poster_login</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_login</var> = <span class="php-quote">''</span></span>, <span> <var>$poster_level</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_level</var> = <span class="php-quote">''</span></span>, <span> <var>$poster_groups</var> = <span class="php-quote">''</span></span>, <span> <var>$fixer_groups</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -857,7 +853,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_module">#</a>
 						<code>
-<a href="source-class-Contribution.php#133-140" title="Go to source code">set_module</a>( <span>string <var>$module</var></span> )
+<a href="source-class-Contribution.php#132-139" title="Go to source code">set_module</a>( <span>string <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_fixing_date">#</a>
 						<code>
-<a href="source-class-Contribution.php#142-152" title="Go to source code">set_fixing_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Contribution.php#141-151" title="Go to source code">set_fixing_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_status">#</a>
 						<code>
-<a href="source-class-Contribution.php#154-187" title="Go to source code">set_status</a>( <span>integer <var>$new_current_status</var></span> )
+<a href="source-class-Contribution.php#153-186" title="Go to source code">set_status</a>( <span>integer <var>$new_current_status</var></span> )
 						</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_auth">#</a>
 						<code>
-<a href="source-class-Contribution.php#189-199" title="Go to source code">set_auth</a>( <span>mixed[] <var>$auth</var></span> )
+<a href="source-class-Contribution.php#188-198" title="Go to source code">set_auth</a>( <span>mixed[] <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1025,7 +1021,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_poster_id">#</a>
 						<code>
-<a href="source-class-Contribution.php#201-213" title="Go to source code">set_poster_id</a>( <span>integer <var>$poster_id</var></span> )
+<a href="source-class-Contribution.php#200-212" title="Go to source code">set_poster_id</a>( <span>integer <var>$poster_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1065,7 +1061,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_fixer_id">#</a>
 						<code>
-<a href="source-class-Contribution.php#215-227" title="Go to source code">set_fixer_id</a>( <span>integer <var>$fixer_id</var></span> )
+<a href="source-class-Contribution.php#214-226" title="Go to source code">set_fixer_id</a>( <span>integer <var>$fixer_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1105,7 +1101,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-Contribution.php#229-239" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
+<a href="source-class-Contribution.php#228-238" title="Go to source code">set_description</a>( <span>string <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1145,7 +1141,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-Contribution.php#241-248" title="Go to source code">get_description</a>( )
+<a href="source-class-Contribution.php#240-247" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1184,7 +1180,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_module">#</a>
 						<code>
-<a href="source-class-Contribution.php#250-257" title="Go to source code">get_module</a>( )
+<a href="source-class-Contribution.php#249-256" title="Go to source code">get_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -1223,7 +1219,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_fixing_date">#</a>
 						<code>
-<a href="source-class-Contribution.php#259-266" title="Go to source code">get_fixing_date</a>( )
+<a href="source-class-Contribution.php#258-265" title="Go to source code">get_fixing_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1262,7 +1258,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_auth">#</a>
 						<code>
-<a href="source-class-Contribution.php#268-275" title="Go to source code">get_auth</a>( )
+<a href="source-class-Contribution.php#267-274" title="Go to source code">get_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1301,7 +1297,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_poster_id">#</a>
 						<code>
-<a href="source-class-Contribution.php#277-284" title="Go to source code">get_poster_id</a>( )
+<a href="source-class-Contribution.php#276-283" title="Go to source code">get_poster_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1340,7 +1336,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_fixer_id">#</a>
 						<code>
-<a href="source-class-Contribution.php#286-293" title="Go to source code">get_fixer_id</a>( )
+<a href="source-class-Contribution.php#285-292" title="Go to source code">get_fixer_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1379,7 +1375,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_poster_login">#</a>
 						<code>
-<a href="source-class-Contribution.php#295-302" title="Go to source code">get_poster_login</a>( )
+<a href="source-class-Contribution.php#294-301" title="Go to source code">get_poster_login</a>( )
 						</code>
 
 							<div class="description short">
@@ -1418,7 +1414,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_fixer_login">#</a>
 						<code>
-<a href="source-class-Contribution.php#304-311" title="Go to source code">get_fixer_login</a>( )
+<a href="source-class-Contribution.php#303-310" title="Go to source code">get_fixer_login</a>( )
 						</code>
 
 							<div class="description short">
@@ -1457,7 +1453,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_poster_level">#</a>
 						<code>
-<a href="source-class-Contribution.php#313-320" title="Go to source code">get_poster_level</a>( )
+<a href="source-class-Contribution.php#312-319" title="Go to source code">get_poster_level</a>( )
 						</code>
 
 							<div class="description short">
@@ -1496,7 +1492,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_fixer_level">#</a>
 						<code>
-<a href="source-class-Contribution.php#322-329" title="Go to source code">get_fixer_level</a>( )
+<a href="source-class-Contribution.php#321-328" title="Go to source code">get_fixer_level</a>( )
 						</code>
 
 							<div class="description short">
@@ -1535,7 +1531,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_poster_groups">#</a>
 						<code>
-<a href="source-class-Contribution.php#331-338" title="Go to source code">get_poster_groups</a>( )
+<a href="source-class-Contribution.php#330-337" title="Go to source code">get_poster_groups</a>( )
 						</code>
 
 							<div class="description short">
@@ -1574,7 +1570,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_fixer_groups">#</a>
 						<code>
-<a href="source-class-Contribution.php#340-347" title="Go to source code">get_fixer_groups</a>( )
+<a href="source-class-Contribution.php#339-346" title="Go to source code">get_fixer_groups</a>( )
 						</code>
 
 							<div class="description short">
@@ -1613,7 +1609,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_status_name">#</a>
 						<code>
-<a href="source-class-Contribution.php#349-364" title="Go to source code">get_status_name</a>( )
+<a href="source-class-Contribution.php#348-363" title="Go to source code">get_status_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1654,7 +1650,7 @@ All the contributions are managed in the contribution panel.</p>
 					<div>
 						<a class="anchor" href="#_get_module_name">#</a>
 						<code>
-<a href="source-class-Contribution.php#366-382" title="Go to source code">get_module_name</a>( )
+<a href="source-class-Contribution.php#365-381" title="Go to source code">get_module_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1731,7 +1727,7 @@ All the contributions are managed in the contribution panel.</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Contribution.php#18" title="Go to source code"><b>CONTRIBUTION_AUTH_BIT</b></a>
+								<a href="source-class-Contribution.php#17" title="Go to source code"><b>CONTRIBUTION_AUTH_BIT</b></a>
 							</code>
 
 							<div class="description short">

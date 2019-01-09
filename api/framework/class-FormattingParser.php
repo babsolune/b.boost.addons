@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 12 20
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormattingParser.php#3-55" title="Go to source code">content/formatting/parser/FormattingParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormattingParser.php#3-54" title="Go to source code">content/formatting/parser/FormattingParser.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#15-18" title="Go to source code">parse</a>( )
+<a href="source-class-FormattingParser.php#14-17" title="Go to source code">parse</a>( )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_get_content">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#20-24" title="Go to source code">get_content</a>( )
+<a href="source-class-FormattingParser.php#19-23" title="Go to source code">get_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_set_content">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#26-30" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
+<a href="source-class-FormattingParser.php#25-29" title="Go to source code">set_content</a>( <span>string <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_set_path_to_root">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#32-36" title="Go to source code">set_path_to_root</a>( <span>string <var>$path</var></span> )
+<a href="source-class-FormattingParser.php#31-35" title="Go to source code">set_path_to_root</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@
 					<div>
 						<a class="anchor" href="#_get_path_to_root">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#38-42" title="Go to source code">get_path_to_root</a>( )
+<a href="source-class-FormattingParser.php#37-41" title="Go to source code">get_path_to_root</a>( )
 						</code>
 
 							<div class="description short">
@@ -940,7 +936,7 @@
 					<div>
 						<a class="anchor" href="#_set_page_path">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#44-48" title="Go to source code">set_page_path</a>( <span>string <var>$page_path</var></span> )
+<a href="source-class-FormattingParser.php#43-47" title="Go to source code">set_page_path</a>( <span>string <var>$page_path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -980,7 +976,7 @@
 					<div>
 						<a class="anchor" href="#_get_page_path">#</a>
 						<code>
-<a href="source-class-FormattingParser.php#50-54" title="Go to source code">get_page_path</a>( )
+<a href="source-class-FormattingParser.php#49-53" title="Go to source code">get_page_path</a>( )
 						</code>
 
 							<div class="description short">

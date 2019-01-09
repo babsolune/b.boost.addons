@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.util.php">util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 12 22
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLFragmentBuilder.php#3-19" title="Go to source code">io/db/util/SQLFragmentBuilder.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLFragmentBuilder.php#3-18" title="Go to source code">io/db/util/SQLFragmentBuilder.class.php</a></span>
 			</div>
 
 
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql">#</a>
 						<code>
-<a href="source-class-SQLFragmentBuilder.php#15-18" title="Go to source code">get_sql</a>( )
+<a href="source-class-SQLFragmentBuilder.php#14-17" title="Go to source code">get_sql</a>( )
 						</code>
 
 							<div class="description short">

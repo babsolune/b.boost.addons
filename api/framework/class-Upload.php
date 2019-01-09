@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Upload.php#3-280" title="Go to source code">io/Upload.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Upload.php#3-279" title="Go to source code">io/Upload.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Upload.php#33-40" title="Go to source code">__construct</a>( <span>string <var>$base_directory</var> = <span class="php-quote">'upload'</span></span> )
+<a href="source-class-Upload.php#32-39" title="Go to source code">__construct</a>( <span>string <var>$base_directory</var> = <span class="php-quote">'upload'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#_file">#</a>
 						<code>
-<a href="source-class-Upload.php#42-108" title="Go to source code">file</a>( <span>string <var>$filepostname</var></span>, <span>string <var>$regexp</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$uniq_name</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$weight_max</var> = <span class="php-num">100000000</span></span>, <span>boolean <var>$check_exist</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-Upload.php#41-107" title="Go to source code">file</a>( <span>string <var>$filepostname</var></span>, <span>string <var>$regexp</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$uniq_name</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$weight_max</var> = <span class="php-num">100000000</span></span>, <span>boolean <var>$check_exist</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -839,7 +835,7 @@
 					<div>
 						<a class="anchor" href="#_check_img">#</a>
 						<code>
-<a href="source-class-Upload.php#110-138" title="Go to source code">check_img</a>( <span>string <var>$width_max</var></span>, <span>integer <var>$height_max</var></span>, <span>integer <var>$delete</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$delete</var>,…</span> )
+<a href="source-class-Upload.php#109-137" title="Go to source code">check_img</a>( <span>string <var>$width_max</var></span>, <span>integer <var>$height_max</var></span>, <span>integer <var>$delete</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$delete</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@
 					<div>
 						<a class="anchor" href="#_get_human_readable_size">#</a>
 						<code>
-<a href="source-class-Upload.php#261-269" title="Go to source code">get_human_readable_size</a>( <span>integer <var>$round</var> = <span class="php-num">1</span></span> )
+<a href="source-class-Upload.php#260-268" title="Go to source code">get_human_readable_size</a>( <span>integer <var>$round</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@
 					<div>
 						<a class="anchor" href="#_disableContentCheck">#</a>
 						<code>
-<a href="source-class-Upload.php#271-273" title="Go to source code">disableContentCheck</a>( )
+<a href="source-class-Upload.php#270-272" title="Go to source code">disableContentCheck</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_get_error">#</a>
 						<code>
-<a href="source-class-Upload.php#275" title="Go to source code">get_error</a>( )
+<a href="source-class-Upload.php#274" title="Go to source code">get_error</a>( )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension">#</a>
 						<code>
-<a href="source-class-Upload.php#276" title="Go to source code">get_extension</a>( )
+<a href="source-class-Upload.php#275" title="Go to source code">get_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_get_original_filename">#</a>
 						<code>
-<a href="source-class-Upload.php#277" title="Go to source code">get_original_filename</a>( )
+<a href="source-class-Upload.php#276" title="Go to source code">get_original_filename</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_get_filename">#</a>
 						<code>
-<a href="source-class-Upload.php#278" title="Go to source code">get_filename</a>( )
+<a href="source-class-Upload.php#277" title="Go to source code">get_filename</a>( )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_get_size">#</a>
 						<code>
-<a href="source-class-Upload.php#279" title="Go to source code">get_size</a>( )
+<a href="source-class-Upload.php#278" title="Go to source code">get_size</a>( )
 						</code>
 
 							<div class="description short">
@@ -1154,7 +1150,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Upload.php#27" title="Go to source code"><b>UNIQ_NAME</b></a>
+								<a href="source-class-Upload.php#26" title="Go to source code"><b>UNIQ_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Upload.php#28" title="Go to source code"><b>NO_UNIQ_NAME</b></a>
+								<a href="source-class-Upload.php#27" title="Go to source code"><b>NO_UNIQ_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -1202,7 +1198,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Upload.php#29" title="Go to source code"><b>CHECK_EXIST</b></a>
+								<a href="source-class-Upload.php#28" title="Go to source code"><b>CHECK_EXIST</b></a>
 							</code>
 
 							<div class="description short">
@@ -1226,7 +1222,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Upload.php#30" title="Go to source code"><b>DELETE_ON_ERROR</b></a>
+								<a href="source-class-Upload.php#29" title="Go to source code"><b>DELETE_ON_ERROR</b></a>
 							</code>
 
 							<div class="description short">
@@ -1250,7 +1246,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Upload.php#31" title="Go to source code"><b>NO_DELETE_ON_ERROR</b></a>
+								<a href="source-class-Upload.php#30" title="Go to source code"><b>NO_DELETE_ON_ERROR</b></a>
 							</code>
 
 							<div class="description short">

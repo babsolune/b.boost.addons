@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 06 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Dispatcher.php#17-56" title="Go to source code">mvc/dispatcher/Dispatcher.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Dispatcher.php#16-55" title="Go to source code">mvc/dispatcher/Dispatcher.class.php</a></span>
 			</div>
 
 
@@ -730,7 +726,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Dispatcher.php#25-34" title="Go to source code">__construct</a>( <span>&lt;code&gt;UrlControllerMapper[]&lt;/code&gt; <var>$url_controller_mappers</var></span> )
+<a href="source-class-Dispatcher.php#24-33" title="Go to source code">__construct</a>( <span>&lt;code&gt;UrlControllerMapper[]&lt;/code&gt; <var>$url_controller_mappers</var></span> )
 						</code>
 
 							<div class="description short">
@@ -796,7 +792,7 @@
 					<div>
 						<a class="anchor" href="#_dispatch">#</a>
 						<code>
-<a href="source-class-Dispatcher.php#36-55" title="Go to source code">dispatch</a>( )
+<a href="source-class-Dispatcher.php#35-54" title="Go to source code">dispatch</a>( )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@ in the</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Dispatcher.php#21" title="Go to source code"><b>URL_PARAM_NAME</b></a>
+								<a href="source-class-Dispatcher.php#20" title="Go to source code"><b>URL_PARAM_NAME</b></a>
 							</code>
 
 							<div class="description short">

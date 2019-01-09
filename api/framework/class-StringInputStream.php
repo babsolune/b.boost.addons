@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringInputStream.php#3-126" title="Go to source code">util/StringInputStream.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringInputStream.php#3-125" title="Go to source code">util/StringInputStream.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#21-25" title="Go to source code">__construct</a>( <span> <var>$string</var></span> )
+<a href="source-class-StringInputStream.php#20-24" title="Go to source code">__construct</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_has_next">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#27-30" title="Go to source code">has_next</a>( )
+<a href="source-class-StringInputStream.php#26-29" title="Go to source code">has_next</a>( )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_next">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#32-36" title="Go to source code">next</a>( )
+<a href="source-class-StringInputStream.php#31-35" title="Go to source code">next</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_get_current">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#38-45" title="Go to source code">get_current</a>( )
+<a href="source-class-StringInputStream.php#37-44" title="Go to source code">get_current</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_get_next">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#47-54" title="Go to source code">get_next</a>( )
+<a href="source-class-StringInputStream.php#46-53" title="Go to source code">get_next</a>( )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@
 					<div>
 						<a class="anchor" href="#_get_previous">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#56-63" title="Go to source code">get_previous</a>( )
+<a href="source-class-StringInputStream.php#55-62" title="Go to source code">get_previous</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_assert_next">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#65-69" title="Go to source code">assert_next</a>( <span> <var>$pattern</var></span>, <span> <var>$options</var> = <span class="php-quote">''</span></span>, <span>array <var>&amp; $matches</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-StringInputStream.php#64-68" title="Go to source code">assert_next</a>( <span> <var>$pattern</var></span>, <span> <var>$options</var> = <span class="php-quote">''</span></span>, <span>array <var>&amp; $matches</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_consume_next">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#71-79" title="Go to source code">consume_next</a>( <span> <var>$pattern</var></span>, <span> <var>$options</var> = <span class="php-quote">''</span></span>, <span>array <var>&amp; $matches</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-StringInputStream.php#70-78" title="Go to source code">consume_next</a>( <span> <var>$pattern</var></span>, <span> <var>$options</var> = <span class="php-quote">''</span></span>, <span>array <var>&amp; $matches</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_move">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#81-85" title="Go to source code">move</a>( <span> <var>$delta</var></span> )
+<a href="source-class-StringInputStream.php#80-84" title="Go to source code">move</a>( <span> <var>$delta</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_safe_move">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#87-92" title="Go to source code">safe_move</a>( <span> <var>$delta</var></span> )
+<a href="source-class-StringInputStream.php#86-91" title="Go to source code">safe_move</a>( <span> <var>$delta</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_tell">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#94-97" title="Go to source code">tell</a>( )
+<a href="source-class-StringInputStream.php#93-96" title="Go to source code">tell</a>( )
 						</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@
 					<div>
 						<a class="anchor" href="#_seek">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#99-107" title="Go to source code">seek</a>( <span> <var>$new_index</var></span> )
+<a href="source-class-StringInputStream.php#98-106" title="Go to source code">seek</a>( <span> <var>$new_index</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 					<div>
 						<a class="anchor" href="#_to_string">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#109-120" title="Go to source code">to_string</a>( <span> <var>$delta</var> = <span class="php-num">0</span></span>, <span> <var>$max_length</var> = <span class="php-num">50</span></span> )
+<a href="source-class-StringInputStream.php#108-119" title="Go to source code">to_string</a>( <span> <var>$delta</var> = <span class="php-num">0</span></span>, <span> <var>$max_length</var> = <span class="php-num">50</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1213,7 +1209,7 @@
 					<div>
 						<a class="anchor" href="#_entire_string">#</a>
 						<code>
-<a href="source-class-StringInputStream.php#122-125" title="Go to source code">entire_string</a>( )
+<a href="source-class-StringInputStream.php#121-124" title="Go to source code">entire_string</a>( )
 						</code>
 
 							<div class="description short">

@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Theme.php">Theme</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 04 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Theme.php#3-91" title="Go to source code">phpboost/theme/Theme.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Theme.php#3-90" title="Go to source code">phpboost/theme/Theme.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Theme.php#22-28" title="Go to source code">__construct</a>( <span> <var>$theme_id</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$activated</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Theme.php#21-27" title="Go to source code">__construct</a>( <span> <var>$theme_id</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$activated</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Theme.php#30-33" title="Go to source code">get_id</a>( )
+<a href="source-class-Theme.php#29-32" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_is_activated">#</a>
 						<code>
-<a href="source-class-Theme.php#35-38" title="Go to source code">is_activated</a>( )
+<a href="source-class-Theme.php#34-37" title="Go to source code">is_activated</a>( )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-Theme.php#40-43" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-Theme.php#39-42" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_set_activated">#</a>
 						<code>
-<a href="source-class-Theme.php#45-48" title="Go to source code">set_activated</a>( <span> <var>$activated</var></span> )
+<a href="source-class-Theme.php#44-47" title="Go to source code">set_activated</a>( <span> <var>$activated</var></span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_set_columns_disabled">#</a>
 						<code>
-<a href="source-class-Theme.php#50-53" title="Go to source code">set_columns_disabled</a>( <span><code><a href="class-ColumnsDisabled.php">ColumnsDisabled</a></code> <var>$columns_disabled</var></span> )
+<a href="source-class-Theme.php#49-52" title="Go to source code">set_columns_disabled</a>( <span><code><a href="class-ColumnsDisabled.php">ColumnsDisabled</a></code> <var>$columns_disabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_get_columns_disabled">#</a>
 						<code>
-<a href="source-class-Theme.php#55-58" title="Go to source code">get_columns_disabled</a>( )
+<a href="source-class-Theme.php#54-57" title="Go to source code">get_columns_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -965,7 +961,7 @@
 					<div>
 						<a class="anchor" href="#_set_customize_interface">#</a>
 						<code>
-<a href="source-class-Theme.php#60-63" title="Go to source code">set_customize_interface</a>( <span><code><a href="class-CustomizeInterface.php">CustomizeInterface</a></code> <var>$customize_interface</var></span> )
+<a href="source-class-Theme.php#59-62" title="Go to source code">set_customize_interface</a>( <span><code><a href="class-CustomizeInterface.php">CustomizeInterface</a></code> <var>$customize_interface</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1000,7 +996,7 @@
 					<div>
 						<a class="anchor" href="#_get_customize_interface">#</a>
 						<code>
-<a href="source-class-Theme.php#65-68" title="Go to source code">get_customize_interface</a>( )
+<a href="source-class-Theme.php#64-67" title="Go to source code">get_customize_interface</a>( )
 						</code>
 
 							<div class="description short">
@@ -1035,7 +1031,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorizations">#</a>
 						<code>
-<a href="source-class-Theme.php#70-73" title="Go to source code">set_authorizations</a>( <span> <var>$authorizations</var></span> )
+<a href="source-class-Theme.php#69-72" title="Go to source code">set_authorizations</a>( <span> <var>$authorizations</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1070,7 +1066,7 @@
 					<div>
 						<a class="anchor" href="#_get_configuration">#</a>
 						<code>
-<a href="source-class-Theme.php#75-81" title="Go to source code">get_configuration</a>( )
+<a href="source-class-Theme.php#74-80" title="Go to source code">get_configuration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@
 					<div>
 						<a class="anchor" href="#_check_auth">#</a>
 						<code>
-<a href="source-class-Theme.php#83-90" title="Go to source code">check_auth</a>( )
+<a href="source-class-Theme.php#82-89" title="Go to source code">check_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1155,7 +1151,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Theme.php#20" title="Go to source code"><b>ACCES_THEME</b></a>
+								<a href="source-class-Theme.php#19" title="Go to source code"><b>ACCES_THEME</b></a>
 							</code>
 
 							<div class="description short">

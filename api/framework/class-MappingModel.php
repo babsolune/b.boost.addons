@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MappingModel.php#3-109" title="Go to source code">mvc/model/MappingModel.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MappingModel.php#3-108" title="Go to source code">mvc/model/MappingModel.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MappingModel.php#22-38" title="Go to source code">__construct</a>( <span> <var>$classname</var></span>, <span> <var>$table_name</var></span>, <span><code><a href="class-MappingModelField.php">MappingModelField</a></code> <var>$primary_key</var></span>, <span> <var>$fields</var></span>, <span> <var>$joins</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-MappingModel.php#21-37" title="Go to source code">__construct</a>( <span> <var>$classname</var></span>, <span> <var>$table_name</var></span>, <span><code><a href="class-MappingModelField.php">MappingModelField</a></code> <var>$primary_key</var></span>, <span> <var>$fields</var></span>, <span> <var>$joins</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_new_instance">#</a>
 						<code>
-<a href="source-class-MappingModel.php#40-50" title="Go to source code">new_instance</a>( <span>mixed[string] <var>$properties_map</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-MappingModel.php#39-49" title="Go to source code">new_instance</a>( <span>mixed[string] <var>$properties_map</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_get_raw_value">#</a>
 						<code>
-<a href="source-class-MappingModel.php#52-59" title="Go to source code">get_raw_value</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$instance</var></span> )
+<a href="source-class-MappingModel.php#51-58" title="Go to source code">get_raw_value</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$instance</var></span> )
 						</code>
 
 							<div class="description short">
@@ -870,7 +866,7 @@
 					<div>
 						<a class="anchor" href="#_get_class_name">#</a>
 						<code>
-<a href="source-class-MappingModel.php#61-67" title="Go to source code">get_class_name</a>( )
+<a href="source-class-MappingModel.php#60-66" title="Go to source code">get_class_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -909,7 +905,7 @@
 					<div>
 						<a class="anchor" href="#_get_table_name">#</a>
 						<code>
-<a href="source-class-MappingModel.php#69-75" title="Go to source code">get_table_name</a>( )
+<a href="source-class-MappingModel.php#68-74" title="Go to source code">get_table_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -948,7 +944,7 @@
 					<div>
 						<a class="anchor" href="#_get_primary_key">#</a>
 						<code>
-<a href="source-class-MappingModel.php#77-83" title="Go to source code">get_primary_key</a>( )
+<a href="source-class-MappingModel.php#76-82" title="Go to source code">get_primary_key</a>( )
 						</code>
 
 							<div class="description short">
@@ -987,7 +983,7 @@
 					<div>
 						<a class="anchor" href="#_get_fields">#</a>
 						<code>
-<a href="source-class-MappingModel.php#85-91" title="Go to source code">get_fields</a>( )
+<a href="source-class-MappingModel.php#84-90" title="Go to source code">get_fields</a>( )
 						</code>
 
 							<div class="description short">
@@ -1026,7 +1022,7 @@
 					<div>
 						<a class="anchor" href="#_get_joins">#</a>
 						<code>
-<a href="source-class-MappingModel.php#93-99" title="Go to source code">get_joins</a>( )
+<a href="source-class-MappingModel.php#92-98" title="Go to source code">get_joins</a>( )
 						</code>
 
 							<div class="description short">

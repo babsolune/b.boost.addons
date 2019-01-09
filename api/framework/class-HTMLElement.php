@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLElement.php#3-21" title="Go to source code">builder/HTMLElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLElement.php#3-20" title="Go to source code">builder/HTMLElement.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -804,7 +800,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-HTMLElement.php#16-20" title="Go to source code">display</a>( )
+<a href="source-class-HTMLElement.php#15-19" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">

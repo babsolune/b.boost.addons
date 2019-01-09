@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.authorization.php">authorization</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2018 11 04
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberDisabledActionAuthorization.php#3-32" title="Go to source code">phpboost/member/authorization/MemberDisabledActionAuthorization.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberDisabledActionAuthorization.php#3-31" title="Go to source code">phpboost/member/authorization/MemberDisabledActionAuthorization.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -720,7 +716,7 @@ In this class the select of Visitor and Member level is not possible.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@ In this class the select of Visitor and Member level is not possible.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberDisabledActionAuthorization.php#21-31" title="Go to source code">__construct</a>( <span>string <var>$label</var></span>, <span>integer <var>$bit</var></span>, <span>string <var>$description</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MemberDisabledActionAuthorization.php#20-30" title="Go to source code">__construct</a>( <span>string <var>$label</var></span>, <span>integer <var>$bit</var></span>, <span>string <var>$description</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-RolesAuthorizations.php">RolesAuthorizations</a></code> <var>$roles</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">

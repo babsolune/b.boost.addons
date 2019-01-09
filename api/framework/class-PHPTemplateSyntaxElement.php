@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a>\<a href="package-IO.Template.parser.syntax.php">syntax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPTemplateSyntaxElement.php#3-47" title="Go to source code">io/template/parser/syntax/PHPTemplateSyntaxElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPTemplateSyntaxElement.php#3-46" title="Go to source code">io/template/parser/syntax/PHPTemplateSyntaxElement.class.php</a></span>
 			</div>
 
 
@@ -750,7 +746,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -772,7 +768,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-PHPTemplateSyntaxElement.php#20-24" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
+<a href="source-class-PHPTemplateSyntaxElement.php#19-23" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
 						</code>
 
 							<div class="description short">

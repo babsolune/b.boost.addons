@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Feed.php#19-311" title="Go to source code">content/feed/Feed.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Feed.php#18-310" title="Go to source code">content/feed/Feed.class.php</a></span>
 			</div>
 
 
@@ -722,7 +718,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -744,7 +740,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Feed.php#53-64" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$name</var> = self::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
+<a href="source-class-Feed.php#52-63" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$name</var> = self::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -788,7 +784,7 @@
 					<div>
 						<a class="anchor" href="#_load_data">#</a>
 						<code>
-<a href="source-class-Feed.php#66-70" title="Go to source code">load_data</a>( <span><code><a href="class-FeedData.php">FeedData</a></code> <var>$data</var></span> )
+<a href="source-class-Feed.php#65-69" title="Go to source code">load_data</a>( <span><code><a href="class-FeedData.php">FeedData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 					<div>
 						<a class="anchor" href="#_load_file">#</a>
 						<code>
-<a href="source-class-Feed.php#71-75" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
+<a href="source-class-Feed.php#70-74" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -868,7 +864,7 @@
 					<div>
 						<a class="anchor" href="#_export">#</a>
 						<code>
-<a href="source-class-Feed.php#77-143" title="Go to source code">export</a>( <span>mixed <var>$template</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$number</var> = <span class="php-num">10</span></span>, <span>integer <var>$begin_at</var> = <span class="php-num">0</span></span> )
+<a href="source-class-Feed.php#76-142" title="Go to source code">export</a>( <span>mixed <var>$template</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$number</var> = <span class="php-num">10</span></span>, <span>integer <var>$begin_at</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_read">#</a>
 						<code>
-<a href="source-class-Feed.php#145-161" title="Go to source code">read</a>( )
+<a href="source-class-Feed.php#144-160" title="Go to source code">read</a>( )
 						</code>
 
 							<div class="description short">
@@ -957,7 +953,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_cache">#</a>
 						<code>
-<a href="source-class-Feed.php#163-169" title="Go to source code">cache</a>( )
+<a href="source-class-Feed.php#162-168" title="Go to source code">cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -992,7 +988,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_is_in_cache">#</a>
 						<code>
-<a href="source-class-Feed.php#171-178" title="Go to source code">is_in_cache</a>( )
+<a href="source-class-Feed.php#170-177" title="Go to source code">is_in_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1031,7 +1027,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_get_cache_file_name">#</a>
 						<code>
-<a href="source-class-Feed.php#180-187" title="Go to source code">get_cache_file_name</a>( )
+<a href="source-class-Feed.php#179-186" title="Go to source code">get_cache_file_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1070,7 +1066,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_clear_cache">#</a>
 						<code>
-<a href="source-class-Feed.php#189-211" title="Go to source code">clear_cache</a>( <span>mixed <var>$module_id</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Feed.php#188-210" title="Go to source code">clear_cache</a>( <span>mixed <var>$module_id</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1111,7 +1107,7 @@ Clear all feeds data from the cache</p></dd>
 					<div>
 						<a class="anchor" href="#_get_parsed">#</a>
 						<code>
-<a href="source-class-Feed.php#234-292" title="Go to source code">get_parsed</a>( <span>string <var>$module_id</var></span>, <span>string <var>$name</var> = self::DEFAULT_FEED_NAME</span>, <span>integer <var>$idcat</var> = <span class="php-num">0</span></span>, <span>mixed <var>$template</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$number</var> = <span class="php-num">10</span></span>, <span>integer <var>$begin_at</var> = <span class="php-num">0</span></span> )
+<a href="source-class-Feed.php#233-291" title="Go to source code">get_parsed</a>( <span>string <var>$module_id</var></span>, <span>string <var>$name</var> = self::DEFAULT_FEED_NAME</span>, <span>integer <var>$idcat</var> = <span class="php-num">0</span></span>, <span>mixed <var>$template</var> = <span class="php-keyword1">false</span></span>, <span>integer <var>$number</var> = <span class="php-num">10</span></span>, <span>integer <var>$begin_at</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1167,7 +1163,7 @@ It could also be a Template object</p></dd>
 					<div>
 						<a class="anchor" href="#_get_feed_menu">#</a>
 						<code>
-<a href="source-class-Feed.php#294-310" title="Go to source code">get_feed_menu</a>( <span>string <var>$module_id</var></span>, <span> <var>$id_cat</var> = <span class="php-num">0</span></span> )
+<a href="source-class-Feed.php#293-309" title="Go to source code">get_feed_menu</a>( <span>string <var>$module_id</var></span>, <span> <var>$id_cat</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1224,7 +1220,7 @@ It could also be a Template object</p></dd>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Feed.php#21" title="Go to source code"><b>DEFAULT_FEED_NAME</b></a>
+								<a href="source-class-Feed.php#20" title="Go to source code"><b>DEFAULT_FEED_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -1263,7 +1259,7 @@ It could also be a Template object</p></dd>
 				</td>
 
 				<td class="name">
-						<a href="source-class-Feed.php#42-46" title="Go to source code"><var>$tpl</var></a>
+						<a href="source-class-Feed.php#41-45" title="Go to source code"><var>$tpl</var></a>
 
 					<div class="description short">
 						<p>The feed Template to use</p>

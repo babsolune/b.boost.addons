@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.loader.php">loader</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Benoit SAUTEL <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#98;&#x65;&#x6e;&#46;&#x70;&#111;&#x70;&#x65;&#121;&#x65;&#64;&#x70;&#x68;&#112;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#99;&#x6f;&#x6d;">&#98;&#x65;&#x6e;&#46;&#x70;&#111;&#x70;&#x65;&#121;&#x65;&#64;&#x70;&#x68;&#112;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateLoader.php#3-45" title="Go to source code">io/template/loader/TemplateLoader.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateLoader.php#3-44" title="Go to source code">io/template/loader/TemplateLoader.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -741,7 +737,7 @@ implementation has to support caching. It's the reason why there is the <code><a
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@ implementation has to support caching. It's the reason why there is the <code><a
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-TemplateLoader.php#23-28" title="Go to source code">load</a>( )
+<a href="source-class-TemplateLoader.php#22-27" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ implementation has to support caching. It's the reason why there is the <code><a
 					<div>
 						<a class="anchor" href="#_supports_caching">#</a>
 						<code>
-<a href="source-class-TemplateLoader.php#30-35" title="Go to source code">supports_caching</a>( )
+<a href="source-class-TemplateLoader.php#29-34" title="Go to source code">supports_caching</a>( )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@ implementation has to support caching. It's the reason why there is the <code><a
 					<div>
 						<a class="anchor" href="#_get_cache_file_path">#</a>
 						<code>
-<a href="source-class-TemplateLoader.php#37-44" title="Go to source code">get_cache_file_path</a>( )
+<a href="source-class-TemplateLoader.php#36-43" title="Go to source code">get_cache_file_path</a>( )
 						</code>
 
 							<div class="description short">

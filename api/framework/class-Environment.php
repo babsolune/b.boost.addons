@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Environment.php#3-470" title="Go to source code">core/environment/Environment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Environment.php#3-469" title="Go to source code">core/environment/Environment.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -715,7 +711,7 @@ users management...) as well as the graphical environment.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -737,7 +733,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_load_imports">#</a>
 						<code>
-<a href="source-class-Environment.php#30-40" title="Go to source code">load_imports</a>( )
+<a href="source-class-Environment.php#29-39" title="Go to source code">load_imports</a>( )
 						</code>
 
 							<div class="description short">
@@ -772,7 +768,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_init">#</a>
 						<code>
-<a href="source-class-Environment.php#42-55" title="Go to source code">init</a>( )
+<a href="source-class-Environment.php#41-54" title="Go to source code">init</a>( )
 						</code>
 
 							<div class="description short">
@@ -807,7 +803,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_try_init">#</a>
 						<code>
-<a href="source-class-Environment.php#57-76" title="Go to source code">try_init</a>( )
+<a href="source-class-Environment.php#56-75" title="Go to source code">try_init</a>( )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_init_http_services">#</a>
 						<code>
-<a href="source-class-Environment.php#78-84" title="Go to source code">init_http_services</a>( )
+<a href="source-class-Environment.php#77-83" title="Go to source code">init_http_services</a>( )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_init_services">#</a>
 						<code>
-<a href="source-class-Environment.php#86-90" title="Go to source code">init_services</a>( )
+<a href="source-class-Environment.php#85-89" title="Go to source code">init_services</a>( )
 						</code>
 
 							<div class="description short">
@@ -912,7 +908,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_enable_errors_and_exceptions_management">#</a>
 						<code>
-<a href="source-class-Environment.php#92-96" title="Go to source code">enable_errors_and_exceptions_management</a>( )
+<a href="source-class-Environment.php#91-95" title="Go to source code">enable_errors_and_exceptions_management</a>( )
 						</code>
 
 							<div class="description short">
@@ -947,7 +943,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_fit_to_php_configuration">#</a>
 						<code>
-<a href="source-class-Environment.php#98-116" title="Go to source code">fit_to_php_configuration</a>( )
+<a href="source-class-Environment.php#97-115" title="Go to source code">fit_to_php_configuration</a>( )
 						</code>
 
 							<div class="description short">
@@ -982,7 +978,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_load_static_constants">#</a>
 						<code>
-<a href="source-class-Environment.php#118-132" title="Go to source code">load_static_constants</a>( )
+<a href="source-class-Environment.php#117-131" title="Go to source code">load_static_constants</a>( )
 						</code>
 
 							<div class="description short">
@@ -1017,7 +1013,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_load_dynamic_constants">#</a>
 						<code>
-<a href="source-class-Environment.php#134-141" title="Go to source code">load_dynamic_constants</a>( )
+<a href="source-class-Environment.php#133-140" title="Go to source code">load_dynamic_constants</a>( )
 						</code>
 
 							<div class="description short">
@@ -1052,7 +1048,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_init_session">#</a>
 						<code>
-<a href="source-class-Environment.php#143-167" title="Go to source code">init_session</a>( )
+<a href="source-class-Environment.php#142-166" title="Go to source code">init_session</a>( )
 						</code>
 
 							<div class="description short">
@@ -1087,7 +1083,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_set_default_timezone">#</a>
 						<code>
-<a href="source-class-Environment.php#169-172" title="Go to source code">set_default_timezone</a>( )
+<a href="source-class-Environment.php#168-171" title="Go to source code">set_default_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -1122,7 +1118,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_init_output_bufferization">#</a>
 						<code>
-<a href="source-class-Environment.php#174-184" title="Go to source code">init_output_bufferization</a>( )
+<a href="source-class-Environment.php#173-183" title="Go to source code">init_output_bufferization</a>( )
 						</code>
 
 							<div class="description short">
@@ -1157,7 +1153,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_load_lang_files">#</a>
 						<code>
-<a href="source-class-Environment.php#186-197" title="Go to source code">load_lang_files</a>( )
+<a href="source-class-Environment.php#185-196" title="Go to source code">load_lang_files</a>( )
 						</code>
 
 							<div class="description short">
@@ -1192,7 +1188,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_process_changeday_tasks_if_needed">#</a>
 						<code>
-<a href="source-class-Environment.php#199-216" title="Go to source code">process_changeday_tasks_if_needed</a>( )
+<a href="source-class-Environment.php#198-215" title="Go to source code">process_changeday_tasks_if_needed</a>( )
 						</code>
 
 							<div class="description short">
@@ -1227,7 +1223,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_compute_running_module_name">#</a>
 						<code>
-<a href="source-class-Environment.php#320-351" title="Go to source code">compute_running_module_name</a>( )
+<a href="source-class-Environment.php#319-350" title="Go to source code">compute_running_module_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1262,7 +1258,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_running_module_name">#</a>
 						<code>
-<a href="source-class-Environment.php#353-360" title="Go to source code">get_running_module_name</a>( )
+<a href="source-class-Environment.php#352-359" title="Go to source code">get_running_module_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1301,7 +1297,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_home_page_running">#</a>
 						<code>
-<a href="source-class-Environment.php#362-365" title="Go to source code">home_page_running</a>( )
+<a href="source-class-Environment.php#361-364" title="Go to source code">home_page_running</a>( )
 						</code>
 
 							<div class="description short">
@@ -1336,7 +1332,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_csrf_protect_post_requests">#</a>
 						<code>
-<a href="source-class-Environment.php#367-371" title="Go to source code">csrf_protect_post_requests</a>( )
+<a href="source-class-Environment.php#366-370" title="Go to source code">csrf_protect_post_requests</a>( )
 						</code>
 
 							<div class="description short">
@@ -1371,7 +1367,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_home_page">#</a>
 						<code>
-<a href="source-class-Environment.php#386-398" title="Go to source code">get_home_page</a>( )
+<a href="source-class-Environment.php#385-397" title="Go to source code">get_home_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1410,7 +1406,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_phpboost_version">#</a>
 						<code>
-<a href="source-class-Environment.php#400-409" title="Go to source code">get_phpboost_version</a>( )
+<a href="source-class-Environment.php#399-408" title="Go to source code">get_phpboost_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1449,7 +1445,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-Environment.php#419-425" title="Go to source code">display</a>( <span> <var>$content</var></span> )
+<a href="source-class-Environment.php#418-424" title="Go to source code">display</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1484,7 +1480,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_set_graphical_environment">#</a>
 						<code>
-<a href="source-class-Environment.php#427-430" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$env</var></span> )
+<a href="source-class-Environment.php#426-429" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$env</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1519,7 +1515,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_destroy">#</a>
 						<code>
-<a href="source-class-Environment.php#432-437" title="Go to source code">destroy</a>( )
+<a href="source-class-Environment.php#431-436" title="Go to source code">destroy</a>( )
 						</code>
 
 							<div class="description short">
@@ -1554,7 +1550,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_graphical_environment">#</a>
 						<code>
-<a href="source-class-Environment.php#449-459" title="Go to source code">get_graphical_environment</a>( )
+<a href="source-class-Environment.php#448-458" title="Go to source code">get_graphical_environment</a>( )
 						</code>
 
 							<div class="description short">
@@ -1593,7 +1589,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_try_to_increase_max_execution_time">#</a>
 						<code>
-<a href="source-class-Environment.php#461-469" title="Go to source code">try_to_increase_max_execution_time</a>( )
+<a href="source-class-Environment.php#460-468" title="Go to source code">try_to_increase_max_execution_time</a>( )
 						</code>
 
 							<div class="description short">

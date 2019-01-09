@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.pdo.php">pdo</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDODBConnection.php#3-65" title="Go to source code">io/db/driver/pdo/PDODBConnection.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDODBConnection.php#3-64" title="Go to source code">io/db/driver/pdo/PDODBConnection.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#20-23" title="Go to source code">__destruct</a>( )
+<a href="source-class-PDODBConnection.php#19-22" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -776,7 +772,7 @@
 					<div>
 						<a class="anchor" href="#_connect">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#25-39" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
+<a href="source-class-PDODBConnection.php#24-38" title="Go to source code">connect</a>( <span>array <var>$db_connection_data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#41-44" title="Go to source code">get_link</a>( )
+<a href="source-class-PDODBConnection.php#40-43" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_disconnect">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#46-49" title="Go to source code">disconnect</a>( )
+<a href="source-class-PDODBConnection.php#45-48" title="Go to source code">disconnect</a>( )
 						</code>
 
 							<div class="description short">
@@ -901,7 +897,7 @@
 					<div>
 						<a class="anchor" href="#_start_transaction">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#51-54" title="Go to source code">start_transaction</a>( )
+<a href="source-class-PDODBConnection.php#50-53" title="Go to source code">start_transaction</a>( )
 						</code>
 
 							<div class="description short">
@@ -942,7 +938,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_commit">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#56-59" title="Go to source code">commit</a>( )
+<a href="source-class-PDODBConnection.php#55-58" title="Go to source code">commit</a>( )
 						</code>
 
 							<div class="description short">
@@ -979,7 +975,7 @@ no new transaction will be created, but the existing one will be used
 					<div>
 						<a class="anchor" href="#_rollback">#</a>
 						<code>
-<a href="source-class-PDODBConnection.php#61-64" title="Go to source code">rollback</a>( )
+<a href="source-class-PDODBConnection.php#60-63" title="Go to source code">rollback</a>( )
 						</code>
 
 							<div class="description short">

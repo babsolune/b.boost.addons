@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MappingModelField.php#3-86" title="Go to source code">mvc/model/MappingModelField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MappingModelField.php#3-85" title="Go to source code">mvc/model/MappingModelField.class.php</a></span>
 			</div>
 
 
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MappingModelField.php#39-53" title="Go to source code">__construct</a>( <span> <var>$property_name</var></span>, <span> <var>$db_field_name</var> = self::DEFAULT_PROPERTY_NAME</span> )
+<a href="source-class-MappingModelField.php#38-52" title="Go to source code">__construct</a>( <span> <var>$property_name</var></span>, <span> <var>$db_field_name</var> = self::DEFAULT_PROPERTY_NAME</span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_get_db_field_name">#</a>
 						<code>
-<a href="source-class-MappingModelField.php#55-61" title="Go to source code">get_db_field_name</a>( )
+<a href="source-class-MappingModelField.php#54-60" title="Go to source code">get_db_field_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_get_property_name">#</a>
 						<code>
-<a href="source-class-MappingModelField.php#63-69" title="Go to source code">get_property_name</a>( )
+<a href="source-class-MappingModelField.php#62-68" title="Go to source code">get_property_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_getter">#</a>
 						<code>
-<a href="source-class-MappingModelField.php#71-77" title="Go to source code">getter</a>( )
+<a href="source-class-MappingModelField.php#70-76" title="Go to source code">getter</a>( )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_setter">#</a>
 						<code>
-<a href="source-class-MappingModelField.php#79-85" title="Go to source code">setter</a>( )
+<a href="source-class-MappingModelField.php#78-84" title="Go to source code">setter</a>( )
 						</code>
 
 							<div class="description short">
@@ -949,7 +945,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MappingModelField.php#15" title="Go to source code"><b>DEFAULT_PROPERTY_NAME</b></a>
+								<a href="source-class-MappingModelField.php#14" title="Go to source code"><b>DEFAULT_PROPERTY_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -973,7 +969,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MappingModelField.php#16" title="Go to source code"><b>GETTER_PREFIX</b></a>
+								<a href="source-class-MappingModelField.php#15" title="Go to source code"><b>GETTER_PREFIX</b></a>
 							</code>
 
 							<div class="description short">
@@ -997,7 +993,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MappingModelField.php#17" title="Go to source code"><b>SETTER_PREFIX</b></a>
+								<a href="source-class-MappingModelField.php#16" title="Go to source code"><b>SETTER_PREFIX</b></a>
 							</code>
 
 							<div class="description short">

@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.phpboost.php">phpboost</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 26
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldRanksSelect.php#3-41" title="Go to source code">builder/form/field/phpboost/FormFieldRanksSelect.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldRanksSelect.php#3-40" title="Go to source code">builder/form/field/phpboost/FormFieldRanksSelect.class.php</a></span>
 			</div>
 
 
@@ -729,7 +725,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldRanksSelect.php#19-30" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var> = <span class="php-num">0</span></span>, <span>string[] <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldRanksSelect.php#18-29" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var> = <span class="php-num">0</span></span>, <span>string[] <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FormFieldRanksSelect.php#15" title="Go to source code"><b>MEMBER</b></a>
+								<a href="source-class-FormFieldRanksSelect.php#14" title="Go to source code"><b>MEMBER</b></a>
 							</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FormFieldRanksSelect.php#16" title="Go to source code"><b>MODERATOR</b></a>
+								<a href="source-class-FormFieldRanksSelect.php#15" title="Go to source code"><b>MODERATOR</b></a>
 							</code>
 
 							<div class="description short">
@@ -942,7 +938,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-FormFieldRanksSelect.php#17" title="Go to source code"><b>ADMINISTRATOR</b></a>
+								<a href="source-class-FormFieldRanksSelect.php#16" title="Go to source code"><b>ADMINISTRATOR</b></a>
 							</code>
 
 							<div class="description short">

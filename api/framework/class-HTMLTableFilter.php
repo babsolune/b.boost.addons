@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2005 12 22
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableFilter.php#3-20" title="Go to source code">builder/table/filter/HTMLTableFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableFilter.php#3-19" title="Go to source code">builder/table/filter/HTMLTableFilter.class.php</a></span>
 			</div>
 
 
@@ -740,7 +736,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-HTMLTableFilter.php#15" title="Go to source code">get_id</a>( )
+<a href="source-class-HTMLTableFilter.php#14" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_field">#</a>
 						<code>
-<a href="source-class-HTMLTableFilter.php#17" title="Go to source code">get_form_field</a>( )
+<a href="source-class-HTMLTableFilter.php#16" title="Go to source code">get_form_field</a>( )
 						</code>
 
 							<div class="description short">
@@ -832,7 +828,7 @@
 					<div>
 						<a class="anchor" href="#_is_value_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableFilter.php#19" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableFilter.php#18" title="Go to source code">is_value_allowed</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">

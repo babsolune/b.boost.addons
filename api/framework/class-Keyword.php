@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Keyword.php">Keyword</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -684,7 +680,7 @@
 							<b>Since:</b>
 							PHPBoost 4.0 - 2013 08 28
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Keyword.php#3-64" title="Go to source code">content/keyword/Keyword.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Keyword.php#3-63" title="Go to source code">content/keyword/Keyword.class.php</a></span>
 			</div>
 
 
@@ -696,7 +692,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -718,7 +714,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-Keyword.php#19-22" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-Keyword.php#18-21" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Keyword.php#24-27" title="Go to source code">get_id</a>( )
+<a href="source-class-Keyword.php#23-26" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -788,7 +784,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-Keyword.php#29-32" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-Keyword.php#28-31" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-Keyword.php#34-37" title="Go to source code">get_name</a>( )
+<a href="source-class-Keyword.php#33-36" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@
 					<div>
 						<a class="anchor" href="#_set_rewrited_name">#</a>
 						<code>
-<a href="source-class-Keyword.php#39-42" title="Go to source code">set_rewrited_name</a>( <span> <var>$rewrited_name</var></span> )
+<a href="source-class-Keyword.php#38-41" title="Go to source code">set_rewrited_name</a>( <span> <var>$rewrited_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_get_rewrited_name">#</a>
 						<code>
-<a href="source-class-Keyword.php#44-47" title="Go to source code">get_rewrited_name</a>( )
+<a href="source-class-Keyword.php#43-46" title="Go to source code">get_rewrited_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -928,7 +924,7 @@
 					<div>
 						<a class="anchor" href="#_get_properties">#</a>
 						<code>
-<a href="source-class-Keyword.php#49-56" title="Go to source code">get_properties</a>( )
+<a href="source-class-Keyword.php#48-55" title="Go to source code">get_properties</a>( )
 						</code>
 
 							<div class="description short">
@@ -963,7 +959,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-Keyword.php#58-63" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
+<a href="source-class-Keyword.php#57-62" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">

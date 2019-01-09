@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2015 07 12
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintDisplayNameExists.php#3-60" title="Go to source code">builder/form/field/constraint/FormFieldConstraintDisplayNameExists.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintDisplayNameExists.php#3-59" title="Go to source code">builder/form/field/constraint/FormFieldConstraintDisplayNameExists.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintDisplayNameExists.php#18-31" title="Go to source code">__construct</a>( <span> <var>$user_id</var> = <span class="php-num">0</span></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintDisplayNameExists.php#17-30" title="Go to source code">__construct</a>( <span> <var>$user_id</var> = <span class="php-num">0</span></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintDisplayNameExists.php#33-36" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintDisplayNameExists.php#32-35" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@
 					<div>
 						<a class="anchor" href="#_display_name_exists">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintDisplayNameExists.php#38-54" title="Go to source code">display_name_exists</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintDisplayNameExists.php#37-53" title="Go to source code">display_name_exists</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintDisplayNameExists.php#56-59" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintDisplayNameExists.php#55-58" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">

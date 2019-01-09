@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 09 05
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateRenderingException.php#3-20" title="Go to source code">io/template/FileTemplateRenderingException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileTemplateRenderingException.php#3-19" title="Go to source code">io/template/FileTemplateRenderingException.class.php</a></span>
 			</div>
 
 
@@ -741,7 +737,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FileTemplateRenderingException.php#15-19" title="Go to source code">__construct</a>( <span> <var>$file_identifier</var></span>, <span>Exception <var>$exception</var></span> )
+<a href="source-class-FileTemplateRenderingException.php#14-18" title="Go to source code">__construct</a>( <span> <var>$file_identifier</var></span>, <span>Exception <var>$exception</var></span> )
 						</code>
 
 							<div class="description short">

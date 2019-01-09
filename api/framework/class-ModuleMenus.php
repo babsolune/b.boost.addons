@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 05 07
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleMenus.php#3-26" title="Go to source code">phpboost/menu/extension-point/ModuleMenus.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleMenus.php#3-25" title="Go to source code">phpboost/menu/extension-point/ModuleMenus.class.php</a></span>
 			</div>
 
 
@@ -715,7 +711,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -737,7 +733,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ModuleMenus.php#17-20" title="Go to source code">__construct</a>( <span>array <var>$menus</var></span> )
+<a href="source-class-ModuleMenus.php#16-19" title="Go to source code">__construct</a>( <span>array <var>$menus</var></span> )
 						</code>
 
 							<div class="description short">
@@ -772,7 +768,7 @@
 					<div>
 						<a class="anchor" href="#_get_menus">#</a>
 						<code>
-<a href="source-class-ModuleMenus.php#22-25" title="Go to source code">get_menus</a>( )
+<a href="source-class-ModuleMenus.php#21-24" title="Go to source code">get_menus</a>( )
 						</code>
 
 							<div class="description short">

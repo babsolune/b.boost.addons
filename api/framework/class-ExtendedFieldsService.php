@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 08 14
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsService.php#3-175" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldsService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsService.php#3-174" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldsService.class.php</a></span>
 			</div>
 
 
@@ -711,7 +707,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -733,7 +729,7 @@
 					<div>
 						<a class="anchor" href="#_add">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#19-50" title="Go to source code">add</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsService.php#18-49" title="Go to source code">add</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#52-69" title="Go to source code">update</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsService.php#51-68" title="Go to source code">update</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_delete_by_id">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#71-94" title="Go to source code">delete_by_id</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-ExtendedFieldsService.php#70-93" title="Go to source code">delete_by_id</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_delete_by_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#96-119" title="Go to source code">delete_by_field_name</a>( <span>string <var>$field_name</var></span> )
+<a href="source-class-ExtendedFieldsService.php#95-118" title="Go to source code">delete_by_field_name</a>( <span>string <var>$field_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_data_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#121-157" title="Go to source code">data_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span>, <span>const <var>$sort</var> = self::SORT_BY_ID</span> )
+<a href="source-class-ExtendedFieldsService.php#120-156" title="Go to source code">data_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span>, <span>const <var>$sort</var> = self::SORT_BY_ID</span> )
 						</code>
 
 							<div class="description short">
@@ -936,7 +932,7 @@ $return Object ExtendedField containing the informations field</p></dd>
 					<div>
 						<a class="anchor" href="#_get_error">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsService.php#164-174" title="Go to source code">get_error</a>( )
+<a href="source-class-ExtendedFieldsService.php#163-173" title="Go to source code">get_error</a>( )
 						</code>
 
 							<div class="description short">
@@ -982,7 +978,7 @@ $return Object ExtendedField containing the informations field</p></dd>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtendedFieldsService.php#16" title="Go to source code"><b>SORT_BY_ID</b></a>
+								<a href="source-class-ExtendedFieldsService.php#15" title="Go to source code"><b>SORT_BY_ID</b></a>
 							</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@ $return Object ExtendedField containing the informations field</p></dd>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtendedFieldsService.php#17" title="Go to source code"><b>SORT_BY_FIELD_NAME</b></a>
+								<a href="source-class-ExtendedFieldsService.php#16" title="Go to source code"><b>SORT_BY_FIELD_NAME</b></a>
 							</code>
 
 							<div class="description short">

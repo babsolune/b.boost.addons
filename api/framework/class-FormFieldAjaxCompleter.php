@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -749,7 +745,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldAjaxCompleter.php#3-124" title="Go to source code">builder/form/field/FormFieldAjaxCompleter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldAjaxCompleter.php#3-123" title="Go to source code">builder/form/field/FormFieldAjaxCompleter.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -792,7 +788,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -814,7 +810,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldAjaxCompleter.php#32-51" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldAjaxCompleter.php#31-50" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@ It has these options in addition to the AbstractFormField ones:</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldAjaxCompleter.php#53-91" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldAjaxCompleter.php#52-90" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@ It has these options in addition to the AbstractFormField ones:</p>
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldAjaxCompleter.php#93-123" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldAjaxCompleter.php#92-122" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1041,7 +1037,7 @@ It has these options in addition to the AbstractFormField ones:</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-FormFieldAjaxCompleter.php#24" title="Go to source code"><var>$display_html_in_suggestions</var></a>
+						<a href="source-class-FormFieldAjaxCompleter.php#23" title="Go to source code"><var>$display_html_in_suggestions</var></a>
 
 					<div class="description short">
 						
@@ -1068,7 +1064,7 @@ It has these options in addition to the AbstractFormField ones:</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-FormFieldAjaxCompleter.php#27" title="Go to source code"><var>$preserve_input</var></a>
+						<a href="source-class-FormFieldAjaxCompleter.php#26" title="Go to source code"><var>$preserve_input</var></a>
 
 					<div class="description short">
 						
@@ -1095,7 +1091,7 @@ It has these options in addition to the AbstractFormField ones:</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-FormFieldAjaxCompleter.php#30" title="Go to source code"><var>$no_suggestion_notice</var></a>
+						<a href="source-class-FormFieldAjaxCompleter.php#29" title="Go to source code"><var>$no_suggestion_notice</var></a>
 
 					<div class="description short">
 						

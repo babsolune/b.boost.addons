@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -689,7 +685,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 24
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsCache.php#3-125" title="Go to source code">phpboost/cache/CommentsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsCache.php#3-124" title="Go to source code">phpboost/cache/CommentsCache.class.php</a></span>
 			</div>
 
 
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#17-47" title="Go to source code">synchronize</a>( )
+<a href="source-class-CommentsCache.php#16-46" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_comments">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#49-52" title="Go to source code">get_comments</a>( )
+<a href="source-class-CommentsCache.php#48-51" title="Go to source code">get_comments</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_comment_exists">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#54-57" title="Go to source code">comment_exists</a>( <span> <var>$id</var></span> )
+<a href="source-class-CommentsCache.php#53-56" title="Go to source code">comment_exists</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_comment_exists_by_module">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#59-63" title="Go to source code">comment_exists_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
+<a href="source-class-CommentsCache.php#58-62" title="Go to source code">comment_exists_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_comment">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#65-72" title="Go to source code">get_comment</a>( <span> <var>$id</var></span> )
+<a href="source-class-CommentsCache.php#64-71" title="Go to source code">get_comment</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -911,7 +907,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_comments_by_module">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#74-85" title="Go to source code">get_comments_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsCache.php#73-84" title="Go to source code">get_comments_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -946,7 +942,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_count_comments_by_module">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#87-90" title="Go to source code">get_count_comments_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsCache.php#86-89" title="Go to source code">get_count_comments_by_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -981,7 +977,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_count_comments">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#92-95" title="Go to source code">get_count_comments</a>( )
+<a href="source-class-CommentsCache.php#91-94" title="Go to source code">get_count_comments</a>( )
 						</code>
 
 							<div class="description short">
@@ -1016,7 +1012,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#97-104" title="Go to source code">load</a>( )
+<a href="source-class-CommentsCache.php#96-103" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1055,7 +1051,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-CommentsCache.php#106-112" title="Go to source code">invalidate</a>( )
+<a href="source-class-CommentsCache.php#105-111" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

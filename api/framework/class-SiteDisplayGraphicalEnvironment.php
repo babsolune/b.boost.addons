@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -730,7 +726,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SiteDisplayGraphicalEnvironment.php#3-358" title="Go to source code">phpboost/environment/SiteDisplayGraphicalEnvironment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SiteDisplayGraphicalEnvironment.php#3-357" title="Go to source code">phpboost/environment/SiteDisplayGraphicalEnvironment.class.php</a></span>
 			</div>
 
 
@@ -765,7 +761,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#25-30" title="Go to source code">__construct</a>( )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#24-29" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#37-99" title="Go to source code">display</a>( <span> <var>$content</var></span> )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#36-98" title="Go to source code">display</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_display_page">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#101-170" title="Go to source code">display_page</a>( <span><code><a href="class-View.php">View</a></code> <var>$body_template</var></span> )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#100-169" title="Go to source code">display_page</a>( <span><code><a href="class-View.php">View</a></code> <var>$body_template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_display_counter">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#172-191" title="Go to source code">display_counter</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#171-190" title="Go to source code">display_counter</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_display_menus">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#193-260" title="Go to source code">display_menus</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#192-259" title="Go to source code">display_menus</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_display_site_maintenance">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#262-338" title="Go to source code">display_site_maintenance</a>( )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#261-337" title="Go to source code">display_site_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_get_breadcrumb">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#340-347" title="Go to source code">get_breadcrumb</a>( )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#339-346" title="Go to source code">get_breadcrumb</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_set_breadcrumb">#</a>
 						<code>
-<a href="source-class-SiteDisplayGraphicalEnvironment.php#349-357" title="Go to source code">set_breadcrumb</a>( <span><code><a href="class-BreadCrumb.php">BreadCrumb</a></code> <var>$breadcrumb</var></span> )
+<a href="source-class-SiteDisplayGraphicalEnvironment.php#348-356" title="Go to source code">set_breadcrumb</a>( <span><code><a href="class-BreadCrumb.php">BreadCrumb</a></code> <var>$breadcrumb</var></span> )
 						</code>
 
 							<div class="description short">

@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionsConfig.php#3-96" title="Go to source code">phpboost/config/SessionsConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionsConfig.php#3-95" title="Go to source code">phpboost/config/SessionsConfig.class.php</a></span>
 			</div>
 
 
@@ -732,7 +728,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@
 					<div>
 						<a class="anchor" href="#_get_cookie_name">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#30-33" title="Go to source code">get_cookie_name</a>( )
+<a href="source-class-SessionsConfig.php#29-32" title="Go to source code">get_cookie_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookie_name">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#35-38" title="Go to source code">set_cookie_name</a>( <span> <var>$cookie_name</var></span> )
+<a href="source-class-SessionsConfig.php#34-37" title="Go to source code">set_cookie_name</a>( <span> <var>$cookie_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_session_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#40-43" title="Go to source code">get_session_duration</a>( )
+<a href="source-class-SessionsConfig.php#39-42" title="Go to source code">get_session_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_set_session_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#45-48" title="Go to source code">set_session_duration</a>( <span> <var>$duration</var></span> )
+<a href="source-class-SessionsConfig.php#44-47" title="Go to source code">set_session_duration</a>( <span> <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_get_active_session_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#50-53" title="Go to source code">get_active_session_duration</a>( )
+<a href="source-class-SessionsConfig.php#49-52" title="Go to source code">get_active_session_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_set_active_session_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#55-58" title="Go to source code">set_active_session_duration</a>( <span> <var>$duration</var></span> )
+<a href="source-class-SessionsConfig.php#54-57" title="Go to source code">set_active_session_duration</a>( <span> <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_get_autoconnect_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#60-63" title="Go to source code">get_autoconnect_duration</a>( )
+<a href="source-class-SessionsConfig.php#59-62" title="Go to source code">get_autoconnect_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_set_autoconnect_duration">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#65-68" title="Go to source code">set_autoconnect_duration</a>( <span> <var>$duration</var></span> )
+<a href="source-class-SessionsConfig.php#64-67" title="Go to source code">set_autoconnect_duration</a>( <span> <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#70-78" title="Go to source code">get_default_values</a>( )
+<a href="source-class-SessionsConfig.php#69-77" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#80-87" title="Go to source code">load</a>( )
+<a href="source-class-SessionsConfig.php#79-86" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-SessionsConfig.php#89-95" title="Go to source code">save</a>( )
+<a href="source-class-SessionsConfig.php#88-94" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1172,7 +1168,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SessionsConfig.php#16" title="Go to source code"><b>COOKIE_NAME</b></a>
+								<a href="source-class-SessionsConfig.php#15" title="Go to source code"><b>COOKIE_NAME</b></a>
 							</code>
 
 							<div class="description short">
@@ -1196,7 +1192,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SessionsConfig.php#17-20" title="Go to source code"><b>SESSION_DURATION</b></a>
+								<a href="source-class-SessionsConfig.php#16-19" title="Go to source code"><b>SESSION_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1220,7 +1216,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SessionsConfig.php#21-24" title="Go to source code"><b>ACTIVE_SESSION_DURATION</b></a>
+								<a href="source-class-SessionsConfig.php#20-23" title="Go to source code"><b>ACTIVE_SESSION_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1244,7 +1240,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SessionsConfig.php#25-28" title="Go to source code"><b>AUTOCONNECT_DURATION</b></a>
+								<a href="source-class-SessionsConfig.php#24-27" title="Go to source code"><b>AUTOCONNECT_DURATION</b></a>
 							</code>
 
 							<div class="description short">

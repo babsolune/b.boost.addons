@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingService.php#3-204" title="Go to source code">content/formatting/ContentFormattingService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingService.php#3-203" title="Go to source code">content/formatting/ContentFormattingService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -702,7 +698,7 @@ a formatting factory having the default settings.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -724,7 +720,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_default_factory">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#23-34" title="Go to source code">get_default_factory</a>( )
+<a href="source-class-ContentFormattingService.php#22-33" title="Go to source code">get_default_factory</a>( )
 						</code>
 
 							<div class="description short">
@@ -763,7 +759,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_create_factory">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#36-45" title="Go to source code">create_factory</a>( <span>string <var>$language</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-ContentFormattingService.php#35-44" title="Go to source code">create_factory</a>( <span>string <var>$language</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -807,7 +803,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_user_editor">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#47-54" title="Go to source code">get_user_editor</a>( )
+<a href="source-class-ContentFormattingService.php#46-53" title="Go to source code">get_user_editor</a>( )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_default_parser">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#56-63" title="Go to source code">get_default_parser</a>( )
+<a href="source-class-ContentFormattingService.php#55-62" title="Go to source code">get_default_parser</a>( )
 						</code>
 
 							<div class="description short">
@@ -885,7 +881,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_default_unparser">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#65-72" title="Go to source code">get_default_unparser</a>( )
+<a href="source-class-ContentFormattingService.php#64-71" title="Go to source code">get_default_unparser</a>( )
 						</code>
 
 							<div class="description short">
@@ -924,7 +920,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_default_second_parser">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#74-81" title="Go to source code">get_default_second_parser</a>( )
+<a href="source-class-ContentFormattingService.php#73-80" title="Go to source code">get_default_second_parser</a>( )
 						</code>
 
 							<div class="description short">
@@ -963,7 +959,7 @@ a formatting factory having the default settings.</p>
 					<div>
 						<a class="anchor" href="#_get_default_editor">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#83-91" title="Go to source code">get_default_editor</a>( )
+<a href="source-class-ContentFormattingService.php#82-90" title="Go to source code">get_default_editor</a>( )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@ if you use the default configuration.</p>
 					<div>
 						<a class="anchor" href="#_get_editors_identifier">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#109-112" title="Go to source code">get_editors_identifier</a>( )
+<a href="source-class-ContentFormattingService.php#108-111" title="Go to source code">get_editors_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@ if you use the default configuration.</p>
 					<div>
 						<a class="anchor" href="#_get_available_editors">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#114-122" title="Go to source code">get_available_editors</a>( )
+<a href="source-class-ContentFormattingService.php#113-121" title="Go to source code">get_available_editors</a>( )
 						</code>
 
 							<div class="description short">
@@ -1074,7 +1070,7 @@ if you use the default configuration.</p>
 					<div>
 						<a class="anchor" href="#_uninstall_editor">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#124-149" title="Go to source code">uninstall_editor</a>( <span>string <var>$id_module</var></span> )
+<a href="source-class-ContentFormattingService.php#123-148" title="Go to source code">uninstall_editor</a>( <span>string <var>$id_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1114,7 +1110,7 @@ if you use the default configuration.</p>
 					<div>
 						<a class="anchor" href="#_get_available_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingService.php#151-203" title="Go to source code">get_available_tags</a>( )
+<a href="source-class-ContentFormattingService.php#150-202" title="Go to source code">get_available_tags</a>( )
 						</code>
 
 							<div class="description short">

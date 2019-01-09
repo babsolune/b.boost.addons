@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a>\<a href="package-IO.Template.parser.syntax.php">syntax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 06 20
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateSyntaxElement.php#3-25" title="Go to source code">io/template/parser/syntax/TemplateSyntaxElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateSyntaxElement.php#3-24" title="Go to source code">io/template/parser/syntax/TemplateSyntaxElement.class.php</a></span>
 			</div>
 
 
@@ -751,7 +747,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-TemplateSyntaxElement.php#19-24" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
+<a href="source-class-TemplateSyntaxElement.php#18-23" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
 						</code>
 
 							<div class="description short">
@@ -828,7 +824,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TemplateSyntaxElement.php#15" title="Go to source code"><b>RESULT</b></a>
+								<a href="source-class-TemplateSyntaxElement.php#14" title="Go to source code"><b>RESULT</b></a>
 							</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TemplateSyntaxElement.php#16" title="Go to source code"><b>DATA</b></a>
+								<a href="source-class-TemplateSyntaxElement.php#15" title="Go to source code"><b>DATA</b></a>
 							</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TemplateSyntaxElement.php#17" title="Go to source code"><b>FUNCTIONS</b></a>
+								<a href="source-class-TemplateSyntaxElement.php#16" title="Go to source code"><b>FUNCTIONS</b></a>
 							</code>
 
 							<div class="description short">

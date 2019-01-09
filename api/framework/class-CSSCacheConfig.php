@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 05 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSCacheConfig.php#3-67" title="Go to source code">phpboost/config/CSSCacheConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSCacheConfig.php#3-66" title="Go to source code">phpboost/config/CSSCacheConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_enable">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#18-21" title="Go to source code">enable</a>( )
+<a href="source-class-CSSCacheConfig.php#17-20" title="Go to source code">enable</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_disable">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#23-26" title="Go to source code">disable</a>( )
+<a href="source-class-CSSCacheConfig.php#22-25" title="Go to source code">disable</a>( )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_is_enabled">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#28-31" title="Go to source code">is_enabled</a>( )
+<a href="source-class-CSSCacheConfig.php#27-30" title="Go to source code">is_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_set_optimization_level">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#33-36" title="Go to source code">set_optimization_level</a>( <span> <var>$level</var></span> )
+<a href="source-class-CSSCacheConfig.php#32-35" title="Go to source code">set_optimization_level</a>( <span> <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_get_optimization_level">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#38-41" title="Go to source code">get_optimization_level</a>( )
+<a href="source-class-CSSCacheConfig.php#37-40" title="Go to source code">get_optimization_level</a>( )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#43-49" title="Go to source code">get_default_values</a>( )
+<a href="source-class-CSSCacheConfig.php#42-48" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#51-58" title="Go to source code">load</a>( )
+<a href="source-class-CSSCacheConfig.php#50-57" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-CSSCacheConfig.php#60-66" title="Go to source code">save</a>( )
+<a href="source-class-CSSCacheConfig.php#59-65" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1063,7 +1059,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CSSCacheConfig.php#15" title="Go to source code"><b>ACTIVATED</b></a>
+								<a href="source-class-CSSCacheConfig.php#14" title="Go to source code"><b>ACTIVATED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1087,7 +1083,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CSSCacheConfig.php#16" title="Go to source code"><b>OPTIMIZATION_LEVEL</b></a>
+								<a href="source-class-CSSCacheConfig.php#15" title="Go to source code"><b>OPTIMIZATION_LEVEL</b></a>
 							</code>
 
 							<div class="description short">

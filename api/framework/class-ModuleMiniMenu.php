@@ -658,10 +658,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.module.php">module</a>\<a href="package-PHPBoost.Menu.module.mini.php">mini</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -693,7 +689,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleMiniMenu.php#3-112" title="Go to source code">phpboost/menu/module_mini/ModuleMiniMenu.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleMiniMenu.php#3-111" title="Go to source code">phpboost/menu/module_mini/ModuleMiniMenu.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#20-26" title="Go to source code">__construct</a>( )
+<a href="source-class-ModuleMiniMenu.php#19-25" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#_get_menu_id">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#28-31" title="Go to source code">get_menu_id</a>( )
+<a href="source-class-ModuleMiniMenu.php#27-30" title="Go to source code">get_menu_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_get_menu_title">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#33-36" title="Go to source code">get_menu_title</a>( )
+<a href="source-class-ModuleMiniMenu.php#32-35" title="Go to source code">get_menu_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -848,7 +844,7 @@
 					<div>
 						<a class="anchor" href="#_get_menu_content">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#38-41" title="Go to source code">get_menu_content</a>( )
+<a href="source-class-ModuleMiniMenu.php#37-40" title="Go to source code">get_menu_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -883,7 +879,7 @@
 					<div>
 						<a class="anchor" href="#_is_displayed">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#43-46" title="Go to source code">is_displayed</a>( )
+<a href="source-class-ModuleMiniMenu.php#42-45" title="Go to source code">is_displayed</a>( )
 						</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@
 					<div>
 						<a class="anchor" href="#_get_formated_title">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#48-68" title="Go to source code">get_formated_title</a>( )
+<a href="source-class-ModuleMiniMenu.php#47-67" title="Go to source code">get_formated_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -959,7 +955,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#70-99" title="Go to source code">display</a>( )
+<a href="source-class-ModuleMiniMenu.php#69-98" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -998,7 +994,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_block">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#101-104" title="Go to source code">get_default_block</a>( )
+<a href="source-class-ModuleMiniMenu.php#100-103" title="Go to source code">get_default_block</a>( )
 						</code>
 
 							<div class="description short">
@@ -1033,7 +1029,7 @@
 					<div>
 						<a class="anchor" href="#_default_is_enabled">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#106" title="Go to source code">default_is_enabled</a>( )
+<a href="source-class-ModuleMiniMenu.php#105" title="Go to source code">default_is_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1068,7 +1064,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-ModuleMiniMenu.php#108-111" title="Go to source code">get_default_template</a>( )
+<a href="source-class-ModuleMiniMenu.php#107-110" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1152,7 +1148,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ModuleMiniMenu.php#18" title="Go to source code"><b>MODULE_MINI_MENU__CLASS</b></a>
+								<a href="source-class-ModuleMiniMenu.php#17" title="Go to source code"><b>MODULE_MINI_MENU__CLASS</b></a>
 							</code>
 
 							<div class="description short">

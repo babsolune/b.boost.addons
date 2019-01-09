@@ -680,10 +680,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.button.php">button</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -715,7 +711,7 @@
 							<b>Contributor:</b>
 							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonButtonCssImg.php#3-31" title="Go to source code">builder/form/button/FormButtonButtonCssImg.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormButtonButtonCssImg.php#3-30" title="Go to source code">builder/form/button/FormButtonButtonCssImg.class.php</a></span>
 			</div>
 
 
@@ -743,7 +739,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormButtonButtonCssImg.php#18-30" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class_image</var> = <span class="php-quote">''</span></span>, <span> <var>$text_button</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormButtonButtonCssImg.php#17-29" title="Go to source code">__construct</a>( <span> <var>$value</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$name</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class_image</var> = <span class="php-quote">''</span></span>, <span> <var>$text_button</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">

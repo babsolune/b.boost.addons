@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a>\<a href="package-Util.Captcha.php">Captcha</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Captcha.php#3-61" title="Go to source code">util/captcha/Captcha.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Captcha.php#3-60" title="Go to source code">util/captcha/Captcha.class.php</a></span>
 			</div>
 
 
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-Captcha.php#22" title="Go to source code">get_name</a>( )
+<a href="source-class-Captcha.php#21" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#_is_available">#</a>
 						<code>
-<a href="source-class-Captcha.php#24" title="Go to source code">is_available</a>( )
+<a href="source-class-Captcha.php#23" title="Go to source code">is_available</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_is_valid">#</a>
 						<code>
-<a href="source-class-Captcha.php#26" title="Go to source code">is_valid</a>( )
+<a href="source-class-Captcha.php#25" title="Go to source code">is_valid</a>( )
 						</code>
 
 							<div class="description short">
@@ -848,7 +844,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-Captcha.php#28" title="Go to source code">display</a>( )
+<a href="source-class-Captcha.php#27" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -883,7 +879,7 @@
 					<div>
 						<a class="anchor" href="#_get_error">#</a>
 						<code>
-<a href="source-class-Captcha.php#30-33" title="Go to source code">get_error</a>( )
+<a href="source-class-Captcha.php#29-32" title="Go to source code">get_error</a>( )
 						</code>
 
 							<div class="description short">
@@ -918,7 +914,7 @@
 					<div>
 						<a class="anchor" href="#_is_visible">#</a>
 						<code>
-<a href="source-class-Captcha.php#35-38" title="Go to source code">is_visible</a>( )
+<a href="source-class-Captcha.php#34-37" title="Go to source code">is_visible</a>( )
 						</code>
 
 							<div class="description short">
@@ -953,7 +949,7 @@
 					<div>
 						<a class="anchor" href="#_display_config_form_fields">#</a>
 						<code>
-<a href="source-class-Captcha.php#40-43" title="Go to source code">display_config_form_fields</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
+<a href="source-class-Captcha.php#39-42" title="Go to source code">display_config_form_fields</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -988,7 +984,7 @@
 					<div>
 						<a class="anchor" href="#_save_config">#</a>
 						<code>
-<a href="source-class-Captcha.php#45-48" title="Go to source code">save_config</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
+<a href="source-class-Captcha.php#44-47" title="Go to source code">save_config</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1023,7 +1019,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_stylesheet">#</a>
 						<code>
-<a href="source-class-Captcha.php#50-53" title="Go to source code">get_css_stylesheet</a>( )
+<a href="source-class-Captcha.php#49-52" title="Go to source code">get_css_stylesheet</a>( )
 						</code>
 
 							<div class="description short">
@@ -1058,7 +1054,7 @@
 					<div>
 						<a class="anchor" href="#_set_html_id">#</a>
 						<code>
-<a href="source-class-Captcha.php#55" title="Go to source code">set_html_id</a>( <span> <var>$html_id</var></span> )
+<a href="source-class-Captcha.php#54" title="Go to source code">set_html_id</a>( <span> <var>$html_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1093,7 +1089,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_id">#</a>
 						<code>
-<a href="source-class-Captcha.php#56" title="Go to source code">get_html_id</a>( )
+<a href="source-class-Captcha.php#55" title="Go to source code">get_html_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1128,7 +1124,7 @@
 					<div>
 						<a class="anchor" href="#_set_form_id">#</a>
 						<code>
-<a href="source-class-Captcha.php#57" title="Go to source code">set_form_id</a>( <span> <var>$form_id</var></span> )
+<a href="source-class-Captcha.php#56" title="Go to source code">set_form_id</a>( <span> <var>$form_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1163,7 +1159,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_id">#</a>
 						<code>
-<a href="source-class-Captcha.php#58" title="Go to source code">get_form_id</a>( )
+<a href="source-class-Captcha.php#57" title="Go to source code">get_form_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1198,7 +1194,7 @@
 					<div>
 						<a class="anchor" href="#_set_options">#</a>
 						<code>
-<a href="source-class-Captcha.php#59" title="Go to source code">set_options</a>( <span><code><a href="class-CaptchaOptions.php">CaptchaOptions</a></code> <var>$options</var></span> )
+<a href="source-class-Captcha.php#58" title="Go to source code">set_options</a>( <span><code><a href="class-CaptchaOptions.php">CaptchaOptions</a></code> <var>$options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1233,7 +1229,7 @@
 					<div>
 						<a class="anchor" href="#_get_options">#</a>
 						<code>
-<a href="source-class-Captcha.php#60" title="Go to source code">get_options</a>( )
+<a href="source-class-Captcha.php#59" title="Go to source code">get_options</a>( )
 						</code>
 
 							<div class="description short">
@@ -1279,7 +1275,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Captcha.php#16" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-Captcha.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

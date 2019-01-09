@@ -622,6 +622,19 @@
 				</div>
 
 
+				<div class="module-mini-container cssmenu-content">
+					<div class="module-mini-top hidden-small-screens">
+						<div class="sub-title">Functions</div>
+					</div>
+					<div class="module-mini-contents">
+						<nav id="cssmenu-functions" class="cssmenu cssmenu-vertical cssmenu-left">
+				<ul>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
+				</ul>
+						</nav>
+					</div>
+					<div class="module-mini-bottom"></div>
+				</div>
 			</div>
 		</div>
 		<div id="inside-main" class="main-with-left">
@@ -668,6 +681,15 @@
 </div>
 
 
+<div class="responsive-table">
+	<table class="summary" id="functions">
+		<caption>Functions summary</caption>
+<tr>
+	<td class="name"><a href="function-string_var_export.php">string_var_export</a></td>
+	<td class="ellipsis">var</td>
+</tr>
+</table>
+</div>
 		</div>
 	</article>
 	<footer></footer>
@@ -682,4 +704,5 @@
 
 	<script>jQuery("#cssmenu-package").menumaker({ title: "Packages navigation", format: "multitoggle", breakpoint: 768 }); </script>
 	<script>jQuery("#cssmenu-exceptions").menumaker({ title: "Exceptions navigation", format: "multitoggle", breakpoint: 768 }); </script>
+	<script>jQuery("#cssmenu-functions").menumaker({ title: "Functions navigation", format: "multitoggle", breakpoint: 768 }); </script>
 <?php require_once PATH_TO_ROOT . '/kernel/footer.php'; ?>

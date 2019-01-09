@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a>\<a href="package-Util.Pagination.php">Pagination</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Pagination.php#3-136" title="Go to source code">util/pagination/Pagination.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Pagination.php#3-135" title="Go to source code">util/pagination/Pagination.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Pagination.php#31-36" title="Go to source code">__construct</a>( <span> <var>$nb_pages</var></span>, <span> <var>$current_page</var></span>, <span> <var>$type</var> = self::FULL_PAGINATION</span> )
+<a href="source-class-Pagination.php#30-35" title="Go to source code">__construct</a>( <span> <var>$nb_pages</var></span>, <span> <var>$current_page</var></span>, <span> <var>$type</var> = self::FULL_PAGINATION</span> )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_set_url_sprintf_pattern">#</a>
 						<code>
-<a href="source-class-Pagination.php#38-41" title="Go to source code">set_url_sprintf_pattern</a>( <span> <var>$url_pattern</var></span> )
+<a href="source-class-Pagination.php#37-40" title="Go to source code">set_url_sprintf_pattern</a>( <span> <var>$url_pattern</var></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_set_url_builder_callback">#</a>
 						<code>
-<a href="source-class-Pagination.php#43-46" title="Go to source code">set_url_builder_callback</a>( <span> <var>$callback</var></span> )
+<a href="source-class-Pagination.php#42-45" title="Go to source code">set_url_builder_callback</a>( <span> <var>$callback</var></span> )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_set_before_links_nb">#</a>
 						<code>
-<a href="source-class-Pagination.php#48-51" title="Go to source code">set_before_links_nb</a>( <span> <var>$value</var></span> )
+<a href="source-class-Pagination.php#47-50" title="Go to source code">set_before_links_nb</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_set_after_links_nb">#</a>
 						<code>
-<a href="source-class-Pagination.php#53-56" title="Go to source code">set_after_links_nb</a>( <span> <var>$value</var></span> )
+<a href="source-class-Pagination.php#52-55" title="Go to source code">set_after_links_nb</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_export">#</a>
 						<code>
-<a href="source-class-Pagination.php#58-64" title="Go to source code">export</a>( )
+<a href="source-class-Pagination.php#57-63" title="Go to source code">export</a>( )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_pages">#</a>
 						<code>
-<a href="source-class-Pagination.php#66-69" title="Go to source code">get_number_pages</a>( )
+<a href="source-class-Pagination.php#65-68" title="Go to source code">get_number_pages</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Pagination.php#16" title="Go to source code"><b>LINKS_NB</b></a>
+								<a href="source-class-Pagination.php#15" title="Go to source code"><b>LINKS_NB</b></a>
 							</code>
 
 							<div class="description short">
@@ -1000,7 +996,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Pagination.php#17" title="Go to source code"><b>PREV_LINK</b></a>
+								<a href="source-class-Pagination.php#16" title="Go to source code"><b>PREV_LINK</b></a>
 							</code>
 
 							<div class="description short">
@@ -1024,7 +1020,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Pagination.php#18" title="Go to source code"><b>NEXT_LINK</b></a>
+								<a href="source-class-Pagination.php#17" title="Go to source code"><b>NEXT_LINK</b></a>
 							</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Pagination.php#20" title="Go to source code"><b>LIGHT_PAGINATION</b></a>
+								<a href="source-class-Pagination.php#19" title="Go to source code"><b>LIGHT_PAGINATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1072,7 +1068,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Pagination.php#21" title="Go to source code"><b>FULL_PAGINATION</b></a>
+								<a href="source-class-Pagination.php#20" title="Go to source code"><b>FULL_PAGINATION</b></a>
 							</code>
 
 							<div class="description short">

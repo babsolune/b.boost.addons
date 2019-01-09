@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 09 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateFunctions.php#3-110" title="Go to source code">io/template/TemplateFunctions.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateFunctions.php#3-109" title="Go to source code">io/template/TemplateFunctions.class.php</a></span>
 			</div>
 
 
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#20-23" title="Go to source code">__construct</a>( )
+<a href="source-class-TemplateFunctions.php#19-22" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_resources">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#25-28" title="Go to source code">resources</a>( <span> <var>$resources</var></span> )
+<a href="source-class-TemplateFunctions.php#24-27" title="Go to source code">resources</a>( <span> <var>$resources</var></span> )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@
 					<div>
 						<a class="anchor" href="#_add_language_maps">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#35-38" title="Go to source code">add_language_maps</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-TemplateFunctions.php#34-37" title="Go to source code">add_language_maps</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_i18n">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#40-43" title="Go to source code">i18n</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-TemplateFunctions.php#39-42" title="Go to source code">i18n</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_i18njs">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#45-48" title="Go to source code">i18njs</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-TemplateFunctions.php#44-47" title="Go to source code">i18njs</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@
 					<div>
 						<a class="anchor" href="#_i18njsraw">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#50-53" title="Go to source code">i18njsraw</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-TemplateFunctions.php#49-52" title="Go to source code">i18njsraw</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@
 					<div>
 						<a class="anchor" href="#_i18nraw">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#55-58" title="Go to source code">i18nraw</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-TemplateFunctions.php#54-57" title="Go to source code">i18nraw</a>( <span> <var>$key</var></span>, <span>array <var>$parameters</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 					<div>
 						<a class="anchor" href="#_escape">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#60-68" title="Go to source code">escape</a>( <span> <var>$string</var></span> )
+<a href="source-class-TemplateFunctions.php#59-67" title="Go to source code">escape</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1037,7 +1033,7 @@
 					<div>
 						<a class="anchor" href="#_html">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#70-73" title="Go to source code">html</a>( <span> <var>$string</var></span> )
+<a href="source-class-TemplateFunctions.php#69-72" title="Go to source code">html</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1072,7 +1068,7 @@
 					<div>
 						<a class="anchor" href="#_escapejs">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#75-84" title="Go to source code">escapejs</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TemplateFunctions.php#74-83" title="Go to source code">escapejs</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1118,7 +1114,7 @@
 					<div>
 						<a class="anchor" href="#_escapejscharacters">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#86-94" title="Go to source code">escapejscharacters</a>( <span>string <var>$string</var></span> )
+<a href="source-class-TemplateFunctions.php#85-93" title="Go to source code">escapejscharacters</a>( <span>string <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1162,7 +1158,7 @@
 					<div>
 						<a class="anchor" href="#_set">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#96-99" title="Go to source code">set</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span> )
+<a href="source-class-TemplateFunctions.php#95-98" title="Go to source code">set</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1197,7 +1193,7 @@
 					<div>
 						<a class="anchor" href="#_relative_url">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#101-104" title="Go to source code">relative_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
+<a href="source-class-TemplateFunctions.php#100-103" title="Go to source code">relative_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1232,7 +1228,7 @@
 					<div>
 						<a class="anchor" href="#_absolute_url">#</a>
 						<code>
-<a href="source-class-TemplateFunctions.php#106-109" title="Go to source code">absolute_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
+<a href="source-class-TemplateFunctions.php#105-108" title="Go to source code">absolute_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">

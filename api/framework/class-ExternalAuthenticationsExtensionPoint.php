@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.authentication.php">authentication</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2018 01 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExternalAuthenticationsExtensionPoint.php#3-34" title="Go to source code">phpboost/user/authentication/ExternalAuthenticationsExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExternalAuthenticationsExtensionPoint.php#3-33" title="Go to source code">phpboost/user/authentication/ExternalAuthenticationsExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -718,7 +714,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -740,7 +736,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ExternalAuthenticationsExtensionPoint.php#19-25" title="Go to source code">__construct</a>( <span>array <var>$external_authentications</var></span> )
+<a href="source-class-ExternalAuthenticationsExtensionPoint.php#18-24" title="Go to source code">__construct</a>( <span>array <var>$external_authentications</var></span> )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_get_external_authentications">#</a>
 						<code>
-<a href="source-class-ExternalAuthenticationsExtensionPoint.php#27-33" title="Go to source code">get_external_authentications</a>( )
+<a href="source-class-ExternalAuthenticationsExtensionPoint.php#26-32" title="Go to source code">get_external_authentications</a>( )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExternalAuthenticationsExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-ExternalAuthenticationsExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-ExternalAuthenticationsExtensionPoint.php#17" title="Go to source code"><var>$external_authentications</var></a>
+						<a href="source-class-ExternalAuthenticationsExtensionPoint.php#16" title="Go to source code"><var>$external_authentications</var></a>
 
 					<div class="description short">
 						

@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DAO.php#3-84" title="Go to source code">mvc/model/DAO.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DAO.php#3-83" title="Go to source code">mvc/model/DAO.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -732,7 +728,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-DAO.php#19-24" title="Go to source code">save</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
+<a href="source-class-DAO.php#18-23" title="Go to source code">save</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@ If the object does not exist, it is created, else,  just updated</p>
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-DAO.php#26-32" title="Go to source code">update</a>( <span>array <var>$fields</var></span>, <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DAO.php#25-31" title="Go to source code">update</a>( <span>array <var>$fields</var></span>, <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -850,7 +846,7 @@ If the object does not exist, it is created, else,  just updated</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-DAO.php#34-39" title="Go to source code">delete</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
+<a href="source-class-DAO.php#33-38" title="Go to source code">delete</a>( <span><code><a href="class-PropertiesMapInterface.php">PropertiesMapInterface</a></code> <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_delete_all">#</a>
 						<code>
-<a href="source-class-DAO.php#41-46" title="Go to source code">delete_all</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DAO.php#40-45" title="Go to source code">delete_all</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -944,7 +940,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_count">#</a>
 						<code>
-<a href="source-class-DAO.php#48-53" title="Go to source code">count</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DAO.php#47-52" title="Go to source code">count</a>( <span>string <var>$where</var> = DAO::WHERE_ALL</span>, <span>array <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -996,7 +992,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_find_by_id">#</a>
 						<code>
-<a href="source-class-DAO.php#55-61" title="Go to source code">find_by_id</a>( <span>mixed <var>$id</var></span> )
+<a href="source-class-DAO.php#54-60" title="Go to source code">find_by_id</a>( <span>mixed <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1052,7 +1048,7 @@ If the object does not exist, nothing is done</p>
 					<div>
 						<a class="anchor" href="#_find_all">#</a>
 						<code>
-<a href="source-class-DAO.php#63-75" title="Go to source code">find_all</a>( <span>integer <var>$limit</var> = <span class="php-num">100</span></span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span>, <span>string[mixed][] <var>$order_by</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DAO.php#62-74" title="Go to source code">find_all</a>( <span>integer <var>$limit</var> = <span class="php-num">100</span></span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span>, <span>string[mixed][] <var>$order_by</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1154,7 +1150,7 @@ ascending (</p>
 					<div>
 						<a class="anchor" href="#_find_by_criteria">#</a>
 						<code>
-<a href="source-class-DAO.php#77-83" title="Go to source code">find_by_criteria</a>( <span>string <var>$criteria</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-DAO.php#76-82" title="Go to source code">find_by_criteria</a>( <span>string <var>$criteria</var></span>, <span>string[string] <var>$parameters</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1217,7 +1213,7 @@ ascending (</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DAO.php#16" title="Go to source code"><b>FIND_ALL</b></a>
+								<a href="source-class-DAO.php#15" title="Go to source code"><b>FIND_ALL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1241,7 +1237,7 @@ ascending (</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DAO.php#17" title="Go to source code"><b>WHERE_ALL</b></a>
+								<a href="source-class-DAO.php#16" title="Go to source code"><b>WHERE_ALL</b></a>
 							</code>
 
 							<div class="description short">

@@ -690,10 +690,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Model.php">Model</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 05
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SelectQueryResultMapper.php#3-100" title="Go to source code">mvc/model/SelectQueryResultMapper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SelectQueryResultMapper.php#3-99" title="Go to source code">mvc/model/SelectQueryResultMapper.class.php</a></span>
 			</div>
 
 
@@ -734,7 +730,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -756,7 +752,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#25-34" title="Go to source code">__construct</a>( <span><code><a href="class-QueryResult.php">QueryResult</a></code> <var>$query_result</var></span>, <span><code><a href="class-MappingModel.php">MappingModel</a></code> <var>$model</var></span> )
+<a href="source-class-SelectQueryResultMapper.php#24-33" title="Go to source code">__construct</a>( <span><code><a href="class-QueryResult.php">QueryResult</a></code> <var>$query_result</var></span>, <span><code><a href="class-MappingModel.php">MappingModel</a></code> <var>$model</var></span> )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@
 					<div>
 						<a class="anchor" href="#_get_query">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#36-39" title="Go to source code">get_query</a>( )
+<a href="source-class-SelectQueryResultMapper.php#35-38" title="Go to source code">get_query</a>( )
 						</code>
 
 							<div class="description short">
@@ -839,7 +835,7 @@
 					<div>
 						<a class="anchor" href="#_get_parameters">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#41-44" title="Go to source code">get_parameters</a>( )
+<a href="source-class-SelectQueryResultMapper.php#40-43" title="Go to source code">get_parameters</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@
 					<div>
 						<a class="anchor" href="#_set_fetch_mode">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#46-49" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
+<a href="source-class-SelectQueryResultMapper.php#45-48" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -917,7 +913,7 @@
 					<div>
 						<a class="anchor" href="#_get_rows_count">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#51-54" title="Go to source code">get_rows_count</a>( )
+<a href="source-class-SelectQueryResultMapper.php#50-53" title="Go to source code">get_rows_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#56-59" title="Go to source code">__destruct</a>( )
+<a href="source-class-SelectQueryResultMapper.php#55-58" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 					<div>
 						<a class="anchor" href="#_has_next">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#61-64" title="Go to source code">has_next</a>( )
+<a href="source-class-SelectQueryResultMapper.php#60-63" title="Go to source code">has_next</a>( )
 						</code>
 
 							<div class="description short">
@@ -1030,7 +1026,7 @@
 					<div>
 						<a class="anchor" href="#_fetch">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#66-69" title="Go to source code">fetch</a>( )
+<a href="source-class-SelectQueryResultMapper.php#65-68" title="Go to source code">fetch</a>( )
 						</code>
 
 							<div class="description short">
@@ -1067,7 +1063,7 @@
 					<div>
 						<a class="anchor" href="#_rewind">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#71-74" title="Go to source code">rewind</a>( )
+<a href="source-class-SelectQueryResultMapper.php#70-73" title="Go to source code">rewind</a>( )
 						</code>
 
 							<div class="description short">
@@ -1102,7 +1098,7 @@
 					<div>
 						<a class="anchor" href="#_valid">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#76-79" title="Go to source code">valid</a>( )
+<a href="source-class-SelectQueryResultMapper.php#75-78" title="Go to source code">valid</a>( )
 						</code>
 
 							<div class="description short">
@@ -1137,7 +1133,7 @@
 					<div>
 						<a class="anchor" href="#_current">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#81-84" title="Go to source code">current</a>( )
+<a href="source-class-SelectQueryResultMapper.php#80-83" title="Go to source code">current</a>( )
 						</code>
 
 							<div class="description short">
@@ -1172,7 +1168,7 @@
 					<div>
 						<a class="anchor" href="#_key">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#86-89" title="Go to source code">key</a>( )
+<a href="source-class-SelectQueryResultMapper.php#85-88" title="Go to source code">key</a>( )
 						</code>
 
 							<div class="description short">
@@ -1207,7 +1203,7 @@
 					<div>
 						<a class="anchor" href="#_next">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#91-94" title="Go to source code">next</a>( )
+<a href="source-class-SelectQueryResultMapper.php#90-93" title="Go to source code">next</a>( )
 						</code>
 
 							<div class="description short">
@@ -1242,7 +1238,7 @@
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-SelectQueryResultMapper.php#96-99" title="Go to source code">dispose</a>( )
+<a href="source-class-SelectQueryResultMapper.php#95-98" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">
@@ -1311,7 +1307,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-SelectQueryResultMapper.php#15-18" title="Go to source code"><var>$query_result</var></a>
+						<a href="source-class-SelectQueryResultMapper.php#14-17" title="Go to source code"><var>$query_result</var></a>
 
 					<div class="description short">
 						<p>the internal query result object</p>
@@ -1338,7 +1334,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-SelectQueryResultMapper.php#20-23" title="Go to source code"><var>$model</var></a>
+						<a href="source-class-SelectQueryResultMapper.php#19-22" title="Go to source code"><var>$model</var></a>
 
 					<div class="description short">
 						<p>the model that will instantiate retrieved objects</p>

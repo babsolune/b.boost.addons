@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsManager.php#3-121" title="Go to source code">content/comments/CommentsManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsManager.php#3-120" title="Go to source code">content/comments/CommentsManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#18-21" title="Go to source code">__static</a>( )
+<a href="source-class-CommentsManager.php#17-20" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_add_comment">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#23-47" title="Go to source code">add_comment</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span>, <span> <var>$topic_path</var></span>, <span> <var>$message</var></span>, <span> <var>$pseudo</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-CommentsManager.php#22-46" title="Go to source code">add_comment</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span>, <span> <var>$topic_path</var></span>, <span> <var>$message</var></span>, <span> <var>$pseudo</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_edit_comment">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#49-53" title="Go to source code">edit_comment</a>( <span> <var>$comment_id</var></span>, <span> <var>$message</var></span> )
+<a href="source-class-CommentsManager.php#48-52" title="Go to source code">edit_comment</a>( <span> <var>$comment_id</var></span>, <span> <var>$message</var></span> )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comment">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#55-61" title="Go to source code">delete_comment</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsManager.php#54-60" title="Go to source code">delete_comment</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_comment_exists">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#63-66" title="Go to source code">comment_exists</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsManager.php#62-65" title="Go to source code">comment_exists</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_module">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#68-73" title="Go to source code">delete_comments_module</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsManager.php#67-72" title="Go to source code">delete_comments_module</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_topic_module">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#75-81" title="Go to source code">delete_comments_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
+<a href="source-class-CommentsManager.php#74-80" title="Go to source code">delete_comments_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -970,7 +966,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_comments">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#83-86" title="Go to source code">get_number_comments</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsManager.php#82-85" title="Go to source code">get_number_comments</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1005,7 +1001,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_id_posted_comment">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#88-91" title="Go to source code">get_user_id_posted_comment</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsManager.php#87-90" title="Go to source code">get_user_id_posted_comment</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1040,7 +1036,7 @@
 					<div>
 						<a class="anchor" href="#_get_last_comment_added">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#93-96" title="Go to source code">get_last_comment_added</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-CommentsManager.php#92-95" title="Go to source code">get_last_comment_added</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1075,7 +1071,7 @@
 					<div>
 						<a class="anchor" href="#_comment_topic_locked">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#98-105" title="Go to source code">comment_topic_locked</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsManager.php#97-104" title="Go to source code">comment_topic_locked</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1110,7 +1106,7 @@
 					<div>
 						<a class="anchor" href="#_lock_topic">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#107-110" title="Go to source code">lock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsManager.php#106-109" title="Go to source code">lock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1145,7 +1141,7 @@
 					<div>
 						<a class="anchor" href="#_unlock_topic">#</a>
 						<code>
-<a href="source-class-CommentsManager.php#112-115" title="Go to source code">unlock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsManager.php#111-114" title="Go to source code">unlock_topic</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">

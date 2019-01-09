@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a>\<a href="package-Util.Captcha.php">Captcha</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CaptchaService.php#3-100" title="Go to source code">util/captcha/CaptchaService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CaptchaService.php#3-99" title="Go to source code">util/captcha/CaptchaService.class.php</a></span>
 			</div>
 
 
@@ -712,7 +708,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -734,7 +730,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_factory">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#18-25" title="Go to source code">get_default_factory</a>( )
+<a href="source-class-CaptchaService.php#17-24" title="Go to source code">get_default_factory</a>( )
 						</code>
 
 							<div class="description short">
@@ -769,7 +765,7 @@
 					<div>
 						<a class="anchor" href="#_create_factory">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#27-31" title="Go to source code">create_factory</a>( <span> <var>$identifier</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-CaptchaService.php#26-30" title="Go to source code">create_factory</a>( <span> <var>$identifier</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_captcha">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#33-36" title="Go to source code">get_default_captcha</a>( )
+<a href="source-class-CaptchaService.php#32-35" title="Go to source code">get_default_captcha</a>( )
 						</code>
 
 							<div class="description short">
@@ -839,7 +835,7 @@
 					<div>
 						<a class="anchor" href="#_is_available">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#38-41" title="Go to source code">is_available</a>( )
+<a href="source-class-CaptchaService.php#37-40" title="Go to source code">is_available</a>( )
 						</code>
 
 							<div class="description short">
@@ -874,7 +870,7 @@
 					<div>
 						<a class="anchor" href="#_is_valid">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#43-46" title="Go to source code">is_valid</a>( )
+<a href="source-class-CaptchaService.php#42-45" title="Go to source code">is_valid</a>( )
 						</code>
 
 							<div class="description short">
@@ -909,7 +905,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#48-51" title="Go to source code">display</a>( )
+<a href="source-class-CaptchaService.php#47-50" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -944,7 +940,7 @@
 					<div>
 						<a class="anchor" href="#_get_captchas_identifier">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#65-68" title="Go to source code">get_captchas_identifier</a>( )
+<a href="source-class-CaptchaService.php#64-67" title="Go to source code">get_captchas_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -979,7 +975,7 @@
 					<div>
 						<a class="anchor" href="#_get_available_captchas">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#70-79" title="Go to source code">get_available_captchas</a>( )
+<a href="source-class-CaptchaService.php#69-78" title="Go to source code">get_available_captchas</a>( )
 						</code>
 
 							<div class="description short">
@@ -1014,7 +1010,7 @@
 					<div>
 						<a class="anchor" href="#_uninstall_captcha">#</a>
 						<code>
-<a href="source-class-CaptchaService.php#81-99" title="Go to source code">uninstall_captcha</a>( <span>string <var>$id_module</var></span> )
+<a href="source-class-CaptchaService.php#80-98" title="Go to source code">uninstall_captcha</a>( <span>string <var>$id_module</var></span> )
 						</code>
 
 							<div class="description short">

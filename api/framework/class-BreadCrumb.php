@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -726,7 +722,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-BreadCrumb.php#3-116" title="Go to source code">phpboost/environment/BreadCrumb.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-BreadCrumb.php#3-115" title="Go to source code">phpboost/environment/BreadCrumb.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -744,7 +740,7 @@ Third level category >> .. >> My page >> Edition</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@ Third level category >> .. >> My page >> Edition</p>
 					<div>
 						<a class="anchor" href="#_add">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#30-47" title="Go to source code">add</a>( <span>string <var>$text</var></span>, <span>string <var>$target</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-BreadCrumb.php#29-46" title="Go to source code">add</a>( <span>string <var>$text</var></span>, <span>string <var>$target</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -808,7 +804,7 @@ Third level category >> .. >> My page >> Edition</p>
 					<div>
 						<a class="anchor" href="#_reverse">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#49-56" title="Go to source code">reverse</a>( )
+<a href="source-class-BreadCrumb.php#48-55" title="Go to source code">reverse</a>( )
 						</code>
 
 							<div class="description short">
@@ -845,7 +841,7 @@ end, you only need to reverse the list and it will be ok.</p>
 					<div>
 						<a class="anchor" href="#_remove_last">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#58-64" title="Go to source code">remove_last</a>( )
+<a href="source-class-BreadCrumb.php#57-63" title="Go to source code">remove_last</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@ end, you only need to reverse the list and it will be ok.</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#66-90" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$tpl</var></span> )
+<a href="source-class-BreadCrumb.php#65-89" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$tpl</var></span> )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@ end, you only need to reverse the list and it will be ok.</p>
 					<div>
 						<a class="anchor" href="#_clean">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#92-98" title="Go to source code">clean</a>( )
+<a href="source-class-BreadCrumb.php#91-97" title="Go to source code">clean</a>( )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@ end, you only need to reverse the list and it will be ok.</p>
 					<div>
 						<a class="anchor" href="#_get_links">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#100-106" title="Go to source code">get_links</a>( )
+<a href="source-class-BreadCrumb.php#99-105" title="Go to source code">get_links</a>( )
 						</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@ end, you only need to reverse the list and it will be ok.</p>
 					<div>
 						<a class="anchor" href="#_set_graphical_environment">#</a>
 						<code>
-<a href="source-class-BreadCrumb.php#108-115" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-SiteDisplayGraphicalEnvironment.php">SiteDisplayGraphicalEnvironment</a></code> <var>$env</var></span> )
+<a href="source-class-BreadCrumb.php#107-114" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-SiteDisplayGraphicalEnvironment.php">SiteDisplayGraphicalEnvironment</a></code> <var>$env</var></span> )
 						</code>
 
 							<div class="description short">

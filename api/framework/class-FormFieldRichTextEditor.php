@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -745,7 +741,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldRichTextEditor.php#3-182" title="Go to source code">builder/form/field/FormFieldRichTextEditor.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldRichTextEditor.php#3-181" title="Go to source code">builder/form/field/FormFieldRichTextEditor.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -783,7 +779,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -805,7 +801,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#25-42" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldRichTextEditor.php#24-41" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#44-54" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldRichTextEditor.php#43-53" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#97-103" title="Go to source code">get_value</a>( )
+<a href="source-class-FormFieldRichTextEditor.php#96-102" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_set_value">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#118-124" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FormFieldRichTextEditor.php#117-123" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_get_onblur_validations">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#139-142" title="Go to source code">get_onblur_validations</a>( )
+<a href="source-class-FormFieldRichTextEditor.php#138-141" title="Go to source code">get_onblur_validations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1020,7 +1016,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#144-154" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormFieldRichTextEditor.php#143-153" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1057,7 +1053,7 @@ corresponds to the user's default configuration and will be the one to use 99% o
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldRichTextEditor.php#156-181" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldRichTextEditor.php#155-180" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">

@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Plateform.php">Plateform</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PostgreSqlPlatform.php#3-814" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/PostgreSqlPlatform.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PostgreSqlPlatform.php#3-813" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/PostgreSqlPlatform.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#18-25" title="Go to source code">__construct</a>( )
+<a href="source-class-PostgreSqlPlatform.php#17-24" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@ Creates a new PostgreSqlPlatform.</p>
 					<div>
 						<a class="anchor" href="#_getMd5Expression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#28-54" title="Go to source code">getMd5Expression</a>( <span> <var>$column</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#27-53" title="Go to source code">getMd5Expression</a>( <span> <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -839,7 +835,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getSubstringExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#56-74" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$from</var></span>, <span>integer <var>$len</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#55-73" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$from</var></span>, <span>integer <var>$len</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getAgeExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#76-89" title="Go to source code">getAgeExpression</a>( <span>string <var>$timestamp1</var></span>, <span>string <var>$timestamp2</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#75-88" title="Go to source code">getAgeExpression</a>( <span>string <var>$timestamp1</var></span>, <span>string <var>$timestamp2</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -940,7 +936,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getDatePartExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#91-101" title="Go to source code">getDatePartExpression</a>( <span>string <var>$text</var></span>, <span>string <var>$time</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#90-100" title="Go to source code">getDatePartExpression</a>( <span>string <var>$text</var></span>, <span>string <var>$time</var></span> )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getToCharExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#103-113" title="Go to source code">getToCharExpression</a>( <span>string <var>$time</var></span>, <span>string <var>$text</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#102-112" title="Go to source code">getToCharExpression</a>( <span>string <var>$time</var></span>, <span>string <var>$text</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1032,7 +1028,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getNowExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#115-123" title="Go to source code">getNowExpression</a>( )
+<a href="source-class-PostgreSqlPlatform.php#114-122" title="Go to source code">getNowExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getRegexpExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#125-134" title="Go to source code">getRegexpExpression</a>( )
+<a href="source-class-PostgreSqlPlatform.php#124-133" title="Go to source code">getRegexpExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1117,7 +1113,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getRandomExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#136-146" title="Go to source code">getRandomExpression</a>( )
+<a href="source-class-PostgreSqlPlatform.php#135-145" title="Go to source code">getRandomExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1159,7 +1155,7 @@ package. You must then install the procedure by running this shell command:</p>
 					<div>
 						<a class="anchor" href="#_getMatchPatternExpression">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#148-197" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#147-196" title="Go to source code">getMatchPatternExpression</a>( <span>array <var>$pattern</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$field</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1218,7 +1214,7 @@ any time until labelled as non-experimental</p>
 					<div>
 						<a class="anchor" href="#_supportsSequences">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#211-220" title="Go to source code">supportsSequences</a>( )
+<a href="source-class-PostgreSqlPlatform.php#210-219" title="Go to source code">supportsSequences</a>( )
 						</code>
 
 							<div class="description short">
@@ -1261,7 +1257,7 @@ Postgres has native support for sequences.</p>
 					<div>
 						<a class="anchor" href="#_supportsSchemas">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#222-230" title="Go to source code">supportsSchemas</a>( )
+<a href="source-class-PostgreSqlPlatform.php#221-229" title="Go to source code">supportsSchemas</a>( )
 						</code>
 
 							<div class="description short">
@@ -1302,7 +1298,7 @@ Postgres has native support for sequences.</p>
 					<div>
 						<a class="anchor" href="#_supportsIdentityColumns">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#232-241" title="Go to source code">supportsIdentityColumns</a>( )
+<a href="source-class-PostgreSqlPlatform.php#231-240" title="Go to source code">supportsIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -1345,7 +1341,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_prefersSequences">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#243-251" title="Go to source code">prefersSequences</a>( )
+<a href="source-class-PostgreSqlPlatform.php#242-250" title="Go to source code">prefersSequences</a>( )
 						</code>
 
 							<div class="description short">
@@ -1386,7 +1382,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListDatabasesSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#253-256" title="Go to source code">getListDatabasesSql</a>( )
+<a href="source-class-PostgreSqlPlatform.php#252-255" title="Go to source code">getListDatabasesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1423,7 +1419,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListFunctionsSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#258-271" title="Go to source code">getListFunctionsSql</a>( )
+<a href="source-class-PostgreSqlPlatform.php#257-270" title="Go to source code">getListFunctionsSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1460,7 +1456,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListSequencesSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#273-282" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#272-281" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1497,7 +1493,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTablesSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#284-300" title="Go to source code">getListTablesSql</a>( )
+<a href="source-class-PostgreSqlPlatform.php#283-299" title="Go to source code">getListTablesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1534,7 +1530,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListViewsSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#302-305" title="Go to source code">getListViewsSql</a>( )
+<a href="source-class-PostgreSqlPlatform.php#301-304" title="Go to source code">getListViewsSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1571,7 +1567,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTriggersSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#307-319" title="Go to source code">getListTriggersSql</a>( <span> <var>$table</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#306-318" title="Go to source code">getListTriggersSql</a>( <span> <var>$table</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1608,7 +1604,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListUsersSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#321-324" title="Go to source code">getListUsersSql</a>( )
+<a href="source-class-PostgreSqlPlatform.php#320-323" title="Go to source code">getListUsersSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -1645,7 +1641,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTableForeignKeysSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#326-338" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span>, <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#325-337" title="Go to source code">getListTableForeignKeysSql</a>( <span> <var>$table</var></span>, <span> <var>$database</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1682,7 +1678,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getCreateViewSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#340-343" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#339-342" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1719,7 +1715,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getDropViewSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#345-348" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#344-347" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1756,7 +1752,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTableConstraintsSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#350-363" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#349-362" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1793,7 +1789,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTableIndexesSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#365-383" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#364-382" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1830,7 +1826,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getListTableColumnsSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#385-410" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#384-409" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1867,7 +1863,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getCreateDatabaseSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#412-423" title="Go to source code">getCreateDatabaseSql</a>( <span>string <var>$name</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#411-422" title="Go to source code">getCreateDatabaseSql</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1916,7 +1912,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getDropDatabaseSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#425-435" title="Go to source code">getDropDatabaseSql</a>( <span>string <var>$name</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#424-434" title="Go to source code">getDropDatabaseSql</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1962,7 +1958,7 @@ Postgres supports these through the SERIAL keyword.</p>
 					<div>
 						<a class="anchor" href="#_getAdvancedForeignKeyOptionsSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#437-469" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#436-468" title="Go to source code">getAdvancedForeignKeyOptionsSql</a>( <span>array <var>$definition</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2015,7 +2011,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getAlterTableSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#471-551" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#470-550" title="Go to source code">getAlterTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$changes</var></span>, <span>boolean <var>$check</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2074,7 +2070,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getCreateSequenceSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#553-563" title="Go to source code">getCreateSequenceSql</a>( <span>string <var>$sequenceName</var></span>, <span>integer <var>$start</var> = <span class="php-num">1</span></span>, <span>integer <var>$allocationSize</var> = <span class="php-num">1</span></span> )
+<a href="source-class-PostgreSqlPlatform.php#552-562" title="Go to source code">getCreateSequenceSql</a>( <span>string <var>$sequenceName</var></span>, <span>integer <var>$start</var> = <span class="php-num">1</span></span>, <span>integer <var>$allocationSize</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -2131,7 +2127,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDropSequenceSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#565-574" title="Go to source code">getDropSequenceSql</a>( <span>string <var>$sequenceName</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#564-573" title="Go to source code">getDropSequenceSql</a>( <span>string <var>$sequenceName</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2176,7 +2172,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getCreateTableSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#576-629" title="Go to source code">getCreateTableSql</a>( <span>unknown_type <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-PostgreSqlPlatform.php#575-628" title="Go to source code">getCreateTableSql</a>( <span>unknown_type <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -2226,7 +2222,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_convertBooleans">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#631-651" title="Go to source code">convertBooleans</a>( <span>array <var>$item</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#630-650" title="Go to source code">convertBooleans</a>( <span>array <var>$item</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2271,7 +2267,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getSequenceNextValSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#653-656" title="Go to source code">getSequenceNextValSql</a>( <span> <var>$sequenceName</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#652-655" title="Go to source code">getSequenceNextValSql</a>( <span> <var>$sequenceName</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2308,7 +2304,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getSetTransactionIsolationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#658-662" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#657-661" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2350,7 +2346,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getBooleanTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#664-670" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#663-669" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2397,7 +2393,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#672-687" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#671-686" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2444,7 +2440,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDefaultValueDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#690-700" title="Go to source code">getDefaultValueDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#689-699" title="Go to source code">getDefaultValueDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2493,7 +2489,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getBigIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#703-712" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#702-711" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2540,7 +2536,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getSmallIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#714-720" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#713-719" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2587,7 +2583,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#722-728" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#721-727" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2636,7 +2632,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDateTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#730-736" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#729-735" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2685,7 +2681,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#__getCommonIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#738-744" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#737-743" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2732,7 +2728,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getVarcharTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#746-767" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#745-766" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2779,7 +2775,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getClobTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#769-773" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#768-772" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2822,7 +2818,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#775-783" title="Go to source code">getName</a>( )
+<a href="source-class-PostgreSqlPlatform.php#774-782" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">
@@ -2861,7 +2857,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getSqlResultCasing">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#785-796" title="Go to source code">getSqlResultCasing</a>( <span>string <var>$column</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#784-795" title="Go to source code">getSqlResultCasing</a>( <span>string <var>$column</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2909,7 +2905,7 @@ as MATCH, INITIALLY DEFERRED, ON UPDATE, ...</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeFormatString">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#798-801" title="Go to source code">getDateTimeFormatString</a>( )
+<a href="source-class-PostgreSqlPlatform.php#797-800" title="Go to source code">getDateTimeFormatString</a>( )
 						</code>
 
 							<div class="description short">
@@ -2952,7 +2948,7 @@ the format of a stored datetime value of this platform.</p>
 					<div>
 						<a class="anchor" href="#_getEmptyIdentityInsertSql">#</a>
 						<code>
-<a href="source-class-PostgreSqlPlatform.php#803-813" title="Go to source code">getEmptyIdentityInsertSql</a>( <span>string <var>$quotedTableName</var></span>, <span>string <var>$quotedIdentifierColumnName</var></span> )
+<a href="source-class-PostgreSqlPlatform.php#802-812" title="Go to source code">getEmptyIdentityInsertSql</a>( <span>string <var>$quotedTableName</var></span>, <span>string <var>$quotedIdentifierColumnName</var></span> )
 						</code>
 
 							<div class="description short">

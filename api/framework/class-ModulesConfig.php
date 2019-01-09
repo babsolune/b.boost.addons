@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesConfig.php#3-107" title="Go to source code">phpboost/config/ModulesConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesConfig.php#3-106" title="Go to source code">phpboost/config/ModulesConfig.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#19-27" title="Go to source code">get_default_values</a>( )
+<a href="source-class-ModulesConfig.php#18-26" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -796,7 +792,7 @@
 					<div>
 						<a class="anchor" href="#_get_modules">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#29-36" title="Go to source code">get_modules</a>( )
+<a href="source-class-ModulesConfig.php#28-35" title="Go to source code">get_modules</a>( )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@
 					<div>
 						<a class="anchor" href="#_get_module">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#38-47" title="Go to source code">get_module</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ModulesConfig.php#37-46" title="Go to source code">get_module</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -879,7 +875,7 @@
 					<div>
 						<a class="anchor" href="#_set_modules">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#49-56" title="Go to source code">set_modules</a>( <span>array <var>$modules</var></span> )
+<a href="source-class-ModulesConfig.php#48-55" title="Go to source code">set_modules</a>( <span>array <var>$modules</var></span> )
 						</code>
 
 							<div class="description short">
@@ -919,7 +915,7 @@
 					<div>
 						<a class="anchor" href="#_add_module">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#58-67" title="Go to source code">add_module</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
+<a href="source-class-ModulesConfig.php#57-66" title="Go to source code">add_module</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -959,7 +955,7 @@
 					<div>
 						<a class="anchor" href="#_remove_module">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#69-74" title="Go to source code">remove_module</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
+<a href="source-class-ModulesConfig.php#68-73" title="Go to source code">remove_module</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -994,7 +990,7 @@
 					<div>
 						<a class="anchor" href="#_remove_module_by_id">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#76-81" title="Go to source code">remove_module_by_id</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ModulesConfig.php#75-80" title="Go to source code">remove_module_by_id</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1029,7 +1025,7 @@
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#83-89" title="Go to source code">update</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
+<a href="source-class-ModulesConfig.php#82-88" title="Go to source code">update</a>( <span><code><a href="class-Module.php">Module</a></code> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1064,7 +1060,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#91-98" title="Go to source code">load</a>( )
+<a href="source-class-ModulesConfig.php#90-97" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1103,7 +1099,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-ModulesConfig.php#100-106" title="Go to source code">save</a>( )
+<a href="source-class-ModulesConfig.php#99-105" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

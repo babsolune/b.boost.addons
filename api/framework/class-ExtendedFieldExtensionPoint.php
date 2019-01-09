@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 05 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldExtensionPoint.php#3-22" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldExtensionPoint.php#3-21" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@
 					<div>
 						<a class="anchor" href="#_get_extended_fields">#</a>
 						<code>
-<a href="source-class-ExtendedFieldExtensionPoint.php#17-21" title="Go to source code">get_extended_fields</a>( )
+<a href="source-class-ExtendedFieldExtensionPoint.php#16-20" title="Go to source code">get_extended_fields</a>( )
 						</code>
 
 							<div class="description short">
@@ -796,7 +792,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ExtendedFieldExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-ExtendedFieldExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.enum.php">enum</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMultipleCheckboxOption.php#3-34" title="Go to source code">builder/form/field/enum/FormFieldMultipleCheckboxOption.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMultipleCheckboxOption.php#3-33" title="Go to source code">builder/form/field/enum/FormFieldMultipleCheckboxOption.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleCheckboxOption.php#19-23" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$label</var></span> )
+<a href="source-class-FormFieldMultipleCheckboxOption.php#18-22" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -776,7 +772,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleCheckboxOption.php#25-28" title="Go to source code">get_id</a>( )
+<a href="source-class-FormFieldMultipleCheckboxOption.php#24-27" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-FormFieldMultipleCheckboxOption.php#30-33" title="Go to source code">get_label</a>( )
+<a href="source-class-FormFieldMultipleCheckboxOption.php#29-32" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">

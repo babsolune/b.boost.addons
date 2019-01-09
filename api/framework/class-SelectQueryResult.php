@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SelectQueryResult.php#3-41" title="Go to source code">io/db/SelectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SelectQueryResult.php#3-40" title="Go to source code">io/db/SelectQueryResult.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -757,7 +753,7 @@ usage is:</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -779,7 +775,7 @@ usage is:</p>
 					<div>
 						<a class="anchor" href="#_set_fetch_mode">#</a>
 						<code>
-<a href="source-class-SelectQueryResult.php#25" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
+<a href="source-class-SelectQueryResult.php#24" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -814,7 +810,7 @@ usage is:</p>
 					<div>
 						<a class="anchor" href="#_get_rows_count">#</a>
 						<code>
-<a href="source-class-SelectQueryResult.php#27-31" title="Go to source code">get_rows_count</a>( )
+<a href="source-class-SelectQueryResult.php#26-30" title="Go to source code">get_rows_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@ usage is:</p>
 					<div>
 						<a class="anchor" href="#_has_next">#</a>
 						<code>
-<a href="source-class-SelectQueryResult.php#33" title="Go to source code">has_next</a>( )
+<a href="source-class-SelectQueryResult.php#32" title="Go to source code">has_next</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@ usage is:</p>
 					<div>
 						<a class="anchor" href="#_fetch">#</a>
 						<code>
-<a href="source-class-SelectQueryResult.php#35" title="Go to source code">fetch</a>( )
+<a href="source-class-SelectQueryResult.php#34" title="Go to source code">fetch</a>( )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@ usage is:</p>
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-SelectQueryResult.php#37-40" title="Go to source code">dispose</a>( )
+<a href="source-class-SelectQueryResult.php#36-39" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">
@@ -980,7 +976,7 @@ usage is:</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SelectQueryResult.php#22" title="Go to source code"><b>FETCH_NUM</b></a>
+								<a href="source-class-SelectQueryResult.php#21" title="Go to source code"><b>FETCH_NUM</b></a>
 							</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@ usage is:</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-SelectQueryResult.php#23" title="Go to source code"><b>FETCH_ASSOC</b></a>
+								<a href="source-class-SelectQueryResult.php#22" title="Go to source code"><b>FETCH_ASSOC</b></a>
 							</code>
 
 							<div class="description short">

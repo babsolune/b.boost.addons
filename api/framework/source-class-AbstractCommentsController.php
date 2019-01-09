@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,70 +1294,69 @@
 		<header><h2>File content/comments/controllers/AbstractCommentsController.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span></span><span class="l"><a href="#12">12: </a></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span><span class="l"><a href="#21">21: </a></span><span class="l"><a href="#22">22: </a></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span><span class="l"><a href="#26">26: </a></span><span class="l"><a href="#27">27: </a></span><span class="l"><a href="#28">28: </a></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span><span class="l"><a href="#33">33: </a></span><span class="l"><a href="#34">34: </a></span><span class="l"><a href="#35">35: </a></span><span class="l"><a href="#36">36: </a></span><span class="l"><a href="#37">37: </a></span><span class="l"><a href="#38">38: </a></span><span class="l"><a href="#39">39: </a></span><span class="l"><a href="#40">40: </a></span><span class="l"><a href="#41">41: </a></span><span class="l"><a href="#42">42: </a></span><span class="l"><a href="#43">43: </a></span><span class="l"><a href="#44">44: </a></span><span class="l"><a href="#45">45: </a></span><span class="l"><a href="#46">46: </a></span><span class="l"><a href="#47">47: </a></span><span class="l"><a href="#48">48: </a></span><span class="l"><a href="#49">49: </a></span><span class="l"><a href="#50">50: </a></span><span class="l"><a href="#51">51: </a></span><span class="l"><a href="#52">52: </a></span><span class="l"><a href="#53">53: </a></span><span class="l"><a href="#54">54: </a></span><span class="l"><a href="#55">55: </a></span><span class="l"><a href="#56">56: </a></span><span class="l"><a href="#57">57: </a></span><span class="l"><a href="#58">58: </a></span><span class="l"><a href="#59">59: </a></span><span class="l"><a href="#60">60: </a></span><span class="l"><a href="#61">61: </a></span><span class="l"><a href="#62">62: </a></span><span class="l"><a href="#63">63: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span><span class="l"><a href="#12">12: </a></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span><span class="l"><a href="#21">21: </a></span><span class="l"><a href="#22">22: </a></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span><span class="l"><a href="#26">26: </a></span><span class="l"><a href="#27">27: </a></span><span class="l"><a href="#28">28: </a></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span><span class="l"><a href="#33">33: </a></span><span class="l"><a href="#34">34: </a></span><span class="l"><a href="#35">35: </a></span><span class="l"><a href="#36">36: </a></span><span class="l"><a href="#37">37: </a></span><span class="l"><a href="#38">38: </a></span><span class="l"><a href="#39">39: </a></span><span class="l"><a href="#40">40: </a></span><span class="l"><a href="#41">41: </a></span><span class="l"><a href="#42">42: </a></span><span class="l"><a href="#43">43: </a></span><span class="l"><a href="#44">44: </a></span><span class="l"><a href="#45">45: </a></span><span class="l"><a href="#46">46: </a></span><span class="l"><a href="#47">47: </a></span><span class="l"><a href="#48">48: </a></span><span class="l"><a href="#49">49: </a></span><span class="l"><a href="#50">50: </a></span><span class="l"><a href="#51">51: </a></span><span class="l"><a href="#52">52: </a></span><span class="l"><a href="#53">53: </a></span><span class="l"><a href="#54">54: </a></span><span class="l"><a href="#55">55: </a></span><span class="l"><a href="#56">56: </a></span><span class="l"><a href="#57">57: </a></span><span class="l"><a href="#58">58: </a></span><span class="l"><a href="#59">59: </a></span><span class="l"><a href="#60">60: </a></span><span class="l"><a href="#61">61: </a></span><span class="l"><a href="#62">62: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * @package     Content
 </span></span><span id="4" class="l"><span class="php-comment"> * @subpackage  Comments\controllers
-</span></span><span id="5" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="6" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="7" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="8" class="l"><span class="php-comment"> * @author      Kevin MASSY &lt;reidlos@phpboost.com&gt;
-</span></span><span id="9" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 10 23
-</span></span><span id="10" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2011 09 23
-</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="12" class="l"><span class="php-comment">*/</span>
-</span><span id="13" class="l">
-</span><span id="14" class="l"><span class="php-keyword1">class</span> AbstractCommentsController <span class="php-keyword1">extends</span> AbstractController
-</span><span id="15" class="l">{
-</span><span id="16" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$module_id</span>;
-</span><span id="17" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$id_in_module</span>;
-</span><span id="18" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$topic_identifier</span>;
-</span><span id="19" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$provider</span>;
-</span><span id="20" class="l">
-</span><span id="21" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> execute(HTTPRequestCustom <span class="php-var">$request</span>)
-</span><span id="22" class="l">    {
-</span><span id="23" class="l">        <span class="php-var">$this</span>-&gt;module_id = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'module_id'</span>, <span class="php-quote">''</span>);
-</span><span id="24" class="l">        <span class="php-var">$this</span>-&gt;id_in_module = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'id_in_module'</span>, <span class="php-quote">''</span>);
-</span><span id="25" class="l">        <span class="php-var">$this</span>-&gt;topic_identifier = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'topic_identifier'</span>, <span class="php-quote">''</span>);
-</span><span id="26" class="l">        <span class="php-var">$this</span>-&gt;provider = CommentsProvidersService::get_provider(<span class="php-var">$this</span>-&gt;module_id, <span class="php-var">$this</span>-&gt;topic_identifier);
-</span><span id="27" class="l">
-</span><span id="28" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider))
-</span><span id="29" class="l">            <span class="php-var">$this</span>-&gt;provider-&gt;set_id_in_module(<span class="php-var">$this</span>-&gt;id_in_module);
-</span><span id="30" class="l">    }
-</span><span id="31" class="l">
-</span><span id="32" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> is_authorized_read()
-</span><span id="33" class="l">    {
-</span><span id="34" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;get_authorizations()-&gt;is_authorized_read();
-</span><span id="35" class="l">    }
-</span><span id="36" class="l">
-</span><span id="37" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> is_display()
-</span><span id="38" class="l">    {
-</span><span id="39" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider) &amp;&amp; <span class="php-var">$this</span>-&gt;provider-&gt;is_display(<span class="php-var">$this</span>-&gt;get_module_id(), <span class="php-var">$this</span>-&gt;get_id_in_module());
-</span><span id="40" class="l">    }
-</span><span id="41" class="l">
-</span><span id="42" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_module_id()
-</span><span id="43" class="l">    {
-</span><span id="44" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;module_id;
-</span><span id="45" class="l">    }
-</span><span id="46" class="l">
-</span><span id="47" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_id_in_module()
-</span><span id="48" class="l">    {
-</span><span id="49" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;id_in_module;
-</span><span id="50" class="l">    }
-</span><span id="51" class="l">
-</span><span id="52" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_topic_identifier()
-</span><span id="53" class="l">    {
-</span><span id="54" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;topic_identifier;
-</span><span id="55" class="l">    }
-</span><span id="56" class="l">
-</span><span id="57" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_authorizations()
-</span><span id="58" class="l">    {
-</span><span id="59" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider) ? <span class="php-var">$this</span>-&gt;provider-&gt;get_authorizations(<span class="php-var">$this</span>-&gt;get_module_id(), <span class="php-var">$this</span>-&gt;get_id_in_module()) : <span class="php-keyword1">new</span> CommentsAuthorizations();
-</span><span id="60" class="l">    }
-</span><span id="61" class="l">}
-</span><span id="62" class="l"><span class="xlang">?&gt;</span>
-</span><span id="63" class="l"></span></code></pre>
+</span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="7" class="l"><span class="php-comment"> * @author      Kevin MASSY &lt;reidlos@phpboost.com&gt;
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 10 23
+</span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2011 09 23
+</span></span><span id="10" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="11" class="l"><span class="php-comment">*/</span>
+</span><span id="12" class="l">
+</span><span id="13" class="l"><span class="php-keyword1">class</span> AbstractCommentsController <span class="php-keyword1">extends</span> AbstractController
+</span><span id="14" class="l">{
+</span><span id="15" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$module_id</span>;
+</span><span id="16" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$id_in_module</span>;
+</span><span id="17" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$topic_identifier</span>;
+</span><span id="18" class="l">    <span class="php-keyword1">protected</span> <span class="php-var">$provider</span>;
+</span><span id="19" class="l">
+</span><span id="20" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> execute(HTTPRequestCustom <span class="php-var">$request</span>)
+</span><span id="21" class="l">    {
+</span><span id="22" class="l">        <span class="php-var">$this</span>-&gt;module_id = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'module_id'</span>, <span class="php-quote">''</span>);
+</span><span id="23" class="l">        <span class="php-var">$this</span>-&gt;id_in_module = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'id_in_module'</span>, <span class="php-quote">''</span>);
+</span><span id="24" class="l">        <span class="php-var">$this</span>-&gt;topic_identifier = <span class="php-var">$request</span>-&gt;get_poststring(<span class="php-quote">'topic_identifier'</span>, <span class="php-quote">''</span>);
+</span><span id="25" class="l">        <span class="php-var">$this</span>-&gt;provider = CommentsProvidersService::get_provider(<span class="php-var">$this</span>-&gt;module_id, <span class="php-var">$this</span>-&gt;topic_identifier);
+</span><span id="26" class="l">
+</span><span id="27" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider))
+</span><span id="28" class="l">            <span class="php-var">$this</span>-&gt;provider-&gt;set_id_in_module(<span class="php-var">$this</span>-&gt;id_in_module);
+</span><span id="29" class="l">    }
+</span><span id="30" class="l">
+</span><span id="31" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> is_authorized_read()
+</span><span id="32" class="l">    {
+</span><span id="33" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;get_authorizations()-&gt;is_authorized_read();
+</span><span id="34" class="l">    }
+</span><span id="35" class="l">
+</span><span id="36" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> is_display()
+</span><span id="37" class="l">    {
+</span><span id="38" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider) &amp;&amp; <span class="php-var">$this</span>-&gt;provider-&gt;is_display(<span class="php-var">$this</span>-&gt;get_module_id(), <span class="php-var">$this</span>-&gt;get_id_in_module());
+</span><span id="39" class="l">    }
+</span><span id="40" class="l">
+</span><span id="41" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_module_id()
+</span><span id="42" class="l">    {
+</span><span id="43" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;module_id;
+</span><span id="44" class="l">    }
+</span><span id="45" class="l">
+</span><span id="46" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_id_in_module()
+</span><span id="47" class="l">    {
+</span><span id="48" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;id_in_module;
+</span><span id="49" class="l">    }
+</span><span id="50" class="l">
+</span><span id="51" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_topic_identifier()
+</span><span id="52" class="l">    {
+</span><span id="53" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;topic_identifier;
+</span><span id="54" class="l">    }
+</span><span id="55" class="l">
+</span><span id="56" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_authorizations()
+</span><span id="57" class="l">    {
+</span><span id="58" class="l">        <span class="php-keyword1">return</span> !<span class="php-keyword1">empty</span>(<span class="php-var">$this</span>-&gt;provider) ? <span class="php-var">$this</span>-&gt;provider-&gt;get_authorizations(<span class="php-var">$this</span>-&gt;get_module_id(), <span class="php-var">$this</span>-&gt;get_id_in_module()) : <span class="php-keyword1">new</span> CommentsAuthorizations();
+</span><span id="59" class="l">    }
+</span><span id="60" class="l">}
+</span><span id="61" class="l"><span class="xlang">?&gt;</span>
+</span><span id="62" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

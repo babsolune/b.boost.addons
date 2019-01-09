@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -726,7 +722,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractDisplayGraphicalEnvironment.php#3-159" title="Go to source code">phpboost/environment/AbstractDisplayGraphicalEnvironment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractDisplayGraphicalEnvironment.php#3-158" title="Go to source code">phpboost/environment/AbstractDisplayGraphicalEnvironment.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -765,7 +761,7 @@ of the administration panel.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -787,7 +783,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#26-29" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#25-28" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_modules_css_files_html_code">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#31-48" title="Go to source code">get_modules_css_files_html_code</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#30-47" title="Go to source code">get_modules_css_files_html_code</a>( )
 						</code>
 
 							<div class="description short">
@@ -857,7 +853,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_location_id">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#50-53" title="Go to source code">get_location_id</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#49-52" title="Go to source code">get_location_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -892,7 +888,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_set_location_id">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#55-58" title="Go to source code">set_location_id</a>( <span> <var>$location_id</var></span> )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#54-57" title="Go to source code">set_location_id</a>( <span> <var>$location_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -927,7 +923,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_seo_meta_data">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#60-63" title="Go to source code">get_seo_meta_data</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#59-62" title="Go to source code">get_seo_meta_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -962,7 +958,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_set_seo_meta_data">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#65-68" title="Go to source code">set_seo_meta_data</a>( <span><code><a href="class-SEOMetaData.php">SEOMetaData</a></code> <var>$seo_meta_data</var></span> )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#64-67" title="Go to source code">set_seo_meta_data</a>( <span><code><a href="class-SEOMetaData.php">SEOMetaData</a></code> <var>$seo_meta_data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -997,7 +993,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_get_page_title">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#70-73" title="Go to source code">get_page_title</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#69-72" title="Go to source code">get_page_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1032,7 +1028,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_set_page_title">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#75-82" title="Go to source code">set_page_title</a>( <span> <var>$title</var></span>, <span> <var>$section</var> = <span class="php-quote">''</span></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#74-81" title="Go to source code">set_page_title</a>( <span> <var>$title</var></span>, <span> <var>$section</var> = <span class="php-quote">''</span></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1067,7 +1063,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_retrieve_kernel_message">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#84-106" title="Go to source code">retrieve_kernel_message</a>( )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#83-105" title="Go to source code">retrieve_kernel_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -1102,7 +1098,7 @@ of the administration panel.</p>
 					<div>
 						<a class="anchor" href="#_display_kernel_message">#</a>
 						<code>
-<a href="source-class-AbstractDisplayGraphicalEnvironment.php#108-115" title="Go to source code">display_kernel_message</a>( <span><code><a href="class-View.php">View</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractDisplayGraphicalEnvironment.php#107-114" title="Go to source code">display_kernel_message</a>( <span><code><a href="class-View.php">View</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">

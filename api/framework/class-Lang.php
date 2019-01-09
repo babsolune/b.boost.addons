@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Langs.php">Langs</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Lang.php#3-77" title="Go to source code">phpboost/langs/Lang.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Lang.php#3-76" title="Go to source code">phpboost/langs/Lang.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Lang.php#24-29" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$activated</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-Lang.php#23-28" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span>array <var>$authorizations</var> = <span class="php-keyword1">array</span>()</span>, <span> <var>$activated</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Lang.php#31-34" title="Go to source code">get_id</a>( )
+<a href="source-class-Lang.php#30-33" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@
 					<div>
 						<a class="anchor" href="#_get_identifier">#</a>
 						<code>
-<a href="source-class-Lang.php#36-39" title="Go to source code">get_identifier</a>( )
+<a href="source-class-Lang.php#35-38" title="Go to source code">get_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@
 					<div>
 						<a class="anchor" href="#_is_activated">#</a>
 						<code>
-<a href="source-class-Lang.php#41-44" title="Go to source code">is_activated</a>( )
+<a href="source-class-Lang.php#40-43" title="Go to source code">is_activated</a>( )
 						</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-Lang.php#46-49" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-Lang.php#45-48" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_set_activated">#</a>
 						<code>
-<a href="source-class-Lang.php#51-54" title="Go to source code">set_activated</a>( <span> <var>$activated</var></span> )
+<a href="source-class-Lang.php#50-53" title="Go to source code">set_activated</a>( <span> <var>$activated</var></span> )
 						</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@
 					<div>
 						<a class="anchor" href="#_set_authorizations">#</a>
 						<code>
-<a href="source-class-Lang.php#56-59" title="Go to source code">set_authorizations</a>( <span> <var>$authorizations</var></span> )
+<a href="source-class-Lang.php#55-58" title="Go to source code">set_authorizations</a>( <span> <var>$authorizations</var></span> )
 						</code>
 
 							<div class="description short">
@@ -974,7 +970,7 @@
 					<div>
 						<a class="anchor" href="#_get_configuration">#</a>
 						<code>
-<a href="source-class-Lang.php#61-67" title="Go to source code">get_configuration</a>( )
+<a href="source-class-Lang.php#60-66" title="Go to source code">get_configuration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 					<div>
 						<a class="anchor" href="#_check_auth">#</a>
 						<code>
-<a href="source-class-Lang.php#69-76" title="Go to source code">check_auth</a>( )
+<a href="source-class-Lang.php#68-75" title="Go to source code">check_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1059,7 +1055,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Lang.php#22" title="Go to source code"><b>ACCES_LANG</b></a>
+								<a href="source-class-Lang.php#21" title="Go to source code"><b>ACCES_LANG</b></a>
 							</code>
 
 							<div class="description short">

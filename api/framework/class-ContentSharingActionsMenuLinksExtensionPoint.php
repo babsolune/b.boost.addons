@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Share.php">Share</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -683,7 +679,7 @@
 							<b>Since:</b>
 							PHPBoost 5.1 - 2018 01 30
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#3-28" title="Go to source code">content/share/ContentSharingActionsMenuLinksExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#3-27" title="Go to source code">content/share/ContentSharingActionsMenuLinksExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -704,7 +700,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -726,7 +722,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#19-22" title="Go to source code">__construct</a>( <span> <var>$content_sharing_actions_menu_links</var></span> )
+<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#18-21" title="Go to source code">__construct</a>( <span> <var>$content_sharing_actions_menu_links</var></span> )
 						</code>
 
 							<div class="description short">
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#_get_content_sharing_actions_menu_links">#</a>
 						<code>
-<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#24-27" title="Go to source code">get_content_sharing_actions_menu_links</a>( )
+<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#23-26" title="Go to source code">get_content_sharing_actions_menu_links</a>( )
 						</code>
 
 							<div class="description short">
@@ -807,7 +803,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-ContentSharingActionsMenuLinksExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

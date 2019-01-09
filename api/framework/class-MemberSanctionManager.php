@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberSanctionManager.php#3-156" title="Go to source code">phpboost/member/MemberSanctionManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberSanctionManager.php#3-155" title="Go to source code">phpboost/member/MemberSanctionManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#24-28" title="Go to source code">__static</a>( )
+<a href="source-class-MemberSanctionManager.php#23-27" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_remove_write_permissions">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#33-48" title="Go to source code">remove_write_permissions</a>( <span> <var>$user_id</var></span>, <span> <var>$punish_duration</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MP</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-MemberSanctionManager.php#32-47" title="Go to source code">remove_write_permissions</a>( <span> <var>$user_id</var></span>, <span> <var>$punish_duration</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MP</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_banish">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#53-67" title="Go to source code">banish</a>( <span> <var>$user_id</var></span>, <span> <var>$punish_duration</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MAIL</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-MemberSanctionManager.php#52-66" title="Go to source code">banish</a>( <span> <var>$user_id</var></span>, <span> <var>$punish_duration</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MAIL</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_caution">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#72-96" title="Go to source code">caution</a>( <span> <var>$user_id</var></span>, <span> <var>$level_punish</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MP</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-MemberSanctionManager.php#71-95" title="Go to source code">caution</a>( <span> <var>$user_id</var></span>, <span> <var>$level_punish</var></span>, <span> <var>$send_confirmation</var> = self::SEND_MP</span>, <span> <var>$content_to_send</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_cancel_caution">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#101-107" title="Go to source code">cancel_caution</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-MemberSanctionManager.php#100-106" title="Go to source code">cancel_caution</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_restore_write_permissions">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#112-118" title="Go to source code">restore_write_permissions</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-MemberSanctionManager.php#111-117" title="Go to source code">restore_write_permissions</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_cancel_banishment">#</a>
 						<code>
-<a href="source-class-MemberSanctionManager.php#123-135" title="Go to source code">cancel_banishment</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-MemberSanctionManager.php#122-134" title="Go to source code">cancel_banishment</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -981,7 +977,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MemberSanctionManager.php#19" title="Go to source code"><b>NO_SEND_CONFIRMATION</b></a>
+								<a href="source-class-MemberSanctionManager.php#18" title="Go to source code"><b>NO_SEND_CONFIRMATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1005,7 +1001,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MemberSanctionManager.php#20" title="Go to source code"><b>SEND_MAIL</b></a>
+								<a href="source-class-MemberSanctionManager.php#19" title="Go to source code"><b>SEND_MAIL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1029,7 +1025,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MemberSanctionManager.php#21" title="Go to source code"><b>SEND_MP</b></a>
+								<a href="source-class-MemberSanctionManager.php#20" title="Go to source code"><b>SEND_MP</b></a>
 							</code>
 
 							<div class="description short">
@@ -1053,7 +1049,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MemberSanctionManager.php#22" title="Go to source code"><b>SEND_MP_AND_MAIL</b></a>
+								<a href="source-class-MemberSanctionManager.php#21" title="Go to source code"><b>SEND_MP_AND_MAIL</b></a>
 							</code>
 
 							<div class="description short">

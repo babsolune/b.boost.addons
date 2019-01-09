@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ErrorHandler.php#3-236" title="Go to source code">core/error/ErrorHandler.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ErrorHandler.php#3-235" title="Go to source code">core/error/ErrorHandler.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#_handle">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#35-58" title="Go to source code">handle</a>( <span>unknown_type <var>$errno</var></span>, <span>unknown_type <var>$errstr</var></span>, <span>unknown_type <var>$errfile</var></span>, <span>unknown_type <var>$errline</var></span> )
+<a href="source-class-ErrorHandler.php#34-57" title="Go to source code">handle</a>( <span>unknown_type <var>$errno</var></span>, <span>unknown_type <var>$errstr</var></span>, <span>unknown_type <var>$errfile</var></span>, <span>unknown_type <var>$errline</var></span> )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@ error again</p>
 					<div>
 						<a class="anchor" href="#_get_stackstrace_as_string">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#142-150" title="Go to source code">get_stackstrace_as_string</a>( <span> <var>$start_trace_index</var></span> )
+<a href="source-class-ErrorHandler.php#141-149" title="Go to source code">get_stackstrace_as_string</a>( <span> <var>$start_trace_index</var></span> )
 						</code>
 
 							<div class="description short">
@@ -827,7 +823,7 @@ error again</p>
 					<div>
 						<a class="anchor" href="#_display_debug">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#152-158" title="Go to source code">display_debug</a>( )
+<a href="source-class-ErrorHandler.php#151-157" title="Go to source code">display_debug</a>( )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@ error again</p>
 					<div>
 						<a class="anchor" href="#_display_fatal">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#160-163" title="Go to source code">display_fatal</a>( )
+<a href="source-class-ErrorHandler.php#159-162" title="Go to source code">display_fatal</a>( )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@ error again</p>
 					<div>
 						<a class="anchor" href="#_add_error_in_log">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#170-175" title="Go to source code">add_error_in_log</a>( <span> <var>$error_msg</var></span>, <span> <var>$error_stacktrace</var></span>, <span> <var>$errno</var> = <span class="php-num">0</span></span> )
+<a href="source-class-ErrorHandler.php#169-174" title="Go to source code">add_error_in_log</a>( <span> <var>$error_msg</var></span>, <span> <var>$error_stacktrace</var></span>, <span> <var>$errno</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@ error again</p>
 					<div>
 						<a class="anchor" href="#_get_errno_class">#</a>
 						<code>
-<a href="source-class-ErrorHandler.php#212-235" title="Go to source code">get_errno_class</a>( <span> <var>$errno</var></span> )
+<a href="source-class-ErrorHandler.php#211-234" title="Go to source code">get_errno_class</a>( <span> <var>$errno</var></span> )
 						</code>
 
 							<div class="description short">
@@ -978,7 +974,7 @@ error again</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ErrorHandler.php#19" title="Go to source code"><b>FATAL_MESSAGE</b></a>
+								<a href="source-class-ErrorHandler.php#18" title="Go to source code"><b>FATAL_MESSAGE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1017,7 +1013,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#26" title="Go to source code"><var>$errno</var></a>
+						<a href="source-class-ErrorHandler.php#25" title="Go to source code"><var>$errno</var></a>
 
 					<div class="description short">
 						
@@ -1044,7 +1040,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#27" title="Go to source code"><var>$errfile</var></a>
+						<a href="source-class-ErrorHandler.php#26" title="Go to source code"><var>$errfile</var></a>
 
 					<div class="description short">
 						
@@ -1071,7 +1067,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#28" title="Go to source code"><var>$errline</var></a>
+						<a href="source-class-ErrorHandler.php#27" title="Go to source code"><var>$errline</var></a>
 
 					<div class="description short">
 						
@@ -1098,7 +1094,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#29" title="Go to source code"><var>$errdesc</var></a>
+						<a href="source-class-ErrorHandler.php#28" title="Go to source code"><var>$errdesc</var></a>
 
 					<div class="description short">
 						
@@ -1125,7 +1121,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#30" title="Go to source code"><var>$errclass</var></a>
+						<a href="source-class-ErrorHandler.php#29" title="Go to source code"><var>$errclass</var></a>
 
 					<div class="description short">
 						
@@ -1152,7 +1148,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#31" title="Go to source code"><var>$fatal</var></a>
+						<a href="source-class-ErrorHandler.php#30" title="Go to source code"><var>$fatal</var></a>
 
 					<div class="description short">
 						
@@ -1179,7 +1175,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#32" title="Go to source code"><var>$stacktrace</var></a>
+						<a href="source-class-ErrorHandler.php#31" title="Go to source code"><var>$stacktrace</var></a>
 
 					<div class="description short">
 						
@@ -1206,7 +1202,7 @@ error again</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-ErrorHandler.php#33" title="Go to source code"><var>$exception</var></a>
+						<a href="source-class-ErrorHandler.php#32" title="Go to source code"><var>$exception</var></a>
 
 					<div class="description short">
 						

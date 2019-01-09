@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -730,7 +726,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplate.php#3-215" title="Go to source code">io/template/AbstractTemplate.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplate.php#3-214" title="Go to source code">io/template/AbstractTemplate.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -760,7 +756,7 @@ a TemplateData and a TemplateParser.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -782,7 +778,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#34-45" title="Go to source code">__construct</a>( <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span>, <span><code><a href="class-TemplateRenderer.php">TemplateRenderer</a></code> <var>$renderer</var></span>, <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
+<a href="source-class-AbstractTemplate.php#33-44" title="Go to source code">__construct</a>( <span><code><a href="class-TemplateLoader.php">TemplateLoader</a></code> <var>$loader</var></span>, <span><code><a href="class-TemplateRenderer.php">TemplateRenderer</a></code> <var>$renderer</var></span>, <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_enable_strict_mode">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#57-63" title="Go to source code">enable_strict_mode</a>( )
+<a href="source-class-AbstractTemplate.php#56-62" title="Go to source code">enable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_disable_strict_mode">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#65-71" title="Go to source code">disable_strict_mode</a>( )
+<a href="source-class-AbstractTemplate.php#64-70" title="Go to source code">disable_strict_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -902,7 +898,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_put">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#73-80" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-AbstractTemplate.php#72-79" title="Go to source code">put</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_put_all">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#82-89" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
+<a href="source-class-AbstractTemplate.php#81-88" title="Go to source code">put_all</a>( <span>array <var>$vars</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1006,7 +1002,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_assign_vars">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#91-98" title="Go to source code">assign_vars</a>( <span>array <var>$array_vars</var></span> )
+<a href="source-class-AbstractTemplate.php#90-97" title="Go to source code">assign_vars</a>( <span>array <var>$array_vars</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@ a TemplateData and a TemplateParser.</p>
 					<div>
 						<a class="anchor" href="#_assign_block_vars">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#100-107" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AbstractTemplate.php#99-106" title="Go to source code">assign_block_vars</a>( <span>string <var>$block_name</var></span>, <span>array <var>$array_vars</var></span>, <span>array <var>$subtemplates</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1096,7 +1092,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_add_subtemplate">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#109-116" title="Go to source code">add_subtemplate</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractTemplate.php#108-115" title="Go to source code">add_subtemplate</a>( <span>string <var>$identifier</var></span>, <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1140,7 +1136,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#___clone">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#118-124" title="Go to source code">__clone</a>( )
+<a href="source-class-AbstractTemplate.php#117-123" title="Go to source code">__clone</a>( )
 						</code>
 
 							<div class="description short">
@@ -1175,7 +1171,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_render">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#126-132" title="Go to source code">render</a>( )
+<a href="source-class-AbstractTemplate.php#125-131" title="Go to source code">render</a>( )
 						</code>
 
 							<div class="description short">
@@ -1220,7 +1216,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#134-143" title="Go to source code">display</a>( <span> <var>$reorder_js</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractTemplate.php#133-142" title="Go to source code">display</a>( <span> <var>$reorder_js</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1257,7 +1253,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_add_lang">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#185-191" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-AbstractTemplate.php#184-190" title="Go to source code">add_lang</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1299,7 +1295,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_set_data">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#193-199" title="Go to source code">set_data</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
+<a href="source-class-AbstractTemplate.php#192-198" title="Go to source code">set_data</a>( <span><code><a href="class-TemplateData.php">TemplateData</a></code> <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1341,7 +1337,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#201-207" title="Go to source code">get_data</a>( )
+<a href="source-class-AbstractTemplate.php#200-206" title="Go to source code">get_data</a>( )
 						</code>
 
 							<div class="description short">
@@ -1382,7 +1378,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 					<div>
 						<a class="anchor" href="#_get_pictures_data_path">#</a>
 						<code>
-<a href="source-class-AbstractTemplate.php#209-214" title="Go to source code">get_pictures_data_path</a>( )
+<a href="source-class-AbstractTemplate.php#208-213" title="Go to source code">get_pictures_data_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -1444,7 +1440,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplate.php#21-24" title="Go to source code"><var>$loader</var></a>
+						<a href="source-class-AbstractTemplate.php#20-23" title="Go to source code"><var>$loader</var></a>
 
 					<div class="description short">
 						
@@ -1471,7 +1467,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplate.php#25-28" title="Go to source code"><var>$renderer</var></a>
+						<a href="source-class-AbstractTemplate.php#24-27" title="Go to source code"><var>$renderer</var></a>
 
 					<div class="description short">
 						
@@ -1498,7 +1494,7 @@ To know what syntax to use to browse a loop, see the class description, there ar
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplate.php#29-32" title="Go to source code"><var>$data</var></a>
+						<a href="source-class-AbstractTemplate.php#28-31" title="Go to source code"><var>$data</var></a>
 
 					<div class="description short">
 						

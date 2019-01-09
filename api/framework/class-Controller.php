@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Controller.php">Controller</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 09 09
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Controller.php#3-29" title="Go to source code">mvc/controller/Controller.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Controller.php#3-28" title="Go to source code">mvc/controller/Controller.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_get_right_controller_regarding_authorizations">#</a>
 						<code>
-<a href="source-class-Controller.php#16-21" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
+<a href="source-class-Controller.php#15-20" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@ for the controller</p>
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-Controller.php#23-28" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-Controller.php#22-27" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">

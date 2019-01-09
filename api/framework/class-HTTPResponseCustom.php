@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPResponseCustom.php#3-160" title="Go to source code">io/http/HTTPResponseCustom.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPResponseCustom.php#3-159" title="Go to source code">io/http/HTTPResponseCustom.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#64-67" title="Go to source code">__construct</a>( <span> <var>$status_code</var> = <span class="php-num">200</span></span> )
+<a href="source-class-HTTPResponseCustom.php#63-66" title="Go to source code">__construct</a>( <span> <var>$status_code</var> = <span class="php-num">200</span></span> )
 						</code>
 
 							<div class="description short">
@@ -777,7 +773,7 @@
 					<div>
 						<a class="anchor" href="#_set_header">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#69-76" title="Go to source code">set_header</a>( <span>string <var>$name</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-HTTPResponseCustom.php#68-75" title="Go to source code">set_header</a>( <span>string <var>$name</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_set_default_attributes">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#78-88" title="Go to source code">set_default_attributes</a>( <span>string <var>$url</var>,…</span> )
+<a href="source-class-HTTPResponseCustom.php#77-87" title="Go to source code">set_default_attributes</a>( <span>string <var>$url</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_redirect">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#90-111" title="Go to source code">redirect</a>( <span>string <var>$url</var></span>, <span> <var>$message</var> = <span class="php-quote">''</span></span>, <span> <var>$message_type</var> = MessageHelper::SUCCESS</span>, <span> <var>$message_duration</var> = <span class="php-num">5</span></span> )
+<a href="source-class-HTTPResponseCustom.php#89-110" title="Go to source code">redirect</a>( <span>string <var>$url</var></span>, <span> <var>$message</var> = <span class="php-quote">''</span></span>, <span> <var>$message_type</var> = MessageHelper::SUCCESS</span>, <span> <var>$message_duration</var> = <span class="php-num">5</span></span> )
 						</code>
 
 							<div class="description short">
@@ -905,7 +901,7 @@
 					<div>
 						<a class="anchor" href="#_set_cookie">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#113-120" title="Go to source code">set_cookie</a>( <span><code><a href="class-HTTPCookie.php">HTTPCookie</a></code> <var>$cookie</var></span> )
+<a href="source-class-HTTPResponseCustom.php#112-119" title="Go to source code">set_cookie</a>( <span><code><a href="class-HTTPCookie.php">HTTPCookie</a></code> <var>$cookie</var></span> )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@
 					<div>
 						<a class="anchor" href="#_delete_cookie">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#122-129" title="Go to source code">delete_cookie</a>( <span>string <var>$cookie_name</var></span> )
+<a href="source-class-HTTPResponseCustom.php#121-128" title="Go to source code">delete_cookie</a>( <span>string <var>$cookie_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@
 					<div>
 						<a class="anchor" href="#_clean_output">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#131-138" title="Go to source code">clean_output</a>( )
+<a href="source-class-HTTPResponseCustom.php#130-137" title="Go to source code">clean_output</a>( )
 						</code>
 
 							<div class="description short">
@@ -1020,7 +1016,7 @@
 					<div>
 						<a class="anchor" href="#_get_previous_ob_content">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#140-147" title="Go to source code">get_previous_ob_content</a>( )
+<a href="source-class-HTTPResponseCustom.php#139-146" title="Go to source code">get_previous_ob_content</a>( )
 						</code>
 
 							<div class="description short">
@@ -1059,7 +1055,7 @@
 					<div>
 						<a class="anchor" href="#_set_status_code">#</a>
 						<code>
-<a href="source-class-HTTPResponseCustom.php#149-159" title="Go to source code">set_status_code</a>( <span>integer <var>$status_code</var></span> )
+<a href="source-class-HTTPResponseCustom.php#148-158" title="Go to source code">set_status_code</a>( <span>integer <var>$status_code</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1110,7 +1106,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTTPResponseCustom.php#18" title="Go to source code"><b>PROTOCOL</b></a>
+								<a href="source-class-HTTPResponseCustom.php#17" title="Go to source code"><b>PROTOCOL</b></a>
 							</code>
 
 							<div class="description short">

@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							xela <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x78;e&#108;&#x61;&#64;&#112;&#x68;&#112;&#98;&#x6f;&#111;&#115;&#x74;&#46;&#99;&#x6f;&#109;">&#x78;e&#108;&#x61;&#64;&#112;&#x68;&#112;&#98;&#x6f;&#111;&#115;&#x74;&#46;&#99;&#x6f;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSecondParser.php#3-458" title="Go to source code">content/formatting/parser/ContentSecondParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentSecondParser.php#3-457" title="Go to source code">content/formatting/parser/ContentSecondParser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -759,7 +755,7 @@ The content you put in that parser must come from a ContentFormattingParser clas
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -781,7 +777,7 @@ The content you put in that parser must come from a ContentFormattingParser clas
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentSecondParser.php#30-36" title="Go to source code">__construct</a>( )
+<a href="source-class-ContentSecondParser.php#29-35" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@ The content you put in that parser must come from a ContentFormattingParser clas
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-ContentSecondParser.php#38-82" title="Go to source code">parse</a>( )
+<a href="source-class-ContentSecondParser.php#37-81" title="Go to source code">parse</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@ The content you put in that parser must come from a ContentFormattingParser clas
 					<div>
 						<a class="anchor" href="#_export_html_text">#</a>
 						<code>
-<a href="source-class-ContentSecondParser.php#84-107" title="Go to source code">export_html_text</a>( <span>string <var>$html_content</var></span> )
+<a href="source-class-ContentSecondParser.php#83-106" title="Go to source code">export_html_text</a>( <span>string <var>$html_content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@ The content you put in that parser must come from a ContentFormattingParser clas
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentSecondParser.php#26-29" title="Go to source code"><b>MAX_CODE_LENGTH</b></a>
+								<a href="source-class-ContentSecondParser.php#25-28" title="Go to source code"><b>MAX_CODE_LENGTH</b></a>
 							</code>
 
 							<div class="description short">

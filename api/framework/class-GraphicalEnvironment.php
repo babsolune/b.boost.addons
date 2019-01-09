@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-GraphicalEnvironment.php#3-23" title="Go to source code">phpboost/environment/GraphicalEnvironment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-GraphicalEnvironment.php#3-22" title="Go to source code">phpboost/environment/GraphicalEnvironment.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -750,7 +746,7 @@ Third level category >> .. >> My page >> Edition</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -772,7 +768,7 @@ Third level category >> .. >> My page >> Edition</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironment.php#19-22" title="Go to source code">display</a>( <span> <var>$content</var></span> )
+<a href="source-class-GraphicalEnvironment.php#18-21" title="Go to source code">display</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">

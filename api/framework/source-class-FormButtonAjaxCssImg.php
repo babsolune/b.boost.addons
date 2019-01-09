@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,55 +1294,54 @@
 		<header><h2>File builder/form/button/FormButtonAjaxCssImg.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span></span><span class="l"><a href="#12">12: </a></span></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span><span class="l"><a href="#21">21: </a></span><span class="l"><a href="#22">22: </a></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span><span class="l"><a href="#26">26: </a></span><span class="l"><a href="#27">27: </a></span><span class="l"><a href="#28">28: </a></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span><span class="l"><a href="#33">33: </a></span><span class="l"><a href="#34">34: </a></span><span class="l"><a href="#35">35: </a></span><span class="l"><a href="#36">36: </a></span><span class="l"><a href="#37">37: </a></span><span class="l"><a href="#38">38: </a></span><span class="l"><a href="#39">39: </a></span><span class="l"><a href="#40">40: </a></span><span class="l"><a href="#41">41: </a></span><span class="l"><a href="#42">42: </a></span><span class="l"><a href="#43">43: </a></span><span class="l"><a href="#44">44: </a></span><span class="l"><a href="#45">45: </a></span><span class="l"><a href="#46">46: </a></span><span class="l"><a href="#47">47: </a></span><span class="l"><a href="#48">48: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span></span><span class="l"><a href="#12">12: </a></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span><span class="l"><a href="#21">21: </a></span><span class="l"><a href="#22">22: </a></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span><span class="l"><a href="#26">26: </a></span><span class="l"><a href="#27">27: </a></span><span class="l"><a href="#28">28: </a></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span><span class="l"><a href="#33">33: </a></span><span class="l"><a href="#34">34: </a></span><span class="l"><a href="#35">35: </a></span><span class="l"><a href="#36">36: </a></span><span class="l"><a href="#37">37: </a></span><span class="l"><a href="#38">38: </a></span><span class="l"><a href="#39">39: </a></span><span class="l"><a href="#40">40: </a></span><span class="l"><a href="#41">41: </a></span><span class="l"><a href="#42">42: </a></span><span class="l"><a href="#43">43: </a></span><span class="l"><a href="#44">44: </a></span><span class="l"><a href="#45">45: </a></span><span class="l"><a href="#46">46: </a></span><span class="l"><a href="#47">47: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * @package     Builder
 </span></span><span id="4" class="l"><span class="php-comment"> * @subpackage  Form\button
-</span></span><span id="5" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="6" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="7" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="8" class="l"><span class="php-comment"> * @author      Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="9" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 11 22
-</span></span><span id="10" class="l"><span class="php-comment"> * @since       PHPBoost 4.0 - 2014 05 08
-</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="12" class="l"><span class="php-comment"> * @contributor Sebastien LARTIGUE &lt;babsolune@phpboost.com&gt;
-</span></span><span id="13" class="l"><span class="php-comment">*/</span>
-</span><span id="14" class="l">
-</span><span id="15" class="l"><span class="php-keyword1">class</span> FormButtonAjaxCssImg <span class="php-keyword1">extends</span> AbstractFormButton
-</span><span id="16" class="l">{
-</span><span id="17" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$label</span>, AjaxRequest <span class="php-var">$request</span>, <span class="php-var">$css_class_image</span> = <span class="php-quote">''</span>, <span class="php-keyword1">array</span> <span class="php-var">$fields</span>, <span class="php-var">$condition</span> = <span class="php-keyword1">null</span>)
-</span><span id="18" class="l">    {
-</span><span id="19" class="l">        <span class="php-var">$full_label</span> = <span class="php-quote">''</span>;
-</span><span id="20" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$css_class_image</span>))
-</span><span id="21" class="l">        {
-</span><span id="22" class="l">            <span class="php-var">$full_label</span> = <span class="php-quote">'&lt;i class=&quot;'</span> . <span class="php-var">$css_class_image</span> . <span class="php-quote">'&quot; title=&quot;'</span> . <span class="php-var">$label</span> . <span class="php-quote">'&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;'</span> . <span class="php-var">$label</span> . <span class="php-quote">'&lt;/span&gt;'</span>;
-</span><span id="23" class="l">        }
-</span><span id="24" class="l">        <span class="php-keyword1">else</span>
-</span><span id="25" class="l">        {
-</span><span id="26" class="l">            <span class="php-var">$full_label</span> = <span class="php-var">$label</span>;
-</span><span id="27" class="l">        }
-</span><span id="28" class="l">        parent::__construct(<span class="php-quote">'button'</span>, <span class="php-var">$full_label</span>, <span class="php-quote">''</span>, <span class="php-var">$this</span>-&gt;build_ajax_request(<span class="php-var">$request</span>, <span class="php-var">$fields</span>, <span class="php-var">$condition</span>), <span class="php-quote">'image'</span>);
-</span><span id="29" class="l">    }
-</span><span id="30" class="l">
-</span><span id="31" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> build_ajax_request(AjaxRequest <span class="php-var">$request</span>, <span class="php-keyword1">array</span> <span class="php-var">$fields</span>, <span class="php-var">$condition</span>)
-</span><span id="32" class="l">    {
-</span><span id="33" class="l">        <span class="php-keyword1">if</span> (<span class="php-keyword2">is_array</span>(<span class="php-var">$fields</span>))
-</span><span id="34" class="l">        {
-</span><span id="35" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$fields</span> <span class="php-keyword1">as</span> <span class="php-var">$field</span>)
-</span><span id="36" class="l">            {
-</span><span id="37" class="l">                <span class="php-var">$request</span>-&gt;add_param(<span class="php-var">$field</span>-&gt;get_id(), <span class="php-quote">'$FF(\''</span> . <span class="php-var">$field</span>-&gt;get_id() . <span class="php-quote">'\').getValue()'</span>);
-</span><span id="38" class="l">            }
-</span><span id="39" class="l">        }
-</span><span id="40" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$condition</span>))
-</span><span id="41" class="l">        {
-</span><span id="42" class="l">            <span class="php-keyword1">return</span> <span class="php-quote">'if ('</span> . <span class="php-var">$condition</span> . <span class="php-quote">'){'</span> . <span class="php-var">$request</span>-&gt;render() . <span class="php-quote">'}'</span>;
-</span><span id="43" class="l">        }
-</span><span id="44" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$request</span>-&gt;render();
-</span><span id="45" class="l">    }
-</span><span id="46" class="l">}
-</span><span id="47" class="l"><span class="xlang">?&gt;</span>
-</span><span id="48" class="l"></span></code></pre>
+</span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="7" class="l"><span class="php-comment"> * @author      Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 11 22
+</span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 4.0 - 2014 05 08
+</span></span><span id="10" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Sebastien LARTIGUE &lt;babsolune@phpboost.com&gt;
+</span></span><span id="12" class="l"><span class="php-comment">*/</span>
+</span><span id="13" class="l">
+</span><span id="14" class="l"><span class="php-keyword1">class</span> FormButtonAjaxCssImg <span class="php-keyword1">extends</span> AbstractFormButton
+</span><span id="15" class="l">{
+</span><span id="16" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$label</span>, AjaxRequest <span class="php-var">$request</span>, <span class="php-var">$css_class_image</span> = <span class="php-quote">''</span>, <span class="php-keyword1">array</span> <span class="php-var">$fields</span>, <span class="php-var">$condition</span> = <span class="php-keyword1">null</span>)
+</span><span id="17" class="l">    {
+</span><span id="18" class="l">        <span class="php-var">$full_label</span> = <span class="php-quote">''</span>;
+</span><span id="19" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$css_class_image</span>))
+</span><span id="20" class="l">        {
+</span><span id="21" class="l">            <span class="php-var">$full_label</span> = <span class="php-quote">'&lt;i class=&quot;'</span> . <span class="php-var">$css_class_image</span> . <span class="php-quote">'&quot; title=&quot;'</span> . <span class="php-var">$label</span> . <span class="php-quote">'&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;'</span> . <span class="php-var">$label</span> . <span class="php-quote">'&lt;/span&gt;'</span>;
+</span><span id="22" class="l">        }
+</span><span id="23" class="l">        <span class="php-keyword1">else</span>
+</span><span id="24" class="l">        {
+</span><span id="25" class="l">            <span class="php-var">$full_label</span> = <span class="php-var">$label</span>;
+</span><span id="26" class="l">        }
+</span><span id="27" class="l">        parent::__construct(<span class="php-quote">'button'</span>, <span class="php-var">$full_label</span>, <span class="php-quote">''</span>, <span class="php-var">$this</span>-&gt;build_ajax_request(<span class="php-var">$request</span>, <span class="php-var">$fields</span>, <span class="php-var">$condition</span>), <span class="php-quote">'image'</span>);
+</span><span id="28" class="l">    }
+</span><span id="29" class="l">
+</span><span id="30" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> build_ajax_request(AjaxRequest <span class="php-var">$request</span>, <span class="php-keyword1">array</span> <span class="php-var">$fields</span>, <span class="php-var">$condition</span>)
+</span><span id="31" class="l">    {
+</span><span id="32" class="l">        <span class="php-keyword1">if</span> (<span class="php-keyword2">is_array</span>(<span class="php-var">$fields</span>))
+</span><span id="33" class="l">        {
+</span><span id="34" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$fields</span> <span class="php-keyword1">as</span> <span class="php-var">$field</span>)
+</span><span id="35" class="l">            {
+</span><span id="36" class="l">                <span class="php-var">$request</span>-&gt;add_param(<span class="php-var">$field</span>-&gt;get_id(), <span class="php-quote">'$FF(\''</span> . <span class="php-var">$field</span>-&gt;get_id() . <span class="php-quote">'\').getValue()'</span>);
+</span><span id="37" class="l">            }
+</span><span id="38" class="l">        }
+</span><span id="39" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$condition</span>))
+</span><span id="40" class="l">        {
+</span><span id="41" class="l">            <span class="php-keyword1">return</span> <span class="php-quote">'if ('</span> . <span class="php-var">$condition</span> . <span class="php-quote">'){'</span> . <span class="php-var">$request</span>-&gt;render() . <span class="php-quote">'}'</span>;
+</span><span id="42" class="l">        }
+</span><span id="43" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$request</span>-&gt;render();
+</span><span id="44" class="l">    }
+</span><span id="45" class="l">}
+</span><span id="46" class="l"><span class="xlang">?&gt;</span>
+</span><span id="47" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

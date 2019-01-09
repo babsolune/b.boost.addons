@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Optimization.php">Optimization</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSFileOptimizer.php#3-152" title="Go to source code">io/optimization/CSSFileOptimizer.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSFileOptimizer.php#3-151" title="Go to source code">io/optimization/CSSFileOptimizer.class.php</a></span>
 			</div>
 
 
@@ -702,7 +698,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -724,7 +720,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#33-37" title="Go to source code">__construct</a>( )
+<a href="source-class-CSSFileOptimizer.php#32-36" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#_add_file">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#39-45" title="Go to source code">add_file</a>( <span> <var>$path_file</var></span> )
+<a href="source-class-CSSFileOptimizer.php#38-44" title="Go to source code">add_file</a>( <span> <var>$path_file</var></span> )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#_add_script">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#47-56" title="Go to source code">add_script</a>( <span> <var>$script</var></span> )
+<a href="source-class-CSSFileOptimizer.php#46-55" title="Go to source code">add_script</a>( <span> <var>$script</var></span> )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_optimize">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#58-80" title="Go to source code">optimize</a>( <span> <var>$intensity</var> = self::HIGH_OPTIMIZATION</span> )
+<a href="source-class-CSSFileOptimizer.php#57-79" title="Go to source code">optimize</a>( <span> <var>$intensity</var> = self::HIGH_OPTIMIZATION</span> )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_export">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#82-85" title="Go to source code">export</a>( )
+<a href="source-class-CSSFileOptimizer.php#81-84" title="Go to source code">export</a>( )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_export_to_file">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#87-103" title="Go to source code">export_to_file</a>( <span> <var>$location</var></span> )
+<a href="source-class-CSSFileOptimizer.php#86-102" title="Go to source code">export_to_file</a>( <span> <var>$location</var></span> )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@
 					<div>
 						<a class="anchor" href="#_get_files">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#105-111" title="Go to source code">get_files</a>( )
+<a href="source-class-CSSFileOptimizer.php#104-110" title="Go to source code">get_files</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 					<div>
 						<a class="anchor" href="#_get_scripts">#</a>
 						<code>
-<a href="source-class-CSSFileOptimizer.php#113-119" title="Go to source code">get_scripts</a>( )
+<a href="source-class-CSSFileOptimizer.php#112-118" title="Go to source code">get_scripts</a>( )
 						</code>
 
 							<div class="description short">
@@ -1015,7 +1011,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CSSFileOptimizer.php#23-26" title="Go to source code"><b>HIGH_OPTIMIZATION</b></a>
+								<a href="source-class-CSSFileOptimizer.php#22-25" title="Go to source code"><b>HIGH_OPTIMIZATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-CSSFileOptimizer.php#28-31" title="Go to source code"><b>LOW_OPTIMIZATION</b></a>
+								<a href="source-class-CSSFileOptimizer.php#27-30" title="Go to source code"><b>LOW_OPTIMIZATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1078,7 +1074,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CSSFileOptimizer.php#17" title="Go to source code"><var>$files</var></a>
+						<a href="source-class-CSSFileOptimizer.php#16" title="Go to source code"><var>$files</var></a>
 
 					<div class="description short">
 						
@@ -1105,7 +1101,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CSSFileOptimizer.php#18" title="Go to source code"><var>$scripts</var></a>
+						<a href="source-class-CSSFileOptimizer.php#17" title="Go to source code"><var>$scripts</var></a>
 
 					<div class="description short">
 						
@@ -1132,7 +1128,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CSSFileOptimizer.php#19" title="Go to source code"><var>$content</var></a>
+						<a href="source-class-CSSFileOptimizer.php#18" title="Go to source code"><var>$content</var></a>
 
 					<div class="description short">
 						
@@ -1159,7 +1155,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CSSFileOptimizer.php#20" title="Go to source code"><var>$regex_search_files_path</var></a>
+						<a href="source-class-CSSFileOptimizer.php#19" title="Go to source code"><var>$regex_search_files_path</var></a>
 
 					<div class="description short">
 						
@@ -1186,7 +1182,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-CSSFileOptimizer.php#21" title="Go to source code"><var>$replace_value_files_path</var></a>
+						<a href="source-class-CSSFileOptimizer.php#20" title="Go to source code"><var>$replace_value_files_path</var></a>
 
 					<div class="description short">
 						

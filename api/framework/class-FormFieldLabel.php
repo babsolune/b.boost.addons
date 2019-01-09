@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -741,7 +737,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldLabel.php#3-45" title="Go to source code">builder/form/field/FormFieldLabel.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldLabel.php#3-44" title="Go to source code">builder/form/field/FormFieldLabel.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -772,7 +768,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldLabel.php#17-20" title="Go to source code">__construct</a>( <span>string <var>$value</var></span>, <span>array <var>$properties</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$value</var>,…</span> )
+<a href="source-class-FormFieldLabel.php#16-19" title="Go to source code">__construct</a>( <span>string <var>$value</var></span>, <span>array <var>$properties</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$value</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldLabel.php#22-31" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldLabel.php#21-30" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldLabel.php#33-36" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldLabel.php#32-35" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_js_specialization_code">#</a>
 						<code>
-<a href="source-class-FormFieldLabel.php#38-44" title="Go to source code">get_js_specialization_code</a>( )
+<a href="source-class-FormFieldLabel.php#37-43" title="Go to source code">get_js_specialization_code</a>( )
 						</code>
 
 							<div class="description short">

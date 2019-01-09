@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractScheduledJobExtensionPoint.php#3-22" title="Go to source code">core/AbstractScheduledJobExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractScheduledJobExtensionPoint.php#3-21" title="Go to source code">core/AbstractScheduledJobExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#_on_changeday">#</a>
 						<code>
-<a href="source-class-AbstractScheduledJobExtensionPoint.php#14-17" title="Go to source code">on_changeday</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$yesterday</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$today</var></span> )
+<a href="source-class-AbstractScheduledJobExtensionPoint.php#13-16" title="Go to source code">on_changeday</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$yesterday</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$today</var></span> )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_on_changepage">#</a>
 						<code>
-<a href="source-class-AbstractScheduledJobExtensionPoint.php#19" title="Go to source code">on_changepage</a>( )
+<a href="source-class-AbstractScheduledJobExtensionPoint.php#18" title="Go to source code">on_changepage</a>( )
 						</code>
 
 							<div class="description short">
@@ -819,7 +815,7 @@
 					<div>
 						<a class="anchor" href="#_on_new_session">#</a>
 						<code>
-<a href="source-class-AbstractScheduledJobExtensionPoint.php#21" title="Go to source code">on_new_session</a>( <span>boolean <var>$new_visitor</var></span>, <span>boolean <var>$is_robot</var></span> )
+<a href="source-class-AbstractScheduledJobExtensionPoint.php#20" title="Go to source code">on_new_session</a>( <span>boolean <var>$new_visitor</var></span>, <span>boolean <var>$is_robot</var></span> )
 						</code>
 
 							<div class="description short">

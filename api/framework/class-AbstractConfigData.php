@@ -686,10 +686,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.config.php">config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -709,7 +705,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 09 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractConfigData.php#3-87" title="Go to source code">io/data/config/AbstractConfigData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractConfigData.php#3-86" title="Go to source code">io/data/config/AbstractConfigData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -756,7 +752,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -778,7 +774,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#18-23" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractConfigData.php#17-22" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#25-31" title="Go to source code">synchronize</a>( )
+<a href="source-class-AbstractConfigData.php#24-30" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_set_default_values">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#33-44" title="Go to source code">set_default_values</a>( )
+<a href="source-class-AbstractConfigData.php#32-43" title="Go to source code">set_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@ If some entries doesn't exist, they can be created here.</p>
 					<div>
 						<a class="anchor" href="#_get_property">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#46-59" title="Go to source code">get_property</a>( <span>string <var>$name</var></span> )
+<a href="source-class-AbstractConfigData.php#45-58" title="Go to source code">get_property</a>( <span>string <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@ If some entries doesn't exist, they can be created here.</p>
 					<div>
 						<a class="anchor" href="#_set_property">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#74-80" title="Go to source code">set_property</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )
+<a href="source-class-AbstractConfigData.php#73-79" title="Go to source code">set_property</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -991,7 +987,7 @@ otherwise, it creates an entry for this property.</p>
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-AbstractConfigData.php#82-86" title="Go to source code">get_default_values</a>( )
+<a href="source-class-AbstractConfigData.php#81-85" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">

@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a>\<a href="package-IO.Template.parser.syntax.php">syntax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 02
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateSyntaxParserContext.php#3-36" title="Go to source code">io/template/parser/syntax/TemplateSyntaxParserContext.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TemplateSyntaxParserContext.php#3-35" title="Go to source code">io/template/parser/syntax/TemplateSyntaxParserContext.class.php</a></span>
 			</div>
 
 
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#_enter_loop">#</a>
 						<code>
-<a href="source-class-TemplateSyntaxParserContext.php#17-20" title="Go to source code">enter_loop</a>( <span> <var>$name</var></span> )
+<a href="source-class-TemplateSyntaxParserContext.php#16-19" title="Go to source code">enter_loop</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_exit_loop">#</a>
 						<code>
-<a href="source-class-TemplateSyntaxParserContext.php#22-25" title="Go to source code">exit_loop</a>( )
+<a href="source-class-TemplateSyntaxParserContext.php#21-24" title="Go to source code">exit_loop</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@
 					<div>
 						<a class="anchor" href="#_is_in_loop">#</a>
 						<code>
-<a href="source-class-TemplateSyntaxParserContext.php#27-30" title="Go to source code">is_in_loop</a>( <span> <var>$name</var></span> )
+<a href="source-class-TemplateSyntaxParserContext.php#26-29" title="Go to source code">is_in_loop</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_loops_scopes">#</a>
 						<code>
-<a href="source-class-TemplateSyntaxParserContext.php#32-35" title="Go to source code">loops_scopes</a>( )
+<a href="source-class-TemplateSyntaxParserContext.php#31-34" title="Go to source code">loops_scopes</a>( )
 						</code>
 
 							<div class="description short">

@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -741,7 +737,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldSelectSources.php#3-114" title="Go to source code">builder/form/field/FormFieldSelectSources.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldSelectSources.php#3-113" title="Go to source code">builder/form/field/FormFieldSelectSources.class.php</a></span>
 			</div>
 
 
@@ -769,7 +765,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -791,7 +787,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldSelectSources.php#18-21" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$value</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldSelectSources.php#17-20" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>array <var>$value</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldSelectSources.php#23-72" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldSelectSources.php#22-71" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormFieldSelectSources.php#74-92" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormFieldSelectSources.php#73-91" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldSelectSources.php#94-108" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldSelectSources.php#93-107" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldSelectSources.php#110-113" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldSelectSources.php#109-112" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">

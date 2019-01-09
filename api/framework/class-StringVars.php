@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringVars.php#3-61" title="Go to source code">util/StringVars.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringVars.php#3-60" title="Go to source code">util/StringVars.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_replace_vars">#</a>
 						<code>
-<a href="source-class-StringVars.php#19-27" title="Go to source code">replace_vars</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span>, <span> <var>$strict</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-StringVars.php#18-26" title="Go to source code">replace_vars</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span>, <span> <var>$strict</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-StringVars.php#29-32" title="Go to source code">__construct</a>( <span> <var>$strict</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-StringVars.php#28-31" title="Go to source code">__construct</a>( <span> <var>$strict</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -827,7 +823,7 @@
 					<div>
 						<a class="anchor" href="#_replace">#</a>
 						<code>
-<a href="source-class-StringVars.php#34-38" title="Go to source code">replace</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span> )
+<a href="source-class-StringVars.php#33-37" title="Go to source code">replace</a>( <span> <var>$string</var></span>, <span>array <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@
 					<div>
 						<a class="anchor" href="#_set_var">#</a>
 						<code>
-<a href="source-class-StringVars.php#57-60" title="Go to source code">set_var</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-StringVars.php#56-59" title="Go to source code">set_var</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">

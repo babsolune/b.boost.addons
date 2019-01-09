@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 23
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsProvidersService.php#3-38" title="Go to source code">content/comments/extension-point/CommentsProvidersService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsProvidersService.php#3-37" title="Go to source code">content/comments/extension-point/CommentsProvidersService.class.php</a></span>
 			</div>
 
 
@@ -708,7 +704,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -730,7 +726,7 @@
 					<div>
 						<a class="anchor" href="#_module_containing_extension_point">#</a>
 						<code>
-<a href="source-class-CommentsProvidersService.php#15-18" title="Go to source code">module_containing_extension_point</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-CommentsProvidersService.php#14-17" title="Go to source code">module_containing_extension_point</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension_point_ids">#</a>
 						<code>
-<a href="source-class-CommentsProvidersService.php#20-23" title="Go to source code">get_extension_point_ids</a>( )
+<a href="source-class-CommentsProvidersService.php#19-22" title="Go to source code">get_extension_point_ids</a>( )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension_point">#</a>
 						<code>
-<a href="source-class-CommentsProvidersService.php#25-28" title="Go to source code">get_extension_point</a>( )
+<a href="source-class-CommentsProvidersService.php#24-27" title="Go to source code">get_extension_point</a>( )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@
 					<div>
 						<a class="anchor" href="#_get_provider">#</a>
 						<code>
-<a href="source-class-CommentsProvidersService.php#30-37" title="Go to source code">get_provider</a>( <span> <var>$module_id</var></span>, <span> <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsProvidersService.php#29-36" title="Go to source code">get_provider</a>( <span> <var>$module_id</var></span>, <span> <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">

@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.factory.php">factory</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 09
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBFactory.php#3-36" title="Go to source code">io/db/factory/MySQLDBFactory.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLDBFactory.php#3-35" title="Go to source code">io/db/factory/MySQLDBFactory.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_new_db_connection">#</a>
 						<code>
-<a href="source-class-MySQLDBFactory.php#17-20" title="Go to source code">new_db_connection</a>( )
+<a href="source-class-MySQLDBFactory.php#16-19" title="Go to source code">new_db_connection</a>( )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@
 					<div>
 						<a class="anchor" href="#_new_sql_querier">#</a>
 						<code>
-<a href="source-class-MySQLDBFactory.php#22-25" title="Go to source code">new_sql_querier</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$db_connection</var></span> )
+<a href="source-class-MySQLDBFactory.php#21-24" title="Go to source code">new_sql_querier</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$db_connection</var></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_new_dbms_util">#</a>
 						<code>
-<a href="source-class-MySQLDBFactory.php#27-30" title="Go to source code">new_dbms_util</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
+<a href="source-class-MySQLDBFactory.php#26-29" title="Go to source code">new_dbms_util</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span> )
 						</code>
 
 							<div class="description short">

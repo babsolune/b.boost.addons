@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Event.php">Event</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Notification.php#3-114" title="Go to source code">phpboost/event/Notification.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Notification.php#3-113" title="Go to source code">phpboost/event/Notification.class.php</a></span>
 			</div>
 
 
@@ -716,7 +712,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -738,7 +734,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Notification.php#37-44" title="Go to source code">__construct</a>( )
+<a href="source-class-Notification.php#36-43" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -775,7 +771,7 @@
 					<div>
 						<a class="anchor" href="#_set_module_id">#</a>
 						<code>
-<a href="source-class-Notification.php#46-53" title="Go to source code">set_module_id</a>( <span>string <var>$module_id</var></span> )
+<a href="source-class-Notification.php#45-52" title="Go to source code">set_module_id</a>( <span>string <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -815,7 +811,7 @@
 					<div>
 						<a class="anchor" href="#_set_fixing_date">#</a>
 						<code>
-<a href="source-class-Notification.php#55-65" title="Go to source code">set_fixing_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-Notification.php#54-64" title="Go to source code">set_fixing_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_set_auth">#</a>
 						<code>
-<a href="source-class-Notification.php#67-77" title="Go to source code">set_auth</a>( <span>mixed[] <var>$auth</var></span> )
+<a href="source-class-Notification.php#66-76" title="Go to source code">set_auth</a>( <span>mixed[] <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-Notification.php#79-86" title="Go to source code">get_module_id</a>( )
+<a href="source-class-Notification.php#78-85" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@
 					<div>
 						<a class="anchor" href="#_get_auth">#</a>
 						<code>
-<a href="source-class-Notification.php#88-95" title="Go to source code">get_auth</a>( )
+<a href="source-class-Notification.php#87-94" title="Go to source code">get_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -973,7 +969,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_name">#</a>
 						<code>
-<a href="source-class-Notification.php#97-113" title="Go to source code">get_module_name</a>( )
+<a href="source-class-Notification.php#96-112" title="Go to source code">get_module_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1052,7 +1048,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Notification.php#16" title="Go to source code"><b>NOTIFICATION_AUTH_BIT</b></a>
+								<a href="source-class-Notification.php#15" title="Go to source code"><b>NOTIFICATION_AUTH_BIT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1076,7 +1072,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Notification.php#18" title="Go to source code"><b>NOTIFICATION_ALERT_LOW_PRIORITY</b></a>
+								<a href="source-class-Notification.php#17" title="Go to source code"><b>NOTIFICATION_ALERT_LOW_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1100,7 +1096,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Notification.php#19" title="Go to source code"><b>NOTIFICATION_ALERT_MEDIUM_PRIORITY</b></a>
+								<a href="source-class-Notification.php#18" title="Go to source code"><b>NOTIFICATION_ALERT_MEDIUM_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">
@@ -1124,7 +1120,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Notification.php#20" title="Go to source code"><b>NOTIFICATION_ALERT_HIGH_PRIORITY</b></a>
+								<a href="source-class-Notification.php#19" title="Go to source code"><b>NOTIFICATION_ALERT_HIGH_PRIORITY</b></a>
 							</code>
 
 							<div class="description short">

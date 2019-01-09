@@ -682,10 +682,6 @@ If it doesn't exist, you want to choose the file in another language.
 This function returns the path of an existing file (if the required lang exists, it will be it, otherwise it will be one of the existing files).</p>
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -715,7 +711,7 @@ This function returns the path of an existing file (if the required lang exists,
 						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-find_require_dir.php#234-275" title="Go to source code">
+						<a href="source-function-find_require_dir.php#233-274" title="Go to source code">
 							helper/deprecated_helper.inc.php
 						</a>
 				</span>

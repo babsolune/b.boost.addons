@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.parser.php">parser</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingParser.php#3-300" title="Go to source code">content/formatting/parser/ContentFormattingParser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingParser.php#3-299" title="Go to source code">content/formatting/parser/ContentFormattingParser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -743,7 +739,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#28-38" title="Go to source code">__construct</a>( )
+<a href="source-class-ContentFormattingParser.php#27-37" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -802,7 +798,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#40-47" title="Go to source code">parse</a>( )
+<a href="source-class-ContentFormattingParser.php#39-46" title="Go to source code">parse</a>( )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@
 					<div>
 						<a class="anchor" href="#_set_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#49-59" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
+<a href="source-class-ContentFormattingParser.php#48-58" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$forbidden_tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -881,7 +877,7 @@
 					<div>
 						<a class="anchor" href="#_get_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#61-68" title="Go to source code">get_forbidden_tags</a>( )
+<a href="source-class-ContentFormattingParser.php#60-67" title="Go to source code">get_forbidden_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -920,7 +916,7 @@
 					<div>
 						<a class="anchor" href="#_set_html_auth">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#70-78" title="Go to source code">set_html_auth</a>( <span>array <var>$array_auth</var></span> )
+<a href="source-class-ContentFormattingParser.php#69-77" title="Go to source code">set_html_auth</a>( <span>array <var>$array_auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -962,7 +958,7 @@ will be displayed by the web browser.</p>
 					<div>
 						<a class="anchor" href="#_get_html_auth">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#80-87" title="Go to source code">get_html_auth</a>( )
+<a href="source-class-ContentFormattingParser.php#79-86" title="Go to source code">get_html_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@ will be displayed by the web browser.</p>
 					<div>
 						<a class="anchor" href="#_split_imbricated_tag">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#89-114" title="Go to source code">split_imbricated_tag</a>( <span>string <var>&amp; $content</var></span>, <span>string <var>$tag</var></span>, <span>string <var>$attributes</var></span> )
+<a href="source-class-ContentFormattingParser.php#88-113" title="Go to source code">split_imbricated_tag</a>( <span>string <var>&amp; $content</var></span>, <span>string <var>$tag</var></span>, <span>string <var>$attributes</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1053,7 +1049,7 @@ Works also with nested tags.</p>
 					<div>
 						<a class="anchor" href="#_preg_split_safe_recurse">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#116-189" title="Go to source code">preg_split_safe_recurse</a>( <span> <var>$content</var></span>, <span> <var>$tag</var></span>, <span> <var>$attributes</var></span> )
+<a href="source-class-ContentFormattingParser.php#115-188" title="Go to source code">preg_split_safe_recurse</a>( <span> <var>$content</var></span>, <span> <var>$tag</var></span>, <span> <var>$attributes</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@ There mustn't be any matching parenthesis into that regular expression</p></dd>
 					<div>
 						<a class="anchor" href="#_pick_up_tag">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#225-265" title="Go to source code">pick_up_tag</a>( <span> <var>$tag</var></span>, <span> <var>$arguments</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-ContentFormattingParser.php#224-264" title="Go to source code">pick_up_tag</a>( <span> <var>$tag</var></span>, <span> <var>$arguments</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1160,7 +1156,7 @@ $my_parser->pick_up_tag('tag', '[0-9]'); will replace the content of the parser 
 					<div>
 						<a class="anchor" href="#_reimplant_tag">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#267-292" title="Go to source code">reimplant_tag</a>( <span> <var>$tag</var></span> )
+<a href="source-class-ContentFormattingParser.php#266-291" title="Go to source code">reimplant_tag</a>( <span> <var>$tag</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1204,7 +1200,7 @@ $my_parser->pick_up_tag('tag', '[0-9]'); will replace the content of the parser 
 					<div>
 						<a class="anchor" href="#_parse_feed_tag">#</a>
 						<code>
-<a href="source-class-ContentFormattingParser.php#294-299" title="Go to source code">parse_feed_tag</a>( )
+<a href="source-class-ContentFormattingParser.php#293-298" title="Go to source code">parse_feed_tag</a>( )
 						</code>
 
 							<div class="description short">
@@ -1289,7 +1285,7 @@ $my_parser->pick_up_tag('tag', '[0-9]'); will replace the content of the parser 
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentFormattingParser.php#19-22" title="Go to source code"><var>$html_auth</var></a>
+						<a href="source-class-ContentFormattingParser.php#18-21" title="Go to source code"><var>$html_auth</var></a>
 
 					<div class="description short">
 						<p>Authorization of the HTML BBCode tag.</p>
@@ -1316,7 +1312,7 @@ $my_parser->pick_up_tag('tag', '[0-9]'); will replace the content of the parser 
 				</td>
 
 				<td class="name">
-						<a href="source-class-ContentFormattingParser.php#23-26" title="Go to source code"><var>$forbidden_tags</var></a>
+						<a href="source-class-ContentFormattingParser.php#22-25" title="Go to source code"><var>$forbidden_tags</var></a>
 
 					<div class="description short">
 						<p>List of the BBCode forbidden tags</p>

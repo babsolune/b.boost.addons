@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SEOMetaData.php#3-127" title="Go to source code">phpboost/environment/SEOMetaData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SEOMetaData.php#3-126" title="Go to source code">phpboost/environment/SEOMetaData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -737,7 +733,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#_set_title">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#25-38" title="Go to source code">set_title</a>( <span> <var>$title</var></span>, <span> <var>$section</var> = <span class="php-quote">''</span></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
+<a href="source-class-SEOMetaData.php#24-37" title="Go to source code">set_title</a>( <span> <var>$title</var></span>, <span> <var>$section</var> = <span class="php-quote">''</span></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#40-43" title="Go to source code">get_title</a>( )
+<a href="source-class-SEOMetaData.php#39-42" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_get_full_title">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#45-48" title="Go to source code">get_full_title</a>( )
+<a href="source-class-SEOMetaData.php#44-47" title="Go to source code">get_full_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#50-53" title="Go to source code">set_description</a>( <span> <var>$description</var></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
+<a href="source-class-SEOMetaData.php#49-52" title="Go to source code">set_description</a>( <span> <var>$description</var></span>, <span> <var>$page</var> = <span class="php-num">1</span></span> )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_complete_description">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#55-58" title="Go to source code">complete_description</a>( <span> <var>$additional_description</var></span> )
+<a href="source-class-SEOMetaData.php#54-57" title="Go to source code">complete_description</a>( <span> <var>$additional_description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#60-63" title="Go to source code">get_description</a>( )
+<a href="source-class-SEOMetaData.php#59-62" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 					<div>
 						<a class="anchor" href="#_get_full_description">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#65-71" title="Go to source code">get_full_description</a>( )
+<a href="source-class-SEOMetaData.php#64-70" title="Go to source code">get_full_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@
 					<div>
 						<a class="anchor" href="#_set_canonical_url">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#73-76" title="Go to source code">set_canonical_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$canonical_url</var></span> )
+<a href="source-class-SEOMetaData.php#72-75" title="Go to source code">set_canonical_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$canonical_url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 					<div>
 						<a class="anchor" href="#_canonical_link_exists">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#78-81" title="Go to source code">canonical_link_exists</a>( )
+<a href="source-class-SEOMetaData.php#77-80" title="Go to source code">canonical_link_exists</a>( )
 						</code>
 
 							<div class="description short">
@@ -1074,7 +1070,7 @@
 					<div>
 						<a class="anchor" href="#_get_canonical_link">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#83-87" title="Go to source code">get_canonical_link</a>( )
+<a href="source-class-SEOMetaData.php#82-86" title="Go to source code">get_canonical_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@
 					<div>
 						<a class="anchor" href="#_set_picture_url">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#89-92" title="Go to source code">set_picture_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$picture_url</var></span> )
+<a href="source-class-SEOMetaData.php#88-91" title="Go to source code">set_picture_url</a>( <span><code><a href="class-Url.php">Url</a></code> <var>$picture_url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1144,7 +1140,7 @@
 					<div>
 						<a class="anchor" href="#_picture_url_exists">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#94-97" title="Go to source code">picture_url_exists</a>( )
+<a href="source-class-SEOMetaData.php#93-96" title="Go to source code">picture_url_exists</a>( )
 						</code>
 
 							<div class="description short">
@@ -1179,7 +1175,7 @@
 					<div>
 						<a class="anchor" href="#_get_picture_url">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#99-106" title="Go to source code">get_picture_url</a>( )
+<a href="source-class-SEOMetaData.php#98-105" title="Go to source code">get_picture_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1214,7 +1210,7 @@
 					<div>
 						<a class="anchor" href="#_set_page_type">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#108-111" title="Go to source code">set_page_type</a>( <span> <var>$page_type</var></span> )
+<a href="source-class-SEOMetaData.php#107-110" title="Go to source code">set_page_type</a>( <span> <var>$page_type</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1249,7 +1245,7 @@
 					<div>
 						<a class="anchor" href="#_get_page_type">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#113-116" title="Go to source code">get_page_type</a>( )
+<a href="source-class-SEOMetaData.php#112-115" title="Go to source code">get_page_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -1284,7 +1280,7 @@
 					<div>
 						<a class="anchor" href="#_set_additionnal_properties">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#118-121" title="Go to source code">set_additionnal_properties</a>( <span>array <var>$additionnal_properties</var></span> )
+<a href="source-class-SEOMetaData.php#117-120" title="Go to source code">set_additionnal_properties</a>( <span>array <var>$additionnal_properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1319,7 +1315,7 @@
 					<div>
 						<a class="anchor" href="#_get_additionnal_properties">#</a>
 						<code>
-<a href="source-class-SEOMetaData.php#123-126" title="Go to source code">get_additionnal_properties</a>( )
+<a href="source-class-SEOMetaData.php#122-125" title="Go to source code">get_additionnal_properties</a>( )
 						</code>
 
 							<div class="description short">

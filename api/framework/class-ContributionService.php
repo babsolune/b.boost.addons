@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Event.php">Event</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContributionService.php#3-296" title="Go to source code">phpboost/event/ContributionService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContributionService.php#3-295" title="Go to source code">phpboost/event/ContributionService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -709,7 +705,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -731,7 +727,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-ContributionService.php#22-25" title="Go to source code">__static</a>( )
+<a href="source-class-ContributionService.php#21-24" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#_find_by_id">#</a>
 						<code>
-<a href="source-class-ContributionService.php#27-58" title="Go to source code">find_by_id</a>( <span>integer <var>$id_contrib</var></span> )
+<a href="source-class-ContributionService.php#26-57" title="Go to source code">find_by_id</a>( <span>integer <var>$id_contrib</var></span> )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@
 					<div>
 						<a class="anchor" href="#_get_all_contributions">#</a>
 						<code>
-<a href="source-class-ContributionService.php#60-91" title="Go to source code">get_all_contributions</a>( <span>string <var>$criteria</var> = <span class="php-quote">'creation_date'</span></span>, <span>string <var>$order</var> = <span class="php-quote">'desc'</span></span> )
+<a href="source-class-ContributionService.php#59-90" title="Go to source code">get_all_contributions</a>( <span>string <var>$criteria</var> = <span class="php-quote">'creation_date'</span></span>, <span>string <var>$order</var> = <span class="php-quote">'desc'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -858,7 +854,7 @@ poster_member.login poster_login, fixer_member.login fixer_login, identifier, id
 					<div>
 						<a class="anchor" href="#_find_by_criteria">#</a>
 						<code>
-<a href="source-class-ContributionService.php#93-158" title="Go to source code">find_by_criteria</a>( <span>string <var>$module</var></span>, <span>integer <var>$id_in_module</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$type</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$identifier</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$poster_id</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$fixer_id</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-ContributionService.php#92-157" title="Go to source code">find_by_criteria</a>( <span>string <var>$module</var></span>, <span>integer <var>$id_in_module</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$type</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$identifier</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$poster_id</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$fixer_id</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -914,7 +910,7 @@ If you don't want to use a criteria, let the null value. The returned contributi
 					<div>
 						<a class="anchor" href="#_save_contribution">#</a>
 						<code>
-<a href="source-class-ContributionService.php#160-188" title="Go to source code">save_contribution</a>( <span><code><a href="class-Contribution.php">Contribution</a></code> <var>$contribution</var></span> )
+<a href="source-class-ContributionService.php#159-187" title="Go to source code">save_contribution</a>( <span><code><a href="class-Contribution.php">Contribution</a></code> <var>$contribution</var></span> )
 						</code>
 
 							<div class="description short">
@@ -954,7 +950,7 @@ If you don't want to use a criteria, let the null value. The returned contributi
 					<div>
 						<a class="anchor" href="#_delete_contribution">#</a>
 						<code>
-<a href="source-class-ContributionService.php#190-206" title="Go to source code">delete_contribution</a>( <span><code><a href="class-Contribution.php">Contribution</a></code> <var>$contribution</var></span> )
+<a href="source-class-ContributionService.php#189-205" title="Go to source code">delete_contribution</a>( <span><code><a href="class-Contribution.php">Contribution</a></code> <var>$contribution</var></span> )
 						</code>
 
 							<div class="description short">
@@ -994,7 +990,7 @@ If you don't want to use a criteria, let the null value. The returned contributi
 					<div>
 						<a class="anchor" href="#_delete_contribution_module">#</a>
 						<code>
-<a href="source-class-ContributionService.php#208-215" title="Go to source code">delete_contribution_module</a>( <span>string <var>$module_id</var></span> )
+<a href="source-class-ContributionService.php#207-214" title="Go to source code">delete_contribution_module</a>( <span>string <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@ If you don't want to use a criteria, let the null value. The returned contributi
 					<div>
 						<a class="anchor" href="#_generate_cache">#</a>
 						<code>
-<a href="source-class-ContributionService.php#217-223" title="Go to source code">generate_cache</a>( )
+<a href="source-class-ContributionService.php#216-222" title="Go to source code">generate_cache</a>( )
 						</code>
 
 							<div class="description short">
@@ -1069,7 +1065,7 @@ If you don't want to use a criteria, let the null value. The returned contributi
 					<div>
 						<a class="anchor" href="#_compute_number_contrib_for_each_profile">#</a>
 						<code>
-<a href="source-class-ContributionService.php#225-295" title="Go to source code">compute_number_contrib_for_each_profile</a>( )
+<a href="source-class-ContributionService.php#224-294" title="Go to source code">compute_number_contrib_for_each_profile</a>( )
 						</code>
 
 							<div class="description short">
@@ -1129,7 +1125,7 @@ It will count the contributions for the administrator, the moderators, the membe
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContributionService.php#18" title="Go to source code"><b>CONTRIBUTION_TYPE</b></a>
+								<a href="source-class-ContributionService.php#17" title="Go to source code"><b>CONTRIBUTION_TYPE</b></a>
 							</code>
 
 							<div class="description short">

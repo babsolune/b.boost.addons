@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Helper.php">Helper</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-TextHelper.php#3-350" title="Go to source code">helper/TextHelper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-TextHelper.php#3-349" title="Go to source code">helper/TextHelper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -729,7 +725,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -751,7 +747,7 @@
 					<div>
 						<a class="anchor" href="#_strprotect">#</a>
 						<code>
-<a href="source-class-TextHelper.php#23-57" title="Go to source code">strprotect</a>( <span>string <var>$var</var></span>, <span>boolean <var>$html_protect</var> = self::HTML_PROTECT</span>, <span>integer <var>$addslashes</var> = self::ADDSLASHES_FORCE</span> )
+<a href="source-class-TextHelper.php#22-56" title="Go to source code">strprotect</a>( <span>string <var>$var</var></span>, <span>boolean <var>$html_protect</var> = self::HTML_PROTECT</span>, <span>integer <var>$addslashes</var> = self::ADDSLASHES_FORCE</span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@ by the corresponding HTML entities and won't be considerer by the web browsers).
 					<div>
 						<a class="anchor" href="#_wordwrap_html">#</a>
 						<code>
-<a href="source-class-TextHelper.php#59-72" title="Go to source code">wordwrap_html</a>( <span>string <var>$str</var></span>, <span>integer <var>$lenght</var></span>, <span>string <var>$cut_char</var> = <span class="php-quote">'&lt;br /&gt;'</span></span>, <span>boolean <var>$cut</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TextHelper.php#58-71" title="Go to source code">wordwrap_html</a>( <span>string <var>$str</var></span>, <span>integer <var>$lenght</var></span>, <span>string <var>$cut_char</var> = <span class="php-quote">'&lt;br /&gt;'</span></span>, <span>boolean <var>$cut</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@ An entity is coded on several characters and the wordwrap function counts severa
 					<div>
 						<a class="anchor" href="#_substr_html">#</a>
 						<code>
-<a href="source-class-TextHelper.php#74-90" title="Go to source code">substr_html</a>( <span>string <var>$str</var></span>, <span>integer <var>$start</var></span>, <span>integer <var>$end</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#73-89" title="Go to source code">substr_html</a>( <span>string <var>$str</var></span>, <span>integer <var>$start</var></span>, <span>integer <var>$end</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_cut_string">#</a>
 						<code>
-<a href="source-class-TextHelper.php#92-105" title="Go to source code">cut_string</a>( <span>string <var>$string</var></span>, <span>integer <var>$length</var></span> )
+<a href="source-class-TextHelper.php#91-104" title="Go to source code">cut_string</a>( <span>string <var>$string</var></span>, <span>integer <var>$length</var></span> )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_to_js_string">#</a>
 						<code>
-<a href="source-class-TextHelper.php#107-117" title="Go to source code">to_js_string</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TextHelper.php#106-116" title="Go to source code">to_js_string</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -996,7 +992,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_to_json_string">#</a>
 						<code>
-<a href="source-class-TextHelper.php#119-129" title="Go to source code">to_json_string</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TextHelper.php#118-128" title="Go to source code">to_json_string</a>( <span>string <var>$string</var></span>, <span>string <var>$add_quotes</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1042,7 +1038,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_htmlspecialchars">#</a>
 						<code>
-<a href="source-class-TextHelper.php#131-137" title="Go to source code">htmlspecialchars</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span>, <span> <var>$encoding</var> = <span class="php-quote">'UTF-8'</span></span>, <span> <var>$double_encode</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TextHelper.php#130-136" title="Go to source code">htmlspecialchars</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span>, <span> <var>$encoding</var> = <span class="php-quote">'UTF-8'</span></span>, <span> <var>$double_encode</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1077,7 +1073,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_htmlspecialchars_decode">#</a>
 						<code>
-<a href="source-class-TextHelper.php#139-145" title="Go to source code">htmlspecialchars_decode</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-TextHelper.php#138-144" title="Go to source code">htmlspecialchars_decode</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1112,7 +1108,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_html_entity_decode">#</a>
 						<code>
-<a href="source-class-TextHelper.php#147-153" title="Go to source code">html_entity_decode</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span>, <span> <var>$encoding</var> = <span class="php-quote">'UTF-8'</span></span> )
+<a href="source-class-TextHelper.php#146-152" title="Go to source code">html_entity_decode</a>( <span> <var>$string</var></span>, <span> <var>$flags</var> = <span class="php-keyword1">null</span></span>, <span> <var>$encoding</var> = <span class="php-quote">'UTF-8'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1147,7 +1143,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strtolower">#</a>
 						<code>
-<a href="source-class-TextHelper.php#155-158" title="Go to source code">strtolower</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#154-157" title="Go to source code">strtolower</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1182,7 +1178,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strtoupper">#</a>
 						<code>
-<a href="source-class-TextHelper.php#160-163" title="Go to source code">strtoupper</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#159-162" title="Go to source code">strtoupper</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1217,7 +1213,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_lcfirst">#</a>
 						<code>
-<a href="source-class-TextHelper.php#165-169" title="Go to source code">lcfirst</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#164-168" title="Go to source code">lcfirst</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1252,7 +1248,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_ucfirst">#</a>
 						<code>
-<a href="source-class-TextHelper.php#171-175" title="Go to source code">ucfirst</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#170-174" title="Go to source code">ucfirst</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1287,7 +1283,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strlen">#</a>
 						<code>
-<a href="source-class-TextHelper.php#177-180" title="Go to source code">strlen</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#176-179" title="Go to source code">strlen</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1322,7 +1318,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strpos">#</a>
 						<code>
-<a href="source-class-TextHelper.php#182-192" title="Go to source code">strpos</a>( <span> <var>$string</var></span>, <span> <var>$substring</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#181-191" title="Go to source code">strpos</a>( <span> <var>$string</var></span>, <span> <var>$substring</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1357,7 +1353,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_stripos">#</a>
 						<code>
-<a href="source-class-TextHelper.php#194-204" title="Go to source code">stripos</a>( <span> <var>$string</var></span>, <span> <var>$substring</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#193-203" title="Go to source code">stripos</a>( <span> <var>$string</var></span>, <span> <var>$substring</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1392,7 +1388,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_substr">#</a>
 						<code>
-<a href="source-class-TextHelper.php#206-212" title="Go to source code">substr</a>( <span> <var>$string</var></span>, <span> <var>$start</var></span>, <span> <var>$length</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#205-211" title="Go to source code">substr</a>( <span> <var>$string</var></span>, <span> <var>$start</var></span>, <span> <var>$length</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1427,7 +1423,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_mb_substr">#</a>
 						<code>
-<a href="source-class-TextHelper.php#214-220" title="Go to source code">mb_substr</a>( <span> <var>$string</var></span>, <span> <var>$start</var></span>, <span> <var>$length</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#213-219" title="Go to source code">mb_substr</a>( <span> <var>$string</var></span>, <span> <var>$start</var></span>, <span> <var>$length</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1462,7 +1458,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strrchr">#</a>
 						<code>
-<a href="source-class-TextHelper.php#222-225" title="Go to source code">strrchr</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span> )
+<a href="source-class-TextHelper.php#221-224" title="Go to source code">strrchr</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1497,7 +1493,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strripos">#</a>
 						<code>
-<a href="source-class-TextHelper.php#227-233" title="Go to source code">strripos</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#226-232" title="Go to source code">strripos</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1532,7 +1528,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strrpos">#</a>
 						<code>
-<a href="source-class-TextHelper.php#235-241" title="Go to source code">strrpos</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#234-240" title="Go to source code">strrpos</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$offset</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1567,7 +1563,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_strstr">#</a>
 						<code>
-<a href="source-class-TextHelper.php#243-249" title="Go to source code">strstr</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$before_needle</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#242-248" title="Go to source code">strstr</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$before_needle</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1602,7 +1598,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_substr_count">#</a>
 						<code>
-<a href="source-class-TextHelper.php#251-257" title="Go to source code">substr_count</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$encoding</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#250-256" title="Go to source code">substr_count</a>( <span> <var>$string</var></span>, <span> <var>$needle</var></span>, <span> <var>$encoding</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1637,7 +1633,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_convert_case">#</a>
 						<code>
-<a href="source-class-TextHelper.php#259-265" title="Go to source code">convert_case</a>( <span> <var>$string</var></span>, <span> <var>$mode</var></span>, <span> <var>$encoding</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-TextHelper.php#258-264" title="Go to source code">convert_case</a>( <span> <var>$string</var></span>, <span> <var>$mode</var></span>, <span> <var>$encoding</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1672,7 +1668,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_serialize">#</a>
 						<code>
-<a href="source-class-TextHelper.php#267-270" title="Go to source code">serialize</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#266-269" title="Go to source code">serialize</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1707,7 +1703,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_serialize_base64">#</a>
 						<code>
-<a href="source-class-TextHelper.php#272-275" title="Go to source code">serialize_base64</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#271-274" title="Go to source code">serialize_base64</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1742,7 +1738,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_unserialize">#</a>
 						<code>
-<a href="source-class-TextHelper.php#277-280" title="Go to source code">unserialize</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#276-279" title="Go to source code">unserialize</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1777,7 +1773,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_mb_unserialize">#</a>
 						<code>
-<a href="source-class-TextHelper.php#282-289" title="Go to source code">mb_unserialize</a>( <span> <var>$string</var></span> )
+<a href="source-class-TextHelper.php#281-288" title="Go to source code">mb_unserialize</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1812,7 +1808,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_check_nbr_links">#</a>
 						<code>
-<a href="source-class-TextHelper.php#297-318" title="Go to source code">check_nbr_links</a>( <span>string <var>$contents</var></span>, <span>integer <var>$max_nbr</var></span>, <span>boolean <var>$has_html_links</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-TextHelper.php#296-317" title="Go to source code">check_nbr_links</a>( <span>string <var>$contents</var></span>, <span>integer <var>$max_nbr</var></span>, <span>boolean <var>$has_html_links</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1860,7 +1856,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 					<div>
 						<a class="anchor" href="#_utf8_wordwrap">#</a>
 						<code>
-<a href="source-class-TextHelper.php#320-349" title="Go to source code">utf8_wordwrap</a>( <span>string <var>$string</var></span>, <span>integer <var>$width</var> = <span class="php-num">75</span></span>, <span>string <var>$break</var> = <span class="php-quote">&quot;\n&quot;</span></span>, <span>string <var>$cut</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-TextHelper.php#319-348" title="Go to source code">utf8_wordwrap</a>( <span>string <var>$string</var></span>, <span>integer <var>$width</var> = <span class="php-num">75</span></span>, <span>string <var>$break</var> = <span class="php-quote">&quot;\n&quot;</span></span>, <span>string <var>$cut</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1921,7 +1917,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TextHelper.php#18" title="Go to source code"><b>HTML_NO_PROTECT</b></a>
+								<a href="source-class-TextHelper.php#17" title="Go to source code"><b>HTML_NO_PROTECT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1945,7 +1941,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TextHelper.php#19" title="Go to source code"><b>HTML_PROTECT</b></a>
+								<a href="source-class-TextHelper.php#18" title="Go to source code"><b>HTML_PROTECT</b></a>
 							</code>
 
 							<div class="description short">
@@ -1969,7 +1965,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TextHelper.php#20" title="Go to source code"><b>ADDSLASHES_FORCE</b></a>
+								<a href="source-class-TextHelper.php#19" title="Go to source code"><b>ADDSLASHES_FORCE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1993,7 +1989,7 @@ If string is less than or equal to start characters long, FALSE will be returned
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-TextHelper.php#21" title="Go to source code"><b>ADDSLASHES_NONE</b></a>
+								<a href="source-class-TextHelper.php#20" title="Go to source code"><b>ADDSLASHES_NONE</b></a>
 							</code>
 
 							<div class="description short">

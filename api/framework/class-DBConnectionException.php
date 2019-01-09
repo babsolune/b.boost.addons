@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBConnectionException.php#3-13" title="Go to source code">io/db/DBConnectionException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBConnectionException.php#3-12" title="Go to source code">io/db/DBConnectionException.class.php</a></span>
 			</div>
 
 
@@ -753,7 +749,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 

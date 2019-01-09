@@ -685,10 +685,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.cache.php">cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 09 16
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheManager.php#3-220" title="Go to source code">io/data/cache/CacheManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CacheManager.php#3-219" title="Go to source code">io/data/cache/CacheManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -730,7 +726,7 @@ valid until the value changes and the manager is asked to store it</li>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@ valid until the value changes and the manager is asked to store it</li>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-CacheManager.php#58-82" title="Go to source code">load</a>( <span>string <var>$classname</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-CacheManager.php#57-81" title="Go to source code">load</a>( <span>string <var>$classname</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@ it's the name of the entry you want to load</p></dd>
 					<div>
 						<a class="anchor" href="#_try_load">#</a>
 						<code>
-<a href="source-class-CacheManager.php#84-110" title="Go to source code">try_load</a>( <span>string <var>$classname</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var></span> )
+<a href="source-class-CacheManager.php#83-109" title="Go to source code">try_load</a>( <span>string <var>$classname</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@ it's the name of the entry you want to load</p></dd>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-CacheManager.php#112-124" title="Go to source code">invalidate</a>( <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-CacheManager.php#111-123" title="Go to source code">invalidate</a>( <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@ it's the name of the entry you want to invalidate</p></dd>
 					<div>
 						<a class="anchor" href="#_clear">#</a>
 						<code>
-<a href="source-class-CacheManager.php#126-133" title="Go to source code">clear</a>( )
+<a href="source-class-CacheManager.php#125-132" title="Go to source code">clear</a>( )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@ it's the name of the entry you want to invalidate</p></dd>
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-CacheManager.php#135-146" title="Go to source code">save</a>( <span>mixed <var>$data</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-CacheManager.php#134-145" title="Go to source code">save</a>( <span>mixed <var>$data</var></span>, <span>string <var>$module_name</var></span>, <span>string <var>$entry_name</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">

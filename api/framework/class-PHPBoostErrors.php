@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -691,7 +687,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostErrors.php#3-102" title="Go to source code">core/error/PHPBoostErrors.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostErrors.php#3-101" title="Go to source code">core/error/PHPBoostErrors.class.php</a></span>
 			</div>
 
 
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#_user_not_authorized">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#18-23" title="Go to source code">user_not_authorized</a>( )
+<a href="source-class-PHPBoostErrors.php#17-22" title="Go to source code">user_not_authorized</a>( )
 						</code>
 
 							<div class="description short">
@@ -760,7 +756,7 @@
 					<div>
 						<a class="anchor" href="#_unexisting_page">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#25-31" title="Go to source code">unexisting_page</a>( )
+<a href="source-class-PHPBoostErrors.php#24-30" title="Go to source code">unexisting_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#_unexisting_element">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#33-38" title="Go to source code">unexisting_element</a>( )
+<a href="source-class-PHPBoostErrors.php#32-37" title="Go to source code">unexisting_element</a>( )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_unknow">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#40-44" title="Go to source code">unknow</a>( )
+<a href="source-class-PHPBoostErrors.php#39-43" title="Go to source code">unknow</a>( )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_unauthorized_action">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#46-51" title="Go to source code">unauthorized_action</a>( )
+<a href="source-class-PHPBoostErrors.php#45-50" title="Go to source code">unauthorized_action</a>( )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_user_in_read_only">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#53-58" title="Go to source code">user_in_read_only</a>( )
+<a href="source-class-PHPBoostErrors.php#52-57" title="Go to source code">user_in_read_only</a>( )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_flood">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#60-65" title="Go to source code">flood</a>( )
+<a href="source-class-PHPBoostErrors.php#59-64" title="Go to source code">flood</a>( )
 						</code>
 
 							<div class="description short">
@@ -970,7 +966,7 @@
 					<div>
 						<a class="anchor" href="#_link_flood">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#67-72" title="Go to source code">link_flood</a>( <span> <var>$max_link</var></span> )
+<a href="source-class-PHPBoostErrors.php#66-71" title="Go to source code">link_flood</a>( <span> <var>$max_link</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1005,7 +1001,7 @@
 					<div>
 						<a class="anchor" href="#_module_not_installed">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#74-82" title="Go to source code">module_not_installed</a>( )
+<a href="source-class-PHPBoostErrors.php#73-81" title="Go to source code">module_not_installed</a>( )
 						</code>
 
 							<div class="description short">
@@ -1040,7 +1036,7 @@
 					<div>
 						<a class="anchor" href="#_module_not_activated">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#84-92" title="Go to source code">module_not_activated</a>( )
+<a href="source-class-PHPBoostErrors.php#83-91" title="Go to source code">module_not_activated</a>( )
 						</code>
 
 							<div class="description short">
@@ -1075,7 +1071,7 @@
 					<div>
 						<a class="anchor" href="#_CSRF">#</a>
 						<code>
-<a href="source-class-PHPBoostErrors.php#94-101" title="Go to source code">CSRF</a>( )
+<a href="source-class-PHPBoostErrors.php#93-100" title="Go to source code">CSRF</a>( )
 						</code>
 
 							<div class="description short">

@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 20
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExceptionUtils.php#3-105" title="Go to source code">core/error/ExceptionUtils.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExceptionUtils.php#3-104" title="Go to source code">core/error/ExceptionUtils.class.php</a></span>
 			</div>
 
 
@@ -699,7 +695,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -721,7 +717,7 @@
 					<div>
 						<a class="anchor" href="#_get_file">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#15-22" title="Go to source code">get_file</a>( <span> <var>$call</var></span> )
+<a href="source-class-ExceptionUtils.php#14-21" title="Go to source code">get_file</a>( <span> <var>$call</var></span> )
 						</code>
 
 							<div class="description short">
@@ -756,7 +752,7 @@
 					<div>
 						<a class="anchor" href="#_get_line">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#24-31" title="Go to source code">get_line</a>( <span> <var>$call</var></span> )
+<a href="source-class-ExceptionUtils.php#23-30" title="Go to source code">get_line</a>( <span> <var>$call</var></span> )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@
 					<div>
 						<a class="anchor" href="#_get_method_prototype">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#33-44" title="Go to source code">get_method_prototype</a>( <span> <var>$call</var></span> )
+<a href="source-class-ExceptionUtils.php#32-43" title="Go to source code">get_method_prototype</a>( <span> <var>$call</var></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_has_args">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#46-49" title="Go to source code">has_args</a>( <span> <var>$call</var></span> )
+<a href="source-class-ExceptionUtils.php#45-48" title="Go to source code">has_args</a>( <span> <var>$call</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_get_arg_type">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#65-92" title="Go to source code">get_arg_type</a>( <span> <var>$arg</var></span> )
+<a href="source-class-ExceptionUtils.php#64-91" title="Go to source code">get_arg_type</a>( <span> <var>$arg</var></span> )
 						</code>
 
 							<div class="description short">
@@ -896,7 +892,7 @@
 					<div>
 						<a class="anchor" href="#_get_args">#</a>
 						<code>
-<a href="source-class-ExceptionUtils.php#94-104" title="Go to source code">get_args</a>( <span> <var>$call</var></span> )
+<a href="source-class-ExceptionUtils.php#93-103" title="Go to source code">get_args</a>( <span> <var>$call</var></span> )
 						</code>
 
 							<div class="description short">

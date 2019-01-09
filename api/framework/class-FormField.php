@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -741,7 +737,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormField.php#3-125" title="Go to source code">builder/form/field/FormField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormField.php#3-124" title="Go to source code">builder/form/field/FormField.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -822,7 +818,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -844,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-FormField.php#18-22" title="Go to source code">get_id</a>( )
+<a href="source-class-FormField.php#17-21" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -883,7 +879,7 @@
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-FormField.php#24-28" title="Go to source code">get_label</a>( )
+<a href="source-class-FormField.php#23-27" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -922,7 +918,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-FormField.php#30-34" title="Go to source code">set_id</a>( <span>string <var>$id</var></span> )
+<a href="source-class-FormField.php#29-33" title="Go to source code">set_id</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -962,7 +958,7 @@
 					<div>
 						<a class="anchor" href="#_set_form_id">#</a>
 						<code>
-<a href="source-class-FormField.php#36-40" title="Go to source code">set_form_id</a>( <span>string <var>$prefix</var></span> )
+<a href="source-class-FormField.php#35-39" title="Go to source code">set_form_id</a>( <span>string <var>$prefix</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@
 					<div>
 						<a class="anchor" href="#_set_fieldset_id">#</a>
 						<code>
-<a href="source-class-FormField.php#42-46" title="Go to source code">set_fieldset_id</a>( <span> <var>$fieldset_id</var></span> )
+<a href="source-class-FormField.php#41-45" title="Go to source code">set_fieldset_id</a>( <span> <var>$fieldset_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1042,7 +1038,7 @@
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-FormField.php#48-51" title="Go to source code">get_value</a>( )
+<a href="source-class-FormField.php#47-50" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1081,7 +1077,7 @@
 					<div>
 						<a class="anchor" href="#_set_value">#</a>
 						<code>
-<a href="source-class-FormField.php#53-57" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
+<a href="source-class-FormField.php#52-56" title="Go to source code">set_value</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1121,7 +1117,7 @@
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormField.php#59-62" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormField.php#58-61" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1156,7 +1152,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_id">#</a>
 						<code>
-<a href="source-class-FormField.php#64-68" title="Go to source code">get_html_id</a>( )
+<a href="source-class-FormField.php#63-67" title="Go to source code">get_html_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1195,7 +1191,7 @@
 					<div>
 						<a class="anchor" href="#_is_disabled">#</a>
 						<code>
-<a href="source-class-FormField.php#70-74" title="Go to source code">is_disabled</a>( )
+<a href="source-class-FormField.php#69-73" title="Go to source code">is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1234,7 +1230,7 @@
 					<div>
 						<a class="anchor" href="#_disable">#</a>
 						<code>
-<a href="source-class-FormField.php#76-79" title="Go to source code">disable</a>( )
+<a href="source-class-FormField.php#75-78" title="Go to source code">disable</a>( )
 						</code>
 
 							<div class="description short">
@@ -1269,7 +1265,7 @@
 					<div>
 						<a class="anchor" href="#_enable">#</a>
 						<code>
-<a href="source-class-FormField.php#81-84" title="Go to source code">enable</a>( )
+<a href="source-class-FormField.php#80-83" title="Go to source code">enable</a>( )
 						</code>
 
 							<div class="description short">
@@ -1304,7 +1300,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormField.php#86-90" title="Go to source code">validate</a>( )
+<a href="source-class-FormField.php#85-89" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1343,7 +1339,7 @@
 					<div>
 						<a class="anchor" href="#_get_validation_error_message">#</a>
 						<code>
-<a href="source-class-FormField.php#92-95" title="Go to source code">get_validation_error_message</a>( )
+<a href="source-class-FormField.php#91-94" title="Go to source code">get_validation_error_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -1378,7 +1374,7 @@
 					<div>
 						<a class="anchor" href="#_set_validation_error_message">#</a>
 						<code>
-<a href="source-class-FormField.php#97-101" title="Go to source code">set_validation_error_message</a>( <span>string <var>$error_message</var></span> )
+<a href="source-class-FormField.php#96-100" title="Go to source code">set_validation_error_message</a>( <span>string <var>$error_message</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1418,7 +1414,7 @@
 					<div>
 						<a class="anchor" href="#_add_constraint">#</a>
 						<code>
-<a href="source-class-FormField.php#103-107" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormFieldConstraint.php">FormFieldConstraint</a></code> <var>$constraint</var></span> )
+<a href="source-class-FormField.php#102-106" title="Go to source code">add_constraint</a>( <span><code><a href="class-FormFieldConstraint.php">FormFieldConstraint</a></code> <var>$constraint</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1458,7 +1454,7 @@
 					<div>
 						<a class="anchor" href="#_add_form_constraint">#</a>
 						<code>
-<a href="source-class-FormField.php#109-112" title="Go to source code">add_form_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
+<a href="source-class-FormField.php#108-111" title="Go to source code">add_form_constraint</a>( <span><code><a href="class-FormConstraint.php">FormConstraint</a></code> <var>$constraint</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1493,7 +1489,7 @@
 					<div>
 						<a class="anchor" href="#_has_constraints">#</a>
 						<code>
-<a href="source-class-FormField.php#114-118" title="Go to source code">has_constraints</a>( )
+<a href="source-class-FormField.php#113-117" title="Go to source code">has_constraints</a>( )
 						</code>
 
 							<div class="description short">
@@ -1532,7 +1528,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validations">#</a>
 						<code>
-<a href="source-class-FormField.php#120-124" title="Go to source code">get_js_validations</a>( )
+<a href="source-class-FormField.php#119-123" title="Go to source code">get_js_validations</a>( )
 						</code>
 
 							<div class="description short">

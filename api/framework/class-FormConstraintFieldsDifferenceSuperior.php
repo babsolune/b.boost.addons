@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraintFieldsDifferenceSuperior.php#3-82" title="Go to source code">builder/form/constraint/FormConstraintFieldsDifferenceSuperior.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraintFieldsDifferenceSuperior.php#3-81" title="Go to source code">builder/form/constraint/FormConstraintFieldsDifferenceSuperior.class.php</a></span>
 			</div>
 
 
@@ -722,7 +718,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -744,7 +740,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#26-41" title="Go to source code">__construct</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$first_field</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$second_field</var></span>, <span> <var>$js_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#25-40" title="Go to source code">__construct</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$first_field</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$second_field</var></span>, <span> <var>$js_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -779,7 +775,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#43-65" title="Go to source code">validate</a>( )
+<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#42-64" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -816,7 +812,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#67-70" title="Go to source code">get_js_validation</a>( )
+<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#66-69" title="Go to source code">get_js_validation</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_get_validation_error_message">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#72-76" title="Go to source code">get_validation_error_message</a>( )
+<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#71-75" title="Go to source code">get_validation_error_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_get_related_fields">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#78-81" title="Go to source code">get_related_fields</a>( )
+<a href="source-class-FormConstraintFieldsDifferenceSuperior.php#77-80" title="Go to source code">get_related_fields</a>( )
 						</code>
 
 							<div class="description short">

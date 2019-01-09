@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedFieldsService.php#3-211" title="Go to source code">phpboost/member/extended-fields/MemberExtendedFieldsService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedFieldsService.php#3-210" title="Go to source code">phpboost/member/extended-fields/MemberExtendedFieldsService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -718,7 +714,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -740,7 +736,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#19-22" title="Go to source code">__construct</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
+<a href="source-class-MemberExtendedFieldsService.php#18-21" title="Go to source code">__construct</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
 						</code>
 
 							<div class="description short">
@@ -775,7 +771,7 @@
 					<div>
 						<a class="anchor" href="#_display_form_fields">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#24-45" title="Go to source code">display_form_fields</a>( <span>object <var>$user_id</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-MemberExtendedFieldsService.php#23-44" title="Go to source code">display_form_fields</a>( <span>object <var>$user_id</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -815,7 +811,7 @@
 					<div>
 						<a class="anchor" href="#_display_profile_fields">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#47-83" title="Go to source code">display_profile_fields</a>( <span>object <var>$user_id</var></span> )
+<a href="source-class-MemberExtendedFieldsService.php#46-82" title="Go to source code">display_profile_fields</a>( <span>object <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#85-120" title="Go to source code">get_data</a>( <span>object <var>$user_id</var></span> )
+<a href="source-class-MemberExtendedFieldsService.php#84-119" title="Go to source code">get_data</a>( <span>object <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_delete_user_fields">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#173-193" title="Go to source code">delete_user_fields</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-MemberExtendedFieldsService.php#172-192" title="Go to source code">delete_user_fields</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_return_field_member">#</a>
 						<code>
-<a href="source-class-MemberExtendedFieldsService.php#195-210" title="Go to source code">return_field_member</a>( <span> <var>$field_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$rewrite</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-MemberExtendedFieldsService.php#194-209" title="Go to source code">return_field_member</a>( <span> <var>$field_name</var></span>, <span> <var>$user_id</var></span>, <span> <var>$rewrite</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">

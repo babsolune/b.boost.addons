@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQueryVars.php#3-52" title="Go to source code">io/db/SQLQueryVars.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SQLQueryVars.php#3-51" title="Go to source code">io/db/SQLQueryVars.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -745,7 +741,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -767,7 +763,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SQLQueryVars.php#21-26" title="Go to source code">__construct</a>( <span><code><a href="class-AbstractSQLQuerier.php">AbstractSQLQuerier</a></code> <var>$querier</var></span> )
+<a href="source-class-SQLQueryVars.php#20-25" title="Go to source code">__construct</a>( <span><code><a href="class-AbstractSQLQuerier.php">AbstractSQLQuerier</a></code> <var>$querier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -804,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_set_var">#</a>
 						<code>
-<a href="source-class-SQLQueryVars.php#28-51" title="Go to source code">set_var</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-SQLQueryVars.php#27-50" title="Go to source code">set_var</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">

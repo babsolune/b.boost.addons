@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Optimization.php">Optimization</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSCacheManager.php#3-97" title="Go to source code">io/optimization/CSSCacheManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CSSCacheManager.php#3-96" title="Go to source code">io/optimization/CSSCacheManager.class.php</a></span>
 			</div>
 
 
@@ -698,7 +694,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -720,7 +716,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#19-22" title="Go to source code">__construct</a>( )
+<a href="source-class-CSSCacheManager.php#18-21" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_path">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#25-51" title="Go to source code">get_css_path</a>( <span> <var>$files</var></span> )
+<a href="source-class-CSSCacheManager.php#24-50" title="Go to source code">get_css_path</a>( <span> <var>$files</var></span> )
 						</code>
 
 							<div class="description short">
@@ -790,7 +786,7 @@
 					<div>
 						<a class="anchor" href="#_set_files">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#53-59" title="Go to source code">set_files</a>( <span>array <var>$files</var></span> )
+<a href="source-class-CSSCacheManager.php#52-58" title="Go to source code">set_files</a>( <span>array <var>$files</var></span> )
 						</code>
 
 							<div class="description short">
@@ -825,7 +821,7 @@
 					<div>
 						<a class="anchor" href="#_set_cache_file_location">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#61-64" title="Go to source code">set_cache_file_location</a>( <span> <var>$location</var></span> )
+<a href="source-class-CSSCacheManager.php#60-63" title="Go to source code">set_cache_file_location</a>( <span> <var>$location</var></span> )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#66-85" title="Go to source code">execute</a>( <span> <var>$intensity</var> = CSSFileOptimizer::LOW_OPTIMIZATION</span> )
+<a href="source-class-CSSCacheManager.php#65-84" title="Go to source code">execute</a>( <span> <var>$intensity</var> = CSSFileOptimizer::LOW_OPTIMIZATION</span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 					<div>
 						<a class="anchor" href="#_get_cache_file_location">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#87-90" title="Go to source code">get_cache_file_location</a>( )
+<a href="source-class-CSSCacheManager.php#86-89" title="Go to source code">get_cache_file_location</a>( )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_force_regenerate_cache">#</a>
 						<code>
-<a href="source-class-CSSCacheManager.php#92-96" title="Go to source code">force_regenerate_cache</a>( <span> <var>$intensity</var></span> )
+<a href="source-class-CSSCacheManager.php#91-95" title="Go to source code">force_regenerate_cache</a>( <span> <var>$intensity</var></span> )
 						</code>
 
 							<div class="description short">

@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableModel.php#3-272" title="Go to source code">builder/table/HTMLTableModel.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableModel.php#3-271" title="Go to source code">builder/table/HTMLTableModel.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -711,7 +707,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -733,7 +729,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#41-54" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span>array <var>$columns</var></span>, <span><code><a href="class-HTMLTableSortingRule.php">HTMLTableSortingRule</a></code> <var>$default_sorting_rule</var></span>, <span> <var>$rows_per_page</var> = self::DEFAULT_PAGINATION</span> )
+<a href="source-class-HTMLTableModel.php#40-53" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span>array <var>$columns</var></span>, <span><code><a href="class-HTMLTableSortingRule.php">HTMLTableSortingRule</a></code> <var>$default_sorting_rule</var></span>, <span> <var>$rows_per_page</var> = self::DEFAULT_PAGINATION</span> )
 						</code>
 
 							<div class="description short">
@@ -768,7 +764,7 @@
 					<div>
 						<a class="anchor" href="#_set_html_table">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#56-59" title="Go to source code">set_html_table</a>( <span><code><a href="class-HTMLTable.php">HTMLTable</a></code> <var>$html_table</var></span> )
+<a href="source-class-HTMLTableModel.php#55-58" title="Go to source code">set_html_table</a>( <span><code><a href="class-HTMLTable.php">HTMLTable</a></code> <var>$html_table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@
 					<div>
 						<a class="anchor" href="#_has_id">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#61-67" title="Go to source code">has_id</a>( )
+<a href="source-class-HTMLTableModel.php#60-66" title="Go to source code">has_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -838,7 +834,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#69-75" title="Go to source code">get_id</a>( )
+<a href="source-class-HTMLTableModel.php#68-74" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -873,7 +869,7 @@
 					<div>
 						<a class="anchor" href="#_has_caption">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#77-83" title="Go to source code">has_caption</a>( )
+<a href="source-class-HTMLTableModel.php#76-82" title="Go to source code">has_caption</a>( )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@
 					<div>
 						<a class="anchor" href="#_get_caption">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#85-91" title="Go to source code">get_caption</a>( )
+<a href="source-class-HTMLTableModel.php#84-90" title="Go to source code">get_caption</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@
 					<div>
 						<a class="anchor" href="#_is_footer_displayed">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#93-99" title="Go to source code">is_footer_displayed</a>( )
+<a href="source-class-HTMLTableModel.php#92-98" title="Go to source code">is_footer_displayed</a>( )
 						</code>
 
 							<div class="description short">
@@ -978,7 +974,7 @@
 					<div>
 						<a class="anchor" href="#_is_pagination_activated">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#101-107" title="Go to source code">is_pagination_activated</a>( )
+<a href="source-class-HTMLTableModel.php#100-106" title="Go to source code">is_pagination_activated</a>( )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 					<div>
 						<a class="anchor" href="#_get_nb_rows_per_page">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#109-115" title="Go to source code">get_nb_rows_per_page</a>( )
+<a href="source-class-HTMLTableModel.php#108-114" title="Go to source code">get_nb_rows_per_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@
 					<div>
 						<a class="anchor" href="#_has_nb_rows_options">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#117-123" title="Go to source code">has_nb_rows_options</a>( )
+<a href="source-class-HTMLTableModel.php#116-122" title="Go to source code">has_nb_rows_options</a>( )
 						</code>
 
 							<div class="description short">
@@ -1083,7 +1079,7 @@
 					<div>
 						<a class="anchor" href="#_get_nb_rows_options">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#125-131" title="Go to source code">get_nb_rows_options</a>( )
+<a href="source-class-HTMLTableModel.php#124-130" title="Go to source code">get_nb_rows_options</a>( )
 						</code>
 
 							<div class="description short">
@@ -1118,7 +1114,7 @@
 					<div>
 						<a class="anchor" href="#_get_columns">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#133-139" title="Go to source code">get_columns</a>( )
+<a href="source-class-HTMLTableModel.php#132-138" title="Go to source code">get_columns</a>( )
 						</code>
 
 							<div class="description short">
@@ -1153,7 +1149,7 @@
 					<div>
 						<a class="anchor" href="#_default_sort_rule">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#141-147" title="Go to source code">default_sort_rule</a>( )
+<a href="source-class-HTMLTableModel.php#140-146" title="Go to source code">default_sort_rule</a>( )
 						</code>
 
 							<div class="description short">
@@ -1188,7 +1184,7 @@
 					<div>
 						<a class="anchor" href="#_is_sort_parameter_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#149-155" title="Go to source code">is_sort_parameter_allowed</a>( <span> <var>$parameter</var></span> )
+<a href="source-class-HTMLTableModel.php#148-154" title="Go to source code">is_sort_parameter_allowed</a>( <span> <var>$parameter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1223,7 +1219,7 @@
 					<div>
 						<a class="anchor" href="#_is_filter_allowed">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#157-166" title="Go to source code">is_filter_allowed</a>( <span> <var>$id</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-HTMLTableModel.php#156-165" title="Go to source code">is_filter_allowed</a>( <span> <var>$id</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1258,7 +1254,7 @@
 					<div>
 						<a class="anchor" href="#_get_filter">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#168-174" title="Go to source code">get_filter</a>( <span> <var>$id</var></span> )
+<a href="source-class-HTMLTableModel.php#167-173" title="Go to source code">get_filter</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1293,7 +1289,7 @@
 					<div>
 						<a class="anchor" href="#_get_filters">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#176-182" title="Go to source code">get_filters</a>( )
+<a href="source-class-HTMLTableModel.php#175-181" title="Go to source code">get_filters</a>( )
 						</code>
 
 							<div class="description short">
@@ -1328,7 +1324,7 @@
 					<div>
 						<a class="anchor" href="#_get_permanent_filter">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#184-190" title="Go to source code">get_permanent_filter</a>( <span> <var>$id</var></span> )
+<a href="source-class-HTMLTableModel.php#183-189" title="Go to source code">get_permanent_filter</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1363,7 +1359,7 @@
 					<div>
 						<a class="anchor" href="#_get_permanent_filters">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#192-198" title="Go to source code">get_permanent_filters</a>( )
+<a href="source-class-HTMLTableModel.php#191-197" title="Go to source code">get_permanent_filters</a>( )
 						</code>
 
 							<div class="description short">
@@ -1398,7 +1394,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#200-203" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-HTMLTableModel.php#199-202" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1433,7 +1429,7 @@
 					<div>
 						<a class="anchor" href="#_set_caption">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#205-208" title="Go to source code">set_caption</a>( <span> <var>$caption</var></span> )
+<a href="source-class-HTMLTableModel.php#204-207" title="Go to source code">set_caption</a>( <span> <var>$caption</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1468,7 +1464,7 @@
 					<div>
 						<a class="anchor" href="#_hide_footer">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#210-213" title="Go to source code">hide_footer</a>( )
+<a href="source-class-HTMLTableModel.php#209-212" title="Go to source code">hide_footer</a>( )
 						</code>
 
 							<div class="description short">
@@ -1503,7 +1499,7 @@
 					<div>
 						<a class="anchor" href="#_has_footer_css_class">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#215-218" title="Go to source code">has_footer_css_class</a>( )
+<a href="source-class-HTMLTableModel.php#214-217" title="Go to source code">has_footer_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1538,7 +1534,7 @@
 					<div>
 						<a class="anchor" href="#_get_footer_css_class">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#220-223" title="Go to source code">get_footer_css_class</a>( )
+<a href="source-class-HTMLTableModel.php#219-222" title="Go to source code">get_footer_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1573,7 +1569,7 @@
 					<div>
 						<a class="anchor" href="#_set_footer_css_class">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#225-228" title="Go to source code">set_footer_css_class</a>( <span> <var>$class</var></span> )
+<a href="source-class-HTMLTableModel.php#224-227" title="Go to source code">set_footer_css_class</a>( <span> <var>$class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1608,7 +1604,7 @@
 					<div>
 						<a class="anchor" href="#_add_footer_css_class">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#230-233" title="Go to source code">add_footer_css_class</a>( <span> <var>$class</var></span> )
+<a href="source-class-HTMLTableModel.php#229-232" title="Go to source code">add_footer_css_class</a>( <span> <var>$class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1643,7 +1639,7 @@
 					<div>
 						<a class="anchor" href="#_set_nb_rows_options">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#235-247" title="Go to source code">set_nb_rows_options</a>( <span>array <var>$nb_rows_options</var></span> )
+<a href="source-class-HTMLTableModel.php#234-246" title="Go to source code">set_nb_rows_options</a>( <span>array <var>$nb_rows_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1678,7 +1674,7 @@
 					<div>
 						<a class="anchor" href="#_add_filter">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#249-252" title="Go to source code">add_filter</a>( <span><code><a href="class-HTMLTableFilter.php">HTMLTableFilter</a></code> <var>$filter</var></span> )
+<a href="source-class-HTMLTableModel.php#248-251" title="Go to source code">add_filter</a>( <span><code><a href="class-HTMLTableFilter.php">HTMLTableFilter</a></code> <var>$filter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1713,7 +1709,7 @@
 					<div>
 						<a class="anchor" href="#_add_permanent_filter">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#254-257" title="Go to source code">add_permanent_filter</a>( <span> <var>$filter</var></span> )
+<a href="source-class-HTMLTableModel.php#253-256" title="Go to source code">add_permanent_filter</a>( <span> <var>$filter</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1748,7 +1744,7 @@
 					<div>
 						<a class="anchor" href="#_delete_last_column">#</a>
 						<code>
-<a href="source-class-HTMLTableModel.php#268-271" title="Go to source code">delete_last_column</a>( )
+<a href="source-class-HTMLTableModel.php#267-270" title="Go to source code">delete_last_column</a>( )
 						</code>
 
 							<div class="description short">
@@ -1794,7 +1790,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLTableModel.php#17" title="Go to source code"><b>NO_PAGINATION</b></a>
+								<a href="source-class-HTMLTableModel.php#16" title="Go to source code"><b>NO_PAGINATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1818,7 +1814,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HTMLTableModel.php#18" title="Go to source code"><b>DEFAULT_PAGINATION</b></a>
+								<a href="source-class-HTMLTableModel.php#17" title="Go to source code"><b>DEFAULT_PAGINATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1857,7 +1853,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-HTMLTableModel.php#20-23" title="Go to source code"><var>$html_table</var></a>
+						<a href="source-class-HTMLTableModel.php#19-22" title="Go to source code"><var>$html_table</var></a>
 
 					<div class="description short">
 						

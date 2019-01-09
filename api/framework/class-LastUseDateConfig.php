@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LastUseDateConfig.php#3-80" title="Go to source code">phpboost/config/LastUseDateConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LastUseDateConfig.php#3-79" title="Go to source code">phpboost/config/LastUseDateConfig.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -736,7 +732,7 @@ It's useful to know when to launch daily tasks.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@ It's useful to know when to launch daily tasks.</p>
 					<div>
 						<a class="anchor" href="#_set_last_use_date">#</a>
 						<code>
-<a href="source-class-LastUseDateConfig.php#18-27" title="Go to source code">set_last_use_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-LastUseDateConfig.php#17-26" title="Go to source code">set_last_use_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@ It's useful to know when to launch daily tasks.</p>
 					<div>
 						<a class="anchor" href="#_get_last_use_date">#</a>
 						<code>
-<a href="source-class-LastUseDateConfig.php#29-47" title="Go to source code">get_last_use_date</a>( )
+<a href="source-class-LastUseDateConfig.php#28-46" title="Go to source code">get_last_use_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -837,7 +833,7 @@ It's useful to know when to launch daily tasks.</p>
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-LastUseDateConfig.php#56-62" title="Go to source code">get_default_values</a>( )
+<a href="source-class-LastUseDateConfig.php#55-61" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@ It's useful to know when to launch daily tasks.</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-LastUseDateConfig.php#64-71" title="Go to source code">load</a>( )
+<a href="source-class-LastUseDateConfig.php#63-70" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@ It's useful to know when to launch daily tasks.</p>
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-LastUseDateConfig.php#73-79" title="Go to source code">save</a>( )
+<a href="source-class-LastUseDateConfig.php#72-78" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

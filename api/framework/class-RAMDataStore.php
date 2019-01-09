@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.store.php">store</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Loic ROUCHON <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;:&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-RAMDataStore.php#3-65" title="Go to source code">io/data/store/RAMDataStore.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-RAMDataStore.php#3-64" title="Go to source code">io/data/store/RAMDataStore.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -741,7 +737,7 @@ the page execution.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@ the page execution.</p>
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-RAMDataStore.php#22-32" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
+<a href="source-class-RAMDataStore.php#21-31" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@ the page execution.</p>
 					<div>
 						<a class="anchor" href="#_contains">#</a>
 						<code>
-<a href="source-class-RAMDataStore.php#34-40" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
+<a href="source-class-RAMDataStore.php#33-39" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@ the page execution.</p>
 					<div>
 						<a class="anchor" href="#_store">#</a>
 						<code>
-<a href="source-class-RAMDataStore.php#42-48" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$data</var></span> )
+<a href="source-class-RAMDataStore.php#41-47" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@ the page execution.</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-RAMDataStore.php#50-56" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
+<a href="source-class-RAMDataStore.php#49-55" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -945,7 +941,7 @@ the page execution.</p>
 					<div>
 						<a class="anchor" href="#_clear">#</a>
 						<code>
-<a href="source-class-RAMDataStore.php#58-64" title="Go to source code">clear</a>( )
+<a href="source-class-RAMDataStore.php#57-63" title="Go to source code">clear</a>( )
 						</code>
 
 							<div class="description short">

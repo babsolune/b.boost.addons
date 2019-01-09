@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -728,7 +724,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintRegex.php#3-81" title="Go to source code">builder/form/field/constraint/FormFieldConstraintRegex.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintRegex.php#3-80" title="Go to source code">builder/form/field/constraint/FormFieldConstraintRegex.class.php</a></span>
 			</div>
 
 
@@ -767,7 +763,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintRegex.php#23-39" title="Go to source code">__construct</a>( <span> <var>$php_regex</var></span>, <span> <var>$js_regex</var> = <span class="php-quote">''</span></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintRegex.php#22-38" title="Go to source code">__construct</a>( <span> <var>$php_regex</var></span>, <span> <var>$js_regex</var> = <span class="php-quote">''</span></span>, <span> <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintRegex.php#60-74" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintRegex.php#59-73" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintRegex.php#76-80" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintRegex.php#75-79" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">

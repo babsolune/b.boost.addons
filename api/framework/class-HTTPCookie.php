@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPCookie.php#3-143" title="Go to source code">io/http/HTTPCookie.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTTPCookie.php#3-142" title="Go to source code">io/http/HTTPCookie.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#26-48" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$value</var></span>, <span> <var>$timestamp</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-HTTPCookie.php#25-47" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$value</var></span>, <span> <var>$timestamp</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -777,7 +773,7 @@
 					<div>
 						<a class="anchor" href="#_set_expiration_date">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#50-60" title="Go to source code">set_expiration_date</a>( <span>integer <var>$timestamp</var></span> )
+<a href="source-class-HTTPCookie.php#49-59" title="Go to source code">set_expiration_date</a>( <span>integer <var>$timestamp</var></span> )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@ plus the number of seconds before you want it to expire.</p>
 					<div>
 						<a class="anchor" href="#_set_path">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#62-71" title="Go to source code">set_path</a>( <span>string <var>$path</var></span> )
+<a href="source-class-HTTPCookie.php#61-70" title="Go to source code">set_path</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -867,7 +863,7 @@ within the entire domain.</p>
 					<div>
 						<a class="anchor" href="#_set_domain">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#73-80" title="Go to source code">set_domain</a>( <span>string <var>$domain</var></span> )
+<a href="source-class-HTTPCookie.php#72-79" title="Go to source code">set_domain</a>( <span>string <var>$domain</var></span> )
 						</code>
 
 							<div class="description short">
@@ -907,7 +903,7 @@ within the entire domain.</p>
 					<div>
 						<a class="anchor" href="#_set_secure">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#82-94" title="Go to source code">set_secure</a>( <span>boolean <var>$secure</var></span> )
+<a href="source-class-HTTPCookie.php#81-93" title="Go to source code">set_secure</a>( <span>boolean <var>$secure</var></span> )
 						</code>
 
 							<div class="description short">
@@ -957,7 +953,7 @@ $_SERVER["HTTPS"]).</p>
 					<div>
 						<a class="anchor" href="#_set_httponly">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#96-107" title="Go to source code">set_httponly</a>( <span>boolean <var>$httponly</var></span> )
+<a href="source-class-HTTPCookie.php#95-106" title="Go to source code">set_httponly</a>( <span>boolean <var>$httponly</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1005,7 +1001,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#109-112" title="Go to source code">get_name</a>( )
+<a href="source-class-HTTPCookie.php#108-111" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1040,7 +1036,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#114-117" title="Go to source code">get_value</a>( )
+<a href="source-class-HTTPCookie.php#113-116" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -1075,7 +1071,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_expiration_date">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#119-122" title="Go to source code">get_expiration_date</a>( )
+<a href="source-class-HTTPCookie.php#118-121" title="Go to source code">get_expiration_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1110,7 +1106,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_path">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#124-127" title="Go to source code">get_path</a>( )
+<a href="source-class-HTTPCookie.php#123-126" title="Go to source code">get_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -1145,7 +1141,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_domain">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#129-132" title="Go to source code">get_domain</a>( )
+<a href="source-class-HTTPCookie.php#128-131" title="Go to source code">get_domain</a>( )
 						</code>
 
 							<div class="description short">
@@ -1180,7 +1176,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_secure">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#134-137" title="Go to source code">get_secure</a>( )
+<a href="source-class-HTTPCookie.php#133-136" title="Go to source code">get_secure</a>( )
 						</code>
 
 							<div class="description short">
@@ -1215,7 +1211,7 @@ not supported by all browsers). Added in PHP 5.2.0.</p>
 					<div>
 						<a class="anchor" href="#_get_httponly">#</a>
 						<code>
-<a href="source-class-HTTPCookie.php#139-142" title="Go to source code">get_httponly</a>( )
+<a href="source-class-HTTPCookie.php#138-141" title="Go to source code">get_httponly</a>( )
 						</code>
 
 							<div class="description short">

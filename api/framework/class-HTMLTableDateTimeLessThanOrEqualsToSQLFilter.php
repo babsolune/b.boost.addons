@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Table.php">Table</a>\<a href="package-Builder.Table.filter.php">filter</a>\<a href="package-Builder.Table.filter.sql.php">sql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 5.0 - 2017 04 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#3-24" title="Go to source code">builder/table/filter/sql/HTMLTableDateTimeLessThanOrEqualsToSQLFilter.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#3-23" title="Go to source code">builder/table/filter/sql/HTMLTableDateTimeLessThanOrEqualsToSQLFilter.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#_get_sql_comparator_symbol">#</a>
 						<code>
-<a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#15-18" title="Go to source code">get_sql_comparator_symbol</a>( )
+<a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#14-17" title="Go to source code">get_sql_comparator_symbol</a>( )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 					<div>
 						<a class="anchor" href="#_get_form_field_class">#</a>
 						<code>
-<a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#20-23" title="Go to source code">get_form_field_class</a>( )
+<a href="source-class-HTMLTableDateTimeLessThanOrEqualsToSQLFilter.php#19-22" title="Go to source code">get_form_field_class</a>( )
 						</code>
 
 							<div class="description short">

@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Types.php">Types</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 4.0 - 2013 01 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-IntegerType.php#14-38" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/IntegerType.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-IntegerType.php#13-37" title="Go to source code">io/db/dbms/Doctrine/DBAL/Types/IntegerType.php</a></span>
 			</div>
 
 
@@ -712,7 +708,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -734,7 +730,7 @@
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-IntegerType.php#19-22" title="Go to source code">getName</a>( )
+<a href="source-class-IntegerType.php#18-21" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_getSqlDeclaration">#</a>
 						<code>
-<a href="source-class-IntegerType.php#24-27" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-IntegerType.php#23-26" title="Go to source code">getSqlDeclaration</a>( <span>array <var>$fieldDeclaration</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -815,7 +811,7 @@
 					<div>
 						<a class="anchor" href="#_convertToPHPValue">#</a>
 						<code>
-<a href="source-class-IntegerType.php#29-32" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
+<a href="source-class-IntegerType.php#28-31" title="Go to source code">convertToPHPValue</a>( <span>mixed <var>$value</var></span>, <span><code><a href="class-AbstractPlatform.php">AbstractPlatform</a></code> <var>$platform</var></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@ of this type.</p>
 					<div>
 						<a class="anchor" href="#_getTypeCode">#</a>
 						<code>
-<a href="source-class-IntegerType.php#34-37" title="Go to source code">getTypeCode</a>( )
+<a href="source-class-IntegerType.php#33-36" title="Go to source code">getTypeCode</a>( )
 						</code>
 
 							<div class="description short">

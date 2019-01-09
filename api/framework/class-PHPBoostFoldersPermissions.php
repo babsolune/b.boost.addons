@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 05 29
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostFoldersPermissions.php#3-48" title="Go to source code">phpboost/environment/PHPBoostFoldersPermissions.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PHPBoostFoldersPermissions.php#3-47" title="Go to source code">phpboost/environment/PHPBoostFoldersPermissions.class.php</a></span>
 			</div>
 
 
@@ -730,7 +726,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-PHPBoostFoldersPermissions.php#17-22" title="Go to source code">__static</a>( )
+<a href="source-class-PHPBoostFoldersPermissions.php#16-21" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-PHPBoostFoldersPermissions.php#24-35" title="Go to source code">validate</a>( )
+<a href="source-class-PHPBoostFoldersPermissions.php#23-34" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_get_permissions">#</a>
 						<code>
-<a href="source-class-PHPBoostFoldersPermissions.php#37-47" title="Go to source code">get_permissions</a>( )
+<a href="source-class-PHPBoostFoldersPermissions.php#36-46" title="Go to source code">get_permissions</a>( )
 						</code>
 
 							<div class="description short">

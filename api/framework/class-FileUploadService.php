@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a>\<a href="package-IO.HTTP.upload.php">upload</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 01 24
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileUploadService.php#3-48" title="Go to source code">io/http/upload/FileUploadService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FileUploadService.php#3-47" title="Go to source code">io/http/upload/FileUploadService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_retrieve_file">#</a>
 						<code>
-<a href="source-class-FileUploadService.php#16-39" title="Go to source code">retrieve_file</a>( <span>string <var>$varname</var></span> )
+<a href="source-class-FileUploadService.php#15-38" title="Go to source code">retrieve_file</a>( <span>string <var>$varname</var></span> )
 						</code>
 
 							<div class="description short">

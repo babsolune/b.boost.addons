@@ -664,10 +664,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a>\<a href="package-Core.Error.php">Error</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 12 15
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-RawExceptionHandler.php#3-58" title="Go to source code">core/error/RawExceptionHandler.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-RawExceptionHandler.php#3-57" title="Go to source code">core/error/RawExceptionHandler.class.php</a></span>
 			</div>
 
 
@@ -699,7 +695,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -721,7 +717,7 @@
 					<div>
 						<a class="anchor" href="#_handle">#</a>
 						<code>
-<a href="source-class-RawExceptionHandler.php#20-33" title="Go to source code">handle</a>( <span>Exception <var>$exception</var></span> )
+<a href="source-class-RawExceptionHandler.php#19-32" title="Go to source code">handle</a>( <span>Exception <var>$exception</var></span> )
 						</code>
 
 							<div class="description short">

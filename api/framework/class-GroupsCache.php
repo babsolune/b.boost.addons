@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-GroupsCache.php#3-102" title="Go to source code">phpboost/cache/GroupsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-GroupsCache.php#3-101" title="Go to source code">phpboost/cache/GroupsCache.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#22-41" title="Go to source code">synchronize</a>( )
+<a href="source-class-GroupsCache.php#21-40" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_groups">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#43-50" title="Go to source code">get_groups</a>( )
+<a href="source-class-GroupsCache.php#42-49" title="Go to source code">get_groups</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_group_exists">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#52-55" title="Go to source code">group_exists</a>( <span> <var>$group_id</var></span> )
+<a href="source-class-GroupsCache.php#51-54" title="Go to source code">group_exists</a>( <span> <var>$group_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_group_name_exists">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#57-65" title="Go to source code">group_name_exists</a>( <span> <var>$group_name</var></span> )
+<a href="source-class-GroupsCache.php#56-64" title="Go to source code">group_name_exists</a>( <span> <var>$group_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_group">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#67-75" title="Go to source code">get_group</a>( <span> <var>$group_id</var></span> )
+<a href="source-class-GroupsCache.php#66-74" title="Go to source code">get_group</a>( <span> <var>$group_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_set_groups">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#77-84" title="Go to source code">set_groups</a>( <span> <var>$groups_list</var></span> )
+<a href="source-class-GroupsCache.php#76-83" title="Go to source code">set_groups</a>( <span> <var>$groups_list</var></span> )
 						</code>
 
 							<div class="description short">
@@ -975,7 +971,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#86-93" title="Go to source code">load</a>( )
+<a href="source-class-GroupsCache.php#85-92" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1014,7 +1010,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-GroupsCache.php#95-101" title="Go to source code">invalidate</a>( )
+<a href="source-class-GroupsCache.php#94-100" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

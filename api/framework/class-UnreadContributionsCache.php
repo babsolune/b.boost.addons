@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UnreadContributionsCache.php#3-219" title="Go to source code">phpboost/cache/UnreadContributionsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UnreadContributionsCache.php#3-218" title="Go to source code">phpboost/cache/UnreadContributionsCache.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -723,7 +719,7 @@ types of users, it's only able to tell if there are unread contributions.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -745,7 +741,7 @@ types of users, it's only able to tell if there are unread contributions.</p>
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#26-34" title="Go to source code">synchronize</a>( )
+<a href="source-class-UnreadContributionsCache.php#25-33" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -784,7 +780,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_are_there_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#36-43" title="Go to source code">are_there_unread_contributions</a>( )
+<a href="source-class-UnreadContributionsCache.php#35-42" title="Go to source code">are_there_unread_contributions</a>( )
 						</code>
 
 							<div class="description short">
@@ -823,7 +819,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_admin_unread_contributions_number">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#45-52" title="Go to source code">get_admin_unread_contributions_number</a>( )
+<a href="source-class-UnreadContributionsCache.php#44-51" title="Go to source code">get_admin_unread_contributions_number</a>( )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_set_admin_unread_contributions_number">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#54-62" title="Go to source code">set_admin_unread_contributions_number</a>( <span>integer <var>$number</var></span> )
+<a href="source-class-UnreadContributionsCache.php#53-61" title="Go to source code">set_admin_unread_contributions_number</a>( <span>integer <var>$number</var></span> )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_have_moderators_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#64-71" title="Go to source code">have_moderators_unread_contributions</a>( )
+<a href="source-class-UnreadContributionsCache.php#63-70" title="Go to source code">have_moderators_unread_contributions</a>( )
 						</code>
 
 							<div class="description short">
@@ -943,7 +939,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_has_user_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#73-82" title="Go to source code">has_user_unread_contributions</a>( <span>integer <var>$user_id</var></span> )
+<a href="source-class-UnreadContributionsCache.php#72-81" title="Go to source code">has_user_unread_contributions</a>( <span>integer <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -989,7 +985,7 @@ and not with rank or group contributions).</p>
 					<div>
 						<a class="anchor" href="#_has_group_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#84-93" title="Go to source code">has_group_unread_contributions</a>( <span>integer <var>$group_id</var></span> )
+<a href="source-class-UnreadContributionsCache.php#83-92" title="Go to source code">has_group_unread_contributions</a>( <span>integer <var>$group_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1035,7 +1031,7 @@ and not with rank or group contributions).</p>
 					<div>
 						<a class="anchor" href="#_set_moderators_have_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#95-103" title="Go to source code">set_moderators_have_unread_contributions</a>( <span>boolean <var>$have</var></span> )
+<a href="source-class-UnreadContributionsCache.php#94-102" title="Go to source code">set_moderators_have_unread_contributions</a>( <span>boolean <var>$have</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1077,7 +1073,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_have_members_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#105-112" title="Go to source code">have_members_unread_contributions</a>( )
+<a href="source-class-UnreadContributionsCache.php#104-111" title="Go to source code">have_members_unread_contributions</a>( )
 						</code>
 
 							<div class="description short">
@@ -1116,7 +1112,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_set_members_have_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#114-122" title="Go to source code">set_members_have_unread_contributions</a>( <span>boolean <var>$have</var></span> )
+<a href="source-class-UnreadContributionsCache.php#113-121" title="Go to source code">set_members_have_unread_contributions</a>( <span>boolean <var>$have</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1158,7 +1154,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_get_groups_with_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#124-131" title="Go to source code">get_groups_with_unread_contributions</a>( )
+<a href="source-class-UnreadContributionsCache.php#123-130" title="Go to source code">get_groups_with_unread_contributions</a>( )
 						</code>
 
 							<div class="description short">
@@ -1197,7 +1193,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_add_group_with_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#133-141" title="Go to source code">add_group_with_unread_contributions</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-UnreadContributionsCache.php#132-140" title="Go to source code">add_group_with_unread_contributions</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1239,7 +1235,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_get_users_with_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#143-150" title="Go to source code">get_users_with_unread_contributions</a>( )
+<a href="source-class-UnreadContributionsCache.php#142-149" title="Go to source code">get_users_with_unread_contributions</a>( )
 						</code>
 
 							<div class="description short">
@@ -1278,7 +1274,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_add_user_with_unread_contributions">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#152-160" title="Go to source code">add_user_with_unread_contributions</a>( <span>integer <var>$id</var></span> )
+<a href="source-class-UnreadContributionsCache.php#151-159" title="Go to source code">add_user_with_unread_contributions</a>( <span>integer <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1320,7 +1316,7 @@ This method should be private but is public for unit tests.</p>
 					<div>
 						<a class="anchor" href="#_set_values">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#162-193" title="Go to source code">set_values</a>( <span>array <var>$numbers</var></span> )
+<a href="source-class-UnreadContributionsCache.php#161-192" title="Go to source code">set_values</a>( <span>array <var>$numbers</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1364,7 +1360,7 @@ This method should be private but is public for unit tests.</p></dd>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#195-202" title="Go to source code">load</a>( )
+<a href="source-class-UnreadContributionsCache.php#194-201" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1403,7 +1399,7 @@ This method should be private but is public for unit tests.</p></dd>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-UnreadContributionsCache.php#204-210" title="Go to source code">invalidate</a>( )
+<a href="source-class-UnreadContributionsCache.php#203-209" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

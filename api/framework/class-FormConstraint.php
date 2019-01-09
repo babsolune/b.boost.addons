@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraint.php#3-21" title="Go to source code">builder/form/constraint/FormConstraint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraint.php#3-20" title="Go to source code">builder/form/constraint/FormConstraint.class.php</a></span>
 			</div>
 
 
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormConstraint.php#16" title="Go to source code">validate</a>( )
+<a href="source-class-FormConstraint.php#15" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -777,7 +773,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormConstraint.php#18" title="Go to source code">get_js_validation</a>( )
+<a href="source-class-FormConstraint.php#17" title="Go to source code">get_js_validation</a>( )
 						</code>
 
 							<div class="description short">
@@ -812,7 +808,7 @@
 					<div>
 						<a class="anchor" href="#_get_related_fields">#</a>
 						<code>
-<a href="source-class-FormConstraint.php#20" title="Go to source code">get_related_fields</a>( )
+<a href="source-class-FormConstraint.php#19" title="Go to source code">get_related_fields</a>( )
 						</code>
 
 							<div class="description short">

@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a>\<a href="package-PHPBoost.User.authentication.php">authentication</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExternalAuthentication.php#3-47" title="Go to source code">phpboost/user/authentication/ExternalAuthentication.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExternalAuthentication.php#3-46" title="Go to source code">phpboost/user/authentication/ExternalAuthentication.class.php</a></span>
 			</div>
 
 
@@ -713,7 +709,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -735,7 +731,7 @@
 					<div>
 						<a class="anchor" href="#_get_authentication_id">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#16-19" title="Go to source code">get_authentication_id</a>( )
+<a href="source-class-ExternalAuthentication.php#15-18" title="Go to source code">get_authentication_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#_get_authentication_name">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#21-24" title="Go to source code">get_authentication_name</a>( )
+<a href="source-class-ExternalAuthentication.php#20-23" title="Go to source code">get_authentication_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_authentication_actived">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#26-29" title="Go to source code">authentication_actived</a>( )
+<a href="source-class-ExternalAuthentication.php#25-28" title="Go to source code">authentication_actived</a>( )
 						</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@
 					<div>
 						<a class="anchor" href="#_get_image_renderer_html">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#31-34" title="Go to source code">get_image_renderer_html</a>( )
+<a href="source-class-ExternalAuthentication.php#30-33" title="Go to source code">get_image_renderer_html</a>( )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_class">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#36-39" title="Go to source code">get_css_class</a>( )
+<a href="source-class-ExternalAuthentication.php#35-38" title="Go to source code">get_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -930,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_get_authentication">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#41-44" title="Go to source code">get_authentication</a>( )
+<a href="source-class-ExternalAuthentication.php#40-43" title="Go to source code">get_authentication</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 					<div>
 						<a class="anchor" href="#_delete_session_token">#</a>
 						<code>
-<a href="source-class-ExternalAuthentication.php#46" title="Go to source code">delete_session_token</a>( )
+<a href="source-class-ExternalAuthentication.php#45" title="Go to source code">delete_session_token</a>( )
 						</code>
 
 							<div class="description short">

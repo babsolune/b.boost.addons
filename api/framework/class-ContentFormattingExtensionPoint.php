@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Formatting.php">Formatting</a>\<a href="package-Content.Formatting.extension.point.php">extension-point</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 10 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingExtensionPoint.php#3-66" title="Go to source code">content/formatting/extension-point/ContentFormattingExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentFormattingExtensionPoint.php#3-65" title="Go to source code">content/formatting/extension-point/ContentFormattingExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#17" title="Go to source code">get_name</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#16" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -776,7 +772,7 @@
 					<div>
 						<a class="anchor" href="#_get_parser">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#19-23" title="Go to source code">get_parser</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#18-22" title="Go to source code">get_parser</a>( )
 						</code>
 
 							<div class="description short">
@@ -815,7 +811,7 @@
 					<div>
 						<a class="anchor" href="#_get_unparser">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#25-29" title="Go to source code">get_unparser</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#24-28" title="Go to source code">get_unparser</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@
 					<div>
 						<a class="anchor" href="#_get_second_parser">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#31-35" title="Go to source code">get_second_parser</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#30-34" title="Go to source code">get_second_parser</a>( )
 						</code>
 
 							<div class="description short">
@@ -893,7 +889,7 @@
 					<div>
 						<a class="anchor" href="#_get_editor">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#37-41" title="Go to source code">get_editor</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#36-40" title="Go to source code">get_editor</a>( )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@
 					<div>
 						<a class="anchor" href="#_set_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#43-47" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$tags</var></span> )
+<a href="source-class-ContentFormattingExtensionPoint.php#42-46" title="Go to source code">set_forbidden_tags</a>( <span>array <var>$tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@
 					<div>
 						<a class="anchor" href="#_get_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#49-53" title="Go to source code">get_forbidden_tags</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#48-52" title="Go to source code">get_forbidden_tags</a>( )
 						</code>
 
 							<div class="description short">
@@ -1011,7 +1007,7 @@
 					<div>
 						<a class="anchor" href="#_add_forbidden_tag">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#55-59" title="Go to source code">add_forbidden_tag</a>( <span>string <var>$tag</var></span> )
+<a href="source-class-ContentFormattingExtensionPoint.php#54-58" title="Go to source code">add_forbidden_tag</a>( <span>string <var>$tag</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1051,7 +1047,7 @@
 					<div>
 						<a class="anchor" href="#_add_forbidden_tags">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#61" title="Go to source code">add_forbidden_tags</a>( <span>array <var>$tags</var></span> )
+<a href="source-class-ContentFormattingExtensionPoint.php#60" title="Go to source code">add_forbidden_tags</a>( <span>array <var>$tags</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1086,7 +1082,7 @@
 					<div>
 						<a class="anchor" href="#_set_html_auth">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#63" title="Go to source code">set_html_auth</a>( <span>array <var>$array_auth</var></span> )
+<a href="source-class-ContentFormattingExtensionPoint.php#62" title="Go to source code">set_html_auth</a>( <span>array <var>$array_auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1121,7 +1117,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_auth">#</a>
 						<code>
-<a href="source-class-ContentFormattingExtensionPoint.php#65" title="Go to source code">get_html_auth</a>( )
+<a href="source-class-ContentFormattingExtensionPoint.php#64" title="Go to source code">get_html_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1167,7 +1163,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentFormattingExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-ContentFormattingExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

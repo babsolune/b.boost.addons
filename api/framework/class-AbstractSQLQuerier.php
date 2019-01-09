@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -683,7 +679,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 04
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSQLQuerier.php#3-71" title="Go to source code">io/db/driver/AbstractSQLQuerier.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSQLQuerier.php#3-70" title="Go to source code">io/db/driver/AbstractSQLQuerier.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -712,7 +708,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -734,7 +730,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#36-40" title="Go to source code">__construct</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$connection</var></span>, <span><code><a href="class-SQLQueryTranslator.php">SQLQueryTranslator</a></code> <var>$translator</var></span> )
+<a href="source-class-AbstractSQLQuerier.php#35-39" title="Go to source code">__construct</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$connection</var></span>, <span><code><a href="class-SQLQueryTranslator.php">SQLQueryTranslator</a></code> <var>$translator</var></span> )
 						</code>
 
 							<div class="description short">
@@ -769,7 +765,7 @@
 					<div>
 						<a class="anchor" href="#_enable_query_translator">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#42-45" title="Go to source code">enable_query_translator</a>( )
+<a href="source-class-AbstractSQLQuerier.php#41-44" title="Go to source code">enable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@
 					<div>
 						<a class="anchor" href="#_disable_query_translator">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#47-50" title="Go to source code">disable_query_translator</a>( )
+<a href="source-class-AbstractSQLQuerier.php#46-49" title="Go to source code">disable_query_translator</a>( )
 						</code>
 
 							<div class="description short">
@@ -843,7 +839,7 @@
 					<div>
 						<a class="anchor" href="#_get_executed_requests_count">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#52-55" title="Go to source code">get_executed_requests_count</a>( )
+<a href="source-class-AbstractSQLQuerier.php#51-54" title="Go to source code">get_executed_requests_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@
 					<div>
 						<a class="anchor" href="#_prepare">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#57-65" title="Go to source code">prepare</a>( <span> <var>$query</var></span> )
+<a href="source-class-AbstractSQLQuerier.php#56-64" title="Go to source code">prepare</a>( <span> <var>$query</var></span> )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@
 					<div>
 						<a class="anchor" href="#_get_link">#</a>
 						<code>
-<a href="source-class-AbstractSQLQuerier.php#67-70" title="Go to source code">get_link</a>( )
+<a href="source-class-AbstractSQLQuerier.php#66-69" title="Go to source code">get_link</a>( )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractSQLQuerier.php#16-19" title="Go to source code"><var>$link</var></a>
+						<a href="source-class-AbstractSQLQuerier.php#15-18" title="Go to source code"><var>$link</var></a>
 
 					<div class="description short">
 						

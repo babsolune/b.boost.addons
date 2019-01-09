@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -722,7 +718,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-I18NMessages.php#3-92" title="Go to source code">io/template/I18NMessages.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-I18NMessages.php#3-91" title="Go to source code">io/template/I18NMessages.class.php</a></span>
 			</div>
 
 
@@ -734,7 +730,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -756,7 +752,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#19-22" title="Go to source code">__construct</a>( <span> <var>$resources</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-I18NMessages.php#18-21" title="Go to source code">__construct</a>( <span> <var>$resources</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -791,7 +787,7 @@
 					<div>
 						<a class="anchor" href="#_resources">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#24-37" title="Go to source code">resources</a>( <span> <var>$resources</var></span> )
+<a href="source-class-I18NMessages.php#23-36" title="Go to source code">resources</a>( <span> <var>$resources</var></span> )
 						</code>
 
 							<div class="description short">
@@ -826,7 +822,7 @@
 					<div>
 						<a class="anchor" href="#_add_language_maps">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#57-67" title="Go to source code">add_language_maps</a>( <span>array <var>$lang</var></span> )
+<a href="source-class-I18NMessages.php#56-66" title="Go to source code">add_language_maps</a>( <span>array <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_i18n">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#69-72" title="Go to source code">i18n</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
+<a href="source-class-I18NMessages.php#68-71" title="Go to source code">i18n</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -896,7 +892,7 @@
 					<div>
 						<a class="anchor" href="#_i18njs">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#74-77" title="Go to source code">i18njs</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
+<a href="source-class-I18NMessages.php#73-76" title="Go to source code">i18njs</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -931,7 +927,7 @@
 					<div>
 						<a class="anchor" href="#_i18njsraw">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#79-82" title="Go to source code">i18njsraw</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
+<a href="source-class-I18NMessages.php#78-81" title="Go to source code">i18njsraw</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -966,7 +962,7 @@
 					<div>
 						<a class="anchor" href="#_i18nraw">#</a>
 						<code>
-<a href="source-class-I18NMessages.php#84-91" title="Go to source code">i18nraw</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
+<a href="source-class-I18NMessages.php#83-90" title="Go to source code">i18nraw</a>( <span> <var>$key</var></span>, <span> <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">

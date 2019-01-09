@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsDatabaseService.php#3-191" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldsDatabaseService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsDatabaseService.php#3-190" title="Go to source code">phpboost/member/extended-fields/ExtendedFieldsDatabaseService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -719,7 +715,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#20-23" title="Go to source code">__static</a>( )
+<a href="source-class-ExtendedFieldsDatabaseService.php#19-22" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -776,7 +772,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_add_extended_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#25-45" title="Go to source code">add_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#24-44" title="Go to source code">add_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_update_extended_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#47-79" title="Go to source code">update_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#46-78" title="Go to source code">update_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_delete_extended_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#81-104" title="Go to source code">delete_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#80-103" title="Go to source code">delete_extended_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -881,7 +877,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_update_extended_field_display_by_id">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#106-116" title="Go to source code">update_extended_field_display_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#105-115" title="Go to source code">update_extended_field_display_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -916,7 +912,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_update_extended_field_display_by_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#118-128" title="Go to source code">update_extended_field_display_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#117-127" title="Go to source code">update_extended_field_display_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -951,7 +947,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_select_data_field_by_id">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#130-133" title="Go to source code">select_data_field_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#129-132" title="Go to source code">select_data_field_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -986,7 +982,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_select_data_field_by_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#135-138" title="Go to source code">select_data_field_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#134-137" title="Go to source code">select_data_field_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1021,7 +1017,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_check_field_exist_by_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#140-143" title="Go to source code">check_field_exist_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#139-142" title="Go to source code">check_field_exist_by_field_name</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1056,7 +1052,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_check_field_exist_by_id">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#145-148" title="Go to source code">check_field_exist_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#144-147" title="Go to source code">check_field_exist_by_id</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1091,7 +1087,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_check_field_exist_by_type">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#150-153" title="Go to source code">check_field_exist_by_type</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#149-152" title="Go to source code">check_field_exist_by_type</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1126,7 +1122,7 @@ Indeed, for instance when a field is created, the data base structure must be up
 					<div>
 						<a class="anchor" href="#_type_columm_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsDatabaseService.php#186-189" title="Go to source code">type_columm_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
+<a href="source-class-ExtendedFieldsDatabaseService.php#185-188" title="Go to source code">type_columm_field</a>( <span><code><a href="class-ExtendedField.php">ExtendedField</a></code> <var>$extended_field</var></span> )
 						</code>
 
 							<div class="description short">

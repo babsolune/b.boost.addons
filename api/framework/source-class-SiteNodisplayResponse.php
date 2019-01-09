@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,28 +1294,27 @@
 		<header><h2>File mvc/response/SiteNodisplayResponse.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span><span class="l"><a href="#12">12: </a></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span><span class="l"><a href="#21">21: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span><span class="l"><a href="#11">11: </a></span><span class="l"><a href="#12">12: </a></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span><span class="l"><a href="#19">19: </a></span><span class="l"><a href="#20">20: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * @package     MVC
 </span></span><span id="4" class="l"><span class="php-comment"> * @subpackage  Response
-</span></span><span id="5" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="6" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="7" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="8" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
-</span></span><span id="9" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2014 12 22
-</span></span><span id="10" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2009 10 18
-</span></span><span id="11" class="l"><span class="php-comment">*/</span>
-</span><span id="12" class="l">
-</span><span id="13" class="l"><span class="php-keyword1">class</span> SiteNodisplayResponse <span class="php-keyword1">extends</span> AbstractResponse
-</span><span id="14" class="l">{
-</span><span id="15" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$view</span>)
-</span><span id="16" class="l">    {
-</span><span id="17" class="l">        parent::__construct(<span class="php-keyword1">new</span> SiteNodisplayGraphicalEnvironment(), <span class="php-var">$view</span>);
-</span><span id="18" class="l">    }
-</span><span id="19" class="l">}
-</span><span id="20" class="l"><span class="xlang">?&gt;</span>
-</span><span id="21" class="l"></span></code></pre>
+</span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="7" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2014 12 22
+</span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2009 10 18
+</span></span><span id="10" class="l"><span class="php-comment">*/</span>
+</span><span id="11" class="l">
+</span><span id="12" class="l"><span class="php-keyword1">class</span> SiteNodisplayResponse <span class="php-keyword1">extends</span> AbstractResponse
+</span><span id="13" class="l">{
+</span><span id="14" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$view</span>)
+</span><span id="15" class="l">    {
+</span><span id="16" class="l">        parent::__construct(<span class="php-keyword1">new</span> SiteNodisplayGraphicalEnvironment(), <span class="php-var">$view</span>);
+</span><span id="17" class="l">    }
+</span><span id="18" class="l">}
+</span><span id="19" class="l"><span class="xlang">?&gt;</span>
+</span><span id="20" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

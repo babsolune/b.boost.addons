@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,579 +1294,578 @@
 		<header><h2>File phpboost/cache/HtaccessFileCache.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span></span><span class="l"><a href="#13"> 13: </a></span></span><span class="l"><a href="#14"> 14: </a></span></span><span class="l"><a href="#15"> 15: </a></span></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span><span class="l"><a href="#24"> 24: </a></span></span><span class="l"><a href="#25"> 25: </a></span></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span><span class="l"><a href="#36"> 36: </a></span><span class="l"><a href="#37"> 37: </a></span><span class="l"><a href="#38"> 38: </a></span><span class="l"><a href="#39"> 39: </a></span><span class="l"><a href="#40"> 40: </a></span><span class="l"><a href="#41"> 41: </a></span><span class="l"><a href="#42"> 42: </a></span><span class="l"><a href="#43"> 43: </a></span><span class="l"><a href="#44"> 44: </a></span><span class="l"><a href="#45"> 45: </a></span><span class="l"><a href="#46"> 46: </a></span><span class="l"><a href="#47"> 47: </a></span><span class="l"><a href="#48"> 48: </a></span><span class="l"><a href="#49"> 49: </a></span><span class="l"><a href="#50"> 50: </a></span><span class="l"><a href="#51"> 51: </a></span><span class="l"><a href="#52"> 52: </a></span><span class="l"><a href="#53"> 53: </a></span><span class="l"><a href="#54"> 54: </a></span><span class="l"><a href="#55"> 55: </a></span><span class="l"><a href="#56"> 56: </a></span><span class="l"><a href="#57"> 57: </a></span><span class="l"><a href="#58"> 58: </a></span><span class="l"><a href="#59"> 59: </a></span><span class="l"><a href="#60"> 60: </a></span><span class="l"><a href="#61"> 61: </a></span><span class="l"><a href="#62"> 62: </a></span><span class="l"><a href="#63"> 63: </a></span><span class="l"><a href="#64"> 64: </a></span><span class="l"><a href="#65"> 65: </a></span><span class="l"><a href="#66"> 66: </a></span><span class="l"><a href="#67"> 67: </a></span><span class="l"><a href="#68"> 68: </a></span><span class="l"><a href="#69"> 69: </a></span><span class="l"><a href="#70"> 70: </a></span><span class="l"><a href="#71"> 71: </a></span><span class="l"><a href="#72"> 72: </a></span><span class="l"><a href="#73"> 73: </a></span><span class="l"><a href="#74"> 74: </a></span><span class="l"><a href="#75"> 75: </a></span><span class="l"><a href="#76"> 76: </a></span><span class="l"><a href="#77"> 77: </a></span><span class="l"><a href="#78"> 78: </a></span><span class="l"><a href="#79"> 79: </a></span><span class="l"><a href="#80"> 80: </a></span><span class="l"><a href="#81"> 81: </a></span><span class="l"><a href="#82"> 82: </a></span><span class="l"><a href="#83"> 83: </a></span><span class="l"><a href="#84"> 84: </a></span><span class="l"><a href="#85"> 85: </a></span><span class="l"><a href="#86"> 86: </a></span><span class="l"><a href="#87"> 87: </a></span><span class="l"><a href="#88"> 88: </a></span><span class="l"><a href="#89"> 89: </a></span><span class="l"><a href="#90"> 90: </a></span><span class="l"><a href="#91"> 91: </a></span><span class="l"><a href="#92"> 92: </a></span><span class="l"><a href="#93"> 93: </a></span><span class="l"><a href="#94"> 94: </a></span><span class="l"><a href="#95"> 95: </a></span><span class="l"><a href="#96"> 96: </a></span><span class="l"><a href="#97"> 97: </a></span><span class="l"><a href="#98"> 98: </a></span><span class="l"><a href="#99"> 99: </a></span><span class="l"><a href="#100">100: </a></span><span class="l"><a href="#101">101: </a></span><span class="l"><a href="#102">102: </a></span><span class="l"><a href="#103">103: </a></span><span class="l"><a href="#104">104: </a></span><span class="l"><a href="#105">105: </a></span><span class="l"><a href="#106">106: </a></span><span class="l"><a href="#107">107: </a></span><span class="l"><a href="#108">108: </a></span><span class="l"><a href="#109">109: </a></span><span class="l"><a href="#110">110: </a></span><span class="l"><a href="#111">111: </a></span><span class="l"><a href="#112">112: </a></span><span class="l"><a href="#113">113: </a></span><span class="l"><a href="#114">114: </a></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span><span class="l"><a href="#142">142: </a></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span><span class="l"><a href="#145">145: </a></span><span class="l"><a href="#146">146: </a></span><span class="l"><a href="#147">147: </a></span><span class="l"><a href="#148">148: </a></span><span class="l"><a href="#149">149: </a></span><span class="l"><a href="#150">150: </a></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span><span class="l"><a href="#160">160: </a></span><span class="l"><a href="#161">161: </a></span><span class="l"><a href="#162">162: </a></span><span class="l"><a href="#163">163: </a></span><span class="l"><a href="#164">164: </a></span><span class="l"><a href="#165">165: </a></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span><span class="l"><a href="#175">175: </a></span><span class="l"><a href="#176">176: </a></span><span class="l"><a href="#177">177: </a></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span><span class="l"><a href="#187">187: </a></span><span class="l"><a href="#188">188: </a></span><span class="l"><a href="#189">189: </a></span><span class="l"><a href="#190">190: </a></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span><span class="l"><a href="#200">200: </a></span><span class="l"><a href="#201">201: </a></span><span class="l"><a href="#202">202: </a></span><span class="l"><a href="#203">203: </a></span><span class="l"><a href="#204">204: </a></span><span class="l"><a href="#205">205: </a></span><span class="l"><a href="#206">206: </a></span><span class="l"><a href="#207">207: </a></span><span class="l"><a href="#208">208: </a></span><span class="l"><a href="#209">209: </a></span><span class="l"><a href="#210">210: </a></span><span class="l"><a href="#211">211: </a></span><span class="l"><a href="#212">212: </a></span><span class="l"><a href="#213">213: </a></span><span class="l"><a href="#214">214: </a></span><span class="l"><a href="#215">215: </a></span><span class="l"><a href="#216">216: </a></span><span class="l"><a href="#217">217: </a></span><span class="l"><a href="#218">218: </a></span><span class="l"><a href="#219">219: </a></span><span class="l"><a href="#220">220: </a></span><span class="l"><a href="#221">221: </a></span><span class="l"><a href="#222">222: </a></span><span class="l"><a href="#223">223: </a></span><span class="l"><a href="#224">224: </a></span><span class="l"><a href="#225">225: </a></span><span class="l"><a href="#226">226: </a></span><span class="l"><a href="#227">227: </a></span><span class="l"><a href="#228">228: </a></span><span class="l"><a href="#229">229: </a></span><span class="l"><a href="#230">230: </a></span><span class="l"><a href="#231">231: </a></span><span class="l"><a href="#232">232: </a></span><span class="l"><a href="#233">233: </a></span><span class="l"><a href="#234">234: </a></span><span class="l"><a href="#235">235: </a></span><span class="l"><a href="#236">236: </a></span><span class="l"><a href="#237">237: </a></span><span class="l"><a href="#238">238: </a></span><span class="l"><a href="#239">239: </a></span><span class="l"><a href="#240">240: </a></span><span class="l"><a href="#241">241: </a></span><span class="l"><a href="#242">242: </a></span><span class="l"><a href="#243">243: </a></span><span class="l"><a href="#244">244: </a></span><span class="l"><a href="#245">245: </a></span><span class="l"><a href="#246">246: </a></span><span class="l"><a href="#247">247: </a></span><span class="l"><a href="#248">248: </a></span><span class="l"><a href="#249">249: </a></span><span class="l"><a href="#250">250: </a></span><span class="l"><a href="#251">251: </a></span><span class="l"><a href="#252">252: </a></span><span class="l"><a href="#253">253: </a></span><span class="l"><a href="#254">254: </a></span><span class="l"><a href="#255">255: </a></span><span class="l"><a href="#256">256: </a></span><span class="l"><a href="#257">257: </a></span><span class="l"><a href="#258">258: </a></span><span class="l"><a href="#259">259: </a></span><span class="l"><a href="#260">260: </a></span><span class="l"><a href="#261">261: </a></span><span class="l"><a href="#262">262: </a></span><span class="l"><a href="#263">263: </a></span><span class="l"><a href="#264">264: </a></span><span class="l"><a href="#265">265: </a></span><span class="l"><a href="#266">266: </a></span><span class="l"><a href="#267">267: </a></span><span class="l"><a href="#268">268: </a></span><span class="l"><a href="#269">269: </a></span><span class="l"><a href="#270">270: </a></span><span class="l"><a href="#271">271: </a></span><span class="l"><a href="#272">272: </a></span><span class="l"><a href="#273">273: </a></span><span class="l"><a href="#274">274: </a></span><span class="l"><a href="#275">275: </a></span><span class="l"><a href="#276">276: </a></span><span class="l"><a href="#277">277: </a></span><span class="l"><a href="#278">278: </a></span><span class="l"><a href="#279">279: </a></span><span class="l"><a href="#280">280: </a></span><span class="l"><a href="#281">281: </a></span><span class="l"><a href="#282">282: </a></span><span class="l"><a href="#283">283: </a></span><span class="l"><a href="#284">284: </a></span><span class="l"><a href="#285">285: </a></span><span class="l"><a href="#286">286: </a></span><span class="l"><a href="#287">287: </a></span><span class="l"><a href="#288">288: </a></span><span class="l"><a href="#289">289: </a></span><span class="l"><a href="#290">290: </a></span><span class="l"><a href="#291">291: </a></span><span class="l"><a href="#292">292: </a></span><span class="l"><a href="#293">293: </a></span><span class="l"><a href="#294">294: </a></span><span class="l"><a href="#295">295: </a></span><span class="l"><a href="#296">296: </a></span><span class="l"><a href="#297">297: </a></span><span class="l"><a href="#298">298: </a></span><span class="l"><a href="#299">299: </a></span><span class="l"><a href="#300">300: </a></span><span class="l"><a href="#301">301: </a></span><span class="l"><a href="#302">302: </a></span><span class="l"><a href="#303">303: </a></span><span class="l"><a href="#304">304: </a></span><span class="l"><a href="#305">305: </a></span><span class="l"><a href="#306">306: </a></span><span class="l"><a href="#307">307: </a></span><span class="l"><a href="#308">308: </a></span><span class="l"><a href="#309">309: </a></span><span class="l"><a href="#310">310: </a></span><span class="l"><a href="#311">311: </a></span><span class="l"><a href="#312">312: </a></span><span class="l"><a href="#313">313: </a></span><span class="l"><a href="#314">314: </a></span><span class="l"><a href="#315">315: </a></span><span class="l"><a href="#316">316: </a></span><span class="l"><a href="#317">317: </a></span><span class="l"><a href="#318">318: </a></span><span class="l"><a href="#319">319: </a></span><span class="l"><a href="#320">320: </a></span><span class="l"><a href="#321">321: </a></span><span class="l"><a href="#322">322: </a></span><span class="l"><a href="#323">323: </a></span><span class="l"><a href="#324">324: </a></span><span class="l"><a href="#325">325: </a></span><span class="l"><a href="#326">326: </a></span><span class="l"><a href="#327">327: </a></span><span class="l"><a href="#328">328: </a></span><span class="l"><a href="#329">329: </a></span><span class="l"><a href="#330">330: </a></span><span class="l"><a href="#331">331: </a></span><span class="l"><a href="#332">332: </a></span><span class="l"><a href="#333">333: </a></span><span class="l"><a href="#334">334: </a></span><span class="l"><a href="#335">335: </a></span><span class="l"><a href="#336">336: </a></span><span class="l"><a href="#337">337: </a></span><span class="l"><a href="#338">338: </a></span><span class="l"><a href="#339">339: </a></span><span class="l"><a href="#340">340: </a></span><span class="l"><a href="#341">341: </a></span><span class="l"><a href="#342">342: </a></span><span class="l"><a href="#343">343: </a></span><span class="l"><a href="#344">344: </a></span><span class="l"><a href="#345">345: </a></span><span class="l"><a href="#346">346: </a></span><span class="l"><a href="#347">347: </a></span><span class="l"><a href="#348">348: </a></span><span class="l"><a href="#349">349: </a></span><span class="l"><a href="#350">350: </a></span><span class="l"><a href="#351">351: </a></span><span class="l"><a href="#352">352: </a></span><span class="l"><a href="#353">353: </a></span><span class="l"><a href="#354">354: </a></span><span class="l"><a href="#355">355: </a></span><span class="l"><a href="#356">356: </a></span><span class="l"><a href="#357">357: </a></span><span class="l"><a href="#358">358: </a></span><span class="l"><a href="#359">359: </a></span><span class="l"><a href="#360">360: </a></span><span class="l"><a href="#361">361: </a></span><span class="l"><a href="#362">362: </a></span><span class="l"><a href="#363">363: </a></span><span class="l"><a href="#364">364: </a></span><span class="l"><a href="#365">365: </a></span><span class="l"><a href="#366">366: </a></span><span class="l"><a href="#367">367: </a></span><span class="l"><a href="#368">368: </a></span><span class="l"><a href="#369">369: </a></span><span class="l"><a href="#370">370: </a></span><span class="l"><a href="#371">371: </a></span><span class="l"><a href="#372">372: </a></span><span class="l"><a href="#373">373: </a></span><span class="l"><a href="#374">374: </a></span><span class="l"><a href="#375">375: </a></span><span class="l"><a href="#376">376: </a></span><span class="l"><a href="#377">377: </a></span><span class="l"><a href="#378">378: </a></span><span class="l"><a href="#379">379: </a></span><span class="l"><a href="#380">380: </a></span><span class="l"><a href="#381">381: </a></span><span class="l"><a href="#382">382: </a></span><span class="l"><a href="#383">383: </a></span><span class="l"><a href="#384">384: </a></span><span class="l"><a href="#385">385: </a></span><span class="l"><a href="#386">386: </a></span><span class="l"><a href="#387">387: </a></span><span class="l"><a href="#388">388: </a></span><span class="l"><a href="#389">389: </a></span><span class="l"><a href="#390">390: </a></span><span class="l"><a href="#391">391: </a></span><span class="l"><a href="#392">392: </a></span><span class="l"><a href="#393">393: </a></span><span class="l"><a href="#394">394: </a></span><span class="l"><a href="#395">395: </a></span><span class="l"><a href="#396">396: </a></span><span class="l"><a href="#397">397: </a></span><span class="l"><a href="#398">398: </a></span><span class="l"><a href="#399">399: </a></span><span class="l"><a href="#400">400: </a></span><span class="l"><a href="#401">401: </a></span><span class="l"><a href="#402">402: </a></span><span class="l"><a href="#403">403: </a></span><span class="l"><a href="#404">404: </a></span><span class="l"><a href="#405">405: </a></span><span class="l"><a href="#406">406: </a></span><span class="l"><a href="#407">407: </a></span><span class="l"><a href="#408">408: </a></span><span class="l"><a href="#409">409: </a></span><span class="l"><a href="#410">410: </a></span><span class="l"><a href="#411">411: </a></span><span class="l"><a href="#412">412: </a></span><span class="l"><a href="#413">413: </a></span><span class="l"><a href="#414">414: </a></span><span class="l"><a href="#415">415: </a></span><span class="l"><a href="#416">416: </a></span><span class="l"><a href="#417">417: </a></span><span class="l"><a href="#418">418: </a></span><span class="l"><a href="#419">419: </a></span><span class="l"><a href="#420">420: </a></span><span class="l"><a href="#421">421: </a></span><span class="l"><a href="#422">422: </a></span><span class="l"><a href="#423">423: </a></span><span class="l"><a href="#424">424: </a></span><span class="l"><a href="#425">425: </a></span><span class="l"><a href="#426">426: </a></span><span class="l"><a href="#427">427: </a></span><span class="l"><a href="#428">428: </a></span><span class="l"><a href="#429">429: </a></span><span class="l"><a href="#430">430: </a></span><span class="l"><a href="#431">431: </a></span><span class="l"><a href="#432">432: </a></span><span class="l"><a href="#433">433: </a></span><span class="l"><a href="#434">434: </a></span><span class="l"><a href="#435">435: </a></span><span class="l"><a href="#436">436: </a></span><span class="l"><a href="#437">437: </a></span><span class="l"><a href="#438">438: </a></span><span class="l"><a href="#439">439: </a></span><span class="l"><a href="#440">440: </a></span><span class="l"><a href="#441">441: </a></span><span class="l"><a href="#442">442: </a></span><span class="l"><a href="#443">443: </a></span><span class="l"><a href="#444">444: </a></span><span class="l"><a href="#445">445: </a></span><span class="l"><a href="#446">446: </a></span><span class="l"><a href="#447">447: </a></span><span class="l"><a href="#448">448: </a></span><span class="l"><a href="#449">449: </a></span><span class="l"><a href="#450">450: </a></span><span class="l"><a href="#451">451: </a></span><span class="l"><a href="#452">452: </a></span><span class="l"><a href="#453">453: </a></span><span class="l"><a href="#454">454: </a></span><span class="l"><a href="#455">455: </a></span><span class="l"><a href="#456">456: </a></span><span class="l"><a href="#457">457: </a></span><span class="l"><a href="#458">458: </a></span><span class="l"><a href="#459">459: </a></span><span class="l"><a href="#460">460: </a></span><span class="l"><a href="#461">461: </a></span><span class="l"><a href="#462">462: </a></span><span class="l"><a href="#463">463: </a></span><span class="l"><a href="#464">464: </a></span><span class="l"><a href="#465">465: </a></span><span class="l"><a href="#466">466: </a></span><span class="l"><a href="#467">467: </a></span><span class="l"><a href="#468">468: </a></span><span class="l"><a href="#469">469: </a></span><span class="l"><a href="#470">470: </a></span><span class="l"><a href="#471">471: </a></span><span class="l"><a href="#472">472: </a></span><span class="l"><a href="#473">473: </a></span><span class="l"><a href="#474">474: </a></span><span class="l"><a href="#475">475: </a></span><span class="l"><a href="#476">476: </a></span><span class="l"><a href="#477">477: </a></span><span class="l"><a href="#478">478: </a></span><span class="l"><a href="#479">479: </a></span><span class="l"><a href="#480">480: </a></span><span class="l"><a href="#481">481: </a></span><span class="l"><a href="#482">482: </a></span><span class="l"><a href="#483">483: </a></span><span class="l"><a href="#484">484: </a></span><span class="l"><a href="#485">485: </a></span><span class="l"><a href="#486">486: </a></span><span class="l"><a href="#487">487: </a></span><span class="l"><a href="#488">488: </a></span><span class="l"><a href="#489">489: </a></span><span class="l"><a href="#490">490: </a></span><span class="l"><a href="#491">491: </a></span><span class="l"><a href="#492">492: </a></span><span class="l"><a href="#493">493: </a></span><span class="l"><a href="#494">494: </a></span><span class="l"><a href="#495">495: </a></span><span class="l"><a href="#496">496: </a></span><span class="l"><a href="#497">497: </a></span><span class="l"><a href="#498">498: </a></span><span class="l"><a href="#499">499: </a></span><span class="l"><a href="#500">500: </a></span><span class="l"><a href="#501">501: </a></span><span class="l"><a href="#502">502: </a></span><span class="l"><a href="#503">503: </a></span><span class="l"><a href="#504">504: </a></span><span class="l"><a href="#505">505: </a></span><span class="l"><a href="#506">506: </a></span><span class="l"><a href="#507">507: </a></span><span class="l"><a href="#508">508: </a></span><span class="l"><a href="#509">509: </a></span><span class="l"><a href="#510">510: </a></span><span class="l"><a href="#511">511: </a></span><span class="l"><a href="#512">512: </a></span></span><span class="l"><a href="#513">513: </a></span></span><span class="l"><a href="#514">514: </a></span></span><span class="l"><a href="#515">515: </a></span><span class="l"><a href="#516">516: </a></span><span class="l"><a href="#517">517: </a></span><span class="l"><a href="#518">518: </a></span><span class="l"><a href="#519">519: </a></span><span class="l"><a href="#520">520: </a></span><span class="l"><a href="#521">521: </a></span></span><span class="l"><a href="#522">522: </a></span></span><span class="l"><a href="#523">523: </a></span></span><span class="l"><a href="#524">524: </a></span><span class="l"><a href="#525">525: </a></span><span class="l"><a href="#526">526: </a></span><span class="l"><a href="#527">527: </a></span><span class="l"><a href="#528">528: </a></span><span class="l"><a href="#529">529: </a></span><span class="l"><a href="#530">530: </a></span></span><span class="l"><a href="#531">531: </a></span></span><span class="l"><a href="#532">532: </a></span><span class="l"><a href="#533">533: </a></span><span class="l"><a href="#534">534: </a></span><span class="l"><a href="#535">535: </a></span><span class="l"><a href="#536">536: </a></span><span class="l"><a href="#537">537: </a></span><span class="l"><a href="#538">538: </a></span></span><span class="l"><a href="#539">539: </a></span></span><span class="l"><a href="#540">540: </a></span><span class="l"><a href="#541">541: </a></span><span class="l"><a href="#542">542: </a></span><span class="l"><a href="#543">543: </a></span><span class="l"><a href="#544">544: </a></span><span class="l"><a href="#545">545: </a></span><span class="l"><a href="#546">546: </a></span><span class="l"><a href="#547">547: </a></span><span class="l"><a href="#548">548: </a></span><span class="l"><a href="#549">549: </a></span><span class="l"><a href="#550">550: </a></span><span class="l"><a href="#551">551: </a></span><span class="l"><a href="#552">552: </a></span><span class="l"><a href="#553">553: </a></span><span class="l"><a href="#554">554: </a></span><span class="l"><a href="#555">555: </a></span><span class="l"><a href="#556">556: </a></span><span class="l"><a href="#557">557: </a></span><span class="l"><a href="#558">558: </a></span><span class="l"><a href="#559">559: </a></span><span class="l"><a href="#560">560: </a></span><span class="l"><a href="#561">561: </a></span><span class="l"><a href="#562">562: </a></span></span><span class="l"><a href="#563">563: </a></span></span><span class="l"><a href="#564">564: </a></span></span><span class="l"><a href="#565">565: </a></span><span class="l"><a href="#566">566: </a></span><span class="l"><a href="#567">567: </a></span><span class="l"><a href="#568">568: </a></span><span class="l"><a href="#569">569: </a></span><span class="l"><a href="#570">570: </a></span><span class="l"><a href="#571">571: </a></span><span class="l"><a href="#572">572: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span></span><span class="l"><a href="#13"> 13: </a></span></span><span class="l"><a href="#14"> 14: </a></span></span><span class="l"><a href="#15"> 15: </a></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span></span><span class="l"><a href="#24"> 24: </a></span></span><span class="l"><a href="#25"> 25: </a></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span><span class="l"><a href="#36"> 36: </a></span><span class="l"><a href="#37"> 37: </a></span><span class="l"><a href="#38"> 38: </a></span><span class="l"><a href="#39"> 39: </a></span><span class="l"><a href="#40"> 40: </a></span><span class="l"><a href="#41"> 41: </a></span><span class="l"><a href="#42"> 42: </a></span><span class="l"><a href="#43"> 43: </a></span><span class="l"><a href="#44"> 44: </a></span><span class="l"><a href="#45"> 45: </a></span><span class="l"><a href="#46"> 46: </a></span><span class="l"><a href="#47"> 47: </a></span><span class="l"><a href="#48"> 48: </a></span><span class="l"><a href="#49"> 49: </a></span><span class="l"><a href="#50"> 50: </a></span><span class="l"><a href="#51"> 51: </a></span><span class="l"><a href="#52"> 52: </a></span><span class="l"><a href="#53"> 53: </a></span><span class="l"><a href="#54"> 54: </a></span><span class="l"><a href="#55"> 55: </a></span><span class="l"><a href="#56"> 56: </a></span><span class="l"><a href="#57"> 57: </a></span><span class="l"><a href="#58"> 58: </a></span><span class="l"><a href="#59"> 59: </a></span><span class="l"><a href="#60"> 60: </a></span><span class="l"><a href="#61"> 61: </a></span><span class="l"><a href="#62"> 62: </a></span><span class="l"><a href="#63"> 63: </a></span><span class="l"><a href="#64"> 64: </a></span><span class="l"><a href="#65"> 65: </a></span><span class="l"><a href="#66"> 66: </a></span><span class="l"><a href="#67"> 67: </a></span><span class="l"><a href="#68"> 68: </a></span><span class="l"><a href="#69"> 69: </a></span><span class="l"><a href="#70"> 70: </a></span><span class="l"><a href="#71"> 71: </a></span><span class="l"><a href="#72"> 72: </a></span><span class="l"><a href="#73"> 73: </a></span><span class="l"><a href="#74"> 74: </a></span><span class="l"><a href="#75"> 75: </a></span><span class="l"><a href="#76"> 76: </a></span><span class="l"><a href="#77"> 77: </a></span><span class="l"><a href="#78"> 78: </a></span><span class="l"><a href="#79"> 79: </a></span><span class="l"><a href="#80"> 80: </a></span><span class="l"><a href="#81"> 81: </a></span><span class="l"><a href="#82"> 82: </a></span><span class="l"><a href="#83"> 83: </a></span><span class="l"><a href="#84"> 84: </a></span><span class="l"><a href="#85"> 85: </a></span><span class="l"><a href="#86"> 86: </a></span><span class="l"><a href="#87"> 87: </a></span><span class="l"><a href="#88"> 88: </a></span><span class="l"><a href="#89"> 89: </a></span><span class="l"><a href="#90"> 90: </a></span><span class="l"><a href="#91"> 91: </a></span><span class="l"><a href="#92"> 92: </a></span><span class="l"><a href="#93"> 93: </a></span><span class="l"><a href="#94"> 94: </a></span><span class="l"><a href="#95"> 95: </a></span><span class="l"><a href="#96"> 96: </a></span><span class="l"><a href="#97"> 97: </a></span><span class="l"><a href="#98"> 98: </a></span><span class="l"><a href="#99"> 99: </a></span><span class="l"><a href="#100">100: </a></span><span class="l"><a href="#101">101: </a></span><span class="l"><a href="#102">102: </a></span><span class="l"><a href="#103">103: </a></span><span class="l"><a href="#104">104: </a></span><span class="l"><a href="#105">105: </a></span><span class="l"><a href="#106">106: </a></span><span class="l"><a href="#107">107: </a></span><span class="l"><a href="#108">108: </a></span><span class="l"><a href="#109">109: </a></span><span class="l"><a href="#110">110: </a></span><span class="l"><a href="#111">111: </a></span><span class="l"><a href="#112">112: </a></span><span class="l"><a href="#113">113: </a></span><span class="l"><a href="#114">114: </a></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span><span class="l"><a href="#142">142: </a></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span><span class="l"><a href="#145">145: </a></span><span class="l"><a href="#146">146: </a></span><span class="l"><a href="#147">147: </a></span><span class="l"><a href="#148">148: </a></span><span class="l"><a href="#149">149: </a></span><span class="l"><a href="#150">150: </a></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span><span class="l"><a href="#160">160: </a></span><span class="l"><a href="#161">161: </a></span><span class="l"><a href="#162">162: </a></span><span class="l"><a href="#163">163: </a></span><span class="l"><a href="#164">164: </a></span><span class="l"><a href="#165">165: </a></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span><span class="l"><a href="#175">175: </a></span><span class="l"><a href="#176">176: </a></span><span class="l"><a href="#177">177: </a></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span><span class="l"><a href="#187">187: </a></span><span class="l"><a href="#188">188: </a></span><span class="l"><a href="#189">189: </a></span><span class="l"><a href="#190">190: </a></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span><span class="l"><a href="#200">200: </a></span><span class="l"><a href="#201">201: </a></span><span class="l"><a href="#202">202: </a></span><span class="l"><a href="#203">203: </a></span><span class="l"><a href="#204">204: </a></span><span class="l"><a href="#205">205: </a></span><span class="l"><a href="#206">206: </a></span><span class="l"><a href="#207">207: </a></span><span class="l"><a href="#208">208: </a></span><span class="l"><a href="#209">209: </a></span><span class="l"><a href="#210">210: </a></span><span class="l"><a href="#211">211: </a></span><span class="l"><a href="#212">212: </a></span><span class="l"><a href="#213">213: </a></span><span class="l"><a href="#214">214: </a></span><span class="l"><a href="#215">215: </a></span><span class="l"><a href="#216">216: </a></span><span class="l"><a href="#217">217: </a></span><span class="l"><a href="#218">218: </a></span><span class="l"><a href="#219">219: </a></span><span class="l"><a href="#220">220: </a></span><span class="l"><a href="#221">221: </a></span><span class="l"><a href="#222">222: </a></span><span class="l"><a href="#223">223: </a></span><span class="l"><a href="#224">224: </a></span><span class="l"><a href="#225">225: </a></span><span class="l"><a href="#226">226: </a></span><span class="l"><a href="#227">227: </a></span><span class="l"><a href="#228">228: </a></span><span class="l"><a href="#229">229: </a></span><span class="l"><a href="#230">230: </a></span><span class="l"><a href="#231">231: </a></span><span class="l"><a href="#232">232: </a></span><span class="l"><a href="#233">233: </a></span><span class="l"><a href="#234">234: </a></span><span class="l"><a href="#235">235: </a></span><span class="l"><a href="#236">236: </a></span><span class="l"><a href="#237">237: </a></span><span class="l"><a href="#238">238: </a></span><span class="l"><a href="#239">239: </a></span><span class="l"><a href="#240">240: </a></span><span class="l"><a href="#241">241: </a></span><span class="l"><a href="#242">242: </a></span><span class="l"><a href="#243">243: </a></span><span class="l"><a href="#244">244: </a></span><span class="l"><a href="#245">245: </a></span><span class="l"><a href="#246">246: </a></span><span class="l"><a href="#247">247: </a></span><span class="l"><a href="#248">248: </a></span><span class="l"><a href="#249">249: </a></span><span class="l"><a href="#250">250: </a></span><span class="l"><a href="#251">251: </a></span><span class="l"><a href="#252">252: </a></span><span class="l"><a href="#253">253: </a></span><span class="l"><a href="#254">254: </a></span><span class="l"><a href="#255">255: </a></span><span class="l"><a href="#256">256: </a></span><span class="l"><a href="#257">257: </a></span><span class="l"><a href="#258">258: </a></span><span class="l"><a href="#259">259: </a></span><span class="l"><a href="#260">260: </a></span><span class="l"><a href="#261">261: </a></span><span class="l"><a href="#262">262: </a></span><span class="l"><a href="#263">263: </a></span><span class="l"><a href="#264">264: </a></span><span class="l"><a href="#265">265: </a></span><span class="l"><a href="#266">266: </a></span><span class="l"><a href="#267">267: </a></span><span class="l"><a href="#268">268: </a></span><span class="l"><a href="#269">269: </a></span><span class="l"><a href="#270">270: </a></span><span class="l"><a href="#271">271: </a></span><span class="l"><a href="#272">272: </a></span><span class="l"><a href="#273">273: </a></span><span class="l"><a href="#274">274: </a></span><span class="l"><a href="#275">275: </a></span><span class="l"><a href="#276">276: </a></span><span class="l"><a href="#277">277: </a></span><span class="l"><a href="#278">278: </a></span><span class="l"><a href="#279">279: </a></span><span class="l"><a href="#280">280: </a></span><span class="l"><a href="#281">281: </a></span><span class="l"><a href="#282">282: </a></span><span class="l"><a href="#283">283: </a></span><span class="l"><a href="#284">284: </a></span><span class="l"><a href="#285">285: </a></span><span class="l"><a href="#286">286: </a></span><span class="l"><a href="#287">287: </a></span><span class="l"><a href="#288">288: </a></span><span class="l"><a href="#289">289: </a></span><span class="l"><a href="#290">290: </a></span><span class="l"><a href="#291">291: </a></span><span class="l"><a href="#292">292: </a></span><span class="l"><a href="#293">293: </a></span><span class="l"><a href="#294">294: </a></span><span class="l"><a href="#295">295: </a></span><span class="l"><a href="#296">296: </a></span><span class="l"><a href="#297">297: </a></span><span class="l"><a href="#298">298: </a></span><span class="l"><a href="#299">299: </a></span><span class="l"><a href="#300">300: </a></span><span class="l"><a href="#301">301: </a></span><span class="l"><a href="#302">302: </a></span><span class="l"><a href="#303">303: </a></span><span class="l"><a href="#304">304: </a></span><span class="l"><a href="#305">305: </a></span><span class="l"><a href="#306">306: </a></span><span class="l"><a href="#307">307: </a></span><span class="l"><a href="#308">308: </a></span><span class="l"><a href="#309">309: </a></span><span class="l"><a href="#310">310: </a></span><span class="l"><a href="#311">311: </a></span><span class="l"><a href="#312">312: </a></span><span class="l"><a href="#313">313: </a></span><span class="l"><a href="#314">314: </a></span><span class="l"><a href="#315">315: </a></span><span class="l"><a href="#316">316: </a></span><span class="l"><a href="#317">317: </a></span><span class="l"><a href="#318">318: </a></span><span class="l"><a href="#319">319: </a></span><span class="l"><a href="#320">320: </a></span><span class="l"><a href="#321">321: </a></span><span class="l"><a href="#322">322: </a></span><span class="l"><a href="#323">323: </a></span><span class="l"><a href="#324">324: </a></span><span class="l"><a href="#325">325: </a></span><span class="l"><a href="#326">326: </a></span><span class="l"><a href="#327">327: </a></span><span class="l"><a href="#328">328: </a></span><span class="l"><a href="#329">329: </a></span><span class="l"><a href="#330">330: </a></span><span class="l"><a href="#331">331: </a></span><span class="l"><a href="#332">332: </a></span><span class="l"><a href="#333">333: </a></span><span class="l"><a href="#334">334: </a></span><span class="l"><a href="#335">335: </a></span><span class="l"><a href="#336">336: </a></span><span class="l"><a href="#337">337: </a></span><span class="l"><a href="#338">338: </a></span><span class="l"><a href="#339">339: </a></span><span class="l"><a href="#340">340: </a></span><span class="l"><a href="#341">341: </a></span><span class="l"><a href="#342">342: </a></span><span class="l"><a href="#343">343: </a></span><span class="l"><a href="#344">344: </a></span><span class="l"><a href="#345">345: </a></span><span class="l"><a href="#346">346: </a></span><span class="l"><a href="#347">347: </a></span><span class="l"><a href="#348">348: </a></span><span class="l"><a href="#349">349: </a></span><span class="l"><a href="#350">350: </a></span><span class="l"><a href="#351">351: </a></span><span class="l"><a href="#352">352: </a></span><span class="l"><a href="#353">353: </a></span><span class="l"><a href="#354">354: </a></span><span class="l"><a href="#355">355: </a></span><span class="l"><a href="#356">356: </a></span><span class="l"><a href="#357">357: </a></span><span class="l"><a href="#358">358: </a></span><span class="l"><a href="#359">359: </a></span><span class="l"><a href="#360">360: </a></span><span class="l"><a href="#361">361: </a></span><span class="l"><a href="#362">362: </a></span><span class="l"><a href="#363">363: </a></span><span class="l"><a href="#364">364: </a></span><span class="l"><a href="#365">365: </a></span><span class="l"><a href="#366">366: </a></span><span class="l"><a href="#367">367: </a></span><span class="l"><a href="#368">368: </a></span><span class="l"><a href="#369">369: </a></span><span class="l"><a href="#370">370: </a></span><span class="l"><a href="#371">371: </a></span><span class="l"><a href="#372">372: </a></span><span class="l"><a href="#373">373: </a></span><span class="l"><a href="#374">374: </a></span><span class="l"><a href="#375">375: </a></span><span class="l"><a href="#376">376: </a></span><span class="l"><a href="#377">377: </a></span><span class="l"><a href="#378">378: </a></span><span class="l"><a href="#379">379: </a></span><span class="l"><a href="#380">380: </a></span><span class="l"><a href="#381">381: </a></span><span class="l"><a href="#382">382: </a></span><span class="l"><a href="#383">383: </a></span><span class="l"><a href="#384">384: </a></span><span class="l"><a href="#385">385: </a></span><span class="l"><a href="#386">386: </a></span><span class="l"><a href="#387">387: </a></span><span class="l"><a href="#388">388: </a></span><span class="l"><a href="#389">389: </a></span><span class="l"><a href="#390">390: </a></span><span class="l"><a href="#391">391: </a></span><span class="l"><a href="#392">392: </a></span><span class="l"><a href="#393">393: </a></span><span class="l"><a href="#394">394: </a></span><span class="l"><a href="#395">395: </a></span><span class="l"><a href="#396">396: </a></span><span class="l"><a href="#397">397: </a></span><span class="l"><a href="#398">398: </a></span><span class="l"><a href="#399">399: </a></span><span class="l"><a href="#400">400: </a></span><span class="l"><a href="#401">401: </a></span><span class="l"><a href="#402">402: </a></span><span class="l"><a href="#403">403: </a></span><span class="l"><a href="#404">404: </a></span><span class="l"><a href="#405">405: </a></span><span class="l"><a href="#406">406: </a></span><span class="l"><a href="#407">407: </a></span><span class="l"><a href="#408">408: </a></span><span class="l"><a href="#409">409: </a></span><span class="l"><a href="#410">410: </a></span><span class="l"><a href="#411">411: </a></span><span class="l"><a href="#412">412: </a></span><span class="l"><a href="#413">413: </a></span><span class="l"><a href="#414">414: </a></span><span class="l"><a href="#415">415: </a></span><span class="l"><a href="#416">416: </a></span><span class="l"><a href="#417">417: </a></span><span class="l"><a href="#418">418: </a></span><span class="l"><a href="#419">419: </a></span><span class="l"><a href="#420">420: </a></span><span class="l"><a href="#421">421: </a></span><span class="l"><a href="#422">422: </a></span><span class="l"><a href="#423">423: </a></span><span class="l"><a href="#424">424: </a></span><span class="l"><a href="#425">425: </a></span><span class="l"><a href="#426">426: </a></span><span class="l"><a href="#427">427: </a></span><span class="l"><a href="#428">428: </a></span><span class="l"><a href="#429">429: </a></span><span class="l"><a href="#430">430: </a></span><span class="l"><a href="#431">431: </a></span><span class="l"><a href="#432">432: </a></span><span class="l"><a href="#433">433: </a></span><span class="l"><a href="#434">434: </a></span><span class="l"><a href="#435">435: </a></span><span class="l"><a href="#436">436: </a></span><span class="l"><a href="#437">437: </a></span><span class="l"><a href="#438">438: </a></span><span class="l"><a href="#439">439: </a></span><span class="l"><a href="#440">440: </a></span><span class="l"><a href="#441">441: </a></span><span class="l"><a href="#442">442: </a></span><span class="l"><a href="#443">443: </a></span><span class="l"><a href="#444">444: </a></span><span class="l"><a href="#445">445: </a></span><span class="l"><a href="#446">446: </a></span><span class="l"><a href="#447">447: </a></span><span class="l"><a href="#448">448: </a></span><span class="l"><a href="#449">449: </a></span><span class="l"><a href="#450">450: </a></span><span class="l"><a href="#451">451: </a></span><span class="l"><a href="#452">452: </a></span><span class="l"><a href="#453">453: </a></span><span class="l"><a href="#454">454: </a></span><span class="l"><a href="#455">455: </a></span><span class="l"><a href="#456">456: </a></span><span class="l"><a href="#457">457: </a></span><span class="l"><a href="#458">458: </a></span><span class="l"><a href="#459">459: </a></span><span class="l"><a href="#460">460: </a></span><span class="l"><a href="#461">461: </a></span><span class="l"><a href="#462">462: </a></span><span class="l"><a href="#463">463: </a></span><span class="l"><a href="#464">464: </a></span><span class="l"><a href="#465">465: </a></span><span class="l"><a href="#466">466: </a></span><span class="l"><a href="#467">467: </a></span><span class="l"><a href="#468">468: </a></span><span class="l"><a href="#469">469: </a></span><span class="l"><a href="#470">470: </a></span><span class="l"><a href="#471">471: </a></span><span class="l"><a href="#472">472: </a></span><span class="l"><a href="#473">473: </a></span><span class="l"><a href="#474">474: </a></span><span class="l"><a href="#475">475: </a></span><span class="l"><a href="#476">476: </a></span><span class="l"><a href="#477">477: </a></span><span class="l"><a href="#478">478: </a></span><span class="l"><a href="#479">479: </a></span><span class="l"><a href="#480">480: </a></span><span class="l"><a href="#481">481: </a></span><span class="l"><a href="#482">482: </a></span><span class="l"><a href="#483">483: </a></span><span class="l"><a href="#484">484: </a></span><span class="l"><a href="#485">485: </a></span><span class="l"><a href="#486">486: </a></span><span class="l"><a href="#487">487: </a></span><span class="l"><a href="#488">488: </a></span><span class="l"><a href="#489">489: </a></span><span class="l"><a href="#490">490: </a></span><span class="l"><a href="#491">491: </a></span><span class="l"><a href="#492">492: </a></span><span class="l"><a href="#493">493: </a></span><span class="l"><a href="#494">494: </a></span><span class="l"><a href="#495">495: </a></span><span class="l"><a href="#496">496: </a></span><span class="l"><a href="#497">497: </a></span><span class="l"><a href="#498">498: </a></span><span class="l"><a href="#499">499: </a></span><span class="l"><a href="#500">500: </a></span><span class="l"><a href="#501">501: </a></span><span class="l"><a href="#502">502: </a></span><span class="l"><a href="#503">503: </a></span><span class="l"><a href="#504">504: </a></span><span class="l"><a href="#505">505: </a></span><span class="l"><a href="#506">506: </a></span><span class="l"><a href="#507">507: </a></span><span class="l"><a href="#508">508: </a></span><span class="l"><a href="#509">509: </a></span><span class="l"><a href="#510">510: </a></span><span class="l"><a href="#511">511: </a></span></span><span class="l"><a href="#512">512: </a></span></span><span class="l"><a href="#513">513: </a></span></span><span class="l"><a href="#514">514: </a></span><span class="l"><a href="#515">515: </a></span><span class="l"><a href="#516">516: </a></span><span class="l"><a href="#517">517: </a></span><span class="l"><a href="#518">518: </a></span><span class="l"><a href="#519">519: </a></span><span class="l"><a href="#520">520: </a></span></span><span class="l"><a href="#521">521: </a></span></span><span class="l"><a href="#522">522: </a></span></span><span class="l"><a href="#523">523: </a></span><span class="l"><a href="#524">524: </a></span><span class="l"><a href="#525">525: </a></span><span class="l"><a href="#526">526: </a></span><span class="l"><a href="#527">527: </a></span><span class="l"><a href="#528">528: </a></span><span class="l"><a href="#529">529: </a></span></span><span class="l"><a href="#530">530: </a></span></span><span class="l"><a href="#531">531: </a></span><span class="l"><a href="#532">532: </a></span><span class="l"><a href="#533">533: </a></span><span class="l"><a href="#534">534: </a></span><span class="l"><a href="#535">535: </a></span><span class="l"><a href="#536">536: </a></span><span class="l"><a href="#537">537: </a></span></span><span class="l"><a href="#538">538: </a></span></span><span class="l"><a href="#539">539: </a></span><span class="l"><a href="#540">540: </a></span><span class="l"><a href="#541">541: </a></span><span class="l"><a href="#542">542: </a></span><span class="l"><a href="#543">543: </a></span><span class="l"><a href="#544">544: </a></span><span class="l"><a href="#545">545: </a></span><span class="l"><a href="#546">546: </a></span><span class="l"><a href="#547">547: </a></span><span class="l"><a href="#548">548: </a></span><span class="l"><a href="#549">549: </a></span><span class="l"><a href="#550">550: </a></span><span class="l"><a href="#551">551: </a></span><span class="l"><a href="#552">552: </a></span><span class="l"><a href="#553">553: </a></span><span class="l"><a href="#554">554: </a></span><span class="l"><a href="#555">555: </a></span><span class="l"><a href="#556">556: </a></span><span class="l"><a href="#557">557: </a></span><span class="l"><a href="#558">558: </a></span><span class="l"><a href="#559">559: </a></span><span class="l"><a href="#560">560: </a></span><span class="l"><a href="#561">561: </a></span></span><span class="l"><a href="#562">562: </a></span></span><span class="l"><a href="#563">563: </a></span></span><span class="l"><a href="#564">564: </a></span><span class="l"><a href="#565">565: </a></span><span class="l"><a href="#566">566: </a></span><span class="l"><a href="#567">567: </a></span><span class="l"><a href="#568">568: </a></span><span class="l"><a href="#569">569: </a></span><span class="l"><a href="#570">570: </a></span><span class="l"><a href="#571">571: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * This class contains the cache data of the .htaccess file which is located at the root of the site
 </span></span><span id="4" class="l"><span class="php-comment"> * and is used to change the Apache configuration only in the PHPBoost folder.
 </span></span><span id="5" class="l"><span class="php-comment"> * @package     PHPBoost
 </span></span><span id="6" class="l"><span class="php-comment"> * @subpackage  Cache
-</span></span><span id="7" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="8" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="9" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="10" class="l"><span class="php-comment"> * @author      Benoit SAUTEL &lt;ben.popeye@phpboost.com&gt;
-</span></span><span id="11" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 11 10
-</span></span><span id="12" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2009 10 22
-</span></span><span id="13" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="14" class="l"><span class="php-comment"> * @contributor janus57 &lt;janus57@janus57.fr&gt;
-</span></span><span id="15" class="l"><span class="php-comment"> * @contributor mipel &lt;mipel@phpboost.com&gt;
-</span></span><span id="16" class="l"><span class="php-comment">*/</span>
-</span><span id="17" class="l">
-</span><span id="18" class="l"><span class="php-keyword1">class</span> HtaccessFileCache <span class="php-keyword1">implements</span> CacheData
-</span><span id="19" class="l">{
-</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$htaccess_file_content</span> = <span class="php-quote">''</span>;
-</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$general_config</span>;
-</span><span id="22" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$server_environment_config</span>;
-</span><span id="23" class="l">
-</span><span id="24" class="l">    <span class="php-comment">/**
-</span></span><span id="25" class="l"><span class="php-comment">     * {@inheritdoc}
-</span></span><span id="26" class="l"><span class="php-comment">     */</span>
-</span><span id="27" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> synchronize()
-</span><span id="28" class="l">    {
-</span><span id="29" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content = <span class="php-quote">''</span>;
-</span><span id="30" class="l">        <span class="php-var">$this</span>-&gt;general_config = GeneralConfig::load();
-</span><span id="31" class="l">        <span class="php-var">$this</span>-&gt;server_environment_config = ServerEnvironmentConfig::load();
-</span><span id="32" class="l">
-</span><span id="33" class="l">        <span class="php-var">$this</span>-&gt;set_default_charset();
-</span><span id="34" class="l">
-</span><span id="35" class="l">        <span class="php-var">$this</span>-&gt;add_free_php56();
-</span><span id="36" class="l">
-</span><span id="37" class="l">        <span class="php-var">$this</span>-&gt;add_hide_directory_listings();
-</span><span id="38" class="l">
-</span><span id="39" class="l">        <span class="php-var">$this</span>-&gt;add_http_headers();
-</span><span id="40" class="l">
-</span><span id="41" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_url_rewriting_enabled())
-</span><span id="42" class="l">        {
-</span><span id="43" class="l">            <span class="php-var">$this</span>-&gt;enable_rewrite_rules();
-</span><span id="44" class="l">
-</span><span id="45" class="l">            <span class="php-var">$this</span>-&gt;force_redirection_if_available();
-</span><span id="46" class="l">
-</span><span id="47" class="l">            <span class="php-var">$this</span>-&gt;add_core_rules();
-</span><span id="48" class="l">
-</span><span id="49" class="l">            <span class="php-var">$this</span>-&gt;add_modules_rules();
-</span><span id="50" class="l">
-</span><span id="51" class="l">            <span class="php-var">$this</span>-&gt;add_user_rules();
-</span><span id="52" class="l">
-</span><span id="53" class="l">            <span class="php-var">$this</span>-&gt;add_php_and_http_protections();
-</span><span id="54" class="l">
-</span><span id="55" class="l">            <span class="php-var">$this</span>-&gt;add_file_and_sql_injections_protections();
-</span><span id="56" class="l">
-</span><span id="57" class="l">            <span class="php-var">$this</span>-&gt;add_bandwidth_protection();
-</span><span id="58" class="l">        }
-</span><span id="59" class="l">
-</span><span id="60" class="l">        <span class="php-var">$this</span>-&gt;add_error_redirection();
-</span><span id="61" class="l">
-</span><span id="62" class="l">        <span class="php-var">$this</span>-&gt;add_gzip_compression();
-</span><span id="63" class="l">
-</span><span id="64" class="l">        <span class="php-var">$this</span>-&gt;add_expires_headers();
-</span><span id="65" class="l">
-</span><span id="66" class="l">        <span class="php-var">$this</span>-&gt;disable_file_etags();
-</span><span id="67" class="l">
-</span><span id="68" class="l">        <span class="php-var">$this</span>-&gt;add_manual_content();
-</span><span id="69" class="l">
-</span><span id="70" class="l">        <span class="php-var">$this</span>-&gt;clean_file_content();
-</span><span id="71" class="l">    }
-</span><span id="72" class="l">
-</span><span id="73" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_line(<span class="php-var">$line</span>)
-</span><span id="74" class="l">    {
-</span><span id="75" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content .= <span class="php-quote">&quot;\n&quot;</span> . <span class="php-var">$line</span>;
-</span><span id="76" class="l">    }
-</span><span id="77" class="l">
-</span><span id="78" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_empty_line()
-</span><span id="79" class="l">    {
-</span><span id="80" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">''</span>);
-</span><span id="81" class="l">    }
-</span><span id="82" class="l">
-</span><span id="83" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_section(<span class="php-var">$name</span>)
-</span><span id="84" class="l">    {
-</span><span id="85" class="l">        <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="86" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# '</span> . <span class="php-var">$name</span> . <span class="php-quote">' #'</span>);
-</span><span id="87" class="l">    }
-</span><span id="88" class="l">
-</span><span id="89" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> set_default_charset()
-</span><span id="90" class="l">    {
-</span><span id="91" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Charset'</span>);
-</span><span id="92" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'AddDefaultCharset UTF-8'</span>);
-</span><span id="93" class="l">    }
-</span><span id="94" class="l">
-</span><span id="95" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_free_php56()
-</span><span id="96" class="l">    {
-</span><span id="97" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() == <span class="php-quote">'free.fr'</span>)
-</span><span id="98" class="l">        {
-</span><span id="99" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Enable PHP5.6 on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
-</span><span id="100" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'php56 1'</span>);
-</span><span id="101" class="l">        }
-</span><span id="102" class="l">    }
-</span><span id="103" class="l">
-</span><span id="104" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_hide_directory_listings()
-</span><span id="105" class="l">    {
-</span><span id="106" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Hide directory listings'</span>);
-</span><span id="107" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'Options -Indexes'</span>);
-</span><span id="108" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Prevent viewing of .htaccess file'</span>);
-</span><span id="109" class="l">        <span class="php-keyword1">if</span> (AppContext::get_request()-&gt;get_domain_name() == <span class="php-quote">'free.fr'</span>)
-</span><span id="110" class="l">        {
-</span><span id="111" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;Files .htaccess&gt;'</span>);
-</span><span id="112" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    Order Allow,Deny'</span>);
-</span><span id="113" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    Deny from all'</span>);
-</span><span id="114" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/Files&gt;'</span>);
-</span><span id="115" class="l">        }
-</span><span id="116" class="l">        <span class="php-keyword1">else</span>
-</span><span id="117" class="l">        {
-</span><span id="118" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;Files .htaccess&gt;'</span>);
-</span><span id="119" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    # Apache &lt;= 2.3'</span>);
-</span><span id="120" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;IfModule mod_authz_core.c&gt;'</span>);
-</span><span id="121" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Require all denied'</span>);
-</span><span id="122" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;/IfModule&gt;'</span>);
-</span><span id="123" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    # Apache 2.2'</span>);
-</span><span id="124" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;IfModule !mod_authz_core.c&gt;'</span>);
-</span><span id="125" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Order Allow,Deny'</span>);
-</span><span id="126" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Deny from all'</span>);
-</span><span id="127" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;/IfModule&gt;'</span>);
-</span><span id="128" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/Files&gt;'</span>);
-</span><span id="129" class="l">        }
-</span><span id="130" class="l">    }
-</span><span id="131" class="l">
-</span><span id="132" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_http_headers()
-</span><span id="133" class="l">    {
-</span><span id="134" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
-</span><span id="135" class="l">        {
-</span><span id="136" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'HTTP Headers'</span>);
-</span><span id="137" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_headers.c&gt;'</span>);
-</span><span id="138" class="l">
-</span><span id="139" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() &amp;&amp; <span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_hsts_security_enabled())
-</span><span id="140" class="l">            {
-</span><span id="141" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Tell the browser to attempt the HTTPS version first'</span>);
-</span><span id="142" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set Strict-Transport-Security &quot;max-age='</span> . <span class="php-var">$this</span>-&gt;server_environment_config-&gt;get_hsts_security_duration() . <span class="php-quote">'; '</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_hsts_security_subdomain_enabled() ? <span class="php-quote">'includeSubDomains;'</span> : <span class="php-quote">''</span>) . <span class="php-quote">'&quot;'</span>);
-</span><span id="143" class="l">            }
-</span><span id="144" class="l">
-</span><span id="145" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Don\'t allow any pages to be framed externally - Defends against CSRF'</span>);
-</span><span id="146" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Frame-Options SAMEORIGIN'</span>);
-</span><span id="147" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Control Cross-Domain Policies'</span>);
-</span><span id="148" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Permitted-Cross-Domain-Policies &quot;master-only&quot;'</span>);
-</span><span id="149" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Turn on IE8-IE9 XSS prevention tools'</span>);
-</span><span id="150" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-XSS-Protection &quot;1; mode=block&quot;'</span>);
-</span><span id="151" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Prevent mime based attacks'</span>);
-</span><span id="152" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-Content-Type-Options &quot;nosniff&quot;'</span>);
-</span><span id="153" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Use this to force IE to hide that annoying browser compatibility button in the address bar.'</span>);
-</span><span id="154" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # IE=edge means IE should use the latest (edge) version of its rendering engine.'</span>);
-</span><span id="155" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # chrome=1 means IE should use the Chrome rendering engine if installed.'</span>);
-</span><span id="156" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   BrowserMatch MSIE ie'</span>);
-</span><span id="157" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-UA-Compatible &quot;IE=Edge&quot;'</span>);
-</span><span id="158" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
-</span><span id="159" class="l">        }
-</span><span id="160" class="l">        <span class="php-keyword1">else</span>
-</span><span id="161" class="l">        {
-</span><span id="162" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'HTTP Headers disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
-</span><span id="163" class="l">        }
-</span><span id="164" class="l">    }
-</span><span id="165" class="l">
-</span><span id="166" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> enable_rewrite_rules()
-</span><span id="167" class="l">    {
-</span><span id="168" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Rewrite rules'</span>);
-</span><span id="169" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteEngine on'</span>);
-</span><span id="170" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteBase /'</span>);
-</span><span id="171" class="l">    }
-</span><span id="172" class="l">
-</span><span id="173" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_core_rules()
-</span><span id="174" class="l">    {
-</span><span id="175" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Core'</span>);
-</span><span id="176" class="l">
-</span><span id="177" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
-</span><span id="178" class="l">        <span class="php-var">$mappings</span> = <span class="php-var">$eps</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT);
-</span><span id="179" class="l">        <span class="php-var">$this</span>-&gt;add_url_mapping(<span class="php-var">$mappings</span>[<span class="php-quote">'kernel'</span>]);
-</span><span id="180" class="l">    }
-</span><span id="181" class="l">
-</span><span id="182" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_modules_rules()
-</span><span id="183" class="l">    {
-</span><span id="184" class="l">        <span class="php-var">$modules</span> = ModulesManager::get_activated_modules_map();
-</span><span id="185" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
-</span><span id="186" class="l">
-</span><span id="187" class="l">        <span class="php-comment">// Generate high priority rewriting rules</span>
-</span><span id="188" class="l">        <span class="php-var">$first_high_priority_mapping</span> = <span class="php-keyword1">true</span>;
-</span><span id="189" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
-</span><span id="190" class="l">        {
-</span><span id="191" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
-</span><span id="192" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
-</span><span id="193" class="l">            {
-</span><span id="194" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
-</span><span id="195" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
-</span><span id="196" class="l">                {
-</span><span id="197" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping &amp;&amp; <span class="php-var">$mapping</span>-&gt;is_high_priority())
-</span><span id="198" class="l">                    {
-</span><span id="199" class="l">                        <span class="php-keyword1">if</span> (<span class="php-var">$first_high_priority_mapping</span>)
-</span><span id="200" class="l">                        {
-</span><span id="201" class="l">                            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'High Priority Modules rules'</span>);
-</span><span id="202" class="l">                            <span class="php-var">$first_high_priority_mapping</span> = <span class="php-keyword1">false</span>;
-</span><span id="203" class="l">                        }
-</span><span id="204" class="l">
-</span><span id="205" class="l">                        <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
-</span><span id="206" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
-</span><span id="207" class="l">                    }
-</span><span id="208" class="l">                }
-</span><span id="209" class="l">            }
-</span><span id="210" class="l">        }
-</span><span id="211" class="l">
-</span><span id="212" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Modules rules'</span>);
-</span><span id="213" class="l">
-</span><span id="214" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
-</span><span id="215" class="l">        {
-</span><span id="216" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
-</span><span id="217" class="l">            <span class="php-var">$configuration</span> = <span class="php-var">$module</span>-&gt;get_configuration();
-</span><span id="218" class="l">            <span class="php-var">$rules</span> = <span class="php-var">$configuration</span>-&gt;get_url_rewrite_rules();
-</span><span id="219" class="l">            <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$rules</span>))
-</span><span id="220" class="l">            {
-</span><span id="221" class="l">                <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
-</span><span id="222" class="l">            }
-</span><span id="223" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$rules</span> <span class="php-keyword1">as</span> <span class="php-var">$rule</span>)
-</span><span id="224" class="l">            {
-</span><span id="225" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-keyword2">str_replace</span>(<span class="php-quote">'DIR'</span>, <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path(), <span class="php-var">$rule</span>));
-</span><span id="226" class="l">            }
-</span><span id="227" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
-</span><span id="228" class="l">            {
-</span><span id="229" class="l">                <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
-</span><span id="230" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
-</span><span id="231" class="l">
-</span><span id="232" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
-</span><span id="233" class="l">                {
-</span><span id="234" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping)
-</span><span id="235" class="l">                    {
-</span><span id="236" class="l">                        <span class="php-keyword1">if</span> (!<span class="php-var">$mapping</span>-&gt;is_high_priority() &amp;&amp; !<span class="php-var">$mapping</span>-&gt;is_low_priority())
-</span><span id="237" class="l">                        {
-</span><span id="238" class="l">                            <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
-</span><span id="239" class="l">                        }
-</span><span id="240" class="l">                    }
-</span><span id="241" class="l">                    <span class="php-keyword1">else</span>
-</span><span id="242" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
-</span><span id="243" class="l">                }
-</span><span id="244" class="l">            }
-</span><span id="245" class="l">        }
-</span><span id="246" class="l">
-</span><span id="247" class="l">        <span class="php-comment">// Generate low priority rewriting rules</span>
-</span><span id="248" class="l">        <span class="php-var">$first_low_priority_mapping</span> = <span class="php-keyword1">true</span>;
-</span><span id="249" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
-</span><span id="250" class="l">        {
-</span><span id="251" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
-</span><span id="252" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
-</span><span id="253" class="l">            {
-</span><span id="254" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
-</span><span id="255" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
-</span><span id="256" class="l">                {
-</span><span id="257" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping &amp;&amp; <span class="php-var">$mapping</span>-&gt;is_low_priority())
-</span><span id="258" class="l">                    {
-</span><span id="259" class="l">                        <span class="php-keyword1">if</span> (<span class="php-var">$first_low_priority_mapping</span>)
-</span><span id="260" class="l">                        {
-</span><span id="261" class="l">                            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Low Priority Modules rules'</span>);
-</span><span id="262" class="l">                            <span class="php-var">$first_low_priority_mapping</span> = <span class="php-keyword1">false</span>;
-</span><span id="263" class="l">                        }
-</span><span id="264" class="l">
-</span><span id="265" class="l">                        <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
-</span><span id="266" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
-</span><span id="267" class="l">                    }
-</span><span id="268" class="l">                }
-</span><span id="269" class="l">            }
-</span><span id="270" class="l">        }
-</span><span id="271" class="l">    }
-</span><span id="272" class="l">
-</span><span id="273" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_user_rules()
-</span><span id="274" class="l">    {
-</span><span id="275" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'User'</span>);
-</span><span id="276" class="l">
-</span><span id="277" class="l">        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-quote">'^user/pm-?([0-9]+)-?([0-9]{0,})-?([0-9]{0,})-?([0-9]{0,})-?([a-z_]{0,})$'</span>, <span class="php-quote">'user/pm.php?pm=$1&amp;id=$2&amp;p=$3&amp;quote=$4'</span>);
-</span><span id="278" class="l">
-</span><span id="279" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
-</span><span id="280" class="l">        <span class="php-var">$mappings</span> = <span class="php-var">$eps</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT);
-</span><span id="281" class="l">        <span class="php-var">$this</span>-&gt;add_url_mapping(<span class="php-var">$mappings</span>[<span class="php-quote">'user'</span>]);
-</span><span id="282" class="l">    }
-</span><span id="283" class="l">
-</span><span id="284" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_rewrite_rule(<span class="php-var">$match</span>, <span class="php-var">$path</span>, <span class="php-var">$options</span> = <span class="php-quote">'L,QSA'</span>)
-</span><span id="285" class="l">    {
-</span><span id="286" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule '</span> . <span class="php-var">$match</span> . <span class="php-quote">' '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . <span class="php-quote">'/'</span> . <span class="php-keyword2">ltrim</span>(<span class="php-var">$path</span>, <span class="php-quote">'/'</span>) . <span class="php-quote">' ['</span> . <span class="php-var">$options</span> . <span class="php-quote">']'</span>);
-</span><span id="287" class="l">    }
-</span><span id="288" class="l">
-</span><span id="289" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_url_mapping(UrlMappingsExtensionPoint <span class="php-var">$mapping_list</span>)
-</span><span id="290" class="l">    {
-</span><span id="291" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$mapping_list</span>-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
-</span><span id="292" class="l">        {
-</span><span id="293" class="l">            <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
-</span><span id="294" class="l">        }
-</span><span id="295" class="l">    }
-</span><span id="296" class="l">
-</span><span id="297" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_php_and_http_protections()
-</span><span id="298" class="l">    {
-</span><span id="299" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'PHP and HTTP protections'</span>);
-</span><span id="300" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out use of illegal or unsafe characters in the HTTP Request'</span>);
-</span><span id="301" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{THE_REQUEST} ^.*(\\r|\\n|%0A|%0D).* [NC,OR]'</span>);
-</span><span id="302" class="l">        <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="303" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script that includes a &lt;script&gt; tag in URL'</span>);
-</span><span id="304" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (&lt;|%3C)([^s]*s)+cript.*(&gt;|%3E) [NC,OR]'</span>);
-</span><span id="305" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script trying to set a PHP GLOBALS variable via URL'</span>);
-</span><span id="306" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} GLOBALS(=|[|\%[0-9A-Z]{0,2}) [OR]'</span>);
-</span><span id="307" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script trying to modify a _REQUEST variable via URL'</span>);
-</span><span id="308" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} _REQUEST(=|[|\%[0-9A-Z]{0,2})'</span>);
-</span><span id="309" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .* - [F,L]'</span>);
-</span><span id="310" class="l">    }
-</span><span id="311" class="l">
-</span><span id="312" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_file_and_sql_injections_protections()
-</span><span id="313" class="l">    {
-</span><span id="314" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'File and SQL injections protections'</span>);
-</span><span id="315" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{REQUEST_METHOD} GET'</span>);
-</span><span id="316" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (;|&lt;|&gt;|\'|&quot;|\)|%0A|%0D|%22|%27|%3C|%3E|%00).*(/\*|union|select|insert|cast|set|declare|drop|update|md5|benchmark) [NC,OR]'</span>);
-</span><span id="317" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (&lt;|&gt;|\'|%0A|%0D|%27|%3C|%3E|%00) [NC]'</span>);
-</span><span id="318" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .* - [F,L]'</span>);
-</span><span id="319" class="l">    }
-</span><span id="320" class="l">
-</span><span id="321" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> force_redirection_if_available()
-</span><span id="322" class="l">    {
-</span><span id="323" class="l">        <span class="php-var">$domain</span> = AppContext::get_request()-&gt;get_domain_name();
-</span><span id="324" class="l">
-</span><span id="325" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_enabled())
-</span><span id="326" class="l">        {
-</span><span id="327" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Site redirection to www'</span>);
-</span><span id="328" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_HOST} ^'</span> . <span class="php-var">$domain</span> . <span class="php-quote">' [NC]'</span>);
-</span><span id="329" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule ^/?(.*) http'</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() ? <span class="php-quote">'s'</span> : <span class="php-quote">''</span>) . <span class="php-quote">'://'</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_mode_with_www() ? <span class="php-quote">'www.'</span> . <span class="php-var">$domain</span> : AppContext::get_request()-&gt;get_site_domain_name()) . <span class="php-quote">'/$1 [L,R=301]'</span>);
-</span><span id="330" class="l">        }
-</span><span id="331" class="l">
-</span><span id="332" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() &amp;&amp; !<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_enabled())
-</span><span id="333" class="l">        {
-</span><span id="334" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Force to use HTTPS if available'</span>);
-</span><span id="335" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTPS} !=on [OR]'</span>); <span class="php-comment">//check if HTTPS not &quot;on&quot;</span>
-</span><span id="336" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{SERVER_PORT} 80 [OR]'</span>); <span class="php-comment">// OR if the server port is 80</span>
-</span><span id="337" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]'</span>); <span class="php-comment">// OR if the website is behind a load balancer</span>
-</span><span id="338" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]'</span>);
-</span><span id="339" class="l">        }
-</span><span id="340" class="l">    }
-</span><span id="341" class="l">
-</span><span id="342" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_bandwidth_protection()
-</span><span id="343" class="l">    {
-</span><span id="344" class="l">        <span class="php-comment">//Bandwidth protection. The /upload directory can be forbidden if the request comes from out of PHPBoost</span>
-</span><span id="345" class="l">        <span class="php-keyword1">if</span> (FileUploadConfig::load()-&gt;get_enable_bandwidth_protect())
-</span><span id="346" class="l">        {
-</span><span id="347" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Bandwith protection'</span>);
-</span><span id="348" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^$'</span>);
-</span><span id="349" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^'</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_url());
-</span><span id="350" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .*upload/.*$ - [F]'</span>);
-</span><span id="351" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Stop hotlinking'</span>);
-</span><span id="352" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^$'</span>);
-</span><span id="353" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^'</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_url());
-</span><span id="354" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule \.(bmp|gif|jpe?g|png|swf)$ - [F,L,NC]'</span>);
-</span><span id="355" class="l">        }
-</span><span id="356" class="l">    }
-</span><span id="357" class="l">
-</span><span id="358" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_error_redirection()
-</span><span id="359" class="l">    {
-</span><span id="360" class="l">        <span class="php-comment">//Error page</span>
-</span><span id="361" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Error pages'</span>);
-</span><span id="362" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'ErrorDocument 403 '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . UserUrlBuilder::error_403()-&gt;relative());
-</span><span id="363" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'ErrorDocument 404 '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . UserUrlBuilder::error_404()-&gt;relative());
-</span><span id="364" class="l">    }
-</span><span id="365" class="l">
-</span><span id="366" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_gzip_compression()
-</span><span id="367" class="l">    {
-</span><span id="368" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
-</span><span id="369" class="l">        {
-</span><span id="370" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Gzip compression'</span>);
-</span><span id="371" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_filter.c&gt;'</span>);
-</span><span id="372" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;IfModule mod_deflate.c&gt;'</span>);
-</span><span id="373" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       # Compress HTML, CSS, JavaScript, Text, XML and fonts'</span>);
-</span><span id="374" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/javascript'</span>);
-</span><span id="375" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/rss+xml'</span>);
-</span><span id="376" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/vnd.ms-fontobject'</span>);
-</span><span id="377" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font'</span>);
-</span><span id="378" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-opentype'</span>);
-</span><span id="379" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-otf'</span>);
-</span><span id="380" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-truetype'</span>);
-</span><span id="381" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-ttf'</span>);
-</span><span id="382" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-javascript'</span>);
-</span><span id="383" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/xhtml+xml'</span>);
-</span><span id="384" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/xml'</span>);
-</span><span id="385" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/opentype'</span>);
-</span><span id="386" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/otf'</span>);
-</span><span id="387" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/ttf'</span>);
-</span><span id="388" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE image/svg+xml'</span>);
-</span><span id="389" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE image/x-icon'</span>);
-</span><span id="390" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/css'</span>);
-</span><span id="391" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/html'</span>);
-</span><span id="392" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/javascript'</span>);
-</span><span id="393" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/plain'</span>);
-</span><span id="394" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/xml'</span>);
-</span><span id="395" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="396" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       # Remove browser bugs (only needed for really old browsers)'</span>);
-</span><span id="397" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch ^Mozilla/4 gzip-only-text/html'</span>);
-</span><span id="398" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch ^Mozilla/4\.0[678] no-gzip'</span>);
-</span><span id="399" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch \bMSIE !no-gzip !gzip-only-text/html'</span>);
-</span><span id="400" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       &lt;IfModule mod_headers.c&gt;'</span>);
-</span><span id="401" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'           Header append Vary User-Agent'</span>);
-</span><span id="402" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       &lt;/IfModule&gt;'</span>);
-</span><span id="403" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;/IfModule&gt;'</span>);
-</span><span id="404" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
-</span><span id="405" class="l">        }
-</span><span id="406" class="l">        <span class="php-keyword1">else</span>
-</span><span id="407" class="l">        {
-</span><span id="408" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Gzip compression disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
-</span><span id="409" class="l">        }
-</span><span id="410" class="l">    }
-</span><span id="411" class="l">
-</span><span id="412" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_expires_headers()
-</span><span id="413" class="l">    {
-</span><span id="414" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
-</span><span id="415" class="l">        {
-</span><span id="416" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Expires Headers'</span>);
-</span><span id="417" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_expires.c&gt;'</span>);
-</span><span id="418" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresActive On'</span>);
-</span><span id="419" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="420" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Default expiration: 1 week after request'</span>);
-</span><span id="421" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresDefault &quot;access plus 1 week&quot;'</span>);
-</span><span id="422" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="423" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # CSS and JS expiration: 1 week after request'</span>);
-</span><span id="424" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/css &quot;access plus 1 week&quot;'</span>);
-</span><span id="425" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/javascript &quot;access plus 1 week&quot;'</span>);
-</span><span id="426" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/x-javascript &quot;access plus 1 week&quot;'</span>);
-</span><span id="427" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/javascript &quot;access plus 1 week&quot;'</span>);
-</span><span id="428" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/x-javascript &quot;access plus 1 week&quot;'</span>);
-</span><span id="429" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="430" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Fonts expiration: 1 week after request'</span>);
-</span><span id="431" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;IfModule mod_mime.c&gt;'</span>);
-</span><span id="432" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddType application/font-woff .woff'</span>);
-</span><span id="433" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddType application/font-woff2 .woff2'</span>);
-</span><span id="434" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;/IfModule&gt;'</span>);
-</span><span id="435" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType   application/font-woff   &quot;access plus 1 month&quot;'</span>);
-</span><span id="436" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType   application/font-woff2   &quot;access plus 1 month&quot;'</span>);
-</span><span id="437" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="438" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Image files expiration: 1 month after request'</span>);
-</span><span id="439" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/bmp &quot;access plus 1 month&quot;'</span>);
-</span><span id="440" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/gif &quot;access plus 1 month&quot;'</span>);
-</span><span id="441" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/jpeg &quot;access plus 1 month&quot;'</span>);
-</span><span id="442" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/jp2 &quot;access plus 1 month&quot;'</span>);
-</span><span id="443" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/pipeg &quot;access plus 1 month&quot;'</span>);
-</span><span id="444" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/png &quot;access plus 1 month&quot;'</span>);
-</span><span id="445" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/svg+xml &quot;access plus 1 month&quot;'</span>);
-</span><span id="446" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/tiff &quot;access plus 1 month&quot;'</span>);
-</span><span id="447" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/vnd.microsoft.icon &quot;access plus 1 month&quot;'</span>);
-</span><span id="448" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/x-icon &quot;access plus 1 month&quot;'</span>);
-</span><span id="449" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/ico &quot;access plus 1 month&quot;'</span>);
-</span><span id="450" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/icon &quot;access plus 1 month&quot;'</span>);
-</span><span id="451" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/ico &quot;access plus 1 month&quot;'</span>);
-</span><span id="452" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/ico &quot;access plus 1 month&quot;'</span>);
-</span><span id="453" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/vnd.wap.wbmp &quot;access plus 1 month&quot;'</span>);
-</span><span id="454" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/vnd.wap.wbxml &quot;access plus 1 month&quot;'</span>);
-</span><span id="455" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/smil &quot;access plus 1 month&quot;'</span>);
-</span><span id="456" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="457" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Audio files expiration: 1 month after request'</span>);
-</span><span id="458" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/basic &quot;access plus 1 month&quot;'</span>);
-</span><span id="459" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/mid &quot;access plus 1 month&quot;'</span>);
-</span><span id="460" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/midi &quot;access plus 1 month&quot;'</span>);
-</span><span id="461" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/mpeg &quot;access plus 1 month&quot;'</span>);
-</span><span id="462" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-aiff &quot;access plus 1 month&quot;'</span>);
-</span><span id="463" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-mpegurl &quot;access plus 1 month&quot;'</span>);
-</span><span id="464" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-pn-realaudio &quot;access plus 1 month&quot;'</span>);
-</span><span id="465" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-wav &quot;access plus 1 month&quot;'</span>);
-</span><span id="466" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
-</span><span id="467" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Movie files expiration: 1 month after request'</span>);
-</span><span id="468" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/x-shockwave-flash &quot;access plus 1 month&quot;'</span>);
-</span><span id="469" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType x-world/x-vrml &quot;access plus 1 month&quot;'</span>);
-</span><span id="470" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-msvideo &quot;access plus 1 month&quot;'</span>);
-</span><span id="471" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/mpeg &quot;access plus 1 month&quot;'</span>);
-</span><span id="472" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/mp4 &quot;access plus 1 month&quot;'</span>);
-</span><span id="473" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/quicktime &quot;access plus 1 month&quot;'</span>);
-</span><span id="474" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-la-asf &quot;access plus 1 month&quot;'</span>);
-</span><span id="475" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-ms-asf &quot;access plus 1 month&quot;'</span>);
-</span><span id="476" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
-</span><span id="477" class="l">        }
-</span><span id="478" class="l">        <span class="php-keyword1">else</span>
-</span><span id="479" class="l">        {
-</span><span id="480" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Expires Headers disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
-</span><span id="481" class="l">        }
-</span><span id="482" class="l">    }
-</span><span id="483" class="l">
-</span><span id="484" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> disable_file_etags()
-</span><span id="485" class="l">    {
-</span><span id="486" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
-</span><span id="487" class="l">        {
-</span><span id="488" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Disable file etags'</span>);
-</span><span id="489" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'FileETag none'</span>);
-</span><span id="490" class="l">        }
-</span><span id="491" class="l">        <span class="php-keyword1">else</span>
-</span><span id="492" class="l">        {
-</span><span id="493" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Disable file etags disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
-</span><span id="494" class="l">        }
-</span><span id="495" class="l">    }
-</span><span id="496" class="l">
-</span><span id="497" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_manual_content()
-</span><span id="498" class="l">    {
-</span><span id="499" class="l">        <span class="php-var">$manual_content</span> = <span class="php-var">$this</span>-&gt;server_environment_config-&gt;get_htaccess_manual_content();
-</span><span id="500" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$manual_content</span>))
-</span><span id="501" class="l">        {
-</span><span id="502" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Manual content'</span>);
-</span><span id="503" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-var">$manual_content</span>);
-</span><span id="504" class="l">        }
-</span><span id="505" class="l">    }
-</span><span id="506" class="l">
-</span><span id="507" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> clean_file_content()
-</span><span id="508" class="l">    {
-</span><span id="509" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content = <span class="php-keyword2">trim</span>(<span class="php-var">$this</span>-&gt;htaccess_file_content);
-</span><span id="510" class="l">    }
-</span><span id="511" class="l">
-</span><span id="512" class="l">    <span class="php-comment">/**
-</span></span><span id="513" class="l"><span class="php-comment">     * Returns the content of the .htaccess file
-</span></span><span id="514" class="l"><span class="php-comment">     * @return string its content
-</span></span><span id="515" class="l"><span class="php-comment">     */</span>
-</span><span id="516" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_htaccess_file_content()
-</span><span id="517" class="l">    {
-</span><span id="518" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;htaccess_file_content;
-</span><span id="519" class="l">    }
-</span><span id="520" class="l">
-</span><span id="521" class="l">    <span class="php-comment">/**
-</span></span><span id="522" class="l"><span class="php-comment">     * Loads and returns the groups cached data.
-</span></span><span id="523" class="l"><span class="php-comment">     * @return HtaccessFileCache The cached data
-</span></span><span id="524" class="l"><span class="php-comment">     */</span>
-</span><span id="525" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> load()
-</span><span id="526" class="l">    {
-</span><span id="527" class="l">        <span class="php-keyword1">return</span> CacheManager::load(__CLASS__, <span class="php-quote">'kernel'</span>, <span class="php-quote">'htaccess-file'</span>);
-</span><span id="528" class="l">    }
-</span><span id="529" class="l">
-</span><span id="530" class="l">    <span class="php-comment">/**
-</span></span><span id="531" class="l"><span class="php-comment">     * Invalidates the current groups cached data.
-</span></span><span id="532" class="l"><span class="php-comment">     */</span>
-</span><span id="533" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> invalidate()
-</span><span id="534" class="l">    {
-</span><span id="535" class="l">        CacheManager::invalidate(<span class="php-quote">'kernel'</span>, <span class="php-quote">'htaccess-file'</span>);
-</span><span id="536" class="l">    }
-</span><span id="537" class="l">
-</span><span id="538" class="l">    <span class="php-comment">/**
-</span></span><span id="539" class="l"><span class="php-comment">     * Regenerates the .htaccess file
-</span></span><span id="540" class="l"><span class="php-comment">     */</span>
-</span><span id="541" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> regenerate()
-</span><span id="542" class="l">    {
-</span><span id="543" class="l">        self::invalidate();
-</span><span id="544" class="l">        self::update_htaccess_file();
-</span><span id="545" class="l">    }
-</span><span id="546" class="l">
-</span><span id="547" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> update_htaccess_file()
-</span><span id="548" class="l">    {
-</span><span id="549" class="l">        <span class="php-var">$file</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">File</span>(PATH_TO_ROOT . <span class="php-quote">'/.htaccess'</span>);
-</span><span id="550" class="l">
-</span><span id="551" class="l">        <span class="php-keyword1">try</span>
-</span><span id="552" class="l">        {
-</span><span id="553" class="l">            <span class="php-var">$file</span>-&gt;write(self::get_file_content());
-</span><span id="554" class="l">            <span class="php-var">$file</span>-&gt;close();
-</span><span id="555" class="l">        }
-</span><span id="556" class="l">        <span class="php-keyword1">catch</span>(IOException <span class="php-var">$ex</span>)
-</span><span id="557" class="l">        {
-</span><span id="558" class="l">            ErrorHandler::add_error_in_log(<span class="php-quote">'Couldn\'t write the .htaccess file. Please check the site root read authorizations.'</span>, <span class="php-quote">''</span>);
-</span><span id="559" class="l">        }
-</span><span id="560" class="l">    }
-</span><span id="561" class="l">
-</span><span id="562" class="l">    <span class="php-comment">/**
-</span></span><span id="563" class="l"><span class="php-comment">     *
-</span></span><span id="564" class="l"><span class="php-comment">     * @return string
-</span></span><span id="565" class="l"><span class="php-comment">     */</span>
-</span><span id="566" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_file_content()
-</span><span id="567" class="l">    {
-</span><span id="568" class="l">        <span class="php-keyword1">return</span> self::load()-&gt;get_htaccess_file_content();
-</span><span id="569" class="l">    }
-</span><span id="570" class="l">}
-</span><span id="571" class="l"><span class="xlang">?&gt;</span>
-</span><span id="572" class="l"></span></code></pre>
+</span></span><span id="7" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="8" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="9" class="l"><span class="php-comment"> * @author      Benoit SAUTEL &lt;ben.popeye@phpboost.com&gt;
+</span></span><span id="10" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 11 10
+</span></span><span id="11" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2009 10 22
+</span></span><span id="12" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="13" class="l"><span class="php-comment"> * @contributor janus57 &lt;janus57@janus57.fr&gt;
+</span></span><span id="14" class="l"><span class="php-comment"> * @contributor mipel &lt;mipel@phpboost.com&gt;
+</span></span><span id="15" class="l"><span class="php-comment">*/</span>
+</span><span id="16" class="l">
+</span><span id="17" class="l"><span class="php-keyword1">class</span> HtaccessFileCache <span class="php-keyword1">implements</span> CacheData
+</span><span id="18" class="l">{
+</span><span id="19" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$htaccess_file_content</span> = <span class="php-quote">''</span>;
+</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$general_config</span>;
+</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$server_environment_config</span>;
+</span><span id="22" class="l">
+</span><span id="23" class="l">    <span class="php-comment">/**
+</span></span><span id="24" class="l"><span class="php-comment">     * {@inheritdoc}
+</span></span><span id="25" class="l"><span class="php-comment">     */</span>
+</span><span id="26" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> synchronize()
+</span><span id="27" class="l">    {
+</span><span id="28" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content = <span class="php-quote">''</span>;
+</span><span id="29" class="l">        <span class="php-var">$this</span>-&gt;general_config = GeneralConfig::load();
+</span><span id="30" class="l">        <span class="php-var">$this</span>-&gt;server_environment_config = ServerEnvironmentConfig::load();
+</span><span id="31" class="l">
+</span><span id="32" class="l">        <span class="php-var">$this</span>-&gt;set_default_charset();
+</span><span id="33" class="l">
+</span><span id="34" class="l">        <span class="php-var">$this</span>-&gt;add_free_php56();
+</span><span id="35" class="l">
+</span><span id="36" class="l">        <span class="php-var">$this</span>-&gt;add_hide_directory_listings();
+</span><span id="37" class="l">
+</span><span id="38" class="l">        <span class="php-var">$this</span>-&gt;add_http_headers();
+</span><span id="39" class="l">
+</span><span id="40" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_url_rewriting_enabled())
+</span><span id="41" class="l">        {
+</span><span id="42" class="l">            <span class="php-var">$this</span>-&gt;enable_rewrite_rules();
+</span><span id="43" class="l">
+</span><span id="44" class="l">            <span class="php-var">$this</span>-&gt;force_redirection_if_available();
+</span><span id="45" class="l">
+</span><span id="46" class="l">            <span class="php-var">$this</span>-&gt;add_core_rules();
+</span><span id="47" class="l">
+</span><span id="48" class="l">            <span class="php-var">$this</span>-&gt;add_modules_rules();
+</span><span id="49" class="l">
+</span><span id="50" class="l">            <span class="php-var">$this</span>-&gt;add_user_rules();
+</span><span id="51" class="l">
+</span><span id="52" class="l">            <span class="php-var">$this</span>-&gt;add_php_and_http_protections();
+</span><span id="53" class="l">
+</span><span id="54" class="l">            <span class="php-var">$this</span>-&gt;add_file_and_sql_injections_protections();
+</span><span id="55" class="l">
+</span><span id="56" class="l">            <span class="php-var">$this</span>-&gt;add_bandwidth_protection();
+</span><span id="57" class="l">        }
+</span><span id="58" class="l">
+</span><span id="59" class="l">        <span class="php-var">$this</span>-&gt;add_error_redirection();
+</span><span id="60" class="l">
+</span><span id="61" class="l">        <span class="php-var">$this</span>-&gt;add_gzip_compression();
+</span><span id="62" class="l">
+</span><span id="63" class="l">        <span class="php-var">$this</span>-&gt;add_expires_headers();
+</span><span id="64" class="l">
+</span><span id="65" class="l">        <span class="php-var">$this</span>-&gt;disable_file_etags();
+</span><span id="66" class="l">
+</span><span id="67" class="l">        <span class="php-var">$this</span>-&gt;add_manual_content();
+</span><span id="68" class="l">
+</span><span id="69" class="l">        <span class="php-var">$this</span>-&gt;clean_file_content();
+</span><span id="70" class="l">    }
+</span><span id="71" class="l">
+</span><span id="72" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_line(<span class="php-var">$line</span>)
+</span><span id="73" class="l">    {
+</span><span id="74" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content .= <span class="php-quote">&quot;\n&quot;</span> . <span class="php-var">$line</span>;
+</span><span id="75" class="l">    }
+</span><span id="76" class="l">
+</span><span id="77" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_empty_line()
+</span><span id="78" class="l">    {
+</span><span id="79" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">''</span>);
+</span><span id="80" class="l">    }
+</span><span id="81" class="l">
+</span><span id="82" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_section(<span class="php-var">$name</span>)
+</span><span id="83" class="l">    {
+</span><span id="84" class="l">        <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="85" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# '</span> . <span class="php-var">$name</span> . <span class="php-quote">' #'</span>);
+</span><span id="86" class="l">    }
+</span><span id="87" class="l">
+</span><span id="88" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> set_default_charset()
+</span><span id="89" class="l">    {
+</span><span id="90" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Charset'</span>);
+</span><span id="91" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'AddDefaultCharset UTF-8'</span>);
+</span><span id="92" class="l">    }
+</span><span id="93" class="l">
+</span><span id="94" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_free_php56()
+</span><span id="95" class="l">    {
+</span><span id="96" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() == <span class="php-quote">'free.fr'</span>)
+</span><span id="97" class="l">        {
+</span><span id="98" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Enable PHP5.6 on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
+</span><span id="99" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'php56 1'</span>);
+</span><span id="100" class="l">        }
+</span><span id="101" class="l">    }
+</span><span id="102" class="l">
+</span><span id="103" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_hide_directory_listings()
+</span><span id="104" class="l">    {
+</span><span id="105" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Hide directory listings'</span>);
+</span><span id="106" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'Options -Indexes'</span>);
+</span><span id="107" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Prevent viewing of .htaccess file'</span>);
+</span><span id="108" class="l">        <span class="php-keyword1">if</span> (AppContext::get_request()-&gt;get_domain_name() == <span class="php-quote">'free.fr'</span>)
+</span><span id="109" class="l">        {
+</span><span id="110" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;Files .htaccess&gt;'</span>);
+</span><span id="111" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    Order Allow,Deny'</span>);
+</span><span id="112" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    Deny from all'</span>);
+</span><span id="113" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/Files&gt;'</span>);
+</span><span id="114" class="l">        }
+</span><span id="115" class="l">        <span class="php-keyword1">else</span>
+</span><span id="116" class="l">        {
+</span><span id="117" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;Files .htaccess&gt;'</span>);
+</span><span id="118" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    # Apache &lt;= 2.3'</span>);
+</span><span id="119" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;IfModule mod_authz_core.c&gt;'</span>);
+</span><span id="120" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Require all denied'</span>);
+</span><span id="121" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;/IfModule&gt;'</span>);
+</span><span id="122" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    # Apache 2.2'</span>);
+</span><span id="123" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;IfModule !mod_authz_core.c&gt;'</span>);
+</span><span id="124" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Order Allow,Deny'</span>);
+</span><span id="125" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'        Deny from all'</span>);
+</span><span id="126" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'    &lt;/IfModule&gt;'</span>);
+</span><span id="127" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/Files&gt;'</span>);
+</span><span id="128" class="l">        }
+</span><span id="129" class="l">    }
+</span><span id="130" class="l">
+</span><span id="131" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_http_headers()
+</span><span id="132" class="l">    {
+</span><span id="133" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
+</span><span id="134" class="l">        {
+</span><span id="135" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'HTTP Headers'</span>);
+</span><span id="136" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_headers.c&gt;'</span>);
+</span><span id="137" class="l">
+</span><span id="138" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() &amp;&amp; <span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_hsts_security_enabled())
+</span><span id="139" class="l">            {
+</span><span id="140" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Tell the browser to attempt the HTTPS version first'</span>);
+</span><span id="141" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set Strict-Transport-Security &quot;max-age='</span> . <span class="php-var">$this</span>-&gt;server_environment_config-&gt;get_hsts_security_duration() . <span class="php-quote">'; '</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_hsts_security_subdomain_enabled() ? <span class="php-quote">'includeSubDomains;'</span> : <span class="php-quote">''</span>) . <span class="php-quote">'&quot;'</span>);
+</span><span id="142" class="l">            }
+</span><span id="143" class="l">
+</span><span id="144" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Don\'t allow any pages to be framed externally - Defends against CSRF'</span>);
+</span><span id="145" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Frame-Options SAMEORIGIN'</span>);
+</span><span id="146" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Control Cross-Domain Policies'</span>);
+</span><span id="147" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Permitted-Cross-Domain-Policies &quot;master-only&quot;'</span>);
+</span><span id="148" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Turn on IE8-IE9 XSS prevention tools'</span>);
+</span><span id="149" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-XSS-Protection &quot;1; mode=block&quot;'</span>);
+</span><span id="150" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Prevent mime based attacks'</span>);
+</span><span id="151" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-Content-Type-Options &quot;nosniff&quot;'</span>);
+</span><span id="152" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Use this to force IE to hide that annoying browser compatibility button in the address bar.'</span>);
+</span><span id="153" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # IE=edge means IE should use the latest (edge) version of its rendering engine.'</span>);
+</span><span id="154" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # chrome=1 means IE should use the Chrome rendering engine if installed.'</span>);
+</span><span id="155" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   BrowserMatch MSIE ie'</span>);
+</span><span id="156" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-UA-Compatible &quot;IE=Edge&quot;'</span>);
+</span><span id="157" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
+</span><span id="158" class="l">        }
+</span><span id="159" class="l">        <span class="php-keyword1">else</span>
+</span><span id="160" class="l">        {
+</span><span id="161" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'HTTP Headers disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
+</span><span id="162" class="l">        }
+</span><span id="163" class="l">    }
+</span><span id="164" class="l">
+</span><span id="165" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> enable_rewrite_rules()
+</span><span id="166" class="l">    {
+</span><span id="167" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Rewrite rules'</span>);
+</span><span id="168" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteEngine on'</span>);
+</span><span id="169" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteBase /'</span>);
+</span><span id="170" class="l">    }
+</span><span id="171" class="l">
+</span><span id="172" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_core_rules()
+</span><span id="173" class="l">    {
+</span><span id="174" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Core'</span>);
+</span><span id="175" class="l">
+</span><span id="176" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
+</span><span id="177" class="l">        <span class="php-var">$mappings</span> = <span class="php-var">$eps</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT);
+</span><span id="178" class="l">        <span class="php-var">$this</span>-&gt;add_url_mapping(<span class="php-var">$mappings</span>[<span class="php-quote">'kernel'</span>]);
+</span><span id="179" class="l">    }
+</span><span id="180" class="l">
+</span><span id="181" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_modules_rules()
+</span><span id="182" class="l">    {
+</span><span id="183" class="l">        <span class="php-var">$modules</span> = ModulesManager::get_activated_modules_map();
+</span><span id="184" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
+</span><span id="185" class="l">
+</span><span id="186" class="l">        <span class="php-comment">// Generate high priority rewriting rules</span>
+</span><span id="187" class="l">        <span class="php-var">$first_high_priority_mapping</span> = <span class="php-keyword1">true</span>;
+</span><span id="188" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
+</span><span id="189" class="l">        {
+</span><span id="190" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
+</span><span id="191" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
+</span><span id="192" class="l">            {
+</span><span id="193" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
+</span><span id="194" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
+</span><span id="195" class="l">                {
+</span><span id="196" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping &amp;&amp; <span class="php-var">$mapping</span>-&gt;is_high_priority())
+</span><span id="197" class="l">                    {
+</span><span id="198" class="l">                        <span class="php-keyword1">if</span> (<span class="php-var">$first_high_priority_mapping</span>)
+</span><span id="199" class="l">                        {
+</span><span id="200" class="l">                            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'High Priority Modules rules'</span>);
+</span><span id="201" class="l">                            <span class="php-var">$first_high_priority_mapping</span> = <span class="php-keyword1">false</span>;
+</span><span id="202" class="l">                        }
+</span><span id="203" class="l">
+</span><span id="204" class="l">                        <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
+</span><span id="205" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
+</span><span id="206" class="l">                    }
+</span><span id="207" class="l">                }
+</span><span id="208" class="l">            }
+</span><span id="209" class="l">        }
+</span><span id="210" class="l">
+</span><span id="211" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Modules rules'</span>);
+</span><span id="212" class="l">
+</span><span id="213" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
+</span><span id="214" class="l">        {
+</span><span id="215" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
+</span><span id="216" class="l">            <span class="php-var">$configuration</span> = <span class="php-var">$module</span>-&gt;get_configuration();
+</span><span id="217" class="l">            <span class="php-var">$rules</span> = <span class="php-var">$configuration</span>-&gt;get_url_rewrite_rules();
+</span><span id="218" class="l">            <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$rules</span>))
+</span><span id="219" class="l">            {
+</span><span id="220" class="l">                <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
+</span><span id="221" class="l">            }
+</span><span id="222" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$rules</span> <span class="php-keyword1">as</span> <span class="php-var">$rule</span>)
+</span><span id="223" class="l">            {
+</span><span id="224" class="l">                <span class="php-var">$this</span>-&gt;add_line(<span class="php-keyword2">str_replace</span>(<span class="php-quote">'DIR'</span>, <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path(), <span class="php-var">$rule</span>));
+</span><span id="225" class="l">            }
+</span><span id="226" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
+</span><span id="227" class="l">            {
+</span><span id="228" class="l">                <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
+</span><span id="229" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
+</span><span id="230" class="l">
+</span><span id="231" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
+</span><span id="232" class="l">                {
+</span><span id="233" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping)
+</span><span id="234" class="l">                    {
+</span><span id="235" class="l">                        <span class="php-keyword1">if</span> (!<span class="php-var">$mapping</span>-&gt;is_high_priority() &amp;&amp; !<span class="php-var">$mapping</span>-&gt;is_low_priority())
+</span><span id="236" class="l">                        {
+</span><span id="237" class="l">                            <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
+</span><span id="238" class="l">                        }
+</span><span id="239" class="l">                    }
+</span><span id="240" class="l">                    <span class="php-keyword1">else</span>
+</span><span id="241" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
+</span><span id="242" class="l">                }
+</span><span id="243" class="l">            }
+</span><span id="244" class="l">        }
+</span><span id="245" class="l">
+</span><span id="246" class="l">        <span class="php-comment">// Generate low priority rewriting rules</span>
+</span><span id="247" class="l">        <span class="php-var">$first_low_priority_mapping</span> = <span class="php-keyword1">true</span>;
+</span><span id="248" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$modules</span> <span class="php-keyword1">as</span> <span class="php-var">$module</span>)
+</span><span id="249" class="l">        {
+</span><span id="250" class="l">            <span class="php-var">$id</span> = <span class="php-var">$module</span>-&gt;get_id();
+</span><span id="251" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$eps</span>-&gt;provider_exists(<span class="php-var">$id</span>, UrlMappingsExtensionPoint::EXTENSION_POINT))
+</span><span id="252" class="l">            {
+</span><span id="253" class="l">                <span class="php-var">$provider</span> = <span class="php-var">$eps</span>-&gt;get_provider(<span class="php-var">$id</span>);
+</span><span id="254" class="l">                <span class="php-keyword1">foreach</span> (<span class="php-var">$provider</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT)-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
+</span><span id="255" class="l">                {
+</span><span id="256" class="l">                    <span class="php-keyword1">if</span> (<span class="php-var">$mapping</span> <span class="php-keyword1">instanceof</span> DispatcherUrlMapping &amp;&amp; <span class="php-var">$mapping</span>-&gt;is_low_priority())
+</span><span id="257" class="l">                    {
+</span><span id="258" class="l">                        <span class="php-keyword1">if</span> (<span class="php-var">$first_low_priority_mapping</span>)
+</span><span id="259" class="l">                        {
+</span><span id="260" class="l">                            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Low Priority Modules rules'</span>);
+</span><span id="261" class="l">                            <span class="php-var">$first_low_priority_mapping</span> = <span class="php-keyword1">false</span>;
+</span><span id="262" class="l">                        }
+</span><span id="263" class="l">
+</span><span id="264" class="l">                        <span class="php-var">$this</span>-&gt;add_section(<span class="php-var">$id</span>);
+</span><span id="265" class="l">                        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
+</span><span id="266" class="l">                    }
+</span><span id="267" class="l">                }
+</span><span id="268" class="l">            }
+</span><span id="269" class="l">        }
+</span><span id="270" class="l">    }
+</span><span id="271" class="l">
+</span><span id="272" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_user_rules()
+</span><span id="273" class="l">    {
+</span><span id="274" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'User'</span>);
+</span><span id="275" class="l">
+</span><span id="276" class="l">        <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-quote">'^user/pm-?([0-9]+)-?([0-9]{0,})-?([0-9]{0,})-?([0-9]{0,})-?([a-z_]{0,})$'</span>, <span class="php-quote">'user/pm.php?pm=$1&amp;id=$2&amp;p=$3&amp;quote=$4'</span>);
+</span><span id="277" class="l">
+</span><span id="278" class="l">        <span class="php-var">$eps</span> = AppContext::get_extension_provider_service();
+</span><span id="279" class="l">        <span class="php-var">$mappings</span> = <span class="php-var">$eps</span>-&gt;get_extension_point(UrlMappingsExtensionPoint::EXTENSION_POINT);
+</span><span id="280" class="l">        <span class="php-var">$this</span>-&gt;add_url_mapping(<span class="php-var">$mappings</span>[<span class="php-quote">'user'</span>]);
+</span><span id="281" class="l">    }
+</span><span id="282" class="l">
+</span><span id="283" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_rewrite_rule(<span class="php-var">$match</span>, <span class="php-var">$path</span>, <span class="php-var">$options</span> = <span class="php-quote">'L,QSA'</span>)
+</span><span id="284" class="l">    {
+</span><span id="285" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule '</span> . <span class="php-var">$match</span> . <span class="php-quote">' '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . <span class="php-quote">'/'</span> . <span class="php-keyword2">ltrim</span>(<span class="php-var">$path</span>, <span class="php-quote">'/'</span>) . <span class="php-quote">' ['</span> . <span class="php-var">$options</span> . <span class="php-quote">']'</span>);
+</span><span id="286" class="l">    }
+</span><span id="287" class="l">
+</span><span id="288" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_url_mapping(UrlMappingsExtensionPoint <span class="php-var">$mapping_list</span>)
+</span><span id="289" class="l">    {
+</span><span id="290" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$mapping_list</span>-&gt;list_mappings() <span class="php-keyword1">as</span> <span class="php-var">$mapping</span>)
+</span><span id="291" class="l">        {
+</span><span id="292" class="l">            <span class="php-var">$this</span>-&gt;add_rewrite_rule(<span class="php-var">$mapping</span>-&gt;from(), <span class="php-var">$mapping</span>-&gt;to(), <span class="php-var">$mapping</span>-&gt;options());
+</span><span id="293" class="l">        }
+</span><span id="294" class="l">    }
+</span><span id="295" class="l">
+</span><span id="296" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_php_and_http_protections()
+</span><span id="297" class="l">    {
+</span><span id="298" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'PHP and HTTP protections'</span>);
+</span><span id="299" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out use of illegal or unsafe characters in the HTTP Request'</span>);
+</span><span id="300" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{THE_REQUEST} ^.*(\\r|\\n|%0A|%0D).* [NC,OR]'</span>);
+</span><span id="301" class="l">        <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="302" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script that includes a &lt;script&gt; tag in URL'</span>);
+</span><span id="303" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (&lt;|%3C)([^s]*s)+cript.*(&gt;|%3E) [NC,OR]'</span>);
+</span><span id="304" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script trying to set a PHP GLOBALS variable via URL'</span>);
+</span><span id="305" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} GLOBALS(=|[|\%[0-9A-Z]{0,2}) [OR]'</span>);
+</span><span id="306" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'# Block out any script trying to modify a _REQUEST variable via URL'</span>);
+</span><span id="307" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} _REQUEST(=|[|\%[0-9A-Z]{0,2})'</span>);
+</span><span id="308" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .* - [F,L]'</span>);
+</span><span id="309" class="l">    }
+</span><span id="310" class="l">
+</span><span id="311" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_file_and_sql_injections_protections()
+</span><span id="312" class="l">    {
+</span><span id="313" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'File and SQL injections protections'</span>);
+</span><span id="314" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{REQUEST_METHOD} GET'</span>);
+</span><span id="315" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (;|&lt;|&gt;|\'|&quot;|\)|%0A|%0D|%22|%27|%3C|%3E|%00).*(/\*|union|select|insert|cast|set|declare|drop|update|md5|benchmark) [NC,OR]'</span>);
+</span><span id="316" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{QUERY_STRING} (&lt;|&gt;|\'|%0A|%0D|%27|%3C|%3E|%00) [NC]'</span>);
+</span><span id="317" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .* - [F,L]'</span>);
+</span><span id="318" class="l">    }
+</span><span id="319" class="l">
+</span><span id="320" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> force_redirection_if_available()
+</span><span id="321" class="l">    {
+</span><span id="322" class="l">        <span class="php-var">$domain</span> = AppContext::get_request()-&gt;get_domain_name();
+</span><span id="323" class="l">
+</span><span id="324" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_enabled())
+</span><span id="325" class="l">        {
+</span><span id="326" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Site redirection to www'</span>);
+</span><span id="327" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_HOST} ^'</span> . <span class="php-var">$domain</span> . <span class="php-quote">' [NC]'</span>);
+</span><span id="328" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule ^/?(.*) http'</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() ? <span class="php-quote">'s'</span> : <span class="php-quote">''</span>) . <span class="php-quote">'://'</span> . (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_mode_with_www() ? <span class="php-quote">'www.'</span> . <span class="php-var">$domain</span> : AppContext::get_request()-&gt;get_site_domain_name()) . <span class="php-quote">'/$1 [L,R=301]'</span>);
+</span><span id="329" class="l">        }
+</span><span id="330" class="l">
+</span><span id="331" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_https_enabled() &amp;&amp; !<span class="php-var">$this</span>-&gt;server_environment_config-&gt;is_redirection_www_enabled())
+</span><span id="332" class="l">        {
+</span><span id="333" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Force to use HTTPS if available'</span>);
+</span><span id="334" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTPS} !=on [OR]'</span>); <span class="php-comment">//check if HTTPS not &quot;on&quot;</span>
+</span><span id="335" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{SERVER_PORT} 80 [OR]'</span>); <span class="php-comment">// OR if the server port is 80</span>
+</span><span id="336" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]'</span>); <span class="php-comment">// OR if the website is behind a load balancer</span>
+</span><span id="337" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]'</span>);
+</span><span id="338" class="l">        }
+</span><span id="339" class="l">    }
+</span><span id="340" class="l">
+</span><span id="341" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_bandwidth_protection()
+</span><span id="342" class="l">    {
+</span><span id="343" class="l">        <span class="php-comment">//Bandwidth protection. The /upload directory can be forbidden if the request comes from out of PHPBoost</span>
+</span><span id="344" class="l">        <span class="php-keyword1">if</span> (FileUploadConfig::load()-&gt;get_enable_bandwidth_protect())
+</span><span id="345" class="l">        {
+</span><span id="346" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Bandwith protection'</span>);
+</span><span id="347" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^$'</span>);
+</span><span id="348" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^'</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_url());
+</span><span id="349" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule .*upload/.*$ - [F]'</span>);
+</span><span id="350" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Stop hotlinking'</span>);
+</span><span id="351" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^$'</span>);
+</span><span id="352" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteCond %{HTTP_REFERER} !^'</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_url());
+</span><span id="353" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'RewriteRule \.(bmp|gif|jpe?g|png|swf)$ - [F,L,NC]'</span>);
+</span><span id="354" class="l">        }
+</span><span id="355" class="l">    }
+</span><span id="356" class="l">
+</span><span id="357" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_error_redirection()
+</span><span id="358" class="l">    {
+</span><span id="359" class="l">        <span class="php-comment">//Error page</span>
+</span><span id="360" class="l">        <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Error pages'</span>);
+</span><span id="361" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'ErrorDocument 403 '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . UserUrlBuilder::error_403()-&gt;relative());
+</span><span id="362" class="l">        <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'ErrorDocument 404 '</span> . <span class="php-var">$this</span>-&gt;general_config-&gt;get_site_path() . UserUrlBuilder::error_404()-&gt;relative());
+</span><span id="363" class="l">    }
+</span><span id="364" class="l">
+</span><span id="365" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_gzip_compression()
+</span><span id="366" class="l">    {
+</span><span id="367" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
+</span><span id="368" class="l">        {
+</span><span id="369" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Gzip compression'</span>);
+</span><span id="370" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_filter.c&gt;'</span>);
+</span><span id="371" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;IfModule mod_deflate.c&gt;'</span>);
+</span><span id="372" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       # Compress HTML, CSS, JavaScript, Text, XML and fonts'</span>);
+</span><span id="373" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/javascript'</span>);
+</span><span id="374" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/rss+xml'</span>);
+</span><span id="375" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/vnd.ms-fontobject'</span>);
+</span><span id="376" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font'</span>);
+</span><span id="377" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-opentype'</span>);
+</span><span id="378" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-otf'</span>);
+</span><span id="379" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-truetype'</span>);
+</span><span id="380" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-font-ttf'</span>);
+</span><span id="381" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/x-javascript'</span>);
+</span><span id="382" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/xhtml+xml'</span>);
+</span><span id="383" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE application/xml'</span>);
+</span><span id="384" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/opentype'</span>);
+</span><span id="385" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/otf'</span>);
+</span><span id="386" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE font/ttf'</span>);
+</span><span id="387" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE image/svg+xml'</span>);
+</span><span id="388" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE image/x-icon'</span>);
+</span><span id="389" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/css'</span>);
+</span><span id="390" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/html'</span>);
+</span><span id="391" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/javascript'</span>);
+</span><span id="392" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/plain'</span>);
+</span><span id="393" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddOutputFilterByType DEFLATE text/xml'</span>);
+</span><span id="394" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="395" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       # Remove browser bugs (only needed for really old browsers)'</span>);
+</span><span id="396" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch ^Mozilla/4 gzip-only-text/html'</span>);
+</span><span id="397" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch ^Mozilla/4\.0[678] no-gzip'</span>);
+</span><span id="398" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       BrowserMatch \bMSIE !no-gzip !gzip-only-text/html'</span>);
+</span><span id="399" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       &lt;IfModule mod_headers.c&gt;'</span>);
+</span><span id="400" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'           Header append Vary User-Agent'</span>);
+</span><span id="401" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       &lt;/IfModule&gt;'</span>);
+</span><span id="402" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;/IfModule&gt;'</span>);
+</span><span id="403" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
+</span><span id="404" class="l">        }
+</span><span id="405" class="l">        <span class="php-keyword1">else</span>
+</span><span id="406" class="l">        {
+</span><span id="407" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Gzip compression disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
+</span><span id="408" class="l">        }
+</span><span id="409" class="l">    }
+</span><span id="410" class="l">
+</span><span id="411" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_expires_headers()
+</span><span id="412" class="l">    {
+</span><span id="413" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
+</span><span id="414" class="l">        {
+</span><span id="415" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Expires Headers'</span>);
+</span><span id="416" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;IfModule mod_expires.c&gt;'</span>);
+</span><span id="417" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresActive On'</span>);
+</span><span id="418" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="419" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Default expiration: 1 week after request'</span>);
+</span><span id="420" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresDefault &quot;access plus 1 week&quot;'</span>);
+</span><span id="421" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="422" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # CSS and JS expiration: 1 week after request'</span>);
+</span><span id="423" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/css &quot;access plus 1 week&quot;'</span>);
+</span><span id="424" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/javascript &quot;access plus 1 week&quot;'</span>);
+</span><span id="425" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/x-javascript &quot;access plus 1 week&quot;'</span>);
+</span><span id="426" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/javascript &quot;access plus 1 week&quot;'</span>);
+</span><span id="427" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/x-javascript &quot;access plus 1 week&quot;'</span>);
+</span><span id="428" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="429" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Fonts expiration: 1 week after request'</span>);
+</span><span id="430" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;IfModule mod_mime.c&gt;'</span>);
+</span><span id="431" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddType application/font-woff .woff'</span>);
+</span><span id="432" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'       AddType application/font-woff2 .woff2'</span>);
+</span><span id="433" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   &lt;/IfModule&gt;'</span>);
+</span><span id="434" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType   application/font-woff   &quot;access plus 1 month&quot;'</span>);
+</span><span id="435" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType   application/font-woff2   &quot;access plus 1 month&quot;'</span>);
+</span><span id="436" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="437" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Image files expiration: 1 month after request'</span>);
+</span><span id="438" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/bmp &quot;access plus 1 month&quot;'</span>);
+</span><span id="439" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/gif &quot;access plus 1 month&quot;'</span>);
+</span><span id="440" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/jpeg &quot;access plus 1 month&quot;'</span>);
+</span><span id="441" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/jp2 &quot;access plus 1 month&quot;'</span>);
+</span><span id="442" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/pipeg &quot;access plus 1 month&quot;'</span>);
+</span><span id="443" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/png &quot;access plus 1 month&quot;'</span>);
+</span><span id="444" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/svg+xml &quot;access plus 1 month&quot;'</span>);
+</span><span id="445" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/tiff &quot;access plus 1 month&quot;'</span>);
+</span><span id="446" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/vnd.microsoft.icon &quot;access plus 1 month&quot;'</span>);
+</span><span id="447" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/x-icon &quot;access plus 1 month&quot;'</span>);
+</span><span id="448" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/ico &quot;access plus 1 month&quot;'</span>);
+</span><span id="449" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/icon &quot;access plus 1 month&quot;'</span>);
+</span><span id="450" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType text/ico &quot;access plus 1 month&quot;'</span>);
+</span><span id="451" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/ico &quot;access plus 1 month&quot;'</span>);
+</span><span id="452" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType image/vnd.wap.wbmp &quot;access plus 1 month&quot;'</span>);
+</span><span id="453" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/vnd.wap.wbxml &quot;access plus 1 month&quot;'</span>);
+</span><span id="454" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/smil &quot;access plus 1 month&quot;'</span>);
+</span><span id="455" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="456" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Audio files expiration: 1 month after request'</span>);
+</span><span id="457" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/basic &quot;access plus 1 month&quot;'</span>);
+</span><span id="458" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/mid &quot;access plus 1 month&quot;'</span>);
+</span><span id="459" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/midi &quot;access plus 1 month&quot;'</span>);
+</span><span id="460" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/mpeg &quot;access plus 1 month&quot;'</span>);
+</span><span id="461" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-aiff &quot;access plus 1 month&quot;'</span>);
+</span><span id="462" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-mpegurl &quot;access plus 1 month&quot;'</span>);
+</span><span id="463" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-pn-realaudio &quot;access plus 1 month&quot;'</span>);
+</span><span id="464" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType audio/x-wav &quot;access plus 1 month&quot;'</span>);
+</span><span id="465" class="l">            <span class="php-var">$this</span>-&gt;add_empty_line();
+</span><span id="466" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Movie files expiration: 1 month after request'</span>);
+</span><span id="467" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType application/x-shockwave-flash &quot;access plus 1 month&quot;'</span>);
+</span><span id="468" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType x-world/x-vrml &quot;access plus 1 month&quot;'</span>);
+</span><span id="469" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-msvideo &quot;access plus 1 month&quot;'</span>);
+</span><span id="470" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/mpeg &quot;access plus 1 month&quot;'</span>);
+</span><span id="471" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/mp4 &quot;access plus 1 month&quot;'</span>);
+</span><span id="472" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/quicktime &quot;access plus 1 month&quot;'</span>);
+</span><span id="473" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-la-asf &quot;access plus 1 month&quot;'</span>);
+</span><span id="474" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   ExpiresByType video/x-ms-asf &quot;access plus 1 month&quot;'</span>);
+</span><span id="475" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'&lt;/IfModule&gt;'</span>);
+</span><span id="476" class="l">        }
+</span><span id="477" class="l">        <span class="php-keyword1">else</span>
+</span><span id="478" class="l">        {
+</span><span id="479" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Expires Headers disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
+</span><span id="480" class="l">        }
+</span><span id="481" class="l">    }
+</span><span id="482" class="l">
+</span><span id="483" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> disable_file_etags()
+</span><span id="484" class="l">    {
+</span><span id="485" class="l">        <span class="php-keyword1">if</span>(AppContext::get_request()-&gt;get_domain_name() != <span class="php-quote">'free.fr'</span>)
+</span><span id="486" class="l">        {
+</span><span id="487" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Disable file etags'</span>);
+</span><span id="488" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'FileETag none'</span>);
+</span><span id="489" class="l">        }
+</span><span id="490" class="l">        <span class="php-keyword1">else</span>
+</span><span id="491" class="l">        {
+</span><span id="492" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Disable file etags disabled on '</span> . <span class="php-var">$domain</span> . <span class="php-quote">' hosting'</span>);
+</span><span id="493" class="l">        }
+</span><span id="494" class="l">    }
+</span><span id="495" class="l">
+</span><span id="496" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_manual_content()
+</span><span id="497" class="l">    {
+</span><span id="498" class="l">        <span class="php-var">$manual_content</span> = <span class="php-var">$this</span>-&gt;server_environment_config-&gt;get_htaccess_manual_content();
+</span><span id="499" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$manual_content</span>))
+</span><span id="500" class="l">        {
+</span><span id="501" class="l">            <span class="php-var">$this</span>-&gt;add_section(<span class="php-quote">'Manual content'</span>);
+</span><span id="502" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-var">$manual_content</span>);
+</span><span id="503" class="l">        }
+</span><span id="504" class="l">    }
+</span><span id="505" class="l">
+</span><span id="506" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> clean_file_content()
+</span><span id="507" class="l">    {
+</span><span id="508" class="l">        <span class="php-var">$this</span>-&gt;htaccess_file_content = <span class="php-keyword2">trim</span>(<span class="php-var">$this</span>-&gt;htaccess_file_content);
+</span><span id="509" class="l">    }
+</span><span id="510" class="l">
+</span><span id="511" class="l">    <span class="php-comment">/**
+</span></span><span id="512" class="l"><span class="php-comment">     * Returns the content of the .htaccess file
+</span></span><span id="513" class="l"><span class="php-comment">     * @return string its content
+</span></span><span id="514" class="l"><span class="php-comment">     */</span>
+</span><span id="515" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> get_htaccess_file_content()
+</span><span id="516" class="l">    {
+</span><span id="517" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;htaccess_file_content;
+</span><span id="518" class="l">    }
+</span><span id="519" class="l">
+</span><span id="520" class="l">    <span class="php-comment">/**
+</span></span><span id="521" class="l"><span class="php-comment">     * Loads and returns the groups cached data.
+</span></span><span id="522" class="l"><span class="php-comment">     * @return HtaccessFileCache The cached data
+</span></span><span id="523" class="l"><span class="php-comment">     */</span>
+</span><span id="524" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> load()
+</span><span id="525" class="l">    {
+</span><span id="526" class="l">        <span class="php-keyword1">return</span> CacheManager::load(__CLASS__, <span class="php-quote">'kernel'</span>, <span class="php-quote">'htaccess-file'</span>);
+</span><span id="527" class="l">    }
+</span><span id="528" class="l">
+</span><span id="529" class="l">    <span class="php-comment">/**
+</span></span><span id="530" class="l"><span class="php-comment">     * Invalidates the current groups cached data.
+</span></span><span id="531" class="l"><span class="php-comment">     */</span>
+</span><span id="532" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> invalidate()
+</span><span id="533" class="l">    {
+</span><span id="534" class="l">        CacheManager::invalidate(<span class="php-quote">'kernel'</span>, <span class="php-quote">'htaccess-file'</span>);
+</span><span id="535" class="l">    }
+</span><span id="536" class="l">
+</span><span id="537" class="l">    <span class="php-comment">/**
+</span></span><span id="538" class="l"><span class="php-comment">     * Regenerates the .htaccess file
+</span></span><span id="539" class="l"><span class="php-comment">     */</span>
+</span><span id="540" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> regenerate()
+</span><span id="541" class="l">    {
+</span><span id="542" class="l">        self::invalidate();
+</span><span id="543" class="l">        self::update_htaccess_file();
+</span><span id="544" class="l">    }
+</span><span id="545" class="l">
+</span><span id="546" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> update_htaccess_file()
+</span><span id="547" class="l">    {
+</span><span id="548" class="l">        <span class="php-var">$file</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">File</span>(PATH_TO_ROOT . <span class="php-quote">'/.htaccess'</span>);
+</span><span id="549" class="l">
+</span><span id="550" class="l">        <span class="php-keyword1">try</span>
+</span><span id="551" class="l">        {
+</span><span id="552" class="l">            <span class="php-var">$file</span>-&gt;write(self::get_file_content());
+</span><span id="553" class="l">            <span class="php-var">$file</span>-&gt;close();
+</span><span id="554" class="l">        }
+</span><span id="555" class="l">        <span class="php-keyword1">catch</span>(IOException <span class="php-var">$ex</span>)
+</span><span id="556" class="l">        {
+</span><span id="557" class="l">            ErrorHandler::add_error_in_log(<span class="php-quote">'Couldn\'t write the .htaccess file. Please check the site root read authorizations.'</span>, <span class="php-quote">''</span>);
+</span><span id="558" class="l">        }
+</span><span id="559" class="l">    }
+</span><span id="560" class="l">
+</span><span id="561" class="l">    <span class="php-comment">/**
+</span></span><span id="562" class="l"><span class="php-comment">     *
+</span></span><span id="563" class="l"><span class="php-comment">     * @return string
+</span></span><span id="564" class="l"><span class="php-comment">     */</span>
+</span><span id="565" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_file_content()
+</span><span id="566" class="l">    {
+</span><span id="567" class="l">        <span class="php-keyword1">return</span> self::load()-&gt;get_htaccess_file_content();
+</span><span id="568" class="l">    }
+</span><span id="569" class="l">}
+</span><span id="570" class="l"><span class="xlang">?&gt;</span>
+</span><span id="571" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

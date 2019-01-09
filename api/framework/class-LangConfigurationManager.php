@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Langs.php">Langs</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -684,7 +680,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2012 01 19
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangConfigurationManager.php#3-54" title="Go to source code">phpboost/langs/LangConfigurationManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LangConfigurationManager.php#3-53" title="Go to source code">phpboost/langs/LangConfigurationManager.class.php</a></span>
 			</div>
 
 
@@ -696,7 +692,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -718,7 +714,7 @@
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-LangConfigurationManager.php#17-26" title="Go to source code">get</a>( <span> <var>$id</var></span> )
+<a href="source-class-LangConfigurationManager.php#16-25" title="Go to source code">get</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">

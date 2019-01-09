@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.enum.php">enum</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldEnumOption.php#3-147" title="Go to source code">builder/form/field/enum/AbstractFormFieldEnumOption.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldEnumOption.php#3-146" title="Go to source code">builder/form/field/enum/AbstractFormFieldEnumOption.class.php</a></span>
 			</div>
 
 
@@ -730,7 +726,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -752,7 +748,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#27-32" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span> <var>$raw_value</var></span>, <span> <var>$field_choice_options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#26-31" title="Go to source code">__construct</a>( <span> <var>$label</var></span>, <span> <var>$raw_value</var></span>, <span> <var>$field_choice_options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#34-40" title="Go to source code">get_label</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#33-39" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_set_label">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#42-48" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#41-47" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_get_raw_value">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#50-56" title="Go to source code">get_raw_value</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#49-55" title="Go to source code">get_raw_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -898,7 +894,7 @@
 					<div>
 						<a class="anchor" href="#_set_raw_value">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#58-64" title="Go to source code">set_raw_value</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#57-63" title="Go to source code">set_raw_value</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -935,7 +931,7 @@
 					<div>
 						<a class="anchor" href="#_get_field">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#66-72" title="Go to source code">get_field</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#65-71" title="Go to source code">get_field</a>( )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@
 					<div>
 						<a class="anchor" href="#_set_field">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#74-77" title="Go to source code">set_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#73-76" title="Go to source code">set_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 					<div>
 						<a class="anchor" href="#_set_active">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#79-82" title="Go to source code">set_active</a>( <span> <var>$value</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#78-81" title="Go to source code">set_active</a>( <span> <var>$value</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1048,7 +1044,7 @@
 					<div>
 						<a class="anchor" href="#_is_active">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#84-94" title="Go to source code">is_active</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#83-93" title="Go to source code">is_active</a>( )
 						</code>
 
 							<div class="description short">
@@ -1083,7 +1079,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#96-99" title="Go to source code">set_disable</a>( <span> <var>$value</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#95-98" title="Go to source code">set_disable</a>( <span> <var>$value</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1118,7 +1114,7 @@
 					<div>
 						<a class="anchor" href="#_is_disable">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#101-104" title="Go to source code">is_disable</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#100-103" title="Go to source code">is_disable</a>( )
 						</code>
 
 							<div class="description short">
@@ -1153,7 +1149,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_id">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#106-109" title="Go to source code">get_field_id</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#105-108" title="Go to source code">get_field_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1188,7 +1184,7 @@
 					<div>
 						<a class="anchor" href="#_get_option_id">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#111-114" title="Go to source code">get_option_id</a>( )
+<a href="source-class-AbstractFormFieldEnumOption.php#110-113" title="Go to source code">get_option_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1223,7 +1219,7 @@
 					<div>
 						<a class="anchor" href="#_get_option">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#116-129" title="Go to source code">get_option</a>( <span> <var>$raw_value</var></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#115-128" title="Go to source code">get_option</a>( <span> <var>$raw_value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1260,7 +1256,7 @@
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldEnumOption.php#131-146" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_choice_options</var></span> )
+<a href="source-class-AbstractFormFieldEnumOption.php#130-145" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_choice_options</var></span> )
 						</code>
 
 							<div class="description short">

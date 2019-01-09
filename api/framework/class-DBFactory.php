@@ -673,10 +673,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.factory.php">factory</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBFactory.php#3-138" title="Go to source code">io/db/factory/DBFactory.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DBFactory.php#3-137" title="Go to source code">io/db/factory/DBFactory.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -719,7 +715,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -741,7 +737,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-DBFactory.php#34-37" title="Go to source code">__static</a>( )
+<a href="source-class-DBFactory.php#33-36" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -776,7 +772,7 @@
 					<div>
 						<a class="anchor" href="#_load_prefix">#</a>
 						<code>
-<a href="source-class-DBFactory.php#39-42" title="Go to source code">load_prefix</a>( )
+<a href="source-class-DBFactory.php#38-41" title="Go to source code">load_prefix</a>( )
 						</code>
 
 							<div class="description short">
@@ -811,7 +807,7 @@
 					<div>
 						<a class="anchor" href="#_init_factory">#</a>
 						<code>
-<a href="source-class-DBFactory.php#44-57" title="Go to source code">init_factory</a>( <span> <var>$dbms</var></span> )
+<a href="source-class-DBFactory.php#43-56" title="Go to source code">init_factory</a>( <span> <var>$dbms</var></span> )
 						</code>
 
 							<div class="description short">
@@ -846,7 +842,7 @@
 					<div>
 						<a class="anchor" href="#_get_db_connection">#</a>
 						<code>
-<a href="source-class-DBFactory.php#59-74" title="Go to source code">get_db_connection</a>( )
+<a href="source-class-DBFactory.php#58-73" title="Go to source code">get_db_connection</a>( )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_close_db_connection">#</a>
 						<code>
-<a href="source-class-DBFactory.php#76-82" title="Go to source code">close_db_connection</a>( )
+<a href="source-class-DBFactory.php#75-81" title="Go to source code">close_db_connection</a>( )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_reset_db_connection">#</a>
 						<code>
-<a href="source-class-DBFactory.php#84-87" title="Go to source code">reset_db_connection</a>( )
+<a href="source-class-DBFactory.php#83-86" title="Go to source code">reset_db_connection</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_set_db_connection">#</a>
 						<code>
-<a href="source-class-DBFactory.php#89-92" title="Go to source code">set_db_connection</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$connection</var></span> )
+<a href="source-class-DBFactory.php#88-91" title="Go to source code">set_db_connection</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$connection</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_new_db_connection">#</a>
 						<code>
-<a href="source-class-DBFactory.php#94-101" title="Go to source code">new_db_connection</a>( )
+<a href="source-class-DBFactory.php#93-100" title="Go to source code">new_db_connection</a>( )
 						</code>
 
 							<div class="description short">
@@ -1055,7 +1051,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_new_sql_querier">#</a>
 						<code>
-<a href="source-class-DBFactory.php#103-111" title="Go to source code">new_sql_querier</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$db_connection</var></span> )
+<a href="source-class-DBFactory.php#102-110" title="Go to source code">new_sql_querier</a>( <span><code><a href="class-DBConnection.php">DBConnection</a></code> <var>$db_connection</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1115,7 +1111,7 @@ creates a new one</p>
 					<div>
 						<a class="anchor" href="#_new_dbms_util">#</a>
 						<code>
-<a href="source-class-DBFactory.php#113-116" title="Go to source code">new_dbms_util</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span>, <span> <var>$dbms_type</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-DBFactory.php#112-115" title="Go to source code">new_dbms_util</a>( <span><code><a href="class-SQLQuerier.php">SQLQuerier</a></code> <var>$querier</var></span>, <span> <var>$dbms_type</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1161,7 +1157,7 @@ creates a new one</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DBFactory.php#17" title="Go to source code"><b>MYSQL</b></a>
+								<a href="source-class-DBFactory.php#16" title="Go to source code"><b>MYSQL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1185,7 +1181,7 @@ creates a new one</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DBFactory.php#18" title="Go to source code"><b>PDO_MYSQL</b></a>
+								<a href="source-class-DBFactory.php#17" title="Go to source code"><b>PDO_MYSQL</b></a>
 							</code>
 
 							<div class="description short">
@@ -1209,7 +1205,7 @@ creates a new one</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DBFactory.php#19" title="Go to source code"><b>PDO_SQLITE</b></a>
+								<a href="source-class-DBFactory.php#18" title="Go to source code"><b>PDO_SQLITE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1233,7 +1229,7 @@ creates a new one</p>
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-DBFactory.php#20" title="Go to source code"><b>PDO_POSTGRESQL</b></a>
+								<a href="source-class-DBFactory.php#19" title="Go to source code"><b>PDO_POSTGRESQL</b></a>
 							</code>
 
 							<div class="description short">

@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Core.php">Core</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ClassLoader.php#3-165" title="Go to source code">core/ClassLoader.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ClassLoader.php#3-164" title="Go to source code">core/ClassLoader.class.php</a></span>
 			</div>
 
 
@@ -711,7 +707,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -733,7 +729,7 @@
 					<div>
 						<a class="anchor" href="#_init_autoload">#</a>
 						<code>
-<a href="source-class-ClassLoader.php#26-36" title="Go to source code">init_autoload</a>( )
+<a href="source-class-ClassLoader.php#25-35" title="Go to source code">init_autoload</a>( )
 						</code>
 
 							<div class="description short">
@@ -768,7 +764,7 @@
 					<div>
 						<a class="anchor" href="#_autoload">#</a>
 						<code>
-<a href="source-class-ClassLoader.php#38-53" title="Go to source code">autoload</a>( <span>string <var>$classname</var></span> )
+<a href="source-class-ClassLoader.php#37-52" title="Go to source code">autoload</a>( <span>string <var>$classname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -816,7 +812,7 @@
 					<div>
 						<a class="anchor" href="#_is_class_registered_and_valid">#</a>
 						<code>
-<a href="source-class-ClassLoader.php#55-70" title="Go to source code">is_class_registered_and_valid</a>( <span> <var>$classname</var></span> )
+<a href="source-class-ClassLoader.php#54-69" title="Go to source code">is_class_registered_and_valid</a>( <span> <var>$classname</var></span> )
 						</code>
 
 							<div class="description short">
@@ -851,7 +847,7 @@
 					<div>
 						<a class="anchor" href="#_generate_classlist">#</a>
 						<code>
-<a href="source-class-ClassLoader.php#72-98" title="Go to source code">generate_classlist</a>( )
+<a href="source-class-ClassLoader.php#71-97" title="Go to source code">generate_classlist</a>( )
 						</code>
 
 							<div class="description short">
@@ -886,7 +882,7 @@
 					<div>
 						<a class="anchor" href="#_clear_cache">#</a>
 						<code>
-<a href="source-class-ClassLoader.php#100-105" title="Go to source code">clear_cache</a>( )
+<a href="source-class-ClassLoader.php#99-104" title="Go to source code">clear_cache</a>( )
 						</code>
 
 							<div class="description short">

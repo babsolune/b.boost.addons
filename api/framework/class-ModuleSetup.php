@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 2.0 - 2009 01 14
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleSetup.php#3-37" title="Go to source code">phpboost/module/ModuleSetup.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleSetup.php#3-36" title="Go to source code">phpboost/module/ModuleSetup.class.php</a></span>
 			</div>
 
 
@@ -714,7 +710,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -736,7 +732,7 @@
 					<div>
 						<a class="anchor" href="#_check_environment">#</a>
 						<code>
-<a href="source-class-ModuleSetup.php#15-19" title="Go to source code">check_environment</a>( )
+<a href="source-class-ModuleSetup.php#14-18" title="Go to source code">check_environment</a>( )
 						</code>
 
 							<div class="description short">
@@ -775,7 +771,7 @@
 					<div>
 						<a class="anchor" href="#_install">#</a>
 						<code>
-<a href="source-class-ModuleSetup.php#21-24" title="Go to source code">install</a>( )
+<a href="source-class-ModuleSetup.php#20-23" title="Go to source code">install</a>( )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@
 					<div>
 						<a class="anchor" href="#_uninstall">#</a>
 						<code>
-<a href="source-class-ModuleSetup.php#26-30" title="Go to source code">uninstall</a>( )
+<a href="source-class-ModuleSetup.php#25-29" title="Go to source code">uninstall</a>( )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@
 					<div>
 						<a class="anchor" href="#_upgrade">#</a>
 						<code>
-<a href="source-class-ModuleSetup.php#32-36" title="Go to source code">upgrade</a>( <span> <var>$installed_version</var></span> )
+<a href="source-class-ModuleSetup.php#31-35" title="Go to source code">upgrade</a>( <span> <var>$installed_version</var></span> )
 						</code>
 
 							<div class="description short">

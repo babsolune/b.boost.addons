@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 07 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-GraphicalEnvironmentConfig.php#3-74" title="Go to source code">phpboost/config/GraphicalEnvironmentConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-GraphicalEnvironmentConfig.php#3-73" title="Go to source code">phpboost/config/GraphicalEnvironmentConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_is_visit_counter_enabled">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#19-22" title="Go to source code">is_visit_counter_enabled</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#18-21" title="Go to source code">is_visit_counter_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_set_visit_counter_enabled">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#24-27" title="Go to source code">set_visit_counter_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-GraphicalEnvironmentConfig.php#23-26" title="Go to source code">set_visit_counter_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_theme_author">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#29-32" title="Go to source code">get_display_theme_author</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#28-31" title="Go to source code">get_display_theme_author</a>( )
 						</code>
 
 							<div class="description short">
@@ -855,7 +851,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_theme_author">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#34-37" title="Go to source code">set_display_theme_author</a>( <span> <var>$display</var></span> )
+<a href="source-class-GraphicalEnvironmentConfig.php#33-36" title="Go to source code">set_display_theme_author</a>( <span> <var>$display</var></span> )
 						</code>
 
 							<div class="description short">
@@ -890,7 +886,7 @@
 					<div>
 						<a class="anchor" href="#_is_page_bench_enabled">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#39-42" title="Go to source code">is_page_bench_enabled</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#38-41" title="Go to source code">is_page_bench_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -925,7 +921,7 @@
 					<div>
 						<a class="anchor" href="#_set_page_bench_enabled">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#44-47" title="Go to source code">set_page_bench_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-GraphicalEnvironmentConfig.php#43-46" title="Go to source code">set_page_bench_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -960,7 +956,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#49-56" title="Go to source code">get_default_values</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#48-55" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#58-65" title="Go to source code">load</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#57-64" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-GraphicalEnvironmentConfig.php#67-73" title="Go to source code">save</a>( )
+<a href="source-class-GraphicalEnvironmentConfig.php#66-72" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1098,7 +1094,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GraphicalEnvironmentConfig.php#15" title="Go to source code"><b>VISIT_COUNTER_ENABLED</b></a>
+								<a href="source-class-GraphicalEnvironmentConfig.php#14" title="Go to source code"><b>VISIT_COUNTER_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1122,7 +1118,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GraphicalEnvironmentConfig.php#16" title="Go to source code"><b>DISPLAY_THEME_AUTHOR</b></a>
+								<a href="source-class-GraphicalEnvironmentConfig.php#15" title="Go to source code"><b>DISPLAY_THEME_AUTHOR</b></a>
 							</code>
 
 							<div class="description short">
@@ -1146,7 +1142,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-GraphicalEnvironmentConfig.php#17" title="Go to source code"><b>PAGE_BENCH_ENABLED</b></a>
+								<a href="source-class-GraphicalEnvironmentConfig.php#16" title="Go to source code"><b>PAGE_BENCH_ENABLED</b></a>
 							</code>
 
 							<div class="description short">

@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -689,7 +685,7 @@
 							<b>Since:</b>
 							PHPBoost 4.1 - 2014 08 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StatsCache.php#3-67" title="Go to source code">phpboost/cache/StatsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StatsCache.php#3-66" title="Go to source code">phpboost/cache/StatsCache.class.php</a></span>
 			</div>
 
 
@@ -710,7 +706,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -732,7 +728,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-StatsCache.php#17-35" title="Go to source code">synchronize</a>( )
+<a href="source-class-StatsCache.php#16-34" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -771,7 +767,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_stats">#</a>
 						<code>
-<a href="source-class-StatsCache.php#37-40" title="Go to source code">get_stats</a>( )
+<a href="source-class-StatsCache.php#36-39" title="Go to source code">get_stats</a>( )
 						</code>
 
 							<div class="description short">
@@ -806,7 +802,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_stats_properties">#</a>
 						<code>
-<a href="source-class-StatsCache.php#42-49" title="Go to source code">get_stats_properties</a>( <span> <var>$identifier</var></span> )
+<a href="source-class-StatsCache.php#41-48" title="Go to source code">get_stats_properties</a>( <span> <var>$identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-StatsCache.php#51-58" title="Go to source code">load</a>( )
+<a href="source-class-StatsCache.php#50-57" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-StatsCache.php#60-66" title="Go to source code">invalidate</a>( )
+<a href="source-class-StatsCache.php#59-65" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

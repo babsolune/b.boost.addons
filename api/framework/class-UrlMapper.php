@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMapper.php#3-30" title="Go to source code">mvc/dispatcher/UrlMapper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMapper.php#3-29" title="Go to source code">mvc/dispatcher/UrlMapper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -742,7 +738,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_match">#</a>
 						<code>
-<a href="source-class-UrlMapper.php#16-21" title="Go to source code">match</a>( <span>string <var>$url</var></span> )
+<a href="source-class-UrlMapper.php#15-20" title="Go to source code">match</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -808,7 +804,7 @@
 					<div>
 						<a class="anchor" href="#_call">#</a>
 						<code>
-<a href="source-class-UrlMapper.php#23-29" title="Go to source code">call</a>( <span>string <var>$url</var>,…</span> )
+<a href="source-class-UrlMapper.php#22-28" title="Go to source code">call</a>( <span>string <var>$url</var>,…</span> )
 						</code>
 
 							<div class="description short">

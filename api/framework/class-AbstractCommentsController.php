@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.controllers.php">controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -687,7 +683,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsController.php#3-61" title="Go to source code">content/comments/controllers/AbstractCommentsController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsController.php#3-60" title="Go to source code">content/comments/controllers/AbstractCommentsController.class.php</a></span>
 			</div>
 
 
@@ -720,7 +716,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -742,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#21-30" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AbstractCommentsController.php#20-29" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -786,7 +782,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_read">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#32-35" title="Go to source code">is_authorized_read</a>( )
+<a href="source-class-AbstractCommentsController.php#31-34" title="Go to source code">is_authorized_read</a>( )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@
 					<div>
 						<a class="anchor" href="#_is_display">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#37-40" title="Go to source code">is_display</a>( )
+<a href="source-class-AbstractCommentsController.php#36-39" title="Go to source code">is_display</a>( )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_id">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#42-45" title="Go to source code">get_module_id</a>( )
+<a href="source-class-AbstractCommentsController.php#41-44" title="Go to source code">get_module_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_in_module">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#47-50" title="Go to source code">get_id_in_module</a>( )
+<a href="source-class-AbstractCommentsController.php#46-49" title="Go to source code">get_id_in_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@
 					<div>
 						<a class="anchor" href="#_get_topic_identifier">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#52-55" title="Go to source code">get_topic_identifier</a>( )
+<a href="source-class-AbstractCommentsController.php#51-54" title="Go to source code">get_topic_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -961,7 +957,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations">#</a>
 						<code>
-<a href="source-class-AbstractCommentsController.php#57-60" title="Go to source code">get_authorizations</a>( )
+<a href="source-class-AbstractCommentsController.php#56-59" title="Go to source code">get_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1027,7 +1023,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCommentsController.php#16" title="Go to source code"><var>$module_id</var></a>
+						<a href="source-class-AbstractCommentsController.php#15" title="Go to source code"><var>$module_id</var></a>
 
 					<div class="description short">
 						
@@ -1054,7 +1050,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCommentsController.php#17" title="Go to source code"><var>$id_in_module</var></a>
+						<a href="source-class-AbstractCommentsController.php#16" title="Go to source code"><var>$id_in_module</var></a>
 
 					<div class="description short">
 						
@@ -1081,7 +1077,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCommentsController.php#18" title="Go to source code"><var>$topic_identifier</var></a>
+						<a href="source-class-AbstractCommentsController.php#17" title="Go to source code"><var>$topic_identifier</var></a>
 
 					<div class="description short">
 						
@@ -1108,7 +1104,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCommentsController.php#19" title="Go to source code"><var>$provider</var></a>
+						<a href="source-class-AbstractCommentsController.php#18" title="Go to source code"><var>$provider</var></a>
 
 					<div class="description short">
 						

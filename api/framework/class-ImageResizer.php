@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Image.php">Image</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -690,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ImageResizer.php#3-144" title="Go to source code">io/image/ImageResizer.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ImageResizer.php#3-143" title="Go to source code">io/image/ImageResizer.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -705,7 +701,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -727,7 +723,7 @@
 					<div>
 						<a class="anchor" href="#_resize">#</a>
 						<code>
-<a href="source-class-ImageResizer.php#18-36" title="Go to source code">resize</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-ImageResizer.php#17-35" title="Go to source code">resize</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#_resize_with_max_values">#</a>
 						<code>
-<a href="source-class-ImageResizer.php#38-49" title="Go to source code">resize_with_max_values</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-ImageResizer.php#37-48" title="Go to source code">resize_with_max_values</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_resize_width">#</a>
 						<code>
-<a href="source-class-ImageResizer.php#51-56" title="Go to source code">resize_width</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$directory</var></span> )
+<a href="source-class-ImageResizer.php#50-55" title="Go to source code">resize_width</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$width</var></span>, <span> <var>$directory</var></span> )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_resize_height">#</a>
 						<code>
-<a href="source-class-ImageResizer.php#58-63" title="Go to source code">resize_height</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var></span> )
+<a href="source-class-ImageResizer.php#57-62" title="Go to source code">resize_height</a>( <span><code><a href="class-Image.php">Image</a></code> <var>$image</var></span>, <span> <var>$height</var></span>, <span> <var>$directory</var></span> )
 						</code>
 
 							<div class="description short">

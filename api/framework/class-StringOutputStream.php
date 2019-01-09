@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -712,7 +708,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 07 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringOutputStream.php#3-32" title="Go to source code">util/StringOutputStream.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-StringOutputStream.php#3-31" title="Go to source code">util/StringOutputStream.class.php</a></span>
 			</div>
 
 
@@ -724,7 +720,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -746,7 +742,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-StringOutputStream.php#18-21" title="Go to source code">__construct</a>( <span> <var>$string</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-StringOutputStream.php#17-20" title="Go to source code">__construct</a>( <span> <var>$string</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -781,7 +777,7 @@
 					<div>
 						<a class="anchor" href="#_write">#</a>
 						<code>
-<a href="source-class-StringOutputStream.php#23-26" title="Go to source code">write</a>( <span> <var>$string</var></span> )
+<a href="source-class-StringOutputStream.php#22-25" title="Go to source code">write</a>( <span> <var>$string</var></span> )
 						</code>
 
 							<div class="description short">
@@ -816,7 +812,7 @@
 					<div>
 						<a class="anchor" href="#_to_string">#</a>
 						<code>
-<a href="source-class-StringOutputStream.php#28-31" title="Go to source code">to_string</a>( )
+<a href="source-class-StringOutputStream.php#27-30" title="Go to source code">to_string</a>( )
 						</code>
 
 							<div class="description short">

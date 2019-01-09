@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Environment.php">Environment</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -726,7 +722,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractGraphicalEnvironment.php#3-51" title="Go to source code">phpboost/environment/AbstractGraphicalEnvironment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractGraphicalEnvironment.php#3-50" title="Go to source code">phpboost/environment/AbstractGraphicalEnvironment.class.php</a></span>
 			</div>
 
 
@@ -760,7 +756,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_process_site_maintenance">#</a>
 						<code>
-<a href="source-class-AbstractGraphicalEnvironment.php#17-40" title="Go to source code">process_site_maintenance</a>( )
+<a href="source-class-AbstractGraphicalEnvironment.php#16-39" title="Go to source code">process_site_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_set_page_localization">#</a>
 						<code>
-<a href="source-class-AbstractGraphicalEnvironment.php#42-45" title="Go to source code">set_page_localization</a>( <span> <var>$page_title</var></span>, <span> <var>$location_id</var></span> )
+<a href="source-class-AbstractGraphicalEnvironment.php#41-44" title="Go to source code">set_page_localization</a>( <span> <var>$page_title</var></span>, <span> <var>$location_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@
 					<div>
 						<a class="anchor" href="#_no_session_location">#</a>
 						<code>
-<a href="source-class-AbstractGraphicalEnvironment.php#47-50" title="Go to source code">no_session_location</a>( )
+<a href="source-class-AbstractGraphicalEnvironment.php#46-49" title="Go to source code">no_session_location</a>( )
 						</code>
 
 							<div class="description short">

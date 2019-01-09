@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.User.php">User</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -691,7 +687,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-User.php#20-306" title="Go to source code">phpboost/user/User.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-User.php#19-305" title="Go to source code">phpboost/user/User.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-User.php#46-49" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-User.php#45-48" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-User.php#51-54" title="Go to source code">get_id</a>( )
+<a href="source-class-User.php#50-53" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@
 					<div>
 						<a class="anchor" href="#_set_level">#</a>
 						<code>
-<a href="source-class-User.php#56-59" title="Go to source code">set_level</a>( <span> <var>$level</var></span> )
+<a href="source-class-User.php#55-58" title="Go to source code">set_level</a>( <span> <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -834,7 +830,7 @@
 					<div>
 						<a class="anchor" href="#_get_level">#</a>
 						<code>
-<a href="source-class-User.php#61-64" title="Go to source code">get_level</a>( )
+<a href="source-class-User.php#60-63" title="Go to source code">get_level</a>( )
 						</code>
 
 							<div class="description short">
@@ -869,7 +865,7 @@
 					<div>
 						<a class="anchor" href="#_is_guest">#</a>
 						<code>
-<a href="source-class-User.php#66-69" title="Go to source code">is_guest</a>( )
+<a href="source-class-User.php#65-68" title="Go to source code">is_guest</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_is_robot">#</a>
 						<code>
-<a href="source-class-User.php#71-74" title="Go to source code">is_robot</a>( )
+<a href="source-class-User.php#70-73" title="Go to source code">is_robot</a>( )
 						</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@
 					<div>
 						<a class="anchor" href="#_is_moderator">#</a>
 						<code>
-<a href="source-class-User.php#76-79" title="Go to source code">is_moderator</a>( )
+<a href="source-class-User.php#75-78" title="Go to source code">is_moderator</a>( )
 						</code>
 
 							<div class="description short">
@@ -974,7 +970,7 @@
 					<div>
 						<a class="anchor" href="#_is_admin">#</a>
 						<code>
-<a href="source-class-User.php#81-84" title="Go to source code">is_admin</a>( )
+<a href="source-class-User.php#80-83" title="Go to source code">is_admin</a>( )
 						</code>
 
 							<div class="description short">
@@ -1009,7 +1005,7 @@
 					<div>
 						<a class="anchor" href="#_set_groups">#</a>
 						<code>
-<a href="source-class-User.php#86-92" title="Go to source code">set_groups</a>( <span> <var>$groups</var></span> )
+<a href="source-class-User.php#85-91" title="Go to source code">set_groups</a>( <span> <var>$groups</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1044,7 +1040,7 @@
 					<div>
 						<a class="anchor" href="#_get_groups">#</a>
 						<code>
-<a href="source-class-User.php#94-97" title="Go to source code">get_groups</a>( )
+<a href="source-class-User.php#93-96" title="Go to source code">get_groups</a>( )
 						</code>
 
 							<div class="description short">
@@ -1079,7 +1075,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_name">#</a>
 						<code>
-<a href="source-class-User.php#99-102" title="Go to source code">set_display_name</a>( <span> <var>$display_name</var></span> )
+<a href="source-class-User.php#98-101" title="Go to source code">set_display_name</a>( <span> <var>$display_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1114,7 +1110,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_name">#</a>
 						<code>
-<a href="source-class-User.php#104-107" title="Go to source code">get_display_name</a>( )
+<a href="source-class-User.php#103-106" title="Go to source code">get_display_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1149,7 +1145,7 @@
 					<div>
 						<a class="anchor" href="#_set_email">#</a>
 						<code>
-<a href="source-class-User.php#109-112" title="Go to source code">set_email</a>( <span> <var>$email</var></span> )
+<a href="source-class-User.php#108-111" title="Go to source code">set_email</a>( <span> <var>$email</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1184,7 +1180,7 @@
 					<div>
 						<a class="anchor" href="#_get_email">#</a>
 						<code>
-<a href="source-class-User.php#114-117" title="Go to source code">get_email</a>( )
+<a href="source-class-User.php#113-116" title="Go to source code">get_email</a>( )
 						</code>
 
 							<div class="description short">
@@ -1219,7 +1215,7 @@
 					<div>
 						<a class="anchor" href="#_set_show_email">#</a>
 						<code>
-<a href="source-class-User.php#119-122" title="Go to source code">set_show_email</a>( <span> <var>$show_email</var></span> )
+<a href="source-class-User.php#118-121" title="Go to source code">set_show_email</a>( <span> <var>$show_email</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1254,7 +1250,7 @@
 					<div>
 						<a class="anchor" href="#_get_show_email">#</a>
 						<code>
-<a href="source-class-User.php#124-127" title="Go to source code">get_show_email</a>( )
+<a href="source-class-User.php#123-126" title="Go to source code">get_show_email</a>( )
 						</code>
 
 							<div class="description short">
@@ -1289,7 +1285,7 @@
 					<div>
 						<a class="anchor" href="#_set_unread_pm">#</a>
 						<code>
-<a href="source-class-User.php#129-132" title="Go to source code">set_unread_pm</a>( <span> <var>$unread_pm</var></span> )
+<a href="source-class-User.php#128-131" title="Go to source code">set_unread_pm</a>( <span> <var>$unread_pm</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1324,7 +1320,7 @@
 					<div>
 						<a class="anchor" href="#_get_unread_pm">#</a>
 						<code>
-<a href="source-class-User.php#134-137" title="Go to source code">get_unread_pm</a>( )
+<a href="source-class-User.php#133-136" title="Go to source code">get_unread_pm</a>( )
 						</code>
 
 							<div class="description short">
@@ -1359,7 +1355,7 @@
 					<div>
 						<a class="anchor" href="#_set_locale">#</a>
 						<code>
-<a href="source-class-User.php#139-142" title="Go to source code">set_locale</a>( <span> <var>$locale</var></span> )
+<a href="source-class-User.php#138-141" title="Go to source code">set_locale</a>( <span> <var>$locale</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1394,7 +1390,7 @@
 					<div>
 						<a class="anchor" href="#_get_locale">#</a>
 						<code>
-<a href="source-class-User.php#144-151" title="Go to source code">get_locale</a>( )
+<a href="source-class-User.php#143-150" title="Go to source code">get_locale</a>( )
 						</code>
 
 							<div class="description short">
@@ -1429,7 +1425,7 @@
 					<div>
 						<a class="anchor" href="#_set_theme">#</a>
 						<code>
-<a href="source-class-User.php#153-156" title="Go to source code">set_theme</a>( <span> <var>$theme</var></span> )
+<a href="source-class-User.php#152-155" title="Go to source code">set_theme</a>( <span> <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1464,7 +1460,7 @@
 					<div>
 						<a class="anchor" href="#_get_theme">#</a>
 						<code>
-<a href="source-class-User.php#158-165" title="Go to source code">get_theme</a>( )
+<a href="source-class-User.php#157-164" title="Go to source code">get_theme</a>( )
 						</code>
 
 							<div class="description short">
@@ -1499,7 +1495,7 @@
 					<div>
 						<a class="anchor" href="#_set_timezone">#</a>
 						<code>
-<a href="source-class-User.php#167-170" title="Go to source code">set_timezone</a>( <span> <var>$timezone</var></span> )
+<a href="source-class-User.php#166-169" title="Go to source code">set_timezone</a>( <span> <var>$timezone</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1534,7 +1530,7 @@
 					<div>
 						<a class="anchor" href="#_get_timezone">#</a>
 						<code>
-<a href="source-class-User.php#172-179" title="Go to source code">get_timezone</a>( )
+<a href="source-class-User.php#171-178" title="Go to source code">get_timezone</a>( )
 						</code>
 
 							<div class="description short">
@@ -1569,7 +1565,7 @@
 					<div>
 						<a class="anchor" href="#_set_editor">#</a>
 						<code>
-<a href="source-class-User.php#181-184" title="Go to source code">set_editor</a>( <span> <var>$editor</var></span> )
+<a href="source-class-User.php#180-183" title="Go to source code">set_editor</a>( <span> <var>$editor</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1604,7 +1600,7 @@
 					<div>
 						<a class="anchor" href="#_get_editor">#</a>
 						<code>
-<a href="source-class-User.php#186-193" title="Go to source code">get_editor</a>( )
+<a href="source-class-User.php#185-192" title="Go to source code">get_editor</a>( )
 						</code>
 
 							<div class="description short">
@@ -1639,7 +1635,7 @@
 					<div>
 						<a class="anchor" href="#_set_warning_percentage">#</a>
 						<code>
-<a href="source-class-User.php#195-198" title="Go to source code">set_warning_percentage</a>( <span> <var>$warning_percentage</var></span> )
+<a href="source-class-User.php#194-197" title="Go to source code">set_warning_percentage</a>( <span> <var>$warning_percentage</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1674,7 +1670,7 @@
 					<div>
 						<a class="anchor" href="#_get_warning_percentage">#</a>
 						<code>
-<a href="source-class-User.php#200-203" title="Go to source code">get_warning_percentage</a>( )
+<a href="source-class-User.php#199-202" title="Go to source code">get_warning_percentage</a>( )
 						</code>
 
 							<div class="description short">
@@ -1709,7 +1705,7 @@
 					<div>
 						<a class="anchor" href="#_set_delay_banned">#</a>
 						<code>
-<a href="source-class-User.php#205-208" title="Go to source code">set_delay_banned</a>( <span> <var>$delay_banned</var></span> )
+<a href="source-class-User.php#204-207" title="Go to source code">set_delay_banned</a>( <span> <var>$delay_banned</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1744,7 +1740,7 @@
 					<div>
 						<a class="anchor" href="#_get_delay_banned">#</a>
 						<code>
-<a href="source-class-User.php#210-213" title="Go to source code">get_delay_banned</a>( )
+<a href="source-class-User.php#209-212" title="Go to source code">get_delay_banned</a>( )
 						</code>
 
 							<div class="description short">
@@ -1779,7 +1775,7 @@
 					<div>
 						<a class="anchor" href="#_is_banned">#</a>
 						<code>
-<a href="source-class-User.php#215-218" title="Go to source code">is_banned</a>( )
+<a href="source-class-User.php#214-217" title="Go to source code">is_banned</a>( )
 						</code>
 
 							<div class="description short">
@@ -1814,7 +1810,7 @@
 					<div>
 						<a class="anchor" href="#_set_delay_readonly">#</a>
 						<code>
-<a href="source-class-User.php#220-223" title="Go to source code">set_delay_readonly</a>( <span> <var>$delay_readonly</var></span> )
+<a href="source-class-User.php#219-222" title="Go to source code">set_delay_readonly</a>( <span> <var>$delay_readonly</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1849,7 +1845,7 @@
 					<div>
 						<a class="anchor" href="#_get_delay_readonly">#</a>
 						<code>
-<a href="source-class-User.php#225-228" title="Go to source code">get_delay_readonly</a>( )
+<a href="source-class-User.php#224-227" title="Go to source code">get_delay_readonly</a>( )
 						</code>
 
 							<div class="description short">
@@ -1884,7 +1880,7 @@
 					<div>
 						<a class="anchor" href="#_is_readonly">#</a>
 						<code>
-<a href="source-class-User.php#230-233" title="Go to source code">is_readonly</a>( )
+<a href="source-class-User.php#229-232" title="Go to source code">is_readonly</a>( )
 						</code>
 
 							<div class="description short">
@@ -1919,7 +1915,7 @@
 					<div>
 						<a class="anchor" href="#_get_group_color">#</a>
 						<code>
-<a href="source-class-User.php#235-253" title="Go to source code">get_group_color</a>( <span> <var>$user_groups</var></span>, <span> <var>$level</var> = <span class="php-num">0</span></span>, <span> <var>$is_array</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-User.php#234-252" title="Go to source code">get_group_color</a>( <span> <var>$user_groups</var></span>, <span> <var>$level</var> = <span class="php-num">0</span></span>, <span> <var>$is_array</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1954,7 +1950,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-User.php#255-273" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
+<a href="source-class-User.php#254-272" title="Go to source code">set_properties</a>( <span>array <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1989,7 +1985,7 @@
 					<div>
 						<a class="anchor" href="#_init_robot_user">#</a>
 						<code>
-<a href="source-class-User.php#275-278" title="Go to source code">init_robot_user</a>( <span> <var>$robot_name</var></span> )
+<a href="source-class-User.php#274-277" title="Go to source code">init_robot_user</a>( <span> <var>$robot_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2024,7 +2020,7 @@
 					<div>
 						<a class="anchor" href="#_init_visitor_user">#</a>
 						<code>
-<a href="source-class-User.php#280-283" title="Go to source code">init_visitor_user</a>( )
+<a href="source-class-User.php#279-282" title="Go to source code">init_visitor_user</a>( )
 						</code>
 
 							<div class="description short">
@@ -2059,7 +2055,7 @@
 					<div>
 						<a class="anchor" href="#_get_visitor_properties">#</a>
 						<code>
-<a href="source-class-User.php#285-305" title="Go to source code">get_visitor_properties</a>( <span> <var>$display_name</var> = <span class="php-keyword1">null</span></span>, <span> <var>$level</var> = self::VISITOR_LEVEL</span> )
+<a href="source-class-User.php#284-304" title="Go to source code">get_visitor_properties</a>( <span> <var>$display_name</var> = <span class="php-keyword1">null</span></span>, <span> <var>$level</var> = self::VISITOR_LEVEL</span> )
 						</code>
 
 							<div class="description short">
@@ -2105,7 +2101,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-User.php#22" title="Go to source code"><b>ROBOT_LEVEL</b></a>
+								<a href="source-class-User.php#21" title="Go to source code"><b>ROBOT_LEVEL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2129,7 +2125,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-User.php#23" title="Go to source code"><b>VISITOR_LEVEL</b></a>
+								<a href="source-class-User.php#22" title="Go to source code"><b>VISITOR_LEVEL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2153,7 +2149,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-User.php#24" title="Go to source code"><b>MEMBER_LEVEL</b></a>
+								<a href="source-class-User.php#23" title="Go to source code"><b>MEMBER_LEVEL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2177,7 +2173,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-User.php#25" title="Go to source code"><b>MODERATOR_LEVEL</b></a>
+								<a href="source-class-User.php#24" title="Go to source code"><b>MODERATOR_LEVEL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2201,7 +2197,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-User.php#26" title="Go to source code"><b>ADMIN_LEVEL</b></a>
+								<a href="source-class-User.php#25" title="Go to source code"><b>ADMIN_LEVEL</b></a>
 							</code>
 
 							<div class="description short">
@@ -2240,7 +2236,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#28" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-User.php#27" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						
@@ -2267,7 +2263,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#29" title="Go to source code"><var>$level</var></a>
+						<a href="source-class-User.php#28" title="Go to source code"><var>$level</var></a>
 
 					<div class="description short">
 						
@@ -2294,7 +2290,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#30" title="Go to source code"><var>$groups</var></a>
+						<a href="source-class-User.php#29" title="Go to source code"><var>$groups</var></a>
 
 					<div class="description short">
 						
@@ -2321,7 +2317,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#32" title="Go to source code"><var>$display_name</var></a>
+						<a href="source-class-User.php#31" title="Go to source code"><var>$display_name</var></a>
 
 					<div class="description short">
 						
@@ -2348,7 +2344,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#33" title="Go to source code"><var>$email</var></a>
+						<a href="source-class-User.php#32" title="Go to source code"><var>$email</var></a>
 
 					<div class="description short">
 						
@@ -2375,7 +2371,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#34" title="Go to source code"><var>$show_email</var></a>
+						<a href="source-class-User.php#33" title="Go to source code"><var>$show_email</var></a>
 
 					<div class="description short">
 						
@@ -2402,7 +2398,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#35" title="Go to source code"><var>$unread_pm</var></a>
+						<a href="source-class-User.php#34" title="Go to source code"><var>$unread_pm</var></a>
 
 					<div class="description short">
 						
@@ -2429,7 +2425,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#37" title="Go to source code"><var>$locale</var></a>
+						<a href="source-class-User.php#36" title="Go to source code"><var>$locale</var></a>
 
 					<div class="description short">
 						
@@ -2456,7 +2452,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#38" title="Go to source code"><var>$theme</var></a>
+						<a href="source-class-User.php#37" title="Go to source code"><var>$theme</var></a>
 
 					<div class="description short">
 						
@@ -2483,7 +2479,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#39" title="Go to source code"><var>$timezone</var></a>
+						<a href="source-class-User.php#38" title="Go to source code"><var>$timezone</var></a>
 
 					<div class="description short">
 						
@@ -2510,7 +2506,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#40" title="Go to source code"><var>$editor</var></a>
+						<a href="source-class-User.php#39" title="Go to source code"><var>$editor</var></a>
 
 					<div class="description short">
 						
@@ -2537,7 +2533,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#42" title="Go to source code"><var>$delay_banned</var></a>
+						<a href="source-class-User.php#41" title="Go to source code"><var>$delay_banned</var></a>
 
 					<div class="description short">
 						
@@ -2564,7 +2560,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#43" title="Go to source code"><var>$delay_readonly</var></a>
+						<a href="source-class-User.php#42" title="Go to source code"><var>$delay_readonly</var></a>
 
 					<div class="description short">
 						
@@ -2591,7 +2587,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-User.php#44" title="Go to source code"><var>$warning_percentage</var></a>
+						<a href="source-class-User.php#43" title="Go to source code"><var>$warning_percentage</var></a>
 
 					<div class="description short">
 						

@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Doctrine.php">Doctrine</a>\<a href="package-Doctrine.DBAL.php">DBAL</a>\<a href="package-Doctrine.DBAL.Plateform.php">Plateform</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>License:</b>
 							<a href="https://www.gnu.org/licenses/lgpl-2.1.fr.html">LGPL 2.1</a>
 						</span>
@@ -688,7 +684,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SqlitePlatform.php#3-431" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/SqlitePlatform.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SqlitePlatform.php#3-430" title="Go to source code">io/db/dbms/Doctrine/DBAL/Platform/SqlitePlatform.php</a></span>
 			</div>
 
 			<div class="description">
@@ -718,7 +714,7 @@ database platform.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -740,7 +736,7 @@ database platform.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#18-24" title="Go to source code">__construct</a>( )
+<a href="source-class-SqlitePlatform.php#17-23" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -777,7 +773,7 @@ database platform.</p>
 					<div>
 						<a class="anchor" href="#_md5Impl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#26-35" title="Go to source code">md5Impl</a>( <span>mixed <var>$data</var></span> )
+<a href="source-class-SqlitePlatform.php#25-34" title="Go to source code">md5Impl</a>( <span>mixed <var>$data</var></span> )
 						</code>
 
 							<div class="description short">
@@ -821,7 +817,7 @@ database platform.</p>
 					<div>
 						<a class="anchor" href="#_modImpl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#37-47" title="Go to source code">modImpl</a>( <span>integer <var>$dividend</var></span>, <span>integer <var>$divisor</var></span> )
+<a href="source-class-SqlitePlatform.php#36-46" title="Go to source code">modImpl</a>( <span>integer <var>$dividend</var></span>, <span>integer <var>$divisor</var></span> )
 						</code>
 
 							<div class="description short">
@@ -867,7 +863,7 @@ database platform.</p>
 					<div>
 						<a class="anchor" href="#_locateImpl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#49-61" title="Go to source code">locateImpl</a>( <span>string <var>$substr</var></span>, <span>string <var>$str</var></span> )
+<a href="source-class-SqlitePlatform.php#48-60" title="Go to source code">locateImpl</a>( <span>string <var>$substr</var></span>, <span>string <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -917,7 +913,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_sha1Impl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#63-66" title="Go to source code">sha1Impl</a>( <span> <var>$str</var></span> )
+<a href="source-class-SqlitePlatform.php#62-65" title="Go to source code">sha1Impl</a>( <span> <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -952,7 +948,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_ltrimImpl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#68-71" title="Go to source code">ltrimImpl</a>( <span> <var>$str</var></span> )
+<a href="source-class-SqlitePlatform.php#67-70" title="Go to source code">ltrimImpl</a>( <span> <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -987,7 +983,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_rtrimImpl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#73-76" title="Go to source code">rtrimImpl</a>( <span> <var>$str</var></span> )
+<a href="source-class-SqlitePlatform.php#72-75" title="Go to source code">rtrimImpl</a>( <span> <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1022,7 +1018,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_trimImpl">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#78-81" title="Go to source code">trimImpl</a>( <span> <var>$str</var></span> )
+<a href="source-class-SqlitePlatform.php#77-80" title="Go to source code">trimImpl</a>( <span> <var>$str</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1057,7 +1053,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_getRegexpExpression">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#83-92" title="Go to source code">getRegexpExpression</a>( )
+<a href="source-class-SqlitePlatform.php#82-91" title="Go to source code">getRegexpExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1101,7 +1097,7 @@ SQLite's locate() function receives</p>
 					<div>
 						<a class="anchor" href="#_getSoundexExpression">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#94-106" title="Go to source code">getSoundexExpression</a>( <span>string <var>$value</var></span> )
+<a href="source-class-SqlitePlatform.php#93-105" title="Go to source code">getSoundexExpression</a>( <span>string <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1149,7 +1145,7 @@ soundex encoding of a string</p>
 					<div>
 						<a class="anchor" href="#_getNowExpression">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#108-126" title="Go to source code">getNowExpression</a>( <span> <var>$type</var> = <span class="php-quote">'timestamp'</span></span> )
+<a href="source-class-SqlitePlatform.php#107-125" title="Go to source code">getNowExpression</a>( <span> <var>$type</var> = <span class="php-quote">'timestamp'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1195,7 +1191,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getRandomExpression">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#128-137" title="Go to source code">getRandomExpression</a>( )
+<a href="source-class-SqlitePlatform.php#127-136" title="Go to source code">getRandomExpression</a>( )
 						</code>
 
 							<div class="description short">
@@ -1237,7 +1233,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getSubstringExpression">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#139-158" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$position</var></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-SqlitePlatform.php#138-157" title="Go to source code">getSubstringExpression</a>( <span>string <var>$value</var></span>, <span>integer <var>$position</var></span>, <span>integer <var>$length</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1294,7 +1290,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#__getTransactionIsolationLevelSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#160-172" title="Go to source code">_getTransactionIsolationLevelSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-SqlitePlatform.php#159-171" title="Go to source code">_getTransactionIsolationLevelSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1336,7 +1332,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getSetTransactionIsolationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#174-177" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
+<a href="source-class-SqlitePlatform.php#173-176" title="Go to source code">getSetTransactionIsolationSql</a>( <span>integer <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1378,7 +1374,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_prefersIdentityColumns">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#179-185" title="Go to source code">prefersIdentityColumns</a>( )
+<a href="source-class-SqlitePlatform.php#178-184" title="Go to source code">prefersIdentityColumns</a>( )
 						</code>
 
 							<div class="description short">
@@ -1422,7 +1418,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getBooleanTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#187-193" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#186-192" title="Go to source code">getBooleanTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1469,7 +1465,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#195-201" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#194-200" title="Go to source code">getIntegerTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1516,7 +1512,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getBigIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#203-209" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#202-208" title="Go to source code">getBigIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1563,7 +1559,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getTinyIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#211-217" title="Go to source code">getTinyIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#210-216" title="Go to source code">getTinyIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1601,7 +1597,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getSmallIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#219-225" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#218-224" title="Go to source code">getSmallIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1648,7 +1644,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getMediumIntTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#227-233" title="Go to source code">getMediumIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#226-232" title="Go to source code">getMediumIntTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1686,7 +1682,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getDateTimeTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#235-241" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-SqlitePlatform.php#234-240" title="Go to source code">getDateTimeTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1735,7 +1731,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getDateTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#243-249" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
+<a href="source-class-SqlitePlatform.php#242-248" title="Go to source code">getDateTypeDeclarationSql</a>( <span>array <var>$fieldDeclaration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1784,7 +1780,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#__getCommonIntegerTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#251-260" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
+<a href="source-class-SqlitePlatform.php#250-259" title="Go to source code">_getCommonIntegerTypeDeclarationSql</a>( <span>array <var>$columnDef</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1831,7 +1827,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getCreateTableSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#262-336" title="Go to source code">getCreateTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-SqlitePlatform.php#261-335" title="Go to source code">getCreateTableSql</a>( <span>string <var>$name</var></span>, <span>array <var>$fields</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -1899,7 +1895,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getVarcharTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#338-355" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#337-354" title="Go to source code">getVarcharTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1939,7 +1935,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getClobTypeDeclarationSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#357-360" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
+<a href="source-class-SqlitePlatform.php#356-359" title="Go to source code">getClobTypeDeclarationSql</a>( <span>array <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1979,7 +1975,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListSequencesSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#362-365" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
+<a href="source-class-SqlitePlatform.php#361-364" title="Go to source code">getListSequencesSql</a>( <span> <var>$database</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2016,7 +2012,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListTableConstraintsSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#367-370" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-SqlitePlatform.php#366-369" title="Go to source code">getListTableConstraintsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2053,7 +2049,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListTableColumnsSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#372-375" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-SqlitePlatform.php#371-374" title="Go to source code">getListTableColumnsSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2090,7 +2086,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListTableIndexesSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#377-380" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
+<a href="source-class-SqlitePlatform.php#376-379" title="Go to source code">getListTableIndexesSql</a>( <span> <var>$table</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2127,7 +2123,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListTablesSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#382-387" title="Go to source code">getListTablesSql</a>( )
+<a href="source-class-SqlitePlatform.php#381-386" title="Go to source code">getListTablesSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -2164,7 +2160,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListTableViews">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#389-392" title="Go to source code">getListTableViews</a>( )
+<a href="source-class-SqlitePlatform.php#388-391" title="Go to source code">getListTableViews</a>( )
 						</code>
 
 							<div class="description short">
@@ -2199,7 +2195,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getListViewsSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#394-397" title="Go to source code">getListViewsSql</a>( )
+<a href="source-class-SqlitePlatform.php#393-396" title="Go to source code">getListViewsSql</a>( )
 						</code>
 
 							<div class="description short">
@@ -2236,7 +2232,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getCreateViewSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#399-402" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
+<a href="source-class-SqlitePlatform.php#398-401" title="Go to source code">getCreateViewSql</a>( <span> <var>$name</var></span>, <span> <var>$sql</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2273,7 +2269,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_getDropViewSql">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#404-407" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
+<a href="source-class-SqlitePlatform.php#403-406" title="Go to source code">getDropViewSql</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -2310,7 +2306,7 @@ There are three special variables for current date and time.</p>
 					<div>
 						<a class="anchor" href="#_supportsForeignKeyConstraints">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#409-420" title="Go to source code">supportsForeignKeyConstraints</a>( )
+<a href="source-class-SqlitePlatform.php#408-419" title="Go to source code">supportsForeignKeyConstraints</a>( )
 						</code>
 
 							<div class="description short">
@@ -2358,7 +2354,7 @@ we simply say that SQLite does NOT support foreign keys for now...</p>
 					<div>
 						<a class="anchor" href="#_getName">#</a>
 						<code>
-<a href="source-class-SqlitePlatform.php#422-430" title="Go to source code">getName</a>( )
+<a href="source-class-SqlitePlatform.php#421-429" title="Go to source code">getName</a>( )
 						</code>
 
 							<div class="description short">

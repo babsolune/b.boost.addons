@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMapping.php#3-52" title="Go to source code">mvc/dispatcher/UrlMapping.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMapping.php#3-51" title="Go to source code">mvc/dispatcher/UrlMapping.class.php</a></span>
 			</div>
 
 
@@ -734,7 +730,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -756,7 +752,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UrlMapping.php#19-27" title="Go to source code">__construct</a>( <span><code><a href="class-UrlMapping.php">UrlMapping</a>[]</code> <var>$from</var></span>, <span> <var>$to</var></span>, <span> <var>$options</var> = <span class="php-quote">'L,QSA'</span></span> )
+<a href="source-class-UrlMapping.php#18-26" title="Go to source code">__construct</a>( <span><code><a href="class-UrlMapping.php">UrlMapping</a>[]</code> <var>$from</var></span>, <span> <var>$to</var></span>, <span> <var>$options</var> = <span class="php-quote">'L,QSA'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +796,7 @@
 					<div>
 						<a class="anchor" href="#_from">#</a>
 						<code>
-<a href="source-class-UrlMapping.php#29-35" title="Go to source code">from</a>( )
+<a href="source-class-UrlMapping.php#28-34" title="Go to source code">from</a>( )
 						</code>
 
 							<div class="description short">
@@ -835,7 +831,7 @@
 					<div>
 						<a class="anchor" href="#_to">#</a>
 						<code>
-<a href="source-class-UrlMapping.php#37-43" title="Go to source code">to</a>( )
+<a href="source-class-UrlMapping.php#36-42" title="Go to source code">to</a>( )
 						</code>
 
 							<div class="description short">
@@ -870,7 +866,7 @@
 					<div>
 						<a class="anchor" href="#_options">#</a>
 						<code>
-<a href="source-class-UrlMapping.php#45-51" title="Go to source code">options</a>( )
+<a href="source-class-UrlMapping.php#44-50" title="Go to source code">options</a>( )
 						</code>
 
 							<div class="description short">

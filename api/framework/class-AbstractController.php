@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Controller.php">Controller</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -697,7 +693,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 09 15
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractController.php#3-20" title="Go to source code">mvc/controller/AbstractController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractController.php#3-19" title="Go to source code">mvc/controller/AbstractController.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -743,7 +739,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -765,7 +761,7 @@
 					<div>
 						<a class="anchor" href="#_get_right_controller_regarding_authorizations">#</a>
 						<code>
-<a href="source-class-AbstractController.php#16-19" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
+<a href="source-class-AbstractController.php#15-18" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
 						</code>
 
 							<div class="description short">

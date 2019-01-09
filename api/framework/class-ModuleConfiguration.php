@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Module.php">Module</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleConfiguration.php#3-178" title="Go to source code">phpboost/module/ModuleConfiguration.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModuleConfiguration.php#3-177" title="Go to source code">phpboost/module/ModuleConfiguration.class.php</a></span>
 			</div>
 
 
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#37-41" title="Go to source code">__construct</a>( <span> <var>$config_ini_file</var></span>, <span> <var>$desc_ini_file</var></span> )
+<a href="source-class-ModuleConfiguration.php#36-40" title="Go to source code">__construct</a>( <span> <var>$config_ini_file</var></span>, <span> <var>$desc_ini_file</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#43-46" title="Go to source code">get_name</a>( )
+<a href="source-class-ModuleConfiguration.php#42-45" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#48-51" title="Go to source code">get_description</a>( )
+<a href="source-class-ModuleConfiguration.php#47-50" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_get_author">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#53-56" title="Go to source code">get_author</a>( )
+<a href="source-class-ModuleConfiguration.php#52-55" title="Go to source code">get_author</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_get_author_email">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#58-61" title="Go to source code">get_author_email</a>( )
+<a href="source-class-ModuleConfiguration.php#57-60" title="Go to source code">get_author_email</a>( )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@
 					<div>
 						<a class="anchor" href="#_get_author_website">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#63-66" title="Go to source code">get_author_website</a>( )
+<a href="source-class-ModuleConfiguration.php#62-65" title="Go to source code">get_author_website</a>( )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@
 					<div>
 						<a class="anchor" href="#_get_version">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#68-71" title="Go to source code">get_version</a>( )
+<a href="source-class-ModuleConfiguration.php#67-70" title="Go to source code">get_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 					<div>
 						<a class="anchor" href="#_get_date">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#73-76" title="Go to source code">get_date</a>( )
+<a href="source-class-ModuleConfiguration.php#72-75" title="Go to source code">get_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1024,7 @@
 					<div>
 						<a class="anchor" href="#_get_compatibility">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#78-81" title="Go to source code">get_compatibility</a>( )
+<a href="source-class-ModuleConfiguration.php#77-80" title="Go to source code">get_compatibility</a>( )
 						</code>
 
 							<div class="description short">
@@ -1063,7 +1059,7 @@
 					<div>
 						<a class="anchor" href="#_get_php_version">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#83-86" title="Go to source code">get_php_version</a>( )
+<a href="source-class-ModuleConfiguration.php#82-85" title="Go to source code">get_php_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1098,7 +1094,7 @@
 					<div>
 						<a class="anchor" href="#_get_repository">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#88-91" title="Go to source code">get_repository</a>( )
+<a href="source-class-ModuleConfiguration.php#87-90" title="Go to source code">get_repository</a>( )
 						</code>
 
 							<div class="description short">
@@ -1133,7 +1129,7 @@
 					<div>
 						<a class="anchor" href="#_get_admin_main_page">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#93-96" title="Go to source code">get_admin_main_page</a>( )
+<a href="source-class-ModuleConfiguration.php#92-95" title="Go to source code">get_admin_main_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1168,7 +1164,7 @@
 					<div>
 						<a class="anchor" href="#_get_admin_menu">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#98-101" title="Go to source code">get_admin_menu</a>( )
+<a href="source-class-ModuleConfiguration.php#97-100" title="Go to source code">get_admin_menu</a>( )
 						</code>
 
 							<div class="description short">
@@ -1203,7 +1199,7 @@
 					<div>
 						<a class="anchor" href="#_get_home_page">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#103-106" title="Go to source code">get_home_page</a>( )
+<a href="source-class-ModuleConfiguration.php#102-105" title="Go to source code">get_home_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -1238,7 +1234,7 @@
 					<div>
 						<a class="anchor" href="#_get_contribution_interface">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#108-111" title="Go to source code">get_contribution_interface</a>( )
+<a href="source-class-ModuleConfiguration.php#107-110" title="Go to source code">get_contribution_interface</a>( )
 						</code>
 
 							<div class="description short">
@@ -1273,7 +1269,7 @@
 					<div>
 						<a class="anchor" href="#_get_mini_modules">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#113-116" title="Go to source code">get_mini_modules</a>( )
+<a href="source-class-ModuleConfiguration.php#112-115" title="Go to source code">get_mini_modules</a>( )
 						</code>
 
 							<div class="description short">
@@ -1308,7 +1304,7 @@
 					<div>
 						<a class="anchor" href="#_get_url_rewrite_rules">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#118-121" title="Go to source code">get_url_rewrite_rules</a>( )
+<a href="source-class-ModuleConfiguration.php#117-120" title="Go to source code">get_url_rewrite_rules</a>( )
 						</code>
 
 							<div class="description short">
@@ -1343,7 +1339,7 @@
 					<div>
 						<a class="anchor" href="#_get_documentation">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#123-126" title="Go to source code">get_documentation</a>( )
+<a href="source-class-ModuleConfiguration.php#122-125" title="Go to source code">get_documentation</a>( )
 						</code>
 
 							<div class="description short">
@@ -1378,7 +1374,7 @@
 					<div>
 						<a class="anchor" href="#_get_enabled_features">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#128-131" title="Go to source code">get_enabled_features</a>( )
+<a href="source-class-ModuleConfiguration.php#127-130" title="Go to source code">get_enabled_features</a>( )
 						</code>
 
 							<div class="description short">
@@ -1413,7 +1409,7 @@
 					<div>
 						<a class="anchor" href="#_feature_is_enabled">#</a>
 						<code>
-<a href="source-class-ModuleConfiguration.php#133-139" title="Go to source code">feature_is_enabled</a>( <span> <var>$feature_id</var></span> )
+<a href="source-class-ModuleConfiguration.php#132-138" title="Go to source code">feature_is_enabled</a>( <span> <var>$feature_id</var></span> )
 						</code>
 
 							<div class="description short">

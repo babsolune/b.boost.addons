@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -749,7 +745,7 @@
 							<b>Contributor:</b>
 							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldDateTime.php#3-84" title="Go to source code">builder/form/field/FormFieldDateTime.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldDateTime.php#3-83" title="Go to source code">builder/form/field/FormFieldDateTime.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -787,7 +783,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -809,7 +805,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldDateTime.php#24-28" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldDateTime.php#23-27" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span><code><a href="class-Date.php">Date</a></code> <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -874,7 +870,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldDateTime.php#30-48" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldDateTime.php#29-47" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_retrieve_value">#</a>
 						<code>
-<a href="source-class-FormFieldDateTime.php#50-67" title="Go to source code">retrieve_value</a>( )
+<a href="source-class-FormFieldDateTime.php#49-66" title="Go to source code">retrieve_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -952,7 +948,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldDateTime.php#69-83" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldDateTime.php#68-82" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">

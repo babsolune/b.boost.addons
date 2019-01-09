@@ -693,10 +693,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 03 13
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintAntiFlood.php#3-66" title="Go to source code">builder/form/field/constraint/FormFieldConstraintAntiFlood.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldConstraintAntiFlood.php#3-65" title="Go to source code">builder/form/field/constraint/FormFieldConstraintAntiFlood.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintAntiFlood.php#19-42" title="Go to source code">__construct</a>( <span>string <var>$last_posted_timestamp</var></span>, <span>string <var>$anti_flood_duration</var> = <span class="php-quote">''</span></span>, <span>string <var>$error_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormFieldConstraintAntiFlood.php#18-41" title="Go to source code">__construct</a>( <span>string <var>$last_posted_timestamp</var></span>, <span>string <var>$anti_flood_duration</var> = <span class="php-quote">''</span></span>, <span>string <var>$error_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintAntiFlood.php#44-51" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintAntiFlood.php#43-50" title="Go to source code">validate</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -847,7 +843,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintAntiFlood.php#53-56" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintAntiFlood.php#52-55" title="Go to source code">get_js_validation</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +880,7 @@
 					<div>
 						<a class="anchor" href="#_flooding">#</a>
 						<code>
-<a href="source-class-FormFieldConstraintAntiFlood.php#58-65" title="Go to source code">flooding</a>( <span> <var>$field</var></span> )
+<a href="source-class-FormFieldConstraintAntiFlood.php#57-64" title="Go to source code">flooding</a>( <span> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">

@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.fieldset.php">fieldset</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -708,7 +704,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldset.php#3-261" title="Go to source code">builder/form/fieldset/AbstractFormFieldset.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormFieldset.php#3-260" title="Go to source code">builder/form/fieldset/AbstractFormFieldset.class.php</a></span>
 			</div>
 
 
@@ -741,7 +737,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#34-38" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AbstractFormFieldset.php#33-37" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#40-69" title="Go to source code">compute_options</a>( <span>array <var>&amp; $options</var></span> )
+<a href="source-class-AbstractFormFieldset.php#39-68" title="Go to source code">compute_options</a>( <span>array <var>&amp; $options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#71-74" title="Go to source code">get_id</a>( )
+<a href="source-class-AbstractFormFieldset.php#70-73" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -870,7 +866,7 @@
 					<div>
 						<a class="anchor" href="#_set_description">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#76-79" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
+<a href="source-class-AbstractFormFieldset.php#75-78" title="Go to source code">set_description</a>( <span> <var>$description</var></span> )
 						</code>
 
 							<div class="description short">
@@ -905,7 +901,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_id">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#81-84" title="Go to source code">get_html_id</a>( )
+<a href="source-class-AbstractFormFieldset.php#80-83" title="Go to source code">get_html_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -942,7 +938,7 @@
 					<div>
 						<a class="anchor" href="#_add_field">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#86-107" title="Go to source code">add_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-AbstractFormFieldset.php#85-106" title="Go to source code">add_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -984,7 +980,7 @@
 					<div>
 						<a class="anchor" href="#_add_element">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#109-112" title="Go to source code">add_element</a>( <span><code><a href="class-FormElement.php">FormElement</a></code> <var>$element</var></span> )
+<a href="source-class-AbstractFormFieldset.php#108-111" title="Go to source code">add_element</a>( <span><code><a href="class-FormElement.php">FormElement</a></code> <var>$element</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1026,7 +1022,7 @@
 					<div>
 						<a class="anchor" href="#_set_form_id">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#114-124" title="Go to source code">set_form_id</a>( <span>string <var>$form_id</var></span> )
+<a href="source-class-AbstractFormFieldset.php#113-123" title="Go to source code">set_form_id</a>( <span>string <var>$form_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1068,7 +1064,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#126-138" title="Go to source code">validate</a>( )
+<a href="source-class-AbstractFormFieldset.php#125-137" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1105,7 +1101,7 @@
 					<div>
 						<a class="anchor" href="#_get_onsubmit_validations">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#140-148" title="Go to source code">get_onsubmit_validations</a>( )
+<a href="source-class-AbstractFormFieldset.php#139-147" title="Go to source code">get_onsubmit_validations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1142,7 +1138,7 @@
 					<div>
 						<a class="anchor" href="#_get_validation_error_messages">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#150-153" title="Go to source code">get_validation_error_messages</a>( )
+<a href="source-class-AbstractFormFieldset.php#149-152" title="Go to source code">get_validation_error_messages</a>( )
 						</code>
 
 							<div class="description short">
@@ -1179,7 +1175,7 @@
 					<div>
 						<a class="anchor" href="#_has_field">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#155-161" title="Go to source code">has_field</a>( <span> <var>$field_id</var></span> )
+<a href="source-class-AbstractFormFieldset.php#154-160" title="Go to source code">has_field</a>( <span> <var>$field_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1220,7 +1216,7 @@
 					<div>
 						<a class="anchor" href="#_get_field">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#163-169" title="Go to source code">get_field</a>( <span> <var>$field_id</var></span> )
+<a href="source-class-AbstractFormFieldset.php#162-168" title="Go to source code">get_field</a>( <span> <var>$field_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1261,7 +1257,7 @@
 					<div>
 						<a class="anchor" href="#_get_fields">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#171-174" title="Go to source code">get_fields</a>( )
+<a href="source-class-AbstractFormFieldset.php#170-173" title="Go to source code">get_fields</a>( )
 						</code>
 
 							<div class="description short">
@@ -1298,7 +1294,7 @@
 					<div>
 						<a class="anchor" href="#_disable">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#176-183" title="Go to source code">disable</a>( )
+<a href="source-class-AbstractFormFieldset.php#175-182" title="Go to source code">disable</a>( )
 						</code>
 
 							<div class="description short">
@@ -1335,7 +1331,7 @@
 					<div>
 						<a class="anchor" href="#_enable">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#185-192" title="Go to source code">enable</a>( )
+<a href="source-class-AbstractFormFieldset.php#184-191" title="Go to source code">enable</a>( )
 						</code>
 
 							<div class="description short">
@@ -1372,7 +1368,7 @@
 					<div>
 						<a class="anchor" href="#_is_disabled">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#194-197" title="Go to source code">is_disabled</a>( )
+<a href="source-class-AbstractFormFieldset.php#193-196" title="Go to source code">is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1409,7 +1405,7 @@
 					<div>
 						<a class="anchor" href="#_assign_template_fields">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#199-228" title="Go to source code">assign_template_fields</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractFormFieldset.php#198-227" title="Go to source code">assign_template_fields</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1444,7 +1440,7 @@
 					<div>
 						<a class="anchor" href="#_get_template_to_use">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#230-240" title="Go to source code">get_template_to_use</a>( )
+<a href="source-class-AbstractFormFieldset.php#229-239" title="Go to source code">get_template_to_use</a>( )
 						</code>
 
 							<div class="description short">
@@ -1483,7 +1479,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#242-245" title="Go to source code">get_default_template</a>( )
+<a href="source-class-AbstractFormFieldset.php#241-244" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1522,7 +1518,7 @@
 					<div>
 						<a class="anchor" href="#_set_template">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#247-255" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-AbstractFormFieldset.php#246-254" title="Go to source code">set_template</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1574,7 +1570,7 @@ a default template will be used (</p>
 					<div>
 						<a class="anchor" href="#_set_css_class">#</a>
 						<code>
-<a href="source-class-AbstractFormFieldset.php#257-260" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
+<a href="source-class-AbstractFormFieldset.php#256-259" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1640,7 +1636,7 @@ a default template will be used (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormFieldset.php#19" title="Go to source code"><var>$fields</var></a>
+						<a href="source-class-AbstractFormFieldset.php#18" title="Go to source code"><var>$fields</var></a>
 
 					<div class="description short">
 						
@@ -1667,7 +1663,7 @@ a default template will be used (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormFieldset.php#20" title="Go to source code"><var>$elements</var></a>
+						<a href="source-class-AbstractFormFieldset.php#19" title="Go to source code"><var>$elements</var></a>
 
 					<div class="description short">
 						
@@ -1694,7 +1690,7 @@ a default template will be used (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormFieldset.php#21" title="Go to source code"><var>$description</var></a>
+						<a href="source-class-AbstractFormFieldset.php#20" title="Go to source code"><var>$description</var></a>
 
 					<div class="description short">
 						
@@ -1721,7 +1717,7 @@ a default template will be used (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormFieldset.php#22" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-AbstractFormFieldset.php#21" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						
@@ -1748,7 +1744,7 @@ a default template will be used (</p>
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractFormFieldset.php#23-26" title="Go to source code"><var>$disabled</var></a>
+						<a href="source-class-AbstractFormFieldset.php#22-25" title="Go to source code"><var>$disabled</var></a>
 
 					<div class="description short">
 						

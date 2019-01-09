@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Filesystem.php">Filesystem</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#25-32" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
+<a href="source-class-FileSystemElement.php#24-31" title="Go to source code">__construct</a>( <span>string <var>$path</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_exists">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#34-41" title="Go to source code">exists</a>( )
+<a href="source-class-FileSystemElement.php#33-40" title="Go to source code">exists</a>( )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_get_path">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#43-50" title="Go to source code">get_path</a>( )
+<a href="source-class-FileSystemElement.php#42-49" title="Go to source code">get_path</a>( )
 						</code>
 
 							<div class="description short">
@@ -861,7 +857,7 @@
 					<div>
 						<a class="anchor" href="#_get_path_from_root">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#52-64" title="Go to source code">get_path_from_root</a>( )
+<a href="source-class-FileSystemElement.php#51-63" title="Go to source code">get_path_from_root</a>( )
 						</code>
 
 							<div class="description short">
@@ -900,7 +896,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#66-78" title="Go to source code">get_name</a>( )
+<a href="source-class-FileSystemElement.php#65-77" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@
 					<div>
 						<a class="anchor" href="#_is_writable">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#80-100" title="Go to source code">is_writable</a>( <span>boolean <var>$force_chmod</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-FileSystemElement.php#79-99" title="Go to source code">is_writable</a>( <span>boolean <var>$force_chmod</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -983,7 +979,7 @@
 					<div>
 						<a class="anchor" href="#_change_chmod">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#102-114" title="Go to source code">change_chmod</a>( <span>integer <var>$chmod</var></span> )
+<a href="source-class-FileSystemElement.php#101-113" title="Go to source code">change_chmod</a>( <span>integer <var>$chmod</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1027,15 +1023,15 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-FileSystemElement.php#116-119" title="Go to source code">delete</a>( )
+<a href="source-class-FileSystemElement.php#115-119" title="Go to source code">delete</a>( )
 						</code>
 
 							<div class="description short">
-								<p>Deletes the element</p>
+								
 							</div>
 
 						<div class="description detailed hidden">
-							<p>Deletes the element</p>
+							
 
 
 
@@ -1083,7 +1079,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FileSystemElement.php#20-23" title="Go to source code"><var>$path</var></a>
+						<a href="source-class-FileSystemElement.php#19-22" title="Go to source code"><var>$path</var></a>
 
 					<div class="description short">
 						<p>Path of the file system element</p>

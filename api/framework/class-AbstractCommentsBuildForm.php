@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a>\<a href="package-Content.Comments.form.php">form</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -683,7 +679,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsBuildForm.php#3-47" title="Go to source code">content/comments/form/AbstractCommentsBuildForm.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCommentsBuildForm.php#3-46" title="Go to source code">content/comments/form/AbstractCommentsBuildForm.class.php</a></span>
 			</div>
 
 
@@ -700,7 +696,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -722,7 +718,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#19-22" title="Go to source code">display</a>( )
+<a href="source-class-AbstractCommentsBuildForm.php#18-21" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_create_form">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#24" title="Go to source code">create_form</a>( )
+<a href="source-class-AbstractCommentsBuildForm.php#23" title="Go to source code">create_form</a>( )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@
 					<div>
 						<a class="anchor" href="#_handle_submit">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#26" title="Go to source code">handle_submit</a>( )
+<a href="source-class-AbstractCommentsBuildForm.php#25" title="Go to source code">handle_submit</a>( )
 						</code>
 
 							<div class="description short">
@@ -827,7 +823,7 @@
 					<div>
 						<a class="anchor" href="#_has_been_submited">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#28-31" title="Go to source code">has_been_submited</a>( )
+<a href="source-class-AbstractCommentsBuildForm.php#27-30" title="Go to source code">has_been_submited</a>( )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@
 					<div>
 						<a class="anchor" href="#_get_form">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#33-36" title="Go to source code">get_form</a>( )
+<a href="source-class-AbstractCommentsBuildForm.php#32-35" title="Go to source code">get_form</a>( )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@
 					<div>
 						<a class="anchor" href="#_set_form">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#38-41" title="Go to source code">set_form</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
+<a href="source-class-AbstractCommentsBuildForm.php#37-40" title="Go to source code">set_form</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@
 					<div>
 						<a class="anchor" href="#_set_submit_button">#</a>
 						<code>
-<a href="source-class-AbstractCommentsBuildForm.php#43-46" title="Go to source code">set_submit_button</a>( <span><code><a href="class-FormButtonSubmit.php">FormButtonSubmit</a></code> <var>$submit_button</var></span> )
+<a href="source-class-AbstractCommentsBuildForm.php#42-45" title="Go to source code">set_submit_button</a>( <span><code><a href="class-FormButtonSubmit.php">FormButtonSubmit</a></code> <var>$submit_button</var></span> )
 						</code>
 
 							<div class="description short">

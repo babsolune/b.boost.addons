@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a>\<a href="package-Builder.Form.field.enum.php">enum</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 01 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldEnumOption.php#3-33" title="Go to source code">builder/form/field/enum/FormFieldEnumOption.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldEnumOption.php#3-32" title="Go to source code">builder/form/field/enum/FormFieldEnumOption.class.php</a></span>
 			</div>
 
 
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#15-18" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldEnumOption.php#14-17" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#20" title="Go to source code">get_label</a>( )
+<a href="source-class-FormFieldEnumOption.php#19" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_set_label">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#22" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
+<a href="source-class-FormFieldEnumOption.php#21" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@
 					<div>
 						<a class="anchor" href="#_get_raw_value">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#24" title="Go to source code">get_raw_value</a>( )
+<a href="source-class-FormFieldEnumOption.php#23" title="Go to source code">get_raw_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -887,7 +883,7 @@
 					<div>
 						<a class="anchor" href="#_set_raw_value">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#26" title="Go to source code">set_raw_value</a>( <span> <var>$raw_value</var></span> )
+<a href="source-class-FormFieldEnumOption.php#25" title="Go to source code">set_raw_value</a>( <span> <var>$raw_value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -922,7 +918,7 @@
 					<div>
 						<a class="anchor" href="#_get_field">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#28" title="Go to source code">get_field</a>( )
+<a href="source-class-FormFieldEnumOption.php#27" title="Go to source code">get_field</a>( )
 						</code>
 
 							<div class="description short">
@@ -957,7 +953,7 @@
 					<div>
 						<a class="anchor" href="#_set_field">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#30" title="Go to source code">set_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
+<a href="source-class-FormFieldEnumOption.php#29" title="Go to source code">set_field</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -992,7 +988,7 @@
 					<div>
 						<a class="anchor" href="#_get_option">#</a>
 						<code>
-<a href="source-class-FormFieldEnumOption.php#32" title="Go to source code">get_option</a>( <span> <var>$raw_option</var></span> )
+<a href="source-class-FormFieldEnumOption.php#31" title="Go to source code">get_option</a>( <span> <var>$raw_option</var></span> )
 						</code>
 
 							<div class="description short">

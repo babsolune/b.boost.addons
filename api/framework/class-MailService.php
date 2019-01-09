@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Mail.php">Mail</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 03 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailService.php#3-60" title="Go to source code">io/mail/MailService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MailService.php#3-59" title="Go to source code">io/mail/MailService.class.php</a></span>
 			</div>
 
 
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#_send">#</a>
 						<code>
-<a href="source-class-MailService.php#15-20" title="Go to source code">send</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
+<a href="source-class-MailService.php#14-19" title="Go to source code">send</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#_try_to_send">#</a>
 						<code>
-<a href="source-class-MailService.php#22-28" title="Go to source code">try_to_send</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
+<a href="source-class-MailService.php#21-27" title="Go to source code">try_to_send</a>( <span><code><a href="class-Mail.php">Mail</a></code> <var>$mail</var></span> )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@ it only returns false.</p>
 					<div>
 						<a class="anchor" href="#_send_from_properties">#</a>
 						<code>
-<a href="source-class-MailService.php#30-40" title="Go to source code">send_from_properties</a>( <span>string <var>$mail_to</var></span>, <span>string <var>$mail_subject</var></span>, <span>string <var>$mail_content</var></span>, <span>string <var>$mail_from</var> = <span class="php-quote">''</span></span>, <span>string <var>$sender_name</var> = <span class="php-quote">'admin'</span></span> )
+<a href="source-class-MailService.php#29-39" title="Go to source code">send_from_properties</a>( <span>string <var>$mail_to</var></span>, <span>string <var>$mail_subject</var></span>, <span>string <var>$mail_content</var></span>, <span>string <var>$mail_from</var> = <span class="php-quote">''</span></span>, <span>string <var>$sender_name</var> = <span class="php-quote">'admin'</span></span> )
 						</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@ it only returns false.</p>
 					<div>
 						<a class="anchor" href="#_is_mail_valid">#</a>
 						<code>
-<a href="source-class-MailService.php#42-47" title="Go to source code">is_mail_valid</a>( <span>string <var>$mail_address</var></span> )
+<a href="source-class-MailService.php#41-46" title="Go to source code">is_mail_valid</a>( <span>string <var>$mail_address</var></span> )
 						</code>
 
 							<div class="description short">
@@ -933,7 +929,7 @@ it only returns false.</p>
 					<div>
 						<a class="anchor" href="#_get_mail_checking_regex">#</a>
 						<code>
-<a href="source-class-MailService.php#49-53" title="Go to source code">get_mail_checking_regex</a>( )
+<a href="source-class-MailService.php#48-52" title="Go to source code">get_mail_checking_regex</a>( )
 						</code>
 
 							<div class="description short">
@@ -972,7 +968,7 @@ it only returns false.</p>
 					<div>
 						<a class="anchor" href="#_get_mail_checking_raw_regex">#</a>
 						<code>
-<a href="source-class-MailService.php#55-59" title="Go to source code">get_mail_checking_raw_regex</a>( )
+<a href="source-class-MailService.php#54-58" title="Go to source code">get_mail_checking_raw_regex</a>( )
 						</code>
 
 							<div class="description short">

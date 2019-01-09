@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.constraint.php">constraint</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraintFieldsEquality.php#3-74" title="Go to source code">builder/form/constraint/FormConstraintFieldsEquality.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormConstraintFieldsEquality.php#3-73" title="Go to source code">builder/form/constraint/FormConstraintFieldsEquality.class.php</a></span>
 			</div>
 
 
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsEquality.php#27-42" title="Go to source code">__construct</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$first_field</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$second_field</var></span>, <span> <var>$js_message</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-FormConstraintFieldsEquality.php#26-41" title="Go to source code">__construct</a>( <span><code><a href="class-FormField.php">FormField</a></code> <var>$first_field</var></span>, <span><code><a href="class-FormField.php">FormField</a></code> <var>$second_field</var></span>, <span> <var>$js_message</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_validate">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsEquality.php#44-56" title="Go to source code">validate</a>( )
+<a href="source-class-FormConstraintFieldsEquality.php#43-55" title="Go to source code">validate</a>( )
 						</code>
 
 							<div class="description short">
@@ -820,7 +816,7 @@
 					<div>
 						<a class="anchor" href="#_get_js_validation">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsEquality.php#58-62" title="Go to source code">get_js_validation</a>( )
+<a href="source-class-FormConstraintFieldsEquality.php#57-61" title="Go to source code">get_js_validation</a>( )
 						</code>
 
 							<div class="description short">
@@ -857,7 +853,7 @@
 					<div>
 						<a class="anchor" href="#_get_validation_error_message">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsEquality.php#64-68" title="Go to source code">get_validation_error_message</a>( )
+<a href="source-class-FormConstraintFieldsEquality.php#63-67" title="Go to source code">get_validation_error_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -892,7 +888,7 @@
 					<div>
 						<a class="anchor" href="#_get_related_fields">#</a>
 						<code>
-<a href="source-class-FormConstraintFieldsEquality.php#70-73" title="Go to source code">get_related_fields</a>( )
+<a href="source-class-FormConstraintFieldsEquality.php#69-72" title="Go to source code">get_related_fields</a>( )
 						</code>
 
 							<div class="description short">

@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -688,7 +684,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 09 25
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsDAO.php#3-113" title="Go to source code">content/comments/CommentsDAO.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsDAO.php#3-112" title="Go to source code">content/comments/CommentsDAO.class.php</a></span>
 			</div>
 
 
@@ -700,7 +696,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -722,7 +718,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#18-22" title="Go to source code">__static</a>( )
+<a href="source-class-CommentsDAO.php#17-21" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -757,7 +753,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_by_topic">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#24-29" title="Go to source code">delete_comments_by_topic</a>( <span> <var>$id_topic</var></span> )
+<a href="source-class-CommentsDAO.php#23-28" title="Go to source code">delete_comments_by_topic</a>( <span> <var>$id_topic</var></span> )
 						</code>
 
 							<div class="description short">
@@ -792,7 +788,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_topic_module">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#31-36" title="Go to source code">delete_comments_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
+<a href="source-class-CommentsDAO.php#30-35" title="Go to source code">delete_comments_topic_module</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -827,7 +823,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_module">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#38-46" title="Go to source code">delete_comments_module</a>( <span> <var>$id_topics</var></span> )
+<a href="source-class-CommentsDAO.php#37-45" title="Go to source code">delete_comments_module</a>( <span> <var>$id_topics</var></span> )
 						</code>
 
 							<div class="description short">
@@ -862,7 +858,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comment">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#48-53" title="Go to source code">delete_comment</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsDAO.php#47-52" title="Go to source code">delete_comment</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -897,7 +893,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_id_posted_comment">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#55-59" title="Go to source code">get_user_id_posted_comment</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsDAO.php#54-58" title="Go to source code">get_user_id_posted_comment</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -932,7 +928,7 @@
 					<div>
 						<a class="anchor" href="#_get_last_comment_added">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#61-71" title="Go to source code">get_last_comment_added</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-CommentsDAO.php#60-70" title="Go to source code">get_last_comment_added</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -967,7 +963,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_comments">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#73-81" title="Go to source code">get_number_comments</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
+<a href="source-class-CommentsDAO.php#72-80" title="Go to source code">get_number_comments</a>( <span> <var>$module_id</var></span>, <span> <var>$id_in_module</var></span>, <span> <var>$topic_identifier</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@
 					<div>
 						<a class="anchor" href="#_comment_exists">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#83-86" title="Go to source code">comment_exists</a>( <span> <var>$comment_id</var></span> )
+<a href="source-class-CommentsDAO.php#82-85" title="Go to source code">comment_exists</a>( <span> <var>$comment_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1037,7 +1033,7 @@
 					<div>
 						<a class="anchor" href="#_add_comment">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#88-100" title="Go to source code">add_comment</a>( <span> <var>$id_topic</var></span>, <span> <var>$message</var></span>, <span> <var>$user_id</var></span>, <span> <var>$pseudo</var></span>, <span> <var>$user_ip</var></span> )
+<a href="source-class-CommentsDAO.php#87-99" title="Go to source code">add_comment</a>( <span> <var>$id_topic</var></span>, <span> <var>$message</var></span>, <span> <var>$user_id</var></span>, <span> <var>$pseudo</var></span>, <span> <var>$user_ip</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1072,7 +1068,7 @@
 					<div>
 						<a class="anchor" href="#_edit_comment">#</a>
 						<code>
-<a href="source-class-CommentsDAO.php#102-112" title="Go to source code">edit_comment</a>( <span> <var>$comment_id</var></span>, <span> <var>$message</var></span> )
+<a href="source-class-CommentsDAO.php#101-111" title="Go to source code">edit_comment</a>( <span> <var>$comment_id</var></span>, <span> <var>$message</var></span> )
 						</code>
 
 							<div class="description short">

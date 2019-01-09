@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a>\<a href="package-Content.Category.controllers.php">controllers</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCategoriesManageController.php#3-214" title="Go to source code">content/category/controllers/AbstractCategoriesManageController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractCategoriesManageController.php#3-213" title="Go to source code">content/category/controllers/AbstractCategoriesManageController.class.php</a></span>
 			</div>
 
 
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#_execute">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#21-32" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
+<a href="source-class-AbstractCategoriesManageController.php#20-31" title="Go to source code">execute</a>( <span><code><a href="class-HTTPRequestCustom.php">HTTPRequestCustom</a></code> <var>$request</var></span> )
 						</code>
 
 							<div class="description short">
@@ -797,7 +793,7 @@
 					<div>
 						<a class="anchor" href="#_get_title">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#136-142" title="Go to source code">get_title</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#135-141" title="Go to source code">get_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_get_delete_confirmation_message">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#144-150" title="Go to source code">get_delete_confirmation_message</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#143-149" title="Go to source code">get_delete_confirmation_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -875,7 +871,7 @@
 					<div>
 						<a class="anchor" href="#_generate_response">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#152-170" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
+<a href="source-class-AbstractCategoriesManageController.php#151-169" title="Go to source code">generate_response</a>( <span><code><a href="class-View.php">View</a></code> <var>$view</var></span> )
 						</code>
 
 							<div class="description short">
@@ -919,7 +915,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_manager">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#172-175" title="Go to source code">get_categories_manager</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#171-174" title="Go to source code">get_categories_manager</a>( )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_category_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#177-181" title="Go to source code">get_display_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-AbstractCategoriesManageController.php#176-180" title="Go to source code">get_display_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1002,7 +998,7 @@
 					<div>
 						<a class="anchor" href="#_get_edit_category_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#183-187" title="Go to source code">get_edit_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-AbstractCategoriesManageController.php#182-186" title="Go to source code">get_edit_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1046,7 +1042,7 @@
 					<div>
 						<a class="anchor" href="#_get_delete_category_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#189-193" title="Go to source code">get_delete_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-AbstractCategoriesManageController.php#188-192" title="Go to source code">get_delete_category_url</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1090,7 +1086,7 @@
 					<div>
 						<a class="anchor" href="#_get_categories_management_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#195-198" title="Go to source code">get_categories_management_url</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#194-197" title="Go to source code">get_categories_management_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1129,7 +1125,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_url">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#200-203" title="Go to source code">get_module_home_page_url</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#199-202" title="Go to source code">get_module_home_page_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1168,7 +1164,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_home_page_title">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#205-208" title="Go to source code">get_module_home_page_title</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#204-207" title="Go to source code">get_module_home_page_title</a>( )
 						</code>
 
 							<div class="description short">
@@ -1207,7 +1203,7 @@
 					<div>
 						<a class="anchor" href="#_check_authorizations">#</a>
 						<code>
-<a href="source-class-AbstractCategoriesManageController.php#210-213" title="Go to source code">check_authorizations</a>( )
+<a href="source-class-AbstractCategoriesManageController.php#209-212" title="Go to source code">check_authorizations</a>( )
 						</code>
 
 							<div class="description short">
@@ -1277,7 +1273,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesManageController.php#18" title="Go to source code"><var>$lang</var></a>
+						<a href="source-class-AbstractCategoriesManageController.php#17" title="Go to source code"><var>$lang</var></a>
 
 					<div class="description short">
 						
@@ -1304,7 +1300,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractCategoriesManageController.php#19" title="Go to source code"><var>$tpl</var></a>
+						<a href="source-class-AbstractCategoriesManageController.php#18" title="Go to source code"><var>$tpl</var></a>
 
 					<div class="description short">
 						

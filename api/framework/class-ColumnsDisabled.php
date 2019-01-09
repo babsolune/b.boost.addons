@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Theme.php">Theme</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -694,7 +690,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ColumnsDisabled.php#3-180" title="Go to source code">phpboost/theme/ColumnsDisabled.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ColumnsDisabled.php#3-179" title="Go to source code">phpboost/theme/ColumnsDisabled.class.php</a></span>
 			</div>
 
 
@@ -706,7 +702,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -728,7 +724,7 @@
 					<div>
 						<a class="anchor" href="#_header_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#26-29" title="Go to source code">header_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#25-28" title="Go to source code">header_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -763,7 +759,7 @@
 					<div>
 						<a class="anchor" href="#_sub_header_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#31-34" title="Go to source code">sub_header_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#30-33" title="Go to source code">sub_header_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -798,7 +794,7 @@
 					<div>
 						<a class="anchor" href="#_top_central_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#36-39" title="Go to source code">top_central_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#35-38" title="Go to source code">top_central_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@
 					<div>
 						<a class="anchor" href="#_bottom_central_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#41-44" title="Go to source code">bottom_central_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#40-43" title="Go to source code">bottom_central_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -868,7 +864,7 @@
 					<div>
 						<a class="anchor" href="#_top_footer_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#46-49" title="Go to source code">top_footer_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#45-48" title="Go to source code">top_footer_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -903,7 +899,7 @@
 					<div>
 						<a class="anchor" href="#_footer_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#51-54" title="Go to source code">footer_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#50-53" title="Go to source code">footer_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -938,7 +934,7 @@
 					<div>
 						<a class="anchor" href="#_left_columns_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#56-59" title="Go to source code">left_columns_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#55-58" title="Go to source code">left_columns_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -973,7 +969,7 @@
 					<div>
 						<a class="anchor" href="#_right_columns_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#61-64" title="Go to source code">right_columns_is_disabled</a>( )
+<a href="source-class-ColumnsDisabled.php#60-63" title="Go to source code">right_columns_is_disabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1008,7 +1004,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_header">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#66-69" title="Go to source code">set_disable_header</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#65-68" title="Go to source code">set_disable_header</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1043,7 +1039,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_sub_header">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#71-74" title="Go to source code">set_disable_sub_header</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#70-73" title="Go to source code">set_disable_sub_header</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1078,7 +1074,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_top_central">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#76-79" title="Go to source code">set_disable_top_central</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#75-78" title="Go to source code">set_disable_top_central</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1113,7 +1109,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_bottom_central">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#81-84" title="Go to source code">set_disable_bottom_central</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#80-83" title="Go to source code">set_disable_bottom_central</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1148,7 +1144,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_top_footer">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#86-89" title="Go to source code">set_disable_top_footer</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#85-88" title="Go to source code">set_disable_top_footer</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1183,7 +1179,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_footer">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#91-94" title="Go to source code">set_disable_footer</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#90-93" title="Go to source code">set_disable_footer</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1218,7 +1214,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_left_columns">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#96-99" title="Go to source code">set_disable_left_columns</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#95-98" title="Go to source code">set_disable_left_columns</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1253,7 +1249,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_right_columns">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#101-104" title="Go to source code">set_disable_right_columns</a>( <span> <var>$disable</var></span> )
+<a href="source-class-ColumnsDisabled.php#100-103" title="Go to source code">set_disable_right_columns</a>( <span> <var>$disable</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1288,7 +1284,7 @@
 					<div>
 						<a class="anchor" href="#_set_columns_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#106-147" title="Go to source code">set_columns_disabled</a>( <span>array <var>$disable_columns</var></span> )
+<a href="source-class-ColumnsDisabled.php#105-146" title="Go to source code">set_columns_disabled</a>( <span>array <var>$disable_columns</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1323,7 +1319,7 @@
 					<div>
 						<a class="anchor" href="#_menus_column_is_disabled">#</a>
 						<code>
-<a href="source-class-ColumnsDisabled.php#149-179" title="Go to source code">menus_column_is_disabled</a>( <span> <var>$column</var></span> )
+<a href="source-class-ColumnsDisabled.php#148-178" title="Go to source code">menus_column_is_disabled</a>( <span> <var>$column</var></span> )
 						</code>
 
 							<div class="description short">

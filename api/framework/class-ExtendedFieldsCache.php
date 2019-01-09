@@ -666,10 +666,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Cache.php">Cache</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -701,7 +697,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsCache.php#3-122" title="Go to source code">phpboost/cache/ExtendedFieldsCache.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ExtendedFieldsCache.php#3-121" title="Go to source code">phpboost/cache/ExtendedFieldsCache.class.php</a></span>
 			</div>
 
 
@@ -722,7 +718,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -744,7 +740,7 @@
 					<div>
 						<a class="anchor" href="#_synchronize">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#20-55" title="Go to source code">synchronize</a>( )
+<a href="source-class-ExtendedFieldsCache.php#19-54" title="Go to source code">synchronize</a>( )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_extended_fields">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#57-60" title="Go to source code">get_extended_fields</a>( )
+<a href="source-class-ExtendedFieldsCache.php#56-59" title="Go to source code">get_extended_fields</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_exist_fields">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#62-65" title="Go to source code">get_exist_fields</a>( )
+<a href="source-class-ExtendedFieldsCache.php#61-64" title="Go to source code">get_exist_fields</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_extended_field">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#67-74" title="Go to source code">get_extended_field</a>( <span> <var>$id</var></span> )
+<a href="source-class-ExtendedFieldsCache.php#66-73" title="Go to source code">get_extended_field</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_extended_field_by_field_name">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#76-89" title="Go to source code">get_extended_field_by_field_name</a>( <span> <var>$field_name</var></span> )
+<a href="source-class-ExtendedFieldsCache.php#75-88" title="Go to source code">get_extended_field_by_field_name</a>( <span> <var>$field_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_get_websites_or_emails_extended_field_field_types">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#91-104" title="Go to source code">get_websites_or_emails_extended_field_field_types</a>( )
+<a href="source-class-ExtendedFieldsCache.php#90-103" title="Go to source code">get_websites_or_emails_extended_field_field_types</a>( )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#106-113" title="Go to source code">load</a>( )
+<a href="source-class-ExtendedFieldsCache.php#105-112" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -997,7 +993,7 @@ For instance,</p>
 					<div>
 						<a class="anchor" href="#_invalidate">#</a>
 						<code>
-<a href="source-class-ExtendedFieldsCache.php#115-121" title="Go to source code">invalidate</a>( )
+<a href="source-class-ExtendedFieldsCache.php#114-120" title="Go to source code">invalidate</a>( )
 						</code>
 
 							<div class="description short">

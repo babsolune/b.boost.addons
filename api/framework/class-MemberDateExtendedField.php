@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -724,7 +720,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberDateExtendedField.php#3-60" title="Go to source code">phpboost/member/extended-fields/field/MemberDateExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberDateExtendedField.php#3-59" title="Go to source code">phpboost/member/extended-fields/field/MemberDateExtendedField.class.php</a></span>
 			</div>
 
 
@@ -752,7 +748,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -774,7 +770,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MemberDateExtendedField.php#16-21" title="Go to source code">__construct</a>( )
+<a href="source-class-MemberDateExtendedField.php#15-20" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -815,7 +811,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_create">#</a>
 						<code>
-<a href="source-class-MemberDateExtendedField.php#23-31" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberDateExtendedField.php#22-30" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -857,7 +853,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_update">#</a>
 						<code>
-<a href="source-class-MemberDateExtendedField.php#33-41" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberDateExtendedField.php#32-40" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_profile">#</a>
 						<code>
-<a href="source-class-MemberDateExtendedField.php#43-50" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberDateExtendedField.php#42-49" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-MemberDateExtendedField.php#52-59" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-MemberDateExtendedField.php#51-58" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">

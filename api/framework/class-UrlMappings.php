@@ -695,10 +695,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Dispatcher.php">Dispatcher</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 10 06
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMappings.php#3-32" title="Go to source code">mvc/dispatcher/UrlMappings.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UrlMappings.php#3-31" title="Go to source code">mvc/dispatcher/UrlMappings.class.php</a></span>
 			</div>
 
 
@@ -739,7 +735,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -761,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UrlMappings.php#17-23" title="Go to source code">__construct</a>( <span>array <var>$mappings</var></span> )
+<a href="source-class-UrlMappings.php#16-22" title="Go to source code">__construct</a>( <span>array <var>$mappings</var></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_list_mappings">#</a>
 						<code>
-<a href="source-class-UrlMappings.php#25-31" title="Go to source code">list_mappings</a>( )
+<a href="source-class-UrlMappings.php#24-30" title="Go to source code">list_mappings</a>( )
 						</code>
 
 							<div class="description short">

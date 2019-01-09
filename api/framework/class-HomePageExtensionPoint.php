@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Homepage.php">Homepage</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 10 08
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-HomePageExtensionPoint.php#3-21" title="Go to source code">content/homepage/HomePageExtensionPoint.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-HomePageExtensionPoint.php#3-20" title="Go to source code">content/homepage/HomePageExtensionPoint.class.php</a></span>
 			</div>
 
 
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#_get_home_page">#</a>
 						<code>
-<a href="source-class-HomePageExtensionPoint.php#17-20" title="Go to source code">get_home_page</a>( )
+<a href="source-class-HomePageExtensionPoint.php#16-19" title="Go to source code">get_home_page</a>( )
 						</code>
 
 							<div class="description short">
@@ -779,7 +775,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-HomePageExtensionPoint.php#15" title="Go to source code"><b>EXTENSION_POINT</b></a>
+								<a href="source-class-HomePageExtensionPoint.php#14" title="Go to source code"><b>EXTENSION_POINT</b></a>
 							</code>
 
 							<div class="description short">

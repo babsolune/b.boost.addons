@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,208 +1294,207 @@
 		<header><h2>File core/error/HTTPFatalExceptionPrinter.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span></span><span class="l"><a href="#13"> 13: </a></span><span class="l"><a href="#14"> 14: </a></span><span class="l"><a href="#15"> 15: </a></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span><span class="l"><a href="#24"> 24: </a></span><span class="l"><a href="#25"> 25: </a></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span><span class="l"><a href="#36"> 36: </a></span></span><span class="l"><a href="#37"> 37: </a></span></span><span class="l"><a href="#38"> 38: </a></span></span><span class="l"><a href="#39"> 39: </a></span></span><span class="l"><a href="#40"> 40: </a></span></span><span class="l"><a href="#41"> 41: </a></span></span><span class="l"><a href="#42"> 42: </a></span></span><span class="l"><a href="#43"> 43: </a></span></span><span class="l"><a href="#44"> 44: </a></span></span><span class="l"><a href="#45"> 45: </a></span></span><span class="l"><a href="#46"> 46: </a></span></span><span class="l"><a href="#47"> 47: </a></span></span><span class="l"><a href="#48"> 48: </a></span></span><span class="l"><a href="#49"> 49: </a></span></span><span class="l"><a href="#50"> 50: </a></span></span><span class="l"><a href="#51"> 51: </a></span></span><span class="l"><a href="#52"> 52: </a></span></span><span class="l"><a href="#53"> 53: </a></span></span><span class="l"><a href="#54"> 54: </a></span></span><span class="l"><a href="#55"> 55: </a></span></span><span class="l"><a href="#56"> 56: </a></span></span><span class="l"><a href="#57"> 57: </a></span></span><span class="l"><a href="#58"> 58: </a></span></span><span class="l"><a href="#59"> 59: </a></span></span><span class="l"><a href="#60"> 60: </a></span></span><span class="l"><a href="#61"> 61: </a></span></span><span class="l"><a href="#62"> 62: </a></span></span><span class="l"><a href="#63"> 63: </a></span></span><span class="l"><a href="#64"> 64: </a></span></span><span class="l"><a href="#65"> 65: </a></span></span><span class="l"><a href="#66"> 66: </a></span></span><span class="l"><a href="#67"> 67: </a></span></span><span class="l"><a href="#68"> 68: </a></span></span><span class="l"><a href="#69"> 69: </a></span></span><span class="l"><a href="#70"> 70: </a></span></span><span class="l"><a href="#71"> 71: </a></span></span><span class="l"><a href="#72"> 72: </a></span></span><span class="l"><a href="#73"> 73: </a></span></span><span class="l"><a href="#74"> 74: </a></span></span><span class="l"><a href="#75"> 75: </a></span></span><span class="l"><a href="#76"> 76: </a></span></span><span class="l"><a href="#77"> 77: </a></span></span><span class="l"><a href="#78"> 78: </a></span></span><span class="l"><a href="#79"> 79: </a></span></span><span class="l"><a href="#80"> 80: </a></span></span><span class="l"><a href="#81"> 81: </a></span></span><span class="l"><a href="#82"> 82: </a></span></span><span class="l"><a href="#83"> 83: </a></span></span><span class="l"><a href="#84"> 84: </a></span></span><span class="l"><a href="#85"> 85: </a></span></span><span class="l"><a href="#86"> 86: </a></span></span><span class="l"><a href="#87"> 87: </a></span></span><span class="l"><a href="#88"> 88: </a></span></span><span class="l"><a href="#89"> 89: </a></span></span><span class="l"><a href="#90"> 90: </a></span></span><span class="l"><a href="#91"> 91: </a></span></span><span class="l"><a href="#92"> 92: </a></span></span><span class="l"><a href="#93"> 93: </a></span></span><span class="l"><a href="#94"> 94: </a></span></span><span class="l"><a href="#95"> 95: </a></span></span><span class="l"><a href="#96"> 96: </a></span></span><span class="l"><a href="#97"> 97: </a></span></span><span class="l"><a href="#98"> 98: </a></span></span><span class="l"><a href="#99"> 99: </a></span></span><span class="l"><a href="#100">100: </a></span></span><span class="l"><a href="#101">101: </a></span></span><span class="l"><a href="#102">102: </a></span></span><span class="l"><a href="#103">103: </a></span></span><span class="l"><a href="#104">104: </a></span></span><span class="l"><a href="#105">105: </a></span></span><span class="l"><a href="#106">106: </a></span></span><span class="l"><a href="#107">107: </a></span></span><span class="l"><a href="#108">108: </a></span></span><span class="l"><a href="#109">109: </a></span></span><span class="l"><a href="#110">110: </a></span></span><span class="l"><a href="#111">111: </a></span></span><span class="l"><a href="#112">112: </a></span></span><span class="l"><a href="#113">113: </a></span></span><span class="l"><a href="#114">114: </a></span></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span><span class="l"><a href="#142">142: </a></span></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span><span class="l"><a href="#145">145: </a></span><span class="l"><a href="#146">146: </a></span><span class="l"><a href="#147">147: </a></span><span class="l"><a href="#148">148: </a></span><span class="l"><a href="#149">149: </a></span><span class="l"><a href="#150">150: </a></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span><span class="l"><a href="#160">160: </a></span><span class="l"><a href="#161">161: </a></span><span class="l"><a href="#162">162: </a></span><span class="l"><a href="#163">163: </a></span><span class="l"><a href="#164">164: </a></span><span class="l"><a href="#165">165: </a></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span><span class="l"><a href="#175">175: </a></span><span class="l"><a href="#176">176: </a></span><span class="l"><a href="#177">177: </a></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span><span class="l"><a href="#187">187: </a></span><span class="l"><a href="#188">188: </a></span><span class="l"><a href="#189">189: </a></span><span class="l"><a href="#190">190: </a></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span><span class="l"><a href="#200">200: </a></span><span class="l"><a href="#201">201: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1">  1: </a></span><span class="l"><a href="#2">  2: </a></span></span><span class="l"><a href="#3">  3: </a></span></span><span class="l"><a href="#4">  4: </a></span></span><span class="l"><a href="#5">  5: </a></span></span><span class="l"><a href="#6">  6: </a></span></span><span class="l"><a href="#7">  7: </a></span></span><span class="l"><a href="#8">  8: </a></span></span><span class="l"><a href="#9">  9: </a></span></span><span class="l"><a href="#10"> 10: </a></span></span><span class="l"><a href="#11"> 11: </a></span></span><span class="l"><a href="#12"> 12: </a></span><span class="l"><a href="#13"> 13: </a></span><span class="l"><a href="#14"> 14: </a></span><span class="l"><a href="#15"> 15: </a></span><span class="l"><a href="#16"> 16: </a></span><span class="l"><a href="#17"> 17: </a></span><span class="l"><a href="#18"> 18: </a></span><span class="l"><a href="#19"> 19: </a></span><span class="l"><a href="#20"> 20: </a></span><span class="l"><a href="#21"> 21: </a></span><span class="l"><a href="#22"> 22: </a></span><span class="l"><a href="#23"> 23: </a></span><span class="l"><a href="#24"> 24: </a></span><span class="l"><a href="#25"> 25: </a></span><span class="l"><a href="#26"> 26: </a></span><span class="l"><a href="#27"> 27: </a></span><span class="l"><a href="#28"> 28: </a></span><span class="l"><a href="#29"> 29: </a></span><span class="l"><a href="#30"> 30: </a></span><span class="l"><a href="#31"> 31: </a></span><span class="l"><a href="#32"> 32: </a></span><span class="l"><a href="#33"> 33: </a></span><span class="l"><a href="#34"> 34: </a></span><span class="l"><a href="#35"> 35: </a></span></span><span class="l"><a href="#36"> 36: </a></span></span><span class="l"><a href="#37"> 37: </a></span></span><span class="l"><a href="#38"> 38: </a></span></span><span class="l"><a href="#39"> 39: </a></span></span><span class="l"><a href="#40"> 40: </a></span></span><span class="l"><a href="#41"> 41: </a></span></span><span class="l"><a href="#42"> 42: </a></span></span><span class="l"><a href="#43"> 43: </a></span></span><span class="l"><a href="#44"> 44: </a></span></span><span class="l"><a href="#45"> 45: </a></span></span><span class="l"><a href="#46"> 46: </a></span></span><span class="l"><a href="#47"> 47: </a></span></span><span class="l"><a href="#48"> 48: </a></span></span><span class="l"><a href="#49"> 49: </a></span></span><span class="l"><a href="#50"> 50: </a></span></span><span class="l"><a href="#51"> 51: </a></span></span><span class="l"><a href="#52"> 52: </a></span></span><span class="l"><a href="#53"> 53: </a></span></span><span class="l"><a href="#54"> 54: </a></span></span><span class="l"><a href="#55"> 55: </a></span></span><span class="l"><a href="#56"> 56: </a></span></span><span class="l"><a href="#57"> 57: </a></span></span><span class="l"><a href="#58"> 58: </a></span></span><span class="l"><a href="#59"> 59: </a></span></span><span class="l"><a href="#60"> 60: </a></span></span><span class="l"><a href="#61"> 61: </a></span></span><span class="l"><a href="#62"> 62: </a></span></span><span class="l"><a href="#63"> 63: </a></span></span><span class="l"><a href="#64"> 64: </a></span></span><span class="l"><a href="#65"> 65: </a></span></span><span class="l"><a href="#66"> 66: </a></span></span><span class="l"><a href="#67"> 67: </a></span></span><span class="l"><a href="#68"> 68: </a></span></span><span class="l"><a href="#69"> 69: </a></span></span><span class="l"><a href="#70"> 70: </a></span></span><span class="l"><a href="#71"> 71: </a></span></span><span class="l"><a href="#72"> 72: </a></span></span><span class="l"><a href="#73"> 73: </a></span></span><span class="l"><a href="#74"> 74: </a></span></span><span class="l"><a href="#75"> 75: </a></span></span><span class="l"><a href="#76"> 76: </a></span></span><span class="l"><a href="#77"> 77: </a></span></span><span class="l"><a href="#78"> 78: </a></span></span><span class="l"><a href="#79"> 79: </a></span></span><span class="l"><a href="#80"> 80: </a></span></span><span class="l"><a href="#81"> 81: </a></span></span><span class="l"><a href="#82"> 82: </a></span></span><span class="l"><a href="#83"> 83: </a></span></span><span class="l"><a href="#84"> 84: </a></span></span><span class="l"><a href="#85"> 85: </a></span></span><span class="l"><a href="#86"> 86: </a></span></span><span class="l"><a href="#87"> 87: </a></span></span><span class="l"><a href="#88"> 88: </a></span></span><span class="l"><a href="#89"> 89: </a></span></span><span class="l"><a href="#90"> 90: </a></span></span><span class="l"><a href="#91"> 91: </a></span></span><span class="l"><a href="#92"> 92: </a></span></span><span class="l"><a href="#93"> 93: </a></span></span><span class="l"><a href="#94"> 94: </a></span></span><span class="l"><a href="#95"> 95: </a></span></span><span class="l"><a href="#96"> 96: </a></span></span><span class="l"><a href="#97"> 97: </a></span></span><span class="l"><a href="#98"> 98: </a></span></span><span class="l"><a href="#99"> 99: </a></span></span><span class="l"><a href="#100">100: </a></span></span><span class="l"><a href="#101">101: </a></span></span><span class="l"><a href="#102">102: </a></span></span><span class="l"><a href="#103">103: </a></span></span><span class="l"><a href="#104">104: </a></span></span><span class="l"><a href="#105">105: </a></span></span><span class="l"><a href="#106">106: </a></span></span><span class="l"><a href="#107">107: </a></span></span><span class="l"><a href="#108">108: </a></span></span><span class="l"><a href="#109">109: </a></span></span><span class="l"><a href="#110">110: </a></span></span><span class="l"><a href="#111">111: </a></span></span><span class="l"><a href="#112">112: </a></span></span><span class="l"><a href="#113">113: </a></span></span><span class="l"><a href="#114">114: </a></span><span class="l"><a href="#115">115: </a></span><span class="l"><a href="#116">116: </a></span><span class="l"><a href="#117">117: </a></span><span class="l"><a href="#118">118: </a></span><span class="l"><a href="#119">119: </a></span><span class="l"><a href="#120">120: </a></span><span class="l"><a href="#121">121: </a></span><span class="l"><a href="#122">122: </a></span><span class="l"><a href="#123">123: </a></span><span class="l"><a href="#124">124: </a></span><span class="l"><a href="#125">125: </a></span><span class="l"><a href="#126">126: </a></span><span class="l"><a href="#127">127: </a></span><span class="l"><a href="#128">128: </a></span><span class="l"><a href="#129">129: </a></span><span class="l"><a href="#130">130: </a></span><span class="l"><a href="#131">131: </a></span><span class="l"><a href="#132">132: </a></span><span class="l"><a href="#133">133: </a></span><span class="l"><a href="#134">134: </a></span><span class="l"><a href="#135">135: </a></span><span class="l"><a href="#136">136: </a></span><span class="l"><a href="#137">137: </a></span><span class="l"><a href="#138">138: </a></span><span class="l"><a href="#139">139: </a></span><span class="l"><a href="#140">140: </a></span><span class="l"><a href="#141">141: </a></span></span><span class="l"><a href="#142">142: </a></span><span class="l"><a href="#143">143: </a></span><span class="l"><a href="#144">144: </a></span><span class="l"><a href="#145">145: </a></span><span class="l"><a href="#146">146: </a></span><span class="l"><a href="#147">147: </a></span><span class="l"><a href="#148">148: </a></span><span class="l"><a href="#149">149: </a></span><span class="l"><a href="#150">150: </a></span><span class="l"><a href="#151">151: </a></span><span class="l"><a href="#152">152: </a></span><span class="l"><a href="#153">153: </a></span><span class="l"><a href="#154">154: </a></span><span class="l"><a href="#155">155: </a></span><span class="l"><a href="#156">156: </a></span><span class="l"><a href="#157">157: </a></span><span class="l"><a href="#158">158: </a></span><span class="l"><a href="#159">159: </a></span><span class="l"><a href="#160">160: </a></span><span class="l"><a href="#161">161: </a></span><span class="l"><a href="#162">162: </a></span><span class="l"><a href="#163">163: </a></span><span class="l"><a href="#164">164: </a></span><span class="l"><a href="#165">165: </a></span><span class="l"><a href="#166">166: </a></span><span class="l"><a href="#167">167: </a></span><span class="l"><a href="#168">168: </a></span><span class="l"><a href="#169">169: </a></span><span class="l"><a href="#170">170: </a></span><span class="l"><a href="#171">171: </a></span><span class="l"><a href="#172">172: </a></span><span class="l"><a href="#173">173: </a></span><span class="l"><a href="#174">174: </a></span><span class="l"><a href="#175">175: </a></span><span class="l"><a href="#176">176: </a></span><span class="l"><a href="#177">177: </a></span><span class="l"><a href="#178">178: </a></span><span class="l"><a href="#179">179: </a></span><span class="l"><a href="#180">180: </a></span><span class="l"><a href="#181">181: </a></span><span class="l"><a href="#182">182: </a></span><span class="l"><a href="#183">183: </a></span><span class="l"><a href="#184">184: </a></span><span class="l"><a href="#185">185: </a></span><span class="l"><a href="#186">186: </a></span><span class="l"><a href="#187">187: </a></span><span class="l"><a href="#188">188: </a></span><span class="l"><a href="#189">189: </a></span><span class="l"><a href="#190">190: </a></span><span class="l"><a href="#191">191: </a></span><span class="l"><a href="#192">192: </a></span><span class="l"><a href="#193">193: </a></span><span class="l"><a href="#194">194: </a></span><span class="l"><a href="#195">195: </a></span><span class="l"><a href="#196">196: </a></span><span class="l"><a href="#197">197: </a></span><span class="l"><a href="#198">198: </a></span><span class="l"><a href="#199">199: </a></span><span class="l"><a href="#200">200: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * @package     Core
 </span></span><span id="4" class="l"><span class="php-comment"> * @subpackage  Error
-</span></span><span id="5" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="6" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="7" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="8" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
-</span></span><span id="9" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2017 04 20
-</span></span><span id="10" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2010 10 18
-</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
-</span></span><span id="12" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
-</span></span><span id="13" class="l"><span class="php-comment">*/</span>
-</span><span id="14" class="l">
-</span><span id="15" class="l"><span class="php-keyword2">defined</span>(<span class="php-quote">'TPL_PATH_TO_ROOT'</span>) <span class="php-keyword1">or</span> <span class="php-keyword2">define</span>(<span class="php-quote">'TPL_PATH_TO_ROOT'</span>, PATH_TO_ROOT);
-</span><span id="16" class="l">
-</span><span id="17" class="l"><span class="php-keyword1">class</span> HTTPFatalExceptionPrinter
-</span><span id="18" class="l">{
-</span><span id="19" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$type</span>;
-</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$message</span>;
-</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$exception</span>;
-</span><span id="22" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$ob_content</span> = <span class="php-quote">''</span>;
-</span><span id="23" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$is_row_odd</span> = <span class="php-keyword1">true</span>;
-</span><span id="24" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$output</span> = <span class="php-quote">''</span>;
-</span><span id="25" class="l">
-</span><span id="26" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$exception</span>)
-</span><span id="27" class="l">    {
-</span><span id="28" class="l">        <span class="php-var">$this</span>-&gt;exception = <span class="php-var">$exception</span>;
-</span><span id="29" class="l">        <span class="php-var">$this</span>-&gt;type = <span class="php-keyword2">get_class</span>(<span class="php-var">$this</span>-&gt;exception);
-</span><span id="30" class="l">        <span class="php-var">$this</span>-&gt;message = <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">&quot;&lt;br /&gt;&quot;</span>, <span class="php-var">$this</span>-&gt;exception-&gt;getMessage());
-</span><span id="31" class="l">        <span class="php-var">$this</span>-&gt;ob_content = AppContext::get_response()-&gt;get_previous_ob_content();
-</span><span id="32" class="l">    }
-</span><span id="33" class="l">
-</span><span id="34" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> render()
-</span><span id="35" class="l">    {
-</span><span id="36" class="l">        <span class="php-var">$this</span>-&gt;output .= <span class="php-quote">'&lt;!DOCTYPE html&gt;
-</span></span><span id="37" class="l"><span class="php-quote">&lt;html lang=&quot;en&quot;&gt;
-</span></span><span id="38" class="l"><span class="php-quote">    &lt;head&gt;
-</span></span><span id="39" class="l"><span class="php-quote">        &lt;title&gt;'</span> . <span class="php-var">$this</span>-&gt;type . <span class="php-quote">' caught&lt;/title&gt;
-</span></span><span id="40" class="l"><span class="php-quote">        &lt;meta charset=&quot;UTF-8&quot; /&gt;
-</span></span><span id="41" class="l"><span class="php-quote">        &lt;style type=&quot;text/css&quot;&gt;
-</span></span><span id="42" class="l"><span class="php-quote">            body {background-color:#dddddd;}
-</span></span><span id="43" class="l"><span class="php-quote">            table {width:100%;}
-</span></span><span id="44" class="l"><span class="php-quote">            caption {text-align:left;font-size:26px;font-weight:bold;background-color:#536F8B;padding:5px;border-bottom:1px #aaaaaa solid;}
-</span></span><span id="45" class="l"><span class="php-quote">            th {font-size:18px;background-color:#7A99B1;height:30px;}
-</span></span><span id="46" class="l"><span class="php-quote">            tr.section {}
-</span></span><span id="47" class="l"><span class="php-quote">            tr.oddRow {background-color:#ECEEEF;}
-</span></span><span id="48" class="l"><span class="php-quote">            tr.evenRow {background-color:#D2E3F1;}
-</span></span><span id="49" class="l"><span class="php-quote">            td.parameterName {font-size:14px;font-weight:bold;padding:0 10px;}
-</span></span><span id="50" class="l"><span class="php-quote">            td.parameterValue {font-size:14px;}
-</span></span><span id="51" class="l"><span class="php-quote">            h1 {background-color:#536F8B;border:1px #aaaaaa solid;padding:10px;margin:0px;}
-</span></span><span id="52" class="l"><span class="php-quote">            div#exceptionContext .message {font-weight:bold;background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
-</span></span><span id="53" class="l"><span class="php-quote">            .outputBuffer {font-size:12px;background-color:#eeeeee;border-left:1px #aaaaaa solid;border-right:1px #aaaaaa solid;padding:10px;}
-</span></span><span id="54" class="l"><span class="php-quote">            table.stack td.prototype {font-weight:bold;padding-right:10px;}
-</span></span><span id="55" class="l"><span class="php-quote">            table.stack td.file {font-size:14px;font-style:italic;}
-</span></span><span id="56" class="l"><span class="php-quote">            table.stack td.line {text-align:right;font-size:12px;width:30px;}
-</span></span><span id="57" class="l"><span class="php-quote">            table.stack td.args {font-size:14px;padding-right:10px;}
-</span></span><span id="58" class="l"><span class="php-quote">            table.stack td.argsDetails {border-top:1px #aaaaaa solid;}
-</span></span><span id="59" class="l"><span class="php-quote">            div#exceptionContext {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
-</span></span><span id="60" class="l"><span class="php-quote">            div#whyISeeThisPage {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
-</span></span><span id="61" class="l"><span class="php-quote">            div#httpContext {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
-</span></span><span id="62" class="l"><span class="php-quote">        &lt;/style&gt;
-</span></span><span id="63" class="l"><span class="php-quote">        &lt;script&gt;
-</span></span><span id="64" class="l"><span class="php-quote">        &lt;!--
-</span></span><span id="65" class="l"><span class="php-quote">        function toggleDisplay(link, eltId) {
-</span></span><span id="66" class="l"><span class="php-quote">            var elt = document.getElementById(eltId);
-</span></span><span id="67" class="l"><span class="php-quote">            var mode = elt.style.display;
-</span></span><span id="68" class="l"><span class="php-quote">            if (mode != \'none\') {
-</span></span><span id="69" class="l"><span class="php-quote">                elt.style.display = \'none\';
-</span></span><span id="70" class="l"><span class="php-quote">                link.innerHTML = \'+\';
-</span></span><span id="71" class="l"><span class="php-quote">            } else {
-</span></span><span id="72" class="l"><span class="php-quote">                elt.style.display = \'table-row\';
-</span></span><span id="73" class="l"><span class="php-quote">                link.innerHTML = \'-\';
-</span></span><span id="74" class="l"><span class="php-quote">            }
-</span></span><span id="75" class="l"><span class="php-quote">        }
-</span></span><span id="76" class="l"><span class="php-quote">        function getOutputBufferContent() {
-</span></span><span id="77" class="l"><span class="php-quote">            return \''</span> . <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">'\n\' + '</span> . <span class="php-quote">&quot;\n&quot;</span> . <span class="php-quote">'\''</span>, <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\r&quot;</span>, <span class="php-quote">''</span>, <span class="php-keyword2">addslashes</span>(TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$this</span>-&gt;ob_content)))) . <span class="php-quote">'\';
-</span></span><span id="78" class="l"><span class="php-quote">        }
-</span></span><span id="79" class="l"><span class="php-quote">        function openOutputBufferPopup(content) {
-</span></span><span id="80" class="l"><span class="php-quote">            var obWindow = window.open(\'\', \'Output Buffer\', \'\');
-</span></span><span id="81" class="l"><span class="php-quote">            obWindow.document.open();
-</span></span><span id="82" class="l"><span class="php-quote">            obWindow.document.write(content);
-</span></span><span id="83" class="l"><span class="php-quote">            obWindow.document.close();
-</span></span><span id="84" class="l"><span class="php-quote">        }
-</span></span><span id="85" class="l"><span class="php-quote">        function displayOutputBufferContent() {
-</span></span><span id="86" class="l"><span class="php-quote">            var content = getOutputBufferContent();
-</span></span><span id="87" class="l"><span class="php-quote">            content = \'&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;OUTPUT BUFFER RAW&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;pre&amp;gt;\'.replace(/&amp;lt;/g, \'&lt;\').replace(/&amp;gt;/g, \'&gt;\') +
-</span></span><span id="88" class="l"><span class="php-quote">                content + \'&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;\'.replace(/&amp;lt;/g, \'&lt;\').replace(/&amp;gt;/g, \'&gt;\');
-</span></span><span id="89" class="l"><span class="php-quote">            openOutputBufferPopup(content);
-</span></span><span id="90" class="l"><span class="php-quote">        }
-</span></span><span id="91" class="l"><span class="php-quote">        --&gt;
-</span></span><span id="92" class="l"><span class="php-quote">        &lt;/script&gt;
-</span></span><span id="93" class="l"><span class="php-quote">    &lt;/head&gt;
-</span></span><span id="94" class="l"><span class="php-quote">    &lt;body&gt;
-</span></span><span id="95" class="l"><span class="php-quote">        &lt;div id=&quot;exceptionContext&quot;&gt;
-</span></span><span id="96" class="l"><span class="php-quote">            &lt;h1&gt;'</span> . <span class="php-var">$this</span>-&gt;type . <span class="php-quote">'&lt;/h1&gt;
-</span></span><span id="97" class="l"><span class="php-quote">            &lt;div class=&quot;message&quot;&gt;'</span> . <span class="php-var">$this</span>-&gt;message. <span class="php-quote">'&lt;/div&gt;
-</span></span><span id="98" class="l"><span class="php-quote">            &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; class=&quot;stack&quot;&gt;
-</span></span><span id="99" class="l"><span class="php-quote">                &lt;caption&gt;STACKTRACE&lt;/caption&gt;
-</span></span><span id="100" class="l"><span class="php-quote">                &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;METHOD&lt;/th&gt;&lt;th&gt;FILE&lt;/th&gt;&lt;th&gt;LINE&lt;/th&gt;&lt;/tr&gt;'</span> . <span class="php-var">$this</span>-&gt;build_stack_trace() . <span class="php-quote">'
-</span></span><span id="101" class="l"><span class="php-quote">            &lt;/table&gt;
-</span></span><span id="102" class="l"><span class="php-quote">        &lt;/div&gt;
-</span></span><span id="103" class="l"><span class="php-quote">        &lt;div class=&quot;outputBuffer&quot;&gt;&lt;a href=&quot;javascript:displayOutputBufferContent()&quot;&gt;output buffer&lt;/a&gt;&lt;/div&gt;
-</span></span><span id="104" class="l"><span class="php-quote">        &lt;div id=&quot;whyISeeThisPage&quot;&gt;
-</span></span><span id="105" class="l"><span class="php-quote">            You see this page because your site is configured to use the &lt;em&gt;DEBUG&lt;/em&gt; mode.&lt;br /&gt;
-</span></span><span id="106" class="l"><span class="php-quote">            If you want to see the related user error page, you have to disable the &lt;em&gt;DEBUG&lt;/em&gt; mode
-</span></span><span id="107" class="l"><span class="php-quote">            from the &lt;a href=&quot;'</span> . TPL_PATH_TO_ROOT . <span class="php-quote">'/admin/config/?url=/advanced/&quot;&gt;administration panel&lt;/a&gt;.
-</span></span><span id="108" class="l"><span class="php-quote">        &lt;/div&gt;
-</span></span><span id="109" class="l"><span class="php-quote">        &lt;div id=&quot;httpContext&quot;&gt;
-</span></span><span id="110" class="l"><span class="php-quote">            &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;3 5px&quot;&gt;&lt;caption&gt;HTTP Request&lt;/caption&gt;
-</span></span><span id="111" class="l"><span class="php-quote">            '</span> . <span class="php-var">$this</span>-&gt;get_http_context() . <span class="php-quote">'
-</span></span><span id="112" class="l"><span class="php-quote">            &lt;/table&gt;
-</span></span><span id="113" class="l"><span class="php-quote">        &lt;/div&gt;
-</span></span><span id="114" class="l"><span class="php-quote">    &lt;/body&gt;
-</span></span><span id="115" class="l"><span class="php-quote">&lt;/html&gt;'</span>;
-</span><span id="116" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;output;
-</span><span id="117" class="l">    }
-</span><span id="118" class="l">
-</span><span id="119" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> build_stack_trace()
-</span><span id="120" class="l">    {
-</span><span id="121" class="l">        <span class="php-var">$i</span> = <span class="php-num">0</span>;
-</span><span id="122" class="l">        <span class="php-var">$this</span>-&gt;is_row_odd = <span class="php-keyword1">true</span>;
-</span><span id="123" class="l">        <span class="php-var">$stack</span> = <span class="php-quote">''</span>;
-</span><span id="124" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;exception-&gt;getTrace() <span class="php-keyword1">as</span> <span class="php-var">$call</span>)
-</span><span id="125" class="l">        {
-</span><span id="126" class="l">            <span class="php-var">$row_class</span> = <span class="php-var">$this</span>-&gt;is_row_odd ? <span class="php-quote">'oddRow'</span> : <span class="php-quote">'evenRow'</span>;
-</span><span id="127" class="l">            <span class="php-var">$has_args</span> = ExceptionUtils::has_args(<span class="php-var">$call</span>);
-</span><span id="128" class="l">            <span class="php-var">$id</span> = <span class="php-quote">'call'</span> . <span class="php-var">$i</span> . <span class="php-quote">'Arguments'</span>;
-</span><span id="129" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;tr class=&quot;'</span> . <span class="php-var">$row_class</span> . <span class="php-quote">'&quot;&gt;'</span>;
-</span><span id="130" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;args&quot;&gt;'</span>;
-</span><span id="131" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$has_args</span>)
-</span><span id="132" class="l">            {
-</span><span id="133" class="l">                <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;a href=&quot;javascript:toggleDisplay(this, \''</span> . <span class="php-var">$id</span> . <span class="php-quote">'\');&quot;&gt;+&lt;/a&gt;'</span>;
-</span><span id="134" class="l">            }
-</span><span id="135" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;/td&gt;'</span>;
-</span><span id="136" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;prototype&quot;&gt;'</span> . ExceptionUtils::get_method_prototype(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
-</span><span id="137" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;file&quot;&gt;'</span> . ExceptionUtils::get_file(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
-</span><span id="138" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;line&quot;&gt;'</span> . ExceptionUtils::get_line(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
-</span><span id="139" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;/tr&gt;'</span>;
-</span><span id="140" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$has_args</span>)
-</span><span id="141" class="l">            {
-</span><span id="142" class="l">                <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;tr id=&quot;'</span> . <span class="php-var">$id</span> . <span class="php-quote">'&quot; style=&quot;display: none;&quot; class=&quot;'</span> . <span class="php-var">$row_class</span> . <span class="php-quote">'&quot;&gt;
-</span></span><span id="143" class="l"><span class="php-quote">                &lt;td colspan=&quot;4&quot; class=&quot;argsDetails&quot;&gt;'</span> . ExceptionUtils::get_args(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;&lt;/tr&gt;'</span>;
-</span><span id="144" class="l">            }
-</span><span id="145" class="l">            <span class="php-var">$i</span>++;
-</span><span id="146" class="l">            <span class="php-var">$this</span>-&gt;is_row_odd = !<span class="php-var">$this</span>-&gt;is_row_odd;
-</span><span id="147" class="l">        }
-</span><span id="148" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$stack</span>;
-</span><span id="149" class="l">    }
-</span><span id="150" class="l">
-</span><span id="151" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> get_http_context()
-</span><span id="152" class="l">    {
-</span><span id="153" class="l">        <span class="php-var">$http_context</span> = <span class="php-quote">''</span>;
-</span><span id="154" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'GET'</span>, <span class="php-var">$_GET</span>);
-</span><span id="155" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'POST'</span>, <span class="php-var">$_POST</span>);
-</span><span id="156" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'COOKIE'</span>, <span class="php-var">$_COOKIE</span>);
-</span><span id="157" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'SERVER'</span>, <span class="php-var">$_SERVER</span>);
-</span><span id="158" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$http_context</span>;
-</span><span id="159" class="l">    }
-</span><span id="160" class="l">
-</span><span id="161" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> dump_var(<span class="php-var">$title</span>, <span class="php-var">$parameters</span>)
-</span><span id="162" class="l">    {
-</span><span id="163" class="l">        <span class="php-var">$dump</span> =  <span class="php-quote">''</span>;
-</span><span id="164" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$parameters</span>))
-</span><span id="165" class="l">        {
-</span><span id="166" class="l">            <span class="php-var">$this</span>-&gt;is_row_odd = <span class="php-keyword1">true</span>;
-</span><span id="167" class="l">            <span class="php-var">$dump</span> .= <span class="php-quote">'&lt;tr class=&quot;section&quot;&gt;&lt;th colspan=&quot;2&quot; style=&quot;text-align:left;padding:0 10px;&quot;&gt;'</span> . <span class="php-var">$title</span> . <span class="php-quote">'&lt;/th&gt;&lt;/tr&gt;'</span>;
-</span><span id="168" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$parameters</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$value</span>)
-</span><span id="169" class="l">            {
-</span><span id="170" class="l">                <span class="php-var">$dump</span> .= <span class="php-var">$this</span>-&gt;add_parameter(<span class="php-var">$key</span>, <span class="php-var">$value</span>);
-</span><span id="171" class="l">            }
-</span><span id="172" class="l">        }
-</span><span id="173" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$dump</span>;
-</span><span id="174" class="l">    }
-</span><span id="175" class="l">
-</span><span id="176" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_parameter(<span class="php-var">$key</span>, <span class="php-var">$value</span>)
-</span><span id="177" class="l">    {
-</span><span id="178" class="l">        <span class="php-var">$value_to_display</span> = <span class="php-quote">''</span>;
-</span><span id="179" class="l">        <span class="php-keyword1">if</span> (<span class="php-keyword2">is_array</span>(<span class="php-var">$value</span>))
-</span><span id="180" class="l">        {
-</span><span id="181" class="l">            <span class="php-var">$value_to_display</span> = <span class="php-quote">'&lt;ul&gt;'</span>;
-</span><span id="182" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$value</span> <span class="php-keyword1">as</span> <span class="php-var">$a_value</span>)
-</span><span id="183" class="l">            {
-</span><span id="184" class="l">                <span class="php-var">$value_to_display</span> .= <span class="php-quote">'&lt;li&gt;'</span> . TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$a_value</span>) . <span class="php-quote">'&lt;/li&gt;'</span>;
-</span><span id="185" class="l">            }
-</span><span id="186" class="l">            <span class="php-var">$value_to_display</span> .= <span class="php-quote">'&lt;/ul&gt;'</span>;
-</span><span id="187" class="l">        }
-</span><span id="188" class="l">        <span class="php-keyword1">else</span>
-</span><span id="189" class="l">        {
-</span><span id="190" class="l">            <span class="php-var">$value_to_display</span> = TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$value</span>);
-</span><span id="191" class="l">        }
-</span><span id="192" class="l">        <span class="php-var">$row_class</span> = <span class="php-var">$this</span>-&gt;is_row_odd ? <span class="php-quote">'oddRow'</span> : <span class="php-quote">'evenRow'</span>;
-</span><span id="193" class="l">        <span class="php-var">$this</span>-&gt;is_row_odd = !<span class="php-var">$this</span>-&gt;is_row_odd;
-</span><span id="194" class="l">        <span class="php-keyword1">return</span> <span class="php-quote">'&lt;tr class=&quot;'</span> . <span class="php-var">$row_class</span>. <span class="php-quote">'&quot;&gt;'</span> .
-</span><span id="195" class="l">            <span class="php-quote">'&lt;td class=&quot;parameterName&quot;&gt;'</span> . <span class="php-var">$key</span> . <span class="php-quote">'&lt;/td&gt;'</span> .
-</span><span id="196" class="l">            <span class="php-quote">'&lt;td class=&quot;parameterValue&quot;&gt;'</span> . <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">'&lt;br /&gt;'</span>, <span class="php-var">$value_to_display</span>) . <span class="php-quote">'&lt;/td&gt;'</span> .
-</span><span id="197" class="l">        <span class="php-quote">'&lt;/tr&gt;'</span> ;
-</span><span id="198" class="l">    }
-</span><span id="199" class="l">}
-</span><span id="200" class="l"><span class="xlang">?&gt;</span>
-</span><span id="201" class="l"></span></code></pre>
+</span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="7" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2017 04 20
+</span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2010 10 18
+</span></span><span id="10" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
+</span></span><span id="11" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
+</span></span><span id="12" class="l"><span class="php-comment">*/</span>
+</span><span id="13" class="l">
+</span><span id="14" class="l"><span class="php-keyword2">defined</span>(<span class="php-quote">'TPL_PATH_TO_ROOT'</span>) <span class="php-keyword1">or</span> <span class="php-keyword2">define</span>(<span class="php-quote">'TPL_PATH_TO_ROOT'</span>, PATH_TO_ROOT);
+</span><span id="15" class="l">
+</span><span id="16" class="l"><span class="php-keyword1">class</span> HTTPFatalExceptionPrinter
+</span><span id="17" class="l">{
+</span><span id="18" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$type</span>;
+</span><span id="19" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$message</span>;
+</span><span id="20" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$exception</span>;
+</span><span id="21" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$ob_content</span> = <span class="php-quote">''</span>;
+</span><span id="22" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$is_row_odd</span> = <span class="php-keyword1">true</span>;
+</span><span id="23" class="l">    <span class="php-keyword1">private</span> <span class="php-var">$output</span> = <span class="php-quote">''</span>;
+</span><span id="24" class="l">
+</span><span id="25" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct(<span class="php-var">$exception</span>)
+</span><span id="26" class="l">    {
+</span><span id="27" class="l">        <span class="php-var">$this</span>-&gt;exception = <span class="php-var">$exception</span>;
+</span><span id="28" class="l">        <span class="php-var">$this</span>-&gt;type = <span class="php-keyword2">get_class</span>(<span class="php-var">$this</span>-&gt;exception);
+</span><span id="29" class="l">        <span class="php-var">$this</span>-&gt;message = <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">&quot;&lt;br /&gt;&quot;</span>, <span class="php-var">$this</span>-&gt;exception-&gt;getMessage());
+</span><span id="30" class="l">        <span class="php-var">$this</span>-&gt;ob_content = AppContext::get_response()-&gt;get_previous_ob_content();
+</span><span id="31" class="l">    }
+</span><span id="32" class="l">
+</span><span id="33" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> render()
+</span><span id="34" class="l">    {
+</span><span id="35" class="l">        <span class="php-var">$this</span>-&gt;output .= <span class="php-quote">'&lt;!DOCTYPE html&gt;
+</span></span><span id="36" class="l"><span class="php-quote">&lt;html lang=&quot;en&quot;&gt;
+</span></span><span id="37" class="l"><span class="php-quote">    &lt;head&gt;
+</span></span><span id="38" class="l"><span class="php-quote">        &lt;title&gt;'</span> . <span class="php-var">$this</span>-&gt;type . <span class="php-quote">' caught&lt;/title&gt;
+</span></span><span id="39" class="l"><span class="php-quote">        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+</span></span><span id="40" class="l"><span class="php-quote">        &lt;style type=&quot;text/css&quot;&gt;
+</span></span><span id="41" class="l"><span class="php-quote">            body {background-color:#dddddd;}
+</span></span><span id="42" class="l"><span class="php-quote">            table {width:100%;}
+</span></span><span id="43" class="l"><span class="php-quote">            caption {text-align:left;font-size:26px;font-weight:bold;background-color:#536F8B;padding:5px;border-bottom:1px #aaaaaa solid;}
+</span></span><span id="44" class="l"><span class="php-quote">            th {font-size:18px;background-color:#7A99B1;height:30px;}
+</span></span><span id="45" class="l"><span class="php-quote">            tr.section {}
+</span></span><span id="46" class="l"><span class="php-quote">            tr.oddRow {background-color:#ECEEEF;}
+</span></span><span id="47" class="l"><span class="php-quote">            tr.evenRow {background-color:#D2E3F1;}
+</span></span><span id="48" class="l"><span class="php-quote">            td.parameterName {font-size:14px;font-weight:bold;padding:0 10px;}
+</span></span><span id="49" class="l"><span class="php-quote">            td.parameterValue {font-size:14px;}
+</span></span><span id="50" class="l"><span class="php-quote">            h1 {background-color:#536F8B;border:1px #aaaaaa solid;padding:10px;margin:0px;}
+</span></span><span id="51" class="l"><span class="php-quote">            div#exceptionContext .message {font-weight:bold;background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
+</span></span><span id="52" class="l"><span class="php-quote">            .outputBuffer {font-size:12px;background-color:#eeeeee;border-left:1px #aaaaaa solid;border-right:1px #aaaaaa solid;padding:10px;}
+</span></span><span id="53" class="l"><span class="php-quote">            table.stack td.prototype {font-weight:bold;padding-right:10px;}
+</span></span><span id="54" class="l"><span class="php-quote">            table.stack td.file {font-size:14px;font-style:italic;}
+</span></span><span id="55" class="l"><span class="php-quote">            table.stack td.line {text-align:right;font-size:12px;width:30px;}
+</span></span><span id="56" class="l"><span class="php-quote">            table.stack td.args {font-size:14px;padding-right:10px;}
+</span></span><span id="57" class="l"><span class="php-quote">            table.stack td.argsDetails {border-top:1px #aaaaaa solid;}
+</span></span><span id="58" class="l"><span class="php-quote">            div#exceptionContext {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
+</span></span><span id="59" class="l"><span class="php-quote">            div#whyISeeThisPage {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
+</span></span><span id="60" class="l"><span class="php-quote">            div#httpContext {background-color:#eeeeee;border:1px #aaaaaa solid;padding:10px;}
+</span></span><span id="61" class="l"><span class="php-quote">        &lt;/style&gt;
+</span></span><span id="62" class="l"><span class="php-quote">        &lt;script&gt;
+</span></span><span id="63" class="l"><span class="php-quote">        &lt;!--
+</span></span><span id="64" class="l"><span class="php-quote">        function toggleDisplay(link, eltId) {
+</span></span><span id="65" class="l"><span class="php-quote">            var elt = document.getElementById(eltId);
+</span></span><span id="66" class="l"><span class="php-quote">            var mode = elt.style.display;
+</span></span><span id="67" class="l"><span class="php-quote">            if (mode != \'none\') {
+</span></span><span id="68" class="l"><span class="php-quote">                elt.style.display = \'none\';
+</span></span><span id="69" class="l"><span class="php-quote">                link.innerHTML = \'+\';
+</span></span><span id="70" class="l"><span class="php-quote">            } else {
+</span></span><span id="71" class="l"><span class="php-quote">                elt.style.display = \'table-row\';
+</span></span><span id="72" class="l"><span class="php-quote">                link.innerHTML = \'-\';
+</span></span><span id="73" class="l"><span class="php-quote">            }
+</span></span><span id="74" class="l"><span class="php-quote">        }
+</span></span><span id="75" class="l"><span class="php-quote">        function getOutputBufferContent() {
+</span></span><span id="76" class="l"><span class="php-quote">            return \''</span> . <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">'\n\' + '</span> . <span class="php-quote">&quot;\n&quot;</span> . <span class="php-quote">'\''</span>, <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\r&quot;</span>, <span class="php-quote">''</span>, <span class="php-keyword2">addslashes</span>(TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$this</span>-&gt;ob_content)))) . <span class="php-quote">'\';
+</span></span><span id="77" class="l"><span class="php-quote">        }
+</span></span><span id="78" class="l"><span class="php-quote">        function openOutputBufferPopup(content) {
+</span></span><span id="79" class="l"><span class="php-quote">            var obWindow = window.open(\'\', \'Output Buffer\', \'\');
+</span></span><span id="80" class="l"><span class="php-quote">            obWindow.document.open();
+</span></span><span id="81" class="l"><span class="php-quote">            obWindow.document.write(content);
+</span></span><span id="82" class="l"><span class="php-quote">            obWindow.document.close();
+</span></span><span id="83" class="l"><span class="php-quote">        }
+</span></span><span id="84" class="l"><span class="php-quote">        function displayOutputBufferContent() {
+</span></span><span id="85" class="l"><span class="php-quote">            var content = getOutputBufferContent();
+</span></span><span id="86" class="l"><span class="php-quote">            content = \'&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;OUTPUT BUFFER RAW&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;pre&amp;gt;\'.replace(/&amp;lt;/g, \'&lt;\').replace(/&amp;gt;/g, \'&gt;\') +
+</span></span><span id="87" class="l"><span class="php-quote">                content + \'&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;\'.replace(/&amp;lt;/g, \'&lt;\').replace(/&amp;gt;/g, \'&gt;\');
+</span></span><span id="88" class="l"><span class="php-quote">            openOutputBufferPopup(content);
+</span></span><span id="89" class="l"><span class="php-quote">        }
+</span></span><span id="90" class="l"><span class="php-quote">        --&gt;
+</span></span><span id="91" class="l"><span class="php-quote">        &lt;/script&gt;
+</span></span><span id="92" class="l"><span class="php-quote">    &lt;/head&gt;
+</span></span><span id="93" class="l"><span class="php-quote">    &lt;body&gt;
+</span></span><span id="94" class="l"><span class="php-quote">        &lt;div id=&quot;exceptionContext&quot;&gt;
+</span></span><span id="95" class="l"><span class="php-quote">            &lt;h1&gt;'</span> . <span class="php-var">$this</span>-&gt;type . <span class="php-quote">'&lt;/h1&gt;
+</span></span><span id="96" class="l"><span class="php-quote">            &lt;div class=&quot;message&quot;&gt;'</span> . <span class="php-var">$this</span>-&gt;message. <span class="php-quote">'&lt;/div&gt;
+</span></span><span id="97" class="l"><span class="php-quote">            &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; class=&quot;stack&quot;&gt;
+</span></span><span id="98" class="l"><span class="php-quote">                &lt;caption&gt;STACKTRACE&lt;/caption&gt;
+</span></span><span id="99" class="l"><span class="php-quote">                &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;METHOD&lt;/th&gt;&lt;th&gt;FILE&lt;/th&gt;&lt;th&gt;LINE&lt;/th&gt;&lt;/tr&gt;'</span> . <span class="php-var">$this</span>-&gt;build_stack_trace() . <span class="php-quote">'
+</span></span><span id="100" class="l"><span class="php-quote">            &lt;/table&gt;
+</span></span><span id="101" class="l"><span class="php-quote">        &lt;/div&gt;
+</span></span><span id="102" class="l"><span class="php-quote">        &lt;div class=&quot;outputBuffer&quot;&gt;&lt;a href=&quot;javascript:displayOutputBufferContent()&quot;&gt;output buffer&lt;/a&gt;&lt;/div&gt;
+</span></span><span id="103" class="l"><span class="php-quote">        &lt;div id=&quot;whyISeeThisPage&quot;&gt;
+</span></span><span id="104" class="l"><span class="php-quote">            You see this page because your site is configured to use the &lt;em&gt;DEBUG&lt;/em&gt; mode.&lt;br /&gt;
+</span></span><span id="105" class="l"><span class="php-quote">            If you want to see the related user error page, you have to disable the &lt;em&gt;DEBUG&lt;/em&gt; mode
+</span></span><span id="106" class="l"><span class="php-quote">            from the &lt;a href=&quot;'</span> . TPL_PATH_TO_ROOT . <span class="php-quote">'/admin/config/?url=/advanced/&quot;&gt;administration panel&lt;/a&gt;.
+</span></span><span id="107" class="l"><span class="php-quote">        &lt;/div&gt;
+</span></span><span id="108" class="l"><span class="php-quote">        &lt;div id=&quot;httpContext&quot;&gt;
+</span></span><span id="109" class="l"><span class="php-quote">            &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;3 5px&quot;&gt;&lt;caption&gt;HTTP Request&lt;/caption&gt;
+</span></span><span id="110" class="l"><span class="php-quote">            '</span> . <span class="php-var">$this</span>-&gt;get_http_context() . <span class="php-quote">'
+</span></span><span id="111" class="l"><span class="php-quote">            &lt;/table&gt;
+</span></span><span id="112" class="l"><span class="php-quote">        &lt;/div&gt;
+</span></span><span id="113" class="l"><span class="php-quote">    &lt;/body&gt;
+</span></span><span id="114" class="l"><span class="php-quote">&lt;/html&gt;'</span>;
+</span><span id="115" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$this</span>-&gt;output;
+</span><span id="116" class="l">    }
+</span><span id="117" class="l">
+</span><span id="118" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> build_stack_trace()
+</span><span id="119" class="l">    {
+</span><span id="120" class="l">        <span class="php-var">$i</span> = <span class="php-num">0</span>;
+</span><span id="121" class="l">        <span class="php-var">$this</span>-&gt;is_row_odd = <span class="php-keyword1">true</span>;
+</span><span id="122" class="l">        <span class="php-var">$stack</span> = <span class="php-quote">''</span>;
+</span><span id="123" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;exception-&gt;getTrace() <span class="php-keyword1">as</span> <span class="php-var">$call</span>)
+</span><span id="124" class="l">        {
+</span><span id="125" class="l">            <span class="php-var">$row_class</span> = <span class="php-var">$this</span>-&gt;is_row_odd ? <span class="php-quote">'oddRow'</span> : <span class="php-quote">'evenRow'</span>;
+</span><span id="126" class="l">            <span class="php-var">$has_args</span> = ExceptionUtils::has_args(<span class="php-var">$call</span>);
+</span><span id="127" class="l">            <span class="php-var">$id</span> = <span class="php-quote">'call'</span> . <span class="php-var">$i</span> . <span class="php-quote">'Arguments'</span>;
+</span><span id="128" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;tr class=&quot;'</span> . <span class="php-var">$row_class</span> . <span class="php-quote">'&quot;&gt;'</span>;
+</span><span id="129" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;args&quot;&gt;'</span>;
+</span><span id="130" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$has_args</span>)
+</span><span id="131" class="l">            {
+</span><span id="132" class="l">                <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;a href=&quot;javascript:toggleDisplay(this, \''</span> . <span class="php-var">$id</span> . <span class="php-quote">'\');&quot;&gt;+&lt;/a&gt;'</span>;
+</span><span id="133" class="l">            }
+</span><span id="134" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;/td&gt;'</span>;
+</span><span id="135" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;prototype&quot;&gt;'</span> . ExceptionUtils::get_method_prototype(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
+</span><span id="136" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;file&quot;&gt;'</span> . ExceptionUtils::get_file(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
+</span><span id="137" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;td class=&quot;line&quot;&gt;'</span> . ExceptionUtils::get_line(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;'</span>;
+</span><span id="138" class="l">            <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;/tr&gt;'</span>;
+</span><span id="139" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$has_args</span>)
+</span><span id="140" class="l">            {
+</span><span id="141" class="l">                <span class="php-var">$stack</span> .= <span class="php-quote">'&lt;tr id=&quot;'</span> . <span class="php-var">$id</span> . <span class="php-quote">'&quot; style=&quot;display: none;&quot; class=&quot;'</span> . <span class="php-var">$row_class</span> . <span class="php-quote">'&quot;&gt;
+</span></span><span id="142" class="l"><span class="php-quote">                &lt;td colspan=&quot;4&quot; class=&quot;argsDetails&quot;&gt;'</span> . ExceptionUtils::get_args(<span class="php-var">$call</span>) . <span class="php-quote">'&lt;/td&gt;&lt;/tr&gt;'</span>;
+</span><span id="143" class="l">            }
+</span><span id="144" class="l">            <span class="php-var">$i</span>++;
+</span><span id="145" class="l">            <span class="php-var">$this</span>-&gt;is_row_odd = !<span class="php-var">$this</span>-&gt;is_row_odd;
+</span><span id="146" class="l">        }
+</span><span id="147" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$stack</span>;
+</span><span id="148" class="l">    }
+</span><span id="149" class="l">
+</span><span id="150" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> get_http_context()
+</span><span id="151" class="l">    {
+</span><span id="152" class="l">        <span class="php-var">$http_context</span> = <span class="php-quote">''</span>;
+</span><span id="153" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'GET'</span>, <span class="php-var">$_GET</span>);
+</span><span id="154" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'POST'</span>, <span class="php-var">$_POST</span>);
+</span><span id="155" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'COOKIE'</span>, <span class="php-var">$_COOKIE</span>);
+</span><span id="156" class="l">        <span class="php-var">$http_context</span> .= <span class="php-var">$this</span>-&gt;dump_var(<span class="php-quote">'SERVER'</span>, <span class="php-var">$_SERVER</span>);
+</span><span id="157" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$http_context</span>;
+</span><span id="158" class="l">    }
+</span><span id="159" class="l">
+</span><span id="160" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> dump_var(<span class="php-var">$title</span>, <span class="php-var">$parameters</span>)
+</span><span id="161" class="l">    {
+</span><span id="162" class="l">        <span class="php-var">$dump</span> =  <span class="php-quote">''</span>;
+</span><span id="163" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">empty</span>(<span class="php-var">$parameters</span>))
+</span><span id="164" class="l">        {
+</span><span id="165" class="l">            <span class="php-var">$this</span>-&gt;is_row_odd = <span class="php-keyword1">true</span>;
+</span><span id="166" class="l">            <span class="php-var">$dump</span> .= <span class="php-quote">'&lt;tr class=&quot;section&quot;&gt;&lt;th colspan=&quot;2&quot; style=&quot;text-align:left;padding:0 10px;&quot;&gt;'</span> . <span class="php-var">$title</span> . <span class="php-quote">'&lt;/th&gt;&lt;/tr&gt;'</span>;
+</span><span id="167" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$parameters</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$value</span>)
+</span><span id="168" class="l">            {
+</span><span id="169" class="l">                <span class="php-var">$dump</span> .= <span class="php-var">$this</span>-&gt;add_parameter(<span class="php-var">$key</span>, <span class="php-var">$value</span>);
+</span><span id="170" class="l">            }
+</span><span id="171" class="l">        }
+</span><span id="172" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$dump</span>;
+</span><span id="173" class="l">    }
+</span><span id="174" class="l">
+</span><span id="175" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> add_parameter(<span class="php-var">$key</span>, <span class="php-var">$value</span>)
+</span><span id="176" class="l">    {
+</span><span id="177" class="l">        <span class="php-var">$value_to_display</span> = <span class="php-quote">''</span>;
+</span><span id="178" class="l">        <span class="php-keyword1">if</span> (<span class="php-keyword2">is_array</span>(<span class="php-var">$value</span>))
+</span><span id="179" class="l">        {
+</span><span id="180" class="l">            <span class="php-var">$value_to_display</span> = <span class="php-quote">'&lt;ul&gt;'</span>;
+</span><span id="181" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$value</span> <span class="php-keyword1">as</span> <span class="php-var">$a_value</span>)
+</span><span id="182" class="l">            {
+</span><span id="183" class="l">                <span class="php-var">$value_to_display</span> .= <span class="php-quote">'&lt;li&gt;'</span> . TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$a_value</span>) . <span class="php-quote">'&lt;/li&gt;'</span>;
+</span><span id="184" class="l">            }
+</span><span id="185" class="l">            <span class="php-var">$value_to_display</span> .= <span class="php-quote">'&lt;/ul&gt;'</span>;
+</span><span id="186" class="l">        }
+</span><span id="187" class="l">        <span class="php-keyword1">else</span>
+</span><span id="188" class="l">        {
+</span><span id="189" class="l">            <span class="php-var">$value_to_display</span> = TextHelper::<span class="php-keyword2">htmlspecialchars</span>(<span class="php-var">$value</span>);
+</span><span id="190" class="l">        }
+</span><span id="191" class="l">        <span class="php-var">$row_class</span> = <span class="php-var">$this</span>-&gt;is_row_odd ? <span class="php-quote">'oddRow'</span> : <span class="php-quote">'evenRow'</span>;
+</span><span id="192" class="l">        <span class="php-var">$this</span>-&gt;is_row_odd = !<span class="php-var">$this</span>-&gt;is_row_odd;
+</span><span id="193" class="l">        <span class="php-keyword1">return</span> <span class="php-quote">'&lt;tr class=&quot;'</span> . <span class="php-var">$row_class</span>. <span class="php-quote">'&quot;&gt;'</span> .
+</span><span id="194" class="l">            <span class="php-quote">'&lt;td class=&quot;parameterName&quot;&gt;'</span> . <span class="php-var">$key</span> . <span class="php-quote">'&lt;/td&gt;'</span> .
+</span><span id="195" class="l">            <span class="php-quote">'&lt;td class=&quot;parameterValue&quot;&gt;'</span> . <span class="php-keyword2">str_replace</span>(<span class="php-quote">&quot;\n&quot;</span>, <span class="php-quote">'&lt;br /&gt;'</span>, <span class="php-var">$value_to_display</span>) . <span class="php-quote">'&lt;/td&gt;'</span> .
+</span><span id="196" class="l">        <span class="php-quote">'&lt;/tr&gt;'</span> ;
+</span><span id="197" class="l">    }
+</span><span id="198" class="l">}
+</span><span id="199" class="l"><span class="xlang">?&gt;</span>
+</span><span id="200" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

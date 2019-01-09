@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -706,7 +702,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-RootCategory.php#3-40" title="Go to source code">content/category/RootCategory.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-RootCategory.php#3-39" title="Go to source code">content/category/RootCategory.class.php</a></span>
 			</div>
 
 
@@ -732,7 +728,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-RootCategory.php#16-23" title="Go to source code">__construct</a>( )
+<a href="source-class-RootCategory.php#15-22" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_get_authorizations_settings">#</a>
 						<code>
-<a href="source-class-RootCategory.php#25-39" title="Go to source code">get_authorizations_settings</a>( )
+<a href="source-class-RootCategory.php#24-38" title="Go to source code">get_authorizations_settings</a>( )
 						</code>
 
 							<div class="description short">

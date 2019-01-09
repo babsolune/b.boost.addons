@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Kevin MASSY <a href="&#109;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x72;&#x65;&#105;&#x64;&#x6c;&#111;&#x73;&#x40;&#112;&#x68;&#x70;&#98;&#x6f;&#x6f;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormBuilderDisabledFieldException.php#3-28" title="Go to source code">builder/form/FormBuilderDisabledFieldException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormBuilderDisabledFieldException.php#3-27" title="Go to source code">builder/form/FormBuilderDisabledFieldException.class.php</a></span>
 			</div>
 
 
@@ -748,7 +744,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -770,7 +766,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormBuilderDisabledFieldException.php#18-22" title="Go to source code">__construct</a>( <span> <var>$field</var></span>, <span> <var>$value</var></span> )
+<a href="source-class-FormBuilderDisabledFieldException.php#17-21" title="Go to source code">__construct</a>( <span> <var>$field</var></span>, <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -807,7 +803,7 @@ Exception
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-FormBuilderDisabledFieldException.php#24-27" title="Go to source code">get_value</a>( )
+<a href="source-class-FormBuilderDisabledFieldException.php#23-26" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">

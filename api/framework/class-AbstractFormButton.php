@@ -680,10 +680,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.button.php">button</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -707,7 +703,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormButton.php#3-107" title="Go to source code">builder/form/button/AbstractFormButton.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractFormButton.php#3-106" title="Go to source code">builder/form/button/AbstractFormButton.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#24-33" title="Go to source code">__construct</a>( <span> <var>$type</var></span>, <span> <var>$label</var></span>, <span> <var>$name</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-AbstractFormButton.php#23-32" title="Go to source code">__construct</a>( <span> <var>$type</var></span>, <span> <var>$label</var></span>, <span> <var>$name</var></span>, <span> <var>$onclick_action</var> = <span class="php-quote">''</span></span>, <span> <var>$css_class</var> = <span class="php-quote">''</span></span>, <span> <var>$data_confirmation</var> = <span class="php-quote">''</span></span>, <span> <var>$form_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#35-51" title="Go to source code">display</a>( )
+<a href="source-class-AbstractFormButton.php#34-50" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -842,7 +838,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#53-56" title="Go to source code">get_name</a>( )
+<a href="source-class-AbstractFormButton.php#52-55" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -877,7 +873,7 @@
 					<div>
 						<a class="anchor" href="#_get_html_name">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#58-61" title="Go to source code">get_html_name</a>( )
+<a href="source-class-AbstractFormButton.php#57-60" title="Go to source code">get_html_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -912,7 +908,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#63-66" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-AbstractFormButton.php#62-65" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -947,7 +943,7 @@
 					<div>
 						<a class="anchor" href="#_get_label">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#68-71" title="Go to source code">get_label</a>( )
+<a href="source-class-AbstractFormButton.php#67-70" title="Go to source code">get_label</a>( )
 						</code>
 
 							<div class="description short">
@@ -982,7 +978,7 @@
 					<div>
 						<a class="anchor" href="#_set_label">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#73-76" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
+<a href="source-class-AbstractFormButton.php#72-75" title="Go to source code">set_label</a>( <span> <var>$label</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1017,7 +1013,7 @@
 					<div>
 						<a class="anchor" href="#_get_template">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#78-81" title="Go to source code">get_template</a>( )
+<a href="source-class-AbstractFormButton.php#77-80" title="Go to source code">get_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1052,7 +1048,7 @@
 					<div>
 						<a class="anchor" href="#_set_css_class">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#83-86" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
+<a href="source-class-AbstractFormButton.php#82-85" title="Go to source code">set_css_class</a>( <span> <var>$css_class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1087,7 +1083,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_class">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#88-91" title="Go to source code">get_css_class</a>( )
+<a href="source-class-AbstractFormButton.php#87-90" title="Go to source code">get_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -1122,7 +1118,7 @@
 					<div>
 						<a class="anchor" href="#_set_data_confirmation">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#93-96" title="Go to source code">set_data_confirmation</a>( <span> <var>$data_confirmation</var></span> )
+<a href="source-class-AbstractFormButton.php#92-95" title="Go to source code">set_data_confirmation</a>( <span> <var>$data_confirmation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1157,7 +1153,7 @@
 					<div>
 						<a class="anchor" href="#_get_data_confirmation">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#98-101" title="Go to source code">get_data_confirmation</a>( )
+<a href="source-class-AbstractFormButton.php#97-100" title="Go to source code">get_data_confirmation</a>( )
 						</code>
 
 							<div class="description short">
@@ -1192,7 +1188,7 @@
 					<div>
 						<a class="anchor" href="#_set_form_id">#</a>
 						<code>
-<a href="source-class-AbstractFormButton.php#103-106" title="Go to source code">set_form_id</a>( <span> <var>$form_id</var></span> )
+<a href="source-class-AbstractFormButton.php#102-105" title="Go to source code">set_form_id</a>( <span> <var>$form_id</var></span> )
 						</code>
 
 							<div class="description short">

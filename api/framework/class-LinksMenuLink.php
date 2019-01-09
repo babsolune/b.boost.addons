@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Menu.php">Menu</a>\<a href="package-PHPBoost.Menu.links.php">links</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -695,7 +691,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenuLink.php#3-54" title="Go to source code">phpboost/menu/links/LinksMenuLink.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-LinksMenuLink.php#3-53" title="Go to source code">phpboost/menu/links/LinksMenuLink.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -731,7 +727,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -753,7 +749,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-LinksMenuLink.php#21-31" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>string <var>$url</var></span>, <span>string <var>$image</var> = <span class="php-quote">''</span></span>, <span>integer <var>$id</var>,…</span> )
+<a href="source-class-LinksMenuLink.php#20-30" title="Go to source code">__construct</a>( <span>string <var>$title</var></span>, <span>string <var>$url</var></span>, <span>string <var>$image</var> = <span class="php-quote">''</span></span>, <span>integer <var>$id</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-LinksMenuLink.php#33-53" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var> = <span class="php-keyword1">false</span></span>, <span> <var>$mode</var> = LinksMenuElement::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
+<a href="source-class-LinksMenuLink.php#32-52" title="Go to source code">display</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var> = <span class="php-keyword1">false</span></span>, <span> <var>$mode</var> = LinksMenuElement::LINKS_MENU_ELEMENT__CLASSIC_DISPLAYING</span> )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-LinksMenuLink.php#19" title="Go to source code"><b>LINKS_MENU_LINK__CLASS</b></a>
+								<a href="source-class-LinksMenuLink.php#18" title="Go to source code"><b>LINKS_MENU_LINK__CLASS</b></a>
 							</code>
 
 							<div class="description short">

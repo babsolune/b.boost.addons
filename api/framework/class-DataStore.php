@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.store.php">store</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 12 09
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DataStore.php#3-52" title="Go to source code">io/data/store/DataStore.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DataStore.php#3-51" title="Go to source code">io/data/store/DataStore.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@ identifier must be a string with only letters and digits.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@ identifier must be a string with only letters and digits.</p>
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-DataStore.php#20-26" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
+<a href="source-class-DataStore.php#19-25" title="Go to source code">get</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -805,7 +801,7 @@ identifier must be a string with only letters and digits.</p>
 					<div>
 						<a class="anchor" href="#_contains">#</a>
 						<code>
-<a href="source-class-DataStore.php#28-33" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
+<a href="source-class-DataStore.php#27-32" title="Go to source code">contains</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@ identifier must be a string with only letters and digits.</p>
 					<div>
 						<a class="anchor" href="#_store">#</a>
 						<code>
-<a href="source-class-DataStore.php#35-40" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$object</var></span> )
+<a href="source-class-DataStore.php#34-39" title="Go to source code">store</a>( <span>string <var>$id</var></span>, <span>mixed <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@ identifier must be a string with only letters and digits.</p>
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-DataStore.php#42-46" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
+<a href="source-class-DataStore.php#41-45" title="Go to source code">delete</a>( <span>string <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -931,7 +927,7 @@ identifier must be a string with only letters and digits.</p>
 					<div>
 						<a class="anchor" href="#_clear">#</a>
 						<code>
-<a href="source-class-DataStore.php#48-51" title="Go to source code">clear</a>( )
+<a href="source-class-DataStore.php#47-50" title="Go to source code">clear</a>( )
 						</code>
 
 							<div class="description short">

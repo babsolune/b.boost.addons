@@ -665,10 +665,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Comments.php">Comments</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -696,7 +692,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsService.php#3-315" title="Go to source code">content/comments/CommentsService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CommentsService.php#3-314" title="Go to source code">content/comments/CommentsService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -711,7 +707,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -733,7 +729,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-CommentsService.php#25-34" title="Go to source code">__static</a>( )
+<a href="source-class-CommentsService.php#24-33" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -768,7 +764,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-CommentsService.php#36-143" title="Go to source code">display</a>( <span><code><a href="class-CommentsTopic.php">CommentsTopic</a></code> <var>$topic</var></span> )
+<a href="source-class-CommentsService.php#35-142" title="Go to source code">display</a>( <span><code><a href="class-CommentsTopic.php">CommentsTopic</a></code> <var>$topic</var></span> )
 						</code>
 
 							<div class="description short">
@@ -812,7 +808,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_and_lang_comments">#</a>
 						<code>
-<a href="source-class-CommentsService.php#145-158" title="Go to source code">get_number_and_lang_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsService.php#144-157" title="Go to source code">get_number_and_lang_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -860,7 +856,7 @@
 					<div>
 						<a class="anchor" href="#_get_lang_comments">#</a>
 						<code>
-<a href="source-class-CommentsService.php#160-173" title="Go to source code">get_lang_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsService.php#159-172" title="Go to source code">get_lang_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -908,7 +904,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_module">#</a>
 						<code>
-<a href="source-class-CommentsService.php#175-185" title="Go to source code">delete_comments_module</a>( <span>string <var>$module_id</var></span> )
+<a href="source-class-CommentsService.php#174-184" title="Go to source code">delete_comments_module</a>( <span>string <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -948,7 +944,7 @@
 					<div>
 						<a class="anchor" href="#_delete_comments_topic_module">#</a>
 						<code>
-<a href="source-class-CommentsService.php#187-198" title="Go to source code">delete_comments_topic_module</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span> )
+<a href="source-class-CommentsService.php#186-197" title="Go to source code">delete_comments_topic_module</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -990,7 +986,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_comments">#</a>
 						<code>
-<a href="source-class-CommentsService.php#200-210" title="Go to source code">get_number_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
+<a href="source-class-CommentsService.php#199-209" title="Go to source code">get_number_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var> = CommentsTopic::DEFAULT_TOPIC_IDENTIFIER</span> )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_display_comments">#</a>
 						<code>
-<a href="source-class-CommentsService.php#212-288" title="Go to source code">display_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var></span>, <span> <var>$number_comments_display</var></span>, <span> <var>$authorizations</var></span>, <span> <var>$display_from_number_comments</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-CommentsService.php#211-287" title="Go to source code">display_comments</a>( <span>string <var>$module_id</var></span>, <span>integer <var>$id_in_module</var></span>, <span>string <var>$topic_identifier</var></span>, <span> <var>$number_comments_display</var></span>, <span> <var>$authorizations</var></span>, <span> <var>$display_from_number_comments</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">

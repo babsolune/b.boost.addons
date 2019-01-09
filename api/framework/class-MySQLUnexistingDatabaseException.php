@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.mysql.php">mysql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLUnexistingDatabaseException.php#3-19" title="Go to source code">io/db/driver/mysql/MySQLUnexistingDatabaseException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLUnexistingDatabaseException.php#3-18" title="Go to source code">io/db/driver/mysql/MySQLUnexistingDatabaseException.class.php</a></span>
 			</div>
 
 
@@ -740,7 +736,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -762,7 +758,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MySQLUnexistingDatabaseException.php#15-18" title="Go to source code">__construct</a>( )
+<a href="source-class-MySQLUnexistingDatabaseException.php#14-17" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">

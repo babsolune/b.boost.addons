@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a>\<a href="package-IO.Template.parser.syntax.php">syntax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -718,7 +714,7 @@
 							<b>Contributor:</b>
 							Loic ROUCHON <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;:&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplateSyntaxElement.php#3-40" title="Go to source code">io/template/parser/syntax/AbstractTemplateSyntaxElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractTemplateSyntaxElement.php#3-39" title="Go to source code">io/template/parser/syntax/AbstractTemplateSyntaxElement.class.php</a></span>
 			</div>
 
 
@@ -760,7 +756,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -782,7 +778,7 @@
 					<div>
 						<a class="anchor" href="#_register">#</a>
 						<code>
-<a href="source-class-AbstractTemplateSyntaxElement.php#29-34" title="Go to source code">register</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
+<a href="source-class-AbstractTemplateSyntaxElement.php#28-33" title="Go to source code">register</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_parse_elt">#</a>
 						<code>
-<a href="source-class-AbstractTemplateSyntaxElement.php#36-39" title="Go to source code">parse_elt</a>( <span><code><a href="class-TemplateSyntaxElement.php">TemplateSyntaxElement</a></code> <var>$element</var></span> )
+<a href="source-class-AbstractTemplateSyntaxElement.php#35-38" title="Go to source code">parse_elt</a>( <span><code><a href="class-TemplateSyntaxElement.php">TemplateSyntaxElement</a></code> <var>$element</var></span> )
 						</code>
 
 							<div class="description short">
@@ -895,7 +891,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplateSyntaxElement.php#16-19" title="Go to source code"><var>$context</var></a>
+						<a href="source-class-AbstractTemplateSyntaxElement.php#15-18" title="Go to source code"><var>$context</var></a>
 
 					<div class="description short">
 						
@@ -922,7 +918,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplateSyntaxElement.php#20-23" title="Go to source code"><var>$input</var></a>
+						<a href="source-class-AbstractTemplateSyntaxElement.php#19-22" title="Go to source code"><var>$input</var></a>
 
 					<div class="description short">
 						
@@ -949,7 +945,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractTemplateSyntaxElement.php#24-27" title="Go to source code"><var>$output</var></a>
+						<a href="source-class-AbstractTemplateSyntaxElement.php#23-26" title="Go to source code"><var>$output</var></a>
 
 					<div class="description short">
 						

@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -741,7 +737,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMailEditor.php#3-111" title="Go to source code">builder/form/field/FormFieldMailEditor.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldMailEditor.php#3-110" title="Go to source code">builder/form/field/FormFieldMailEditor.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -779,7 +775,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldMailEditor.php#23-44" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldMailEditor.php#22-43" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>string <var>$value</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -851,7 +847,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldMailEditor.php#46-76" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldMailEditor.php#45-75" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -892,7 +888,7 @@
 					<div>
 						<a class="anchor" href="#_compute_options">#</a>
 						<code>
-<a href="source-class-FormFieldMailEditor.php#78-92" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
+<a href="source-class-FormFieldMailEditor.php#77-91" title="Go to source code">compute_options</a>( <span>array <var>&amp; $field_options</var></span> )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_is_multiple">#</a>
 						<code>
-<a href="source-class-FormFieldMailEditor.php#94-101" title="Go to source code">is_multiple</a>( )
+<a href="source-class-FormFieldMailEditor.php#93-100" title="Go to source code">is_multiple</a>( )
 						</code>
 
 							<div class="description short">
@@ -968,7 +964,7 @@
 					<div>
 						<a class="anchor" href="#_set_multiple">#</a>
 						<code>
-<a href="source-class-FormFieldMailEditor.php#103-110" title="Go to source code">set_multiple</a>( <span>boolean <var>$multiple</var></span> )
+<a href="source-class-FormFieldMailEditor.php#102-109" title="Go to source code">set_multiple</a>( <span>boolean <var>$multiple</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1094,7 +1090,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-FormFieldMailEditor.php#17" title="Go to source code"><var>$type</var></a>
+						<a href="source-class-FormFieldMailEditor.php#16" title="Go to source code"><var>$type</var></a>
 
 					<div class="description short">
 						

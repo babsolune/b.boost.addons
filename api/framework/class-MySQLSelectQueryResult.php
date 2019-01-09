@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.mysql.php">mysql</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -699,7 +695,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 10 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLSelectQueryResult.php#3-118" title="Go to source code">io/db/driver/mysql/MySQLSelectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MySQLSelectQueryResult.php#3-117" title="Go to source code">io/db/driver/mysql/MySQLSelectQueryResult.class.php</a></span>
 			</div>
 
 
@@ -736,7 +732,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -758,7 +754,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#40-45" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span> <var>$resource</var></span>, <span> <var>$fetch_mode</var> = self::FETCH_ASSOC</span> )
+<a href="source-class-MySQLSelectQueryResult.php#39-44" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span> <var>$resource</var></span>, <span> <var>$fetch_mode</var> = self::FETCH_ASSOC</span> )
 						</code>
 
 							<div class="description short">
@@ -795,7 +791,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#47-50" title="Go to source code">__destruct</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#46-49" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -830,7 +826,7 @@
 					<div>
 						<a class="anchor" href="#_set_fetch_mode">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#52-55" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
+<a href="source-class-MySQLSelectQueryResult.php#51-54" title="Go to source code">set_fetch_mode</a>( <span> <var>$fetch_mode</var></span> )
 						</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 					<div>
 						<a class="anchor" href="#_get_rows_count">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#57-60" title="Go to source code">get_rows_count</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#56-59" title="Go to source code">get_rows_count</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_rewind">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#62-70" title="Go to source code">rewind</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#61-69" title="Go to source code">rewind</a>( )
 						</code>
 
 							<div class="description short">
@@ -939,7 +935,7 @@
 					<div>
 						<a class="anchor" href="#_valid">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#72-75" title="Go to source code">valid</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#71-74" title="Go to source code">valid</a>( )
 						</code>
 
 							<div class="description short">
@@ -974,7 +970,7 @@
 					<div>
 						<a class="anchor" href="#_current">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#77-80" title="Go to source code">current</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#76-79" title="Go to source code">current</a>( )
 						</code>
 
 							<div class="description short">
@@ -1009,7 +1005,7 @@
 					<div>
 						<a class="anchor" href="#_key">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#82-85" title="Go to source code">key</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#81-84" title="Go to source code">key</a>( )
 						</code>
 
 							<div class="description short">
@@ -1044,7 +1040,7 @@
 					<div>
 						<a class="anchor" href="#_next">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#87-100" title="Go to source code">next</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#86-99" title="Go to source code">next</a>( )
 						</code>
 
 							<div class="description short">
@@ -1079,7 +1075,7 @@
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#102-112" title="Go to source code">dispose</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#101-111" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">
@@ -1114,7 +1110,7 @@
 					<div>
 						<a class="anchor" href="#_needs_rewind">#</a>
 						<code>
-<a href="source-class-MySQLSelectQueryResult.php#114-117" title="Go to source code">needs_rewind</a>( )
+<a href="source-class-MySQLSelectQueryResult.php#113-116" title="Go to source code">needs_rewind</a>( )
 						</code>
 
 							<div class="description short">

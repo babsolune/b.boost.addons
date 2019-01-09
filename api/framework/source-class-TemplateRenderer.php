@@ -1258,6 +1258,7 @@
 					<li><a href="function-load_ini_file.php" class="cssmenu-title deprecated">load_ini_file</a></li>
 					<li><a href="function-load_module_lang.php" class="cssmenu-title deprecated">load_module_lang</a></li>
 					<li><a href="function-retrieve.php" class="cssmenu-title deprecated">retrieve</a></li>
+					<li><a href="function-string_var_export.php" class="cssmenu-title">string_var_export</a></li>
 					<li><a href="function-url.php" class="cssmenu-title deprecated">url</a></li>
 				</ul>
 						</nav>
@@ -1293,7 +1294,7 @@
 		<header><h2>File io/template/renderer/TemplateRenderer.class.php</h2></header>
 		<div class="content">
 			<div class="code-capsule">
-	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span></span><span class="l"><a href="#12">12: </a></span></span><span class="l"><a href="#13">13: </a></span></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span><span class="l"><a href="#18">18: </a></span></span><span class="l"><a href="#19">19: </a></span></span><span class="l"><a href="#20">20: </a></span></span><span class="l"><a href="#21">21: </a></span></span><span class="l"><a href="#22">22: </a></span></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span><span class="l"><a href="#26">26: </a></span></span><span class="l"><a href="#27">27: </a></span></span><span class="l"><a href="#28">28: </a></span></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span><span class="l"><a href="#33">33: </a></span></code></pre>
+	            <pre class="numbers"><code><span class="l"><a href="#1"> 1: </a></span><span class="l"><a href="#2"> 2: </a></span></span><span class="l"><a href="#3"> 3: </a></span></span><span class="l"><a href="#4"> 4: </a></span></span><span class="l"><a href="#5"> 5: </a></span></span><span class="l"><a href="#6"> 6: </a></span></span><span class="l"><a href="#7"> 7: </a></span></span><span class="l"><a href="#8"> 8: </a></span></span><span class="l"><a href="#9"> 9: </a></span></span><span class="l"><a href="#10">10: </a></span></span><span class="l"><a href="#11">11: </a></span></span><span class="l"><a href="#12">12: </a></span></span><span class="l"><a href="#13">13: </a></span><span class="l"><a href="#14">14: </a></span><span class="l"><a href="#15">15: </a></span><span class="l"><a href="#16">16: </a></span><span class="l"><a href="#17">17: </a></span></span><span class="l"><a href="#18">18: </a></span></span><span class="l"><a href="#19">19: </a></span></span><span class="l"><a href="#20">20: </a></span></span><span class="l"><a href="#21">21: </a></span></span><span class="l"><a href="#22">22: </a></span><span class="l"><a href="#23">23: </a></span><span class="l"><a href="#24">24: </a></span><span class="l"><a href="#25">25: </a></span></span><span class="l"><a href="#26">26: </a></span></span><span class="l"><a href="#27">27: </a></span></span><span class="l"><a href="#28">28: </a></span><span class="l"><a href="#29">29: </a></span><span class="l"><a href="#30">30: </a></span><span class="l"><a href="#31">31: </a></span><span class="l"><a href="#32">32: </a></span></code></pre>
 	            <pre class="code"><code><span id="1" class="l"><span class="xlang">&lt;?php</span>
 </span><span id="2" class="l"><span class="php-comment">/**
 </span></span><span id="3" class="l"><span class="php-comment"> * Represents a template renderer as its names shows. Its able to get the result of the template
@@ -1301,32 +1302,31 @@
 </span></span><span id="5" class="l"><span class="php-comment"> * contains the data to assign in the template.
 </span></span><span id="6" class="l"><span class="php-comment"> * @package     IO
 </span></span><span id="7" class="l"><span class="php-comment"> * @subpackage  Template\renderer
-</span></span><span id="8" class="l"><span class="php-comment"> * @category    Framework
-</span></span><span id="9" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
-</span></span><span id="10" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
-</span></span><span id="11" class="l"><span class="php-comment"> * @author      Benoit SAUTEL &lt;ben.popeye@phpboost.com&gt;
-</span></span><span id="12" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2014 12 22
-</span></span><span id="13" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2010 02 06
-</span></span><span id="14" class="l"><span class="php-comment">*/</span>
-</span><span id="15" class="l">
-</span><span id="16" class="l"><span class="php-keyword1">interface</span> TemplateRenderer
-</span><span id="17" class="l">{
-</span><span id="18" class="l">    <span class="php-comment">/**
-</span></span><span id="19" class="l"><span class="php-comment">     * Returns the result of the interpretation of a template
-</span></span><span id="20" class="l"><span class="php-comment">     * @param TemplateData $data The data
-</span></span><span id="21" class="l"><span class="php-comment">     * @param TemplateLoader $loader The loader to use
-</span></span><span id="22" class="l"><span class="php-comment">     * @return string The parsed template
-</span></span><span id="23" class="l"><span class="php-comment">     */</span>
-</span><span id="24" class="l">    <span class="php-keyword1">function</span> render(TemplateData <span class="php-var">$data</span>, TemplateLoader <span class="php-var">$loader</span>);
-</span><span id="25" class="l">
-</span><span id="26" class="l">    <span class="php-comment">/**
-</span></span><span id="27" class="l"><span class="php-comment">     * Adds a lang map to the template map list in which template variables beginning by L_ will be searched for of not already registered
-</span></span><span id="28" class="l"><span class="php-comment">     * @param string[string] $lang the language map
-</span></span><span id="29" class="l"><span class="php-comment">     */</span>
-</span><span id="30" class="l">    <span class="php-keyword1">function</span> add_lang(<span class="php-keyword1">array</span> <span class="php-var">$lang</span>);
-</span><span id="31" class="l">}
-</span><span id="32" class="l"><span class="xlang">?&gt;</span>
-</span><span id="33" class="l"></span></code></pre>
+</span></span><span id="8" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
+</span></span><span id="9" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+</span></span><span id="10" class="l"><span class="php-comment"> * @author      Benoit SAUTEL &lt;ben.popeye@phpboost.com&gt;
+</span></span><span id="11" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2014 12 22
+</span></span><span id="12" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2010 02 06
+</span></span><span id="13" class="l"><span class="php-comment">*/</span>
+</span><span id="14" class="l">
+</span><span id="15" class="l"><span class="php-keyword1">interface</span> TemplateRenderer
+</span><span id="16" class="l">{
+</span><span id="17" class="l">    <span class="php-comment">/**
+</span></span><span id="18" class="l"><span class="php-comment">     * Returns the result of the interpretation of a template
+</span></span><span id="19" class="l"><span class="php-comment">     * @param TemplateData $data The data
+</span></span><span id="20" class="l"><span class="php-comment">     * @param TemplateLoader $loader The loader to use
+</span></span><span id="21" class="l"><span class="php-comment">     * @return string The parsed template
+</span></span><span id="22" class="l"><span class="php-comment">     */</span>
+</span><span id="23" class="l">    <span class="php-keyword1">function</span> render(TemplateData <span class="php-var">$data</span>, TemplateLoader <span class="php-var">$loader</span>);
+</span><span id="24" class="l">
+</span><span id="25" class="l">    <span class="php-comment">/**
+</span></span><span id="26" class="l"><span class="php-comment">     * Adds a lang map to the template map list in which template variables beginning by L_ will be searched for of not already registered
+</span></span><span id="27" class="l"><span class="php-comment">     * @param string[string] $lang the language map
+</span></span><span id="28" class="l"><span class="php-comment">     */</span>
+</span><span id="29" class="l">    <span class="php-keyword1">function</span> add_lang(<span class="php-keyword1">array</span> <span class="php-var">$lang</span>);
+</span><span id="30" class="l">}
+</span><span id="31" class="l"><span class="xlang">?&gt;</span>
+</span><span id="32" class="l"></span></code></pre>
 			</div>
 		</div>
 	</article>

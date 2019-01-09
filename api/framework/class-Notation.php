@@ -659,10 +659,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Notation.php">Notation</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -682,7 +678,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 02 14
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Notation.php#3-146" title="Go to source code">content/notation/Notation.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Notation.php#3-145" title="Go to source code">content/notation/Notation.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -697,7 +693,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -719,7 +715,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-Notation.php#29-32" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-Notation.php#28-31" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -754,7 +750,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Notation.php#34-37" title="Go to source code">get_id</a>( )
+<a href="source-class-Notation.php#33-36" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_set_module_name">#</a>
 						<code>
-<a href="source-class-Notation.php#39-42" title="Go to source code">set_module_name</a>( <span> <var>$module</var></span> )
+<a href="source-class-Notation.php#38-41" title="Go to source code">set_module_name</a>( <span> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_module_name">#</a>
 						<code>
-<a href="source-class-Notation.php#44-47" title="Go to source code">get_module_name</a>( )
+<a href="source-class-Notation.php#43-46" title="Go to source code">get_module_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_set_id_in_module">#</a>
 						<code>
-<a href="source-class-Notation.php#49-52" title="Go to source code">set_id_in_module</a>( <span> <var>$id_in_module</var></span> )
+<a href="source-class-Notation.php#48-51" title="Go to source code">set_id_in_module</a>( <span> <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_get_id_in_module">#</a>
 						<code>
-<a href="source-class-Notation.php#54-57" title="Go to source code">get_id_in_module</a>( )
+<a href="source-class-Notation.php#53-56" title="Go to source code">get_id_in_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_set_user_id">#</a>
 						<code>
-<a href="source-class-Notation.php#59-62" title="Go to source code">set_user_id</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-Notation.php#58-61" title="Go to source code">set_user_id</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_id">#</a>
 						<code>
-<a href="source-class-Notation.php#64-67" title="Go to source code">get_user_id</a>( )
+<a href="source-class-Notation.php#63-66" title="Go to source code">get_user_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_set_note">#</a>
 						<code>
-<a href="source-class-Notation.php#69-72" title="Go to source code">set_note</a>( <span> <var>$note</var></span> )
+<a href="source-class-Notation.php#68-71" title="Go to source code">set_note</a>( <span> <var>$note</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_get_note">#</a>
 						<code>
-<a href="source-class-Notation.php#74-77" title="Go to source code">get_note</a>( )
+<a href="source-class-Notation.php#73-76" title="Go to source code">get_note</a>( )
 						</code>
 
 							<div class="description short">
@@ -1069,7 +1065,7 @@
 					<div>
 						<a class="anchor" href="#_set_notation_scale">#</a>
 						<code>
-<a href="source-class-Notation.php#79-82" title="Go to source code">set_notation_scale</a>( <span> <var>$notation_scale</var></span> )
+<a href="source-class-Notation.php#78-81" title="Go to source code">set_notation_scale</a>( <span> <var>$notation_scale</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1104,7 +1100,7 @@
 					<div>
 						<a class="anchor" href="#_get_notation_scale">#</a>
 						<code>
-<a href="source-class-Notation.php#84-91" title="Go to source code">get_notation_scale</a>( )
+<a href="source-class-Notation.php#83-90" title="Go to source code">get_notation_scale</a>( )
 						</code>
 
 							<div class="description short">
@@ -1139,7 +1135,7 @@
 					<div>
 						<a class="anchor" href="#_set_average_notes">#</a>
 						<code>
-<a href="source-class-Notation.php#93-96" title="Go to source code">set_average_notes</a>( <span> <var>$average_notes</var></span> )
+<a href="source-class-Notation.php#92-95" title="Go to source code">set_average_notes</a>( <span> <var>$average_notes</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1174,7 +1170,7 @@
 					<div>
 						<a class="anchor" href="#_get_average_notes">#</a>
 						<code>
-<a href="source-class-Notation.php#98-106" title="Go to source code">get_average_notes</a>( )
+<a href="source-class-Notation.php#97-105" title="Go to source code">get_average_notes</a>( )
 						</code>
 
 							<div class="description short">
@@ -1209,7 +1205,7 @@
 					<div>
 						<a class="anchor" href="#_set_number_notes">#</a>
 						<code>
-<a href="source-class-Notation.php#108-111" title="Go to source code">set_number_notes</a>( <span> <var>$number_notes</var></span> )
+<a href="source-class-Notation.php#107-110" title="Go to source code">set_number_notes</a>( <span> <var>$number_notes</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1244,7 +1240,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_notes">#</a>
 						<code>
-<a href="source-class-Notation.php#113-121" title="Go to source code">get_number_notes</a>( )
+<a href="source-class-Notation.php#112-120" title="Go to source code">get_number_notes</a>( )
 						</code>
 
 							<div class="description short">
@@ -1279,7 +1275,7 @@
 					<div>
 						<a class="anchor" href="#_set_user_already_noted">#</a>
 						<code>
-<a href="source-class-Notation.php#123-126" title="Go to source code">set_user_already_noted</a>( <span> <var>$user_already_noted</var></span> )
+<a href="source-class-Notation.php#122-125" title="Go to source code">set_user_already_noted</a>( <span> <var>$user_already_noted</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1314,7 +1310,7 @@
 					<div>
 						<a class="anchor" href="#_user_already_noted">#</a>
 						<code>
-<a href="source-class-Notation.php#128-136" title="Go to source code">user_already_noted</a>( )
+<a href="source-class-Notation.php#127-135" title="Go to source code">user_already_noted</a>( )
 						</code>
 
 							<div class="description short">

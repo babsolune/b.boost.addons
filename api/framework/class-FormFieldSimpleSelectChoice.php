@@ -714,10 +714,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a>\<a href="package-Builder.Form.php">Form</a>\<a href="package-Builder.Form.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -749,7 +745,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldSimpleSelectChoice.php#3-112" title="Go to source code">builder/form/field/FormFieldSimpleSelectChoice.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldSimpleSelectChoice.php#3-111" title="Go to source code">builder/form/field/FormFieldSimpleSelectChoice.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -802,7 +798,7 @@ It provides you additionnal field options :</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -824,7 +820,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#25-39" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-FormFieldSimpleSelectChoice.php#24-38" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$label</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$options</var></span>, <span>array <var>$field_options</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$constraints</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#41-55" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldSimpleSelectChoice.php#40-54" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_get_option">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#80-91" title="Go to source code">get_option</a>( <span> <var>$raw_value</var></span> )
+<a href="source-class-FormFieldSimpleSelectChoice.php#79-90" title="Go to source code">get_option</a>( <span> <var>$raw_value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -952,7 +948,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_assign_common_template_variables">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#93-97" title="Go to source code">assign_common_template_variables</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
+<a href="source-class-FormFieldSimpleSelectChoice.php#92-96" title="Go to source code">assign_common_template_variables</a>( <span><code><a href="class-Template.php">Template</a></code> <var>$template</var></span> )
 						</code>
 
 							<div class="description short">
@@ -989,7 +985,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#99-102" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldSimpleSelectChoice.php#98-101" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1024,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#_get_js_specialization_code">#</a>
 						<code>
-<a href="source-class-FormFieldSimpleSelectChoice.php#104-111" title="Go to source code">get_js_specialization_code</a>( )
+<a href="source-class-FormFieldSimpleSelectChoice.php#103-110" title="Go to source code">get_js_specialization_code</a>( )
 						</code>
 
 							<div class="description short">

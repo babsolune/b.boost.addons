@@ -678,10 +678,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Feed.php">Feed</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ATOM.php#3-79" title="Go to source code">content/feed/ATOM.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ATOM.php#3-78" title="Go to source code">content/feed/ATOM.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -735,7 +731,7 @@ export it to the ATOM format</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -757,7 +753,7 @@ export it to the ATOM format</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-ATOM.php#21-31" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$feed_name</var> = Feed::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
+<a href="source-class-ATOM.php#20-30" title="Go to source code">__construct</a>( <span>string <var>$module_id</var></span>, <span>string <var>$feed_name</var> = Feed::DEFAULT_FEED_NAME</span>, <span>integer <var>$id_cat</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -803,7 +799,7 @@ export it to the ATOM format</p>
 					<div>
 						<a class="anchor" href="#_load_file">#</a>
 						<code>
-<a href="source-class-ATOM.php#33-78" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
+<a href="source-class-ATOM.php#32-77" title="Go to source code">load_file</a>( <span>string <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -874,7 +870,7 @@ export it to the ATOM format</p>
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ATOM.php#18" title="Go to source code"><b>DEFAULT_ATOM_TEMPLATE</b></a>
+								<a href="source-class-ATOM.php#17" title="Go to source code"><b>DEFAULT_ATOM_TEMPLATE</b></a>
 							</code>
 
 							<div class="description short">

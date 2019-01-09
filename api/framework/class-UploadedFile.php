@@ -672,10 +672,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.HTTP.php">HTTP</a>\<a href="package-IO.HTTP.upload.php">upload</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -703,7 +699,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-UploadedFile.php#3-71" title="Go to source code">io/http/upload/UploadedFile.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-UploadedFile.php#3-70" title="Go to source code">io/http/upload/UploadedFile.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -718,7 +714,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -740,7 +736,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#23-29" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$mime_type</var></span>, <span> <var>$size</var></span>, <span> <var>$tmp_name</var></span> )
+<a href="source-class-UploadedFile.php#22-28" title="Go to source code">__construct</a>( <span> <var>$name</var></span>, <span> <var>$mime_type</var></span>, <span> <var>$size</var></span>, <span> <var>$tmp_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -775,7 +771,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#31-34" title="Go to source code">get_name</a>( )
+<a href="source-class-UploadedFile.php#30-33" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -810,7 +806,7 @@
 					<div>
 						<a class="anchor" href="#_get_name_without_extension">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#36-40" title="Go to source code">get_name_without_extension</a>( )
+<a href="source-class-UploadedFile.php#35-39" title="Go to source code">get_name_without_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -845,7 +841,7 @@
 					<div>
 						<a class="anchor" href="#_get_extension">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#42-46" title="Go to source code">get_extension</a>( )
+<a href="source-class-UploadedFile.php#41-45" title="Go to source code">get_extension</a>( )
 						</code>
 
 							<div class="description short">
@@ -880,7 +876,7 @@
 					<div>
 						<a class="anchor" href="#_get_mime_type">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#48-51" title="Go to source code">get_mime_type</a>( )
+<a href="source-class-UploadedFile.php#47-50" title="Go to source code">get_mime_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -915,7 +911,7 @@
 					<div>
 						<a class="anchor" href="#_get_size">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#53-56" title="Go to source code">get_size</a>( )
+<a href="source-class-UploadedFile.php#52-55" title="Go to source code">get_size</a>( )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@
 					<div>
 						<a class="anchor" href="#_get_temporary_filename">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#58-61" title="Go to source code">get_temporary_filename</a>( )
+<a href="source-class-UploadedFile.php#57-60" title="Go to source code">get_temporary_filename</a>( )
 						</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-UploadedFile.php#63-70" title="Go to source code">save</a>( <span><code><a href="class-File.php">File</a></code> <var>$destination</var></span> )
+<a href="source-class-UploadedFile.php#62-69" title="Go to source code">save</a>( <span><code><a href="class-File.php">File</a></code> <var>$destination</var></span> )
 						</code>
 
 							<div class="description short">

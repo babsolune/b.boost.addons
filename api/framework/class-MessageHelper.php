@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Helper.php">Helper</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MessageHelper.php#3-88" title="Go to source code">helper/MessageHelper.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MessageHelper.php#3-87" title="Go to source code">helper/MessageHelper.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -725,7 +721,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -747,7 +743,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-MessageHelper.php#27-87" title="Go to source code">display</a>( <span> <var>$content</var></span>, <span> <var>$type</var></span>, <span> <var>$timeout</var> = <span class="php-num">0</span></span>, <span> <var>$display_small</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-MessageHelper.php#26-86" title="Go to source code">display</a>( <span> <var>$content</var></span>, <span> <var>$type</var></span>, <span> <var>$timeout</var> = <span class="php-num">0</span></span>, <span> <var>$display_small</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +789,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#17" title="Go to source code"><b>SUCCESS</b></a>
+								<a href="source-class-MessageHelper.php#16" title="Go to source code"><b>SUCCESS</b></a>
 							</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#18" title="Go to source code"><b>NOTICE</b></a>
+								<a href="source-class-MessageHelper.php#17" title="Go to source code"><b>NOTICE</b></a>
 							</code>
 
 							<div class="description short">
@@ -841,7 +837,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#19" title="Go to source code"><b>WARNING</b></a>
+								<a href="source-class-MessageHelper.php#18" title="Go to source code"><b>WARNING</b></a>
 							</code>
 
 							<div class="description short">
@@ -865,7 +861,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#20" title="Go to source code"><b>ERROR</b></a>
+								<a href="source-class-MessageHelper.php#19" title="Go to source code"><b>ERROR</b></a>
 							</code>
 
 							<div class="description short">
@@ -889,7 +885,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#21" title="Go to source code"><b>QUESTION</b></a>
+								<a href="source-class-MessageHelper.php#20" title="Go to source code"><b>QUESTION</b></a>
 							</code>
 
 							<div class="description short">
@@ -913,7 +909,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#22" title="Go to source code"><b>MEMBER_ONLY</b></a>
+								<a href="source-class-MessageHelper.php#21" title="Go to source code"><b>MEMBER_ONLY</b></a>
 							</code>
 
 							<div class="description short">
@@ -937,7 +933,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#23" title="Go to source code"><b>MODERATOR_ONLY</b></a>
+								<a href="source-class-MessageHelper.php#22" title="Go to source code"><b>MODERATOR_ONLY</b></a>
 							</code>
 
 							<div class="description short">
@@ -961,7 +957,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#24" title="Go to source code"><b>ADMIN_ONLY</b></a>
+								<a href="source-class-MessageHelper.php#23" title="Go to source code"><b>ADMIN_ONLY</b></a>
 							</code>
 
 							<div class="description short">
@@ -985,7 +981,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MessageHelper.php#25" title="Go to source code"><b>GROUP</b></a>
+								<a href="source-class-MessageHelper.php#24" title="Go to source code"><b>GROUP</b></a>
 							</code>
 
 							<div class="description short">

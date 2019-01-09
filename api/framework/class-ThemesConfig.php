@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -700,7 +696,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2011 04 11
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemesConfig.php#3-92" title="Go to source code">phpboost/config/ThemesConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemesConfig.php#3-91" title="Go to source code">phpboost/config/ThemesConfig.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#17-25" title="Go to source code">get_default_values</a>( )
+<a href="source-class-ThemesConfig.php#16-24" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_get_themes">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#27-30" title="Go to source code">get_themes</a>( )
+<a href="source-class-ThemesConfig.php#26-29" title="Go to source code">get_themes</a>( )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_get_theme">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#32-40" title="Go to source code">get_theme</a>( <span> <var>$theme_id</var></span> )
+<a href="source-class-ThemesConfig.php#31-39" title="Go to source code">get_theme</a>( <span> <var>$theme_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_set_themes">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#42-45" title="Go to source code">set_themes</a>( <span>array <var>$themes</var></span> )
+<a href="source-class-ThemesConfig.php#41-44" title="Go to source code">set_themes</a>( <span>array <var>$themes</var></span> )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_add_theme">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#47-52" title="Go to source code">add_theme</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
+<a href="source-class-ThemesConfig.php#46-51" title="Go to source code">add_theme</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_remove_theme">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#54-59" title="Go to source code">remove_theme</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
+<a href="source-class-ThemesConfig.php#53-58" title="Go to source code">remove_theme</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_remove_theme_by_id">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#61-66" title="Go to source code">remove_theme_by_id</a>( <span> <var>$theme_id</var></span> )
+<a href="source-class-ThemesConfig.php#60-65" title="Go to source code">remove_theme_by_id</a>( <span> <var>$theme_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -999,7 +995,7 @@
 					<div>
 						<a class="anchor" href="#_update">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#68-74" title="Go to source code">update</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
+<a href="source-class-ThemesConfig.php#67-73" title="Go to source code">update</a>( <span><code><a href="class-Theme.php">Theme</a></code> <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1030,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#76-83" title="Go to source code">load</a>( )
+<a href="source-class-ThemesConfig.php#75-82" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-ThemesConfig.php#85-91" title="Go to source code">save</a>( )
+<a href="source-class-ThemesConfig.php#84-90" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">

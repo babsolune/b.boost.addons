@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -704,7 +700,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MaintenanceConfig.php#3-157" title="Go to source code">phpboost/config/MaintenanceConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MaintenanceConfig.php#3-156" title="Go to source code">phpboost/config/MaintenanceConfig.class.php</a></span>
 			</div>
 
 
@@ -732,7 +728,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -754,7 +750,7 @@
 					<div>
 						<a class="anchor" href="#_is_maintenance_enabled">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#26-29" title="Go to source code">is_maintenance_enabled</a>( )
+<a href="source-class-MaintenanceConfig.php#25-28" title="Go to source code">is_maintenance_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -789,7 +785,7 @@
 					<div>
 						<a class="anchor" href="#_set_maintenance_enabled">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#31-34" title="Go to source code">set_maintenance_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-MaintenanceConfig.php#30-33" title="Go to source code">set_maintenance_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -824,7 +820,7 @@
 					<div>
 						<a class="anchor" href="#_enable_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#36-39" title="Go to source code">enable_maintenance</a>( )
+<a href="source-class-MaintenanceConfig.php#35-38" title="Go to source code">enable_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -859,7 +855,7 @@
 					<div>
 						<a class="anchor" href="#_disable_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#41-44" title="Go to source code">disable_maintenance</a>( )
+<a href="source-class-MaintenanceConfig.php#40-43" title="Go to source code">disable_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -894,7 +890,7 @@
 					<div>
 						<a class="anchor" href="#_is_unlimited_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#46-49" title="Go to source code">is_unlimited_maintenance</a>( )
+<a href="source-class-MaintenanceConfig.php#45-48" title="Go to source code">is_unlimited_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -929,7 +925,7 @@
 					<div>
 						<a class="anchor" href="#_set_unlimited_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#51-54" title="Go to source code">set_unlimited_maintenance</a>( <span> <var>$unlimited</var></span> )
+<a href="source-class-MaintenanceConfig.php#50-53" title="Go to source code">set_unlimited_maintenance</a>( <span> <var>$unlimited</var></span> )
 						</code>
 
 							<div class="description short">
@@ -964,7 +960,7 @@
 					<div>
 						<a class="anchor" href="#_get_end_date">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#56-62" title="Go to source code">get_end_date</a>( )
+<a href="source-class-MaintenanceConfig.php#55-61" title="Go to source code">get_end_date</a>( )
 						</code>
 
 							<div class="description short">
@@ -1003,7 +999,7 @@
 					<div>
 						<a class="anchor" href="#_set_end_date">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#64-67" title="Go to source code">set_end_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
+<a href="source-class-MaintenanceConfig.php#63-66" title="Go to source code">set_end_date</a>( <span><code><a href="class-Date.php">Date</a></code> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1038,7 +1034,7 @@
 					<div>
 						<a class="anchor" href="#_get_message">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#69-72" title="Go to source code">get_message</a>( )
+<a href="source-class-MaintenanceConfig.php#68-71" title="Go to source code">get_message</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1069,7 @@
 					<div>
 						<a class="anchor" href="#_set_message">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#74-77" title="Go to source code">set_message</a>( <span> <var>$message</var></span> )
+<a href="source-class-MaintenanceConfig.php#73-76" title="Go to source code">set_message</a>( <span> <var>$message</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1108,7 +1104,7 @@
 					<div>
 						<a class="anchor" href="#_get_auth">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#79-82" title="Go to source code">get_auth</a>( )
+<a href="source-class-MaintenanceConfig.php#78-81" title="Go to source code">get_auth</a>( )
 						</code>
 
 							<div class="description short">
@@ -1143,7 +1139,7 @@
 					<div>
 						<a class="anchor" href="#_set_auth">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#84-87" title="Go to source code">set_auth</a>( <span>array <var>$auth</var></span> )
+<a href="source-class-MaintenanceConfig.php#83-86" title="Go to source code">set_auth</a>( <span>array <var>$auth</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1178,7 +1174,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_duration">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#89-92" title="Go to source code">get_display_duration</a>( )
+<a href="source-class-MaintenanceConfig.php#88-91" title="Go to source code">get_display_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1213,7 +1209,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_duration">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#94-97" title="Go to source code">set_display_duration</a>( <span> <var>$display</var></span> )
+<a href="source-class-MaintenanceConfig.php#93-96" title="Go to source code">set_display_duration</a>( <span> <var>$display</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1248,7 +1244,7 @@
 					<div>
 						<a class="anchor" href="#_get_display_duration_for_admin">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#99-102" title="Go to source code">get_display_duration_for_admin</a>( )
+<a href="source-class-MaintenanceConfig.php#98-101" title="Go to source code">get_display_duration_for_admin</a>( )
 						</code>
 
 							<div class="description short">
@@ -1283,7 +1279,7 @@
 					<div>
 						<a class="anchor" href="#_set_display_duration_for_admin">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#104-107" title="Go to source code">set_display_duration_for_admin</a>( <span> <var>$display</var></span> )
+<a href="source-class-MaintenanceConfig.php#103-106" title="Go to source code">set_display_duration_for_admin</a>( <span> <var>$display</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1318,7 +1314,7 @@
 					<div>
 						<a class="anchor" href="#_is_end_date_not_reached">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#109-112" title="Go to source code">is_end_date_not_reached</a>( )
+<a href="source-class-MaintenanceConfig.php#108-111" title="Go to source code">is_end_date_not_reached</a>( )
 						</code>
 
 							<div class="description short">
@@ -1353,7 +1349,7 @@
 					<div>
 						<a class="anchor" href="#_is_under_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#114-117" title="Go to source code">is_under_maintenance</a>( )
+<a href="source-class-MaintenanceConfig.php#113-116" title="Go to source code">is_under_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -1388,7 +1384,7 @@
 					<div>
 						<a class="anchor" href="#_is_authorized_in_maintenance">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#119-122" title="Go to source code">is_authorized_in_maintenance</a>( )
+<a href="source-class-MaintenanceConfig.php#118-121" title="Go to source code">is_authorized_in_maintenance</a>( )
 						</code>
 
 							<div class="description short">
@@ -1423,7 +1419,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#125-139" title="Go to source code">get_default_values</a>( )
+<a href="source-class-MaintenanceConfig.php#124-138" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1462,7 +1458,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#141-148" title="Go to source code">load</a>( )
+<a href="source-class-MaintenanceConfig.php#140-147" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1501,7 +1497,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-MaintenanceConfig.php#150-156" title="Go to source code">save</a>( )
+<a href="source-class-MaintenanceConfig.php#149-155" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -1561,7 +1557,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#16" title="Go to source code"><b>ENABLED</b></a>
+								<a href="source-class-MaintenanceConfig.php#15" title="Go to source code"><b>ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -1585,7 +1581,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#17" title="Go to source code"><b>UNLIMITED_DURATION</b></a>
+								<a href="source-class-MaintenanceConfig.php#16" title="Go to source code"><b>UNLIMITED_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1609,7 +1605,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#18" title="Go to source code"><b>END_DATE</b></a>
+								<a href="source-class-MaintenanceConfig.php#17" title="Go to source code"><b>END_DATE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1633,7 +1629,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#19" title="Go to source code"><b>MESSAGE</b></a>
+								<a href="source-class-MaintenanceConfig.php#18" title="Go to source code"><b>MESSAGE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1657,7 +1653,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#20" title="Go to source code"><b>AUTH</b></a>
+								<a href="source-class-MaintenanceConfig.php#19" title="Go to source code"><b>AUTH</b></a>
 							</code>
 
 							<div class="description short">
@@ -1681,7 +1677,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#21" title="Go to source code"><b>DISPLAY_DURATION</b></a>
+								<a href="source-class-MaintenanceConfig.php#20" title="Go to source code"><b>DISPLAY_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -1705,7 +1701,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#22" title="Go to source code"><b>DISPLAY_DURATION_FOR_ADMIN</b></a>
+								<a href="source-class-MaintenanceConfig.php#21" title="Go to source code"><b>DISPLAY_DURATION_FOR_ADMIN</b></a>
 							</code>
 
 							<div class="description short">
@@ -1729,7 +1725,7 @@
 						<td class="attributes"><code>integer</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-MaintenanceConfig.php#24" title="Go to source code"><b>ACCESS_WHEN_MAINTAIN_ENABLED_AUTHORIZATIONS</b></a>
+								<a href="source-class-MaintenanceConfig.php#23" title="Go to source code"><b>ACCESS_WHEN_MAINTAIN_ENABLED_AUTHORIZATIONS</b></a>
 							</code>
 
 							<div class="description short">

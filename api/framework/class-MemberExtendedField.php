@@ -676,10 +676,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -711,7 +707,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedField.php#3-128" title="Go to source code">phpboost/member/extended-fields/MemberExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-MemberExtendedField.php#3-127" title="Go to source code">phpboost/member/extended-fields/MemberExtendedField.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#32-35" title="Go to source code">get_name</a>( )
+<a href="source-class-MemberExtendedField.php#31-34" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_name">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#37-40" title="Go to source code">get_field_name</a>( )
+<a href="source-class-MemberExtendedField.php#36-39" title="Go to source code">get_field_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_type">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#42-45" title="Go to source code">get_field_type</a>( )
+<a href="source-class-MemberExtendedField.php#41-44" title="Go to source code">get_field_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@
 					<div>
 						<a class="anchor" href="#_get_value">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#47-50" title="Go to source code">get_value</a>( )
+<a href="source-class-MemberExtendedField.php#46-49" title="Go to source code">get_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#52-55" title="Go to source code">get_description</a>( )
+<a href="source-class-MemberExtendedField.php#51-54" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_value">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#57-60" title="Go to source code">get_default_value</a>( )
+<a href="source-class-MemberExtendedField.php#56-59" title="Go to source code">get_default_value</a>( )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@
 					<div>
 						<a class="anchor" href="#_get_possible_values">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#62-65" title="Go to source code">get_possible_values</a>( )
+<a href="source-class-MemberExtendedField.php#61-64" title="Go to source code">get_possible_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@
 					<div>
 						<a class="anchor" href="#_get_required">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#67-70" title="Go to source code">get_required</a>( )
+<a href="source-class-MemberExtendedField.php#66-69" title="Go to source code">get_required</a>( )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1024,7 @@
 					<div>
 						<a class="anchor" href="#_get_regex">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#72-75" title="Go to source code">get_regex</a>( )
+<a href="source-class-MemberExtendedField.php#71-74" title="Go to source code">get_regex</a>( )
 						</code>
 
 							<div class="description short">
@@ -1063,7 +1059,7 @@
 					<div>
 						<a class="anchor" href="#_get_fieldset">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#77-80" title="Go to source code">get_fieldset</a>( )
+<a href="source-class-MemberExtendedField.php#76-79" title="Go to source code">get_fieldset</a>( )
 						</code>
 
 							<div class="description short">
@@ -1098,7 +1094,7 @@
 					<div>
 						<a class="anchor" href="#_get_user_id">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#82-85" title="Go to source code">get_user_id</a>( )
+<a href="source-class-MemberExtendedField.php#81-84" title="Go to source code">get_user_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1133,7 +1129,7 @@
 					<div>
 						<a class="anchor" href="#_set_fieldset">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#87-90" title="Go to source code">set_fieldset</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
+<a href="source-class-MemberExtendedField.php#86-89" title="Go to source code">set_fieldset</a>( <span><code><a href="class-FormFieldset.php">FormFieldset</a></code> <var>$fieldset</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1168,7 +1164,7 @@
 					<div>
 						<a class="anchor" href="#_set_user_id">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#92-95" title="Go to source code">set_user_id</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-MemberExtendedField.php#91-94" title="Go to source code">set_user_id</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1203,7 +1199,7 @@
 					<div>
 						<a class="anchor" href="#_set_properties">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#97-117" title="Go to source code">set_properties</a>( <span> <var>$properties</var></span> )
+<a href="source-class-MemberExtendedField.php#96-116" title="Go to source code">set_properties</a>( <span> <var>$properties</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1238,7 +1234,7 @@
 					<div>
 						<a class="anchor" href="#_get_instance">#</a>
 						<code>
-<a href="source-class-MemberExtendedField.php#119-127" title="Go to source code">get_instance</a>( )
+<a href="source-class-MemberExtendedField.php#118-126" title="Go to source code">get_instance</a>( )
 						</code>
 
 							<div class="description short">

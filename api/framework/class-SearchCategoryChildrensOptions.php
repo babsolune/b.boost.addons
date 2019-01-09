@@ -679,10 +679,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Content.php">Content</a>\<a href="package-Content.Category.php">Category</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -710,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchCategoryChildrensOptions.php#3-113" title="Go to source code">content/category/SearchCategoryChildrensOptions.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SearchCategoryChildrensOptions.php#3-112" title="Go to source code">content/category/SearchCategoryChildrensOptions.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -726,7 +722,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -748,7 +744,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_add_authorizations_bits">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#26-29" title="Go to source code">add_authorizations_bits</a>( <span> <var>$authorizations_bits</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#25-28" title="Go to source code">add_authorizations_bits</a>( <span> <var>$authorizations_bits</var></span> )
 						</code>
 
 							<div class="description short">
@@ -783,7 +779,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_get_authorizations_bits">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#31-34" title="Go to source code">get_authorizations_bits</a>( )
+<a href="source-class-SearchCategoryChildrensOptions.php#30-33" title="Go to source code">get_authorizations_bits</a>( )
 						</code>
 
 							<div class="description short">
@@ -818,7 +814,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_check_authorizations">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#36-62" title="Go to source code">check_authorizations</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#35-61" title="Go to source code">check_authorizations</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -853,7 +849,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_set_check_all_bits">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#64-67" title="Go to source code">set_check_all_bits</a>( <span> <var>$check_all_bits</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#63-66" title="Go to source code">set_check_all_bits</a>( <span> <var>$check_all_bits</var></span> )
 						</code>
 
 							<div class="description short">
@@ -888,7 +884,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_get_check_all_bits">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#69-72" title="Go to source code">get_check_all_bits</a>( )
+<a href="source-class-SearchCategoryChildrensOptions.php#68-71" title="Go to source code">get_check_all_bits</a>( )
 						</code>
 
 							<div class="description short">
@@ -923,7 +919,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_add_category_in_excluded_categories">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#74-77" title="Go to source code">add_category_in_excluded_categories</a>( <span> <var>$id</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#73-76" title="Go to source code">add_category_in_excluded_categories</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -958,7 +954,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_category_is_excluded">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#79-82" title="Go to source code">category_is_excluded</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#78-81" title="Go to source code">category_is_excluded</a>( <span><code><a href="class-Category.php">Category</a></code> <var>$category</var></span> )
 						</code>
 
 							<div class="description short">
@@ -993,7 +989,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_get_excluded_categories">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#84-87" title="Go to source code">get_excluded_categories</a>( )
+<a href="source-class-SearchCategoryChildrensOptions.php#83-86" title="Go to source code">get_excluded_categories</a>( )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1024,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_set_excluded_categories_recursive">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#89-92" title="Go to source code">set_excluded_categories_recursive</a>( <span> <var>$excluded_categories_recursive</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#88-91" title="Go to source code">set_excluded_categories_recursive</a>( <span> <var>$excluded_categories_recursive</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1063,7 +1059,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_is_excluded_categories_recursive">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#94-97" title="Go to source code">is_excluded_categories_recursive</a>( )
+<a href="source-class-SearchCategoryChildrensOptions.php#93-96" title="Go to source code">is_excluded_categories_recursive</a>( )
 						</code>
 
 							<div class="description short">
@@ -1098,7 +1094,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_set_enable_recursive_exploration">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#99-102" title="Go to source code">set_enable_recursive_exploration</a>( <span> <var>$enable_recursive_exploration</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#98-101" title="Go to source code">set_enable_recursive_exploration</a>( <span> <var>$enable_recursive_exploration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1133,7 +1129,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_is_enabled_recursive_exploration">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#104-107" title="Go to source code">is_enabled_recursive_exploration</a>( )
+<a href="source-class-SearchCategoryChildrensOptions.php#103-106" title="Go to source code">is_enabled_recursive_exploration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1168,7 +1164,7 @@ You will be able to manage one or more permission bits, exclude certain categori
 					<div>
 						<a class="anchor" href="#_set_allow_only_member_level_authorizations">#</a>
 						<code>
-<a href="source-class-SearchCategoryChildrensOptions.php#109-112" title="Go to source code">set_allow_only_member_level_authorizations</a>( <span> <var>$allow_only_member_level_authorizations</var></span> )
+<a href="source-class-SearchCategoryChildrensOptions.php#108-111" title="Go to source code">set_allow_only_member_level_authorizations</a>( <span> <var>$allow_only_member_level_authorizations</var></span> )
 						</code>
 
 							<div class="description short">

@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -683,7 +679,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 04
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSelectQueryResult.php#3-42" title="Go to source code">io/db/driver/AbstractSelectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractSelectQueryResult.php#3-41" title="Go to source code">io/db/driver/AbstractSelectQueryResult.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -721,7 +717,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -743,7 +739,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractSelectQueryResult.php#16-19" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span>array <var>$parameters</var></span> )
+<a href="source-class-AbstractSelectQueryResult.php#15-18" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span>array <var>$parameters</var></span> )
 						</code>
 
 							<div class="description short">
@@ -780,7 +776,7 @@
 					<div>
 						<a class="anchor" href="#_has_next">#</a>
 						<code>
-<a href="source-class-AbstractSelectQueryResult.php#21-24" title="Go to source code">has_next</a>( )
+<a href="source-class-AbstractSelectQueryResult.php#20-23" title="Go to source code">has_next</a>( )
 						</code>
 
 							<div class="description short">
@@ -817,7 +813,7 @@
 					<div>
 						<a class="anchor" href="#_fetch">#</a>
 						<code>
-<a href="source-class-AbstractSelectQueryResult.php#26-36" title="Go to source code">fetch</a>( )
+<a href="source-class-AbstractSelectQueryResult.php#25-35" title="Go to source code">fetch</a>( )
 						</code>
 
 							<div class="description short">
@@ -854,7 +850,7 @@
 					<div>
 						<a class="anchor" href="#_needs_rewind">#</a>
 						<code>
-<a href="source-class-AbstractSelectQueryResult.php#38-41" title="Go to source code">needs_rewind</a>( )
+<a href="source-class-AbstractSelectQueryResult.php#37-40" title="Go to source code">needs_rewind</a>( )
 						</code>
 
 							<div class="description short">

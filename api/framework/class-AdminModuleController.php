@@ -674,10 +674,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-MVC.php">MVC</a>\<a href="package-MVC.Controller.php">Controller</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -705,7 +701,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdminModuleController.php#3-37" title="Go to source code">mvc/controller/AdminModuleController.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdminModuleController.php#3-36" title="Go to source code">mvc/controller/AdminModuleController.class.php</a></span>
 			</div>
 
 
@@ -733,7 +729,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -755,7 +751,7 @@
 					<div>
 						<a class="anchor" href="#_get_right_controller_regarding_authorizations">#</a>
 						<code>
-<a href="source-class-AdminModuleController.php#17-36" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
+<a href="source-class-AdminModuleController.php#16-35" title="Go to source code">get_right_controller_regarding_authorizations</a>( )
 						</code>
 
 							<div class="description short">

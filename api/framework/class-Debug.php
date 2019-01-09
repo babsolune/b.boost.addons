@@ -689,10 +689,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Util.php">Util</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Debug.php#3-254" title="Go to source code">util/Debug.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Debug.php#3-253" title="Go to source code">util/Debug.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-Debug.php#22-31" title="Go to source code">__static</a>( )
+<a href="source-class-Debug.php#21-30" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -785,7 +781,7 @@
 					<div>
 						<a class="anchor" href="#_enabled_current_script_debug">#</a>
 						<code>
-<a href="source-class-Debug.php#33-41" title="Go to source code">enabled_current_script_debug</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-Debug.php#32-40" title="Go to source code">enabled_current_script_debug</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_enabled_debug_mode">#</a>
 						<code>
-<a href="source-class-Debug.php#43-58" title="Go to source code">enabled_debug_mode</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-Debug.php#42-57" title="Go to source code">enabled_debug_mode</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -876,7 +872,7 @@ be passed in the options array</p>
 					<div>
 						<a class="anchor" href="#_disable_debug_mode">#</a>
 						<code>
-<a href="source-class-Debug.php#60-68" title="Go to source code">disable_debug_mode</a>( )
+<a href="source-class-Debug.php#59-67" title="Go to source code">disable_debug_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -911,7 +907,7 @@ be passed in the options array</p>
 					<div>
 						<a class="anchor" href="#_is_debug_mode_enabled">#</a>
 						<code>
-<a href="source-class-Debug.php#80-87" title="Go to source code">is_debug_mode_enabled</a>( )
+<a href="source-class-Debug.php#79-86" title="Go to source code">is_debug_mode_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -950,7 +946,7 @@ be passed in the options array</p>
 					<div>
 						<a class="anchor" href="#_is_strict_mode_enabled">#</a>
 						<code>
-<a href="source-class-Debug.php#89-97" title="Go to source code">is_strict_mode_enabled</a>( )
+<a href="source-class-Debug.php#88-96" title="Go to source code">is_strict_mode_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -991,7 +987,7 @@ If true, the page processing will be stopped if any notice, warning or error is 
 					<div>
 						<a class="anchor" href="#_is_display_database_query_enabled">#</a>
 						<code>
-<a href="source-class-Debug.php#99-107" title="Go to source code">is_display_database_query_enabled</a>( )
+<a href="source-class-Debug.php#98-106" title="Go to source code">is_display_database_query_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1032,7 +1028,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_is_output_html">#</a>
 						<code>
-<a href="source-class-Debug.php#118-125" title="Go to source code">is_output_html</a>( )
+<a href="source-class-Debug.php#117-124" title="Go to source code">is_output_html</a>( )
 						</code>
 
 							<div class="description short">
@@ -1071,7 +1067,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_set_plain_text_output_mode">#</a>
 						<code>
-<a href="source-class-Debug.php#127-133" title="Go to source code">set_plain_text_output_mode</a>( )
+<a href="source-class-Debug.php#126-132" title="Go to source code">set_plain_text_output_mode</a>( )
 						</code>
 
 							<div class="description short">
@@ -1106,7 +1102,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_fatal">#</a>
 						<code>
-<a href="source-class-Debug.php#135-157" title="Go to source code">fatal</a>( <span> <var>$exception</var></span> )
+<a href="source-class-Debug.php#134-156" title="Go to source code">fatal</a>( <span> <var>$exception</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1146,7 +1142,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_stop">#</a>
 						<code>
-<a href="source-class-Debug.php#159-171" title="Go to source code">stop</a>( <span> <var>$object</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Debug.php#158-170" title="Go to source code">stop</a>( <span> <var>$object</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1186,7 +1182,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_get_exception_context">#</a>
 						<code>
-<a href="source-class-Debug.php#173-180" title="Go to source code">get_exception_context</a>( )
+<a href="source-class-Debug.php#172-179" title="Go to source code">get_exception_context</a>( )
 						</code>
 
 							<div class="description short">
@@ -1225,7 +1221,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_get_stacktrace">#</a>
 						<code>
-<a href="source-class-Debug.php#182-191" title="Go to source code">get_stacktrace</a>( )
+<a href="source-class-Debug.php#181-190" title="Go to source code">get_stacktrace</a>( )
 						</code>
 
 							<div class="description short">
@@ -1264,7 +1260,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_get_stacktrace_as_string">#</a>
 						<code>
-<a href="source-class-Debug.php#193-225" title="Go to source code">get_stacktrace_as_string</a>( <span> <var>$start_trace_index</var> = <span class="php-num">0</span></span>, <span> <var>$exception</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Debug.php#192-224" title="Go to source code">get_stacktrace_as_string</a>( <span> <var>$start_trace_index</var> = <span class="php-num">0</span></span>, <span> <var>$exception</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1299,7 +1295,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_print_stacktrace">#</a>
 						<code>
-<a href="source-class-Debug.php#227-237" title="Go to source code">print_stacktrace</a>( <span> <var>$start_trace_index</var> = <span class="php-num">0</span></span>, <span>Exception <var>$exception</var> = <span class="php-keyword1">null</span></span> )
+<a href="source-class-Debug.php#226-236" title="Go to source code">print_stacktrace</a>( <span> <var>$start_trace_index</var> = <span class="php-num">0</span></span>, <span>Exception <var>$exception</var> = <span class="php-keyword1">null</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1334,7 +1330,7 @@ If true, the page display a database query with the Debug::dump() function and d
 					<div>
 						<a class="anchor" href="#_dump">#</a>
 						<code>
-<a href="source-class-Debug.php#239-253" title="Go to source code">dump</a>( <span>mixed <var>$object</var></span> )
+<a href="source-class-Debug.php#238-252" title="Go to source code">dump</a>( <span>mixed <var>$object</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1393,7 +1389,7 @@ If true, the page display a database query with the Debug::dump() function and d
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Debug.php#15" title="Go to source code"><b>STRICT_MODE</b></a>
+								<a href="source-class-Debug.php#14" title="Go to source code"><b>STRICT_MODE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1417,7 +1413,7 @@ If true, the page display a database query with the Debug::dump() function and d
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Debug.php#16" title="Go to source code"><b>DISPLAY_DATABASE_QUERY</b></a>
+								<a href="source-class-Debug.php#15" title="Go to source code"><b>DISPLAY_DATABASE_QUERY</b></a>
 							</code>
 
 							<div class="description short">

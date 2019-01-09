@@ -677,10 +677,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Config.php">Config</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -716,7 +712,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentManagementConfig.php#3-242" title="Go to source code">phpboost/config/ContentManagementConfig.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ContentManagementConfig.php#3-241" title="Go to source code">phpboost/config/ContentManagementConfig.class.php</a></span>
 			</div>
 
 
@@ -744,7 +740,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -766,7 +762,7 @@
 					<div>
 						<a class="anchor" href="#_is_anti_flood_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#35-38" title="Go to source code">is_anti_flood_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#34-37" title="Go to source code">is_anti_flood_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -801,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_set_anti_flood_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#40-43" title="Go to source code">set_anti_flood_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#39-42" title="Go to source code">set_anti_flood_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -836,7 +832,7 @@
 					<div>
 						<a class="anchor" href="#_get_anti_flood_duration">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#45-48" title="Go to source code">get_anti_flood_duration</a>( )
+<a href="source-class-ContentManagementConfig.php#44-47" title="Go to source code">get_anti_flood_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -871,7 +867,7 @@
 					<div>
 						<a class="anchor" href="#_set_anti_flood_duration">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#50-53" title="Go to source code">set_anti_flood_duration</a>( <span> <var>$duration</var></span> )
+<a href="source-class-ContentManagementConfig.php#49-52" title="Go to source code">set_anti_flood_duration</a>( <span> <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_get_used_captcha_module">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#55-58" title="Go to source code">get_used_captcha_module</a>( )
+<a href="source-class-ContentManagementConfig.php#54-57" title="Go to source code">get_used_captcha_module</a>( )
 						</code>
 
 							<div class="description short">
@@ -941,7 +937,7 @@
 					<div>
 						<a class="anchor" href="#_set_used_captcha_module">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#60-63" title="Go to source code">set_used_captcha_module</a>( <span> <var>$module</var></span> )
+<a href="source-class-ContentManagementConfig.php#59-62" title="Go to source code">set_used_captcha_module</a>( <span> <var>$module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -976,7 +972,7 @@
 					<div>
 						<a class="anchor" href="#_is_new_content_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#65-68" title="Go to source code">is_new_content_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#64-67" title="Go to source code">is_new_content_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1011,7 +1007,7 @@
 					<div>
 						<a class="anchor" href="#_set_new_content_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#70-73" title="Go to source code">set_new_content_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#69-72" title="Go to source code">set_new_content_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1046,7 +1042,7 @@
 					<div>
 						<a class="anchor" href="#_get_new_content_duration">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#75-78" title="Go to source code">get_new_content_duration</a>( )
+<a href="source-class-ContentManagementConfig.php#74-77" title="Go to source code">get_new_content_duration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1081,7 +1077,7 @@
 					<div>
 						<a class="anchor" href="#_set_new_content_duration">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#80-83" title="Go to source code">set_new_content_duration</a>( <span> <var>$duration</var></span> )
+<a href="source-class-ContentManagementConfig.php#79-82" title="Go to source code">set_new_content_duration</a>( <span> <var>$duration</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1116,7 +1112,7 @@
 					<div>
 						<a class="anchor" href="#_get_new_content_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#85-88" title="Go to source code">get_new_content_unauthorized_modules</a>( )
+<a href="source-class-ContentManagementConfig.php#84-87" title="Go to source code">get_new_content_unauthorized_modules</a>( )
 						</code>
 
 							<div class="description short">
@@ -1151,7 +1147,7 @@
 					<div>
 						<a class="anchor" href="#_set_new_content_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#90-93" title="Go to source code">set_new_content_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
+<a href="source-class-ContentManagementConfig.php#89-92" title="Go to source code">set_new_content_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1186,7 +1182,7 @@
 					<div>
 						<a class="anchor" href="#_is_notation_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#95-98" title="Go to source code">is_notation_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#94-97" title="Go to source code">is_notation_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1221,7 +1217,7 @@
 					<div>
 						<a class="anchor" href="#_set_notation_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#100-103" title="Go to source code">set_notation_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#99-102" title="Go to source code">set_notation_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1256,7 +1252,7 @@
 					<div>
 						<a class="anchor" href="#_get_notation_scale">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#105-108" title="Go to source code">get_notation_scale</a>( )
+<a href="source-class-ContentManagementConfig.php#104-107" title="Go to source code">get_notation_scale</a>( )
 						</code>
 
 							<div class="description short">
@@ -1291,7 +1287,7 @@
 					<div>
 						<a class="anchor" href="#_set_notation_scale">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#110-113" title="Go to source code">set_notation_scale</a>( <span> <var>$scale</var></span> )
+<a href="source-class-ContentManagementConfig.php#109-112" title="Go to source code">set_notation_scale</a>( <span> <var>$scale</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1326,7 +1322,7 @@
 					<div>
 						<a class="anchor" href="#_get_notation_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#115-118" title="Go to source code">get_notation_unauthorized_modules</a>( )
+<a href="source-class-ContentManagementConfig.php#114-117" title="Go to source code">get_notation_unauthorized_modules</a>( )
 						</code>
 
 							<div class="description short">
@@ -1361,7 +1357,7 @@
 					<div>
 						<a class="anchor" href="#_set_notation_unauthorized_modules">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#120-123" title="Go to source code">set_notation_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
+<a href="source-class-ContentManagementConfig.php#119-122" title="Go to source code">set_notation_unauthorized_modules</a>( <span>array <var>$modules</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1396,7 +1392,7 @@
 					<div>
 						<a class="anchor" href="#_is_content_sharing_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#125-128" title="Go to source code">is_content_sharing_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#124-127" title="Go to source code">is_content_sharing_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1431,7 +1427,7 @@
 					<div>
 						<a class="anchor" href="#_set_content_sharing_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#130-133" title="Go to source code">set_content_sharing_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#129-132" title="Go to source code">set_content_sharing_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1466,7 +1462,7 @@
 					<div>
 						<a class="anchor" href="#_is_content_sharing_email_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#135-138" title="Go to source code">is_content_sharing_email_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#134-137" title="Go to source code">is_content_sharing_email_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1501,7 +1497,7 @@
 					<div>
 						<a class="anchor" href="#_set_content_sharing_email_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#140-143" title="Go to source code">set_content_sharing_email_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#139-142" title="Go to source code">set_content_sharing_email_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1536,7 +1532,7 @@
 					<div>
 						<a class="anchor" href="#_is_content_sharing_print_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#145-148" title="Go to source code">is_content_sharing_print_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#144-147" title="Go to source code">is_content_sharing_print_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1571,7 +1567,7 @@
 					<div>
 						<a class="anchor" href="#_set_content_sharing_print_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#150-153" title="Go to source code">set_content_sharing_print_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#149-152" title="Go to source code">set_content_sharing_print_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1606,7 +1602,7 @@
 					<div>
 						<a class="anchor" href="#_is_content_sharing_sms_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#155-158" title="Go to source code">is_content_sharing_sms_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#154-157" title="Go to source code">is_content_sharing_sms_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1641,7 +1637,7 @@
 					<div>
 						<a class="anchor" href="#_set_content_sharing_sms_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#160-163" title="Go to source code">set_content_sharing_sms_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#159-162" title="Go to source code">set_content_sharing_sms_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1676,7 +1672,7 @@
 					<div>
 						<a class="anchor" href="#_is_opengraph_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#165-168" title="Go to source code">is_opengraph_enabled</a>( )
+<a href="source-class-ContentManagementConfig.php#164-167" title="Go to source code">is_opengraph_enabled</a>( )
 						</code>
 
 							<div class="description short">
@@ -1711,7 +1707,7 @@
 					<div>
 						<a class="anchor" href="#_set_opengraph_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#170-173" title="Go to source code">set_opengraph_enabled</a>( <span> <var>$enabled</var></span> )
+<a href="source-class-ContentManagementConfig.php#169-172" title="Go to source code">set_opengraph_enabled</a>( <span> <var>$enabled</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1746,7 +1742,7 @@
 					<div>
 						<a class="anchor" href="#_get_site_default_picture_url">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#175-178" title="Go to source code">get_site_default_picture_url</a>( )
+<a href="source-class-ContentManagementConfig.php#174-177" title="Go to source code">get_site_default_picture_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1781,7 +1777,7 @@
 					<div>
 						<a class="anchor" href="#_set_site_default_picture_url">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#180-183" title="Go to source code">set_site_default_picture_url</a>( <span> <var>$url</var></span> )
+<a href="source-class-ContentManagementConfig.php#179-182" title="Go to source code">set_site_default_picture_url</a>( <span> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1816,7 +1812,7 @@
 					<div>
 						<a class="anchor" href="#_module_new_content_is_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#185-188" title="Go to source code">module_new_content_is_enabled</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ContentManagementConfig.php#184-187" title="Go to source code">module_new_content_is_enabled</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1851,7 +1847,7 @@
 					<div>
 						<a class="anchor" href="#_module_new_content_is_enabled_and_check_date">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#190-193" title="Go to source code">module_new_content_is_enabled_and_check_date</a>( <span> <var>$module_id</var></span>, <span> <var>$date</var></span> )
+<a href="source-class-ContentManagementConfig.php#189-192" title="Go to source code">module_new_content_is_enabled_and_check_date</a>( <span> <var>$module_id</var></span>, <span> <var>$date</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1886,7 +1882,7 @@
 					<div>
 						<a class="anchor" href="#_module_notation_is_enabled">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#200-203" title="Go to source code">module_notation_is_enabled</a>( <span> <var>$module_id</var></span> )
+<a href="source-class-ContentManagementConfig.php#199-202" title="Go to source code">module_notation_is_enabled</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1921,7 +1917,7 @@
 					<div>
 						<a class="anchor" href="#_get_default_values">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#205-224" title="Go to source code">get_default_values</a>( )
+<a href="source-class-ContentManagementConfig.php#204-223" title="Go to source code">get_default_values</a>( )
 						</code>
 
 							<div class="description short">
@@ -1960,7 +1956,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#226-233" title="Go to source code">load</a>( )
+<a href="source-class-ContentManagementConfig.php#225-232" title="Go to source code">load</a>( )
 						</code>
 
 							<div class="description short">
@@ -1999,7 +1995,7 @@
 					<div>
 						<a class="anchor" href="#_save">#</a>
 						<code>
-<a href="source-class-ContentManagementConfig.php#235-241" title="Go to source code">save</a>( )
+<a href="source-class-ContentManagementConfig.php#234-240" title="Go to source code">save</a>( )
 						</code>
 
 							<div class="description short">
@@ -2059,7 +2055,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#19" title="Go to source code"><b>ANTI_FLOOD_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#18" title="Go to source code"><b>ANTI_FLOOD_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2083,7 +2079,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#20" title="Go to source code"><b>ANTI_FLOOD_DURATION</b></a>
+								<a href="source-class-ContentManagementConfig.php#19" title="Go to source code"><b>ANTI_FLOOD_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -2107,7 +2103,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#21" title="Go to source code"><b>USED_CAPTCHA_MODULE</b></a>
+								<a href="source-class-ContentManagementConfig.php#20" title="Go to source code"><b>USED_CAPTCHA_MODULE</b></a>
 							</code>
 
 							<div class="description short">
@@ -2131,7 +2127,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#22" title="Go to source code"><b>NEW_CONTENT_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#21" title="Go to source code"><b>NEW_CONTENT_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2155,7 +2151,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#23" title="Go to source code"><b>NEW_CONTENT_DURATION</b></a>
+								<a href="source-class-ContentManagementConfig.php#22" title="Go to source code"><b>NEW_CONTENT_DURATION</b></a>
 							</code>
 
 							<div class="description short">
@@ -2179,7 +2175,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#24" title="Go to source code"><b>NEW_CONTENT_UNAUTHORIZED_MODULES</b></a>
+								<a href="source-class-ContentManagementConfig.php#23" title="Go to source code"><b>NEW_CONTENT_UNAUTHORIZED_MODULES</b></a>
 							</code>
 
 							<div class="description short">
@@ -2203,7 +2199,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#25" title="Go to source code"><b>NOTATION_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#24" title="Go to source code"><b>NOTATION_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2227,7 +2223,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#26" title="Go to source code"><b>NOTATION_SCALE</b></a>
+								<a href="source-class-ContentManagementConfig.php#25" title="Go to source code"><b>NOTATION_SCALE</b></a>
 							</code>
 
 							<div class="description short">
@@ -2251,7 +2247,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#27" title="Go to source code"><b>NOTATION_UNAUTHORIZED_MODULES</b></a>
+								<a href="source-class-ContentManagementConfig.php#26" title="Go to source code"><b>NOTATION_UNAUTHORIZED_MODULES</b></a>
 							</code>
 
 							<div class="description short">
@@ -2275,7 +2271,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#28" title="Go to source code"><b>CONTENT_SHARING_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#27" title="Go to source code"><b>CONTENT_SHARING_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2299,7 +2295,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#29" title="Go to source code"><b>CONTENT_SHARING_EMAIL_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#28" title="Go to source code"><b>CONTENT_SHARING_EMAIL_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2323,7 +2319,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#30" title="Go to source code"><b>CONTENT_SHARING_PRINT_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#29" title="Go to source code"><b>CONTENT_SHARING_PRINT_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2347,7 +2343,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#31" title="Go to source code"><b>CONTENT_SHARING_SMS_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#30" title="Go to source code"><b>CONTENT_SHARING_SMS_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2371,7 +2367,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#32" title="Go to source code"><b>OPENGRAPH_ENABLED</b></a>
+								<a href="source-class-ContentManagementConfig.php#31" title="Go to source code"><b>OPENGRAPH_ENABLED</b></a>
 							</code>
 
 							<div class="description short">
@@ -2395,7 +2391,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-ContentManagementConfig.php#33" title="Go to source code"><b>SITE_DEFAULT_PICTURE_URL</b></a>
+								<a href="source-class-ContentManagementConfig.php#32" title="Go to source code"><b>SITE_DEFAULT_PICTURE_URL</b></a>
 							</code>
 
 							<div class="description short">

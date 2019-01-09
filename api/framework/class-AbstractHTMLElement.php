@@ -671,10 +671,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-Builder.php">Builder</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractHTMLElement.php#3-76" title="Go to source code">builder/AbstractHTMLElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractHTMLElement.php#3-75" title="Go to source code">builder/AbstractHTMLElement.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -737,7 +733,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -759,7 +755,7 @@
 					<div>
 						<a class="anchor" href="#_has_css_style">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#20-23" title="Go to source code">has_css_style</a>( )
+<a href="source-class-AbstractHTMLElement.php#19-22" title="Go to source code">has_css_style</a>( )
 						</code>
 
 							<div class="description short">
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_style">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#25-28" title="Go to source code">get_css_style</a>( )
+<a href="source-class-AbstractHTMLElement.php#24-27" title="Go to source code">get_css_style</a>( )
 						</code>
 
 							<div class="description short">
@@ -829,7 +825,7 @@
 					<div>
 						<a class="anchor" href="#_set_css_style">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#30-33" title="Go to source code">set_css_style</a>( <span> <var>$style</var></span> )
+<a href="source-class-AbstractHTMLElement.php#29-32" title="Go to source code">set_css_style</a>( <span> <var>$style</var></span> )
 						</code>
 
 							<div class="description short">
@@ -864,7 +860,7 @@
 					<div>
 						<a class="anchor" href="#_add_css_style">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#35-38" title="Go to source code">add_css_style</a>( <span> <var>$style</var></span> )
+<a href="source-class-AbstractHTMLElement.php#34-37" title="Go to source code">add_css_style</a>( <span> <var>$style</var></span> )
 						</code>
 
 							<div class="description short">
@@ -899,7 +895,7 @@
 					<div>
 						<a class="anchor" href="#_has_css_class">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#40-43" title="Go to source code">has_css_class</a>( )
+<a href="source-class-AbstractHTMLElement.php#39-42" title="Go to source code">has_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -934,7 +930,7 @@
 					<div>
 						<a class="anchor" href="#_get_css_class">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#45-48" title="Go to source code">get_css_class</a>( )
+<a href="source-class-AbstractHTMLElement.php#44-47" title="Go to source code">get_css_class</a>( )
 						</code>
 
 							<div class="description short">
@@ -969,7 +965,7 @@
 					<div>
 						<a class="anchor" href="#_set_css_class">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#50-53" title="Go to source code">set_css_class</a>( <span> <var>$class</var></span> )
+<a href="source-class-AbstractHTMLElement.php#49-52" title="Go to source code">set_css_class</a>( <span> <var>$class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1004,7 +1000,7 @@
 					<div>
 						<a class="anchor" href="#_add_css_class">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#55-58" title="Go to source code">add_css_class</a>( <span> <var>$class</var></span> )
+<a href="source-class-AbstractHTMLElement.php#54-57" title="Go to source code">add_css_class</a>( <span> <var>$class</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1039,7 +1035,7 @@
 					<div>
 						<a class="anchor" href="#_has_id">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#60-63" title="Go to source code">has_id</a>( )
+<a href="source-class-AbstractHTMLElement.php#59-62" title="Go to source code">has_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1074,7 +1070,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#65-68" title="Go to source code">get_id</a>( )
+<a href="source-class-AbstractHTMLElement.php#64-67" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@
 					<div>
 						<a class="anchor" href="#_set_id">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#70-73" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
+<a href="source-class-AbstractHTMLElement.php#69-72" title="Go to source code">set_id</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1144,7 +1140,7 @@
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-AbstractHTMLElement.php#75" title="Go to source code">display</a>( )
+<a href="source-class-AbstractHTMLElement.php#74" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -1206,7 +1202,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractHTMLElement.php#16" title="Go to source code"><var>$css_class</var></a>
+						<a href="source-class-AbstractHTMLElement.php#15" title="Go to source code"><var>$css_class</var></a>
 
 					<div class="description short">
 						
@@ -1233,7 +1229,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractHTMLElement.php#17" title="Go to source code"><var>$css_style</var></a>
+						<a href="source-class-AbstractHTMLElement.php#16" title="Go to source code"><var>$css_style</var></a>
 
 					<div class="description short">
 						
@@ -1260,7 +1256,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractHTMLElement.php#18" title="Go to source code"><var>$id</var></a>
+						<a href="source-class-AbstractHTMLElement.php#17" title="Go to source code"><var>$id</var></a>
 
 					<div class="description short">
 						

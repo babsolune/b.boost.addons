@@ -661,10 +661,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -692,7 +688,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PrivateMsg.php#3-194" title="Go to source code">phpboost/member/PrivateMsg.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PrivateMsg.php#3-193" title="Go to source code">phpboost/member/PrivateMsg.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -707,7 +703,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -729,7 +725,7 @@
 					<div>
 						<a class="anchor" href="#___static">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#26-29" title="Go to source code">__static</a>( )
+<a href="source-class-PrivateMsg.php#25-28" title="Go to source code">__static</a>( )
 						</code>
 
 							<div class="description short">
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_count_conversations">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#31-58" title="Go to source code">count_conversations</a>( <span>integer <var>$userid</var></span> )
+<a href="source-class-PrivateMsg.php#30-57" title="Go to source code">count_conversations</a>( <span>integer <var>$userid</var></span> )
 						</code>
 
 							<div class="description short">
@@ -808,7 +804,7 @@
 					<div>
 						<a class="anchor" href="#_start_conversation">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#61-87" title="Go to source code">start_conversation</a>( <span>integer <var>$pm_to</var></span>, <span>string <var>$pm_objet</var></span>, <span>string <var>$pm_contents</var></span>, <span>integer <var>$pm_from</var></span>, <span>boolean <var>$system_pm</var> = <span class="php-keyword1">false</span></span> )
+<a href="source-class-PrivateMsg.php#60-86" title="Go to source code">start_conversation</a>( <span>integer <var>$pm_to</var></span>, <span>string <var>$pm_objet</var></span>, <span>string <var>$pm_contents</var></span>, <span>integer <var>$pm_from</var></span>, <span>boolean <var>$system_pm</var> = <span class="php-keyword1">false</span></span> )
 						</code>
 
 							<div class="description short">
@@ -856,7 +852,7 @@
 					<div>
 						<a class="anchor" href="#_send">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#89-123" title="Go to source code">send</a>( <span>integer <var>$pm_to</var></span>, <span>integer <var>$pm_idconvers</var></span>, <span>string <var>$pm_contents</var></span>, <span>integer <var>$pm_from</var></span>, <span>integer <var>$pm_status</var></span>, <span>boolean <var>$check_pm_before_send</var> = <span class="php-keyword1">true</span></span> )
+<a href="source-class-PrivateMsg.php#88-122" title="Go to source code">send</a>( <span>integer <var>$pm_to</var></span>, <span>integer <var>$pm_idconvers</var></span>, <span>string <var>$pm_contents</var></span>, <span>integer <var>$pm_from</var></span>, <span>integer <var>$pm_status</var></span>, <span>boolean <var>$check_pm_before_send</var> = <span class="php-keyword1">true</span></span> )
 						</code>
 
 							<div class="description short">
@@ -906,7 +902,7 @@
 					<div>
 						<a class="anchor" href="#_delete_conversation">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#125-164" title="Go to source code">delete_conversation</a>( <span>integer <var>$pm_userid</var></span>, <span>integer <var>$pm_idconvers</var></span>, <span>integer <var>$pm_expd</var></span>, <span>boolean <var>$pm_del</var></span>, <span>boolean <var>$pm_update</var></span> )
+<a href="source-class-PrivateMsg.php#124-163" title="Go to source code">delete_conversation</a>( <span>integer <var>$pm_userid</var></span>, <span>integer <var>$pm_idconvers</var></span>, <span>integer <var>$pm_expd</var></span>, <span>boolean <var>$pm_del</var></span>, <span>boolean <var>$pm_update</var></span> )
 						</code>
 
 							<div class="description short">
@@ -954,7 +950,7 @@
 					<div>
 						<a class="anchor" href="#_delete">#</a>
 						<code>
-<a href="source-class-PrivateMsg.php#166-193" title="Go to source code">delete</a>( <span>integer <var>$pm_to</var></span>, <span>integer <var>$pm_idmsg</var></span>, <span>integer <var>$pm_idconvers</var></span> )
+<a href="source-class-PrivateMsg.php#165-192" title="Go to source code">delete</a>( <span>integer <var>$pm_to</var></span>, <span>integer <var>$pm_idmsg</var></span>, <span>integer <var>$pm_idconvers</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1013,7 +1009,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PrivateMsg.php#18" title="Go to source code"><b>NOCHECK_PM_BOX</b></a>
+								<a href="source-class-PrivateMsg.php#17" title="Go to source code"><b>NOCHECK_PM_BOX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1037,7 +1033,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PrivateMsg.php#19" title="Go to source code"><b>CHECK_PM_BOX</b></a>
+								<a href="source-class-PrivateMsg.php#18" title="Go to source code"><b>CHECK_PM_BOX</b></a>
 							</code>
 
 							<div class="description short">
@@ -1061,7 +1057,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PrivateMsg.php#20" title="Go to source code"><b>SYSTEM_PM</b></a>
+								<a href="source-class-PrivateMsg.php#19" title="Go to source code"><b>SYSTEM_PM</b></a>
 							</code>
 
 							<div class="description short">
@@ -1085,7 +1081,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PrivateMsg.php#21" title="Go to source code"><b>DEL_PM_CONVERS</b></a>
+								<a href="source-class-PrivateMsg.php#20" title="Go to source code"><b>DEL_PM_CONVERS</b></a>
 							</code>
 
 							<div class="description short">
@@ -1109,7 +1105,7 @@
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-PrivateMsg.php#22" title="Go to source code"><b>UPDATE_MBR_PM</b></a>
+								<a href="source-class-PrivateMsg.php#21" title="Go to source code"><b>UPDATE_MBR_PM</b></a>
 							</code>
 
 							<div class="description short">

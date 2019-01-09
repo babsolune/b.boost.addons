@@ -660,10 +660,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Update.php">Update</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -691,7 +687,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Application.php#3-334" title="Go to source code">phpboost/update/Application.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Application.php#3-333" title="Go to source code">phpboost/update/Application.class.php</a></span>
 			</div>
 
 
@@ -703,7 +699,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -725,7 +721,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Application.php#50-70" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$language</var></span>, <span> <var>$type</var> = self::MODULE_TYPE</span>, <span> <var>$version</var> = <span class="php-num">0</span></span>, <span> <var>$repository</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-Application.php#49-69" title="Go to source code">__construct</a>( <span> <var>$id</var></span>, <span> <var>$language</var></span>, <span> <var>$type</var> = self::MODULE_TYPE</span>, <span> <var>$version</var> = <span class="php-num">0</span></span>, <span> <var>$repository</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -773,7 +769,7 @@
 					<div>
 						<a class="anchor" href="#_load">#</a>
 						<code>
-<a href="source-class-Application.php#71-170" title="Go to source code">load</a>( <span> <var>$xml_desc</var></span> )
+<a href="source-class-Application.php#70-169" title="Go to source code">load</a>( <span> <var>$xml_desc</var></span> )
 						</code>
 
 							<div class="description short">
@@ -813,7 +809,7 @@
 					<div>
 						<a class="anchor" href="#_get_identifier">#</a>
 						<code>
-<a href="source-class-Application.php#171-178" title="Go to source code">get_identifier</a>( )
+<a href="source-class-Application.php#170-177" title="Go to source code">get_identifier</a>( )
 						</code>
 
 							<div class="description short">
@@ -852,7 +848,7 @@
 					<div>
 						<a class="anchor" href="#_check_compatibility">#</a>
 						<code>
-<a href="source-class-Application.php#179-197" title="Go to source code">check_compatibility</a>( )
+<a href="source-class-Application.php#178-196" title="Go to source code">check_compatibility</a>( )
 						</code>
 
 							<div class="description short">
@@ -891,7 +887,7 @@
 					<div>
 						<a class="anchor" href="#_get_id">#</a>
 						<code>
-<a href="source-class-Application.php#200-203" title="Go to source code">get_id</a>( )
+<a href="source-class-Application.php#199-202" title="Go to source code">get_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -926,7 +922,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-Application.php#204-207" title="Go to source code">get_name</a>( )
+<a href="source-class-Application.php#203-206" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -961,7 +957,7 @@
 					<div>
 						<a class="anchor" href="#_get_language">#</a>
 						<code>
-<a href="source-class-Application.php#208-211" title="Go to source code">get_language</a>( )
+<a href="source-class-Application.php#207-210" title="Go to source code">get_language</a>( )
 						</code>
 
 							<div class="description short">
@@ -996,7 +992,7 @@
 					<div>
 						<a class="anchor" href="#_get_localized_language">#</a>
 						<code>
-<a href="source-class-Application.php#212-215" title="Go to source code">get_localized_language</a>( )
+<a href="source-class-Application.php#211-214" title="Go to source code">get_localized_language</a>( )
 						</code>
 
 							<div class="description short">
@@ -1031,7 +1027,7 @@
 					<div>
 						<a class="anchor" href="#_get_type">#</a>
 						<code>
-<a href="source-class-Application.php#216-219" title="Go to source code">get_type</a>( )
+<a href="source-class-Application.php#215-218" title="Go to source code">get_type</a>( )
 						</code>
 
 							<div class="description short">
@@ -1066,7 +1062,7 @@
 					<div>
 						<a class="anchor" href="#_get_repository">#</a>
 						<code>
-<a href="source-class-Application.php#220-223" title="Go to source code">get_repository</a>( )
+<a href="source-class-Application.php#219-222" title="Go to source code">get_repository</a>( )
 						</code>
 
 							<div class="description short">
@@ -1101,7 +1097,7 @@
 					<div>
 						<a class="anchor" href="#_get_version">#</a>
 						<code>
-<a href="source-class-Application.php#224-227" title="Go to source code">get_version</a>( )
+<a href="source-class-Application.php#223-226" title="Go to source code">get_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1136,7 +1132,7 @@
 					<div>
 						<a class="anchor" href="#_get_compatibility_min">#</a>
 						<code>
-<a href="source-class-Application.php#228-231" title="Go to source code">get_compatibility_min</a>( )
+<a href="source-class-Application.php#227-230" title="Go to source code">get_compatibility_min</a>( )
 						</code>
 
 							<div class="description short">
@@ -1171,7 +1167,7 @@
 					<div>
 						<a class="anchor" href="#_get_compatibility_max">#</a>
 						<code>
-<a href="source-class-Application.php#232-235" title="Go to source code">get_compatibility_max</a>( )
+<a href="source-class-Application.php#231-234" title="Go to source code">get_compatibility_max</a>( )
 						</code>
 
 							<div class="description short">
@@ -1206,7 +1202,7 @@
 					<div>
 						<a class="anchor" href="#_get_pubdate">#</a>
 						<code>
-<a href="source-class-Application.php#236-239" title="Go to source code">get_pubdate</a>( )
+<a href="source-class-Application.php#235-238" title="Go to source code">get_pubdate</a>( )
 						</code>
 
 							<div class="description short">
@@ -1241,7 +1237,7 @@
 					<div>
 						<a class="anchor" href="#_get_priority">#</a>
 						<code>
-<a href="source-class-Application.php#240-243" title="Go to source code">get_priority</a>( )
+<a href="source-class-Application.php#239-242" title="Go to source code">get_priority</a>( )
 						</code>
 
 							<div class="description short">
@@ -1276,7 +1272,7 @@
 					<div>
 						<a class="anchor" href="#_get_security_update">#</a>
 						<code>
-<a href="source-class-Application.php#244-247" title="Go to source code">get_security_update</a>( )
+<a href="source-class-Application.php#243-246" title="Go to source code">get_security_update</a>( )
 						</code>
 
 							<div class="description short">
@@ -1311,7 +1307,7 @@
 					<div>
 						<a class="anchor" href="#_get_download_url">#</a>
 						<code>
-<a href="source-class-Application.php#248-251" title="Go to source code">get_download_url</a>( )
+<a href="source-class-Application.php#247-250" title="Go to source code">get_download_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1346,7 +1342,7 @@
 					<div>
 						<a class="anchor" href="#_get_update_url">#</a>
 						<code>
-<a href="source-class-Application.php#252-255" title="Go to source code">get_update_url</a>( )
+<a href="source-class-Application.php#251-254" title="Go to source code">get_update_url</a>( )
 						</code>
 
 							<div class="description short">
@@ -1381,7 +1377,7 @@
 					<div>
 						<a class="anchor" href="#_get_authors">#</a>
 						<code>
-<a href="source-class-Application.php#256-259" title="Go to source code">get_authors</a>( )
+<a href="source-class-Application.php#255-258" title="Go to source code">get_authors</a>( )
 						</code>
 
 							<div class="description short">
@@ -1416,7 +1412,7 @@
 					<div>
 						<a class="anchor" href="#_get_description">#</a>
 						<code>
-<a href="source-class-Application.php#260-263" title="Go to source code">get_description</a>( )
+<a href="source-class-Application.php#259-262" title="Go to source code">get_description</a>( )
 						</code>
 
 							<div class="description short">
@@ -1451,7 +1447,7 @@
 					<div>
 						<a class="anchor" href="#_get_new_features">#</a>
 						<code>
-<a href="source-class-Application.php#264-267" title="Go to source code">get_new_features</a>( )
+<a href="source-class-Application.php#263-266" title="Go to source code">get_new_features</a>( )
 						</code>
 
 							<div class="description short">
@@ -1486,7 +1482,7 @@
 					<div>
 						<a class="anchor" href="#_get_improvements">#</a>
 						<code>
-<a href="source-class-Application.php#268-271" title="Go to source code">get_improvements</a>( )
+<a href="source-class-Application.php#267-270" title="Go to source code">get_improvements</a>( )
 						</code>
 
 							<div class="description short">
@@ -1521,7 +1517,7 @@
 					<div>
 						<a class="anchor" href="#_get_bug_corrections">#</a>
 						<code>
-<a href="source-class-Application.php#272-275" title="Go to source code">get_bug_corrections</a>( )
+<a href="source-class-Application.php#271-274" title="Go to source code">get_bug_corrections</a>( )
 						</code>
 
 							<div class="description short">
@@ -1556,7 +1552,7 @@
 					<div>
 						<a class="anchor" href="#_get_security_improvements">#</a>
 						<code>
-<a href="source-class-Application.php#276-279" title="Go to source code">get_security_improvements</a>( )
+<a href="source-class-Application.php#275-278" title="Go to source code">get_security_improvements</a>( )
 						</code>
 
 							<div class="description short">
@@ -1591,7 +1587,7 @@
 					<div>
 						<a class="anchor" href="#_get_warning_level">#</a>
 						<code>
-<a href="source-class-Application.php#280-283" title="Go to source code">get_warning_level</a>( )
+<a href="source-class-Application.php#279-282" title="Go to source code">get_warning_level</a>( )
 						</code>
 
 							<div class="description short">
@@ -1626,7 +1622,7 @@
 					<div>
 						<a class="anchor" href="#_get_warning">#</a>
 						<code>
-<a href="source-class-Application.php#284-287" title="Go to source code">get_warning</a>( )
+<a href="source-class-Application.php#283-286" title="Go to source code">get_warning</a>( )
 						</code>
 
 							<div class="description short">
@@ -1672,7 +1668,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Application.php#46" title="Go to source code"><b>KERNEL_TYPE</b></a>
+								<a href="source-class-Application.php#45" title="Go to source code"><b>KERNEL_TYPE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1696,7 +1692,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Application.php#47" title="Go to source code"><b>MODULE_TYPE</b></a>
+								<a href="source-class-Application.php#46" title="Go to source code"><b>MODULE_TYPE</b></a>
 							</code>
 
 							<div class="description short">
@@ -1720,7 +1716,7 @@
 						<td class="attributes"><code>string</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-Application.php#48" title="Go to source code"><b>TEMPLATE_TYPE</b></a>
+								<a href="source-class-Application.php#47" title="Go to source code"><b>TEMPLATE_TYPE</b></a>
 							</code>
 
 							<div class="description short">

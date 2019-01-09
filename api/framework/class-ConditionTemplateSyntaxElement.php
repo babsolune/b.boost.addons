@@ -691,10 +691,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Template.php">Template</a>\<a href="package-IO.Template.parser.php">parser</a>\<a href="package-IO.Template.parser.syntax.php">syntax</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 07 10
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ConditionTemplateSyntaxElement.php#3-76" title="Go to source code">io/template/parser/syntax/ConditionTemplateSyntaxElement.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ConditionTemplateSyntaxElement.php#3-75" title="Go to source code">io/template/parser/syntax/ConditionTemplateSyntaxElement.class.php</a></span>
 			</div>
 
 
@@ -742,7 +738,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -764,7 +760,7 @@
 					<div>
 						<a class="anchor" href="#_is_element">#</a>
 						<code>
-<a href="source-class-ConditionTemplateSyntaxElement.php#17-20" title="Go to source code">is_element</a>( <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span> )
+<a href="source-class-ConditionTemplateSyntaxElement.php#16-19" title="Go to source code">is_element</a>( <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span> )
 						</code>
 
 							<div class="description short">
@@ -799,7 +795,7 @@
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-ConditionTemplateSyntaxElement.php#22-32" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
+<a href="source-class-ConditionTemplateSyntaxElement.php#21-31" title="Go to source code">parse</a>( <span><code><a href="class-TemplateSyntaxParserContext.php">TemplateSyntaxParserContext</a></code> <var>$context</var></span>, <span><code><a href="class-StringInputStream.php">StringInputStream</a></code> <var>$input</var></span>, <span><code><a href="class-StringOutputStream.php">StringOutputStream</a></code> <var>$output</var></span> )
 						</code>
 
 							<div class="description short">

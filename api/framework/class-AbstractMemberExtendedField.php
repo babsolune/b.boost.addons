@@ -697,10 +697,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.extended.fields.php">extended-fields</a>\<a href="package-PHPBoost.Member.extended.fields.field.php">field</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -732,7 +728,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractMemberExtendedField.php#3-195" title="Go to source code">phpboost/member/extended-fields/field/AbstractMemberExtendedField.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AbstractMemberExtendedField.php#3-194" title="Go to source code">phpboost/member/extended-fields/field/AbstractMemberExtendedField.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -772,7 +768,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -794,7 +790,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#26-35" title="Go to source code">__construct</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#25-34" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -833,7 +829,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_create">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#37-44" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#36-43" title="Go to source code">display_field_create</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -875,7 +871,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_update">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#46-53" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#45-52" title="Go to source code">display_field_update</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -917,7 +913,7 @@
 					<div>
 						<a class="anchor" href="#_delete_field">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#55-58" title="Go to source code">delete_field</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#54-57" title="Go to source code">delete_field</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -959,7 +955,7 @@
 					<div>
 						<a class="anchor" href="#_display_field_profile">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#60-69" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#59-68" title="Go to source code">display_field_profile</a>( <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +997,7 @@
 					<div>
 						<a class="anchor" href="#_get_data">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#71-78" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#70-77" title="Go to source code">get_data</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span>, <span><code><a href="class-MemberExtendedField.php">MemberExtendedField</a></code> <var>$member_extended_field</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1045,7 +1041,7 @@
 					<div>
 						<a class="anchor" href="#_constraint">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#80-104" title="Go to source code">constraint</a>( <span> <var>$value</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#79-103" title="Go to source code">constraint</a>( <span> <var>$value</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1086,7 +1082,7 @@
 					<div>
 						<a class="anchor" href="#_set_disable_fields_configuration">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#106-144" title="Go to source code">set_disable_fields_configuration</a>( <span>array <var>$names</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#105-143" title="Go to source code">set_disable_fields_configuration</a>( <span>array <var>$names</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1123,7 +1119,7 @@
 					<div>
 						<a class="anchor" href="#_get_disable_fields_configuration">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#146-152" title="Go to source code">get_disable_fields_configuration</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#145-151" title="Go to source code">get_disable_fields_configuration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1164,7 +1160,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_used_once">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#154-160" title="Go to source code">get_field_used_once</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#153-159" title="Go to source code">get_field_used_once</a>( )
 						</code>
 
 							<div class="description short">
@@ -1205,7 +1201,7 @@
 					<div>
 						<a class="anchor" href="#_set_name">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#162-168" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#161-167" title="Go to source code">set_name</a>( <span> <var>$name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1242,7 +1238,7 @@
 					<div>
 						<a class="anchor" href="#_get_name">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#170-176" title="Go to source code">get_name</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#169-175" title="Go to source code">get_name</a>( )
 						</code>
 
 							<div class="description short">
@@ -1283,7 +1279,7 @@
 					<div>
 						<a class="anchor" href="#_get_field_used_phpboost_configuration">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#178-184" title="Go to source code">get_field_used_phpboost_configuration</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#177-183" title="Go to source code">get_field_used_phpboost_configuration</a>( )
 						</code>
 
 							<div class="description short">
@@ -1324,7 +1320,7 @@
 					<div>
 						<a class="anchor" href="#_set_form">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#186-189" title="Go to source code">set_form</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
+<a href="source-class-AbstractMemberExtendedField.php#185-188" title="Go to source code">set_form</a>( <span><code><a href="class-HTMLForm.php">HTMLForm</a></code> <var>$form</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1359,7 +1355,7 @@
 					<div>
 						<a class="anchor" href="#_get_form">#</a>
 						<code>
-<a href="source-class-AbstractMemberExtendedField.php#191-194" title="Go to source code">get_form</a>( )
+<a href="source-class-AbstractMemberExtendedField.php#190-193" title="Go to source code">get_form</a>( )
 						</code>
 
 							<div class="description short">
@@ -1415,7 +1411,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#19" title="Go to source code"><var>$lang</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#18" title="Go to source code"><var>$lang</var></a>
 
 					<div class="description short">
 						
@@ -1442,7 +1438,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#20" title="Go to source code"><var>$form</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#19" title="Go to source code"><var>$form</var></a>
 
 					<div class="description short">
 						
@@ -1469,7 +1465,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#21" title="Go to source code"><var>$field_used_once</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#20" title="Go to source code"><var>$field_used_once</var></a>
 
 					<div class="description short">
 						
@@ -1496,7 +1492,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#22" title="Go to source code"><var>$field_used_phpboost_config</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#21" title="Go to source code"><var>$field_used_phpboost_config</var></a>
 
 					<div class="description short">
 						
@@ -1523,7 +1519,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#23" title="Go to source code"><var>$disable_fields_configuration</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#22" title="Go to source code"><var>$disable_fields_configuration</var></a>
 
 					<div class="description short">
 						
@@ -1550,7 +1546,7 @@
 				</td>
 
 				<td class="name">
-						<a href="source-class-AbstractMemberExtendedField.php#24" title="Go to source code"><var>$name</var></a>
+						<a href="source-class-AbstractMemberExtendedField.php#23" title="Go to source code"><var>$name</var></a>
 
 					<div class="description short">
 						

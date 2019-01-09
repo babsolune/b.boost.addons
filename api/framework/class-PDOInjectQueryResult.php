@@ -675,10 +675,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.DB.php">DB</a>\<a href="package-IO.DB.driver.php">driver</a>\<a href="package-IO.DB.driver.pdo.php">pdo</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -698,7 +694,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2009 11 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDOInjectQueryResult.php#3-66" title="Go to source code">io/db/driver/pdo/PDOInjectQueryResult.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-PDOInjectQueryResult.php#3-65" title="Go to source code">io/db/driver/pdo/PDOInjectQueryResult.class.php</a></span>
 			</div>
 
 
@@ -728,7 +724,7 @@
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -750,7 +746,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-PDOInjectQueryResult.php#35-41" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span>PDOStatement <var>$statement</var></span>, <span>PDO <var>$pdo</var></span> )
+<a href="source-class-PDOInjectQueryResult.php#34-40" title="Go to source code">__construct</a>( <span> <var>$query</var></span>, <span> <var>$parameters</var></span>, <span>PDOStatement <var>$statement</var></span>, <span>PDO <var>$pdo</var></span> )
 						</code>
 
 							<div class="description short">
@@ -787,7 +783,7 @@
 					<div>
 						<a class="anchor" href="#___destruct">#</a>
 						<code>
-<a href="source-class-PDOInjectQueryResult.php#43-46" title="Go to source code">__destruct</a>( )
+<a href="source-class-PDOInjectQueryResult.php#42-45" title="Go to source code">__destruct</a>( )
 						</code>
 
 							<div class="description short">
@@ -822,7 +818,7 @@
 					<div>
 						<a class="anchor" href="#_get_last_inserted_id">#</a>
 						<code>
-<a href="source-class-PDOInjectQueryResult.php#48-51" title="Go to source code">get_last_inserted_id</a>( )
+<a href="source-class-PDOInjectQueryResult.php#47-50" title="Go to source code">get_last_inserted_id</a>( )
 						</code>
 
 							<div class="description short">
@@ -863,7 +859,7 @@
 					<div>
 						<a class="anchor" href="#_get_affected_rows">#</a>
 						<code>
-<a href="source-class-PDOInjectQueryResult.php#53-56" title="Go to source code">get_affected_rows</a>( )
+<a href="source-class-PDOInjectQueryResult.php#52-55" title="Go to source code">get_affected_rows</a>( )
 						</code>
 
 							<div class="description short">
@@ -904,7 +900,7 @@
 					<div>
 						<a class="anchor" href="#_dispose">#</a>
 						<code>
-<a href="source-class-PDOInjectQueryResult.php#58-65" title="Go to source code">dispose</a>( )
+<a href="source-class-PDOInjectQueryResult.php#57-64" title="Go to source code">dispose</a>( )
 						</code>
 
 							<div class="description short">

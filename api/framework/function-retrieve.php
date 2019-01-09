@@ -680,10 +680,6 @@
 							Retrieves an input variable. You can retrieve any parameter of the HTTP request which launched the execution of this page.
 						</span>
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -713,7 +709,7 @@
 						</span>
 					<span class="infos-options">
 						<b>Located at</b>
-						<a href="source-function-retrieve.php#38-145" title="Go to source code">
+						<a href="source-function-retrieve.php#37-144" title="Go to source code">
 							helper/deprecated_helper.inc.php
 						</a>
 				</span>

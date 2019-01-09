@@ -687,10 +687,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-IO.php">IO</a>\<a href="package-IO.Data.php">Data</a>\<a href="package-IO.Data.store.php">store</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -714,7 +710,7 @@
 							<b>Contributor:</b>
 							Loic ROUCHON <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;:&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#104;&#111;&#114;&#x6e;&#x40;&#x70;&#104;&#112;&#98;&#111;&#x6f;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-DataStoreException.php#3-20" title="Go to source code">io/data/store/DataStoreException.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-DataStoreException.php#3-19" title="Go to source code">io/data/store/DataStoreException.class.php</a></span>
 			</div>
 
 
@@ -741,7 +737,7 @@ Exception
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -763,7 +759,7 @@ Exception
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-DataStoreException.php#16-19" title="Go to source code">__construct</a>( <span> <var>$id</var></span> )
+<a href="source-class-DataStoreException.php#15-18" title="Go to source code">__construct</a>( <span> <var>$id</var></span> )
 						</code>
 
 							<div class="description short">

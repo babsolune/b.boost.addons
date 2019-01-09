@@ -663,10 +663,6 @@
 				<span class="infos-options"><b>Package:</b> <a href="package-PHPBoost.php">PHPBoost</a>\<a href="package-PHPBoost.Member.php">Member</a>\<a href="package-PHPBoost.Member.authorization.php">authorization</a></span>
 
 						<span class="infos-options">
-							<b>Category:</b>
-							Framework
-						</span>
-						<span class="infos-options">
 							<b>Copyright:</b>
 							&copy; 2005-2019 PHPBoost
 						</span>
@@ -686,7 +682,7 @@
 							<b>Since:</b>
 							PHPBoost 3.0 - 2010 03 01
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthorizationsSettings.php#3-95" title="Go to source code">phpboost/member/authorization/AuthorizationsSettings.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AuthorizationsSettings.php#3-94" title="Go to source code">phpboost/member/authorization/AuthorizationsSettings.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -708,7 +704,7 @@ associated authorizations.</p>
 
 
 		</div>
-		
+
 		<div class="content">
 
 
@@ -730,7 +726,7 @@ associated authorizations.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-AuthorizationsSettings.php#26-33" title="Go to source code">__construct</a>( <span>array <var>$actions</var> = <span class="php-keyword1">array</span>()</span> )
+<a href="source-class-AuthorizationsSettings.php#25-32" title="Go to source code">__construct</a>( <span>array <var>$actions</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -770,7 +766,7 @@ associated authorizations.</p>
 					<div>
 						<a class="anchor" href="#_get_actions">#</a>
 						<code>
-<a href="source-class-AuthorizationsSettings.php#35-42" title="Go to source code">get_actions</a>( )
+<a href="source-class-AuthorizationsSettings.php#34-41" title="Go to source code">get_actions</a>( )
 						</code>
 
 							<div class="description short">
@@ -809,7 +805,7 @@ associated authorizations.</p>
 					<div>
 						<a class="anchor" href="#_add_action">#</a>
 						<code>
-<a href="source-class-AuthorizationsSettings.php#44-51" title="Go to source code">add_action</a>( <span><code><a href="class-ActionAuthorization.php">ActionAuthorization</a></code> <var>$action</var></span> )
+<a href="source-class-AuthorizationsSettings.php#43-50" title="Go to source code">add_action</a>( <span><code><a href="class-ActionAuthorization.php">ActionAuthorization</a></code> <var>$action</var></span> )
 						</code>
 
 							<div class="description short">
@@ -849,7 +845,7 @@ associated authorizations.</p>
 					<div>
 						<a class="anchor" href="#_build_auth_array">#</a>
 						<code>
-<a href="source-class-AuthorizationsSettings.php#53-67" title="Go to source code">build_auth_array</a>( )
+<a href="source-class-AuthorizationsSettings.php#52-66" title="Go to source code">build_auth_array</a>( )
 						</code>
 
 							<div class="description short">
@@ -892,7 +888,7 @@ check authorizations.</p>
 					<div>
 						<a class="anchor" href="#_build_from_auth_array">#</a>
 						<code>
-<a href="source-class-AuthorizationsSettings.php#84-94" title="Go to source code">build_from_auth_array</a>( <span>array <var>$auth_array</var></span> )
+<a href="source-class-AuthorizationsSettings.php#83-93" title="Go to source code">build_from_auth_array</a>( <span>array <var>$auth_array</var></span> )
 						</code>
 
 							<div class="description short">
