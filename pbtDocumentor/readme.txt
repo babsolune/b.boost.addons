@@ -49,6 +49,15 @@ https://github.com/PHPBoost/PHPBoost/tree/master/kernel/framework
  * @author      Bruno MERCIER <aiglobulles@gmail.com>
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
  * @author      Arnaud GENET <elenwii@phpboost.com>
+ * @author      Patrick DUBEAU <daaxwizeman@gmail.com>
+ * @author      Alain091 <alain091@gmail.com>
+ * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
+ * @author      Nicolas MAUREL <crunchfamily@free.fr>
+ * @author      PaperToss <t0ssp4p3r@gmail.com>
+ * @author      Geoffrey ROGUELON <liaght@gmail.com>
+ * @author      xela <xela@phpboost.com>
+
+/* --- contributors --- */
 
  * @contributor Firstname LASTNAME <nickname@email.com>
  * @contributor Regis VIARRE <crowkait@phpboost.com>
@@ -60,17 +69,10 @@ https://github.com/PHPBoost/PHPBoost/tree/master/kernel/framework
  * @contributor Arnaud GENET <elenwii@phpboost.com>
  * @contributor mipel <mipel@phpboost.com>
  * @contributor janus57 <janus57@janus57.fr>
- * @contributor xela <xela@phpboost.com>
  * @contributor Sebastien LARTIGUE <babsolune@phpboost.com>
+ * @contributor xela <xela@phpboost.com>
  * @contributor ph-7 <me@ph7.me>
-
-/* --- Autres --- */
-
- * @author      Patrick DUBEAU <daaxwizeman@gmail.com>
- * @author      Alain091 <alain091@gmail.com>
- * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
- * @author      Nicolas MAUREL <crunchfamily@free.fr>
- * @author      PaperToss <t0ssp4p3r@gmail.com>
+ * @contributor Pierre Pelisset <ppelisset@hotmail.fr>
 
 /* --- Date des versions
 ----------------------------------------------------------------------------- */
