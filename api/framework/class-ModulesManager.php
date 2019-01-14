@@ -688,7 +688,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 10 10
+							PHPBoost 5.2 - last update: 2019 01 12
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -706,7 +706,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesManager.php#3-523" title="Go to source code">phpboost/module/ModulesManager.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ModulesManager.php#3-531" title="Go to source code">phpboost/module/ModulesManager.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -1414,6 +1414,41 @@ sorted by name</p>
 					</div>
 				</td>
 			</tr>
+			<tr data-order="set_module_activation" id="_set_module_activation">
+
+				<td class="attributes">
+					<code>
+						 public static
+
+						
+						
+					</code>
+				</td>
+
+				<td class="name">
+					<div>
+						<a class="anchor" href="#_set_module_activation">#</a>
+						<code>
+<a href="source-class-ModulesManager.php#456-462" title="Go to source code">set_module_activation</a>( <span> <var>$module_id</var></span>, <span>boolean <var>$activated</var></span> )
+						</code>
+
+							<div class="description short">
+								
+							</div>
+
+						<div class="description detailed hidden">
+							
+
+
+
+
+
+
+
+						</div>
+					</div>
+				</td>
+			</tr>
 			<tr data-order="generate_unauthorized_module_option" id="_generate_unauthorized_module_option">
 
 				<td class="attributes">
@@ -1429,7 +1464,7 @@ sorted by name</p>
 					<div>
 						<a class="anchor" href="#_generate_unauthorized_module_option">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#507-521" title="Go to source code">generate_unauthorized_module_option</a>( <span> <var>$type</var></span> )
+<a href="source-class-ModulesManager.php#515-529" title="Go to source code">generate_unauthorized_module_option</a>( <span> <var>$type</var></span> )
 						</code>
 
 							<div class="description short">

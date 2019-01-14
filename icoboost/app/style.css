@@ -1,0 +1,18 @@
+body {}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    white-space: normal;
+    overflow-x: auto;
+}
+
+@media (min-width: 769px) {
+    .row {
+        flex-direction: row;
+    }
+    .left  { width: 25%; }
+    .right { width: 75%; }
+}

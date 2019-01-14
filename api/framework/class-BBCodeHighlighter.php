@@ -690,7 +690,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2017 02 23
+							PHPBoost 5.2 - last update: 2019 01 13
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -708,7 +708,11 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-BBCodeHighlighter.php#3-122" title="Go to source code">content/formatting/parser/BBCodeHighlighter.class.php</a></span>
+						<span class="infos-options">
+							<b>Contributor:</b>
+							xela <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x78;e&#108;&#x61;&#64;&#112;&#x68;&#112;&#98;&#x6f;&#111;&#115;&#x74;&#46;&#99;&#x6f;&#109;">&#x78;e&#108;&#x61;&#64;&#112;&#x68;&#112;&#98;&#x6f;&#111;&#115;&#x74;&#46;&#99;&#x6f;&#109;</a>
+						</span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-BBCodeHighlighter.php#3-123" title="Go to source code">content/formatting/parser/BBCodeHighlighter.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -762,7 +766,7 @@ It supplies the highlighted code written in XHTML.</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-BBCodeHighlighter.php#38-45" title="Go to source code">__construct</a>( )
+<a href="source-class-BBCodeHighlighter.php#39-46" title="Go to source code">__construct</a>( )
 						</code>
 
 							<div class="description short">
@@ -799,7 +803,7 @@ It supplies the highlighted code written in XHTML.</p>
 					<div>
 						<a class="anchor" href="#_parse">#</a>
 						<code>
-<a href="source-class-BBCodeHighlighter.php#47-106" title="Go to source code">parse</a>( <span>boolean <var>$inline_code</var> = self::BBCODE_HIGHLIGHTER_BLOCK_CODE</span> )
+<a href="source-class-BBCodeHighlighter.php#48-107" title="Go to source code">parse</a>( <span>boolean <var>$inline_code</var> = self::BBCODE_HIGHLIGHTER_BLOCK_CODE</span> )
 						</code>
 
 							<div class="description short">
@@ -873,7 +877,7 @@ It supplies the highlighted code written in XHTML.</p>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-BBCodeHighlighter.php#19" title="Go to source code"><b>BBCODE_HIGHLIGHTER_INLINE_CODE</b></a>
+								<a href="source-class-BBCodeHighlighter.php#20" title="Go to source code"><b>BBCODE_HIGHLIGHTER_INLINE_CODE</b></a>
 							</code>
 
 							<div class="description short">
@@ -897,7 +901,7 @@ It supplies the highlighted code written in XHTML.</p>
 						<td class="attributes"><code>boolean</code></td>
 						<td class="name">
 							<code>
-								<a href="source-class-BBCodeHighlighter.php#20" title="Go to source code"><b>BBCODE_HIGHLIGHTER_BLOCK_CODE</b></a>
+								<a href="source-class-BBCodeHighlighter.php#21" title="Go to source code"><b>BBCODE_HIGHLIGHTER_BLOCK_CODE</b></a>
 							</code>
 
 							<div class="description short">
