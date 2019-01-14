@@ -4,7 +4,7 @@
     require_once('app/apiParser.php');
 
     // Set enough time to execute the whole script
-    set_time_limit(180);
+    set_time_limit(300);
     // Unload the framework folder
     unloadFolder('framework');
     $resources = 'framework/resources';
