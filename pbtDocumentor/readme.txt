@@ -116,3 +116,35 @@ par contre on peut utiliser le langage HTML dans la description. attention toute
  * @since       version de pbt quand le fichier est créé - date de création du fichier
  * @contributor Firstname LASTNAME <nickname@email.com>
 */
+
+    config.ini Modules
+
+author                 = "DaaX"
+author_mail            = "daaxwizeman@gmail.com"
+author_website         = "https://www.phpboost.com"
+date                   = "07/03/2013"
+version                = "5.2.0"
+compatibility          = "5.2"
+admin_menu             = "modules"
+home_page              = "index.php"
+admin_main_page        = "index.php?url=/admin"
+contribution_interface = "index.php?url=/add"
+enabled_features       = "comments, notation, newcontent"
+repository             = "https://dl.phpboost.com/unofficial_modules.xml"
+rewrite_rules[]        = "RewriteRule ^...."
+
+    config.ini Themes
+
+author            = "PHPBoost"
+author_mail       = "contact@phpboost.com"
+author_link       = "https://www.phpboost.com"
+version           = "5.2.0"
+compatibility     = "5.2"
+date              = "24/02/2016"
+require_copyright = "0"
+html_version      = "5.0 Strict"
+css_version       = "3.0"
+columns_disabled  = "right"
+variable_width    = "0"
+width             = "1024px"
+pictures          = "theme/images/theme.jpg,theme/images/admin.jpg"
