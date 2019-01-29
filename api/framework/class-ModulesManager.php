@@ -1414,7 +1414,7 @@ sorted by name</p>
 					</div>
 				</td>
 			</tr>
-			<tr data-order="set_module_activation" id="_set_module_activation">
+			<tr data-order="execute_module_installation" id="_execute_module_installation">
 
 				<td class="attributes">
 					<code>
@@ -1427,9 +1427,9 @@ sorted by name</p>
 
 				<td class="name">
 					<div>
-						<a class="anchor" href="#_set_module_activation">#</a>
+						<a class="anchor" href="#_execute_module_installation">#</a>
 						<code>
-<a href="source-class-ModulesManager.php#456-462" title="Go to source code">set_module_activation</a>( <span> <var>$module_id</var></span>, <span>boolean <var>$activated</var></span> )
+<a href="source-class-ModulesManager.php#464-476" title="Go to source code">execute_module_installation</a>( <span> <var>$module_id</var></span> )
 						</code>
 
 							<div class="description short">

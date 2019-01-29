@@ -727,7 +727,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2016 10 24
+							PHPBoost 5.2 - last update: 2019 01 24
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -737,7 +737,11 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldHTML.php#3-44" title="Go to source code">builder/form/field/FormFieldHTML.class.php</a></span>
+						<span class="infos-options">
+							<b>Contributor:</b>
+							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
+						</span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-FormFieldHTML.php#3-47" title="Go to source code">builder/form/field/FormFieldHTML.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -794,7 +798,7 @@ It provides you additionnal field options :</p>
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-FormFieldHTML.php#21-24" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$value</var></span>, <span>mixed <var>$value</var>,…</span> )
+<a href="source-class-FormFieldHTML.php#22-25" title="Go to source code">__construct</a>( <span>string <var>$id</var></span>, <span>string <var>$value</var></span>, <span>array <var>$properties</var> = <span class="php-keyword1">array</span>()</span> )
 						</code>
 
 							<div class="description short">
@@ -826,8 +830,8 @@ The specific parameters of this abstract class (common with many fields) are the
 									<dd>Field identifier</dd>
 									<dt><var>$value</var></dt>
 									<dd>$label Field label</dd>
-									<dt><var>$value</var>,…</dt>
-									<dd>Field value</dd>
+									<dt><var>$properties</var></dt>
+									<dd>$value Field value</dd>
 								</dl></div>
 
 
@@ -855,7 +859,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-FormFieldHTML.php#26-38" title="Go to source code">display</a>( )
+<a href="source-class-FormFieldHTML.php#27-41" title="Go to source code">display</a>( )
 						</code>
 
 							<div class="description short">
@@ -894,7 +898,7 @@ The specific parameters of this abstract class (common with many fields) are the
 					<div>
 						<a class="anchor" href="#_get_default_template">#</a>
 						<code>
-<a href="source-class-FormFieldHTML.php#40-43" title="Go to source code">get_default_template</a>( )
+<a href="source-class-FormFieldHTML.php#43-46" title="Go to source code">get_default_template</a>( )
 						</code>
 
 							<div class="description short">

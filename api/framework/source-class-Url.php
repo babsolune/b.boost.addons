@@ -1310,7 +1310,7 @@
 </span></span><span id="13" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
 </span></span><span id="14" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
 </span></span><span id="15" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
-</span></span><span id="16" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 09 18
+</span></span><span id="16" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2019 01 22
 </span></span><span id="17" class="l"><span class="php-comment"> * @since       PHPBoost 2.0 - 2009 01 14
 </span></span><span id="18" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="19" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
@@ -1502,7 +1502,7 @@
 </span><span id="205" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> encode_rewrite(<span class="php-var">$url</span>)
 </span><span id="206" class="l">    {
 </span><span id="207" class="l">        <span class="php-var">$url</span> = <span class="php-keyword2">utf8_decode</span>(TextHelper::<span class="php-keyword2">html_entity_decode</span>(<span class="php-var">$url</span>));
-</span><span id="208" class="l">        <span class="php-var">$url</span> = TextHelper::<span class="php-keyword2">strtolower</span>(<span class="php-keyword2">strtr</span>(<span class="php-var">$url</span>, <span class="php-keyword2">utf8_decode</span>(<span class="php-quote">'²ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöø°ÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ()[]\'&quot;~$&amp;%*@ç!?;,:/\^¨€{}&lt;&gt;«»`|+.- #'</span>),  <span class="php-quote">'2aaaaaaaaaaaaoooooooooooooeeeeeeeecciiiiiiiiuuuuuuuuynn    --      c  ---    e         --- '</span>));
+</span><span id="208" class="l">        <span class="php-var">$url</span> = TextHelper::<span class="php-keyword2">strtolower</span>(<span class="php-keyword2">strtr</span>(<span class="php-var">$url</span>, <span class="php-keyword2">utf8_decode</span>(<span class="php-quote">'²ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöø°ÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ()[]\'&quot;~$&amp;%*@ç!?;,:/\^¨€{}&lt;&gt;«»`|+.= #'</span>),  <span class="php-quote">'2aaaaaaaaaaaaoooooooooooooeeeeeeeecciiiiiiiiuuuuuuuuynn    --      c  ---    e         --- '</span>));
 </span><span id="209" class="l">        <span class="php-var">$url</span> = <span class="php-keyword2">str_replace</span>(<span class="php-quote">' '</span>, <span class="php-quote">''</span>, <span class="php-var">$url</span>);
 </span><span id="210" class="l">        <span class="php-var">$url</span> = <span class="php-keyword2">str_replace</span>(<span class="php-quote">'---'</span>, <span class="php-quote">'-'</span>, <span class="php-var">$url</span>);
 </span><span id="211" class="l">        <span class="php-var">$url</span> = <span class="php-keyword2">str_replace</span>(<span class="php-quote">'--'</span>, <span class="php-quote">'-'</span>, <span class="php-var">$url</span>);

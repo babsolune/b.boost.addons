@@ -702,7 +702,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 09 18
+							PHPBoost 5.2 - last update: 2019 01 22
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>

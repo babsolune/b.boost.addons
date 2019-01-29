@@ -1309,7 +1309,7 @@
 </span></span><span id="12" class="l"><span class="php-comment"> * @contributor mipel &lt;mipel@phpboost.com&gt;
 </span></span><span id="13" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="14" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
-</span></span><span id="15" class="l"><span class="php-comment"> * @contributor xela &lt;xela@phpboost.com&gt;
+</span></span><span id="15" class="l"><span class="php-comment">  * @contributor xela &lt;xela@phpboost.com&gt;
 </span></span><span id="16" class="l"><span class="php-comment">*/</span>
 </span><span id="17" class="l">
 </span><span id="18" class="l"><span class="php-keyword1">class</span> BBCodeHighlighter <span class="php-keyword1">extends</span> AbstractParser
