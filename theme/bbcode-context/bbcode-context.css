@@ -1,0 +1,19 @@
+@media (min-width: 769px) {
+	.bbcode-bar {
+		position: fixed !important;
+		width: 300px !important;
+		border-width: 1px !important;
+		z-index: 300;
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+		transition: all 0.3s;
+	}
+
+	.bbcode-active {
+		opacity: 1;
+		visibility: visible;
+		pointer-events: all;
+		transition: all 0.3s;
+	}
+}
