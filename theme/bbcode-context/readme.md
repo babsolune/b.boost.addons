@@ -22,4 +22,6 @@ add the 3 files in theme folder
 
 + link bbcode-context.css in @import.css  
 + link both js files in one line in frame.tpl after # INCLUDE JS_BOTTOM #  
-```<script src="{PATH_TO_ROOT}/templates/{THEME}/path-to/bbcode-context# IF C_CSS_CACHE_ENABLED #.min# ENDIF #.js"></script>```  
+```
+<script src="{PATH_TO_ROOT}/templates/{THEME}/path-to/bbcode-context# IF C_CSS_CACHE_ENABLED #.min# ENDIF #.js"></script>
+```  
