@@ -9,8 +9,8 @@ modifer la font avant de télécharger :
 => Onglet Preferences
 - nom des icones
 - nom de la font = icoboost
-- nom du prefix = fa-ipbt- (fa pour être compatible avec le bbcode, ipbt pour éviter les conflits avec des nom d'icone déjà existants dans FA)
-- nom de la class selector .ipbt (font/generate/preferences/css selector/Use a class)
+- nom du prefix = fa-iboost- (fa pour être compatible avec le bbcode, iboost pour éviter les conflits avec des nom d'icone déjà existants dans FA)
+- nom de la class selector .iboost (font/generate/preferences/css selector/Use a class)
 
 # Download
 et beh daounlode quoi :p
@@ -20,7 +20,7 @@ Pour ajouter un icône, il faut impérativement repasser par l'appli icomoon pou
 
 # Intégration dans phpboost
 Extraire de l'archive téléchargée le dossier fonts et son contenu + le fichier style.css
-Renommer le style.css en ipbt.css et l'éditer
+Renommer le style.css en icoboost.css et l'éditer
 
 ajouter le stack du logo pbt
 
@@ -29,19 +29,19 @@ ajouter le stack du logo pbt
     height: 3em;
 }
 
-.fa-stack .fa-ipbt-logo-part1 {
+.fa-stack .fa-iboost-logo-01 {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.fa-stack .fa-ipbt-logo-part2 {
+.fa-stack .fa-iboost-logo-02 {
     position: absolute;
     top: 0.17em;
     left: 0.65em;
 }
 
-.fa-stack .fa-ipbt-logo-part3 {
+.fa-stack .fa-iboost-logo-03 {
     position: absolute;
     top: 0.57em;
     left: 0;
@@ -49,23 +49,23 @@ ajouter le stack du logo pbt
 
 ajouter le forçage de couleur pour les tags
 
-.color-tag.fa-ipbt-tag-51 { color: #366493; }
-.color-tag.fa-ipbt-tag-52 { color: #16a086; }
-.color-tag.fa-ipbt-tag-53 { color: #ffc21c; }
-.color-tag.fa-ipbt-tag-54 { color: #e3a127; }
-.color-tag.fa-ipbt-tag-55 { color: #e45126; }
-.color-tag.fa-ipbt-tag-56 { color: #134f61; }
-.color-tag.fa-ipbt-tag-57 { color: #0b72b7; }
-.color-tag.fa-ipbt-tag-58 { color: #8693bd; }
+.color-tag.fa-iboost-tag-51 { color: #366493; }
+.color-tag.fa-iboost-tag-52 { color: #16a086; }
+.color-tag.fa-iboost-tag-53 { color: #ffc21c; }
+.color-tag.fa-iboost-tag-54 { color: #e3a127; }
+.color-tag.fa-iboost-tag-55 { color: #e45126; }
+.color-tag.fa-iboost-tag-56 { color: #134f61; }
+.color-tag.fa-iboost-tag-57 { color: #0b72b7; }
+.color-tag.fa-iboost-tag-58 { color: #8693bd; }
 
-copier le dossier fonts et le fichier ipbt.css dans le dossier theme du thème
-modifier le frame.tpl pour ajouter l'appel de ipbt.css
+copier le dossier fonts et le fichier icoboost.css dans le dossier theme du thème
+modifier le frame.tpl pour ajouter l'appel de icoboost.css
 
 # Alias
 pour ajouter un alias (même logo avec un nom différent), il suffit d'uploader 2 fois le logo avec des noms différents lors de l'ajout dans l'appli icomoon
 
 # Crédits
-Ajouter un docblock avec crédit pour icomoon dans l'entête du ipbt.css
+Ajouter un docblock avec crédit pour icomoon dans l'entête du icoboost.css
 
 /**
  * @copyright 	&copy; 2005-2019 Icomoon - PHPBoost
@@ -79,15 +79,15 @@ Ajouter un docblock avec crédit pour icomoon dans l'entête du ipbt.css
 */
 
 Code unix et nom des icones PBT
-e000 phpboost, pbt,
-e001 logo-part1
-e002 logo-part2
-e003 logo-part3
-e051 tag-51
-e052 tag-52
-e053 tag-53
-e054 tag-54
-e055 tag-55
-e056 tag-56
-e057 tag-57
-e058 tag-58
+e000 iboost-logo,
+e001 iboost-logo-01
+e002 iboost-logo-02
+e003 iboost-logo-03
+e051 iboost-tag-51
+e052 iboost-tag-52
+e053 iboost-tag-53
+e054 iboost-tag-54
+e055 iboost-tag-55
+e056 iboost-tag-56
+e057 iboost-tag-57
+e058 iboost-tag-58
